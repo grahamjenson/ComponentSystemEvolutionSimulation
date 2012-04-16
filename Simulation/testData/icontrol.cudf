@@ -1,0 +1,29 @@
+preamble: 
+property: installedsize: nat = [0], size: nat = [0], sourceversion: string = [""], source: string = [""], number: string, recommends: vpkgformula = [true!], replaces: vpkglist = []
+
+package: x
+version: 1
+installed: true
+installedsize: 5
+
+package: x
+version: 2
+installed: true
+installedsize: 5
+
+package: a
+version: 46776
+depends: b | c
+installedsize: 10
+
+package: b
+version: 46777
+installedsize: 13 
+
+package: c
+version: 46756
+installedsize: 12
+
+request:
+install: sad > 2
+upgrade: *

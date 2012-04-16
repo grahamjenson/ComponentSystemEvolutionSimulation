@@ -1,0 +1,28 @@
+#!/bin/bash
+
+#this will output 4 files, the solution, std_out, std_err, and a time file with the time in ms is took to execute
+#$1 = solverScript
+#$2 = problem cudf
+#$3 = output file
+#$4 = criteria
+
+curdir=`pwd`
+problem_name=`basename $3`
+output_folder=`dirname $3`
+solver_dir=`dirname $1`
+solver_name=`basename $1`
+criteria=$4
+timeout=$5
+
+cd $solver_dir
+
+time_file=$curdir/$output_folder/$problem_name.time
+solution_file=$curdir/$output_folder/$problem_name
+stdout=$curdir/$output_folder/$problem_name.out
+stderr=$curdir/$output_folder/$problem_name.err
+problem_file=$curdir/$2
+
+# timeout in milliseconds to seconds
+let "secs = $timeout / 1000" 
+/usr/bin/time -f "time: %e\nmem: %M" -o $time_file $curdir/timeout -t $secs -d 20 ./$solver_name $problem_file $solution_file $criteria $timeout 1> $stdout 2>$stderr
+

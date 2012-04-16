@@ -1,0 +1,105 @@
+
+
+#List of Installed packages
+#List of Not Installed packages
+package: a
+version: 1
+depends: c
+auth: 333333332919
+ca: 1
+ce: 4
+hubs: 333333332919
+instability: 80
+metains: 1
+metaouts: 1
+metaversion: 1
+pagerank: 144635064889
+
+package: b
+version: 1
+depends: a
+auth: 1241
+ca: 0
+ce: 1
+hubs: 1241
+instability: 100
+metains: 1
+metaouts: 1
+metaversion: 1
+pagerank: 78181116471
+
+package: c
+version: 1
+depends: d
+auth: 333333332919
+ca: 1
+ce: 2
+hubs: 333333332919
+instability: 66
+metains: 1
+metaouts: 1
+metaversion: 1
+pagerank: 108916067889
+
+package: c
+version: 2
+depends: d
+auth: 333333332919
+ca: 1
+ce: 2
+hubs: 333333332919
+instability: 66
+metains: 2
+metaouts: 2
+metaversion: 2
+pagerank: 108916067889
+
+package: c
+version: 3
+auth: 0
+ca: 1
+ce: 0
+hubs: 0
+instability: 0
+metains: 3
+metaouts: 3
+metaversion: 3
+pagerank: 108916067889
+
+package: c
+version: 4
+auth: 0
+ca: 1
+ce: 0
+hubs: 0
+instability: 0
+metains: 4
+metaouts: 3
+metaversion: 4
+pagerank: 108916067889
+
+package: d
+version: 1
+auth: 0
+ca: 2
+ce: 0
+hubs: 0
+instability: 0
+metains: 1
+metaouts: 1
+metaversion: 1
+pagerank: 170759773540
+
+package: d
+version: 2
+auth: 0
+ca: 2
+ce: 0
+hubs: 0
+instability: 0
+metains: 2
+metaouts: 1
+metaversion: 2
+pagerank: 170759773540
+
+
