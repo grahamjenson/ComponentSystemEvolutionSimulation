@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CUDF-SATSLIM-UTILS
+Bundle-SymbolicName: CUDF-UTILS
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Package: nz.geek.maori.cudf,
+ nz.geek.maori.cudf.impl,
+ nz.geek.maori.cudf.parser,
+ nz.geek.maori.cudf.util

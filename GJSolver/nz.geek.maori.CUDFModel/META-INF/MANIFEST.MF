@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: CUDFModel;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-ClassPath: .
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: nz.geek.maori.cudf,
+ nz.geek.maori.cudf.impl,
+ nz.geek.maori.cudf.parser,
+ nz.geek.maori.cudf.util
+Bundle-ActivationPolicy: lazy

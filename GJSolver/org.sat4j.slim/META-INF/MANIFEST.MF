@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Slim
+Bundle-SymbolicName: org.sat4j.slim
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Version: 1.0.0.qualifier
+Export-Package: nz.geek.maori.sat4j.constraints,
+ nz.geek.maori.sat4j.constraints.factory,
+ nz.geek.maori.sat4j.constraints.impl,
+ nz.geek.maori.sat4j.core,
+ nz.geek.maori.sat4j.core.config,
+ nz.geek.maori.sat4j.specs,
+ nz.geek.maori.sat4j.tools
