@@ -1,0 +1,59 @@
+
+
+Question 1) 
+Investigation into the update strategies that can and are employed by different users.
+
+	Question 1z)
+		What are the properties of the two extremes?
+		What are their properties, how effective is the progressives change?
+		
+	Question 1a)
+	What update strategy should a conservative or progressive user use? (hamming vs updatedistance)
+		What are the main effects this crtieria has on the evolution of the system?
+		How do current criteira strategies APT P2 compare?
+		How does UpdateDistance and uptodate compare? Should be distance.
+
+	Question 1b)
+	Should we update on or after the release date?
+		How long after the release date?
+		Differences between our progressive and conservative updates?
+	
+
+	Question 1c)
+	Can we create a criteria that only updates packages once they are "stable"?
+		How often do packages release versions?
+		how many versions for each package are released?
+	
+	
+	Question 1d)
+	What are the side effects of these strategies? --This strongly links to static analysis
+		What does a components PageRank look like over time?
+	
+		Strongly connected components?
+		PageRank?
+		Hits?
+
+	Question 1e)
+	What effect does the update cycle have?
+		Given our conservative and progressive criteria, what cycles are optimimum for results.	
+	
+
+
+Question 2)
+Investigation of the install strategies that can and are being employed by users
+
+	Question 1a)
+	THE INSTALL CRITERIA IS BY DEFAULT CONSERVATIVE!
+	What install criteria should a conservative or progressive user use?
+		Test the interaction betwee conservative and prorgessive update ideas, with installation criteria.
+	
+	Can we use graph metrics like PageRank, HITS or Instability to lower the change necessary over time?
+		The idea is that these metrics measure use in a sense measure can measure use of a component.
+
+
+Question 3)
+The individual investigations into the update and install strategies are combined to find best fits for different types of users.
+
+	Question 3a)
+		Should we update before every installation.
+
