@@ -1,0 +1,4 @@
+#!/bin/bash
+for i in *.log; do ./apt-log-parser.py $i; done
+for i in *.actionmap; do ./creategraphs.py $i; done
+

@@ -1,0 +1,353 @@
+Start-Date: 2010-12-01 11:31:47
+Upgrade: libsmbclient:amd64 (3.5.4~dfsg-1ubuntu8, 3.5.4~dfsg-1ubuntu8.1), libldap-2.4-2:amd64 (2.4.23-0ubuntu3.3, 2.4.23-0ubuntu3.4), appmenu-gtk:amd64 (0.1.9-0ubuntu4, 0.1.9-0ubuntu4.1), smbclient:amd64 (3.5.4~dfsg-1ubuntu8, 3.5.4~dfsg-1ubuntu8.1), update-inetd:amd64 (4.36, 4.36ubuntu0.1), libwbclient0:amd64 (3.5.4~dfsg-1ubuntu8, 3.5.4~dfsg-1ubuntu8.1), icedtea-6-jre-cacao:amd64 (6b20-1.9.1-1ubuntu3, 6b20-1.9.2-0ubuntu1), openjdk-6-jre-lib:amd64 (6b20-1.9.1-1ubuntu3, 6b20-1.9.2-0ubuntu1), linux-image-2.6.35-23-generic:amd64 (2.6.35-23.40, 2.6.35-23.41), openjdk-6-jre-headless:amd64 (6b20-1.9.1-1ubuntu3, 6b20-1.9.2-0ubuntu1), samba-common:amd64 (3.5.4~dfsg-1ubuntu8, 3.5.4~dfsg-1ubuntu8.1), linux-headers-2.6.35-23-generic:amd64 (2.6.35-23.40, 2.6.35-23.41), linux-headers-2.6.35-23:amd64 (2.6.35-23.40, 2.6.35-23.41), libutouch-grail1:amd64 (1.0.15-0ubuntu1, 1.0.16-0ubuntu1), linux-libc-dev:amd64 (2.6.35-1023.40, 2.6.35-1023.41), samba-common-bin:amd64 (3.5.4~dfsg-1ubuntu8, 3.5.4~dfsg-1ubuntu8.1), winbind:amd64 (3.5.4~dfsg-1ubuntu8, 3.5.4~dfsg-1ubuntu8.1), openjdk-6-jdk:amd64 (6b20-1.9.1-1ubuntu3, 6b20-1.9.2-0ubuntu1), openjdk-6-jre:amd64 (6b20-1.9.1-1ubuntu3, 6b20-1.9.2-0ubuntu1), icedtea6-plugin:amd64 (6b20-1.9.1-1ubuntu3, 6b20-1.9.2-0ubuntu1)
+End-Date: 2010-12-01 11:34:15
+
+Start-Date: 2010-12-01 12:55:59
+Commandline: apt-get remove gnome-do
+Remove: gnome-do:amd64 (0.8.3.1+dfsg-2ubuntu1), gnome-do-plugins:amd64 (0.8.2.1+dfsg-2ubuntu1)
+End-Date: 2010-12-01 12:56:13
+
+Start-Date: 2010-12-01 12:56:26
+Commandline: apt-get install synapse
+Install: libgtkhotkey1:amd64 (0.2.1-2, automatic), synapse:amd64 (0.2.1~bzr195~maverick1)
+End-Date: 2010-12-01 12:56:34
+
+Start-Date: 2010-12-01 13:00:46
+Commandline: apt-get install guake
+Install: guake:amd64 (0.4.2-2ubuntu1)
+End-Date: 2010-12-01 13:00:59
+
+Start-Date: 2010-12-02 10:12:55
+Commandline: apt-get install --reinstall ubuntu-desktop
+End-Date: 2010-12-02 10:13:01
+
+Start-Date: 2010-12-02 10:43:47
+Upgrade: bind9-host:amd64 (9.7.1.dfsg.P2-2, 9.7.1.dfsg.P2-2ubuntu0.1), dnsutils:amd64 (9.7.1.dfsg.P2-2, 9.7.1.dfsg.P2-2ubuntu0.1), libdns66:amd64 (9.7.1.dfsg.P2-2, 9.7.1.dfsg.P2-2ubuntu0.1), libisccc60:amd64 (9.7.1.dfsg.P2-2, 9.7.1.dfsg.P2-2ubuntu0.1), liblwres60:amd64 (9.7.1.dfsg.P2-2, 9.7.1.dfsg.P2-2ubuntu0.1), libbind9-60:amd64 (9.7.1.dfsg.P2-2, 9.7.1.dfsg.P2-2ubuntu0.1), libisccfg60:amd64 (9.7.1.dfsg.P2-2, 9.7.1.dfsg.P2-2ubuntu0.1), libisc60:amd64 (9.7.1.dfsg.P2-2, 9.7.1.dfsg.P2-2ubuntu0.1), synapse:amd64 (0.2.1~bzr195~maverick1, 0.2.1~bzr198~maverick1)
+End-Date: 2010-12-02 10:44:21
+
+Start-Date: 2010-12-06 10:55:00
+Commandline: apt-get install --reinstall ubuntu-desktop
+End-Date: 2010-12-06 10:55:06
+
+Start-Date: 2010-12-07 16:12:57
+Install: python-numpy:amd64 (1.3.0-3build1, automatic), python-reportlab:amd64 (2.4-3, automatic), libmagick++3:amd64 (6.6.2.6-1ubuntu1, automatic), python-uniconvertor:amd64 (1.1.4-1build1, automatic), python-lxml:amd64 (2.2.6-1, automatic), liblapack3gf:amd64 (3.2.1-8, automatic), python-renderpm:amd64 (2.4-3, automatic), libwmf-bin:amd64 (0.2.8.4-7ubuntu2, automatic), libblas3gf:amd64 (1.2-7, automatic), libgfortran3:amd64 (4.5.1-7ubuntu2, automatic), perlmagick:amd64 (6.6.2.6-1ubuntu1, automatic), inkscape:amd64 (0.48.0-1ubuntu1), python-reportlab-accel:amd64 (2.4-3, automatic)
+End-Date: 2010-12-07 16:13:54
+
+Start-Date: 2010-12-08 10:14:39
+Commandline: apt-get install --reinstall ubuntu-desktop
+End-Date: 2010-12-08 10:14:45
+
+Start-Date: 2010-12-08 15:01:05
+Commandline: apt-get install --reinstall ubuntu-desktop
+End-Date: 2010-12-08 15:01:12
+
+Start-Date: 2010-12-08 15:04:29
+Upgrade: tomboy:amd64 (1.4.0-0ubuntu2, 1.4.2-0ubuntu1), libmagickcore3:amd64 (6.6.2.6-1ubuntu1, 6.6.2.6-1ubuntu1.1), chromium-browser:amd64 (7.0.517.44~r64615-0ubuntu0.10.10.1, 8.0.552.215~r67652-0ubuntu0.10.10.1), libibus2:amd64 (1.3.7-1ubuntu3, 1.3.7-1ubuntu4), telepathy-haze:amd64 (0.4.0-1, 0.4.0-1ubuntu0.1), ibus-gtk:amd64 (1.3.7-1ubuntu3, 1.3.7-1ubuntu4), libgexiv2-0:amd64 (0.2.0-0ubuntu2, 0.2.0-0ubuntu2.1), libmagickwand3:amd64 (6.6.2.6-1ubuntu1, 6.6.2.6-1ubuntu1.1), python-dockmanager:amd64 (0.1.0~bzr70-0ubuntu1~10.10~dockers1, 0.1.0~bzr76-0ubuntu1~10.10~dockers1), libmagick++3:amd64 (6.6.2.6-1ubuntu1, 6.6.2.6-1ubuntu1.1), libzeitgeist-1.0-0:amd64 (0.2.10-0ubuntu1, 0.2.14-0ubuntu1~ppa1~maverick), libssl-dev:amd64 (0.9.8o-1ubuntu4.2, 0.9.8o-1ubuntu4.3), xdg-utils:amd64 (1.0.2+cvs20100307-1, 1.0.2+cvs20100307-1ubuntu0.1), gwibber-service:amd64 (2.32.2-0ubuntu1, 2.32.2-0ubuntu2), dockmanager:amd64 (0.1.0~bzr70-0ubuntu1~10.10~dockers1, 0.1.0~bzr76-0ubuntu1~10.10~dockers1), ibus:amd64 (1.3.7-1ubuntu3, 1.3.7-1ubuntu4), libssl0.9.8:amd64 (0.9.8o-1ubuntu4.2, 0.9.8o-1ubuntu4.3), docky-dbg:amd64 (2.1.0~bzr1659-0ubuntu1~10.10~dockycore1, 2.1.0~bzr1709-0ubuntu1~10.10~dockycore1), ttf-mscorefonts-installer:amd64 (3.2, 3.2ubuntu2), imagemagick:amd64 (6.6.2.6-1ubuntu1, 6.6.2.6-1ubuntu1.1), openssl:amd64 (0.9.8o-1ubuntu4.2, 0.9.8o-1ubuntu4.3), chromium-browser-inspector:amd64 (7.0.517.44~r64615-0ubuntu0.10.10.1, 8.0.552.215~r67652-0ubuntu0.10.10.1), libmagickcore3-extra:amd64 (6.6.2.6-1ubuntu1, 6.6.2.6-1ubuntu1.1), gwibber:amd64 (2.32.2-0ubuntu1, 2.32.2-0ubuntu2), perlmagick:amd64 (6.6.2.6-1ubuntu1, 6.6.2.6-1ubuntu1.1), python-ibus:amd64 (1.3.7-1ubuntu3, 1.3.7-1ubuntu4), docky:amd64 (2.1.0~bzr1659-0ubuntu1~10.10~dockycore1, 2.1.0~bzr1709-0ubuntu1~10.10~dockycore1), synapse:amd64 (0.2.1~bzr198~maverick1, 0.2.1~bzr242~maverick1)
+End-Date: 2010-12-08 15:06:11
+
+Start-Date: 2010-12-08 17:51:15
+Install: libgsf-1-common:amd64 (1.14.18-1ubuntu1, automatic), libgoffice-0.8-8-common:amd64 (0.8.8-1, automatic), libgoffice-0.8-8:amd64 (0.8.8-1, automatic), libgsf-1-114:amd64 (1.14.18-1ubuntu1, automatic), gnumeric-common:amd64 (1.10.8-1ubuntu1, automatic), gnumeric:amd64 (1.10.8-1ubuntu1), gnumeric-doc:amd64 (1.10.8-1ubuntu1, automatic)
+End-Date: 2010-12-08 17:51:47
+
+Start-Date: 2010-12-09 11:03:32
+Commandline: apt-get install python-gconf python-gnome2 python-pygame python-gobject python-gtk2 python-notify
+Install: libsdl-ttf2.0-0:amd64 (2.0.9-1build1, automatic), python-pygame:amd64 (1.9.1release-0ubuntu1), libsdl-mixer1.2:amd64 (1.2.8-6build1, automatic), libportmidi0:amd64 (200-0ubuntu1, automatic), libsdl-image1.2:amd64 (1.2.10-2, automatic), libmikmod2:amd64 (3.1.11-a-6.3, automatic), libsmpeg0:amd64 (0.4.5+cvs20030824-2.2, automatic)
+End-Date: 2010-12-09 11:03:49
+
+Start-Date: 2010-12-09 12:48:31
+Commandline: apt-get install cakephp-scripts
+Install: cakephp:amd64 (1.3.2-1, automatic), cakephp-scripts:amd64 (1.3.2-1)
+End-Date: 2010-12-09 12:48:38
+
+Start-Date: 2010-12-09 18:13:49
+Install: libgnustep-base1.19:amd64 (1.19.3-3ubuntu1, automatic), libaudiofile-dev:amd64 (0.2.6-8ubuntu1, automatic), libgnustep-gui-dev:amd64 (0.16.0-2build1, automatic), gnustep-back-common:amd64 (0.16.0-3, automatic), gnustep-gui-runtime:amd64 (0.16.0-2build1, automatic), libtiff4-dev:amd64 (3.9.4-2, automatic), gnustep-gpbs:amd64 (0.16.0-3, automatic), gorm.app:amd64 (1.2.10-1, automatic), libtiffxx0c2:amd64 (3.9.4-2, automatic), gnustep-gui-common:amd64 (0.16.0-2build1, automatic), libaspell-dev:amd64 (0.60.6-4ubuntu1, automatic), libgif-dev:amd64 (4.1.6-9, automatic), gnustep-base-common:amd64 (1.19.3-3ubuntu1, automatic), projectmanager.app:amd64 (0.2-4), gnustep-common:amd64 (2.4.0-3, automatic), gnustep-make:amd64 (2.4.0-3, automatic), gnustep-base-runtime:amd64 (1.19.3-3ubuntu1, automatic), projectcenter.app:amd64 (0.5.3~20100601-2, automatic), libgnustep-gui0.16:amd64 (0.16.0-2build1, automatic), libgnustep-base-dev:amd64 (1.19.3-3ubuntu1, automatic), gobjc-4.4:amd64 (4.4.4-14ubuntu5, automatic), gnustep-back0.16:amd64 (0.16.0-3, automatic), gobjc:amd64 (4.4.4-1ubuntu2, automatic), libavahi-compat-libdnssd1:amd64 (0.6.27-2ubuntu3, automatic), libobjc2:amd64 (4.5.1-7ubuntu2, automatic), gnustep-back0.16-art:amd64 (0.16.0-3, automatic), libjpeg62-dev:amd64 (6b-16.1, automatic), libaudiofile0:amd64 (0.2.6-8ubuntu1, automatic), libpng12-dev:amd64 (1.2.44-1, automatic)
+End-Date: 2010-12-09 18:14:45
+
+Start-Date: 2010-12-09 18:18:24
+Commandline: /usr/sbin/synaptic
+Install: ruby1.8:amd64 (1.8.7.299-2, automatic), libgemplugin-ruby:amd64 (0.2.3-2), ruby:amd64 (4.5, automatic), rubygems1.8:amd64 (1.3.7-2, automatic), libgemplugin-ruby1.8:amd64 (0.2.3-2, automatic)
+End-Date: 2010-12-09 18:18:33
+
+Start-Date: 2010-12-10 10:12:07
+Commandline: apt-get install --reinstall ubuntu-desktop
+End-Date: 2010-12-10 10:12:18
+
+Start-Date: 2010-12-10 10:18:51
+Install: gphpedit:amd64 (0.9.97+20100226-1)
+End-Date: 2010-12-10 10:19:12
+
+Start-Date: 2010-12-10 10:21:59
+Install: uex:amd64 (1.2.0.12-1maverick1), libboost-regex1.42.0:amd64 (1.42.0-3ubuntu1, automatic)
+End-Date: 2010-12-10 10:22:10
+
+Start-Date: 2010-12-14 10:06:31
+Commandline: apt-get install --reinstall ubuntu-desktop
+End-Date: 2010-12-14 10:06:38
+
+Start-Date: 2010-12-14 10:08:10
+Commandline: apt-get install --reinstall ubuntu-desktop
+End-Date: 2010-12-14 10:08:17
+
+Start-Date: 2010-12-14 13:29:21
+Commandline: apt-get install dockbarx dockbarx-themes-extra
+Install: libkeybinder0:amd64 (0.2.2-2, automatic), dockbarx-themes-extra:amd64 (1.1~ppa3), python-keybinder:amd64 (0.2.2-2, automatic), dockbarx:amd64 (0.41-0~ppa0)
+End-Date: 2010-12-14 13:29:46
+
+Start-Date: 2010-12-14 13:38:49
+Commandline: apt-get install gtk2-engines-equinox
+Install: gtk2-engines-equinox:amd64 (1.20-0ubuntu1)
+End-Date: 2010-12-14 13:38:52
+
+Start-Date: 2010-12-15 10:18:52
+Upgrade: libkrb5-3:amd64 (1.8.1+dfsg-5ubuntu0.1, 1.8.1+dfsg-5ubuntu0.2), libk5crypto3:amd64 (1.8.1+dfsg-5ubuntu0.1, 1.8.1+dfsg-5ubuntu0.2), libc-bin:amd64 (2.12.1-0ubuntu9, 2.12.1-0ubuntu10), ubuntu-docs:amd64 (10.10.3, 10.10.4), python-ubuntuone-client:amd64 (1.4.4.1-0ubuntu1, 1.4.5-0ubuntu1), ubuntuone-client:amd64 (1.4.4.1-0ubuntu1, 1.4.5-0ubuntu1), empathy-common:amd64 (2.32.0.1-0ubuntu1, 2.32.1-0ubuntu1), icedtea-6-jre-cacao:amd64 (6b20-1.9.2-0ubuntu1, 6b20-1.9.2-0ubuntu2), empathy:amd64 (2.32.0.1-0ubuntu1, 2.32.1-0ubuntu1), software-center:amd64 (3.0.5, 3.0.7), openjdk-6-jre-lib:amd64 (6b20-1.9.2-0ubuntu1, 6b20-1.9.2-0ubuntu2), firefox-branding:amd64 (3.6.12+build1+nobinonly-0ubuntu0.10.10.1, 3.6.13+build3+nobinonly-0ubuntu0.10.10.1), zeitgeist:amd64 (0.5.2-0ubuntu1, 0.6-0ubuntu1~0ppa1~maverick), libc6-i386:amd64 (2.12.1-0ubuntu9, 2.12.1-0ubuntu10), openjdk-6-jre-headless:amd64 (6b20-1.9.2-0ubuntu1, 6b20-1.9.2-0ubuntu2), firefox:amd64 (3.6.12+build1+nobinonly-0ubuntu0.10.10.1, 3.6.13+build3+nobinonly-0ubuntu0.10.10.1), libkrb5support0:amd64 (1.8.1+dfsg-5ubuntu0.1, 1.8.1+dfsg-5ubuntu0.2), libsyncdaemon-1.0-1:amd64 (1.4.4.1-0ubuntu1, 1.4.5-0ubuntu1), xulrunner-1.9.2:amd64 (1.9.2.12+build1+nobinonly-0ubuntu0.10.10.1, 1.9.2.13+build3+nobinonly-0ubuntu0.10.10.1), zeitgeist-core:amd64 (0.5.2-0ubuntu1, 0.6-0ubuntu1~0ppa1~maverick), libc6-dev:amd64 (2.12.1-0ubuntu9, 2.12.1-0ubuntu10), ubuntuone-client-gnome:amd64 (1.4.4.1-0ubuntu1, 1.4.5-0ubuntu1), libgssapi-krb5-2:amd64 (1.8.1+dfsg-5ubuntu0.1, 1.8.1+dfsg-5ubuntu0.2), libc-dev-bin:amd64 (2.12.1-0ubuntu9, 2.12.1-0ubuntu10), openjdk-6-jdk:amd64 (6b20-1.9.2-0ubuntu1, 6b20-1.9.2-0ubuntu2), libc6:amd64 (2.12.1-0ubuntu9, 2.12.1-0ubuntu10), openjdk-6-jre:amd64 (6b20-1.9.2-0ubuntu1, 6b20-1.9.2-0ubuntu2), icedtea6-plugin:amd64 (6b20-1.9.2-0ubuntu1, 6b20-1.9.2-0ubuntu2), synapse:amd64 (0.2.1~bzr242~maverick1, 0.2.2~bzr315~maverick1), firefox-gnome-support:amd64 (3.6.12+build1+nobinonly-0ubuntu0.10.10.1, 3.6.13+build3+nobinonly-0ubuntu0.10.10.1), nautilus-sendto-empathy:amd64 (2.32.0.1-0ubuntu1, 2.32.1-0ubuntu1)
+End-Date: 2010-12-15 10:21:29
+
+Start-Date: 2010-12-15 19:23:01
+Commandline: apt-get install mercurial
+Install: mercurial:amd64 (1.6.3-1), mercurial-common:amd64 (1.6.3-1, automatic)
+End-Date: 2010-12-15 19:23:18
+
+Start-Date: 2010-12-16 13:02:34
+Install: libqt4-network:amd64 (4.7.0-0ubuntu4.2, automatic), libqt4-dbus:amd64 (4.7.0-0ubuntu4.2, automatic), libqt4-opengl:amd64 (4.7.0-0ubuntu4.2, automatic), virtualbox-ose-dkms:amd64 (3.2.8-dfsg-2ubuntu1, automatic), virtualbox-ose-qt:amd64 (3.2.8-dfsg-2ubuntu1), libqtcore4:amd64 (4.7.0-0ubuntu4.2, automatic), virtualbox-ose:amd64 (3.2.8-dfsg-2ubuntu1, automatic), libvncserver0:amd64 (0.9.7-2, automatic), libqt4-xml:amd64 (4.7.0-0ubuntu4.2, automatic), libqtgui4:amd64 (4.7.0-0ubuntu4.2, automatic), libaudio2:amd64 (1.9.2-3, automatic)
+End-Date: 2010-12-16 13:04:17
+
+Start-Date: 2010-12-16 13:26:28
+Commandline: apt-get install unrar
+Install: unrar:amd64 (3.9.10-1)
+End-Date: 2010-12-16 13:26:37
+
+Start-Date: 2010-12-17 11:42:18
+Upgrade: python-minimal:amd64 (2.6.6-2ubuntu1, 2.6.6-2ubuntu2), chromium-browser:amd64 (8.0.552.215~r67652-0ubuntu0.10.10.1, 8.0.552.224~r68599-0ubuntu0.10.10.1), python:amd64 (2.6.6-2ubuntu1, 2.6.6-2ubuntu2), chromium-browser-inspector:amd64 (8.0.552.215~r67652-0ubuntu0.10.10.1, 8.0.552.224~r68599-0ubuntu0.10.10.1), synapse:amd64 (0.2.2~bzr315~maverick1, 0.2.2~bzr318~maverick1)
+End-Date: 2010-12-17 11:42:51
+
+Start-Date: 2010-12-22 10:19:58
+Commandline: apt-get install --reinstall ubuntu-desktop
+End-Date: 2010-12-22 10:20:04
+
+Start-Date: 2010-12-22 10:23:24
+Commandline: apt-get remove --purge alsa-base
+Purge: ubuntu-desktop:amd64 (1.207), alsa-base:amd64 (1.0.23+dfsg-1ubuntu4)
+End-Date: 2010-12-22 10:23:40
+
+Start-Date: 2010-12-22 10:24:00
+Commandline: apt-get remove --purge pulseaudio
+Purge: libcanberra-pulse:amd64 (0.25-0ubuntu1), pulseaudio-module-bluetooth:amd64 (0.9.22~0.9.21+stable-queue-32-g8478-0ubuntu21.1), pulseaudio:amd64 (0.9.22~0.9.21+stable-queue-32-g8478-0ubuntu21.1), pulseaudio-module-x11:amd64 (0.9.22~0.9.21+stable-queue-32-g8478-0ubuntu21.1), pulseaudio-module-gconf:amd64 (0.9.22~0.9.21+stable-queue-32-g8478-0ubuntu21.1), indicator-sound:amd64 (0.5.0.1-0ubuntu1), pulseaudio-esound-compat:amd64 (0.9.22~0.9.21+stable-queue-32-g8478-0ubuntu21.1)
+End-Date: 2010-12-22 10:24:13
+
+Start-Date: 2010-12-22 10:24:38
+Commandline: apt-get install ubuntu-desktop alsa-base
+Install: ubuntu-desktop:amd64 (1.207), pulseaudio-module-bluetooth:amd64 (0.9.22~0.9.21+stable-queue-32-g8478-0ubuntu21.1), pulseaudio:amd64 (0.9.22~0.9.21+stable-queue-32-g8478-0ubuntu21.1), pulseaudio-module-x11:amd64 (0.9.22~0.9.21+stable-queue-32-g8478-0ubuntu21.1, automatic), pulseaudio-module-gconf:amd64 (0.9.22~0.9.21+stable-queue-32-g8478-0ubuntu21.1), pulseaudio-esound-compat:amd64 (0.9.22~0.9.21+stable-queue-32-g8478-0ubuntu21.1, automatic), alsa-base:amd64 (1.0.23+dfsg-1ubuntu4)
+End-Date: 2010-12-22 10:25:01
+
+Start-Date: 2010-12-22 10:25:37
+Commandline: apt-get autoremove
+Remove: libnunit2.4-cil:amd64 (2.4.7+dfsg-5), libmono-system-runtime2.0-cil:amd64 (2.6.7-3ubuntu1), libflickrnet2.2-cil:amd64 (2.2.0-3), libgdata1.4-cil:amd64 (1.4.0.2-3)
+End-Date: 2010-12-22 10:25:43
+
+
+
+Start-Date: 2010-11-08 12:32:03
+Install: openoffice.org-l10n-en-gb:amd64 (3.2.1-6ubuntu1, automatic), openoffice.org-l10n-en-za:amd64 (3.2.1-6ubuntu1), openoffice.org-help-en-gb:amd64 (3.2.1-6ubuntu1), gnome-user-guide-en:amd64 (2.30.0+git20100403ubuntu2), openoffice.org-hyphenation-en-us:amd64 (2.5-1ubuntu1), openoffice.org-l10n-common:amd64 (3.2.1-6ubuntu1, automatic), openoffice.org-thesaurus-en-au:amd64 (2.1-5), openoffice.org-thesaurus-en-us:amd64 (3.2.1-2ubuntu1), openoffice.org-hyphenation:amd64 (0.6)
+End-Date: 2010-11-08 12:32:18
+
+Start-Date: 2010-11-08 12:33:06
+End-Date: 2010-11-08 12:33:06
+
+Start-Date: 2010-11-08 12:34:20
+Install: lib32bz2-1.0:amd64 (1.0.5-4ubuntu1, automatic), libts-0.0-0:amd64 (1.0-7build1, automatic), libswscale0:amd64 (0.6-2ubuntu6, automatic), libmodplug1:amd64 (0.8.8.1-1ubuntu1, automatic), libtwolame0:amd64 (0.3.12-1, automatic), libaccess-bridge-java:amd64 (1.26.2-5, automatic), libzbar0:amd64 (0.10+doc-3build1, automatic), libavutil50:amd64 (0.6-2ubuntu6, automatic), libflite1:amd64 (1.4-release-2, automatic), ttf-dejavu-extra:amd64 (2.31-1, automatic), gstreamer0.10-plugins-bad:amd64 (0.10.20-1ubuntu1), lib32ncurses5:amd64 (5.7+20100626-0ubuntu1, automatic), nspluginwrapper:amd64 (1.2.2-0ubuntu7, automatic), gstreamer0.10-plugins-ugly:amd64 (0.10.16-1), gstreamer0.10-fluendo-mp3:amd64 (0.10.14.debian-1), ia32-libs:amd64 (20090808ubuntu9, automatic), libdca0:amd64 (0.0.5-3, automatic), java-common:amd64 (0.38, automatic), icedtea-6-jre-cacao:amd64 (6b20-1.9.1-1ubuntu3, automatic), libfftw3-3:amd64 (3.2.2-1, automatic), libass4:amd64 (0.9.9-1fakesync1, automatic), ubuntu-restricted-addons:amd64 (4), openjdk-6-jre-lib:amd64 (6b20-1.9.1-1ubuntu3, automatic), libavcodec52:amd64 (0.6-2ubuntu6, automatic), libc6-i386:amd64 (2.12.1-0ubuntu8, automatic), lib32gcc1:amd64 (4.5.1-7ubuntu2, automatic), libdirectfb-1.2-9:amd64 (1.2.10.0-4ubuntu2, automatic), openjdk-6-jre-headless:amd64 (6b20-1.9.1-1ubuntu3, automatic), lib32asound2:amd64 (1.0.23-1ubuntu2.1, automatic), libaccess-bridge-java-jni:amd64 (1.26.2-5, automatic), gstreamer0.10-ffmpeg:amd64 (0.10.11-1), libenca0:amd64 (1.13-2, automatic), libgif4:amd64 (4.1.6-9, automatic), libvpx0:amd64 (0.9.2-1build1, automatic), tzdata-java:amd64 (2010m-0ubuntu0.10.10, automatic), libgme0:amd64 (0.5.5-2, automatic), freepats:amd64 (20060219-1, automatic), libiptcdata0:amd64 (1.0.4-1, automatic), liba52-0.7.4:amd64 (0.7.4-14ubuntu1, automatic), libpostproc51:amd64 (0.6-2ubuntu6, automatic), flashplugin-installer:amd64 (10.1.102.64ubuntu0.10.10.1), libwildmidi0:amd64 (0.2.2-3, automatic), libgsm1:amd64 (1.0.13-3, automatic), libdvdnav4:amd64 (4.1.3-7, automatic), libdvdread4:amd64 (4.1.3-10ubuntu2, automatic), libschroedinger-1.0-0:amd64 (1.0.9.really-1build1, automatic), libavformat52:amd64 (0.6-2ubuntu6, automatic), libdc1394-22:amd64 (2.1.2-3, automatic), libkate1:amd64 (0.3.7-3, automatic), libcdaudio1:amd64 (0.99.12p2-9, automatic), libmimic0:amd64 (1.0.4-2build1, automatic), libsidplay1:amd64 (1.36.59-5, automatic), tsconf:amd64 (1.0-7build1, automatic), libsoundtouch1c2:amd64 (1.3.1-2, automatic), libmad0:amd64 (0.15.1b-4ubuntu2, automatic), libid3tag0:amd64 (0.15.1b-10build2, automatic), ca-certificates-java:amd64 (20100412, automatic), libopencore-amrnb0:amd64 (0.1.2-1, automatic), lib32z1:amd64 (1.2.3.4.dfsg-3ubuntu1, automatic), libva1:amd64 (1.0.1-3, automatic), liboil0.3:amd64 (0.3.16-1ubuntu2, automatic), lib32stdc++6:amd64 (4.5.1-7ubuntu2, automatic), libcelt0-0:amd64 (0.7.1-1, automatic), libdirac-encoder0:amd64 (1.0.2-3, automatic), lib32v4l-0:amd64 (0.6.4-1ubuntu1, automatic), librtmp0:amd64 (2.3-2, automatic), openjdk-6-jre:amd64 (6b20-1.9.1-1ubuntu3, automatic), libmpcdec6:amd64 (0.1~r459-1, automatic), icedtea6-plugin:amd64 (6b20-1.9.1-1ubuntu3), libopencore-amrwb0:amd64 (0.1.2-1, automatic), libofa0:amd64 (0.9.3-3.1, automatic), libmpeg2-4:amd64 (0.4.1-3, automatic), libmms0:amd64 (0.6-1, automatic), libfaad2:amd64 (2.7-4, automatic)
+Upgrade: libc-bin:amd64 (2.12.1-0ubuntu6, 2.12.1-0ubuntu8), libasound2:amd64 (1.0.23-1ubuntu2, 1.0.23-1ubuntu2.1), libc6-dev:amd64 (2.12.1-0ubuntu6, 2.12.1-0ubuntu8), tzdata:amd64 (2010l-1, 2010m-0ubuntu0.10.10), libc-dev-bin:amd64 (2.12.1-0ubuntu6, 2.12.1-0ubuntu8), libc6:amd64 (2.12.1-0ubuntu6, 2.12.1-0ubuntu8)
+End-Date: 2010-11-08 12:37:05
+
+Start-Date: 2010-11-08 12:37:09
+Purge: casper:amd64 (1.248), libecryptfs0:amd64 (83-0ubuntu3), libdmraid1.0.0.rc16:amd64 (1.0.0.rc16-3ubuntu2), libdebconfclient0:amd64 (0.149), jfsutils:amd64 (1.1.12-2.1), language-pack-gnome-es:amd64 (10.10+20100930), ubiquity-slideshow-ubuntu:amd64 (28), gparted:amd64 (0.6.2-1ubuntu1), language-pack-gnome-pt:amd64 (10.10+20100930), language-pack-gnome-xh:amd64 (10.10+20100930), libcheese-gtk18:amd64 (2.32.0-0ubuntu1), ubiquity-frontend-gtk:amd64 (2.4.8), ubiquity:amd64 (2.4.8), language-pack-es-base:amd64 (10.10+20100930), ecryptfs-utils:amd64 (83-0ubuntu3), user-setup:amd64 (1.28ubuntu10), cryptsetup:amd64 (1.1.2-1ubuntu1), rdate:amd64 (1.2-4build1), xfsprogs:amd64 (3.1.2ubuntu1), language-pack-gnome-es-base:amd64 (10.10+20100930), ubiquity-ubuntu-artwork:amd64 (2.4.8), libdebian-installer4:amd64 (0.76ubuntu2), language-pack-xh-base:amd64 (10.10+20100930), btrfs-tools:amd64 (0.19+20100601-3), localechooser-data:amd64 (2.12ubuntu3), ubiquity-casper:amd64 (1.248), lupin-casper:amd64 (0.32), language-pack-gnome-xh-base:amd64 (10.10+20100930), reiserfsprogs:amd64 (3.6.21-1build1), language-pack-pt-base:amd64 (10.10+20100930), dmraid:amd64 (1.0.0.rc16-3ubuntu2), python-pyicu:amd64 (0.9-3), language-pack-es:amd64 (10.10+20100930), keyutils:amd64 (1.4-1), language-pack-pt:amd64 (10.10+20100930), language-pack-xh:amd64 (10.10+20100930), language-pack-gnome-pt-base:amd64 (10.10+20100930)
+End-Date: 2010-11-08 12:38:09
+
+Start-Date: 2010-11-08 12:38:11
+End-Date: 2010-11-08 12:38:11
+
+Start-Date: 2010-11-08 12:41:27
+Install: fakeroot:amd64 (1.14.4-1ubuntu1, automatic), nvidia-173:amd64 (173.14.28-0ubuntu1), dkms:amd64 (2.1.1.2-3ubuntu1.1, automatic), patch:amd64 (2.6-2ubuntu1, automatic), nvidia-settings:amd64 (260.19.06-0ubuntu1, automatic)
+End-Date: 2010-11-08 12:42:34
+
+Start-Date: 2010-11-08 12:46:06
+Install: nvidia-current:amd64 (260.19.06-0ubuntu1)
+End-Date: 2010-11-08 12:46:59
+
+Start-Date: 2010-11-08 12:49:06
+Commandline: apt-get dist-upgrade
+Install: cups-ppdc:amd64 (1.4.4-6ubuntu2.2, automatic)
+Upgrade: linux-image-2.6.35-22-generic:amd64 (2.6.35-22.33, 2.6.35-22.35), libpurple0:amd64 (2.7.3-1ubuntu3, 2.7.3-1ubuntu3.1), libpam0g:amd64 (1.1.1-4ubuntu1, 1.1.1-4ubuntu2), gconf2-common:amd64 (2.31.91-0ubuntu3, 2.31.91-0ubuntu3.1), libevolution:amd64 (2.30.3-1ubuntu6, 2.30.3-1ubuntu7), python-cupshelpers:amd64 (1.2.3+20100723-0ubuntu8, 1.2.3+20100723-0ubuntu8.1), gcalctool:amd64 (5.32.0-0ubuntu1, 5.32.0-0ubuntu4), libldap-2.4-2:amd64 (2.4.23-0ubuntu3, 2.4.23-0ubuntu3.2), libcupsppdc1:amd64 (1.4.4-6ubuntu2, 1.4.4-6ubuntu2.2), sysvinit-utils:amd64 (2.87dsf-4ubuntu18, 2.87dsf-4ubuntu19), libwebkit-1.0-common:amd64 (1.2.4-1ubuntu1, 1.2.5-0ubuntu0.10.10.1), libpurple-bin:amd64 (2.7.3-1ubuntu3, 2.7.3-1ubuntu3.1), libcupsimage2:amd64 (1.4.4-6ubuntu2, 1.4.4-6ubuntu2.2), gvfs-fuse:amd64 (1.6.4-0ubuntu1, 1.6.4-0ubuntu1.1), libdrm-nouveau1:amd64 (2.4.21-1ubuntu2, 2.4.21-1ubuntu2.1), libsane-hpaio:amd64 (3.10.6-1ubuntu10, 3.10.6-1ubuntu10.1), libcupscgi1:amd64 (1.4.4-6ubuntu2, 1.4.4-6ubuntu2.2), libgudev-1.0-0:amd64 (162-2, 162-2.1), system-config-printer-gnome:amd64 (1.2.3+20100723-0ubuntu8, 1.2.3+20100723-0ubuntu8.1), poppler-utils:amd64 (0.14.3-0ubuntu1, 0.14.3-0ubuntu1.1), libcupsdriver1:amd64 (1.4.4-6ubuntu2, 1.4.4-6ubuntu2.2), evolution-plugins:amd64 (2.30.3-1ubuntu6, 2.30.3-1ubuntu7), hplip-cups:amd64 (3.10.6-1ubuntu10, 3.10.6-1ubuntu10.1), pulseaudio-module-bluetooth:amd64 (0.9.22~0.9.21+stable-queue-32-g8478-0ubuntu21, 0.9.22~0.9.21+stable-queue-32-g8478-0ubuntu21.1), ubufox:amd64 (0.9~rc2-0ubuntu5, 0.9~rc2-0ubuntu5.1), pulseaudio:amd64 (0.9.22~0.9.21+stable-queue-32-g8478-0ubuntu21, 0.9.22~0.9.21+stable-queue-32-g8478-0ubuntu21.1), evolution:amd64 (2.30.3-1ubuntu6, 2.30.3-1ubuntu7), gvfs-backends:amd64 (1.6.4-0ubuntu1, 1.6.4-0ubuntu1.1), libgpod-common:amd64 (0.7.94-0ubuntu2, 0.7.95-1), libecal1.2-7:amd64 (2.30.3-2ubuntu1, 2.30.3-2ubuntu2), gdm-guest-session:amd64 (0.16, 0.17), libdrm-radeon1:amd64 (2.4.21-1ubuntu2, 2.4.21-1ubuntu2.1), gnome-settings-daemon:amd64 (2.32.0-0ubuntu2, 2.32.0-0ubuntu3), linux-headers-2.6.35-22-generic:amd64 (2.6.35-22.33, 2.6.35-22.35), empathy-common:amd64 (2.32.0-0ubuntu2, 2.32.0.1-0ubuntu1), libvte-common:amd64 (0.26.0-0ubuntu1, 0.26.0-0ubuntu2), hpijs:amd64 (3.10.6-1ubuntu10, 3.10.6-1ubuntu10.1), cups-client:amd64 (1.4.4-6ubuntu2, 1.4.4-6ubuntu2.2), evolution-exchange:amd64 (2.30.3-0ubuntu1, 2.30.3-0ubuntu2), hplip:amd64 (3.10.6-1ubuntu10, 3.10.6-1ubuntu10.1), gconf2:amd64 (2.31.91-0ubuntu3, 2.31.91-0ubuntu3.1), libgdata-google1.2-1:amd64 (2.30.3-2ubuntu1, 2.30.3-2ubuntu2), pulseaudio-module-x11:amd64 (0.9.22~0.9.21+stable-queue-32-g8478-0ubuntu21, 0.9.22~0.9.21+stable-queue-32-g8478-0ubuntu21.1), libedata-cal1.2-7:amd64 (2.30.3-2ubuntu1, 2.30.3-2ubuntu2), empathy:amd64 (2.32.0-0ubuntu2, 2.32.0.1-0ubuntu1), pulseaudio-module-gconf:amd64 (0.9.22~0.9.21+stable-queue-32-g8478-0ubuntu21, 0.9.22~0.9.21+stable-queue-32-g8478-0ubuntu21.1), evolution-common:amd64 (2.30.3-1ubuntu6, 2.30.3-1ubuntu7), software-center:amd64 (3.0.4, 3.0.5), libgpod4:amd64 (0.7.94-0ubuntu2, 0.7.95-1), libfreetype6:amd64 (2.4.2-2, 2.4.2-2ubuntu0.1), firefox-branding:amd64 (3.6.10+build1+nobinonly-0ubuntu3, 3.6.12+build1+nobinonly-0ubuntu0.10.10.1), update-manager:amd64 (0.142.19, 0.142.20), indicator-sound:amd64 (0.4.7-0ubuntu2, 0.4.9-0ubuntu1), update-manager-core:amd64 (0.142.19, 0.142.20), libgconf2-4:amd64 (2.31.91-0ubuntu3, 2.31.91-0ubuntu3.1), simple-scan:amd64 (2.32.0-0ubuntu1, 2.32.0-0ubuntu4), app-install-data-partner:amd64 (12.10.10.2, 12.10.10.3), udev:amd64 (162-2, 162-2.1), python-aptdaemon:amd64 (0.31+bzr506-0ubuntu2, 0.31+bzr506-0ubuntu4), firefox:amd64 (3.6.10+build1+nobinonly-0ubuntu3, 3.6.12+build1+nobinonly-0ubuntu0.10.10.1), libdrm2:amd64 (2.4.21-1ubuntu2, 2.4.21-1ubuntu2.1), cups-common:amd64 (1.4.4-6ubuntu2, 1.4.4-6ubuntu2.2), libpulse-browse0:amd64 (0.9.22~0.9.21+stable-queue-32-g8478-0ubuntu21, 0.9.22~0.9.21+stable-queue-32-g8478-0ubuntu21.1), libhpmud0:amd64 (3.10.6-1ubuntu10, 3.10.6-1ubuntu10.1), libcups2:amd64 (1.4.4-6ubuntu2, 1.4.4-6ubuntu2.2), libedataserverui1.2-8:amd64 (2.30.3-2ubuntu1, 2.30.3-2ubuntu2), gdb:amd64 (7.2-1ubuntu2, 7.2-1ubuntu3), pulseaudio-esound-compat:amd64 (0.9.22~0.9.21+stable-queue-32-g8478-0ubuntu21, 0.9.22~0.9.21+stable-queue-32-g8478-0ubuntu21.1), libedata-book1.2-2:amd64 (2.30.3-2ubuntu1, 2.30.3-2ubuntu2), python-vte:amd64 (0.26.0-0ubuntu1, 0.26.0-0ubuntu2), libvte9:amd64 (0.26.0-0ubuntu1, 0.26.0-0ubuntu2), alsa-utils:amd64 (1.0.23-2ubuntu3, 1.0.23-2ubuntu3.4), xulrunner-1.9.2:amd64 (1.9.2.10+build1+nobinonly-0ubuntu1, 1.9.2.12+build1+nobinonly-0ubuntu0.10.10.1), gconf-defaults-service:amd64 (2.31.91-0ubuntu3, 2.31.91-0ubuntu3.1), system-config-printer-udev:amd64 (1.2.3+20100723-0ubuntu8, 1.2.3+20100723-0ubuntu8.1), libpulse-mainloop-glib0:amd64 (0.9.22~0.9.21+stable-queue-32-g8478-0ubuntu21, 0.9.22~0.9.21+stable-queue-32-g8478-0ubuntu21.1), libegroupwise1.2-13:amd64 (2.30.3-2ubuntu1, 2.30.3-2ubuntu2), libpoppler7:amd64 (0.14.3-0ubuntu1, 0.14.3-0ubuntu1.1), compiz-gnome:amd64 (0.8.6-0ubuntu9, 0.8.6-0ubuntu9.1), libpam-modules:amd64 (1.1.1-4ubuntu1, 1.1.1-4ubuntu2), aptdaemon:amd64 (0.31+bzr506-0ubuntu2, 0.31+bzr506-0ubuntu4), libdrm-intel1:amd64 (2.4.21-1ubuntu2, 2.4.21-1ubuntu2.1), rhythmbox-ubuntuone-music-store:amd64 (0.1.8-0ubuntu1, 0.1.9-0ubuntu1), cups:amd64 (1.4.4-6ubuntu2, 1.4.4-6ubuntu2.2), libpoppler-glib5:amd64 (0.14.3-0ubuntu1, 0.14.3-0ubuntu1.1), python-aptdaemon-gtk:amd64 (0.31+bzr506-0ubuntu2, 0.31+bzr506-0ubuntu4), gwibber-service:amd64 (2.32.0.1-0ubuntu1, 2.32.0.2-0ubuntu1), linux-headers-2.6.35-22:amd64 (2.6.35-22.33, 2.6.35-22.35), xul-ext-ubufox:amd64 (0.9~rc2-0ubuntu5, 0.9~rc2-0ubuntu5.1), ubuntu-sso-client:amd64 (1.0.3-0ubuntu1, 1.0.4-0ubuntu1), compiz-plugins:amd64 (0.8.6-0ubuntu9, 0.8.6-0ubuntu9.1), cups-bsd:amd64 (1.4.4-6ubuntu2, 1.4.4-6ubuntu2.2), libpam-runtime:amd64 (1.1.1-4ubuntu1, 1.1.1-4ubuntu2), libutouch-grail1:amd64 (1.0.14-0ubuntu1, 1.0.15-0ubuntu1), libdecoration0:amd64 (0.8.6-0ubuntu9, 0.8.6-0ubuntu9.1), libudev0:amd64 (162-2, 162-2.1), libwebkit-1.0-2:amd64 (1.2.4-1ubuntu1, 1.2.5-0ubuntu0.10.10.1), jockey-common:amd64 (0.5.10-0ubuntu5, 0.5.10-0ubuntu5.1), libcamel1.2-14:amd64 (2.30.3-2ubuntu1, 2.30.3-2ubuntu2), jockey-gtk:amd64 (0.5.10-0ubuntu5, 0.5.10-0ubuntu5.1), pitivi:amd64 (0.13.5-1ubuntu2, 0.13.5-1ubuntu3), evolution-data-server-common:amd64 (2.30.3-2ubuntu1, 2.30.3-2ubuntu2), python-papyon:amd64 (0.5.1-0ubuntu1, 0.5.1-0ubuntu2), evolution-data-server:amd64 (2.30.3-2ubuntu1, 2.30.3-2ubuntu2), libgvfscommon0:amd64 (1.6.4-0ubuntu1, 1.6.4-0ubuntu1.1), libpulse0:amd64 (0.9.22~0.9.21+stable-queue-32-g8478-0ubuntu21, 0.9.22~0.9.21+stable-queue-32-g8478-0ubuntu21.1), compiz:amd64 (0.8.6-0ubuntu9, 0.8.6-0ubuntu9.1), gvfs:amd64 (1.6.4-0ubuntu1, 1.6.4-0ubuntu1.1), linux-libc-dev:amd64 (2.6.35-1022.33, 2.6.35-1022.35), system-config-printer-common:amd64 (1.2.3+20100723-0ubuntu8, 1.2.3+20100723-0ubuntu8.1), libebackend1.2-0:amd64 (2.30.3-2ubuntu1, 2.30.3-2ubuntu2), gwibber:amd64 (2.32.0.1-0ubuntu1, 2.32.0.2-0ubuntu1), sysv-rc:amd64 (2.87dsf-4ubuntu18, 2.87dsf-4ubuntu19), libcupsmime1:amd64 (1.4.4-6ubuntu2, 1.4.4-6ubuntu2.2), compiz-core:amd64 (0.8.6-0ubuntu9, 0.8.6-0ubuntu9.1), initscripts:amd64 (2.87dsf-4ubuntu18, 2.87dsf-4ubuntu19), libgdata1.2-1:amd64 (2.30.3-2ubuntu1, 2.30.3-2ubuntu2), libnss3-1d:amd64 (3.12.7-0ubuntu1, 3.12.8-0ubuntu0.10.10.1), firefox-gnome-support:amd64 (3.6.10+build1+nobinonly-0ubuntu3, 3.6.12+build1+nobinonly-0ubuntu0.10.10.1), nautilus-sendto-empathy:amd64 (2.32.0-0ubuntu2, 2.32.0.1-0ubuntu1), pulseaudio-utils:amd64 (0.9.22~0.9.21+stable-queue-32-g8478-0ubuntu21, 0.9.22~0.9.21+stable-queue-32-g8478-0ubuntu21.1), libedataserver1.2-13:amd64 (2.30.3-2ubuntu1, 2.30.3-2ubuntu2), hplip-data:amd64 (3.10.6-1ubuntu10, 3.10.6-1ubuntu10.1), libebook1.2-9:amd64 (2.30.3-2ubuntu1, 2.30.3-2ubuntu2)
+End-Date: 2010-11-08 12:55:29
+
+Start-Date: 2010-11-08 13:13:00
+Commandline: apt-get upgrade
+Upgrade: libndesk-dbus1.0-cil:amd64 (0.6.0-4, 0.6.1a+git20090427-0ubuntu1~10.10~dockycore1), libwebkit-1.0-common:amd64 (1.2.5-0ubuntu0.10.10.1, 1.2.5-2~mmwkt2), libvala-0.10-0:amd64 (0.10.0-0ubuntu3, 0.10.1-0ubuntu1ppa0maverick0), nautilus-data:amd64 (2.32.0-0ubuntu1, 2.32.0-0ubuntu6~ppa160), libwebkit-1.0-2:amd64 (1.2.5-0ubuntu0.10.10.1, 1.2.5-2~mmwkt2), libnautilus-extension1:amd64 (2.32.0-0ubuntu1, 2.32.0-0ubuntu6~ppa160)
+End-Date: 2010-11-08 13:13:26
+
+Start-Date: 2010-11-08 13:17:23
+Commandline: apt-get dist-upgrade
+Install: ne-terminal-config:amd64 (1.0~ppa0, automatic), libzeitgeist-1.0-0:amd64 (0.2.10-0ubuntu1, automatic), zeitgeist-datahub:amd64 (0.5.2-0ubuntu1, automatic), zeitgeist:amd64 (0.5.2-0ubuntu1, automatic), zeitgeist-fts-extension:amd64 (0.0.6-0ubuntu1, automatic), zeitgeist-core:amd64 (0.5.2-0ubuntu1, automatic)
+Upgrade: nautilus:amd64 (2.32.0-0ubuntu1, 2.32.0-0ubuntu6~ppa160)
+End-Date: 2010-11-08 13:17:40
+
+Start-Date: 2010-11-08 13:21:49
+Commandline: apt-get install docky elementary-icon-theme elementary-theme elementary-wallpapers gloobus-preview midori notify-osd
+Install: libmono-data-tds2.0-cil:amd64 (2.6.7-3ubuntu1, automatic), libmono-wcf3.0-cil:amd64 (2.6.7-3ubuntu1, automatic), libgio-cil:amd64 (2.22.2-2, automatic), elementary-wallpapers:amd64 (0.1.4), libmono-sqlite2.0-cil:amd64 (2.6.7-3ubuntu1, automatic), libwnck2.20-cil:amd64 (2.26.0-3, automatic), libswfdec-0.8-0:amd64 (0.8.4-1build1, automatic), elementary-icon-theme:amd64 (2.4-0ubuntu1), libicns1:amd64 (0.7.1-1, automatic), python-mutagen:amd64 (1.19-2, automatic), python-dockmanager:amd64 (0.1.0~bzr70-0ubuntu1~10.10~dockers1, automatic), libsqlite0:amd64 (2.8.17-6build2, automatic), libmono-system-messaging2.0-cil:amd64 (2.6.7-3ubuntu1, automatic), libdbus1.0-cil:amd64 (0.7.0-2~10.10~dockycore1, automatic), elementary-theme:amd64 (2.0.1~ppa183), midori:amd64 (0.2.9-1~mmwkt1), python-mpd:amd64 (0.2.1-5, automatic), libmono-messaging2.0-cil:amd64 (2.6.7-3ubuntu1, automatic), libmono-system-data2.0-cil:amd64 (2.6.7-3ubuntu1, automatic), libdbus-glib1.0-cil:amd64 (0.5.0-2~10.10~dockycore1, automatic), libmono2.0-cil:amd64 (2.6.7-3ubuntu1, automatic), libgnomedesktop2.20-cil:amd64 (2.26.0-3, automatic), libnotify0.4-cil:amd64 (0.4.0~r3032-2ubuntu1, automatic), librsvg2-2.18-cil:amd64 (2.26.0-3, automatic), dockmanager:amd64 (0.1.0~bzr70-0ubuntu1~10.10~dockers1, automatic), wwwconfig-common:amd64 (0.2.1, automatic), gtk2-engines-aurora:amd64 (1.5.1-1, automatic), gloobus-preview:amd64 (0.4.5-ubuntu10~ppa257), libmono-system-web2.0-cil:amd64 (2.6.7-3ubuntu1, automatic), libgnome-keyring1.0-cil:amd64 (1.0.0-3, automatic), docky-dbg:amd64 (2.1.0~bzr1659-0ubuntu1~10.10~dockycore1, automatic), docky:amd64 (2.1.0~bzr1659-0ubuntu1~10.10~dockycore1), javascript-common:amd64 (7, automatic), libgdiplus:amd64 (2.6.7-2, automatic), libjs-mootools:amd64 (1.2.4.0~debian1-1, automatic)
+End-Date: 2010-11-08 13:22:53
+
+Start-Date: 2010-11-08 13:48:35
+Commandline: apt-get install gnome-do
+Install: gnome-do:amd64 (0.8.3.1+dfsg-2ubuntu1), libnunit2.4-cil:amd64 (2.4.7+dfsg-5, automatic), gnome-do-plugins:amd64 (0.8.2.1+dfsg-2ubuntu1, automatic), libmono-system-runtime2.0-cil:amd64 (2.6.7-3ubuntu1, automatic), libflickrnet2.2-cil:amd64 (2.2.0-3, automatic), libgdata1.4-cil:amd64 (1.4.0.2-3, automatic)
+End-Date: 2010-11-08 13:49:01
+
+Start-Date: 2010-11-08 13:57:28
+Install: libsm-dev:amd64 (1.1.1-1, automatic), libjaxp1.3-java:amd64 (1.3.04-5ubuntu3, automatic), libdb-je-java:amd64 (3.3.62-3, automatic), junit4:amd64 (4.8.2-1, automatic), libecj-java:amd64 (3.5.1-1, automatic), libice-dev:amd64 (1.0.6-1, automatic), eclipse-jdt:amd64 (3.5.2-6ubuntu1, automatic), libdb4.7-java:amd64 (4.7.25-9, automatic), eclipse-platform-data:amd64 (3.5.2-6ubuntu1, automatic), libxerces2-java:amd64 (2.9.1-4.1ubuntu2, automatic), libgcj-bc:amd64 (4.4.4-1ubuntu2, automatic), gcj-4.4-base:amd64 (4.4.4-14ubuntu2, automatic), libpthread-stubs0:amd64 (0.3-2, automatic), eclipse-pde:amd64 (3.5.2-6ubuntu1, automatic), libjtidy-java:amd64 (7+svn20070309-4, automatic), libicu4j-java:amd64 (4.0.1.1-1, automatic), eclipse-rcp:amd64 (3.5.2-6ubuntu1, automatic), libservlet2.4-java:amd64 (5.0.30-12, automatic), libdb4.7-java-gcj:amd64 (4.7.25-9, automatic), libcommons-beanutils-java:amd64 (1.8.3-1, automatic), junit:amd64 (3.8.2-4, automatic), eclipse-plugin-cvs:amd64 (3.5.2-6ubuntu1, automatic), gcj-4.4-jre-lib:amd64 (4.4.4-14ubuntu2, automatic), default-jre-headless:amd64 (1.6-38, automatic), libcommons-logging-java:amd64 (1.1.1-8, automatic), libcommons-compress-java:amd64 (1.0-1, automatic), x11proto-kb-dev:amd64 (1.0.4-1, automatic), libgcj10:amd64 (4.4.4-14ubuntu2, automatic), xtrans-dev:amd64 (1.2.5-1, automatic), ant:amd64 (1.8.0-4, automatic), x11proto-input-dev:amd64 (2.0-2, automatic), default-jdk:amd64 (1.6-38, automatic), libjsch-java:amd64 (0.1.42-2fakesync1, automatic), jarwrapper:amd64 (0.32, automatic), default-jre:amd64 (1.6-38, automatic), ant-optional:amd64 (1.8.0-4, automatic), libxt-dev:amd64 (1.0.7-1, automatic), sat4j:amd64 (2.2.0-3, automatic), libcommons-el-java:amd64 (1.0-6, automatic), libservlet2.5-java:amd64 (6.0.28-2ubuntu1, automatic), libcommons-httpclient-java:amd64 (3.1-9, automatic), libxau-dev:amd64 (1.0.6-1, automatic), libslf4j-java:amd64 (1.5.11-2, automatic), libasm3-java:amd64 (3.2-3ubuntu1, automatic), libregexp-java:amd64 (1.5-2, automatic), fastjar:amd64 (0.98-3, automatic), libjasper-java:amd64 (5.5.26-5, automatic), libcommons-codec-java:amd64 (1.4-2, automatic), libhamcrest-java:amd64 (1.1-8, automatic), liblucene2-java:amd64 (2.9.2+ds1-1, automatic), libx11-dev:amd64 (1.3.3-3ubuntu1, automatic), libequinox-osgi-java:amd64 (3.5.2-6ubuntu1, automatic), libcommons-collections3-java:amd64 (3.2.1-4, automatic), eclipse-platform:amd64 (3.5.2-6ubuntu1), libgcj-common:amd64 (4.4.4-1ubuntu2, automatic), libxcb1-dev:amd64 (1.6-1, automatic), openjdk-6-jdk:amd64 (6b20-1.9.1-1ubuntu3, automatic), libcommons-digester-java:amd64 (1.8.1-2, automatic), libjetty-java:amd64 (6.1.24-6, automatic), libjline-java:amd64 (0.9.94-5, automatic), x11proto-core-dev:amd64 (7.0.17-1, automatic), libxdmcp-dev:amd64 (1.0.3-2, automatic), libpthread-stubs0-dev:amd64 (0.3-2, automatic)
+End-Date: 2010-11-08 13:59:04
+
+Start-Date: 2010-11-08 16:23:04
+Commandline: apt-get install vim-gnome
+Install: vim-gui-common:amd64 (7.2.330-1ubuntu4, automatic), libreadline5:amd64 (5.2-7build1, automatic), vim-gnome:amd64 (7.2.330-1ubuntu4), vim-runtime:amd64 (7.2.330-1ubuntu4, automatic), libruby1.8:amd64 (1.8.7.299-2, automatic)
+End-Date: 2010-11-08 16:23:27
+
+Start-Date: 2010-11-09 12:23:29
+Commandline: apt-get install unity
+Install: unity:amd64 (0.2.46-0ubuntu5), libunity0:amd64 (0.2.46-0ubuntu5, automatic), appmenu-gtk:amd64 (0.1.9-0ubuntu4, automatic), bamfdaemon:amd64 (0.2.58-0ubuntu2, automatic), libglew1.5:amd64 (1.5.2-0ubuntu1, automatic), libdee-1.0-0:amd64 (0.4.2-0ubuntu1, automatic), unity-place-applications:amd64 (0.2.26-0ubuntu2, automatic), libunity-misc0:amd64 (0.1.1-0ubuntu3, automatic), mutter-common:amd64 (2.31.5-0ubuntu9, automatic), unity-place-files:amd64 (0.5.32-0ubuntu1, automatic), libxcb-icccm1:amd64 (0.3.6-1build1, automatic), libmutter-private0:amd64 (2.31.5-0ubuntu9, automatic), indicator-appmenu:amd64 (0.0.13-0ubuntu1, automatic), indicator-datetime:amd64 (0.0.6-0ubuntu3, automatic), libzeitgeist-gio:amd64 (0.2.10-0ubuntu1, automatic), ubuntu-netbook-default-settings:amd64 (0.8.11, automatic), unity-asset-pool:amd64 (0.8.18-0ubuntu1, automatic), libxcb-property1:amd64 (0.3.6-1build1, automatic), libbamf0:amd64 (0.2.58-0ubuntu2, automatic), libclutk-0.3-0:amd64 (0.3.60-0ubuntu1, automatic), mutter:amd64 (2.31.5-0ubuntu9, automatic)
+End-Date: 2010-11-09 12:24:13
+
+Start-Date: 2010-11-10 10:31:38
+Commandline: apt-get install ibus-anthy
+Install: ibus-anthy:amd64 (1.2.1-1), anthy:amd64 (9100h-6ubuntu1, automatic), libanthy0:amd64 (9100h-6ubuntu1, automatic), anthy-common:amd64 (9100h-6ubuntu1, automatic)
+End-Date: 2010-11-10 10:31:58
+
+Start-Date: 2010-11-10 13:47:03
+Commandline: apt-get install chromium
+Install: libopenal1:amd64 (1.12.854-2, automatic), libglpng:amd64 (1.45-6, automatic), chromium-bsu-data:amd64 (0.9.14.1-1ubuntu1, automatic), libalut0:amd64 (1.1.0-2, automatic), libsdl-image1.2:amd64 (1.2.10-2, automatic), ttf-uralic:amd64 (0.0.20040829-1ubuntu2, automatic), libglc0:amd64 (0.7.2-3, automatic), chromium-bsu:amd64 (0.9.14.1-1ubuntu1), libglewmx1.5:amd64 (1.5.2-0ubuntu1, automatic)
+End-Date: 2010-11-10 13:47:52
+
+Start-Date: 2010-11-10 13:51:16
+Remove: libopenal1:amd64 (1.12.854-2), libglpng:amd64 (1.45-6), chromium-bsu-data:amd64 (0.9.14.1-1ubuntu1), libalut0:amd64 (1.1.0-2), libsdl-image1.2:amd64 (1.2.10-2), ttf-uralic:amd64 (0.0.20040829-1ubuntu2), libglc0:amd64 (0.7.2-3), chromium-bsu:amd64 (0.9.14.1-1ubuntu1), libglewmx1.5:amd64 (1.5.2-0ubuntu1)
+End-Date: 2010-11-10 13:51:38
+
+Start-Date: 2010-11-10 13:51:50
+Install: chromium-browser:amd64 (7.0.517.41~r62167-0ubuntu0.10.10.1), chromium-codecs-ffmpeg:amd64 (0.6+svn20100904r58574+58998-0ubuntu1, automatic), chromium-browser-inspector:amd64 (7.0.517.41~r62167-0ubuntu0.10.10.1, automatic)
+End-Date: 2010-11-10 13:52:07
+
+Start-Date: 2010-11-10 18:19:39
+Install: gnome-exe-thumbnailer:amd64 (0.7-0ubuntu1, automatic), libilmbase6:amd64 (1.0.1-3build2, automatic), wine1.2:amd64 (1.2.1-0ubuntu1), libcdt4:amd64 (2.26.3-4, automatic), lib32nss-mdns:amd64 (0.10-3ubuntu4, automatic), libpathplan4:amd64 (2.26.3-4, automatic), ttf-symbol-replacement:amd64 (1.2.1-0ubuntu1, automatic), libopenexr6:amd64 (1.6.1-4.1, automatic), icoutils:amd64 (0.29.1-0ubuntu1, automatic), wine1.2-gecko:amd64 (1.0.0-0ubuntu4, automatic), netpbm:amd64 (10.0-12.2, automatic), cabextract:amd64 (1.3-1, automatic), libgvc5:amd64 (2.26.3-4, automatic), libxdot4:amd64 (2.26.3-4, automatic), libnetpbm10:amd64 (10.0-12.2, automatic), ttf-mscorefonts-installer:amd64 (3.2, automatic), imagemagick:amd64 (6.6.2.6-1ubuntu1, automatic), libmagickcore3-extra:amd64 (6.6.2.6-1ubuntu1, automatic), libgraph4:amd64 (2.26.3-4, automatic), winbind:amd64 (3.5.4~dfsg-1ubuntu8, automatic)
+End-Date: 2010-11-10 18:21:27
+
+Start-Date: 2010-11-11 10:25:02
+Upgrade: libxml2-utils:amd64 (2.7.7.dfsg-4, 2.7.7.dfsg-4ubuntu0.1), chromium-browser:amd64 (7.0.517.41~r62167-0ubuntu0.10.10.1, 7.0.517.44~r64615-0ubuntu0.10.10.1), libvpx0:amd64 (0.9.2-1build1, 0.9.2-1ubuntu0.1), libxml2:amd64 (2.7.7.dfsg-4, 2.7.7.dfsg-4ubuntu0.1), chromium-browser-inspector:amd64 (7.0.517.41~r62167-0ubuntu0.10.10.1, 7.0.517.44~r64615-0ubuntu0.10.10.1), python-libxml2:amd64 (2.7.7.dfsg-4, 2.7.7.dfsg-4ubuntu0.1)
+End-Date: 2010-11-11 10:25:36
+
+Start-Date: 2010-11-11 12:08:09
+Install: libwxbase2.6-0:amd64 (2.6.3.2.2-5ubuntu1, automatic), libwxgtk2.6-0:amd64 (2.6.3.2.2-5ubuntu1, automatic), graphthing:amd64 (1.3.2-3)
+End-Date: 2010-11-11 12:08:25
+
+Start-Date: 2010-11-11 12:08:43
+Install: planner:amd64 (0.14.4-4)
+End-Date: 2010-11-11 12:09:05
+
+Start-Date: 2010-11-15 18:59:52
+Commandline: apt-get install git
+Install: git:amd64 (1.7.1-1.1), liberror-perl:amd64 (0.17-1, automatic)
+End-Date: 2010-11-15 19:00:02
+
+Start-Date: 2010-11-17 19:41:53
+Commandline: apt-get install compiz-plugins-livewallpapers
+Install: compiz-plugins-livewallpapers:amd64 (0.0.1-0ubuntu1~ppa5)
+End-Date: 2010-11-17 19:41:59
+
+Start-Date: 2010-11-17 19:44:01
+Commandline: /usr/sbin/synaptic
+Install: python-compizconfig:amd64 (0.8.4-2ubuntu2, automatic), compizconfig-settings-manager:amd64 (0.8.2-0ubuntu1)
+End-Date: 2010-11-17 19:44:18
+
+Start-Date: 2010-11-19 10:52:31
+Commandline: /usr/sbin/synaptic
+Install: libnet-daemon-perl:amd64 (0.43-1, automatic), mysql-server:amd64 (5.1.49-1ubuntu8.1), libdbi-perl:amd64 (1.611-1, automatic), libapr1:amd64 (1.4.2-3ubuntu1, automatic), libhtml-template-perl:amd64 (2.9-1, automatic), libapache2-mod-php5:amd64 (5.3.3-1ubuntu9.1, automatic), mysql-server-core-5.1:amd64 (5.1.49-1ubuntu8.1, automatic), libaprutil1-ldap:amd64 (1.3.9+dfsg-3build1, automatic), apache2-mpm-prefork:amd64 (2.2.16-1ubuntu3, automatic), php5-gd:amd64 (5.3.3-1ubuntu9.1), libmysqlclient16:amd64 (5.1.49-1ubuntu8.1, automatic), apache2-utils:amd64 (2.2.16-1ubuntu3, automatic), apache2.2-common:amd64 (2.2.16-1ubuntu3, automatic), libaprutil1-dbd-sqlite3:amd64 (1.3.9+dfsg-3build1, automatic), mysql-client-core-5.1:amd64 (5.1.49-1ubuntu8.1, automatic), apache2.2-bin:amd64 (2.2.16-1ubuntu3, automatic), libdbd-mysql-perl:amd64 (4.016-1, automatic), mysql-client:amd64 (5.1.49-1ubuntu8.1), libplrpc-perl:amd64 (0.2020-2, automatic), php5-mysql:amd64 (5.3.3-1ubuntu9.1), php5-cli:amd64 (5.3.3-1ubuntu9.1, automatic), libaprutil1:amd64 (1.3.9+dfsg-3build1, automatic), mysql-common:amd64 (5.1.49-1ubuntu8.1, automatic), php5-common:amd64 (5.3.3-1ubuntu9.1, automatic), mysql-server-5.1:amd64 (5.1.49-1ubuntu8.1, automatic), mysql-client-5.1:amd64 (5.1.49-1ubuntu8.1, automatic)
+End-Date: 2010-11-19 10:54:01
+
+Start-Date: 2010-11-19 12:19:40
+Commandline: /usr/sbin/synaptic
+Install: libboost-filesystem1.42.0:amd64 (1.42.0-3ubuntu1, automatic), libboost-system1.42.0:amd64 (1.42.0-3ubuntu1, automatic), libboost-program-options1.42.0:amd64 (1.42.0-3ubuntu1, automatic), mongodb-clients:amd64 (1.4.4-2ubuntu2, automatic), libpcrecpp0:amd64 (8.02-1, automatic), libboost-thread1.42.0:amd64 (1.42.0-3ubuntu1, automatic), mongodb:amd64 (1.4.4-2ubuntu2), mongodb-server:amd64 (1.4.4-2ubuntu2, automatic), mongodb-dev:amd64 (1.4.4-2ubuntu2, automatic)
+End-Date: 2010-11-19 12:20:01
+
+Start-Date: 2010-11-19 12:20:38
+Commandline: /usr/sbin/synaptic
+Install: php-pear:amd64 (5.3.3-1ubuntu9.1)
+End-Date: 2010-11-19 12:20:42
+
+Start-Date: 2010-11-19 12:23:34
+Commandline: /usr/sbin/synaptic
+Install: shtool:amd64 (2.0.8-4, automatic), php5-xsl:amd64 (5.3.3-1ubuntu9.1), php5:amd64 (5.3.3-1ubuntu9.1), m4:amd64 (1.4.14-3, automatic), autoconf:amd64 (2.67-2ubuntu1, automatic), php5-imagick:amd64 (3.0.0~rc1-1build1), libtool:amd64 (2.2.6b-2ubuntu1, automatic), libmcrypt4:amd64 (2.5.8-3.1, automatic), php5-curl:amd64 (5.3.3-1ubuntu9.1), libssl-dev:amd64 (0.9.8o-1ubuntu4.1, automatic), php5-suhosin:amd64 (0.9.31-1), zlib1g-dev:amd64 (1.2.3.4.dfsg-3ubuntu1, automatic), php5-mcrypt:amd64 (5.3.3-0ubuntu2), automake:amd64 (1.11.1-1, automatic), php5-dev:amd64 (5.3.3-1ubuntu9.1), autotools-dev:amd64 (20100122.1, automatic), libltdl-dev:amd64 (2.2.6b-2ubuntu1, automatic)
+End-Date: 2010-11-19 12:24:08
+
+Start-Date: 2010-11-22 10:26:17
+Commandline: apt-get install --reinstall ubuntu-desktop
+End-Date: 2010-11-22 10:26:22
+
+Start-Date: 2010-11-24 10:07:52
+Commandline: apt-get install --reinstall ubuntu-desktop
+End-Date: 2010-11-24 10:07:58
+
+Start-Date: 2010-11-25 10:58:17
+Commandline: apt-get install --reinstall ubuntu-desktop
+End-Date: 2010-11-25 10:58:23
+
+Start-Date: 2010-11-25 10:59:49
+Commandline: apt-get install --reinstall ubuntu-desktop
+End-Date: 2010-11-25 10:59:55
+
+Start-Date: 2010-11-25 11:02:46
+Install: libpst4:amd64 (0.6.41-0ubuntu4), linux-image-2.6.35-23-generic:amd64 (2.6.35-23.40), linux-headers-2.6.35-23-generic:amd64 (2.6.35-23.40), linux-headers-2.6.35-23:amd64 (2.6.35-23.40)
+Upgrade: libpurple0:amd64 (2.7.3-1ubuntu3.1, 2.7.3-1ubuntu3.2), libevolution:amd64 (2.30.3-1ubuntu7, 2.30.3-1ubuntu7.1), libc-bin:amd64 (2.12.1-0ubuntu8, 2.12.1-0ubuntu9), eclipse-jdt:amd64 (3.5.2-6ubuntu1, 3.5.2-6ubuntu1.1), libldap-2.4-2:amd64 (2.4.23-0ubuntu3.2, 2.4.23-0ubuntu3.3), eclipse-platform-data:amd64 (3.5.2-6ubuntu1, 3.5.2-6ubuntu1.1), libpurple-bin:amd64 (2.7.3-1ubuntu3.1, 2.7.3-1ubuntu3.2), eclipse-pde:amd64 (3.5.2-6ubuntu1, 3.5.2-6ubuntu1.1), evolution-plugins:amd64 (2.30.3-1ubuntu7, 2.30.3-1ubuntu7.1), eclipse-rcp:amd64 (3.5.2-6ubuntu1, 3.5.2-6ubuntu1.1), nautilus-share:amd64 (0.7.2-13, 0.7.2-13.1), evolution:amd64 (2.30.3-1ubuntu7, 2.30.3-1ubuntu7.1), gnome-settings-daemon:amd64 (2.32.0-0ubuntu3, 2.32.0-0ubuntu3.1), rhythmbox:amd64 (0.13.1-0ubuntu5, 0.13.1-0ubuntu6), libapparmor-perl:amd64 (2.5.1~rc1-0ubuntu2, 2.5.1-0ubuntu0.10.10.2), eclipse-plugin-cvs:amd64 (3.5.2-6ubuntu1, 3.5.2-6ubuntu1.1), linux-generic:amd64 (2.6.35.22.23, 2.6.35.23.25), libcairo2:amd64 (1.10.0-1ubuntu2, 1.10.0-1ubuntu3), gnome-keyring:amd64 (2.92.92.is.2.31.91-0ubuntu4, 2.92.92.is.2.31.91-0ubuntu4.1), evolution-common:amd64 (2.30.3-1ubuntu7, 2.30.3-1ubuntu7.1), plymouth-label:amd64 (0.8.2-2ubuntu5, 0.8.2-2ubuntu5.1), plymouth-theme-ubuntu-logo:amd64 (0.8.2-2ubuntu5, 0.8.2-2ubuntu5.1), libc6-i386:amd64 (2.12.1-0ubuntu8, 2.12.1-0ubuntu9), indicator-sound:amd64 (0.4.9-0ubuntu1, 0.5.0.1-0ubuntu1), xserver-xorg-video-intel:amd64 (2.12.0-1ubuntu5, 2.12.0-1ubuntu5.1), libgp11-0:amd64 (2.92.92.is.2.31.91-0ubuntu4, 2.92.92.is.2.31.91-0ubuntu4.1), apparmor-utils:amd64 (2.5.1~rc1-0ubuntu2, 2.5.1-0ubuntu0.10.10.2), libgcr0:amd64 (2.92.92.is.2.31.91-0ubuntu4, 2.92.92.is.2.31.91-0ubuntu4.1), libssl-dev:amd64 (0.9.8o-1ubuntu4.1, 0.9.8o-1ubuntu4.2), tzdata-java:amd64 (2010m-0ubuntu0.10.10, 2010o-0ubuntu0.10.10), linux-headers-generic:amd64 (2.6.35.22.23, 2.6.35.23.25), vino:amd64 (2.32.0-0ubuntu1, 2.32.0-0ubuntu1.1), linux-image-generic:amd64 (2.6.35.22.23, 2.6.35.23.25), flashplugin-installer:amd64 (10.1.102.64ubuntu0.10.10.1, 10.1.102.65ubuntu0.10.10.1), gwibber-service:amd64 (2.32.0.2-0ubuntu1, 2.32.2-0ubuntu1), ubuntu-sso-client:amd64 (1.0.4-0ubuntu1, 1.0.7-0ubuntu1), libapparmor1:amd64 (2.5.1~rc1-0ubuntu2, 2.5.1-0ubuntu0.10.10.2), libplymouth2:amd64 (0.8.2-2ubuntu5, 0.8.2-2ubuntu5.1), libc6-dev:amd64 (2.12.1-0ubuntu8, 2.12.1-0ubuntu9), apparmor:amd64 (2.5.1~rc1-0ubuntu2, 2.5.1-0ubuntu0.10.10.2), tzdata:amd64 (2010m-0ubuntu0.10.10, 2010o-0ubuntu0.10.10), plymouth-theme-ubuntu-text:amd64 (0.8.2-2ubuntu5, 0.8.2-2ubuntu5.1), libssl0.9.8:amd64 (0.9.8o-1ubuntu4.1, 0.9.8o-1ubuntu4.2), openssl:amd64 (0.9.8o-1ubuntu4.1, 0.9.8o-1ubuntu4.2), libequinox-osgi-java:amd64 (3.5.2-6ubuntu1, 3.5.2-6ubuntu1.1), linux-libc-dev:amd64 (2.6.35-1022.35, 2.6.35-1023.40), eclipse-platform:amd64 (3.5.2-6ubuntu1, 3.5.2-6ubuntu1.1), gwibber:amd64 (2.32.0.2-0ubuntu1, 2.32.2-0ubuntu1), libc-dev-bin:amd64 (2.12.1-0ubuntu8, 2.12.1-0ubuntu9), libc6:amd64 (2.12.1-0ubuntu8, 2.12.1-0ubuntu9), rhythmbox-plugin-cdrecorder:amd64 (0.13.1-0ubuntu5, 0.13.1-0ubuntu6), rhythmbox-plugins:amd64 (0.13.1-0ubuntu5, 0.13.1-0ubuntu6), libpam-gnome-keyring:amd64 (2.92.92.is.2.31.91-0ubuntu4, 2.92.92.is.2.31.91-0ubuntu4.1), humanity-icon-theme:amd64 (0.5.3.2, 0.5.3.3), light-themes:amd64 (0.1.8.2, 0.1.8.3), plymouth:amd64 (0.8.2-2ubuntu5, 0.8.2-2ubuntu5.1)
+End-Date: 2010-11-25 11:08:47
+
+Start-Date: 2010-11-25 11:09:22
+Commandline: apt-get install --reinstall ubuntu-desktop
+End-Date: 2010-11-25 11:09:25
+
+Start-Date: 2010-11-25 17:32:49
+Commandline: apt-get install scrot
+Install: giblib1:amd64 (1.2.4-5, automatic), scrot:amd64 (0.8-11), libimlib2:amd64 (1.4.2-8, automatic)
+End-Date: 2010-11-25 17:32:59
+
+Start-Date: 2010-11-25 17:40:47
+Install: libbabl-0.0-0:amd64 (0.0.22-1build1, automatic), libgegl-0.0-0:amd64 (0.0.22-2ubuntu2, automatic), libhal1:amd64 (0.5.14-0ubuntu6, automatic), gimp:amd64 (2.6.10-1ubuntu3.1), libgimp2.0:amd64 (2.6.10-1ubuntu3.1, automatic), gimp-data:amd64 (2.6.10-1ubuntu3.1, automatic), libmng1:amd64 (1.0.10-1, automatic)
+End-Date: 2010-11-25 17:41:11
+
+Start-Date: 2010-11-25 17:41:39
+Commandline: apt-get install nautilus-image-converter
+Install: nautilus-image-converter:amd64 (0.3.0-3ubuntu2)
+End-Date: 2010-11-25 17:41:43
+
+Start-Date: 2010-11-26 10:40:08
+Upgrade: libaprutil1-ldap:amd64 (1.3.9+dfsg-3build1, 1.3.9+dfsg-3ubuntu0.10.10.1), apache2-mpm-prefork:amd64 (2.2.16-1ubuntu3, 2.2.16-1ubuntu3.1), apache2-utils:amd64 (2.2.16-1ubuntu3, 2.2.16-1ubuntu3.1), apache2.2-common:amd64 (2.2.16-1ubuntu3, 2.2.16-1ubuntu3.1), libaprutil1-dbd-sqlite3:amd64 (1.3.9+dfsg-3build1, 1.3.9+dfsg-3ubuntu0.10.10.1), apache2.2-bin:amd64 (2.2.16-1ubuntu3, 2.2.16-1ubuntu3.1), libaprutil1:amd64 (1.3.9+dfsg-3build1, 1.3.9+dfsg-3ubuntu0.10.10.1)
+End-Date: 2010-11-26 10:40:46
+
+Start-Date: 2010-11-26 11:17:43
+Commandline: apt-get install --reinstall ubuntu-desktop
+End-Date: 2010-11-26 11:17:46
+
+Start-Date: 2010-11-26 14:01:13
+Commandline: /usr/sbin/synaptic
+Install: gtk2-engines-smooth:amd64 (2.14.3+deb5, automatic), gnome-illustrious-icon-theme:amd64 (5.5.1-1, automatic), gnome-colors:amd64 (5.5.1-1, automatic), ubuntume-themes:amd64 (1.7), shiki-noble-theme:amd64 (4.6-1ubuntu2, automatic), shiki-human-theme:amd64 (4.6-1ubuntu2, automatic), gnome-themes-extras:amd64 (2.22.0-3), shiki-wise-theme:amd64 (4.6-1ubuntu2, automatic), gnome-wine-icon-theme:amd64 (5.5.1-1, automatic), gnome-human-icon-theme:amd64 (5.5.1-1, automatic), gnome-brave-icon-theme:amd64 (5.5.1-1, automatic), human-theme:amd64 (0.39.1), gnome-colors-common:amd64 (5.5.1-1, automatic), shiki-illustrious-theme:amd64 (4.6-1ubuntu2, automatic), gnome-noble-icon-theme:amd64 (5.5.1-1, automatic), shiki-dust-theme:amd64 (4.6-1ubuntu2, automatic), gnome-themes-more:amd64 (0.9.0.deb0.7), shiki-colors:amd64 (4.6-1ubuntu2), shiki-colors-metacity-theme:amd64 (4.6-1ubuntu2), gnome-wise-icon-theme:amd64 (5.5.1-1, automatic), gnome-dust-icon-theme:amd64 (5.5.1-1, automatic), gnome-themes:amd64 (2.32.0-0ubuntu1), sabily-themes:amd64 (1.7), shiki-brave-theme:amd64 (4.6-1ubuntu2, automatic), shiki-wine-theme:amd64 (4.6-1ubuntu2, automatic)
+End-Date: 2010-11-26 14:02:12
+
+Start-Date: 2010-11-29 14:59:35
+Commandline: /usr/sbin/synaptic
+Install: p7zip-full:amd64 (9.04~dfsg.1-1)
+End-Date: 2010-11-29 14:59:42
+
+Start-Date: 2010-11-29 15:29:38
+Commandline: apt-get install --reinstall ubuntu-desktop
+End-Date: 2010-11-29 15:29:41
+
+Start-Date: 2010-11-30 10:42:22
+Commandline: apt-get install --reinstall ubuntu-desktop
+End-Date: 2010-11-30 10:42:29
+
+Start-Date: 2010-12-01 10:13:00
+Commandline: apt-get install --reinstall ubuntu-desktop
+End-Date: 2010-12-01 10:13:06

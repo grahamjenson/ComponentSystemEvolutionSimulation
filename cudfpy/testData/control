@@ -1,0 +1,15 @@
+Package: a
+Version: 4:4.4.4
+Provides: b
+Conflicts: a
+
+Package: b
+Version: 4:4.4.4-1ubuntu2
+Depends: a (>= 4:4.4.4), x (>1)| y
+Conflicts: b
+
+Package: c
+Version: 4:4.4.1
+Depends: b
+Conflicts: c
+

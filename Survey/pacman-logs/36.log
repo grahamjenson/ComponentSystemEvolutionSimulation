@@ -1,0 +1,1843 @@
+[2010-10-12 21:41] Running 'pacman -Sy'
+[2010-10-12 21:41] synchronizing package lists
+[2010-10-12 21:41] Running 'pacman -S dosfstools'
+[2010-10-12 21:41] installed dosfstools (3.0.10-1)
+[2010-10-19 23:15] Running 'pacman -Syyyyyu'
+[2010-10-19 23:15] synchronizing package lists
+[2010-10-19 23:15] starting full system upgrade
+[2010-10-19 23:35] upgraded libpng (1.4.3-1 -> 1.4.4-1)
+[2010-10-19 23:35] upgraded allegro (4.4.1.1-1 -> 4.4.1.1-2)
+[2010-10-19 23:35] upgraded tzdata (2010l-1 -> 2010m-1)
+[2010-10-19 23:35] Generating locales...
+[2010-10-19 23:35] en_US.UTF-8... done
+[2010-10-19 23:35] en_US.ISO-8859-1... done
+[2010-10-19 23:35] Generation complete.
+[2010-10-19 23:35] upgraded glibc (2.12.1-1 -> 2.12.1-2)
+[2010-10-19 23:35] upgraded alsa-lib (1.0.23-1 -> 1.0.23-2)
+[2010-10-19 23:35] upgraded sqlite3 (3.7.2-1 -> 3.7.3-1)
+[2010-10-19 23:35] upgraded glib2 (2.24.2-1 -> 2.26.0-2)
+[2010-10-19 23:36] upgraded coreutils (8.5-2 -> 8.6-1)
+[2010-10-19 23:36] warning: /etc/shadow installed as /etc/shadow.pacnew
+[2010-10-19 23:36] upgraded filesystem (2010.07-1 -> 2010.09-1)
+[2010-10-19 23:36] upgraded dbus-core (1.2.24-2 -> 1.4.0-1)
+[2010-10-19 23:36] upgraded dbus (1.2.24-1 -> 1.4.0-1)
+[2010-10-19 23:36] upgraded udev (162-1 -> 163-1)
+[2010-10-19 23:36] upgraded xkeyboard-config (1.8-1 -> 2.0-1)
+[2010-10-19 23:36] installed xorg-server-common (1.9.0-1)
+[2010-10-19 23:36] upgraded xf86-input-evdev (2.4.0-2 -> 2.5.0-1)
+[2010-10-19 23:36] upgraded xorg-server (1.8.1.902-1 -> 1.9.0-1)
+[2010-10-19 23:36] upgraded nvidia-utils (256.53-1 -> 260.19.12-1)
+[2010-10-19 23:36] upgraded qt (4.6.3-1 -> 4.7.0-4)
+[2010-10-19 23:36] upgraded bzip2 (1.0.5-5 -> 1.0.6-1)
+[2010-10-19 23:36] upgraded exiv2 (0.19-1 -> 0.20-1)
+[2010-10-19 23:36] upgraded libxml2 (2.7.7-1 -> 2.7.7-2)
+[2010-10-19 23:36] upgraded strigi (0.7.2-2 -> 0.7.2-3)
+[2010-10-19 23:36] upgraded polkit (0.96-2 -> 0.98-1)
+[2010-10-19 23:36] upgraded polkit-qt (0.95.1-1 -> 0.96.1-3)
+[2010-10-19 23:36] upgraded phonon-gstreamer (4.4.2-1 -> 4.4.2-2)
+[2010-10-19 23:36] upgraded phonon (4.4.2-1 -> 4.4.2-2)
+[2010-10-19 23:36] upgraded libdbusmenu-qt (0.6.0-1 -> 0.6.4-1)
+[2010-10-19 23:36] upgraded kdelibs (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:36] upgraded oxygen-icons (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:36] upgraded libssh (0.4.5-1 -> 0.4.6-1)
+[2010-10-19 23:36] upgraded kdebase-runtime (4.5.1-1 -> 4.5.2-2)
+[2010-10-19 23:36] upgraded libmysqlclient (5.1.50-1 -> 5.1.51-1)
+[2010-10-19 23:36] upgraded mysql-clients (5.1.50-1 -> 5.1.51-1)
+[2010-10-19 23:36] upgraded mysql (5.1.50-1 -> 5.1.51-1)
+[2010-10-19 23:36] upgraded liblastfm (0.3.0-5 -> 0.3.3-1)
+[2010-10-19 23:36] upgraded amarok (2.3.2-1 -> 2.3.2-2)
+[2010-10-19 23:36] upgraded libldap (2.4.22-1 -> 2.4.23-1)
+[2010-10-19 23:36] upgraded apr-util (1.3.9-4 -> 1.3.10-1)
+[2010-10-19 23:36] installed python2 (2.7-2)
+[2010-10-19 23:36] upgraded libxslt (1.1.26-1 -> 1.1.26-2)
+[2010-10-19 23:36] upgraded docbook-xsl (1.75.2-1 -> 1.76.0-3)
+[2010-10-19 23:36] upgraded asciidoc (8.6.1-1 -> 8.6.2-2)
+[2010-10-19 23:36] upgraded atk (1.30.0-1 -> 1.32.0-1)
+[2010-10-19 23:36] upgraded autoconf (2.67-1 -> 2.68-1)
+[2010-10-19 23:36] upgraded avahi (0.6.27-2 -> 0.6.27-7)
+[2010-10-19 23:36] upgraded bash-completion (1.2-1 -> 1.2-2)
+[2010-10-19 23:36] upgraded binutils (2.20.1-3 -> 2.20.1-4)
+[2010-10-19 23:36] upgraded bluez (4.71-1 -> 4.76-1)
+[2010-10-19 23:36] upgraded boost-libs (1.43.0-1 -> 1.43.0-2)
+[2010-10-19 23:36] upgraded boost (1.43.0-1 -> 1.43.0-2)
+[2010-10-19 23:36] upgraded cairo (1.8.10-1 -> 1.10.0-2)
+[2010-10-19 23:36] upgraded cddb-py (1.4-4 -> 1.4-5)
+[2010-10-19 23:36] upgraded curl (7.21.1-1 -> 7.21.2-2)
+[2010-10-19 23:37] upgraded cmake (2.8.2-2 -> 2.8.2-3)
+[2010-10-19 23:37] upgraded conky (1.8.0-1 -> 1.8.1-1)
+[2010-10-19 23:37] upgraded dbus-python (0.83.1-1 -> 0.83.1-2)
+[2010-10-19 23:37] upgraded pyxdg (0.19-1 -> 0.19-2)
+[2010-10-19 23:37] upgraded setuptools (0.6c11-2 -> 0.6c11-3)
+[2010-10-19 23:37] upgraded libtorrent-rasterbar (0.15.2-1 -> 0.15.4-2)
+[2010-10-19 23:37] upgraded pycrypto (2.1.0-1 -> 2.2-1)
+[2010-10-19 23:37] upgraded zope-interface (3.5.3-1 -> 3.5.3-2)
+[2010-10-19 23:37] upgraded twisted (10.0.0-1 -> 10.1.0-1)
+[2010-10-19 23:37] upgraded pyopenssl (0.10-2 -> 0.10-3)
+[2010-10-19 23:37] upgraded python-chardet (2.0.1-1 -> 2.0.1-2)
+[2010-10-19 23:37] >>> Deluge's daemon is running default with the "deluge" user. The default download directory is /srv/deluge/.
+[2010-10-19 23:37] You can change the user by editing /etc/conf.d/deluged
+[2010-10-19 23:37] upgraded deluge (1.3.0-1 -> 1.3.0-2)
+[2010-10-19 23:37] upgraded x264 (20100826-1 -> 20101013-1)
+[2010-10-19 23:37] upgraded lirc-utils (0.8.6-4 -> 0.8.6-5)
+[2010-10-19 23:37] upgraded mplayer (32227-1 -> 32492-1)
+[2010-10-19 23:37] upgraded freetype2 (2.4.2-1 -> 2.4.3-1)
+[2010-10-19 23:37] upgraded pango (1.28.1-1 -> 1.28.3-1)
+[2010-10-19 23:37] installed gdk-pixbuf2 (2.22.0-2)
+[2010-10-19 23:37] upgraded gtk2 (2.20.1-2 -> 2.22.0-5)
+[2010-10-19 23:37] upgraded libglade (2.6.4-1 -> 2.6.4-2)
+[2010-10-19 23:37] upgraded pycairo (1.8.10-1 -> 1.8.10-2)
+[2010-10-19 23:37] installed gobject-introspection (0.9.10-2)
+[2010-10-19 23:37] upgraded pygobject (2.21.3-1 -> 2.26.0-2)
+[2010-10-19 23:37] upgraded pygtk (2.17.0-2 -> 2.22.0-3)
+[2010-10-19 23:37] upgraded devede (3.16.9-1 -> 3.16.9-2)
+[2010-10-19 23:37] upgraded device-mapper (2.02.73-1 -> 2.02.74-1)
+[2010-10-19 23:37] upgraded dialog (1.1_20100428-1 -> 1.1_20100428-2)
+[2010-10-19 23:37] upgraded kdegraphics-libs (4.5.1-1 -> 4.5.2-2)
+[2010-10-19 23:37] upgraded kdepimlibs (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:37] upgraded gpsd (2.95-3 -> 2.95-4)
+[2010-10-19 23:37] upgraded kdeedu-marble (4.5.1-1 -> 4.5.2-2)
+[2010-10-19 23:37] upgraded digikam (1.4.0-1 -> 1.5.0-1)
+[2010-10-19 23:37] upgraded ed (1.4-3 -> 1.5-1)
+[2010-10-19 23:37] upgraded libva (1.0.4-1 -> 1.0.5-2)
+[2010-10-19 23:37] upgraded ffmpeg (24953-1 -> 25472-1)
+[2010-10-19 23:37] upgraded electricsheep (2.7b12-2 -> 2.7b12-3)
+[2010-10-19 23:37] upgraded elfutils (0.148-1 -> 0.149-1)
+[2010-10-19 23:37] upgraded exo (0.3.107-1 -> 0.3.107-2)
+[2010-10-19 23:37] upgraded libnice (0.0.13-1 -> 0.0.13-3)
+[2010-10-19 23:37] upgraded gstreamer0.10-python (0.10.18-1 -> 0.10.18-3)
+[2010-10-19 23:37] upgraded farsight2 (0.0.21-1 -> 0.0.21-2)
+[2010-10-19 23:37] upgraded feh (1.9-1 -> 1.10-1)
+[2010-10-19 23:37] upgraded nss (3.12.7-1 -> 3.12.8-1)
+[2010-10-19 23:37] upgraded libevent (1.4.14b-1 -> 1.4.14b-2)
+[2010-10-19 23:37] upgraded xulrunner (1.9.2.10-1 -> 1.9.2.11-1)
+[2010-10-19 23:37] upgraded firefox (3.6.10-1 -> 3.6.11-1)
+[2010-10-19 23:37] upgraded flex (2.5.35-3 -> 2.5.35-4)
+[2010-10-19 23:37] upgraded fluidsynth (1.1.1-2 -> 1.1.3-1)
+[2010-10-19 23:37] upgraded frei0r-plugins (1.2-1 -> 1.2.1-1)
+[2010-10-19 23:37] upgraded fuse (2.8.4-2 -> 2.8.5-1)
+[2010-10-19 23:37] upgraded gamin (0.1.10-2 -> 0.1.10-3)
+[2010-10-19 23:37] upgraded orbit2 (2.14.18-1 -> 2.14.19-1)
+[2010-10-19 23:37] upgraded gconf (2.28.1-1 -> 2.32.0-1)
+[2010-10-19 23:37] upgraded gdb (7.2-1 -> 7.2-2)
+[2010-10-19 23:37] upgraded geany (0.19.1-1 -> 0.19.1-2)
+[2010-10-19 23:37] upgraded geeqie (1.0-2 -> 1.0-3)
+[2010-10-19 23:37] upgraded ghostscript (8.71-3 -> 9.00-1)
+[2010-10-19 23:37] upgraded librsvg (2.26.3-1 -> 2.32.0-2)
+[2010-10-19 23:37] upgraded gimp (2.6.10-1 -> 2.6.10-2)
+[2010-10-19 23:37] upgraded git (1.7.3-1 -> 1.7.3.1-3)
+[2010-10-19 23:37] upgraded mesa (7.8.2-1 -> 7.8.2-3)
+[2010-10-19 23:37] upgraded glew (1.5.5-1 -> 1.5.6-1)
+[2010-10-19 23:37] upgraded libgnome-keyring (2.30.1-2 -> 2.32.0-1)
+[2010-10-19 23:37] upgraded libunique (1.1.6-2 -> 1.1.6-3)
+[2010-10-19 23:37] upgraded gnome-disk-utility (2.30.1-1 -> 2.32.0-2)
+[2010-10-19 23:37] upgraded gnome-icon-theme (2.30.3-1 -> 2.31.0-1)
+[2010-10-19 23:37] upgraded gnome-vfs (2.24.3-2 -> 2.24.4-1)
+[2010-10-19 23:37] upgraded grep (2.6.3-1 -> 2.7-1)
+[2010-10-19 23:37] upgraded gstreamer0.10-ugly (0.10.15-4 -> 0.10.15-5)
+[2010-10-19 23:37] upgraded gstreamer0.10-ugly-plugins (0.10.15-4 -> 0.10.15-5)
+[2010-10-19 23:37] upgraded gtk-engines (2.20.1-1 -> 2.20.2-1)
+[2010-10-19 23:37] upgraded rrdtool (1.4.4-1 -> 1.4.4-2)
+[2010-10-19 23:37] upgraded lm_sensors (3.1.2-3 -> 3.2.0-1)
+[2010-10-19 23:37] upgraded xorg-utils (7.6-3 -> 7.6-4)
+[2010-10-19 23:38] warning: /usr/share/config/kdm/kdmrc installed as /usr/share/config/kdm/kdmrc.pacnew
+[2010-10-19 23:38] upgraded kdebase-workspace (4.5.1-1 -> 4.5.2-2)
+[2010-10-19 23:38] upgraded gtk-kde4 (0.9.4-1 -> 0.9.4-2)
+[2010-10-19 23:38] upgraded libsoup (2.30.2-2 -> 2.32.0-1)
+[2010-10-19 23:38] upgraded libproxy (0.4.6-1 -> 0.4.6-2)
+[2010-10-19 23:38] upgraded libsoup-gnome (2.30.2-2 -> 2.32.0-1)
+[2010-10-19 23:38] upgraded gvfs (1.6.3-1 -> 1.6.4-1)
+[2010-10-19 23:38] upgraded hdparm (9.28-1 -> 9.32-1)
+[2010-10-19 23:38] upgraded net-snmp (5.5-5 -> 5.5-6)
+[2010-10-19 23:38]
+[2010-10-19 23:38] NOTE
+[2010-10-19 23:38] ----
+[2010-10-19 23:38] # If you want to use this driver with sane:
+[2010-10-19 23:38] # echo "hpaio" >> /etc/sane.d/dll.conf
+[2010-10-19 23:38]
+[2010-10-19 23:38]
+[2010-10-19 23:38] UPGRADING
+[2010-10-19 23:38] ----
+[2010-10-19 23:38] # This version no longer uses an init script. You should remove hplip
+[2010-10-19 23:38] # from the /etc/rc.conf daemon list.
+[2010-10-19 23:38]
+[2010-10-19 23:38] upgraded hplip (3.10.6-1 -> 3.10.9-1)
+[2010-10-19 23:38] upgraded hydrogen (0.9.4.1-1 -> 0.9.4.2-1)
+[2010-10-19 23:38] upgraded icu (4.4.1-1 -> 4.4.2-1)
+[2010-10-19 23:38] upgraded libtool (2.2.10-3 -> 2.4-1)
+[2010-10-19 23:38] upgraded imagemagick (6.6.4.3-1 -> 6.6.4.10-1)
+[2010-10-19 23:38] upgraded iotop (0.4.1-1 -> 0.4.1-2)
+[2010-10-19 23:38] upgraded musicbrainz (2.1.5-3 -> 2.1.5-4)
+[2010-10-19 23:38] upgraded kdemultimedia-kioslave (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded k3b (2.0.1-2 -> 2.0.1-3)
+[2010-10-19 23:38] upgraded kdeadmin-kcron (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeadmin-ksystemlog (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeadmin-kuser (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded sip (4.10.5-1 -> 4.11.1-2)
+[2010-10-19 23:38] upgraded pyqt (4.7.4-2 -> 4.7.7-2)
+[2010-10-19 23:38] upgraded qscintilla (2.4.4-2 -> 2.4.5-3)
+[2010-10-19 23:38] upgraded kdebindings-python (4.5.1-1 -> 4.5.2-7)
+[2010-10-19 23:38] upgraded pycups (1.9.51-1 -> 1.9.51-2)
+[2010-10-19 23:38] upgraded pysmbc (1.0.8-1 -> 1.0.9-1)
+[2010-10-19 23:38] upgraded system-config-printer-common (1.2.4-1 -> 1.2.5-3)
+[2010-10-19 23:38] upgraded kdeadmin-system-config-printer-kde (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeartwork-colorschemes (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeartwork-desktopthemes (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeartwork-emoticons (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeartwork-iconthemes (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeartwork-kscreensaver (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeartwork-sounds (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeartwork-styles (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeartwork-wallpapers (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeartwork-weatherwallpapers (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdebase-lib (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdebase-dolphin (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdebase-kdepasswd (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdebase-kdialog (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdebase-kfind (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdebase-konqueror (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdebase-konsole (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdebase-kwrite (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdebase-plasma (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeedu-data (4.5.1-1 -> 4.5.2-2)
+[2010-10-19 23:38] upgraded kdeedu-libkdeedu (4.5.1-1 -> 4.5.2-2)
+[2010-10-19 23:38] upgraded kdegraphics-gwenview (4.5.1-1 -> 4.5.2-2)
+[2010-10-19 23:38] upgraded kdegraphics-kamera (4.5.1-1 -> 4.5.2-2)
+[2010-10-19 23:38] upgraded kdegraphics-kcolorchooser (4.5.1-1 -> 4.5.2-2)
+[2010-10-19 23:38] upgraded kdegraphics-kgamma (4.5.1-1 -> 4.5.2-2)
+[2010-10-19 23:38] upgraded kdegraphics-kolourpaint (4.5.1-1 -> 4.5.2-2)
+[2010-10-19 23:38] upgraded kdegraphics-kruler (4.5.1-1 -> 4.5.2-2)
+[2010-10-19 23:38] upgraded kdegraphics-ksnapshot (4.5.1-1 -> 4.5.2-2)
+[2010-10-19 23:38] upgraded poppler (0.14.0-1 -> 0.14.4-1)
+[2010-10-19 23:38] upgraded poppler-qt (0.14.0-1 -> 0.14.4-1)
+[2010-10-19 23:38] upgraded libspectre (0.2.6-1 -> 0.2.6-2)
+[2010-10-19 23:38] upgraded kdegraphics-okular (4.5.1-1 -> 4.5.2-2)
+[2010-10-19 23:38] upgraded kdemultimedia-dragonplayer (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded tunepimp (0.5.3-7 -> 0.5.3-8)
+[2010-10-19 23:38] upgraded kdemultimedia-juk (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdemultimedia-kmix (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdemultimedia-kscd (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdemultimedia-mplayerthumbs (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdenetwork-filesharing (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdenetwork-kdnssd (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdenetwork-kget (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded libidn (1.16-1 -> 1.19-1)
+[2010-10-19 23:38] upgraded libgadu (1.9.0-1 -> 1.9.1-1)
+[2010-10-19 23:38] upgraded kdenetwork-kopete (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdenetwork-kppp (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdenetwork-krdc (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdenetwork-krfb (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-applets-bball (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-applets-binary-clock (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-applets-blackboard (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-applets-bubblemon (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-applets-calculator (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-applets-charselect (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-libs (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-applets-comic (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-applets-dict (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-applets-eyes (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-applets-fifteenpuzzle (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-applets-filewatcher (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-applets-frame (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-applets-fuzzy-clock (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-applets-incomingmsg (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded qwt (5.2.0-2 -> 5.2.1-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-applets-kdeobservatory (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-applets-kimpanel (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-applets-knowledgebase (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-applets-kolourpicker (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-applets-konqprofiles (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-applets-konsoleprofiles (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-applets-lancelot (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-applets-leavenote (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-applets-life (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-applets-luna (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-applets-magnifique (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-applets-mediaplayer (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-applets-microblog (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-applets-news (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-applets-notes (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-applets-nowplaying (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-applets-paste (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-applets-pastebin (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-applets-plasmaboard (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-applets-previewer (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-applets-qalculate (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-applets-rememberthemilk (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-applets-rssnow (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-applets-showdashboard (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-applets-showdesktop (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-applets-social-news (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-applets-spellcheck (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-applets-systemloadviewer (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-applets-timer (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-applets-unitconverter (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-applets-weather (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-applets-weatherstation (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-applets-webslice (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-runners-audioplayercontrol (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-runners-browserhistory (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-runners-contacts (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-runners-converter (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-runners-katesessions (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-runners-konquerorsessions (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-runners-konsolesessions (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-runners-kopete (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-runners-mediawiki (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-runners-spellchecker (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-wallpapers-mandelbrot (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-wallpapers-pattern (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-wallpapers-virus (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeplasma-addons-wallpapers-weather (4.5.1-1 -> 4.5.2-1)
+[2010-10-19 23:38] upgraded kdeutils-ark (4.5.1-1 -> 4.5.2-2)
+[2010-10-19 23:38] upgraded kdeutils-kcalc (4.5.1-1 -> 4.5.2-2)
+[2010-10-19 23:38] upgraded kdeutils-kcharselect (4.5.1-1 -> 4.5.2-2)
+[2010-10-19 23:38] upgraded kdeutils-kdf (4.5.1-1 -> 4.5.2-2)
+[2010-10-19 23:38] upgraded kdeutils-kfloppy (4.5.1-1 -> 4.5.2-2)
+[2010-10-19 23:39] upgraded kdeutils-kgpg (4.5.1-1 -> 4.5.2-2)
+[2010-10-19 23:39] upgraded kdeutils-kremotecontrol (4.5.1-1 -> 4.5.2-2)
+[2010-10-19 23:39] upgraded kdeutils-ktimer (4.5.1-1 -> 4.5.2-2)
+[2010-10-19 23:39] upgraded kdeutils-kwallet (4.5.1-1 -> 4.5.2-2)
+[2010-10-19 23:39] upgraded kdeutils-okteta (4.5.1-1 -> 4.5.2-2)
+[2010-10-19 23:39] upgraded kdeutils-printer-applet (4.5.1-1 -> 4.5.2-2)
+[2010-10-19 23:39] upgraded kdeutils-superkaramba (4.5.1-1 -> 4.5.2-2)
+[2010-10-19 23:39] upgraded kdeutils-sweeper (4.5.1-1 -> 4.5.2-2)
+[2010-10-19 23:39] upgraded linux-firmware (20100807-1 -> 20100911-1)
+[2010-10-19 23:39] >>> Updating module dependencies. Please wait ...
+[2010-10-19 23:39] >>> MKINITCPIO SETUP
+[2010-10-19 23:39] >>> ----------------
+[2010-10-19 23:39] >>> If you use LVM2, Encrypted root or software RAID,
+[2010-10-19 23:39] >>> Ensure you enable support in /etc/mkinitcpio.conf .
+[2010-10-19 23:39] >>> More information about mkinitcpio setup can be found here:
+[2010-10-19 23:39] >>> http://wiki.archlinux.org/index.php/Mkinitcpio
+[2010-10-19 23:39]
+[2010-10-19 23:39] >>> Generating initial ramdisk, using mkinitcpio. Please wait...
+[2010-10-19 23:39] ==> Building image "default"
+[2010-10-19 23:39] ==> Running command: /sbin/mkinitcpio -k 2.6.35-ARCH -c /etc/mkinitcpio.conf -g /boot/kernel26.img
+[2010-10-19 23:39] :: Begin build
+[2010-10-19 23:39] :: Parsing hook [base]
+[2010-10-19 23:39] :: Parsing hook [udev]
+[2010-10-19 23:39] :: Parsing hook [usb]
+[2010-10-19 23:39] :: Parsing hook [lvm2]
+[2010-10-19 23:39] :: Parsing hook [autodetect]
+[2010-10-19 23:39] :: Parsing hook [pata]
+[2010-10-19 23:39] :: Parsing hook [scsi]
+[2010-10-19 23:39] :: Parsing hook [sata]
+[2010-10-19 23:39] :: Parsing hook [filesystems]
+[2010-10-19 23:39] :: Generating module dependencies
+[2010-10-19 23:39] :: Generating image '/boot/kernel26.img'...SUCCESS
+[2010-10-19 23:39] ==> SUCCESS
+[2010-10-19 23:39] ==> Building image "fallback"
+[2010-10-19 23:39] ==> Running command: /sbin/mkinitcpio -k 2.6.35-ARCH -c /etc/mkinitcpio.conf -g /boot/kernel26-fallback.img -S autodetect
+[2010-10-19 23:39] :: Begin build
+[2010-10-19 23:39] :: Parsing hook [base]
+[2010-10-19 23:39] :: Parsing hook [udev]
+[2010-10-19 23:39] :: Parsing hook [usb]
+[2010-10-19 23:39] :: Parsing hook [lvm2]
+[2010-10-19 23:39] :: Parsing hook [pata]
+[2010-10-19 23:39] :: Parsing hook [scsi]
+[2010-10-19 23:39] :: Parsing hook [sata]
+[2010-10-19 23:39] :: Parsing hook [filesystems]
+[2010-10-19 23:39] :: Generating module dependencies
+[2010-10-19 23:40] :: Generating image '/boot/kernel26-fallback.img'...SUCCESS
+[2010-10-19 23:40] ==> SUCCESS
+[2010-10-19 23:40] upgraded kernel26 (2.6.35.4-2 -> 2.6.35.7-1)
+[2010-10-19 23:40] upgraded kernel26-headers (2.6.35.4-2 -> 2.6.35.7-1)
+[2010-10-19 23:40] upgraded opencv (2.1.0-1 -> 2.1.0-2)
+[2010-10-19 23:40] upgraded mutagen (1.20-1 -> 1.20-3)
+[2010-10-19 23:40] upgraded libplist (1.3-1 -> 1.3-2)
+[2010-10-19 23:40] upgraded usbmuxd (1.0.4-2 -> 1.0.5-1)
+[2010-10-19 23:40] upgraded libimobiledevice (1.0.2-1 -> 1.0.3-1)
+[2010-10-19 23:40] upgraded libgpod (0.7.93-1 -> 0.8.0-1)
+[2010-10-19 23:40] upgraded kipi-plugins (1.4.0-1 -> 1.5.0-1)
+[2010-10-19 23:40] upgraded koffice-filters (2.2.2-1 -> 2.2.2-4)
+[2010-10-19 23:40] upgraded koffice-servicetypes (2.2.2-1 -> 2.2.2-4)
+[2010-10-19 23:40] upgraded koffice-libs (2.2.2-1 -> 2.2.2-4)
+[2010-10-19 23:40] upgraded koffice-interfaces (2.2.2-1 -> 2.2.2-4)
+[2010-10-19 23:40] upgraded koffice-templates (2.2.2-1 -> 2.2.2-4)
+[2010-10-19 23:40] upgraded koffice-karbon (2.2.2-1 -> 2.2.2-4)
+[2010-10-19 23:40] upgraded koffice-kchart (2.2.2-1 -> 2.2.2-4)
+[2010-10-19 23:40] upgraded koffice-kounavail (2.2.2-1 -> 2.2.2-4)
+[2010-10-19 23:40] upgraded koffice-plugins (2.2.2-1 -> 2.2.2-4)
+[2010-10-19 23:40] upgraded koffice-pics (2.2.2-1 -> 2.2.2-4)
+[2010-10-19 23:40] upgraded koffice-kword (2.2.2-1 -> 2.2.2-4)
+[2010-10-19 23:40] upgraded koffice-kplato (2.2.2-1 -> 2.2.2-4)
+[2010-10-19 23:40] upgraded koffice-kpresenter (2.2.2-1 -> 2.2.2-4)
+[2010-10-19 23:40] upgraded koffice-krita (2.2.2-1 -> 2.2.2-4)
+[2010-10-19 23:40] upgraded koffice-kspread (2.2.2-1 -> 2.2.2-4)
+[2010-10-19 23:40] upgraded koffice-tools (2.2.2-1 -> 2.2.2-4)
+[2010-10-19 23:40] upgraded konversation (1.3.1-1 -> 1.3.1-2)
+[2010-10-19 23:40] upgraded lib32-glibc (2.12.1-5 -> 2.12.1-6)
+[2010-10-19 23:40] upgraded lib32-dbus-core (1.2.24-3 -> 1.4.0-2)
+[2010-10-19 23:40] upgraded lib32-glib2 (2.24.1-3 -> 2.26.0-1)
+[2010-10-19 23:40] upgraded lib32-atk (1.30.0-3 -> 1.32.0-1)
+[2010-10-19 23:40] upgraded lib32-libpng (1.4.3-3 -> 1.4.4-1)
+[2010-10-19 23:40] upgraded lib32-cairo (1.8.10-3 -> 1.10.0-3)
+[2010-10-19 23:40] upgraded lib32-freetype2 (2.4.2-3 -> 2.4.3-1)
+[2010-10-19 23:40] upgraded lib32-pango (1.28.1-3 -> 1.28.3-1)
+[2010-10-19 23:40] installed lib32-gdk-pixbuf2 (2.22.0-2)
+[2010-10-19 23:40] upgraded lib32-gtk2 (2.20.1-4 -> 2.22.0-3)
+[2010-10-19 23:40] upgraded lib32-nvidia-utils (256.53-2 -> 260.19.12-1)
+[2010-10-19 23:40] upgraded lib32-qt (4.6.3-2 -> 4.7.0-3)
+[2010-10-19 23:40] upgraded lib32-sdl_image (1.2.10-2 -> 1.2.10-3)
+[2010-10-19 23:40] upgraded libbonobo (2.24.3-1 -> 2.32.0-1)
+[2010-10-19 23:40] upgraded libgnomecanvas (2.30.1-1 -> 2.30.2-1)
+[2010-10-19 23:40] upgraded tdb (1.2.1-1 -> 1.2.1-2)
+[2010-10-19 23:40] installed libcanberra (0.25-1)
+[2010-10-19 23:40] upgraded libgnome (2.30.0-1 -> 2.32.0-1)
+[2010-10-19 23:40] upgraded libbonoboui (2.24.3-1 -> 2.24.4-1)
+[2010-10-19 23:40] upgraded libgnomeui (2.24.3-1 -> 2.24.4-1)
+[2010-10-19 23:40] upgraded libgsf (1.14.18-1 -> 1.14.18-2)
+[2010-10-19 23:40] upgraded libiec61883 (1.2.0-1 -> 1.2.0-2)
+[2010-10-19 23:40] upgraded libieee1284 (0.2.11-2 -> 0.2.11-3)
+[2010-10-19 23:40] upgraded libpurple (2.7.3-1 -> 2.7.3-2)
+[2010-10-19 23:40] upgraded libsndfile (1.0.21-1 -> 1.0.23-1)
+[2010-10-19 23:40] upgraded libwebkit (1.2.4-1 -> 1.2.5-1)
+[2010-10-19 23:40] upgraded logrotate (3.7.8-1 -> 3.7.9-1)
+[2010-10-19 23:40] upgraded lsof (4.83-1 -> 4.84-1)
+[2010-10-19 23:40] upgraded luarocks (2.0.2-1 -> 2.0.3-1)
+[2010-10-19 23:40] upgraded lvm2 (2.02.73-1 -> 2.02.74-1)
+[2010-10-19 23:40] upgraded lxappearance (0.4.0-2 -> 0.5.0-1)
+[2010-10-19 23:40] upgraded man-pages (3.26-1 -> 3.28-1)
+[2010-10-19 23:40] upgraded mercurial (1.6.3-1 -> 1.6.4-2)
+[2010-10-19 23:40] upgraded mlocate (0.23-1 -> 0.23.1-1)
+[2010-10-19 23:40] upgraded mlt-python-bindings (0.5.2-1 -> 0.5.2-2)
+[2010-10-19 23:40] upgraded mpd (0.15.12-1 -> 0.15.13-1)
+[2010-10-19 23:40] upgraded nmap (5.21-2 -> 5.21-3)
+[2010-10-19 23:40] upgraded ntp (4.2.6-3 -> 4.2.6.p2-1)
+[2010-10-19 23:40] In order to use the new nvidia module, exit Xserver and unload it manually.
+[2010-10-19 23:40] upgraded nvidia (256.53-1 -> 260.19.12-1)
+[2010-10-19 23:40] Place menu.xml, rc.xml and autostart.sh in ~/.config/openbox
+[2010-10-19 23:40] They can be found in /etc/xdg/openbox
+[2010-10-19 23:40] upgraded openbox (3.4.11.2-1 -> 3.4.11.2-2)
+[2010-10-19 23:40] upgraded obmenu (1.0-7 -> 1.0-8)
+[2010-10-19 23:40] upgraded python-fuse (0.2.1-1 -> 0.2.1-2)
+[2010-10-19 23:40] upgraded obtheme (2010.03.01.1-1 -> 2010.03.01.1-2)
+[2010-10-19 23:40] when you use a non-reparenting window manager
+[2010-10-19 23:40] set _JAVA_AWT_WM_NONREPARENTING=1 in
+[2010-10-19 23:40] /etc/profile.d/openjdk6.sh
+[2010-10-19 23:40] upgraded openjdk6 (6.b20_1.9-1 -> 6.b20_1.9.1-1)
+[2010-10-19 23:40] upgraded pygoocanvas (0.14.1-2 -> 0.14.1-3)
+[2010-10-19 23:40] Unknown media type in type 'all/all'
+[2010-10-19 23:40]
+[2010-10-19 23:40] Unknown media type in type 'all/allfiles'
+[2010-10-19 23:40]
+[2010-10-19 23:40] Unknown media type in type 'uri/mms'
+[2010-10-19 23:40]
+[2010-10-19 23:40] Unknown media type in type 'uri/mmst'
+[2010-10-19 23:40]
+[2010-10-19 23:40] Unknown media type in type 'uri/mmsu'
+[2010-10-19 23:40]
+[2010-10-19 23:40] Unknown media type in type 'uri/pnm'
+[2010-10-19 23:40]
+[2010-10-19 23:40] Unknown media type in type 'uri/rtspt'
+[2010-10-19 23:40]
+[2010-10-19 23:40] Unknown media type in type 'uri/rtspu'
+[2010-10-19 23:40]
+[2010-10-19 23:40] Unknown media type in type 'fonts/package'
+[2010-10-19 23:40]
+[2010-10-19 23:40] Unknown media type in type 'interface/x-winamp-skin'
+[2010-10-19 23:40]
+[2010-10-19 23:40] upgraded openshot (1.1.3-1 -> 1.2.2-2)
+[2010-10-19 23:40] upgraded perl-xyne-common (2010.08.20.2-1 -> 2010.10.09.1-1)
+[2010-10-19 23:40] upgraded perl-xyne-arch (2010.09.17.1-1 -> 2010.10.09.1-1)
+[2010-10-19 23:40] upgraded php (5.3.3-1 -> 5.3.3-2)
+[2010-10-19 23:40] upgraded php-pear (5.3.3-1 -> 5.3.3-2)
+[2010-10-19 23:40] upgraded pidgin (2.7.3-1 -> 2.7.3-2)
+[2010-10-19 23:40] upgraded postgresql-libs (8.4.4-5 -> 8.4.4-6)
+[2010-10-19 23:40] upgraded pyinotify (20100326-1 -> 0.9.0-1)
+[2010-10-19 23:41] upgraded python (2.6.5-3 -> 3.1.2-2)
+[2010-10-19 23:41] upgraded python-beaker (1.5.4-1 -> 1.5.4-2)
+[2010-10-19 23:41] upgraded python-imaging (1.1.7-1 -> 1.1.7-2)
+[2010-10-19 23:41] upgraded python-markupsafe (0.9.2-1 -> 0.9.2-2)
+[2010-10-19 23:41] upgraded python-mako (0.3.4-3 -> 0.3.4-4)
+[2010-10-19 23:41] upgraded python-mpd (0.2.1-3 -> 0.2.1-4)
+[2010-10-19 23:41] upgraded python-notify (0.1.1-6 -> 0.1.1-8)
+[2010-10-19 23:41] upgraded python-reportlab (2.4-1 -> 2.5-1)
+[2010-10-19 23:41] upgraded qtcurve-gtk2 (1.6.1-1 -> 1.6.4-1)
+[2010-10-19 23:41] upgraded qtcurve-kde4 (1.6.1-1 -> 1.6.4-1)
+[2010-10-19 23:41] upgraded rasqal (0.9.19-2 -> 0.9.20-1)
+[2010-10-19 23:41] upgraded redland (1.0.10-2 -> 1.0.12-1)
+[2010-10-19 23:41] upgraded scons (1.3.1-1 -> 2.0.1-1)
+[2010-10-19 23:41] upgraded smartmontools (5.39.1-1 -> 5.40-1)
+[2010-10-19 23:41] upgraded sonata (1.6.2.1-1 -> 1.6.2.1-2)
+[2010-10-19 23:41] upgraded subversion (1.6.9-5 -> 1.6.9-6)
+[2010-10-19 23:41] upgraded sysvinit (2.86-5 -> 2.88-2)
+[2010-10-19 23:41] upgraded telepathy-glib (0.10.7-1 -> 0.12.1-1)
+[2010-10-19 23:41] upgraded telepathy-farsight (0.0.15-1 -> 0.0.15-2)
+[2010-10-19 23:41] upgraded tint2 (0.11-1 -> 0.11-2)
+[2010-10-19 23:41] upgraded transcode (1.1.5-4 -> 1.1.5-5)
+[2010-10-19 23:41] upgraded vdpau-video (0.6.10-2 -> 0.7.2-1)
+[2010-10-19 23:41] upgraded vim-runtime (7.3.3-1 -> 7.3.3-2)
+[2010-10-19 23:41] upgraded vim (7.3.3-1 -> 7.3.3-2)
+[2010-10-19 23:41] upgraded vlc (1.1.4-2 -> 1.1.4.1-2)
+[2010-10-19 23:41] upgraded vte (0.24.3-1 -> 0.26.1-1)
+[2010-10-19 23:41] upgraded weechat (0.3.3-1 -> 0.3.3-3)
+[2010-10-19 23:41] upgraded wesnoth-data (1.8.4-2 -> 1.8.5-1)
+[2010-10-19 23:41] upgraded wesnoth (1.8.4-1 -> 1.8.5-1)
+[2010-10-19 23:41] upgraded wine (1.3.3-2 -> 1.3.5-1)
+[2010-10-19 23:41] upgraded x11vnc (0.9.11-1 -> 0.9.12-1)
+[2010-10-19 23:41] upgraded xcb-proto (1.6-1 -> 1.6-2)
+[2010-10-19 23:41] upgraded xchat (2.8.8-2 -> 2.8.8-3)
+[2010-10-19 23:41] upgraded xerces-c (3.1.0-2 -> 3.1.1-2)
+[2010-10-19 23:41] upgraded xf86-input-keyboard (1.4.0-2 -> 1.4.0-3)
+[2010-10-19 23:41] upgraded xf86-input-mouse (1.5.0-2 -> 1.6.0-1)
+[2010-10-19 23:41] upgraded xf86-video-vesa (2.3.0-2 -> 2.3.0-3)
+[2010-10-19 23:41] upgraded xscreensaver (5.11-2 -> 5.12-1)
+[2010-10-19 23:41] upgraded xterm (261-1 -> 262-1)
+[2010-10-20 00:06] Running 'pacman -Syyyyu'
+[2010-10-20 00:06] synchronizing package lists
+[2010-10-20 00:07] starting full system upgrade
+[2010-10-24 13:07] Running 'pacman -Syu'
+[2010-10-24 13:07] synchronizing package lists
+[2010-10-24 13:07] starting full system upgrade
+[2010-10-27 00:47] Running 'pacman -Syu'
+[2010-10-27 00:47] synchronizing package lists
+[2010-10-27 00:47] starting full system upgrade
+[2010-10-27 00:52] removed libdjvu (3.5.22-3)
+[2010-10-27 00:52] removed setuptools (0.6c11-3)
+[2010-10-27 00:52] upgraded shared-mime-info (0.71-1 -> 0.80-1)
+[2010-10-27 00:52] upgraded akonadi (1.4.0-1 -> 1.4.1-1)
+[2010-10-27 00:52] upgraded apache (2.2.16-1 -> 2.2.17-1)
+[2010-10-27 00:52] upgraded audacious-plugins (2.4.0-2 -> 2.4.0-3)
+[2010-10-27 00:52] upgraded bluez (4.76-1 -> 4.77-1)
+[2010-10-27 00:52] upgraded cfitsio (3.250-1 -> 3.250-2)
+[2010-10-27 00:52] upgraded foomatic-db (4.0.5_20100816-1 -> 4.0.5_20101024-1)
+[2010-10-27 00:52] Generating locales...
+[2010-10-27 00:52] en_US.UTF-8... done
+[2010-10-27 00:52] en_US.ISO-8859-1... done
+[2010-10-27 00:52] Generation complete.
+[2010-10-27 00:52] upgraded glibc (2.12.1-2 -> 2.12.1-3)
+[2010-10-27 00:52] upgraded foomatic-filters (4.0.5_20100816-1 -> 4.0.5_20101024-1)
+[2010-10-27 00:52] upgraded foomatic-db-engine (4.0.5_20100816-1 -> 4.0.5_20101024-1)
+[2010-10-27 00:52] upgraded gamin (0.1.10-3 -> 0.1.10-4)
+[2010-10-27 00:52] upgraded git (1.7.3.1-3 -> 1.7.3.2-1)
+[2010-10-27 00:52] upgraded gnupg (1.4.10-2 -> 1.4.11-1)
+[2010-10-27 00:52] upgraded gobject-introspection (0.9.10-2 -> 0.9.12-1)
+[2010-10-27 00:52] upgraded gtk-kde4 (0.9.4-2 -> 0.9.5b-1)
+[2010-10-27 00:53] upgraded kdepim-runtime (4.4.6-1 -> 4.4.7-1)
+[2010-10-27 00:53] upgraded sip (4.11.1-2 -> 4.11.2-1)
+[2010-10-27 00:53] upgraded pyqt (4.7.7-2 -> 4.8.0-1)
+[2010-10-27 00:53] upgraded qscintilla (2.4.5-3 -> 2.4.5-4)
+[2010-10-27 00:53] upgraded kdebindings-python (4.5.2-7 -> 4.5.2-8)
+[2010-10-27 00:53] upgraded kdepim-libkdepim (4.4.6-1 -> 4.4.7-1)
+[2010-10-27 00:53] upgraded libktorrent (1.0.3-1 -> 1.0.4-1)
+[2010-10-27 00:53] upgraded ktorrent (4.0.3-1 -> 4.0.4-1)
+[2010-10-27 00:53] upgraded lib32-glibc (2.12.1-6 -> 2.12.1-7)
+[2010-10-27 00:53] installed djvulibre (3.5.23-1)
+[2010-10-27 00:53] upgraded libfm (0.1.12-1 -> 0.1.14-1)
+[2010-10-27 00:53] upgraded libfontenc (1.0.5-1 -> 1.1.0-1)
+[2010-10-27 00:53] upgraded libice (1.0.6-1 -> 1.0.7-1)
+[2010-10-27 00:53] upgraded libpurple (2.7.3-2 -> 2.7.4-1)
+[2010-10-27 00:53] upgraded libxaw (1.0.7-1 -> 1.0.8-1)
+[2010-10-27 00:53] upgraded libxfont (1.4.2-1 -> 1.4.2-2)
+[2010-10-27 00:53] upgraded man-pages (3.28-1 -> 3.29-1)
+[2010-10-27 00:53] upgraded mplayer (32492-1 -> 32492-2)
+[2010-10-27 00:53] upgraded pcmanfm (0.9.7-1 -> 0.9.8-1)
+[2010-10-27 00:53] upgraded pidgin (2.7.3-2 -> 2.7.4-1)
+[2010-10-27 00:53] upgraded pycrypto (2.2-1 -> 2.3-1)
+[2010-10-27 00:53] upgraded scummvm (1.1.1-1 -> 1.2.0-1)
+[2010-10-27 00:53] installed python2-distribute (0.6.14-2)
+[2010-10-27 00:53] upgraded telepathy-glib (0.12.1-1 -> 0.12.1-2)
+[2010-10-27 00:53] upgraded tint2 (0.11-2 -> 0.11-3)
+[2010-10-27 00:53] installed xorg-luit (1.1.0-1)
+[2010-10-27 00:53] installed xorg-xpr (1.0.3-1)
+[2010-10-27 00:53] installed xorg-xwd (1.0.3-1)
+[2010-10-27 00:53] installed xorg-xwud (1.0.2-1)
+[2010-10-27 00:53] installed xorg-x11perf (1.5.2-1)
+[2010-10-27 00:53] installed xorg-xcursorgen (1.0.4-1)
+[2010-10-27 00:53] installed xorg-xkill (1.0.2-1)
+[2010-10-27 00:53] upgraded xorg-apps (7.5-3 -> 7.6-1)
+[2010-10-27 00:53] installed xorg-iceauth (1.0.3-1)
+[2010-10-27 00:53] installed xorg-sessreg (1.0.6-1)
+[2010-10-27 00:53] installed xorg-xcmsdb (1.0.3-1)
+[2010-10-27 00:53] installed xorg-xbacklight (1.1.1-1)
+[2010-10-27 00:53] installed xorg-xgamma (1.0.3-1)
+[2010-10-27 00:53] installed xorg-xhost (1.0.3-1)
+[2010-10-27 00:53] installed xorg-xinput (1.5.2-1)
+[2010-10-27 00:53] installed xorg-xmodmap (1.0.5-1)
+[2010-10-27 00:53] installed nickle (2.70-1)
+[2010-10-27 00:53] installed xorg-xrandr (1.3.3-1)
+[2010-10-27 00:53] installed xorg-xrdb (1.0.6-1)
+[2010-10-27 00:53] installed xorg-xrefresh (1.0.3-1)
+[2010-10-27 00:53] installed xorg-xset (1.2.0-1)
+[2010-10-27 00:53] installed xorg-xsetroot (1.0.3-1)
+[2010-10-27 00:53] upgraded xorg-server-utils (7.5-6 -> 7.6-1)
+[2010-10-27 00:53] upgraded xorg-utils (7.6-4 -> 7.6-5)
+[2010-10-27 00:53] upgraded xterm (262-1 -> 266-1)
+[2010-10-27 00:53] upgraded xz (4.999.9beta_174_g41bc-1 -> 4.999.9beta_212_gacbc-1)
+[2010-10-27 00:54] Running 'pacman -Syu'
+[2010-10-27 00:54] synchronizing package lists
+[2010-10-27 00:54] starting full system upgrade
+[2010-10-27 23:01] Running '/usr/bin/pacman -S gereqi'
+[2010-10-27 23:03] Running '/usr/bin/pacman -Sy'
+[2010-10-27 23:03] synchronizing package lists
+[2010-10-27 23:03] Running '/usr/bin/pacman -Sy'
+[2010-10-27 23:03] synchronizing package lists
+[2010-10-27 23:03] Running '/usr/bin/pacman -S -u'
+[2010-10-27 23:03] starting full system upgrade
+[2010-10-27 23:04] upgraded elfutils (0.149-1 -> 0.149-2)
+[2010-10-27 23:04] upgraded xulrunner (1.9.2.11-1 -> 1.9.2.12-1)
+[2010-10-27 23:04] upgraded firefox (3.6.11-1 -> 3.6.12-1)
+[2010-10-27 23:05] upgraded gimp (2.6.10-2 -> 2.6.11-1)
+[2010-10-27 23:05] upgraded xz (4.999.9beta_212_gacbc-1 -> 5.0.0-1)
+[2010-10-27 23:05] upgraded kdelibs (4.5.2-1 -> 4.5.2-2)
+[2010-10-27 23:05] upgraded libarchive (2.8.4-1 -> 2.8.4-2)
+[2010-10-27 23:05] upgraded postgresql-libs (8.4.4-6 -> 9.0.1-2)
+[2010-10-27 23:05] upgraded pyinotify (0.9.0-1 -> 0.9.1-1)
+[2010-10-27 23:05] upgraded telepathy-glib (0.12.1-2 -> 0.12.2-1)
+[2010-10-27 23:05] upgraded tzdata (2010m-1 -> 2010n-1)
+[2010-10-27 23:08] Running 'pacman -U /home/mshade/build/package-query-0.4-1-x86_64.pkg.tar.gz'
+[2010-10-27 23:08] upgraded package-query (0.3-2 -> 0.4-1)
+[2010-10-27 23:08] Running 'pacman -U /home/mshade/build/yaourt/yaourt-0.9.5-1-any.pkg.tar.gz'
+[2010-10-27 23:08] Check /etc/yaourtrc
+[2010-10-27 23:08] ==> for a full colorized output, install pacman-color and export PACMAN=pacman-color
+[2010-10-27 23:08] or set it into yaourtrc file.
+[2010-10-27 23:08] upgraded yaourt (0.9.4.3-1 -> 0.9.5-1)
+[2010-10-27 23:09] Running 'pacman -Sy'
+[2010-10-27 23:09] synchronizing package lists
+[2010-10-27 23:10] Running 'pacman -S --asdeps extra/gstreamer0.10-bad-plugins'
+[2010-10-27 23:10] installed gstreamer0.10-bad (0.10.19-1)
+[2010-10-27 23:10] installed gstreamer0.10-bad-plugins (0.10.19-1)
+[2010-10-27 23:10] Running 'pacman -U /tmp/yaourt-tmp-mshade/PKGDEST.y79/gereqi-0.4.2-1-x86_64.pkg.tar.gz'
+[2010-10-27 23:10] installed gereqi (0.4.2-1)
+[2010-10-27 23:26] Running 'pacman -U /home/mshade/gereqi/gereqi-0.4.2-2-x86_64.pkg.tar.gz'
+[2010-10-27 23:26] upgraded gereqi (0.4.2-1 -> 0.4.2-2)
+[2010-11-02 16:32] Running 'pacman -Syu'
+[2010-11-02 16:32] synchronizing package lists
+[2010-11-02 16:32] starting full system upgrade
+[2010-11-02 21:31] Running 'pacman -Sy'
+[2010-11-02 21:31] synchronizing package lists
+[2010-11-02 21:31] Running 'pacman -S -u'
+[2010-11-02 21:31] starting full system upgrade
+[2010-11-02 23:02] Running 'pacman -Sy'
+[2010-11-02 23:02] synchronizing package lists
+[2010-11-02 23:02] Running 'pacman -S -u'
+[2010-11-02 23:02] starting full system upgrade
+[2010-11-02 23:11] upgraded aalib (1.4rc5-6 -> 1.4rc5-7)
+[2010-11-02 23:12] upgraded amarok (2.3.2-2 -> 2.3.2-3)
+[2010-11-02 23:12] upgraded bash (4.1.007-1 -> 4.1.009-1)
+[2010-11-02 23:12] >> Major version update. Consider running db_upgrade on Berkeley DB databases.
+[2010-11-02 23:12] upgraded db (4.8.26-2 -> 5.1.19-2)
+[2010-11-02 23:12] upgraded apr-util (1.3.10-1 -> 1.3.10-2)
+[2010-11-02 23:12] upgraded libxext (1.1.2-1 -> 1.2.0-1)
+[2010-11-02 23:12] upgraded scrnsaverproto (1.2.0-1 -> 1.2.1-1)
+[2010-11-02 23:12] upgraded libxss (1.2.0-1 -> 1.2.1-1)
+[2010-11-02 23:12] upgraded chromium (6.0.472.62-1 -> 7.0.517.43-1)
+[2010-11-02 23:12] upgraded fixesproto (4.1.1-1 -> 4.1.2-1)
+[2010-11-02 23:12] upgraded compositeproto (0.4.1-1 -> 0.4.2-1)
+[2010-11-02 23:12] upgraded damageproto (1.2.0-1 -> 1.2.1-1)
+[2010-11-02 23:12] >>> Deluge's daemon is running default with the "deluge" user. The default download directory is /srv/deluge/.
+[2010-11-02 23:12] You can change the user by editing /etc/conf.d/deluged
+[2010-11-02 23:12] upgraded deluge (1.3.0-2 -> 1.3.1-1)
+[2010-11-02 23:12] upgraded device-mapper (2.02.74-1 -> 2.02.75-1)
+[2010-11-02 23:12] upgraded dhcpcd (5.2.7-1 -> 5.2.8-1)
+[2010-11-02 23:12] upgraded fontsproto (2.1.0-1 -> 2.1.1-1)
+[2010-11-02 23:12] upgraded libgphoto2 (2.4.9-1 -> 2.4.10-1)
+[2010-11-02 23:12] upgraded gphoto2 (2.4.9-1 -> 2.4.10-1)
+[2010-11-02 23:12] upgraded heimdal (1.3.3-1 -> 1.3.3-2)
+[2010-11-02 23:12] >>> Updating module dependencies. Please wait ...
+[2010-11-02 23:12] >>> MKINITCPIO SETUP
+[2010-11-02 23:12] >>> ----------------
+[2010-11-02 23:12] >>> If you use LVM2, Encrypted root or software RAID,
+[2010-11-02 23:12] >>> Ensure you enable support in /etc/mkinitcpio.conf .
+[2010-11-02 23:12] >>> More information about mkinitcpio setup can be found here:
+[2010-11-02 23:12] >>> http://wiki.archlinux.org/index.php/Mkinitcpio
+[2010-11-02 23:12]
+[2010-11-02 23:12] >>> Generating initial ramdisk, using mkinitcpio. Please wait...
+[2010-11-02 23:12] ==> Building image "default"
+[2010-11-02 23:12] ==> Running command: /sbin/mkinitcpio -k 2.6.35-ARCH -c /etc/mkinitcpio.conf -g /boot/kernel26.img
+[2010-11-02 23:12] :: Begin build
+[2010-11-02 23:12] :: Parsing hook [base]
+[2010-11-02 23:12] :: Parsing hook [udev]
+[2010-11-02 23:12] :: Parsing hook [usb]
+[2010-11-02 23:12] :: Parsing hook [lvm2]
+[2010-11-02 23:12] :: Parsing hook [autodetect]
+[2010-11-02 23:12] :: Parsing hook [pata]
+[2010-11-02 23:12] :: Parsing hook [scsi]
+[2010-11-02 23:12] :: Parsing hook [sata]
+[2010-11-02 23:12] :: Parsing hook [filesystems]
+[2010-11-02 23:12] :: Generating module dependencies
+[2010-11-02 23:12] :: Generating image '/boot/kernel26.img'...SUCCESS
+[2010-11-02 23:12] ==> SUCCESS
+[2010-11-02 23:12] ==> Building image "fallback"
+[2010-11-02 23:12] ==> Running command: /sbin/mkinitcpio -k 2.6.35-ARCH -c /etc/mkinitcpio.conf -g /boot/kernel26-fallback.img -S autodetect
+[2010-11-02 23:12] :: Begin build
+[2010-11-02 23:12] :: Parsing hook [base]
+[2010-11-02 23:12] :: Parsing hook [udev]
+[2010-11-02 23:12] :: Parsing hook [usb]
+[2010-11-02 23:12] :: Parsing hook [lvm2]
+[2010-11-02 23:12] :: Parsing hook [pata]
+[2010-11-02 23:12] :: Parsing hook [scsi]
+[2010-11-02 23:12] :: Parsing hook [sata]
+[2010-11-02 23:12] :: Parsing hook [filesystems]
+[2010-11-02 23:13] :: Generating module dependencies
+[2010-11-02 23:13] :: Generating image '/boot/kernel26-fallback.img'...SUCCESS
+[2010-11-02 23:13] ==> SUCCESS
+[2010-11-02 23:13] upgraded kernel26 (2.6.35.7-1 -> 2.6.35.8-1)
+[2010-11-02 23:13] upgraded kernel26-headers (2.6.35.7-1 -> 2.6.35.8-1)
+[2010-11-02 23:13] upgraded lib32-libice (1.0.6-3 -> 1.0.7-1)
+[2010-11-02 23:13] upgraded libsm (1.1.1-1 -> 1.2.0-1)
+[2010-11-02 23:13] upgraded lib32-libsm (1.1.1-3 -> 1.2.0-1)
+[2010-11-02 23:13] upgraded libxcomposite (0.4.2-1 -> 0.4.3-1)
+[2010-11-02 23:13] upgraded lib32-libxcomposite (0.4.2-3 -> 0.4.3-1)
+[2010-11-02 23:13] upgraded libxcursor (1.1.10-1 -> 1.1.11-1)
+[2010-11-02 23:13] upgraded lib32-libxcursor (1.1.10-3 -> 1.1.11-1)
+[2010-11-02 23:13] upgraded lib32-libxext (1.1.2-3 -> 1.2.0-1)
+[2010-11-02 23:13] upgraded lib32-libxft (2.1.14-3 -> 2.2.0-1)
+[2010-11-02 23:13] upgraded libxinerama (1.1-1 -> 1.1.1-1)
+[2010-11-02 23:13] upgraded lib32-libxinerama (1.1-3 -> 1.1.1-1)
+[2010-11-02 23:13] upgraded randrproto (1.3.1-1 -> 1.3.2-1)
+[2010-11-02 23:13] upgraded libxrandr (1.3.0-1 -> 1.3.1-1)
+[2010-11-02 23:13] upgraded lib32-libxrandr (1.3.0-3 -> 1.3.1-1)
+[2010-11-02 23:13] upgraded libxt (1.0.8-1 -> 1.0.9-1)
+[2010-11-02 23:13] upgraded lib32-libxt (1.0.8-3 -> 1.0.9-1)
+[2010-11-02 23:13] upgraded libdmx (1.1.0-1 -> 1.1.1-1)
+[2010-11-02 23:13] upgraded libsasl (2.1.23-4 -> 2.1.23-5)
+[2010-11-02 23:13] upgraded libpurple (2.7.4-1 -> 2.7.5-1)
+[2010-11-02 23:13] upgraded libvpx (0.9.2-1 -> 0.9.5-1)
+[2010-11-02 23:13] upgraded libxdmcp (1.0.3-1 -> 1.1.0-1)
+[2010-11-02 23:13] upgraded libxfont (1.4.2-2 -> 1.4.3-1)
+[2010-11-02 23:13] upgraded libxft (2.1.14-1 -> 2.2.0-1)
+[2010-11-02 23:13] upgraded libxkbfile (1.0.6-1 -> 1.0.7-1)
+[2010-11-02 23:13] upgraded libxmu (1.0.5-1 -> 1.1.0-1)
+[2010-11-02 23:13] upgraded libxpm (3.5.8-1 -> 3.5.9-1)
+[2010-11-02 23:13] upgraded recordproto (1.14-1 -> 1.14.1-1)
+[2010-11-02 23:13] upgraded libxtst (1.1.0-1 -> 1.2.0-1)
+[2010-11-02 23:13] upgraded libxv (1.0.5-1 -> 1.0.6-1)
+[2010-11-02 23:13] upgraded libxxf86dga (1.1.1-1 -> 1.1.2-1)
+[2010-11-02 23:13] upgraded libxxf86vm (1.1.0-1 -> 1.1.1-1)
+[2010-11-02 23:13] upgraded lvm2 (2.02.74-1 -> 2.02.75-1)
+[2010-11-02 23:13] upgraded python2 (2.7-2 -> 2.7-3)
+[2010-11-02 23:13] upgraded mercurial (1.6.4-2 -> 1.7-1)
+[2010-11-02 23:13] upgraded mlocate (0.23.1-1 -> 0.23.1-2)
+[2010-11-02 23:13] upgraded mpfr (3.0.0-2 -> 3.0.0.p4-1)
+[2010-11-02 23:13] upgraded pam (1.1.1-1 -> 1.1.1-2)
+[2010-11-02 23:13] - The directories /usr/lib/perl5/current, /usr/lib/perl5/site_perl/current,
+[2010-11-02 23:13] /usr/lib/perl5/site_perl/5.10.1, and /usr/share/perl5/site_perl/5.10.1
+[2010-11-02 23:13] will be removed from @INC in a future release.
+[2010-11-02 23:13] - The directory /usr/bin/perlbin/site will not be added to $PATH in a
+[2010-11-02 23:13] future release.
+[2010-11-02 23:13] upgraded perl (5.12.1-2 -> 5.12.1-3)
+[2010-11-02 23:13] upgraded perl-xyne-common (2010.10.09.1-1 -> 2010.10.09.1-2)
+[2010-11-02 23:13] upgraded perl-xyne-arch (2010.10.09.1-1 -> 2010.11.02.1-1)
+[2010-11-02 23:13] upgraded php (5.3.3-2 -> 5.3.3-3)
+[2010-11-02 23:13] upgraded php-pear (5.3.3-2 -> 5.3.3-3)
+[2010-11-02 23:13] upgraded pidgin (2.7.4-1 -> 2.7.5-1)
+[2010-11-02 23:13] upgraded postfix (2.7.1-1 -> 2.7.1-2)
+[2010-11-02 23:13] upgraded redland (1.0.12-1 -> 1.0.12-2)
+[2010-11-02 23:13] upgraded ruby (1.9.2_p0-3 -> 1.9.2_p0-4)
+[2010-11-02 23:13] upgraded subversion (1.6.9-6 -> 1.6.9-7)
+[2010-11-02 23:13] upgraded wine (1.3.5-1 -> 1.3.6-1)
+[2010-11-02 23:13] upgraded xorg-server-common (1.9.0-1 -> 1.9.2-1)
+[2010-11-02 23:13] upgraded xorg-server (1.9.0-1 -> 1.9.2-1)
+[2010-11-03 22:31] Running 'pacman -U /tmp/yaourt-tmp-root/PKGDEST.LOc/virtualbox_bin-3.2.10-2-x86_64.pkg.tar.gz'
+[2010-11-03 22:31] :: Unloading VirtualBox kernel modules [BUSY] [DONE]
+[2010-11-03 22:31] :: Removing old VirtualBox netadp kernel module [BUSY] [DONE]
+[2010-11-03 22:31] :: Removing old VirtualBox netflt kernel module [BUSY] [DONE]
+[2010-11-03 22:31] :: Removing old VirtualBox kernel module [BUSY] [DONE]
+[2010-11-03 22:31] :: Recompiling VirtualBox kernel modules [BUSY] [DONE]
+[2010-11-03 22:31] :: Reloading VirtualBox kernel modules [BUSY] [DONE]
+[2010-11-03 22:31]
+[2010-11-03 22:31] ==> You must load vboxdrv module before starting VirtualBox:
+[2010-11-03 22:31] ==> # modprobe vboxdrv
+[2010-11-03 22:31] ==>
+[2010-11-03 22:31] ==> You must load vboxnetflt for Host Interface Networking:
+[2010-11-03 22:31] ==> # modprobe vboxnetflt
+[2010-11-03 22:31] ==>
+[2010-11-03 22:31] ==> You must load vboxnetadp for Host-Only networking:
+[2010-11-03 22:31] ==> # modprobe vboxnetadp
+[2010-11-03 22:31] ==>
+[2010-11-03 22:31] ==> To load it automatically, add vboxdrv module to the "MODULES" array
+[2010-11-03 22:31] ==> "/etc/rc.conf".
+[2010-11-03 22:31] ==>
+[2010-11-03 22:31] ==> Run `/etc/rc.d/vboxdrv setup` as root every time your kernel is
+[2010-11-03 22:31] ==> upgraded, to compile the module for the new kernel version.
+[2010-11-03 22:31] ==>
+[2010-11-03 22:31] ==> If USB does not work for you out-of-the-box, add the following line
+[2010-11-03 22:31] ==> to "/etc/fstab":
+[2010-11-03 22:31] ==> "none /proc/bus/usb usbfs auto,busgid=108,busmode=0775,devgid=108,devmode=0664 0 0"
+[2010-11-03 22:31]
+[2010-11-03 22:31] upgraded virtualbox_bin (3.2.8-4 -> 3.2.10-2)
+[2010-11-04 22:02] Running 'pacman -Syu'
+[2010-11-04 22:02] synchronizing package lists
+[2010-11-04 22:02] starting full system upgrade
+[2010-11-04 22:13] upgraded cmake (2.8.2-3 -> 2.8.3-1)
+[2010-11-04 22:13] upgraded farsight2 (0.0.21-2 -> 0.0.22-1)
+[2010-11-04 22:13] warning: /etc/fstab installed as /etc/fstab.pacnew
+[2010-11-04 22:13] upgraded filesystem (2010.09-1 -> 2010.10-1)
+[2010-11-04 22:13] upgraded gpsd (2.95-4 -> 2.95-5)
+[2010-11-04 22:13] upgraded gvfs (1.6.4-1 -> 1.6.5-2)
+[2010-11-04 22:13] upgraded kdelibs (4.5.2-2 -> 4.5.3-1)
+[2010-11-04 22:13] upgraded kdeadmin-kcron (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:13] upgraded oxygen-icons (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:13] upgraded kdebase-runtime (4.5.2-2 -> 4.5.3-1)
+[2010-11-04 22:13] upgraded kdeadmin-ksystemlog (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:13] upgraded kdeadmin-kuser (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:13] upgraded pyqt (4.8.0-1 -> 4.8.1-1)
+[2010-11-04 22:13] upgraded kdebindings-python (4.5.2-8 -> 4.5.3-1)
+[2010-11-04 22:13] upgraded kdeadmin-system-config-printer-kde (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:13] upgraded kdeartwork-colorschemes (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:13] upgraded kdeartwork-desktopthemes (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:13] upgraded kdeartwork-emoticons (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:13] upgraded kdeartwork-iconthemes (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:13] upgraded kdepimlibs (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:13] warning: /usr/share/config/kdm/kdmrc installed as /usr/share/config/kdm/kdmrc.pacnew
+[2010-11-04 22:14] upgraded kdebase-workspace (4.5.2-2 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdegraphics-libs (4.5.2-2 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeartwork-kscreensaver (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeartwork-sounds (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeartwork-styles (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeartwork-wallpapers (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeartwork-weatherwallpapers (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdebase-lib (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdebase-dolphin (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdebase-kdepasswd (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdebase-kdialog (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdebase-kfind (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdebase-konqueror (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdebase-konsole (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdebase-kwrite (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdebase-plasma (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeedu-data (4.5.2-2 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeedu-libkdeedu (4.5.2-2 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeedu-marble (4.5.2-2 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdegraphics-gwenview (4.5.2-2 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdegraphics-kamera (4.5.2-2 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdegraphics-kcolorchooser (4.5.2-2 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdegraphics-kgamma (4.5.2-2 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdegraphics-kolourpaint (4.5.2-2 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdegraphics-kruler (4.5.2-2 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdegraphics-ksnapshot (4.5.2-2 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdegraphics-okular (4.5.2-2 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdemultimedia-dragonplayer (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdemultimedia-juk (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdemultimedia-kioslave (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdemultimedia-kmix (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdemultimedia-kscd (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdemultimedia-mplayerthumbs (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdenetwork-filesharing (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdenetwork-kdnssd (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdenetwork-kget (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdenetwork-kopete (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdenetwork-kppp (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdenetwork-krdc (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdenetwork-krfb (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-applets-bball (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-applets-binary-clock (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-applets-blackboard (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-applets-bubblemon (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-applets-calculator (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-applets-charselect (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-libs (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-applets-comic (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-applets-dict (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-applets-eyes (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-applets-fifteenpuzzle (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-applets-filewatcher (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-applets-frame (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-applets-fuzzy-clock (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-applets-incomingmsg (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-applets-kdeobservatory (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-applets-kimpanel (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-applets-knowledgebase (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-applets-kolourpicker (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-applets-konqprofiles (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-applets-konsoleprofiles (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-applets-lancelot (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-applets-leavenote (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-applets-life (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-applets-luna (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-applets-magnifique (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-applets-mediaplayer (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-applets-microblog (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-applets-news (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-applets-notes (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-applets-nowplaying (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-applets-paste (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-applets-pastebin (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-applets-plasmaboard (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-applets-previewer (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-applets-qalculate (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-applets-rememberthemilk (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-applets-rssnow (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-applets-showdashboard (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-applets-showdesktop (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-applets-social-news (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-applets-spellcheck (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-applets-systemloadviewer (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-applets-timer (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-applets-unitconverter (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-applets-weather (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-applets-weatherstation (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-applets-webslice (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-runners-audioplayercontrol (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-runners-browserhistory (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-runners-contacts (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-runners-converter (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-runners-katesessions (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-runners-konquerorsessions (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-runners-konsolesessions (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-runners-kopete (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-runners-mediawiki (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-runners-spellchecker (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-wallpapers-mandelbrot (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-wallpapers-pattern (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-wallpapers-virus (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeplasma-addons-wallpapers-weather (4.5.2-1 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeutils-ark (4.5.2-2 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeutils-kcalc (4.5.2-2 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeutils-kcharselect (4.5.2-2 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeutils-kdf (4.5.2-2 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeutils-kfloppy (4.5.2-2 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeutils-kgpg (4.5.2-2 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeutils-kremotecontrol (4.5.2-2 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeutils-ktimer (4.5.2-2 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeutils-kwallet (4.5.2-2 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeutils-okteta (4.5.2-2 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeutils-printer-applet (4.5.2-2 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeutils-superkaramba (4.5.2-2 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded kdeutils-sweeper (4.5.2-2 -> 4.5.3-1)
+[2010-11-04 22:14] upgraded libfm (0.1.14-1 -> 0.1.14-2)
+[2010-11-04 22:14] upgraded pcmanfm (0.9.8-1 -> 0.9.8-2)
+[2010-11-04 22:14] upgraded perl-xyne-arch (2010.11.02.1-1 -> 2010.11.05.1-1)
+[2010-11-04 22:14] upgraded telepathy-glib (0.12.2-1 -> 0.12.3-1)
+[2010-11-07 15:21] Running 'pacman -Syu'
+[2010-11-07 15:21] synchronizing package lists
+[2010-11-07 15:21] starting full system upgrade
+[2010-11-07 15:24] upgraded chromium (7.0.517.43-1 -> 7.0.517.44-1)
+[2010-11-07 15:24] upgraded ffmpeg (25472-1 -> 25679-1)
+[2010-11-07 15:24] upgraded gdk-pixbuf2 (2.22.0-2 -> 2.22.1-1)
+[2010-11-07 15:24] upgraded glew (1.5.6-1 -> 1.5.7-1)
+[2010-11-07 15:24] see http://wiki.archlinux.org/index.php/Openoffice
+[2010-11-07 15:24] how to use extensions, e.g. for spell checking
+[2010-11-07 15:24] see /usr/lib/go-openoffice/share/extension/install what
+[2010-11-07 15:24] is shipped with this package
+[2010-11-07 15:24] make sure you have installed a ttf font (ttf-dejavu recommended)
+[2010-11-07 15:24] upgraded go-openoffice (3.2.1.6-1 -> 3.2.1.6-2)
+[2010-11-07 15:24] upgraded gpsd (2.95-5 -> 2.95-6)
+[2010-11-07 15:24] upgraded lib32-gdk-pixbuf2 (2.22.0-2 -> 2.22.1-1)
+[2010-11-07 15:24] upgraded man-pages (3.29-1 -> 3.30-1)
+[2010-11-08 18:34] Running 'pacman -Syu'
+[2010-11-08 18:34] synchronizing package lists
+[2010-11-08 18:34] starting full system upgrade
+[2010-11-08 18:35] upgraded mpd (0.15.13-1 -> 0.15.14-1)
+[2010-11-08 18:35] upgraded openntpd (3.9p1-12 -> 3.9p1-13)
+[2010-11-08 18:35] upgraded smbclient (3.5.5-1 -> 3.5.6-1)
+[2010-11-08 18:35] upgraded samba (3.5.5-1 -> 3.5.6-1)
+[2010-11-08 18:35] upgraded yajl (1.0.9-3 -> 1.0.11-1)
+[2010-11-08 18:40] Running 'pacman -S --asdeps multilib/lib32-libxtst'
+[2010-11-08 18:40] installed lib32-libxtst (1.1.0-3)
+[2010-11-08 18:41] Running 'pacman -U /tmp/yaourt-tmp-mshade/PKGDEST.Exr/teamviewer-5.0.8888-6-x86_64.pkg.tar.gz'
+[2010-11-08 18:41] installed teamviewer (5.0.8888-6)
+[2010-11-20 20:14] Running 'pacman -Syu'
+[2010-11-20 20:14] synchronizing package lists
+[2010-11-20 20:14] starting full system upgrade
+[2010-11-20 20:16] Running 'pacman -Syu'
+[2010-11-20 20:16] synchronizing package lists
+[2010-11-20 20:16] starting full system upgrade
+[2010-11-20 20:16] Running 'pacman -Syu'
+[2010-11-20 20:16] synchronizing package lists
+[2010-11-20 20:16] starting full system upgrade
+[2010-11-20 20:18] Running 'pacman -Syu'
+[2010-11-20 20:18] synchronizing package lists
+[2010-11-20 20:18] starting full system upgrade
+[2010-11-20 20:21] upgraded tzdata (2010n-1 -> 2010o-1)
+[2010-11-20 20:21] Generating locales...
+[2010-11-20 20:21] en_US.UTF-8... done
+[2010-11-20 20:21] en_US.ISO-8859-1... done
+[2010-11-20 20:21] Generation complete.
+[2010-11-20 20:21] upgraded glibc (2.12.1-3 -> 2.12.1-4)
+[2010-11-20 20:21] upgraded ncurses (5.7-3 -> 5.7-4)
+[2010-11-20 20:21] upgraded alsa-utils (1.0.23-2 -> 1.0.23-3)
+[2010-11-20 20:21] upgraded alsaplayer (0.99.80-3 -> 0.99.81-1)
+[2010-11-20 20:21] upgraded asciidoc (8.6.2-2 -> 8.6.2-4)
+[2010-11-20 20:21] upgraded glib2 (2.26.0-2 -> 2.26.1-1)
+[2010-11-20 20:21] upgraded nvidia-utils (260.19.12-1 -> 260.19.21-1)
+[2010-11-20 20:21] upgraded inputproto (2.0-1 -> 2.0.1-1)
+[2010-11-20 20:21] upgraded libxi (1.3.2-1 -> 1.4.0-1)
+[2010-11-20 20:22] upgraded qt (4.7.0-4 -> 4.7.1-1)
+[2010-11-20 20:22] upgraded attica (0.1.4-1 -> 0.2.0-1)
+[2010-11-20 20:22] upgraded avahi (0.6.27-7 -> 0.6.28-1)
+[2010-11-20 20:22] upgraded bluez (4.77-1 -> 4.79-2)
+[2010-11-20 20:22] upgraded commoncpp2 (1.8.0-1 -> 1.8.1-2)
+[2010-11-20 20:22] upgraded coreutils (8.6-1 -> 8.7-1)
+[2010-11-20 20:22] upgraded db (5.1.19-2 -> 5.1.19-3)
+[2010-11-20 20:22] upgraded openssl (1.0.0.a-3 -> 1.0.0.b-2)
+[2010-11-20 20:22] upgraded heimdal (1.3.3-2 -> 1.3.3-3)
+[2010-11-20 20:22] upgraded libcups (1.4.4-3 -> 1.4.5-1)
+[2010-11-20 20:22] warning: /etc/cups/cupsd.conf installed as /etc/cups/cupsd.conf.pacnew
+[2010-11-20 20:22] upgraded cups (1.4.4-3 -> 1.4.5-1)
+[2010-11-20 20:22] upgraded dbus-glib (0.86-1 -> 0.92-1)
+[2010-11-20 20:22] upgraded dhclient (4.2.0-1 -> 4.2.0.1-1)
+[2010-11-20 20:22] upgraded gstreamer0.10-good (0.10.24-1 -> 0.10.25-1)
+[2010-11-20 20:22] upgraded libsoup (2.32.0-1 -> 2.32.1-1)
+[2010-11-20 20:22] upgraded libsoup-gnome (2.32.0-1 -> 2.32.1-1)
+[2010-11-20 20:22] upgraded gstreamer0.10-good-plugins (0.10.24-1 -> 0.10.25-1)
+[2010-11-20 20:22] upgraded gstreamer0.10-ugly (0.10.15-5 -> 0.10.16-1)
+[2010-11-20 20:22] upgraded gstreamer0.10-ugly-plugins (0.10.15-5 -> 0.10.16-1)
+[2010-11-20 20:22] upgraded gtk2 (2.22.0-5 -> 2.22.1-1)
+[2010-11-20 20:22] upgraded gvfs (1.6.5-2 -> 1.6.6-1)
+[2010-11-20 20:22] upgraded hedgewars (0.9.13-2 -> 0.9.14.1-1)
+[2010-11-20 20:22] upgraded kdeedu-data (4.5.3-1 -> 4.5.3-2)
+[2010-11-20 20:22] upgraded kdeedu-libkdeedu (4.5.3-1 -> 4.5.3-2)
+[2010-11-20 20:22] upgraded kdeedu-marble (4.5.3-1 -> 4.5.3-2)
+[2010-11-20 20:22] upgraded lib32-glib2 (2.26.0-1 -> 2.26.1-1)
+[2010-11-20 20:22] upgraded lib32-glibc (2.12.1-7 -> 2.12.1-9)
+[2010-11-20 20:22] upgraded lib32-libcups (1.4.4-5 -> 1.4.5-1)
+[2010-11-20 20:22] upgraded lib32-gtk2 (2.22.0-3 -> 2.22.1-1)
+[2010-11-20 20:22] upgraded lib32-libcap (2.19-3 -> 2.19-4)
+[2010-11-20 20:22] upgraded lib32-nvidia-utils (260.19.12-1 -> 260.19.21-1)
+[2010-11-20 20:22] upgraded pixman (0.18.4-1 -> 0.20.0-1)
+[2010-11-20 20:22] upgraded lib32-pixman (0.18.4-2 -> 0.20.0-1)
+[2010-11-20 20:22] upgraded lib32-qt (4.7.0-3 -> 4.7.1-1)
+[2010-11-20 20:22] installed libgnome-data (2.32.0-3)
+[2010-11-20 20:22] upgraded libgnome (2.32.0-1 -> 2.32.0-3)
+[2010-11-20 20:22] upgraded libgphoto2 (2.4.10-1 -> 2.4.10.1-1)
+[2010-11-20 20:22] upgraded libnotify (0.4.5-1 -> 0.5.2-1)
+[2010-11-20 20:22] upgraded librsvg (2.32.0-2 -> 2.32.1-1)
+[2010-11-20 20:22] upgraded libva (1.0.5-2 -> 1.0.6-1)
+[2010-11-20 20:22] upgraded libx11 (1.3.5-1 -> 1.3.5-2)
+[2010-11-20 20:22] upgraded linux-firmware (20100911-1 -> 20101108-1)
+[2010-11-20 20:22] upgraded man-db (2.5.7-1 -> 2.5.9-1)
+[2010-11-20 20:22] upgraded man-pages (3.30-1 -> 3.31-1)
+[2010-11-20 20:22] upgraded mercurial (1.7-1 -> 1.7.1-1)
+[2010-11-20 20:22] upgraded mpd (0.15.14-1 -> 0.15.15-1)
+[2010-11-20 20:23] In order to use the new nvidia module, exit Xserver and unload it manually.
+[2010-11-20 20:23] upgraded nvidia (260.19.12-1 -> 260.19.21-1)
+[2010-11-20 20:23] upgraded orc (0.4.7-1 -> 0.4.11-1)
+[2010-11-20 20:23] upgraded perl-crypt-ssleay (0.57-5 -> 0.58-1)
+[2010-11-20 20:23] upgraded perl-xml-parser (2.36-7 -> 2.40-1)
+[2010-11-20 20:23] warning: /etc/conf.d/privoxy installed as /etc/conf.d/privoxy.pacnew
+[2010-11-20 20:23] warning: /etc/privoxy/config installed as /etc/privoxy/config.pacnew
+[2010-11-20 20:23] upgraded privoxy (3.0.16-1 -> 3.0.17-1)
+[2010-11-20 20:23] upgraded qtcurve-gtk2 (1.6.4-1 -> 1.7.2-1)
+[2010-11-20 20:23] upgraded qtcurve-kde4 (1.6.4-1 -> 1.7.2-1)
+[2010-11-20 20:23] upgraded reflector (2010.08.24.1-1 -> 2010.08.24.1-2)
+[2010-11-20 20:23] upgraded smplayer (0.6.9-2 -> 0.6.9-3)
+[2010-11-20 20:23] upgraded tar (1.23-3 -> 1.25-1)
+[2010-11-20 20:23] upgraded telepathy-glib (0.12.3-1 -> 0.12.4-1)
+[2010-11-20 20:23] upgraded usbmuxd (1.0.5-1 -> 1.0.6-1)
+[2010-11-20 20:23] upgraded vlc (1.1.4.1-2 -> 1.1.5-1)
+[2010-11-20 20:23] upgraded vte (0.26.1-1 -> 0.26.2-1)
+[2010-11-20 20:23] upgraded wine (1.3.6-1 -> 1.3.7-1)
+[2010-11-20 20:23] upgraded wxgtk (2.8.11-1 -> 2.8.11-2)
+[2010-11-20 20:23] upgraded xorg-xgamma (1.0.3-1 -> 1.0.4-1)
+[2010-11-20 20:23] upgraded xorg-xinit (1.2.1-1 -> 1.3.0-1)
+[2010-11-20 20:23] upgraded xorg-xinput (1.5.2-1 -> 1.5.3-1)
+[2010-11-20 20:23] upgraded xorg-xkill (1.0.2-1 -> 1.0.3-1)
+[2010-11-20 20:23] upgraded xorg-xrandr (1.3.3-1 -> 1.3.4-1)
+[2010-11-20 20:23] upgraded xorg-xrdb (1.0.6-1 -> 1.0.7-1)
+[2010-11-20 20:23] upgraded xorg-xrefresh (1.0.3-1 -> 1.0.4-1)
+[2010-11-20 20:23] upgraded xorg-xset (1.2.0-1 -> 1.2.1-1)
+[2010-11-20 20:23] upgraded xorg-xsetroot (1.0.3-1 -> 1.1.0-1)
+[2010-11-20 20:23] upgraded xorg-xwd (1.0.3-1 -> 1.0.4-1)
+[2010-11-20 20:23] upgraded xorg-xwud (1.0.2-1 -> 1.0.3-1)
+[2010-11-20 20:23] upgraded xproto (7.0.18-1 -> 7.0.19-1)
+[2010-11-20 20:23] upgraded yajl (1.0.11-1 -> 1.0.11-2)
+[2010-11-26 23:39] Running 'pacman -S gtk-doc'
+[2010-11-26 23:40] installed gnome-doc-utils (0.20.2-2)
+[2010-11-26 23:40] installed gtk-doc (1.15-2)
+[2010-11-26 23:48] Running 'pacman -U /tmp/yaourt-tmp-mshade/PKGDEST.jlH/statifier-1.7.1-1-x86_64.pkg.tar.gz'
+[2010-11-26 23:48] installed statifier (1.7.1-1)
+[2010-11-26 23:48] Running 'pacman -S extra/librsvg'
+[2010-11-26 23:48] upgraded librsvg (2.32.1-1 -> 2.32.1-1)
+[2010-11-30 21:31] Running 'pacman -S winetricks'
+[2010-11-30 21:31] installed xorg-xmessage (1.0.3-1)
+[2010-11-30 21:31] installed winetricks (20101106-1)
+[2010-12-08 21:49] Running 'pacman -S mumble'
+[2010-12-08 21:49] Running 'pacman -S'
+[2010-12-08 21:49] Running 'pacman -Sy'
+[2010-12-08 21:49] synchronizing package lists
+[2010-12-08 21:49] Running 'pacman -S mumble'
+[2010-12-08 21:50] installed celt-0.7 (0.7.1-2)
+[2010-12-08 21:50] installed lsb-release (1.4-10)
+[2010-12-08 21:50] installed protobuf (2.3.0-1)
+[2010-12-08 21:50] installed libasyncns (0.8-3)
+[2010-12-08 21:50] installed libpulse (0.9.22-1)
+[2010-12-08 21:50] installed mumble (1.2.2-12)
+[2010-12-21 23:22] Running 'pacman -Syu'
+[2010-12-21 23:22] synchronizing package lists
+[2010-12-21 23:22] starting full system upgrade
+[2010-12-21 23:33] removed libusb1 (1.0.8-1)
+[2010-12-21 23:33] removed pycairo (1.8.10-2)
+[2010-12-21 23:33] upgraded readline (6.1.002-1 -> 6.1.002-2)
+[2010-12-21 23:33] upgraded bash (4.1.009-1 -> 4.1.009-3)
+[2010-12-21 23:33] warning: directory permissions differ on var/abs/
+filesystem: 775 package: 755
+[2010-12-21 23:33] warning: directory permissions differ on var/abs/local/
+filesystem: 775 package: 755
+[2010-12-21 23:33] upgraded abs (2.3.4.1-1 -> 2.4.2-1)
+[2010-12-21 23:33] upgraded gcc-libs (4.5.1-1 -> 4.5.1-2)
+[2010-12-21 23:33] upgraded zlib (1.2.5-2 -> 1.2.5-3)
+[2010-12-21 23:33] upgraded boost-libs (1.43.0-2 -> 1.45.0-1)
+[2010-12-21 23:33] upgraded sqlite3 (3.7.3-1 -> 3.7.4-1)
+[2010-12-21 23:33] upgraded run-parts (3.2.3-1 -> 3.4.1-1)
+[2010-12-21 23:33] upgraded openssl (1.0.0.b-2 -> 1.0.0.c-1)
+[2010-12-21 23:33] upgraded findutils (4.4.2-2 -> 4.4.2-3)
+[2010-12-21 23:33] upgraded sed (4.2.1-2 -> 4.2.1-3)
+[2010-12-21 23:33] Clearing symlinks in /etc/ssl/certs...done.
+[2010-12-21 23:33] Updating certificates in /etc/ssl/certs... 141 added, 0 removed; done.
+[2010-12-21 23:33] Running hooks in /etc/ca-certificates/update.d....
+[2010-12-21 23:33] updating keystore /etc/ssl/certs/java/cacerts...
+[2010-12-21 23:33] already exists: /etc/ssl/certs/brasil.gov.br.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/cacert.org.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/ca.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/cert_igca_dsa.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/cert_igca_rsa.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/ABAecom_=sub.__Am._Bankers_Assn.=_Root_CA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/AOL_Time_Warner_Root_Certification_Authority_1.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/AOL_Time_Warner_Root_Certification_Authority_2.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/AddTrust_External_Root.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/AddTrust_Low-Value_Services_Root.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/AddTrust_Public_Services_Root.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/AddTrust_Qualified_Certificates_Root.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/America_Online_Root_Certification_Authority_1.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/America_Online_Root_Certification_Authority_2.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Baltimore_CyberTrust_Root.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/COMODO_Certification_Authority.pem
+[2010-12-21 23:33] ignored import, signature not available: /etc/ssl/certs/COMODO_ECC_Certification_Authority.pem
+[2010-12-21 23:33] keytool error: java.security.NoSuchAlgorithmException: SHA384withECDSA Signature not available
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Camerfirma_Chambers_of_Commerce_Root.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Camerfirma_Global_Chambersign_Root.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Certplus_Class_2_Primary_CA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Certum_Root_CA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Comodo_AAA_Services_root.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Comodo_Secure_Services_root.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Comodo_Trusted_Services_root.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/DST_ACES_CA_X6.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/DST_Root_CA_X3.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/DigiCert_Assured_ID_Root_CA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/DigiCert_Global_Root_CA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/DigiCert_High_Assurance_EV_Root_CA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/DigiNotar_Root_CA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Digital_Signature_Trust_Co._Global_CA_1.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Digital_Signature_Trust_Co._Global_CA_2.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Digital_Signature_Trust_Co._Global_CA_3.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Digital_Signature_Trust_Co._Global_CA_4.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Entrust.net_Global_Secure_Personal_CA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Entrust.net_Global_Secure_Server_CA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Entrust.net_Premium_2048_Secure_Server_CA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Entrust.net_Secure_Personal_CA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Entrust.net_Secure_Server_CA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Entrust_Root_Certification_Authority.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Equifax_Secure_CA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Equifax_Secure_Global_eBusiness_CA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Equifax_Secure_eBusiness_CA_1.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Equifax_Secure_eBusiness_CA_2.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Firmaprofesional_Root_CA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/GTE_CyberTrust_Global_Root.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/GTE_CyberTrust_Root_CA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/GeoTrust_Global_CA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/GeoTrust_Global_CA_2.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/GeoTrust_Primary_Certification_Authority.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/GeoTrust_Universal_CA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/GeoTrust_Universal_CA_2.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/GlobalSign_Root_CA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/GlobalSign_Root_CA_-_R2.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Go_Daddy_Class_2_CA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/IPS_CLASE1_root.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/IPS_CLASE3_root.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/IPS_CLASEA1_root.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/IPS_CLASEA3_root.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/IPS_Chained_CAs_root.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/IPS_Servidores_root.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/IPS_Timestamping_root.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/NetLock_Business_=Class_B=_Root.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/NetLock_Express_=Class_C=_Root.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/NetLock_Notary_=Class_A=_Root.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/NetLock_Qualified_=Class_QA=_Root.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Network_Solutions_Certificate_Authority.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/QuoVadis_Root_CA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/QuoVadis_Root_CA_2.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/QuoVadis_Root_CA_3.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/RSA_Root_Certificate_1.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/RSA_Security_1024_v3.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/RSA_Security_2048_v3.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/SecureTrust_CA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Secure_Global_CA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Security_Communication_Root_CA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Sonera_Class_1_Root_CA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Sonera_Class_2_Root_CA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Staat_der_Nederlanden_Root_CA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Starfield_Class_2_CA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/StartCom_Certification_Authority.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/StartCom_Ltd..pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/SwissSign_Gold_CA_-_G2.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/SwissSign_Platinum_CA_-_G2.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/SwissSign_Silver_CA_-_G2.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Swisscom_Root_CA_1.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/TC_TrustCenter__Germany__Class_2_CA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/TC_TrustCenter__Germany__Class_3_CA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/TDC_Internet_Root_CA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/TDC_OCES_Root_CA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/TURKTRUST_Certificate_Services_Provider_Root_1.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/TURKTRUST_Certificate_Services_Provider_Root_2.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Taiwan_GRCA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Thawte_Personal_Basic_CA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Thawte_Personal_Freemail_CA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Thawte_Personal_Premium_CA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Thawte_Premium_Server_CA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Thawte_Server_CA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Thawte_Time_Stamping_CA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/UTN-USER_First-Network_Applications.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/UTN_DATACorp_SGC_Root_CA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/UTN_USERFirst_Email_Root_CA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/UTN_USERFirst_Hardware_Root_CA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/ValiCert_Class_1_VA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/ValiCert_Class_2_VA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/VeriSign_Class_3_Public_Primary_Certification_Authority_-_G5.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Verisign_Class_1_Public_Primary_Certification_Authority.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Verisign_Class_1_Public_Primary_Certification_Authority_-_G2.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Verisign_Class_1_Public_Primary_Certification_Authority_-_G3.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Verisign_Class_2_Public_Primary_Certification_Authority.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Verisign_Class_2_Public_Primary_Certification_Authority_-_G2.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Verisign_Class_2_Public_Primary_Certification_Authority_-_G3.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Verisign_Class_3_Public_Primary_Certification_Authority.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Verisign_Class_3_Public_Primary_Certification_Authority_-_G2.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Verisign_Class_3_Public_Primary_Certification_Authority_-_G3.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Verisign_Class_4_Public_Primary_Certification_Authority_-_G2.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Verisign_Class_4_Public_Primary_Certification_Authority_-_G3.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Verisign_RSA_Secure_Server_CA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Verisign_Time_Stamping_Authority_CA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Visa_International_Global_Root_2.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Visa_eCommerce_Root.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/WellsSecure_Public_Root_Certificate_Authority.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/Wells_Fargo_Root_CA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/XRamp_Global_CA_Root.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/beTRUSTed_Root_CA-Baltimore_Implementation.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/beTRUSTed_Root_CA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/beTRUSTed_Root_CA_-_Entrust_Implementation.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/beTRUSTed_Root_CA_-_RSA_Implementation.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/thawte_Primary_Root_CA.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/signet_ca1_pem.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/signet_ca2_pem.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/signet_ca3_pem.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/signet_ocspklasa2_pem.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/signet_ocspklasa3_pem.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/signet_pca2_pem.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/signet_pca3_pem.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/signet_rootca_pem.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/signet_tsa1_pem.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/spi-ca-2003.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/spi-cacert-2008.pem
+[2010-12-21 23:33] already exists: /etc/ssl/certs/deutsche-telekom-root-ca-2.pem
+[2010-12-21 23:33] done.
+[2010-12-21 23:33] done.
+[2010-12-21 23:33] upgraded ca-certificates (20090814-3 -> 20090814+nmu2-1)
+[2010-12-21 23:33] upgraded libusb (0.1.12-4 -> 1.0.8-1)
+[2010-12-21 23:33] installed libusb-compat (0.1.3-1)
+[2010-12-21 23:33] upgraded udev (163-1 -> 164-3)
+[2010-12-21 23:33] upgraded libdrm (2.4.21-2 -> 2.4.22-3)
+[2010-12-21 23:33] upgraded xorg-server-common (1.9.2-1 -> 1.9.2-2)
+[2010-12-21 23:33] upgraded xorg-server (1.9.2-1 -> 1.9.2-2)
+[2010-12-21 23:33] upgraded nvidia-utils (260.19.21-1 -> 260.19.29-1)
+[2010-12-21 23:34] upgraded qt (4.7.1-1 -> 4.7.1-2)
+[2010-12-21 23:34] upgraded libxml2 (2.7.7-2 -> 2.7.8-1)
+[2010-12-21 23:34] upgraded raptor (1.4.21-1 -> 1.4.21-2)
+[2010-12-21 23:34] upgraded mpfr (3.0.0.p4-1 -> 3.0.0.p8-1)
+[2010-12-21 23:34] upgraded rasqal (0.9.20-1 -> 0.9.21-1)
+[2010-12-21 23:34] upgraded redland (1.0.12-2 -> 1.0.12-3)
+[2010-12-21 23:34] upgraded soprano (2.5.2-1 -> 2.5.3-1)
+[2010-12-21 23:34] upgraded akonadi (1.4.1-1 -> 1.4.1-2)
+[2010-12-21 23:34] upgraded alsa-plugins (1.0.23-1 -> 1.0.23-2)
+[2010-12-21 23:34] upgraded expat (2.0.1-5 -> 2.0.1-6)
+[2010-12-21 23:34] upgraded python2 (2.7-3 -> 2.7.1-3)
+[2010-12-21 23:34] upgraded docbook-xsl (1.76.0-3 -> 1.76.1-1)
+[2010-12-21 23:34] upgraded asciidoc (8.6.2-4 -> 8.6.3-1)
+[2010-12-21 23:34] upgraded attr (2.4.44-1 -> 2.4.44-2)
+[2010-12-21 23:34] upgraded audacious-plugins (2.4.0-3 -> 2.4.2-1)
+[2010-12-21 23:34] upgraded audacious (2.4.0-2 -> 2.4.2-1)
+[2010-12-21 23:34] upgraded automake (1.11.1-1 -> 1.11.1-2)
+[2010-12-21 23:34] upgraded bluez (4.79-2 -> 4.82-1)
+[2010-12-21 23:34] upgraded boost (1.43.0-2 -> 1.45.0-1)
+[2010-12-21 23:34] upgraded ca-certificates-java (20090629-2 -> 20100412-2)
+[2010-12-21 23:34] upgraded cairomm (1.8.4-1 -> 1.8.6-1)
+[2010-12-21 23:34] upgraded ccrtp (1.7.0-4 -> 1.7.1-1)
+[2010-12-21 23:34] upgraded libogg (1.2.0-1 -> 1.2.2-1)
+[2010-12-21 23:34] upgraded libvorbis (1.3.1-1 -> 1.3.2-1)
+[2010-12-21 23:34] upgraded libao (1.0.0-2 -> 1.0.0-5)
+[2010-12-21 23:34] upgraded cdrdao (1.2.3-4 -> 1.2.3-5)
+[2010-12-21 23:34] upgraded file (5.04-2 -> 5.04-3)
+[2010-12-21 23:34] upgraded cdrkit (1.1.10-1 -> 1.1.11-1)
+[2010-12-21 23:34] upgraded chromium (7.0.517.44-1 -> 8.0.552.224-1)
+[2010-12-21 23:34] upgraded wireless_tools (29-3 -> 29-4)
+[2010-12-21 23:34] upgraded conky (1.8.1-1 -> 1.8.1-2)
+[2010-12-21 23:34] upgraded gzip (1.4-1 -> 1.4-2)
+[2010-12-21 23:34] upgraded texinfo (4.13a-4 -> 4.13a-5)
+[2010-12-21 23:34] upgraded libtasn1 (2.6-1 -> 2.8-1)
+[2010-12-21 23:34] upgraded gnutls (2.8.6-1 -> 2.10.4-1)
+[2010-12-21 23:34] upgraded heimdal (1.3.3-3 -> 1.3.3-4)
+[2010-12-21 23:34] upgraded libcups (1.4.5-1 -> 1.4.5-2)
+[2010-12-21 23:34] upgraded poppler-data (0.4.3-1 -> 0.4.4-1)
+[2010-12-21 23:34] upgraded poppler (0.14.4-1 -> 0.14.5-1)
+[2010-12-21 23:34] upgraded cups (1.4.5-1 -> 1.4.5-2)
+[2010-12-21 23:34] upgraded libtorrent-rasterbar (0.15.4-2 -> 0.15.4-3)
+[2010-12-21 23:34] upgraded twisted (10.1.0-1 -> 10.2.0-1)
+[2010-12-21 23:34] installed python2-chardet (2.0.1-3)
+[2010-12-21 23:34] >>> Deluge's daemon is running default with the "deluge" user. The default download directory is /srv/deluge/.
+[2010-12-21 23:34] You can change the user by editing /etc/conf.d/deluged
+[2010-12-21 23:34] upgraded deluge (1.3.1-1 -> 1.3.1-2)
+[2010-12-21 23:34] upgraded device-mapper (2.02.75-1 -> 2.02.78-1)
+[2010-12-21 23:34] upgraded dhcpcd (5.2.8-1 -> 5.2.9-1)
+[2010-12-21 23:34] upgraded diffutils (3.0-1 -> 3.0-2)
+[2010-12-21 23:34] warning: /etc/hosts installed as /etc/hosts.pacnew
+[2010-12-21 23:34] warning: /etc/gshadow installed as /etc/gshadow.pacnew
+[2010-12-21 23:34] upgraded filesystem (2010.10-1 -> 2010.12-1)
+[2010-12-21 23:34] upgraded usbutils (0.90-1 -> 0.91-4)
+[2010-12-21 23:34] upgraded procps (3.2.8-1 -> 3.2.8-3)
+[2010-12-21 23:34] upgraded pm-utils (1.4.0-1 -> 1.4.1-1)
+[2010-12-21 23:34] upgraded hal (0.5.14-4 -> 0.5.14-5)
+[2010-12-21 23:34] upgraded qca (2.0.2-2 -> 2.0.3-1)
+[2010-12-21 23:34] upgraded gstreamer0.10 (0.10.30-1 -> 0.10.31-1)
+[2010-12-21 23:34] upgraded gstreamer0.10-base (0.10.30-1 -> 0.10.31-1)
+[2010-12-21 23:34] upgraded gstreamer0.10-base-plugins (0.10.30-1 -> 0.10.31-1)
+[2010-12-21 23:34] upgraded phonon-gstreamer (4.4.2-2 -> 4.4.3-1)
+[2010-12-21 23:34] upgraded libpulse (0.9.22-1 -> 0.9.22-2)
+[2010-12-21 23:34] upgraded phonon (4.4.2-2 -> 4.4.3-1)
+[2010-12-21 23:34] upgraded libdbusmenu-qt (0.6.4-1 -> 0.6.6-1)
+[2010-12-21 23:34] upgraded kdelibs (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:34] upgraded oxygen-icons (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:34] upgraded xorg-xauth (1.0.4-1 -> 1.0.5-1)
+[2010-12-21 23:34] upgraded kdebase-runtime (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:34] upgraded libgphoto2 (2.4.10.1-1 -> 2.4.10.1-2)
+[2010-12-21 23:34] upgraded sane (1.0.21-3 -> 1.0.21-4)
+[2010-12-21 23:34] upgraded kdegraphics-libs (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:34] upgraded kdepimlibs (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:34] upgraded gpsd (2.95-6 -> 2.95-8)
+[2010-12-21 23:35] upgraded kdeedu-marble (4.5.3-2 -> 4.5.4-1)
+[2010-12-21 23:35] upgraded digikam (1.5.0-1 -> 1.6.0-2)
+[2010-12-21 23:35] upgraded fakeroot (1.14.4-2 -> 1.14.5-1)
+[2010-12-21 23:35] upgraded feh (1.10-1 -> 1.10.1-1)
+[2010-12-21 23:35] upgraded xulrunner (1.9.2.12-1 -> 1.9.2.13-2)
+[2010-12-21 23:35] upgraded firefox (3.6.12-1 -> 3.6.13-1)
+[2010-12-21 23:35] upgraded flam3 (2.7.18-5 -> 3.0-1)
+[2010-12-21 23:35] upgraded fluidsynth (1.1.3-1 -> 1.1.3-2)
+[2010-12-21 23:35] upgraded foomatic-db (4.0.5_20101024-1 -> 4.0.6_20101215-1)
+[2010-12-21 23:35] upgraded foomatic-filters (4.0.5_20101024-1 -> 4.0.6_20101215-1)
+[2010-12-21 23:35] upgraded foomatic-db-engine (4.0.5_20101024-1 -> 4.0.6_20101215-1)
+[2010-12-21 23:35] upgraded freetype2 (2.4.3-1 -> 2.4.4-1)
+[2010-12-21 23:35] upgraded gawk (3.1.8-1 -> 3.1.8-2)
+[2010-12-21 23:35] upgraded gcc (4.5.1-1 -> 4.5.1-2)
+[2010-12-21 23:35] upgraded geany (0.19.1-2 -> 0.19.2-1)
+[2010-12-21 23:35] upgraded ghostscript (9.00-1 -> 9.00-2)
+[2010-12-21 23:35] upgraded git (1.7.3.2-1 -> 1.7.3.4-1)
+[2010-12-21 23:35] upgraded gmime (2.4.19-1 -> 2.4.21-1)
+[2010-12-21 23:35] upgraded gnupg (1.4.11-1 -> 1.4.11-2)
+[2010-12-21 23:35] upgraded gnupg2 (2.0.16-2 -> 2.0.16-3)
+[2010-12-21 23:35] upgraded gpm (1.20.6-5 -> 1.20.6-6)
+[2010-12-21 23:35] upgraded gstreamer0.10-bad (0.10.19-1 -> 0.10.20-1)
+[2010-12-21 23:35] upgraded libdc1394 (2.1.2-1 -> 2.1.2-2)
+[2010-12-21 23:35] upgraded libvpx (0.9.5-1 -> 0.9.5-2)
+[2010-12-21 23:35] installed gsm (1.0.13-6)
+[2010-12-21 23:35] installed rtmpdump (2.3-3)
+[2010-12-21 23:35] installed libgme (0.5.5-3)
+[2010-12-21 23:35] upgraded gstreamer0.10-bad-plugins (0.10.19-1 -> 0.10.20-1)
+[2010-12-21 23:35] upgraded gstreamer0.10-ffmpeg (0.10.10-1 -> 0.10.11-1)
+[2010-12-21 23:35] upgraded gstreamer0.10-good (0.10.25-1 -> 0.10.26-1)
+[2010-12-21 23:35] upgraded libsoup (2.32.1-1 -> 2.32.2-1)
+[2010-12-21 23:35] upgraded libsoup-gnome (2.32.1-1 -> 2.32.2-1)
+[2010-12-21 23:35] upgraded gstreamer0.10-good-plugins (0.10.25-1 -> 0.10.26-1)
+[2010-12-21 23:35] installed atkmm (2.22.1-1)
+[2010-12-21 23:35] upgraded gtkmm (2.20.3-1 -> 2.22.0-1)
+[2010-12-21 23:35] upgraded hdparm (9.32-1 -> 9.35-1)
+[2010-12-21 23:35] upgraded xproto (7.0.19-1 -> 7.0.20-1)
+[2010-12-21 23:35] upgraded libx11 (1.3.5-2 -> 1.4.0-1)
+[2010-12-21 23:35] upgraded sdl (1.2.14-5 -> 1.2.14-6)
+[2010-12-21 23:35] upgraded hedgewars (0.9.14.1-1 -> 0.9.14.1-2)
+[2010-12-21 23:35] upgraded hyphen (2.6-1 -> 2.7.1-1)
+[2010-12-21 23:35] upgraded icu (4.4.2-1 -> 4.6-1)
+[2010-12-21 23:35] upgraded inetutils (1.8-1 -> 1.8-2)
+[2010-12-21 23:35] upgraded initscripts (2010.07-1 -> 2010.07-2)
+[2010-12-21 23:35] upgraded iptables (1.4.9-1 -> 1.4.10-1)
+[2010-12-21 23:35] upgraded mesa (7.8.2-3 -> 7.9.0.git20101207-2)
+[2010-12-21 23:35] upgraded irrlicht (1.7.1-1 -> 1.7.2-1)
+[2010-12-21 23:35] upgraded jfsutils (1.1.14-1 -> 1.1.14-2)
+[2010-12-21 23:35] upgraded kdeadmin-kcron (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:35] upgraded kdeadmin-ksystemlog (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:36] upgraded kdepim-runtime (4.4.7-1 -> 4.4.8-1)
+[2010-12-21 23:36] upgraded kdeadmin-kuser (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:36] upgraded kdebindings-python (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:36] upgraded pycups (1.9.51-2 -> 1.9.53-1)
+[2010-12-21 23:36] upgraded pysmbc (1.0.9-1 -> 1.0.10-1)
+[2010-12-21 23:36] upgraded system-config-printer-common (1.2.5-3 -> 1.2.5-4)
+[2010-12-21 23:36] upgraded kdeadmin-system-config-printer-kde (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:36] upgraded kdeartwork-colorschemes (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:36] upgraded kdeartwork-desktopthemes (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:36] upgraded kdeartwork-emoticons (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:36] upgraded kdeartwork-iconthemes (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:36] warning: /usr/share/config/kdm/kdmrc installed as /usr/share/config/kdm/kdmrc.pacnew
+[2010-12-21 23:36] upgraded kdebase-workspace (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:36] upgraded kdeartwork-kscreensaver (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:36] upgraded kdeartwork-sounds (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:36] upgraded kdeartwork-styles (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:36] upgraded kdeartwork-wallpapers (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:36] upgraded kdeartwork-weatherwallpapers (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:36] upgraded kdebase-lib (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:36] upgraded kdebase-dolphin (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:36] upgraded kdebase-kdepasswd (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:36] upgraded kdebase-kdialog (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:36] upgraded kdebase-kfind (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:36] installed kdebase-keditbookmarks (4.5.4-1)
+[2010-12-21 23:36] upgraded kdebase-konqueror (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:36] upgraded kdebase-konsole (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:36] upgraded kdebase-kwrite (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:36] upgraded kdebase-plasma (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:36] upgraded kdeedu-data (4.5.3-2 -> 4.5.4-1)
+[2010-12-21 23:36] upgraded kdeedu-libkdeedu (4.5.3-2 -> 4.5.4-1)
+[2010-12-21 23:36] upgraded kdegraphics-gwenview (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:36] upgraded kdegraphics-kamera (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:36] upgraded kdegraphics-kcolorchooser (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:36] upgraded kdegraphics-kgamma (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:36] upgraded kdegraphics-kolourpaint (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:36] upgraded kdegraphics-kruler (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:36] upgraded kdegraphics-ksnapshot (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:36] upgraded poppler-qt (0.14.4-1 -> 0.14.5-1)
+[2010-12-21 23:36] upgraded kdegraphics-okular (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:36] upgraded kdemultimedia-dragonplayer (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:36] upgraded kdemultimedia-juk (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:36] upgraded kdemultimedia-kioslave (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:36] upgraded kdemultimedia-kmix (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:36] upgraded kdemultimedia-kscd (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:36] upgraded libftdi (0.18-1 -> 0.18-2)
+[2010-12-21 23:36] upgraded lirc-utils (0.8.6-5 -> 0.9.0.pre1-2)
+[2010-12-21 23:37] upgraded ttf-dejavu (2.30-2 -> 2.32-2)
+[2010-12-21 23:37] upgraded mplayer (32492-2 -> 32663-1)
+[2010-12-21 23:37] upgraded kdemultimedia-mplayerthumbs (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdenetwork-filesharing (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdenetwork-kdnssd (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdenetwork-kget (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdenetwork-kopete (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdenetwork-kppp (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded telepathy-qt4 (0.3.5-1 -> 0.4.1-1)
+[2010-12-21 23:37] upgraded kdenetwork-krdc (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdenetwork-krfb (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdepim-libkdepim (4.4.7-1 -> 4.4.8-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-applets-bball (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-applets-binary-clock (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-applets-blackboard (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-applets-bubblemon (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-applets-calculator (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-applets-charselect (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-libs (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-applets-comic (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-applets-dict (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-applets-eyes (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-applets-fifteenpuzzle (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-applets-filewatcher (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-applets-frame (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-applets-fuzzy-clock (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-applets-incomingmsg (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-applets-kdeobservatory (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-applets-kimpanel (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-applets-knowledgebase (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-applets-kolourpicker (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-applets-konqprofiles (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-applets-konsoleprofiles (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-applets-lancelot (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-applets-leavenote (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-applets-life (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-applets-luna (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-applets-magnifique (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-applets-mediaplayer (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-applets-microblog (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-applets-news (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-applets-notes (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-applets-nowplaying (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-applets-paste (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-applets-pastebin (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-applets-plasmaboard (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-applets-previewer (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-applets-qalculate (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-applets-rememberthemilk (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-applets-rssnow (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-applets-showdashboard (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-applets-showdesktop (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-applets-social-news (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-applets-spellcheck (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-applets-systemloadviewer (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-applets-timer (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-applets-unitconverter (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-applets-weather (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-applets-weatherstation (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-applets-webslice (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-runners-audioplayercontrol (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-runners-browserhistory (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-runners-contacts (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-runners-converter (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-runners-katesessions (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-runners-konquerorsessions (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-runners-konsolesessions (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-runners-kopete (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-runners-mediawiki (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-runners-spellchecker (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-wallpapers-mandelbrot (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-wallpapers-pattern (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-wallpapers-virus (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeplasma-addons-wallpapers-weather (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeutils-ark (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeutils-kcalc (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeutils-kcharselect (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeutils-kdf (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeutils-kfloppy (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeutils-kgpg (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeutils-kremotecontrol (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeutils-ktimer (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeutils-kwallet (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeutils-okteta (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeutils-printer-applet (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeutils-superkaramba (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] upgraded kdeutils-sweeper (4.5.3-1 -> 4.5.4-1)
+[2010-12-21 23:37] >>> Updating module dependencies. Please wait ...
+[2010-12-21 23:37] >>> MKINITCPIO SETUP
+[2010-12-21 23:37] >>> ----------------
+[2010-12-21 23:37] >>> If you use LVM2, Encrypted root or software RAID,
+[2010-12-21 23:37] >>> Ensure you enable support in /etc/mkinitcpio.conf .
+[2010-12-21 23:37] >>> More information about mkinitcpio setup can be found here:
+[2010-12-21 23:37] >>> http://wiki.archlinux.org/index.php/Mkinitcpio
+[2010-12-21 23:37]
+[2010-12-21 23:37] >>> Generating initial ramdisk, using mkinitcpio. Please wait...
+[2010-12-21 23:37] ==> Building image "default"
+[2010-12-21 23:37] ==> Running command: /sbin/mkinitcpio -k 2.6.36-ARCH -c /etc/mkinitcpio.conf -g /boot/kernel26.img
+[2010-12-21 23:37] :: Begin build
+[2010-12-21 23:37] :: Parsing hook [base]
+[2010-12-21 23:37] :: Parsing hook [udev]
+[2010-12-21 23:37] :: Parsing hook [usb]
+[2010-12-21 23:37] :: Parsing hook [lvm2]
+[2010-12-21 23:37] :: Parsing hook [autodetect]
+[2010-12-21 23:37] :: Parsing hook [pata]
+[2010-12-21 23:37] :: Parsing hook [scsi]
+[2010-12-21 23:37] :: Parsing hook [sata]
+[2010-12-21 23:37] :: Parsing hook [filesystems]
+[2010-12-21 23:37] :: Generating module dependencies
+[2010-12-21 23:37] :: Generating image '/boot/kernel26.img'...SUCCESS
+[2010-12-21 23:37] ==> SUCCESS
+[2010-12-21 23:37] ==> Building image "fallback"
+[2010-12-21 23:37] ==> Running command: /sbin/mkinitcpio -k 2.6.36-ARCH -c /etc/mkinitcpio.conf -g /boot/kernel26-fallback.img -S autodetect
+[2010-12-21 23:37] :: Begin build
+[2010-12-21 23:37] :: Parsing hook [base]
+[2010-12-21 23:37] :: Parsing hook [udev]
+[2010-12-21 23:37] :: Parsing hook [usb]
+[2010-12-21 23:37] :: Parsing hook [lvm2]
+[2010-12-21 23:37] :: Parsing hook [pata]
+[2010-12-21 23:37] :: Parsing hook [scsi]
+[2010-12-21 23:38] :: Parsing hook [sata]
+[2010-12-21 23:38] :: Parsing hook [filesystems]
+[2010-12-21 23:38] :: Generating module dependencies
+[2010-12-21 23:38] :: Generating image '/boot/kernel26-fallback.img'...SUCCESS
+[2010-12-21 23:38] ==> SUCCESS
+[2010-12-21 23:38] upgraded kernel26 (2.6.35.8-1 -> 2.6.36.2-1)
+[2010-12-21 23:38] upgraded kernel26-headers (2.6.35.8-1 -> 2.6.36.2-1)
+[2010-12-21 23:38] installed blas (3.2.2-2)
+[2010-12-21 23:38] installed lapack (3.2.2-2)
+[2010-12-21 23:38] installed python2-numpy (1.5.1-1)
+[2010-12-21 23:38] upgraded xine-lib (1.1.19-1 -> 1.1.19-2)
+[2010-12-21 23:38] upgraded opencv (2.1.0-2 -> 2.2.0-2)
+[2010-12-21 23:38] upgraded kipi-plugins (1.5.0-1 -> 1.6.0-2)
+[2010-12-21 23:38] upgraded pcre (8.10-1 -> 8.11-1)
+[2010-12-21 23:38] upgraded less (436-1 -> 436-2)
+[2010-12-21 23:38] upgraded lib32-zlib (1.2.5-5 -> 1.2.5-6)
+[2010-12-21 23:38] upgraded lib32-freetype2 (2.4.3-1 -> 2.4.4-1)
+[2010-12-21 23:38] upgraded lib32-gcc-libs (4.5.1-7 -> 4.5.1-8)
+[2010-12-21 23:38] upgraded lib32-gnutls (2.8.6-4 -> 2.10.4-1)
+[2010-12-21 23:38] upgraded lib32-libxi (1.3.2-3 -> 1.4.0-1)
+[2010-12-21 23:38] upgraded lib32-gtk2 (2.22.1-1 -> 2.22.1-2)
+[2010-12-21 23:38] upgraded lib32-libdrm (2.4.21-4 -> 2.4.22-4)
+[2010-12-21 23:38] upgraded lib32-libogg (1.2.0-4 -> 1.2.1-1)
+[2010-12-21 23:38] upgraded lib32-libvorbis (1.3.1-4 -> 1.3.2-1)
+[2010-12-21 23:38] upgraded lib32-libsndfile (1.0.21-5 -> 1.0.23-1)
+[2010-12-21 23:38] upgraded lib32-libx11 (1.3.5-2 -> 1.4.0-1)
+[2010-12-21 23:38] upgraded lib32-libxdmcp (1.0.3-4 -> 1.1.0-1)
+[2010-12-21 23:38] upgraded lib32-ncurses (5.7-5 -> 5.7-6)
+[2010-12-21 23:38] upgraded lib32-libxml2 (2.7.7-3 -> 2.7.8-1)
+[2010-12-21 23:38] upgraded lib32-libxmu (1.0.5-3 -> 1.1.0-1)
+[2010-12-21 23:38] upgraded lib32-libxss (1.2.0-3 -> 1.2.1-1)
+[2010-12-21 23:38] upgraded lib32-libxtst (1.1.0-3 -> 1.2.0-1)
+[2010-12-21 23:38] upgraded lib32-libxv (1.0.5-3 -> 1.0.6-1)
+[2010-12-21 23:38] upgraded lib32-libxxf86dga (1.1.1-3 -> 1.1.2-1)
+[2010-12-21 23:38] upgraded lib32-libxxf86vm (1.1.0-3 -> 1.1.1-1)
+[2010-12-21 23:38] upgraded lib32-nvidia-utils (260.19.21-1 -> 260.19.29-2)
+[2010-12-21 23:38] upgraded lib32-mesa (7.8.2-5 -> 7.9.0.git20101207-2)
+[2010-12-21 23:38] upgraded openal (1.12.854-1 -> 1.12.854-2)
+[2010-12-21 23:38] upgraded lib32-openal (1.12.854-3 -> 1.12.854-4)
+[2010-12-21 23:38] upgraded lib32-sdl (1.2.14-7 -> 1.2.14-8)
+[2010-12-21 23:38] upgraded lib32-sqlite3 (3.7.1-2 -> 3.7.4-1)
+[2010-12-21 23:38] upgraded libcanberra (0.25-1 -> 0.26-3)
+[2010-12-21 23:38] upgraded usbmuxd (1.0.6-1 -> 1.0.6-2)
+[2010-12-21 23:38] upgraded libimobiledevice (1.0.3-1 -> 1.0.4-1)
+[2010-12-21 23:38] upgraded liblastfm (0.3.3-1 -> 0.3.3-2)
+[2010-12-21 23:38] upgraded libmpdclient (2.2-1 -> 2.3-1)
+[2010-12-21 23:38] upgraded libmtp (1.0.2-1 -> 1.0.2-2)
+[2010-12-21 23:38] upgraded libpcap (1.1.1-1 -> 1.1.1-2)
+[2010-12-21 23:38] upgraded libpurple (2.7.5-1 -> 2.7.8-1)
+[2010-12-21 23:38] upgraded libwebkit (1.2.5-1 -> 1.2.5-2)
+[2010-12-21 23:38] upgraded libwpd (0.8.14-1 -> 0.9.0-1)
+[2010-12-21 23:38] upgraded lmms (0.4.8-1 -> 0.4.9-1)
+[2010-12-21 23:38] upgraded lvm2 (2.02.75-1 -> 2.02.78-1)
+[2010-12-21 23:38] upgraded lzo2 (2.03-1 -> 2.04-1)
+[2010-12-21 23:38] upgraded man-pages (3.31-1 -> 3.32-1)
+[2010-12-21 23:38] upgraded mercurial (1.7.1-1 -> 1.7.2-1)
+[2010-12-21 23:38] upgraded mpd (0.15.15-1 -> 0.16-2)
+[2010-12-21 23:38] upgraded nano (2.2.5-1 -> 2.2.6-1)
+[2010-12-21 23:38] In order to use the new nvidia module, exit Xserver and unload it manually.
+[2010-12-21 23:38] upgraded nvidia (260.19.21-1 -> 260.19.29-1)
+[2010-12-21 23:38] upgraded openobex (1.5-1 -> 1.5-2)
+[2010-12-21 23:38] upgraded obex-data-server (0.4.5-2 -> 0.4.5-3)
+[2010-12-21 23:38] when you use a non-reparenting window manager
+[2010-12-21 23:38] set _JAVA_AWT_WM_NONREPARENTING=1 in
+[2010-12-21 23:38] /etc/profile.d/openjdk6.sh
+[2010-12-21 23:38] upgraded openjdk6 (6.b20_1.9.1-1 -> 6.b20_1.9.3-1)
+[2010-12-21 23:39] upgraded patch (2.6.1-1 -> 2.6.1-2)
+[2010-12-21 23:39] upgraded php (5.3.3-3 -> 5.3.4-1)
+[2010-12-21 23:39] upgraded php-pear (5.3.3-3 -> 5.3.4-1)
+[2010-12-21 23:39] upgraded pidgin (2.7.5-1 -> 2.7.8-1)
+[2010-12-21 23:39] upgraded pkg-config (0.25-2 -> 0.25-3)
+[2010-12-21 23:39] upgraded polkit (0.98-1 -> 0.99-1)
+[2010-12-21 23:39] upgraded postgresql-libs (9.0.1-2 -> 9.0.2-2)
+[2010-12-21 23:39] upgraded postfix (2.7.1-2 -> 2.7.2-1)
+[2010-12-21 23:39] upgraded procinfo-ng (2.0.304-1 -> 2.0.304-2)
+[2010-12-21 23:39] installed python2-cairo (1.8.10-1)
+[2010-12-21 23:39] upgraded python (3.1.2-2 -> 3.1.3-1)
+[2010-12-21 23:39] upgraded python-chardet (2.0.1-2 -> 2.0.1-3)
+[2010-12-21 23:39] upgraded python-mpd (0.2.1-4 -> 0.3.0-1)
+[2010-12-21 23:39] upgraded qtcurve-gtk2 (1.7.2-1 -> 1.8.3-1)
+[2010-12-21 23:39] upgraded qtcurve-kde4 (1.7.2-1 -> 1.8.2-1)
+[2010-12-21 23:39] upgraded recode (3.6-5 -> 3.6-6)
+[2010-12-21 23:39] upgraded reiserfsprogs (3.6.21-2 -> 3.6.21-3)
+[2010-12-21 23:39] upgraded screen (4.0.3-8 -> 4.0.3-10)
+[2010-12-21 23:39] upgraded sdparm (1.05-1 -> 1.06-1)
+[2010-12-21 23:39] upgraded subversion (1.6.9-7 -> 1.6.15-1)
+[2010-12-21 23:39] upgraded syslog-ng (3.1.2-1 -> 3.2.1-1)
+[2010-12-21 23:39] upgraded telepathy-glib (0.12.4-1 -> 0.12.7-1)
+[2010-12-21 23:39] upgraded tint2 (0.11-3 -> 0.11-4)
+[2010-12-21 23:39] Updating font cache... done.
+[2010-12-21 23:39] upgraded ttf-linux-libertine (4.4.1-3 -> 4.7.5-1)
+[2010-12-21 23:39] upgraded twinkle (1.4.2-6 -> 1.4.2-7)
+[2010-12-21 23:39] upgraded udisks (1.0.1-5 -> 1.0.2-1)
+[2010-12-21 23:39] upgraded unrar (3.9.10-1 -> 4.0.3-1)
+[2010-12-21 23:39] upgraded urbanterror (4.1-8 -> 4.1-10)
+[2010-12-21 23:39] Unknown media type in type 'all/all'
+[2010-12-21 23:39] Unknown media type in type 'all/allfiles'
+[2010-12-21 23:39] Unknown media type in type 'uri/mms'
+[2010-12-21 23:39] Unknown media type in type 'uri/mmst'
+[2010-12-21 23:39] Unknown media type in type 'uri/mmsu'
+[2010-12-21 23:39] Unknown media type in type 'uri/pnm'
+[2010-12-21 23:39] Unknown media type in type 'uri/rtspt'
+[2010-12-21 23:39] Unknown media type in type 'uri/rtspu'
+[2010-12-21 23:39] Unknown media type in type 'fonts/package'
+[2010-12-21 23:39] Unknown media type in type 'interface/x-winamp-skin'
+[2010-12-21 23:39] upgraded viewnior (1.0-2 -> 1.1-1)
+[2010-12-21 23:39] upgraded vim-runtime (7.3.3-2 -> 7.3.69-2)
+[2010-12-21 23:39] upgraded vim (7.3.3-2 -> 7.3.69-2)
+[2010-12-21 23:39] upgraded zvbi (0.2.33-2 -> 0.2.33-3)
+[2010-12-21 23:39] upgraded vlc (1.1.5-1 -> 1.1.5-2)
+[2010-12-21 23:39] upgraded wesnoth (1.8.5-1 -> 1.8.5-2)
+[2010-12-21 23:39] upgraded which (2.20-3 -> 2.20-4)
+[2010-12-21 23:39] upgraded whois (5.0.7-1 -> 5.0.10-1)
+[2010-12-21 23:39] This wine package is wow64 enabled. This means it can run 32bit/64bit Windows apps on x86_64.
+[2010-12-21 23:39] If you are on x86_64, the default WINEARCH will be win64.
+[2010-12-21 23:39] This will cause a lot of Windows applications to malfunction even if they usually work in wine.
+[2010-12-21 23:39] Please create your ~/.wine with 'WINEARCH=win32 winecfg' if you are unsure and on x86_64.
+[2010-12-21 23:39] See the Arch wiki on wine for more information.
+[2010-12-21 23:39] upgraded wine (1.3.7-1 -> 1.3.9-1)
+[2010-12-21 23:39] upgraded xorg-docs (1.5-1 -> 1.6-1)
+[2010-12-21 23:39] upgraded xorg-xbacklight (1.1.1-1 -> 1.1.2-1)
+[2010-12-21 23:39] upgraded xorg-xhost (1.0.3-1 -> 1.0.4-1)
+[2010-12-21 23:39] upgraded xorg-xinit (1.3.0-1 -> 1.3.0-2)
+[2010-12-21 23:39] NOTE:
+[2010-12-21 23:39] If you experience any problems after installing xsane
+[2010-12-21 23:39] it may help to remove the setup and preferences files
+[2010-12-21 23:39] of xsane:
+[2010-12-21 23:39]
+[2010-12-21 23:39] $ rm -rf ~/.sane/xsane
+[2010-12-21 23:39]
+[2010-12-21 23:39] upgraded xsane (0.997-4 -> 0.998-1)
+[2010-12-21 23:39] upgraded xterm (266-1 -> 267-1)
+[2010-12-22 19:18] Running 'pacman -Syu'
+[2010-12-22 19:18] synchronizing package lists
+[2010-12-22 19:18] starting full system upgrade
+[2010-12-22 19:19] upgraded kdepim-runtime (4.4.8-1 -> 4.4.9-1)
+[2010-12-22 19:19] upgraded kdepim-libkdepim (4.4.8-1 -> 4.4.9-1)
+[2010-12-22 19:19] upgraded libpng (1.4.4-1 -> 1.4.5-1)
+[2010-12-22 19:19] upgraded php (5.3.4-1 -> 5.3.4-2)
+[2010-12-22 19:19] upgraded php-pear (5.3.4-1 -> 5.3.4-2)
+[2010-12-22 19:19] upgraded xbitmaps (1.1.0-1 -> 1.1.1-1)
+[2010-12-22 19:19] upgraded xorg-iceauth (1.0.3-1 -> 1.0.4-1)
+[2010-12-22 19:19] installed xorg-xdpyinfo (1.2.0-1)
+[2010-12-22 19:19] installed xorg-xdriinfo (1.0.4-1)
+[2010-12-22 19:19] installed xorg-xev (1.1.0-1)
+[2010-12-22 19:19] installed xorg-xlsatoms (1.1.0-1)
+[2010-12-22 19:19] installed xorg-xlsclients (1.1.1-1)
+[2010-12-22 19:19] installed xorg-xprop (1.2.0-1)
+[2010-12-22 19:19] installed xorg-xvinfo (1.1.1-1)
+[2010-12-22 19:19] installed xorg-xwininfo (1.1.1-1)
+[2010-12-22 19:19] upgraded xorg-utils (7.6-5 -> 7.6-6)
+[2010-12-22 19:23] Running 'pacman -S xfce4'
+[2010-12-22 19:24] installed gtk-xfce-engine (2.6.0-1)
+[2010-12-22 19:24] installed xfconf (4.6.2-2)
+[2010-12-22 19:24] installed libxfcegui4 (4.6.4-1)
+[2010-12-22 19:24] installed mousepad (0.2.16-2)
+[2010-12-22 19:24] installed libxres (1.0.5-1)
+[2010-12-22 19:24] installed libwnck (2.30.6-1)
+[2010-12-22 19:24] installed xfce4-panel (4.6.4-1)
+[2010-12-22 19:24] installed orage (4.6.1-1)
+[2010-12-22 19:24] upgraded terminal (0.4.5-1 -> 0.4.5-1)
+[2010-12-22 19:24] installed thunar (1.0.2-1)
+[2010-12-22 19:24] NOTE
+[2010-12-22 19:24] ----
+[2010-12-22 19:24] ==> xfce can run on top of a framebuffer. However, for most users it is
+[2010-12-22 19:24] ==> best to install xorg as an x-server. Please install either xorg-xinit
+[2010-12-22 19:24] ==> as minimal environment or the xorg meta package.
+[2010-12-22 19:24] pacman -S xorg-xinit
+[2010-12-22 19:24] -- or --
+[2010-12-22 19:24] pacman -S xorg
+[2010-12-22 19:24] installed xfce-utils (4.6.2-3)
+[2010-12-22 19:24] installed libxfce4menu (4.6.2-1)
+[2010-12-22 19:24] installed xfce4-appfinder (4.6.2-1)
+[2010-12-22 19:24] installed xfce4-mixer (4.6.1-1)
+[2010-12-22 19:24] installed xfce4-session (4.6.2-2)
+[2010-12-22 19:24] installed tango-icon-theme (0.8.90-2)
+[2010-12-22 19:24] installed xfce4-settings (4.6.5-1)
+[2010-12-22 19:24] installed xfdesktop (4.6.2-2)
+[2010-12-22 19:24] installed psutils (1.17-2)
+[2010-12-22 19:24] installed a2ps (4.14-1)
+[2010-12-22 19:24] installed xfprint (4.6.1-4)
+[2010-12-22 19:24] installed xfwm4 (4.6.2-1)
+[2010-12-22 19:24] installed xfwm4-themes (4.6.0-1)
+[2010-12-22 22:29] Running 'pacman -U nvidia-260.19.21-1-x86_64.pkg.tar.xz nvidia-utils-260.19.21-1-x86_64.pkg.tar.xz'
+[2010-12-22 22:30] Running 'pacman -U nvidia-260.19.21-1-x86_64.pkg.tar.xz nvidia-utils-260.19.21-1-x86_64.pkg.tar.xz kernel26-2.6.35.8-1-x86_64.pkg.tar.xz kernel26-headers-2.6.35.8-1-x86_64.pkg.tar.xz'
+[2010-12-22 22:30] >>> Updating module dependencies. Please wait ...
+[2010-12-22 22:30] >>> MKINITCPIO SETUP
+[2010-12-22 22:30] >>> ----------------
+[2010-12-22 22:30] >>> If you use LVM2, Encrypted root or software RAID,
+[2010-12-22 22:30] >>> Ensure you enable support in /etc/mkinitcpio.conf .
+[2010-12-22 22:30] >>> More information about mkinitcpio setup can be found here:
+[2010-12-22 22:30] >>> http://wiki.archlinux.org/index.php/Mkinitcpio
+[2010-12-22 22:30]
+[2010-12-22 22:30] >>> Generating initial ramdisk, using mkinitcpio. Please wait...
+[2010-12-22 22:30] ==> Building image "default"
+[2010-12-22 22:30] ==> Running command: /sbin/mkinitcpio -k 2.6.35-ARCH -c /etc/mkinitcpio.conf -g /boot/kernel26.img
+[2010-12-22 22:30] :: Begin build
+[2010-12-22 22:30] :: Parsing hook [base]
+[2010-12-22 22:30] :: Parsing hook [udev]
+[2010-12-22 22:30] :: Parsing hook [usb]
+[2010-12-22 22:30] :: Parsing hook [lvm2]
+[2010-12-22 22:31] :: Parsing hook [autodetect]
+[2010-12-22 22:31] :: Parsing hook [pata]
+[2010-12-22 22:31] :: Parsing hook [scsi]
+[2010-12-22 22:31] :: Parsing hook [sata]
+[2010-12-22 22:31] :: Parsing hook [filesystems]
+[2010-12-22 22:31] :: Generating module dependencies
+[2010-12-22 22:31] :: Generating image '/boot/kernel26.img'...SUCCESS
+[2010-12-22 22:31] ==> SUCCESS
+[2010-12-22 22:31] ==> Building image "fallback"
+[2010-12-22 22:31] ==> Running command: /sbin/mkinitcpio -k 2.6.35-ARCH -c /etc/mkinitcpio.conf -g /boot/kernel26-fallback.img -S autodetect
+[2010-12-22 22:31] :: Begin build
+[2010-12-22 22:31] :: Parsing hook [base]
+[2010-12-22 22:31] :: Parsing hook [udev]
+[2010-12-22 22:31] :: Parsing hook [usb]
+[2010-12-22 22:31] :: Parsing hook [lvm2]
+[2010-12-22 22:31] :: Parsing hook [pata]
+[2010-12-22 22:31] :: Parsing hook [scsi]
+[2010-12-22 22:31] :: Parsing hook [sata]
+[2010-12-22 22:31] :: Parsing hook [filesystems]
+[2010-12-22 22:31] :: Generating module dependencies
+[2010-12-22 22:31] :: Generating image '/boot/kernel26-fallback.img'...SUCCESS
+[2010-12-22 22:31] ==> SUCCESS
+[2010-12-22 22:31] upgraded kernel26 (2.6.36.2-1 -> 2.6.35.8-1)
+[2010-12-22 22:31] upgraded nvidia-utils (260.19.29-1 -> 260.19.21-1)
+[2010-12-22 22:31] In order to use the new nvidia module, exit Xserver and unload it manually.
+[2010-12-22 22:31] upgraded nvidia (260.19.29-1 -> 260.19.21-1)
+[2010-12-22 22:31] upgraded kernel26-headers (2.6.36.2-1 -> 2.6.35.8-1)
+[2010-12-22 22:32] Running 'pacman -U lib32-nvidia-utils-260.19.21-1-x86_64.pkg.tar.xz'
+[2010-12-22 22:32] upgraded lib32-nvidia-utils (260.19.29-2 -> 260.19.21-1)
+[2010-12-30 00:50] Running 'pacman -S kdenlive'
+[2010-12-30 00:50] Unknown media type in type 'all/all'
+[2010-12-30 00:50] Unknown media type in type 'all/allfiles'
+[2010-12-30 00:50] Unknown media type in type 'uri/mms'
+[2010-12-30 00:50] Unknown media type in type 'uri/mmst'
+[2010-12-30 00:50] Unknown media type in type 'uri/mmsu'
+[2010-12-30 00:50] Unknown media type in type 'uri/pnm'
+[2010-12-30 00:50] Unknown media type in type 'uri/rtspt'
+[2010-12-30 00:50] Unknown media type in type 'uri/rtspu'
+[2010-12-30 00:50] Unknown media type in type 'fonts/package'
+[2010-12-30 00:50] Unknown media type in type 'interface/x-winamp-skin'
+[2010-12-30 00:50] installed kdenlive (0.7.8-1)
+[2010-12-30 15:09] Running 'pacman -S darktable'
+[2010-12-30 15:11] installed darktable (0.7.1-2)
+[2011-01-02 00:33] Running 'pacman -Syu'
+[2011-01-02 00:33] synchronizing package lists
+[2011-01-02 00:33] starting full system upgrade
+[2011-01-02 00:37] removed go-openoffice (3.2.1.6-2)
+[2011-01-02 00:38] upgraded arch-artwork (0.2.1-3 -> 0.2.1-6)
+[2011-01-02 00:38] upgraded linux-api-headers (2.6.34-1 -> 2.6.36.2-1)
+[2011-01-02 00:38] Generating locales...
+[2011-01-02 00:38] en_US.UTF-8... done
+[2011-01-02 00:38] en_US.ISO-8859-1... done
+[2011-01-02 00:38] Generation complete.
+[2011-01-02 00:38] upgraded glibc (2.12.1-4 -> 2.12.2-1)
+[2011-01-02 00:38] upgraded binutils (2.20.1-4 -> 2.21-2)
+[2011-01-02 00:38] upgraded curl (7.21.2-2 -> 7.21.3-1)
+[2011-01-02 00:38] upgraded dbus-core (1.4.0-1 -> 1.4.1-1)
+[2011-01-02 00:38] upgraded dbus (1.4.0-1 -> 1.4.1-1)
+[2011-01-02 00:38] upgraded dnsutils (9.7.1.P2-1 -> 9.7.2.P3-1)
+[2011-01-02 00:38] upgraded dvdauthor (0.6.18-1 -> 0.7.0-1)
+[2011-01-02 00:38] upgraded gcc (4.5.1-2 -> 4.5.2-3)
+[2011-01-02 00:38] upgraded gcc-libs (4.5.1-2 -> 4.5.2-3)
+[2011-01-02 00:38] upgraded gen-init-cpio (2.6.32-1 -> 2.6.36-1)
+[2011-01-02 00:38] upgraded hyphen (2.7.1-1 -> 2.7.1-2)
+[2011-01-02 00:38] * see http://wiki.archlinux.org/index.php/Openoffice
+[2011-01-02 00:38] * you may want to pacman -Ss libreoffice-extensions
+[2011-01-02 00:38] to see what extensions are prepared to install
+[2011-01-02 00:38] * it's recommended to install {hunspell,mythes,hyphen}-xx pkg for spell checking
+[2011-01-02 00:38] * make sure you have installed some ttf font (ttf-dejavu recommended)
+[2011-01-02 00:38] installed libreoffice (3.3.0.2-3)
+[2011-01-02 00:38] upgraded qt (4.7.1-2 -> 4.7.1-3)
+[2011-01-02 00:38] upgraded hedgewars (0.9.14.1-2 -> 0.9.15-1)
+[2011-01-02 00:38] upgraded iotop (0.4.1-2 -> 0.4.2-2)
+[2011-01-02 00:38] upgraded sip (4.11.2-1 -> 4.12-1)
+[2011-01-02 00:38] upgraded pyqt (4.8.1-1 -> 4.8.2-2)
+[2011-01-02 00:38] upgraded qscintilla (2.4.5-4 -> 2.4.6-1)
+[2011-01-02 00:38] upgraded kdebindings-python (4.5.4-1 -> 4.5.4-2)
+[2011-01-02 00:38] upgraded kdenetwork-filesharing (4.5.4-1 -> 4.5.4-2)
+[2011-01-02 00:38] upgraded kdenetwork-kdnssd (4.5.4-1 -> 4.5.4-2)
+[2011-01-02 00:38] upgraded libktorrent (1.0.4-1 -> 1.0.5-1)
+[2011-01-02 00:38] upgraded kdenetwork-kget (4.5.4-1 -> 4.5.4-2)
+[2011-01-02 00:38] upgraded kdenetwork-kopete (4.5.4-1 -> 4.5.4-2)
+[2011-01-02 00:38] upgraded kdenetwork-kppp (4.5.4-1 -> 4.5.4-2)
+[2011-01-02 00:38] upgraded kdenetwork-krdc (4.5.4-1 -> 4.5.4-2)
+[2011-01-02 00:38] upgraded kdenetwork-krfb (4.5.4-1 -> 4.5.4-2)
+[2011-01-02 00:38] upgraded kernel26-headers (2.6.35.8-1 -> 2.6.36.2-1)
+[2011-01-02 00:38] upgraded ktorrent (4.0.4-1 -> 4.0.5-1)
+[2011-01-02 00:38] upgraded lib32-glibc (2.12.1-9 -> 2.12.2-1)
+[2011-01-02 00:38] upgraded lib32-gcc-libs (4.5.1-8 -> 4.5.2-3)
+[2011-01-02 00:38] upgraded libcap (2.19-1 -> 2.19-2)
+[2011-01-02 00:38] upgraded libpurple (2.7.8-1 -> 2.7.9-1)
+[2011-01-02 00:38] upgraded libwebkit (1.2.5-2 -> 1.2.6-1)
+[2011-01-02 00:38] warning: /etc/pacman.d/mirrorlist installed as /etc/pacman.d/mirrorlist.pacnew
+[2011-01-02 00:38] upgraded pacman-mirrorlist (20100825-1 -> 20101223-1)
+[2011-01-02 00:38] upgraded perl-xyne-common (2010.10.09.1-2 -> 2010.12.21.1-3)
+[2011-01-02 00:38] upgraded perl-xyne-arch (2010.11.05.1-1 -> 2010.12.23.1-1)
+[2011-01-02 00:38] upgraded pidgin (2.7.8-1 -> 2.7.9-1)
+[2011-01-02 00:38] upgraded ruby (1.9.2_p0-4 -> 1.9.2_p136-1)
+[2011-01-02 00:39] upgraded ruby-locale (2.0.5-1 -> 2.0.5-3)
+[2011-01-02 00:39] upgraded ruby-gettext (2.1.0-1 -> 2.1.0-3)
+[2011-01-02 00:39] upgraded schroedinger (1.0.9-1 -> 1.0.10-1)
+[2011-01-02 00:39] upgraded skype (2.1.0.81-5 -> 2.1.0.81-5.1)
+[2011-01-02 00:39] upgraded twisted (10.2.0-1 -> 10.2.0-2)
+[2011-01-02 00:39] This wine package is wow64 enabled. This means it can run 32bit/64bit Windows apps on x86_64.
+[2011-01-02 00:39] If you are on x86_64, the default WINEARCH will be win64.
+[2011-01-02 00:39] This will cause a lot of Windows applications to malfunction even if they usually work in wine.
+[2011-01-02 00:39] Please create your ~/.wine with 'WINEARCH=win32 winecfg' if you are unsure and on x86_64.
+[2011-01-02 00:39] See the Arch wiki on wine for more information.
+[2011-01-02 00:39] upgraded wine (1.3.9-1 -> 1.3.10-1)
+[2011-01-02 00:39] upgraded winetricks (20101106-1 -> 20101222-1)
+[2011-01-02 00:39] upgraded xulrunner (1.9.2.13-2 -> 1.9.2.13-3)
+[2011-01-02 00:57] Running 'pacman -S gtk-qt-engine'
+[2011-01-02 00:57] installed gtk-qt-engine (1.1-2)
+[2011-01-12 20:38] Running 'pacman -Syu'
+[2011-01-12 20:38] synchronizing package lists
+[2011-01-12 20:38] upgraded pacman (3.4.1-1 -> 3.4.2-1)
+[2011-01-12 20:38] Running 'pacman -Syu'
+[2011-01-12 20:38] synchronizing package lists
+[2011-01-12 20:38] starting full system upgrade

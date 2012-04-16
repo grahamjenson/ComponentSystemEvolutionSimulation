@@ -1,0 +1,190 @@
+
+Start-Date: 2010-12-03  18:14:47
+Install: ttf-lyx (1.6.5-1ubuntu1), blt (2.4z-4.2), python-tk (2.6.5-0ubuntu2), python-tz (2010b-1), python-matplotlib-data (0.99.1.2-3ubuntu1), python-pyparsing (1.5.2-1ubuntu1), python-matplotlib (0.99.1.2-3ubuntu1)
+End-Date: 2010-12-03  18:15:21
+
+Start-Date: 2010-12-05  03:13:13
+Upgrade: libc6-xen (2.11.1-0ubuntu7.1, 2.11.1-0ubuntu7.5), libpurple0 (2.6.6-1ubuntu4, 2.6.6-1ubuntu4.1), libc-bin (2.11.1-0ubuntu7.1, 2.11.1-0ubuntu7.5), bind9-host (9.7.0.dfsg.P1-1, 9.7.0.dfsg.P1-1ubuntu0.1), xulrunner-1.9.2 (1.9.2.11+build3+nobinonly-0ubuntu0.10.04.1, 1.9.2.12+build1+nobinonly-0ubuntu0.10.04.1), libcupscgi1 (1.4.3-1ubuntu1.2, 1.4.3-1ubuntu1.3), dnsutils (9.7.0.dfsg.P1-1, 9.7.0.dfsg.P1-1ubuntu0.1), cupsddk (1.4.3-1ubuntu1.2, 1.4.3-1ubuntu1.3), thunderbird (3.0.9+build1+nobinonly-0ubuntu0.10.04.1, 3.0.10+build1+nobinonly-0ubuntu0.10.04.1), python-libxml2 (2.7.6.dfsg-1ubuntu1, 2.7.6.dfsg-1ubuntu1.1), mysql-client-core-5.1 (5.1.41-3ubuntu12.3, 5.1.41-3ubuntu12.7), cups-client (1.4.3-1ubuntu1.2, 1.4.3-1ubuntu1.3), libcupsmime1 (1.4.3-1ubuntu1.2, 1.4.3-1ubuntu1.3), libc-dev-bin (2.11.1-0ubuntu7.1, 2.11.1-0ubuntu7.5), libdns64 (9.7.0.dfsg.P1-1, 9.7.0.dfsg.P1-1ubuntu0.1), mysql-common (5.1.41-3ubuntu12.3, 5.1.41-3ubuntu12.7), linux-libc-dev (2.6.32-25.45, 2.6.32-26.48), pidgin-data (2.6.6-1ubuntu4, 2.6.6-1ubuntu4.1), libisccc60 (9.7.0.dfsg.P1-1, 9.7.0.dfsg.P1-1ubuntu0.1), cups-ppdc (1.4.3-1ubuntu1.2, 1.4.3-1ubuntu1.3), libc6-i686 (2.11.1-0ubuntu7.1, 2.11.1-0ubuntu7.5), mysql-server-core-5.1 (5.1.41-3ubuntu12.3, 5.1.41-3ubuntu12.7), libcupsppdc1 (1.4.3-1ubuntu1.2, 1.4.3-1ubuntu1.3), firefox (3.6.11+build3+nobinonly-0ubuntu0.10.04.1, 3.6.12+build1+nobinonly-0ubuntu0.10.04.1), cups-common (1.4.3-1ubuntu1.2, 1.4.3-1ubuntu1.3), liblwres60 (9.7.0.dfsg.P1-1, 9.7.0.dfsg.P1-1ubuntu0.1), libcups2 (1.4.3-1ubuntu1.2, 1.4.3-1ubuntu1.3), libxml2 (2.7.6.dfsg-1ubuntu1, 2.7.6.dfsg-1ubuntu1.1), libbind9-60 (9.7.0.dfsg.P1-1, 9.7.0.dfsg.P1-1ubuntu0.1), firefox-gnome-support (3.6.11+build3+nobinonly-0ubuntu0.10.04.1, 3.6.12+build1+nobinonly-0ubuntu0.10.04.1), cups (1.4.3-1ubuntu1.2, 1.4.3-1ubuntu1.3), libcupsdriver1 (1.4.3-1ubuntu1.2, 1.4.3-1ubuntu1.3), firefox-3.0 (3.6.11+build3+nobinonly-0ubuntu0.10.04.1, 3.6.12+build1+nobinonly-0ubuntu0.10.04.1), firefox-3.5 (3.6.11+build3+nobinonly-0ubuntu0.10.04.1, 3.6.12+build1+nobinonly-0ubuntu0.10.04.1), cups-bsd (1.4.3-1ubuntu1.2, 1.4.3-1ubuntu1.3), firefox-3.0-gnome-support (3.6.11+build3+nobinonly-0ubuntu0.10.04.1, 3.6.12+build1+nobinonly-0ubuntu0.10.04.1), libmysqlclient16 (5.1.41-3ubuntu12.3, 5.1.41-3ubuntu12.7), libfreetype6 (2.3.11-1ubuntu2.2, 2.3.11-1ubuntu2.4), libisccfg60 (9.7.0.dfsg.P1-1, 9.7.0.dfsg.P1-1ubuntu0.1), libc6-dev (2.11.1-0ubuntu7.1, 2.11.1-0ubuntu7.5), libpurple-bin (2.6.6-1ubuntu4, 2.6.6-1ubuntu4.1), libcupsimage2 (1.4.3-1ubuntu1.2, 1.4.3-1ubuntu1.3), pidgin (2.6.6-1ubuntu4, 2.6.6-1ubuntu4.1), libssl0.9.8 (0.9.8k-7ubuntu8.3, 0.9.8k-7ubuntu8.4), openssl (0.9.8k-7ubuntu8.3, 0.9.8k-7ubuntu8.4), firefox-branding (3.6.11+build3+nobinonly-0ubuntu0.10.04.1, 3.6.12+build1+nobinonly-0ubuntu0.10.04.1), google-chrome-stable (7.0.517.44-r64615, 8.0.552.215-r67652), libxml2-utils (2.7.6.dfsg-1ubuntu1, 2.7.6.dfsg-1ubuntu1.1), libisc60 (9.7.0.dfsg.P1-1, 9.7.0.dfsg.P1-1ubuntu0.1), libc6 (2.11.1-0ubuntu7.1, 2.11.1-0ubuntu7.5), libaprutil1 (1.3.9+dfsg-3build1, 1.3.9+dfsg-3ubuntu0.10.04.1)
+End-Date: 2010-12-05  03:15:28
+
+Start-Date: 2010-12-06  11:18:45
+Install: linux-headers-2.6.32-26 (2.6.32-26.48), linux-headers-2.6.32-26-generic (2.6.32-26.48), linux-image-2.6.32-26-generic (2.6.32-26.48)
+Upgrade: linux-headers-generic (2.6.32.24.25, 2.6.32.26.28), linux-image-generic (2.6.32.24.25, 2.6.32.26.28), linux-generic (2.6.32.24.25, 2.6.32.26.28)
+End-Date: 2010-12-06  11:20:42
+
+Start-Date: 2010-12-06  16:50:02
+Install: vsftpd (2.2.2-3ubuntu6)
+End-Date: 2010-12-06  16:50:11
+
+Start-Date: 2010-12-09  09:54:53
+Upgrade: libmagickcore2-extra (6.5.7.8-1ubuntu1, 6.5.7.8-1ubuntu1.1), libmagickcore2 (6.5.7.8-1ubuntu1, 6.5.7.8-1ubuntu1.1), libmagick++2 (6.5.7.8-1ubuntu1, 6.5.7.8-1ubuntu1.1), libmagickwand2 (6.5.7.8-1ubuntu1, 6.5.7.8-1ubuntu1.1), libssl0.9.8 (0.9.8k-7ubuntu8.4, 0.9.8k-7ubuntu8.5), imagemagick (6.5.7.8-1ubuntu1, 6.5.7.8-1ubuntu1.1), openssl (0.9.8k-7ubuntu8.4, 0.9.8k-7ubuntu8.5), perlmagick (6.5.7.8-1ubuntu1, 6.5.7.8-1ubuntu1.1)
+End-Date: 2010-12-09  09:55:13
+
+Start-Date: 2010-12-10  09:57:12
+Upgrade: libkrb5-3 (1.8.1+dfsg-2ubuntu0.3, 1.8.1+dfsg-2ubuntu0.4), libkrb5support0 (1.8.1+dfsg-2ubuntu0.3, 1.8.1+dfsg-2ubuntu0.4), libk5crypto3 (1.8.1+dfsg-2ubuntu0.3, 1.8.1+dfsg-2ubuntu0.4), libgssapi-krb5-2 (1.8.1+dfsg-2ubuntu0.3, 1.8.1+dfsg-2ubuntu0.4)
+End-Date: 2010-12-10  09:57:20
+
+Start-Date: 2010-12-10  10:25:16
+Install: libfindlib-ocaml-dev (1.2.5+debian-1build1), libfindlib-ocaml (1.2.5+debian-1build1), ocaml-findlib (1.2.5+debian-1build1)
+End-Date: 2010-12-10  10:25:21
+
+Start-Date: 2010-12-10  10:28:11
+Install: libextlib-ocaml (1.5.1-5build1), libextlib-ocaml-dev (1.5.1-5build1)
+End-Date: 2010-12-10  10:28:14
+
+Start-Date: 2010-12-10  10:28:43
+Install: libpcre3-dev (7.8-3build1), libpcrecpp0 (7.8-3build1), libpcre-ocaml (6.0.1-2build1), libpcre-ocaml-dev (6.0.1-2build1)
+End-Date: 2010-12-10  10:28:47
+
+Start-Date: 2010-12-13  10:00:13
+Upgrade: xulrunner-1.9.2 (1.9.2.12+build1+nobinonly-0ubuntu0.10.04.1, 1.9.2.13+build3+nobinonly-0ubuntu0.10.04.1), thunderbird (3.0.10+build1+nobinonly-0ubuntu0.10.04.1, 3.1.7+build3+nobinonly-0ubuntu0.10.04.1), thunderbird-locale-en-gb (3.0.4-0ubuntu1, 3.1.2ubuntu0.10.04.1), firefox (3.6.12+build1+nobinonly-0ubuntu0.10.04.1, 3.6.13+build3+nobinonly-0ubuntu0.10.04.1), firefox-gnome-support (3.6.12+build1+nobinonly-0ubuntu0.10.04.1, 3.6.13+build3+nobinonly-0ubuntu0.10.04.1), firefox-3.0 (3.6.12+build1+nobinonly-0ubuntu0.10.04.1, 3.6.13+build3+nobinonly-0ubuntu0.10.04.1), firefox-3.5 (3.6.12+build1+nobinonly-0ubuntu0.10.04.1, 3.6.13+build3+nobinonly-0ubuntu0.10.04.1), firefox-3.0-gnome-support (3.6.12+build1+nobinonly-0ubuntu0.10.04.1, 3.6.13+build3+nobinonly-0ubuntu0.10.04.1), firefox-branding (3.6.12+build1+nobinonly-0ubuntu0.10.04.1, 3.6.13+build3+nobinonly-0ubuntu0.10.04.1)
+End-Date: 2010-12-13  10:00:54
+
+Start-Date: 2010-12-14  11:12:10
+Install: xtightvncviewer (1.3.9-6)
+End-Date: 2010-12-14  11:12:19
+
+Start-Date: 2010-12-15  11:45:48
+Install: texlive-fonts-extra-doc (2009-7ubuntu3), texlive-fonts-recommended (2009-7), tipa (1.3-14), texlive-fonts-recommended-doc (2009-7), texlive-fonts-extra (2009-7ubuntu3)
+End-Date: 2010-12-15  11:46:45
+
+Start-Date: 2010-12-21  09:46:42
+Commandline: /usr/sbin/synaptic
+Install: amarok-common:i386 (2.3.2-0ubuntu4, automatic), kdemultimedia-kio-plugins:i386 (4.5.1-0ubuntu1, automatic), libkcddb4:i386 (4.5.1-0ubuntu1, automatic), libloudmouth1-0:i386 (1.4.3-5, automatic), libqtscript4-core:i386 (0.1.0-3ubuntu2, automatic), amarok:i386 (2.3.2-0ubuntu4), libqtscript4-gui:i386 (0.1.0-3ubuntu2, automatic), libqt4-sql-sqlite:i386 (4.7.0-0ubuntu4, automatic), libqtscript4-uitools:i386 (0.1.0-3ubuntu2, automatic), libindicate-qt0:i386 (0.2.5-0ubuntu1, automatic), libqtscript4-sql:i386 (0.1.0-3ubuntu2, automatic), libqtscript4-xml:i386 (0.1.0-3ubuntu2, automatic), libtag-extras1:i386 (1.0.1-2, automatic), liblastfm0:i386 (0.4.0~really0.3.3-0ubuntu1, automatic), amarok-utils:i386 (2.3.2-0ubuntu4, automatic), libqtscript4-network:i386 (0.1.0-3ubuntu2, automatic)
+End-Date: 2010-12-21  09:47:34
+
+Start-Date: 2010-12-21  09:56:32
+Commandline: apt-get install libxine1-ffmpeg
+Install: libxine1-ffmpeg:i386 (1.1.18.1-4ubuntu4)
+End-Date: 2010-12-21  09:56:34
+
+Start-Date: 2010-12-22  19:18:03
+Commandline: apt-get install emacs
+Install: emacs:i386 (23.1+1-4ubuntu7), emacs23-bin-common:i386 (23.1+1-4ubuntu7, automatic), emacs23-common:i386 (23.1+1-4ubuntu7, automatic), emacs23:i386 (23.1+1-4ubuntu7, automatic)
+End-Date: 2010-12-22  19:18:43
+
+Start-Date: 2010-12-27  13:51:59
+Commandline: apt-get install blender
+Install: libftgl2:i386 (2.1.3~rc5-3, automatic), libopenjpeg2:i386 (1.3+dfsg-4, automatic), gettext:i386 (0.18.1.1-1ubuntu2, automatic), blender:i386 (2.49.2~dfsg-2ubuntu2), libunistring0:i386 (0.9.3-1, automatic), libavdevice52:i386 (0.6-2ubuntu6, automatic)
+End-Date: 2010-12-27  13:52:39
+
+Start-Date: 2010-12-30  13:28:40
+Commandline: apt-get install git
+Install: liberror-perl:i386 (0.17-1, automatic), git:i386 (1.7.1-1.1)
+End-Date: 2010-12-30  13:28:53
+
+Start-Date: 2010-11-03  16:21:50
+Install: g++-4.4 (4.4.3-4ubuntu5), libstdc++6-4.4-dev (4.4.3-4ubuntu5), g++ (4.4.3-1ubuntu1), libamd2.2.0 (3.4.0-1ubuntu3), python-scipy (0.7.0-2), libumfpack5.4.0 (3.4.0-1ubuntu3)
+End-Date: 2010-11-03  16:22:12
+
+Start-Date: 2010-11-11  14:08:15
+Upgrade: adobe-flashplugin (10.1.85.3-1lucid1, 10.1.102.64-1lucid1), google-chrome-stable (7.0.517.41-r62167, 7.0.517.44-r64615)
+End-Date: 2010-11-11  14:09:04
+
+Start-Date: 2010-11-21  16:20:03
+Install: wv (1.2.4-2ubuntu3), libwv-1.2-3 (1.2.4-2ubuntu3)
+End-Date: 2010-11-21  16:20:14
+
+Start-Date: 2010-11-22  15:34:03
+Install: graphviz (2.20.2-8ubuntu3)
+End-Date: 2010-11-22  15:34:12
+
+Start-Date: 2010-11-22  17:43:21
+Install: p7zip (9.04~dfsg.1-1)
+End-Date: 2010-11-22  17:43:33
+
+Start-Date: 2010-11-23  10:22:51
+Install: debcudf (0.2-1)
+End-Date: 2010-11-23  10:22:53
+
+Start-Date: 2010-11-24  12:14:54
+Upgrade: adobe-flashplugin (10.1.102.64-1lucid1, 10.1.102.65-2lucid1)
+End-Date: 2010-11-24  12:15:04
+
+Start-Date: 2010-11-29  19:56:44
+Install: libcap2-bin (2.17-2ubuntu1), libsmi2ldbl (0.4.8+dfsg2-2), wireshark (1.2.7-1), libc-ares2 (1.7.0-1), liblua5.1-0 (5.1.4-5), wireshark-common (1.2.7-1)
+End-Date: 2010-11-29  19:57:06
+
+Start-Date: 2010-11-29  20:17:50
+Install: driftnet (0.1.6-9)
+End-Date: 2010-11-29  20:17:55
+
+Start-Date: 2010-11-30  11:26:38
+Install: libswscale0 (0.5.1-1ubuntu1), libtwolame0 (0.3.12-1), libavutil49 (0.5.1-1ubuntu1), libpostproc51 (0.5.1-1ubuntu1), libavformat52 (0.5.1-1ubuntu1), libdvdnav4 (4.1.3-6), libdvdread4 (4.1.3-8ubuntu1), libavcodec52 (0.5.1-1ubuntu1), libmad0 (0.15.1b-4ubuntu1), libmpeg2-4 (0.4.1-3), liba52-0.7.4 (0.7.4-13ubuntu1)
+End-Date: 2010-11-30  11:26:48
+
+Start-Date: 2010-11-30  15:09:44
+Install: libxcb-keysyms1 (0.3.6-1build1), libdca0 (0.0.5-3), libcddb2 (1.3.2-0ubuntu1), libass4 (0.9.9-0ubuntu1), libdvbpsi5 (0.1.6-1), libx264-85 (0.85.1448+git1a6d32-4), libvlc2 (1.0.6-1ubuntu1.2), libenca0 (1.12-1), vlc-nox (1.0.6-1ubuntu1.2), libupnp3 (1.6.6-4), libiso9660-7 (0.81-4), vlc (1.0.6-1ubuntu1.2), vlc-plugin-pulse (1.0.6-1ubuntu1.2), vlc-data (1.0.6-1ubuntu1.2), libtar (1.2.11-6), libvlccore2 (1.0.6-1ubuntu1.2), libvcdinfo0 (0.7.23-4ubuntu2), libebml0 (0.7.7-3.1), libmatroska0 (0.8.1-1.1), libsdl-image1.2 (1.2.10-1), libfaad2 (2.7-4)
+End-Date: 2010-11-30  15:10:20
+
+Start-Date: 2010-11-30  15:11:43
+Install: gstreamer0.10-plugins-ugly (0.10.14-1), gstreamer0.10-ffmpeg (0.10.10-1), gstreamer0.10-fluendo-mp3 (0.10.12.debian-2), libsidplay1 (1.36.59-5), libid3tag0 (0.15.1b-10build2), libopencore-amrnb0 (0.1.2-1), libopencore-amrwb0 (0.1.2-1)
+End-Date: 2010-11-30  15:11:55
+
+Start-Date: 2010-10-04  16:06:46
+Install: texlive-extra-utils (2009-7ubuntu3), texlive-base (2009-7), texlive-pstricks-doc (2009-7ubuntu3), lmodern (2.004.1-3), texlive-common (2009-7), texlive-pstricks (2009-7ubuntu3), luatex (0.50.0-1), prosper (1.00.4+cvs.2007.05.01-4), texlive-latex-recommended-doc (2009-7), texlive-latex-base-doc (2009-7), texlive-binaries (2009-5ubuntu0.1), pgf (2.00-1), texlive-latex-recommended (2009-7), texlive-generic-recommended (2009-7), texlive-latex-base (2009-7), ps2eps (1.64-6build1), latex-beamer (3.07-2ubuntu1), texlive-luatex (2009-7), texlive-font-utils (2009-7ubuntu3), latex-xcolor (2.11-1), texlive-doc-base (2009-2), tex-common (2.06), lacheck (1.26-11.1build1)
+End-Date: 2010-10-04  16:08:07
+
+Start-Date: 2010-10-05  11:05:47
+Upgrade: python-mako (0.2.5-2ubuntu1, 0.2.5-2ubuntu1.3), libavahi-compat-libdnssd1 (0.6.25-1ubuntu6, 0.6.25-1ubuntu6.1), avahi-daemon (0.6.25-1ubuntu6, 0.6.25-1ubuntu6.1), libavahi-common-data (0.6.25-1ubuntu6, 0.6.25-1ubuntu6.1), avahi-utils (0.6.25-1ubuntu6, 0.6.25-1ubuntu6.1), python-avahi (0.6.25-1ubuntu6, 0.6.25-1ubuntu6.1), libavahi-gobject0 (0.6.25-1ubuntu6, 0.6.25-1ubuntu6.1), avahi-autoipd (0.6.25-1ubuntu6, 0.6.25-1ubuntu6.1), libavahi-client3 (0.6.25-1ubuntu6, 0.6.25-1ubuntu6.1), libavahi-glib1 (0.6.25-1ubuntu6, 0.6.25-1ubuntu6.1), libavahi-common3 (0.6.25-1ubuntu6, 0.6.25-1ubuntu6.1), libavahi-ui0 (0.6.25-1ubuntu6, 0.6.25-1ubuntu6.1), libavahi-core6 (0.6.25-1ubuntu6, 0.6.25-1ubuntu6.1), libgdiplus (2.4.2-1build1, 2.4.2-1ubuntu0.10.04.1)
+End-Date: 2010-10-05  11:06:12
+
+Start-Date: 2010-10-05  13:27:05
+Install: wmctrl (1.07-6)
+End-Date: 2010-10-05  13:27:11
+
+Start-Date: 2010-10-05  14:44:54
+Install: libclucene0ldbl (0.9.21b-2), plasma-dataengines-workspace (4.4.2-0ubuntu14), kubuntu-debug-installer (10.04ubuntu4), kdepim-runtime (4.4.2-0ubuntu1), libprocessui4 (4.4.2-0ubuntu14), libqca2 (2.0.2-1ubuntu2), libqt4-opengl (4.6.2-0ubuntu5), libtaskmanager4 (4.4.2-0ubuntu14), libqimageblitz4 (0.0.4-4build1), polkit-kde-1 (0.95.1-2ubuntu1), libqt4-assistant (4.6.2-0ubuntu5), libpackagekit-glib2-12 (0.5.7-0ubuntu2), libkscreensaver5 (4.4.2-0ubuntu14), libsolidcontrolifaces4 (4.4.2-0ubuntu14), libxine1-x (1.1.17-1ubuntu3), kpackagekit (0.5.4-0ubuntu4), ttf-dejavu-extra (2.30-2), oxygen-icon-theme (4.4.2-0ubuntu2), libboost-program-options1.40.0 (1.40.0-4ubuntu4), libqt4-test (4.6.2-0ubuntu5), kdebase-runtime (4.4.2-0ubuntu4), libqt4-sql-mysql (4.6.2-0ubuntu5), plasma-widgets-workspace (4.4.2-0ubuntu14), libxine1-misc-plugins (1.1.17-1ubuntu3), kdelibs5 (4.4.2-0ubuntu4), libxcb-xv0 (1.5-2), phonon (4.6.2-0ubuntu5), mysql-client-core-5.1 (5.1.41-3ubuntu12.3), libqt4-qt3support (4.6.2-0ubuntu5), shared-desktop-ontologies (0.3-1), mysql-common (5.1.41-3ubuntu12.3), libplasma-geolocation-interface4 (4.4.2-0ubuntu14), libxine1-bin (1.1.17-1ubuntu3), libexiv2-6 (0.19-1), dolphin (4.4.2-0ubuntu2), kdesudo (3.4.2.3-0ubuntu1), libpackagekit-qt-12 (0.5.7-0ubuntu2), libakonadiprivate1 (1.3.1-0ubuntu3), libqt4-xmlpatterns (4.6.2-0ubuntu5), libsoprano4 (2.4.2+dfsg.1-0ubuntu1), mysql-server-core-5.1 (5.1.41-3ubuntu12.3), install-package (0.5.2), libpolkit-qt-1-0 (0.95.1-1fakesync1), libqt4-help (4.6.2-0ubuntu5), libksgrd4 (4.4.2-0ubuntu14), python-qt4 (4.7.2-0ubuntu1), libqt4-webkit (4.6.2-0ubuntu5), kdebase-workspace-bin (4.4.2-0ubuntu14), python-sip (4.10.1-0ubuntu1), libkworkspace4 (4.4.2-0ubuntu14), libkonq5 (4.4.2-0ubuntu2), kdelibs5-data (4.4.2-0ubuntu4), libdbusmenu-qt2 (0.3.2-0ubuntu1), libplasmagenericshell4 (4.4.2-0ubuntu14), kfind (4.4.2-0ubuntu2), libkfontinst4 (4.4.2-0ubuntu14), libxcb-shape0 (1.5-2), icoutils (0.26.0-4ubuntu1), libqt4-sql (4.6.2-0ubuntu5), libqt4-svg (4.6.2-0ubuntu5), python-packagekit (0.5.7-0ubuntu2), libstreamanalyzer0 (0.7.2-0ubuntu1), libphonon4 (4.6.2-0ubuntu5), packagekit (0.5.7-0ubuntu2), libkephal4 (4.4.2-0ubuntu14), gdebi-kde (0.6.0ubuntu1), libplasma3 (4.4.2-0ubuntu4), kdebase-workspace-data (4.4.2-0ubuntu14), software-properties-kde (0.75.10), ttf-dejavu (2.30-2), phonon-backend-xine (4.4.0-0ubuntu2), ksysguardd (4.4.2-0ubuntu14), libqt4-designer (4.6.2-0ubuntu5), libplasmaclock4 (4.4.2-0ubuntu14), kdepimlibs5 (4.4.2-0ubuntu2), libweather-ion4 (4.4.2-0ubuntu14), libmysqlclient16 (5.1.41-3ubuntu12.3), kdebase-workspace-kgreet-plugins (4.4.2-0ubuntu14), kdelibs-bin (4.4.2-0ubuntu4), libsolidcontrol4 (4.4.2-0ubuntu14), libattica0 (0.1.3-0ubuntu1), libkonq5-templates (4.4.2-0ubuntu2), akonadi-server (1.3.1-0ubuntu3), update-manager-kde (0.134.7), libstreams0 (0.7.2-0ubuntu1), libmodplug0c2 (0.8.7-1build1), packagekit-backend-apt (0.5.7-0ubuntu2), exiv2 (0.19-1), libqt4-script (4.6.2-0ubuntu5), plasma-scriptengine-javascript (4.4.2-0ubuntu4), libplasma-applet-system-monitor4 (4.4.2-0ubuntu14), libqt4-scripttools (4.6.2-0ubuntu5), libssh-4 (0.4.2-1ubuntu1), virtuoso-nepomuk (6.1.0-0ubuntu3), libxcb-shm0 (1.5-2), soprano-daemon (2.4.2+dfsg.1-0ubuntu1), libprocesscore4 (4.4.2-0ubuntu14), kdebase-runtime-data (4.4.2-0ubuntu4), libiodbc2 (3.52.6-4), libmpcdec3 (1.2.2-2.1ubuntu1), kdepimlibs-data (4.4.2-0ubuntu2), python-kde4 (4.4.2-0ubuntu2), libxine1-console (1.1.17-1ubuntu3), libxine1 (1.1.17-1ubuntu3)
+End-Date: 2010-10-05  14:46:47
+
+Start-Date: 2010-10-05  15:03:42
+Install: libsvn-java (1.6.6dfsg-2ubuntu1)
+End-Date: 2010-10-05  15:03:45
+
+Start-Date: 2010-10-06  10:59:54
+Upgrade: libkrb5-3 (1.8.1+dfsg-2ubuntu0.2, 1.8.1+dfsg-2ubuntu0.3), libkrb5support0 (1.8.1+dfsg-2ubuntu0.2, 1.8.1+dfsg-2ubuntu0.3), libk5crypto3 (1.8.1+dfsg-2ubuntu0.2, 1.8.1+dfsg-2ubuntu0.3), libgssapi-krb5-2 (1.8.1+dfsg-2ubuntu0.2, 1.8.1+dfsg-2ubuntu0.3)
+End-Date: 2010-10-06  11:00:19
+
+Start-Date: 2010-10-06  13:17:57
+Install: acroread (9.3.4-1lucid1)
+End-Date: 2010-10-06  13:43:24
+
+Start-Date: 2010-10-06  14:13:01
+Install: pymacs (0.23-1.1)
+End-Date: 2010-10-06  14:13:08
+
+Start-Date: 2010-10-06  14:13:44
+Install: yasnippet (0.5.10-1)
+End-Date: 2010-10-06  14:13:47
+
+Start-Date: 2010-10-07  10:17:32
+Upgrade: dmsetup (1.02.39-1ubuntu4, 1.02.39-1ubuntu4.1), libdevmapper1.02.1 (1.02.39-1ubuntu4, 1.02.39-1ubuntu4.1)
+End-Date: 2010-10-07  10:17:56
+
+Start-Date: 2010-10-08  10:31:10
+Upgrade: libssl0.9.8 (0.9.8k-7ubuntu8.1, 0.9.8k-7ubuntu8.3), openssl (0.9.8k-7ubuntu8.1, 0.9.8k-7ubuntu8.3)
+End-Date: 2010-10-08  10:32:10
+
+Start-Date: 2010-10-11  12:15:07
+Remove: emacs (23.1+1-4ubuntu7)
+End-Date: 2010-10-11  12:15:12
+
+Start-Date: 2010-10-11  12:15:18
+Remove: emacs23 (23.1+1-4ubuntu7), yasnippet (0.5.10-1)
+End-Date: 2010-10-11  12:15:29
+
+Start-Date: 2010-10-11  12:56:46
+Install: xen-hypervisor-3.3 (3.3.0-1ubuntu11)
+End-Date: 2010-10-11  12:56:49
+
+Start-Date: 2010-10-11  12:59:07
+Install: libc6-xen (2.11.1-0ubuntu7.1), bridge-utils (1.4-5ubuntu2), python-dev (2.6.5-0ubuntu1), xen-utils-3.3 (3.3.0-1ubuntu11), libxen3 (3.3.0-1ubuntu11), python2.6-dev (2.6.5-1ubuntu6), python-xen-3.3 (3.3.0-1ubuntu11)
+End-Date: 2010-10-11  12:59:16
+
+Start-Date: 2010-10-11  15:12:12
+Install: libaio1 (0.3.107-3ubuntu2), seabios (0.5.1-0ubuntu2), qemu (0.12.3+noroms-0ubuntu9), qemu-kvm (0.12.3+noroms-0ubuntu9), vgabios (0.6c-2ubuntu1), qemu-common (0.12.3+noroms-0ubuntu9)
+End-Date: 2010-10-11  15:12:23
+
+Start-Date: 2010-10-11  15:45:24
+Remove: uml-utilities (20070815-1.1ubuntu2), user-mode-linux (2.6.32-1um-3ubuntu3)
+End-Date: 2010-10-11  15:45:29

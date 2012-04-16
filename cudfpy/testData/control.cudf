@@ -1,0 +1,28 @@
+preamble: 
+property: installedsize: nat = [0], size: nat = [0], sourceversion: string = [""], source: string = [""], number: string, recommends: vpkgformula = [true!], replaces: vpkglist = []
+
+package: a
+version: 46776
+date: 1304374169
+conflicts: virtual--a , a
+provides: virtual--b
+installed: true
+pagerank: 3
+
+package: b
+version: 46777
+date: 1304374169
+depends: a >= 46776 , x >= 14661 | virtual--y | y
+conflicts: virtual--b , b
+pagerank: 4
+
+package: c
+version: 46756
+date: 1304374169
+depends: virtual--b | b
+conflicts: virtual--c , c
+pagerank: 40
+
+request: RAND-CUDF-GENERATOR
+install: python-csound , transmission-qt , libwmf-bin , dictionaryreader.app , libacovea-5.1-5 , python-librdf = 1 , telepathy-gabble-dbg , kontact , ceferino-data , intltool-debian
+remove: vlc-nox , libglade2.0-cil , imagemagick , libneon27-gnutls , librsvg2-2 , latex-beamer , libglu1-mesa , rpm , libcaca0 , mlocate

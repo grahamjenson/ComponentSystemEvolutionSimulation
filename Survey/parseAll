@@ -1,0 +1,5 @@
+#!/bin/bash
+for line in $(find apt-logs/ -name *.log); do ./apt-log-parser.py $line; done;
+
+#for line in $(find pacman-logs/ -name *.log); do ./pacman-log-parser.py $line; done;
+#for line in $(find yum-logs/ -name *.log); do ./yum-log-parser.py $line; done;

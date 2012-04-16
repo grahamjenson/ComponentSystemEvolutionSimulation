@@ -1,0 +1,377 @@
+
+Start-Date: 2011-01-02  14:04:44
+Commandline: apt-get install debfoster
+Install: debfoster:i386 (2.7-1.1)
+End-Date: 2011-01-02  14:04:51
+
+Start-Date: 2011-01-02  14:11:39
+Commandline: apt-get install debsecan
+Install: debsecan:i386 (0.4.14)
+End-Date: 2011-01-02  14:11:48
+
+Start-Date: 2011-01-03  12:58:37
+Commandline: apt-get install p7zip-full
+Install: p7zip-full:i386 (9.04~dfsg.1-1)
+End-Date: 2011-01-03  12:58:45
+
+Start-Date: 2011-01-03  14:48:10
+Commandline: apt-get upgrade
+Upgrade: evolution-common:i386 (2.30.3-1ubuntu7.1, 2.30.3-1ubuntu7.2), libpackagekit-glib2-14:i386 (0.6.8-0ubuntu3.1, 0.6.8-0ubuntu3.2), clamav:i386 (0.96.3+dfsg-2ubuntu1.2, 0.96.5+dfsg-1ubuntu1.10.10.1), cmake-data:i386 (2.8.2-2, 2.8.2-2ubuntu0.1), clamav-freshclam:i386 (0.96.3+dfsg-2ubuntu1.2, 0.96.5+dfsg-1ubuntu1.10.10.1), ubuntu-sso-client:i386 (1.0.7-0ubuntu1, 1.0.8-0ubuntu1), clamav-base:i386 (0.96.3+dfsg-2ubuntu1.2, 0.96.5+dfsg-1ubuntu1.10.10.1), libsqlite3-0:i386 (3.7.2-1, 3.7.2-1ubuntu0.1), libclamav6:i386 (0.96.3+dfsg-2ubuntu1.2, 0.96.5+dfsg-1ubuntu1.10.10.1), libpackagekit-qt-14:i386 (0.6.8-0ubuntu3.1, 0.6.8-0ubuntu3.2), cmake:i386 (2.8.2-2, 2.8.2-2ubuntu0.1), packagekit-backend-aptcc:i386 (0.6.8-0ubuntu3.1, 0.6.8-0ubuntu3.2), python-packagekit:i386 (0.6.8-0ubuntu3.1, 0.6.8-0ubuntu3.2), libpq5:i386 (8.4.5-0ubuntu10.10, 8.4.6-0ubuntu10.10), gnome-system-tools:i386 (2.32.0-0ubuntu1, 2.32.0-0ubuntu1.1)
+End-Date: 2011-01-03  14:49:11
+
+Start-Date: 2011-01-04  11:47:42
+Commandline: apt-get install keepassx
+Install: keepassx:i386 (0.4.3-1)
+End-Date: 2011-01-04  11:47:56
+
+Start-Date: 2011-01-04  12:29:14
+Commandline: apt-get remove gimpshop
+Remove: gimpshop:i386 (2.2.11-1)
+End-Date: 2011-01-04  12:29:21
+
+Start-Date: 2011-01-04  13:13:11
+Commandline: apt-get install wine1.2
+Install: wine1.2:i386 (1.2.1-0ubuntu1), ttf-symbol-replacement:i386 (1.2.1-0ubuntu1, automatic), wine1.2-gecko:i386 (1.0.0-0ubuntu4, automatic), libmpg123-0:i386 (1.12.1-3ubuntu1, automatic), winbind:i386 (3.5.4~dfsg-1ubuntu8.1, automatic)
+End-Date: 2011-01-04  13:14:04
+
+Start-Date: 2011-01-05  13:59:42
+Commandline: apt-get install git-gui
+Install: git-gui:i386 (1.7.1-1.1), tk:i386 (8.4.16-2, automatic), liberror-perl:i386 (0.17-1, automatic), git:i386 (1.7.1-1.1, automatic), tcl:i386 (8.4.16-2, automatic), gitk:i386 (1.7.1-1.1, automatic)
+End-Date: 2011-01-05  14:00:02
+
+Start-Date: 2011-01-05  14:05:10
+Commandline: apt-get install tig
+Install: tig:i386 (0.16-1)
+End-Date: 2011-01-05  14:05:18
+
+Start-Date: 2011-01-05  14:06:26
+Commandline: apt-get remove tig
+Remove: tig:i386 (0.16-1)
+End-Date: 2011-01-05  14:06:32
+
+Start-Date: 2011-01-05  14:06:43
+Commandline: apt-get remove git-gui
+Remove: git-gui:i386 (1.7.1-1.1)
+End-Date: 2011-01-05  14:06:48
+
+Start-Date: 2011-01-05  14:07:04
+Commandline: apt-get autoremove
+Remove: tk:i386 (8.4.16-2), liberror-perl:i386 (0.17-1), git:i386 (1.7.1-1.1), gitk:i386 (1.7.1-1.1)
+End-Date: 2011-01-05  14:07:13
+
+Start-Date: 2011-01-05  16:51:04
+Commandline: apt-get install xfig
+Install: xfig-libs:i386 (3.2.5.b-1ubuntu1, automatic), xfig:i386 (3.2.5.b-1ubuntu1), xaw3dg:i386 (1.5+E-18, automatic)
+End-Date: 2011-01-05  16:51:26
+
+Start-Date: 2011-01-05  17:57:30
+Commandline: apt-get purge wine1.2
+Purge: wine1.2:i386 (1.2.1-0ubuntu1)
+End-Date: 2011-01-05  17:57:47
+
+Start-Date: 2011-01-05  17:58:20
+Commandline: apt-get autoremove
+Remove: ttf-symbol-replacement:i386 (1.2.1-0ubuntu1), wine1.2-gecko:i386 (1.0.0-0ubuntu4), libmpg123-0:i386 (1.12.1-3ubuntu1), winbind:i386 (3.5.4~dfsg-1ubuntu8.1)
+End-Date: 2011-01-05  17:58:34
+
+Start-Date: 2011-01-05  17:58:57
+Commandline: apt-get install wine1.2
+Install: wine1.2:i386 (1.2.1-0ubuntu1), ttf-symbol-replacement:i386 (1.2.1-0ubuntu1, automatic), wine1.2-gecko:i386 (1.0.0-0ubuntu4, automatic), libmpg123-0:i386 (1.12.1-3ubuntu1, automatic), winbind:i386 (3.5.4~dfsg-1ubuntu8.1, automatic)
+End-Date: 2011-01-05  17:59:35
+
+Start-Date: 2011-01-06  11:26:57
+Commandline: apt-get install surfraw
+Install: libxml-rss-perl:i386 (1.48-1, automatic), libdata-page-perl:i386 (2.02-1, automatic), libdatetime-locale-perl:i386 (0.45-1, automatic), libparams-validate-perl:i386 (0.93-1, automatic), libxml-atom-perl:i386 (0.37-1, automatic), libwww-opensearch-perl:i386 (0.15-1, automatic), surfraw-extra:i386 (2.2.7-1, automatic), libclass-accessor-chained-perl:i386 (0.01.1~debian-2.1, automatic), libclass-errorhandler-perl:i386 (0.01-2, automatic), libxml-libxslt-perl:i386 (1.70-1, automatic), surfraw:i386 (2.2.7-1), liburi-fetch-perl:i386 (0.08-1, automatic), libfeed-find-perl:i386 (0.06-2, automatic), libdatetime-perl:i386 (0.5500-1, automatic), libdatetime-format-w3cdtf-perl:i386 (0.05-1, automatic), libheap-perl:i386 (0.80-2, automatic), libcache-perl:i386 (2.04-2, automatic), libclass-data-inheritable-perl:i386 (0.08-1, automatic), libdatetime-format-mail-perl:i386 (0.3001-1, automatic), liblwp-authen-wsse-perl:i386 (0.05-1, automatic), liburi-template-perl:i386 (0.15-2, automatic), libdatetime-timezone-perl:i386 (1.19-1+2010j, automatic), liblist-moreutils-perl:i386 (0.25~02-1, automatic), libclass-singleton-perl:i386 (1.4-1, automatic), libxml-feed-perl:i386 (0.43+dfsg-1, automatic), libfile-nfslock-perl:i386 (1.20-2, automatic)
+End-Date: 2011-01-06  11:27:42
+
+Start-Date: 2011-01-06  11:32:37
+Commandline: apt-get remove surfraw
+Remove: surfraw-extra:i386 (2.2.7-1), surfraw:i386 (2.2.7-1)
+End-Date: 2011-01-06  11:32:42
+
+Start-Date: 2011-01-06  11:32:56
+Commandline: apt-get autoremove
+Remove: libxml-rss-perl:i386 (1.48-1), libdata-page-perl:i386 (2.02-1), libdatetime-locale-perl:i386 (0.45-1), libparams-validate-perl:i386 (0.93-1), libxml-atom-perl:i386 (0.37-1), libwww-opensearch-perl:i386 (0.15-1), libclass-accessor-chained-perl:i386 (0.01.1~debian-2.1), libclass-errorhandler-perl:i386 (0.01-2), libxml-libxslt-perl:i386 (1.70-1), liburi-fetch-perl:i386 (0.08-1), libfeed-find-perl:i386 (0.06-2), libdatetime-perl:i386 (0.5500-1), libdatetime-format-w3cdtf-perl:i386 (0.05-1), libheap-perl:i386 (0.80-2), libcache-perl:i386 (2.04-2), libclass-data-inheritable-perl:i386 (0.08-1), libdatetime-format-mail-perl:i386 (0.3001-1), liblwp-authen-wsse-perl:i386 (0.05-1), liburi-template-perl:i386 (0.15-2), libdatetime-timezone-perl:i386 (1.19-1+2010j), liblist-moreutils-perl:i386 (0.25~02-1), libclass-singleton-perl:i386 (1.4-1), libxml-feed-perl:i386 (0.43+dfsg-1), libfile-nfslock-perl:i386 (1.20-2)
+End-Date: 2011-01-06  11:33:30
+
+Start-Date: 2011-01-06  11:53:44
+Upgrade: python-aptdaemon-gtk:i386 (0.31+bzr506-0ubuntu4, 0.31+bzr506-0ubuntu5), python-aptdaemon:i386 (0.31+bzr506-0ubuntu4, 0.31+bzr506-0ubuntu5), libevview3:i386 (2.32.0-0ubuntu1, 2.32.0-0ubuntu1.1), evince-common:i386 (2.32.0-0ubuntu1, 2.32.0-0ubuntu1.1), google-chrome-beta:i386 (9.0.597.19-r68937, 9.0.597.44-r70439), aptdaemon:i386 (0.31+bzr506-0ubuntu4, 0.31+bzr506-0ubuntu5), evince:i386 (2.32.0-0ubuntu1, 2.32.0-0ubuntu1.1), libevdocument3:i386 (2.32.0-0ubuntu1, 2.32.0-0ubuntu1.1)
+End-Date: 2011-01-06  11:54:53
+
+Start-Date: 2011-01-07  11:58:56
+Upgrade: libapparmor1:i386 (2.5.1-0ubuntu0.10.10.2, 2.5.1-0ubuntu0.10.10.3), libcupscgi1:i386 (1.4.4-6ubuntu2.2, 1.4.4-6ubuntu2.3), libapparmor-perl:i386 (2.5.1-0ubuntu0.10.10.2, 2.5.1-0ubuntu0.10.10.3), cups-client:i386 (1.4.4-6ubuntu2.2, 1.4.4-6ubuntu2.3), libcupsmime1:i386 (1.4.4-6ubuntu2.2, 1.4.4-6ubuntu2.3), google-chrome-beta:i386 (9.0.597.44-r70439, 9.0.597.45-r70550), libdpkg-perl:i386 (1.15.8.4ubuntu3, 1.15.8.4ubuntu3.1), cups-ppdc:i386 (1.4.4-6ubuntu2.2, 1.4.4-6ubuntu2.3), libvlc5:i386 (1.1.4-1ubuntu1.1, 1.1.4-1ubuntu1.2), libcupsppdc1:i386 (1.4.4-6ubuntu2.2, 1.4.4-6ubuntu2.3), cups-common:i386 (1.4.4-6ubuntu2.2, 1.4.4-6ubuntu2.3), libcups2:i386 (1.4.4-6ubuntu2.2, 1.4.4-6ubuntu2.3), vlc-nox:i386 (1.1.4-1ubuntu1.1, 1.1.4-1ubuntu1.2), ifupdown:i386 (0.6.10ubuntu3, 0.6.10ubuntu3.1), dpkg:i386 (1.15.8.4ubuntu3, 1.15.8.4ubuntu3.1), cups:i386 (1.4.4-6ubuntu2.2, 1.4.4-6ubuntu2.3), libcupsdriver1:i386 (1.4.4-6ubuntu2.2, 1.4.4-6ubuntu2.3), dpkg-dev:i386 (1.15.8.4ubuntu3, 1.15.8.4ubuntu3.1), vlc:i386 (1.1.4-1ubuntu1.1, 1.1.4-1ubuntu1.2), cups-bsd:i386 (1.4.4-6ubuntu2.2, 1.4.4-6ubuntu2.3), vlc-plugin-notify:i386 (1.1.4-1ubuntu1.1, 1.1.4-1ubuntu1.2), libcupsimage2:i386 (1.4.4-6ubuntu2.2, 1.4.4-6ubuntu2.3), vlc-plugin-pulse:i386 (1.1.4-1ubuntu1.1, 1.1.4-1ubuntu1.2), vlc-data:i386 (1.1.4-1ubuntu1.1, 1.1.4-1ubuntu1.2), libvlccore4:i386 (1.1.4-1ubuntu1.1, 1.1.4-1ubuntu1.2)
+End-Date: 2011-01-07  12:01:17
+
+Start-Date: 2011-01-07  13:09:14
+Commandline: apt-get install mythbuntu-apple-trailers
+Install: mythbuntu-apple-trailers:i386 (0.2-0ubuntu1), php5-cli:i386 (5.3.3-1ubuntu9.1, automatic)
+End-Date: 2011-01-07  13:09:27
+
+Start-Date: 2011-01-09  10:25:35
+Commandline: apt-get remove motion
+Remove: motion:i386 (3.2.12-2)
+End-Date: 2011-01-09  10:25:46
+
+Start-Date: 2011-01-09  10:26:03
+Commandline: apt-get autoremove
+Remove: libpq5:i386 (8.4.6-0ubuntu10.10)
+End-Date: 2011-01-09  10:26:09
+
+Start-Date: 2011-01-09  10:46:05
+Install: libxmlrpc-c3:i386 (1.06.27-1ubuntu7, automatic), libtre5:i386 (0.8.0-2, automatic), xsel:i386 (1.2.0-1, automatic)
+End-Date: 2011-01-09  10:46:32
+
+Start-Date: 2011-01-10  06:42:14
+Commandline: apt-get upgrade
+Upgrade: ubuntu-tweak:i386 (0.5.9-1~maverick1, 0.5.10-1~maverick1), xserver-common:i386 (1.9.0-0ubuntu7, 1.9.0-0ubuntu7.1), xserver-xorg-core:i386 (1.9.0-0ubuntu7, 1.9.0-0ubuntu7.1)
+End-Date: 2011-01-10  06:42:52
+
+Start-Date: 2011-01-11  19:50:16
+Commandline: apt-get install kubuntu-desktop
+Install: ksystemlog:i386 (4.5.1-0ubuntu1), plasma-dataengines-workspace:i386 (4.5.1-0ubuntu8, automatic), krdc:i386 (4.5.1-0ubuntu2.1), krfb:i386 (4.5.1-0ubuntu2.1), plasma-netbook:i386 (4.5.1-0ubuntu8), kppp:i386 (4.5.1-0ubuntu2.1), openoffice.org-style-oxygen:i386 (3.2.1-7ubuntu1, automatic), userconfig:i386 (0.9.0-0ubuntu7), kubuntu-default-settings:i386 (10.10ubuntu11, automatic), libqimageblitz4:i386 (0.0.6-0ubuntu2, automatic), kdebase-workspace:i386 (4.5.1-0ubuntu8, automatic), knm-runtime:i386 (0.9~svn1176084-0ubuntu1, automatic), libtaskmanager4a:i386 (4.5.1-0ubuntu8, automatic), libbluedevil1:i386 (1.8-0ubuntu1, automatic), pinentry-gtk2:i386 (0.8.0-1ubuntu0.1, automatic), rekonq:i386 (0.6.1-0ubuntu1, automatic), libkscreensaver5:i386 (4.5.1-0ubuntu8, automatic), libsolidcontrolifaces4:i386 (4.5.1-0ubuntu8, automatic), libk3b6:i386 (2.0.1-1ubuntu3, automatic), plasma-widget-quickaccess:i386 (0.8.1-0ubuntu6), kpackagekit:i386 (0.6.2-0ubuntu1), plymouth-theme-kubuntu-logo:i386 (10.10ubuntu11), printer-applet:i386 (4.5.1-0ubuntu2), ksnapshot:i386 (4.5.1-0ubuntu3), libkipi7:i386 (4.5.1-0ubuntu3, automatic), libotr2:i386 (3.2.0-2, automatic), kdepim-groupware:i386 (4.4.6-0ubuntu1, automatic), openoffice.org-kde:i386 (3.2.1-7ubuntu1), libkleo4:i386 (4.4.6-0ubuntu1, automatic), quassel-data:i386 (0.7.1-0ubuntu1, automatic), plasma-widgets-workspace:i386 (4.5.1-0ubuntu8, automatic), kdebase-data:i386 (4.5.1-0ubuntu4, automatic), gwenview:i386 (4.5.1-0ubuntu3), kdelibs5:i386 (4.5.1-0ubuntu8, automatic), okular-extra-backends:i386 (4.5.1-0ubuntu3), libmessagelist4:i386 (4.4.6-0ubuntu1, automatic), quassel:i386 (0.7.1-0ubuntu1), kcalc:i386 (4.5.1-0ubuntu2), plasma-dataengines-addons:i386 (4.5.1-0ubuntu4, automatic), libktorrent2:i386 (1.0.3-0ubuntu1, automatic), libgps19:i386 (2.94-2, automatic), klipper:i386 (4.5.1-0ubuntu8, automatic), amarok-common:i386 (2.3.2-0ubuntu4, automatic), libmimelib4:i386 (4.4.6-0ubuntu1, automatic), kdemultimedia-kio-plugins:i386 (4.5.1-0ubuntu1), libflac++6:i386 (1.2.1-3, automatic), kontact:i386 (4.4.6-0ubuntu1), ibus-qt4:i386 (1.3.0-1), kde-config-gtk:i386 (0.5.3-0ubuntu6), ksysguard:i386 (4.5.1-0ubuntu8, automatic), libkexiv2-8:i386 (4.5.1-0ubuntu3, automatic), libplasma-geolocation-interface4:i386 (4.5.1-0ubuntu8, automatic), libkcddb4:i386 (4.5.1-0ubuntu1, automatic), libcln6:i386 (1.3.1-2, automatic), kopete-message-indicator:i386 (0.2.0-0ubuntu2, automatic), apturl-kde:i386 (0.4.1ubuntu7), plasma-widget-kimpanel-backend-ibus:i386 (4.5.1-0ubuntu4, automatic), libprocesscore4a:i386 (4.5.1-0ubuntu8, automatic), kubuntu-desktop:i386 (1.205), dolphin:i386 (4.5.1-0ubuntu4), kdesudo:i386 (3.4.2.3-2ubuntu2, automatic), k3b-data:i386 (2.0.1-1ubuntu3, automatic), kde-zeroconf:i386 (4.5.1-0ubuntu2.1), kubuntu-konqueror-shortcuts:i386 (10.10ubuntu1), libprocessui4a:i386 (4.5.1-0ubuntu8, automatic), konsole:i386 (4.5.1-0ubuntu4), libqjson0:i386 (0.7.1-1, automatic), libktorrent-l10n:i386 (1.0.3-0ubuntu1, automatic), korganizer:i386 (4.4.6-0ubuntu1, automatic), k3b:i386 (2.0.1-1ubuntu3), plasma-widget-menubar:i386 (0.1.13-0ubuntu1), akregator:i386 (4.4.6-0ubuntu1), libqtscript4-core:i386 (0.1.0-3ubuntu2, automatic), libao-common:i386 (1.0.0-4, automatic), libksgrd4:i386 (4.5.1-0ubuntu8, automatic), plasma-widget-networkmanagement:i386 (0.9~svn1176084-0ubuntu1), kamera:i386 (4.5.1-0ubuntu3), ark:i386 (4.5.1-0ubuntu2), libkpgp4:i386 (4.4.6-0ubuntu1, automatic), libplasmaclock4b:i386 (4.5.1-0ubuntu8, automatic), libqalculate5:i386 (0.9.7-1ubuntu2, automatic), kdebase-workspace-bin:i386 (4.5.1-0ubuntu8), libibus-qt1:i386 (1.3.0-1, automatic), kvkbd:i386 (0.6-2ubuntu1), libkworkspace4:i386 (4.5.1-0ubuntu8, automatic), libkonq5:i386 (4.5.1-0ubuntu4, automatic), libkdepim4:i386 (4.4.6-0ubuntu1, automatic), libkdecorations4:i386 (4.5.1-0ubuntu8, automatic), libkwineffects1a:i386 (4.5.1-0ubuntu8, automatic), plymouth-theme-kubuntu-text:i386 (0.8.2-2ubuntu5.1), kde-config-touchpad:i386 (0.3.1-0ubuntu7), python-qt4-dbus:i386 (4.7.4-0ubuntu1, automatic), libweather-ion4a:i386 (4.5.1-0ubuntu8, automatic), krosspython:i386 (4.5.1-0ubuntu3, automatic), libksieve4:i386 (4.4.6-0ubuntu1, automatic), libplasmagenericshell4:i386 (4.5.1-0ubuntu8, automatic), kfind:i386 (4.5.1-0ubuntu4, automatic), plasma-widget-kubuntu-feedback:i386 (0.2-0ubuntu2), kdebase-bin:i386 (4.5.1-0ubuntu4, automatic), plasma-widget-facebook:i386 (1.0-0ubuntu1), systemsettings:i386 (4.5.1-0ubuntu8, automatic), usb-creator-kde:i386 (0.2.25), kdm:i386 (4.5.1-0ubuntu8, automatic), libksba8:i386 (1.0.7-2, automatic), kdegraphics-libs-data:i386 (4.5.1-0ubuntu3, automatic), amarok:i386 (2.3.2-0ubuntu4), gnupg-agent:i386 (2.0.14-1.1ubuntu2), libqtscript4-gui:i386 (0.1.0-3ubuntu2, automatic), libqtscript4-uitools:i386 (0.1.0-3ubuntu2, automatic), libao4:i386 (1.0.0-4, automatic), kubuntu-docs:i386 (10.10.2.1), knotes:i386 (4.4.6-0ubuntu1), libsolidcontrol4a:i386 (4.5.1-0ubuntu8, automatic), plasma-widget-message-indicator:i386 (0.5.6-0ubuntu3, automatic), libkopete4:i386 (4.5.1-0ubuntu2.1, automatic), plasma-widget-kimpanel:i386 (4.5.1-0ubuntu4), libindicate-qt0:i386 (0.2.5-0ubuntu1, automatic), kubuntu-netbook-default-settings:i386 (10.10.6), kubuntu-firefox-installer:i386 (10.10ubuntu4), network-manager-pptp-kde:i386 (0.9~svn1176084-0ubuntu1), libpoppler-qt4-3:i386 (0.14.3-0ubuntu1.1, automatic), kaddressbook:i386 (4.4.6-0ubuntu1), cdrdao:i386 (1.2.3-0.1ubuntu1), packagekit:i386 (0.6.8-0ubuntu3.2, automatic), libkephal4:i386 (4.5.1-0ubuntu8, automatic), plasma-widgets-addons:i386 (4.5.1-0ubuntu4), kinfocenter:i386 (4.5.1-0ubuntu8, automatic), gdebi-kde:i386 (0.6.3ubuntu1), kdebase-workspace-data:i386 (4.5.1-0ubuntu8, automatic), libqtscript4-sql:i386 (0.1.0-3ubuntu2, automatic), software-properties-kde:i386 (0.76.7), ksysguardd:i386 (4.5.1-0ubuntu8, automatic), kdebase-workspace-kgreet-plugins:i386 (4.5.1-0ubuntu8, automatic), language-selector-qt:i386 (0.6.6), libqtscript4-xml:i386 (0.1.0-3ubuntu2, automatic), libakonadi-contact4:i386 (4.5.1-0ubuntu1, automatic), khelpcenter4:i386 (4.5.1-0ubuntu3.1), libkonq5-templates:i386 (4.5.1-0ubuntu4, automatic), plasma-desktop:i386 (4.5.1-0ubuntu8, automatic), kdegraphics-strigi-plugins:i386 (4.5.1-0ubuntu3), ktorrent-data:i386 (4.0.3-0ubuntu1, automatic), ktorrent:i386 (4.0.3-0ubuntu1), jockey-kde:i386 (0.5.10-0ubuntu5.1), libtelepathy-qt4-0:i386 (0.3.10-0ubuntu1, automatic), bluedevil:i386 (1.0~rc4-0ubuntu2.1), update-manager-kde:i386 (0.142.20, automatic), libksignalplotter4:i386 (4.5.1-0ubuntu8, automatic), kwalletmanager:i386 (4.5.1-0ubuntu2), libqca2-plugin-ossl:i386 (0.1~20070904-4build1, automatic), libepub0:i386 (0.2.1-1, automatic), ktimetracker:i386 (4.4.6-0ubuntu1), kdepim-strigi-plugins:i386 (4.4.6-0ubuntu1), kopete:i386 (4.5.1-0ubuntu2.1), plasma-widget-folderview:i386 (4.5.1-0ubuntu4), libokularcore1:i386 (4.5.1-0ubuntu3, automatic), libtag-extras1:i386 (1.0.1-2, automatic), libkunitconversion4:i386 (4.5.1-0ubuntu8, automatic), kate:i386 (4.5.1-0ubuntu3), kmail:i386 (4.4.6-0ubuntu1), liblastfm0:i386 (0.4.0~really0.3.3-0ubuntu1, automatic), libmessagecore4:i386 (4.4.6-0ubuntu1, automatic), kubuntu-notification-helper:i386 (10.10ubuntu5, automatic), plasma-scriptengine-python:i386 (4.5.1-0ubuntu8, automatic), amarok-utils:i386 (2.3.2-0ubuntu4, automatic), kde-window-manager:i386 (4.5.1-0ubuntu8), apport-kde:i386 (1.14.1-0ubuntu8), system-config-printer-kde:i386 (4.5.1-0ubuntu1), dragonplayer:i386 (4.5.1-0ubuntu1), libqtscript4-network:i386 (0.1.0-3ubuntu2, automatic), gnupg2:i386 (2.0.14-1.1ubuntu2, automatic), okular:i386 (4.5.1-0ubuntu3), kmousetool:i386 (4.5.1-0ubuntu1), pinentry-qt4:i386 (0.8.0-1ubuntu0.1, automatic), libmsn0.3:i386 (4.1-1.2ubuntu1, automatic), kmag:i386 (4.5.1-0ubuntu1), libkdcraw8:i386 (4.5.1-0ubuntu3, automatic), kdepim-kresources:i386 (4.4.6-0ubuntu1), kdepim-wizards:i386 (4.4.6-0ubuntu1), gtk2-engines-qtcurve:i386 (1.5.2-1ubuntu3), oxygen-icon-theme-complete:i386 (4.5.1-0ubuntu1), kdepasswd:i386 (4.5.1-0ubuntu4), kmix:i386 (4.5.1-0ubuntu1), oxygen-cursor-theme:i386 (0.0.2010-05-10-kde4.4.3-1ubuntu1, automatic), libkontactinterface4:i386 (4.5.1-0ubuntu1, automatic)
+End-Date: 2011-01-11  19:56:38
+
+Start-Date: 2011-01-11  20:18:18
+Install: flashplugin-installer:i386 (10.1.102.65ubuntu0.10.10.1), libk3b6-extracodecs:i386 (2.0.1-1ubuntu3)
+Remove: adobe-flashplugin:i386 (10.1.102.65-2maverick1)
+End-Date: 2011-01-11  20:18:45
+
+Start-Date: 2011-01-12  06:46:10
+Commandline: apt-get upgrade
+Upgrade: libc-bin:i386 (2.12.1-0ubuntu10, 2.12.1-0ubuntu10.1), liblcms1:i386 (1.18.dfsg-1ubuntu2, 1.18.dfsg-1ubuntu2.10.10.1), php5:i386 (5.3.3-1ubuntu9.1, 5.3.3-1ubuntu9.2), libc-dev-bin:i386 (2.12.1-0ubuntu10, 2.12.1-0ubuntu10.1), libc6-dev:i386 (2.12.1-0ubuntu10, 2.12.1-0ubuntu10.1), php5-cgi:i386 (5.3.3-1ubuntu9.1, 5.3.3-1ubuntu9.2), php5-cli:i386 (5.3.3-1ubuntu9.1, 5.3.3-1ubuntu9.2), libc6:i386 (2.12.1-0ubuntu10, 2.12.1-0ubuntu10.1), php5-common:i386 (5.3.3-1ubuntu9.1, 5.3.3-1ubuntu9.2)
+End-Date: 2011-01-12  06:46:54
+
+Start-Date: 2011-01-13  18:07:57
+Commandline: apt-get upgrade
+Upgrade: php5:i386 (5.3.3-1ubuntu9.2, 5.3.3-1ubuntu9.3), php5-cgi:i386 (5.3.3-1ubuntu9.2, 5.3.3-1ubuntu9.3), php5-cli:i386 (5.3.3-1ubuntu9.2, 5.3.3-1ubuntu9.3), php5-common:i386 (5.3.3-1ubuntu9.2, 5.3.3-1ubuntu9.3)
+End-Date: 2011-01-13  18:08:18
+
+Start-Date: 2011-01-14  07:29:30
+Commandline: apt-get remove tor
+Remove: tor-geoipdb:i386 (0.2.1.28-1~maverick+1), tor:i386 (0.2.1.28-1~maverick+1)
+End-Date: 2011-01-14  07:29:38
+
+Start-Date: 2011-01-14  07:29:56
+Commandline: apt-get autoremove
+Remove: polipo:i386 (1.0.4.1-1.1), tsocks:i386 (1.8beta5-9.1), socat:i386 (1.7.1.3-1)
+End-Date: 2011-01-14  07:30:05
+
+Start-Date: 2011-01-14  19:26:45
+Commandline: apt-get upgrade
+Upgrade: libawn1-trunk:i386 (0.4.1~bzr814+201012250025~maverick1, 0.4.1~bzr816+201101140036~maverick1), avant-window-navigator-data-trunk:i386 (0.4.1~bzr814+201012250025~maverick1, 0.4.1~bzr816+201101140036~maverick1), avant-window-navigator-trunk:i386 (0.4.1~bzr814+201012250025~maverick1, 0.4.1~bzr816+201101140036~maverick1), awn-settings-trunk:i386 (0.4.1~bzr814+201012250025~maverick1, 0.4.1~bzr816+201101140036~maverick1), python-awn-trunk:i386 (0.4.1~bzr814+201012250025~maverick1, 0.4.1~bzr816+201101140036~maverick1)
+End-Date: 2011-01-14  19:27:20
+
+Start-Date: 2011-01-15  10:34:36
+Commandline: apt-get upgrade
+Upgrade: apport:i386 (1.14.1-0ubuntu8, 1.14.1-0ubuntu8.1), libx264-98:i386 (0.98.1653+git88b90d9-3ubuntu1, 0.98.1653+git88b90d9-3ubuntu2), python-problem-report:i386 (1.14.1-0ubuntu8, 1.14.1-0ubuntu8.1), python-apport:i386 (1.14.1-0ubuntu8, 1.14.1-0ubuntu8.1), apport-gtk:i386 (1.14.1-0ubuntu8, 1.14.1-0ubuntu8.1), apport-kde:i386 (1.14.1-0ubuntu8, 1.14.1-0ubuntu8.1)
+End-Date: 2011-01-15  10:35:07
+
+Start-Date: 2011-01-16  09:15:11
+Commandline: apt-get upgrade
+Upgrade: libawn1-trunk:i386 (0.4.1~bzr816+201101140036~maverick1, 0.4.1~bzr818+201101152358~maverick1), avant-window-navigator-data-trunk:i386 (0.4.1~bzr816+201101140036~maverick1, 0.4.1~bzr818+201101152358~maverick1), avant-window-navigator-trunk:i386 (0.4.1~bzr816+201101140036~maverick1, 0.4.1~bzr818+201101152358~maverick1), awn-settings-trunk:i386 (0.4.1~bzr816+201101140036~maverick1, 0.4.1~bzr818+201101152358~maverick1), python-awn-trunk:i386 (0.4.1~bzr816+201101140036~maverick1, 0.4.1~bzr818+201101152358~maverick1)
+End-Date: 2011-01-16  09:15:44
+
+Start-Date: 2011-01-16  17:24:17
+Commandline: apt-get install xbmc
+Install: libpcrecpp0:i386 (8.02-1, automatic), python-qt3:i386 (3.18.1-4ubuntu1, automatic), xbmc-skin-confluence:i386 (10.00~svn35648-maverick1, automatic), xbmc-bin:i386 (10.00~svn35648-maverick1, automatic), xbmc:i386 (10.00~svn35648-maverick1), libmicrohttpd5:i386 (0.4.6-1, automatic), xbmc-data:i386 (10.00~svn35648-maverick1, automatic)
+End-Date: 2011-01-16  17:24:56
+
+Start-Date: 2011-01-17  06:19:52
+Commandline: apt-get upgrade
+Upgrade: libbabl-0.0-0:i386 (0.0.22-1build1, 0.1.3-2010102101~mm), libilmbase6:i386 (1.0.1-3build2, 1.0.2-3.1), awn-applets-common-trunk:i386 (0.4.1~bzr1476+201011032003~maverick1, 0.4.1~bzr1495+201101162349~maverick1), awn-applets-python-core-trunk:i386 (0.4.1~bzr1476+201011032003~maverick1, 0.4.1~bzr1495+201101162349~maverick1), awn-applets-c-extras-trunk:i386 (0.4.1~bzr1476+201011032003~maverick1, 0.4.1~bzr1495+201101162349~maverick1), awn-applets-python-extras-trunk:i386 (0.4.1~bzr1476+201011032003~maverick1, 0.4.1~bzr1495+201101162349~maverick1), libopenexr6:i386 (1.6.1-4.1, 1.7.0-4.2~mm), python-awn-extras-trunk:i386 (0.4.1~bzr1476+201011032003~maverick1, 0.4.1~bzr1495+201101162349~maverick1), awn-applets-c-core-trunk:i386 (0.4.1~bzr1476+201011032003~maverick1, 0.4.1~bzr1495+201101162349~maverick1)
+End-Date: 2011-01-17  06:20:28
+
+Start-Date: 2011-01-17  06:21:19
+Commandline: apt-get dist-upgrade
+Install: libopenraw1:i386 (0.0.8-1, automatic), libamd2.2.0:i386 (3.4.0-2ubuntu1, automatic), libumfpack5.4.0:i386 (3.4.0-2ubuntu1, automatic)
+Upgrade: libgegl-0.0-0:i386 (0.0.22-2ubuntu2, 0.1.3-2010110301~mm), gimp:i386 (2.6.10-1ubuntu3.1, 2.7.3-2010110501~mm), libgimp2.0:i386 (2.6.10-1ubuntu3.1, 2.7.3-2010110501~mm), gimp-data:i386 (2.6.10-1ubuntu3.1, 2.7.3-2010110501~mm)
+End-Date: 2011-01-17  06:21:49
+
+Start-Date: 2011-01-17  06:46:11
+Commandline: apt-get install puppetmaster
+Install: libshadow-ruby1.8:i386 (1.4.1-8build1, automatic), puppetmaster-common:i386 (2.6.1-0ubuntu2, automatic), debconf-utils:i386 (1.5.32ubuntu3, automatic), libruby:i386 (4.5, automatic), facter:i386 (1.5.7-1ubuntu1, automatic), puppet-common:i386 (2.6.1-0ubuntu2, automatic), puppetmaster:i386 (2.6.1-0ubuntu2)
+End-Date: 2011-01-17  06:46:33
+
+Start-Date: 2011-01-17  07:04:29
+Commandline: apt-get install puppet-dashboard
+Install: librack-ruby:i386 (1.1.0-3ubuntu1, automatic), libdeprecated-ruby1.8:i386 (2.0.1-2, automatic), apache2-utils:i386 (2.2.16-1ubuntu3.1, automatic), libdbd-mysql-ruby1.8:i386 (0.4.4-1, automatic), libaprutil1-dbd-sqlite3:i386 (1.3.9+dfsg-3ubuntu0.10.10.1, automatic), rubygems:i386 (1.3.7-2, automatic), libhttpclient-ruby1.8:i386 (2.1.5.2-2, automatic), librack-ruby1.8:i386 (1.1.0-3ubuntu1, automatic), apache2.2-bin:i386 (2.2.16-1ubuntu3.1, automatic), rake:i386 (0.8.7-2, automatic), libapache2-mod-passenger:i386 (2.2.11debian-1, automatic), libapr1:i386 (1.4.2-3ubuntu1, automatic), libaprutil1-ldap:i386 (1.3.9+dfsg-3ubuntu0.10.10.1, automatic), libdbi-ruby1.8:i386 (0.4.3-2, automatic), wwwconfig-common:i386 (0.2.1, automatic), apache2.2-common:i386 (2.2.16-1ubuntu3.1, automatic), libdbd-mysql-ruby:i386 (0.4.4-1, automatic), libmysql-ruby1.8:i386 (2.8.2-1, automatic), apache2-mpm-worker:i386 (2.2.16-1ubuntu3.1, automatic), javascript-common:i386 (7, automatic), dbconfig-common:i386 (1.8.46, automatic), libjs-prototype:i386 (1.6.1-1, automatic), libaprutil1:i386 (1.3.9+dfsg-3ubuntu0.10.10.1, automatic), puppet-dashboard:i386 (1.0.4-1)
+End-Date: 2011-01-17  07:05:29
+
+Start-Date: 2011-01-17  07:15:13
+Commandline: apt-get install mysql-server
+Install: libhtml-template-perl:i386 (2.9-1, automatic), mysql-server-5.1:i386 (5.1.49-1ubuntu8.1, automatic), mysql-server:i386 (5.1.49-1ubuntu8.1)
+End-Date: 2011-01-17  07:15:50
+
+Start-Date: 2011-01-17  07:21:40
+Commandline: apt-get remove puppetmaster
+Remove: puppetmaster:i386 (2.6.1-0ubuntu2)
+End-Date: 2011-01-17  07:21:44
+
+Start-Date: 2011-01-17  07:21:58
+Commandline: apt-get remove mysql-server
+Remove: mysql-server:i386 (5.1.49-1ubuntu8.1)
+End-Date: 2011-01-17  07:22:00
+
+Start-Date: 2011-01-17  07:22:13
+Commandline: apt-get autoremove
+Remove: libshadow-ruby1.8:i386 (1.4.1-8build1), libhtml-template-perl:i386 (2.9-1), mysql-server-5.1:i386 (5.1.49-1ubuntu8.1), puppetmaster-common:i386 (2.6.1-0ubuntu2), debconf-utils:i386 (1.5.32ubuntu3), libruby:i386 (4.5), facter:i386 (1.5.7-1ubuntu1), puppet-common:i386 (2.6.1-0ubuntu2)
+End-Date: 2011-01-17  07:22:27
+
+Start-Date: 2011-01-17  07:23:43
+Commandline: apt-get remove puppet-dashboard
+Remove: puppet-dashboard:i386 (1.0.4-1)
+End-Date: 2011-01-17  07:23:46
+
+Start-Date: 2011-01-17  07:24:25
+Commandline: apt-get autoremove
+Remove: librack-ruby:i386 (1.1.0-3ubuntu1), libdeprecated-ruby1.8:i386 (2.0.1-2), apache2-utils:i386 (2.2.16-1ubuntu3.1), libdbd-mysql-ruby1.8:i386 (0.4.4-1), libaprutil1-dbd-sqlite3:i386 (1.3.9+dfsg-3ubuntu0.10.10.1), rubygems:i386 (1.3.7-2), libhttpclient-ruby1.8:i386 (2.1.5.2-2), librack-ruby1.8:i386 (1.1.0-3ubuntu1), apache2.2-bin:i386 (2.2.16-1ubuntu3.1), rake:i386 (0.8.7-2), libapache2-mod-passenger:i386 (2.2.11debian-1), libapr1:i386 (1.4.2-3ubuntu1), libaprutil1-ldap:i386 (1.3.9+dfsg-3ubuntu0.10.10.1), libdbi-ruby1.8:i386 (0.4.3-2), wwwconfig-common:i386 (0.2.1), apache2.2-common:i386 (2.2.16-1ubuntu3.1), libdbd-mysql-ruby:i386 (0.4.4-1), libmysql-ruby1.8:i386 (2.8.2-1), apache2-mpm-worker:i386 (2.2.16-1ubuntu3.1), javascript-common:i386 (7), dbconfig-common:i386 (1.8.46), libjs-prototype:i386 (1.6.1-1), libaprutil1:i386 (1.3.9+dfsg-3ubuntu0.10.10.1)
+End-Date: 2011-01-17  07:24:56
+
+Start-Date: 2011-01-17  07:26:38
+Commandline: apt-get --purge remove motion
+Purge: motion:i386 ()
+End-Date: 2011-01-17  07:26:42
+
+Start-Date: 2011-01-17  07:26:55
+Commandline: apt-get --purge remove puppet-dashboard
+Purge: puppet-dashboard:i386 ()
+End-Date: 2011-01-17  07:26:58
+
+Start-Date: 2011-01-17  07:27:11
+Commandline: apt-get --purge remove puppetmaster
+Purge: puppetmaster:i386 ()
+End-Date: 2011-01-17  07:27:14
+
+Start-Date: 2011-01-17  07:27:31
+Commandline: apt-get --purge remove puppet-common
+Purge: puppet-common:i386 ()
+End-Date: 2011-01-17  07:27:33
+
+Start-Date: 2011-01-17  19:52:04
+Commandline: apt-get upgrade
+Upgrade: xbmc-skin-confluence:i386 (10.00~svn35648-maverick1, 10.5-dharma+pvr~odk48+maverick), xbmc-bin:i386 (10.00~svn35648-maverick1, 10.5-dharma+pvr~odk48+maverick), xbmc:i386 (10.00~svn35648-maverick1, 10.5-dharma+pvr~odk48+maverick), libva1:i386 (1.0.1-3, 1.0.31.1-1+sds4~odk2+maverick), xbmc-data:i386 (10.00~svn35648-maverick1, 10.5-dharma+pvr~odk48+maverick)
+End-Date: 2011-01-17  19:53:26
+
+Start-Date: 2011-01-17  21:02:54
+Commandline: apt-get install mercurial
+Install: mercurial:i386 (1.6.3-1), mercurial-common:i386 (1.6.3-1, automatic)
+End-Date: 2011-01-17  21:03:09
+
+Start-Date: 2011-01-17  21:23:14
+Commandline: apt-get remove xbmc
+Remove: xbmc:i386 (10.5-dharma+pvr~odk48+maverick)
+End-Date: 2011-01-17  21:23:19
+
+Start-Date: 2011-01-17  21:23:39
+Commandline: apt-get autoremove
+Remove: libpcrecpp0:i386 (8.02-1), python-qt3:i386 (3.18.1-4ubuntu1), xbmc-skin-confluence:i386 (10.5-dharma+pvr~odk48+maverick), xbmc-bin:i386 (10.5-dharma+pvr~odk48+maverick), libmicrohttpd5:i386 (0.4.6-1), xbmc-data:i386 (10.5-dharma+pvr~odk48+maverick)
+End-Date: 2011-01-17  21:23:56
+
+Start-Date: 2011-01-17  21:24:12
+Commandline: apt-get --purge remove libmicrohttpd5 libpcrecpp0 python-qt3 xbmc-bin xbmc-data
+Purge: libpcrecpp0:i386 (), xbmc-bin:i386 (), libmicrohttpd5:i386 (), xbmc-data:i386 ()
+End-Date: 2011-01-17  21:24:19
+
+Start-Date: 2011-01-17  21:28:35
+Commandline: apt-get install xbmc
+Install: libpcrecpp0:i386 (8.02-1, automatic), python-qt3:i386 (3.18.1-4ubuntu1, automatic), xbmc-skin-confluence:i386 (10.5-dharma+pvr~odk48+maverick, automatic), xbmc-bin:i386 (10.5-dharma+pvr~odk48+maverick, automatic), xbmc:i386 (10.5-dharma+pvr~odk48+maverick), libmicrohttpd5:i386 (0.4.6-1, automatic), xbmc-data:i386 (10.5-dharma+pvr~odk48+maverick, automatic)
+End-Date: 2011-01-17  21:29:44
+
+Start-Date: 2011-01-17  21:39:39
+Commandline: apt-get remove boxee
+Remove: boxee:i386 (0.9.22.13692)
+End-Date: 2011-01-17  21:39:46
+
+Start-Date: 2011-01-17  22:41:47
+Commandline: apt-get install 0ad
+Install: 0ad-data:i386 (0.0.0+r08832-1~10.10~wfg1, automatic), libwxgtk2.8-0:i386 (2.8.11.0-0ubuntu4, automatic), libboost-signals1.42.0:i386 (1.42.0-3ubuntu1, automatic), libwxbase2.8-0:i386 (2.8.11.0-0ubuntu4, automatic), libenet0debian1:i386 (1.2.1-1, automatic), 0ad:i386 (0.0.0+r08832-1~10.10~wfg1), libboost-filesystem1.42.0:i386 (1.42.0-3ubuntu1, automatic), libboost-system1.42.0:i386 (1.42.0-3ubuntu1, automatic), libdevil1c2:i386 (1.7.8-6, automatic)
+End-Date: 2011-01-17  22:42:39
+
+Start-Date: 2011-01-19  08:45:36
+Upgrade: awn-applets-common-trunk:i386 (0.4.1~bzr1495+201101162349~maverick1, 0.4.1~bzr1498+201101172355~maverick1), libdbus-1-3:i386 (1.4.0-0ubuntu1, 1.4.0-0ubuntu1.1), google-chrome-beta:i386 (9.0.597.45-r70550, 9.0.597.67-r71393), libparted0debian1:i386 (2.3-2ubuntu1, 2.3-2ubuntu2), parted:i386 (2.3-2ubuntu1, 2.3-2ubuntu2), awn-applets-python-core-trunk:i386 (0.4.1~bzr1495+201101162349~maverick1, 0.4.1~bzr1498+201101172355~maverick1), dbus:i386 (1.4.0-0ubuntu1, 1.4.0-0ubuntu1.1), awn-applets-c-extras-trunk:i386 (0.4.1~bzr1495+201101162349~maverick1, 0.4.1~bzr1498+201101172355~maverick1), awn-applets-python-extras-trunk:i386 (0.4.1~bzr1495+201101162349~maverick1, 0.4.1~bzr1498+201101172355~maverick1), python-awn-extras-trunk:i386 (0.4.1~bzr1495+201101162349~maverick1, 0.4.1~bzr1498+201101172355~maverick1), dbus-x11:i386 (1.4.0-0ubuntu1, 1.4.0-0ubuntu1.1), awn-applets-c-core-trunk:i386 (0.4.1~bzr1495+201101162349~maverick1, 0.4.1~bzr1498+201101172355~maverick1)
+End-Date: 2011-01-19  08:46:48
+
+Start-Date: 2011-01-20  08:51:50
+Commandline: apt-get install avidemux
+Install: avidemux:i386 (2.5.3-0ubuntu3), libavidemux0:i386 (2.5.3-0ubuntu3, automatic), avidemux-plugins-common:i386 (2.5.3-0ubuntu3, automatic), avidemux-plugins-gtk:i386 (2.5.3-0ubuntu3, automatic), avidemux-common:i386 (2.5.3-0ubuntu3, automatic), lame:i386 (3.98.4-0ubuntu1, automatic)
+End-Date: 2011-01-20  08:52:17
+
+Start-Date: 2011-01-20  08:53:06
+Upgrade: libblkid1:i386 (2.17.2-0ubuntu1, 2.17.2-0ubuntu1.10.10.1), libbabl-0.0-0:i386 (0.1.3-2010102101~mm, 0.1.3-2011011905~mm), brasero-cdrkit:i386 (2.32.0-0ubuntu2, 2.32.0-0ubuntu2.1), smbclient:i386 (3.5.4~dfsg-1ubuntu8.1, 3.5.4~dfsg-1ubuntu8.2), libbrasero-media1:i386 (2.32.0-0ubuntu2, 2.32.0-0ubuntu2.1), brasero-common:i386 (2.32.0-0ubuntu2, 2.32.0-0ubuntu2.1), util-linux:i386 (2.17.2-0ubuntu1, 2.17.2-0ubuntu1.10.10.1), libsmbclient:i386 (3.5.4~dfsg-1ubuntu8.1, 3.5.4~dfsg-1ubuntu8.2), libfuse2:i386 (2.8.4-1ubuntu1, 2.8.4-1ubuntu1.1), uuid-runtime:i386 (2.17.2-0ubuntu1, 2.17.2-0ubuntu1.10.10.1), samba-common-bin:i386 (3.5.4~dfsg-1ubuntu8.1, 3.5.4~dfsg-1ubuntu8.2), bsdutils:i386 (2.17.2-0ubuntu1, 2.17.2-0ubuntu1.10.10.1), samba:i386 (3.5.4~dfsg-1ubuntu8.1, 3.5.4~dfsg-1ubuntu8.2), libwbclient0:i386 (3.5.4~dfsg-1ubuntu8.1, 3.5.4~dfsg-1ubuntu8.2), libuuid1:i386 (2.17.2-0ubuntu1, 2.17.2-0ubuntu1.10.10.1), samba-common:i386 (3.5.4~dfsg-1ubuntu8.1, 3.5.4~dfsg-1ubuntu8.2), mount:i386 (2.17.2-0ubuntu1, 2.17.2-0ubuntu1.10.10.1), brasero:i386 (2.32.0-0ubuntu2, 2.32.0-0ubuntu2.1), winbind:i386 (3.5.4~dfsg-1ubuntu8.1, 3.5.4~dfsg-1ubuntu8.2), fuse-utils:i386 (2.8.4-1ubuntu1, 2.8.4-1ubuntu1.1), libpam-smbpass:i386 (3.5.4~dfsg-1ubuntu8.1, 3.5.4~dfsg-1ubuntu8.2)
+End-Date: 2011-01-20  08:55:12
+
+Start-Date: 2011-01-23  17:51:39
+Upgrade: libbabl-0.0-0:i386 (0.1.3-2011011905~mm, 0.1.4-1), libawn1-trunk:i386 (0.4.1~bzr818+201101152358~maverick1, 0.4.1~bzr820+201101220038~maverick1), awn-applets-common-trunk:i386 (0.4.1~bzr1498+201101172355~maverick1, 0.4.1~bzr1500+201101230004~maverick1), python-apt:i386 (0.7.96.1ubuntu11, 0.7.96.1ubuntu11.1), avant-window-navigator-data-trunk:i386 (0.4.1~bzr818+201101152358~maverick1, 0.4.1~bzr820+201101220038~maverick1), awn-applets-python-core-trunk:i386 (0.4.1~bzr1498+201101172355~maverick1, 0.4.1~bzr1500+201101230004~maverick1), avant-window-navigator-trunk:i386 (0.4.1~bzr818+201101152358~maverick1, 0.4.1~bzr820+201101220038~maverick1), awn-applets-c-extras-trunk:i386 (0.4.1~bzr1498+201101172355~maverick1, 0.4.1~bzr1500+201101230004~maverick1), awn-applets-python-extras-trunk:i386 (0.4.1~bzr1498+201101172355~maverick1, 0.4.1~bzr1500+201101230004~maverick1), sudo:i386 (1.7.2p7-1ubuntu2, 1.7.2p7-1ubuntu2.1), tar:i386 (1.23-2, 1.23-2ubuntu1), python-awn-extras-trunk:i386 (0.4.1~bzr1498+201101172355~maverick1, 0.4.1~bzr1500+201101230004~maverick1), awn-settings-trunk:i386 (0.4.1~bzr818+201101152358~maverick1, 0.4.1~bzr820+201101220038~maverick1), python-awn-trunk:i386 (0.4.1~bzr818+201101152358~maverick1, 0.4.1~bzr820+201101220038~maverick1), awn-applets-c-core-trunk:i386 (0.4.1~bzr1498+201101172355~maverick1, 0.4.1~bzr1500+201101230004~maverick1)
+End-Date: 2011-01-23  17:52:55
+
+Start-Date: 2011-01-24  06:44:23
+Commandline: /usr/sbin/synaptic --hide-main-window --non-interactive --parent-window-id 92274691 --set-selections-file /tmp/tmpe77z2X
+Install: adobe-flashplugin:i386 (10.1.102.65-2maverick1)
+Remove: flashplugin-installer:i386 (10.1.102.65ubuntu0.10.10.1)
+End-Date: 2011-01-24  06:44:33
+
+Start-Date: 2011-01-24  07:09:40
+Remove: 0ad-data:i386 (0.0.0+r08832-1~10.10~wfg1), libwxgtk2.8-0:i386 (2.8.11.0-0ubuntu4), libboost-signals1.42.0:i386 (1.42.0-3ubuntu1), libwxbase2.8-0:i386 (2.8.11.0-0ubuntu4), libenet0debian1:i386 (1.2.1-1), 0ad:i386 (0.0.0+r08832-1~10.10~wfg1), libboost-filesystem1.42.0:i386 (1.42.0-3ubuntu1), libboost-system1.42.0:i386 (1.42.0-3ubuntu1), libdevil1c2:i386 (1.7.8-6)
+End-Date: 2011-01-24  07:10:00
+
+Start-Date: 2011-01-24  07:12:32
+Remove: lincity-ng-data:i386 (2.0-2build1), libphysfs1:i386 (2.0.1-1), lincity-ng:i386 (2.0-2build1)
+End-Date: 2011-01-24  07:12:42
+
+Start-Date: 2011-01-24  07:13:28
+Remove: ttf-vlgothic:i386 (20100416-2), wormux-data:i386 (0.9.2.1-0ubuntu1), wormux:i386 (0.9.2.1-0ubuntu1)
+End-Date: 2011-01-24  07:13:46
+
+Start-Date: 2011-01-24  23:03:37
+Commandline: apt-get upgrade
+Upgrade: xserver-xorg-input-evdev:i386 (2.3.2-6ubuntu3, 2.3.2-6ubuntu3.1), nautilus:i386 (2.32.0-0ubuntu1.1, 2.32.0-0ubuntu1.2), wine1.2:i386 (1.2.1-0ubuntu1, 1.2.2-0ubuntu2~maverick2), xserver-common:i386 (1.9.0-0ubuntu7.1, 1.9.0-0ubuntu7.3), nautilus-data:i386 (2.32.0-0ubuntu1.1, 2.32.0-0ubuntu1.2), xserver-xorg-core:i386 (1.9.0-0ubuntu7.1, 1.9.0-0ubuntu7.3), jockey-common:i386 (0.5.10-0ubuntu5.1, 0.5.10-0ubuntu5.2), ttf-symbol-replacement:i386 (1.2.1-0ubuntu1, 1.2.2-0ubuntu2~maverick2), jockey-gtk:i386 (0.5.10-0ubuntu5.1, 0.5.10-0ubuntu5.2), jockey-kde:i386 (0.5.10-0ubuntu5.1, 0.5.10-0ubuntu5.2), libnautilus-extension1:i386 (2.32.0-0ubuntu1.1, 2.32.0-0ubuntu1.2), nvidia-96-modaliases:i386 (96.43.18-0ubuntu1, 96.43.19-0ubuntu1), linux-firmware:i386 (1.38, 1.38.3)
+End-Date: 2011-01-24  23:04:56
+
+Start-Date: 2011-01-25  15:24:09
+Commandline: apt-get upgrade
+Upgrade: awn-applets-common-trunk:i386 (0.4.1~bzr1500+201101230004~maverick1, 0.4.1~bzr1504+201101250009~maverick1), libcamel1.2-14:i386 (2.30.3-2ubuntu2, 2.30.3-2ubuntu2.1), libedata-cal1.2-7:i386 (2.30.3-2ubuntu2, 2.30.3-2ubuntu2.1), awn-applets-python-core-trunk:i386 (0.4.1~bzr1500+201101230004~maverick1, 0.4.1~bzr1504+201101250009~maverick1), awn-applets-c-extras-trunk:i386 (0.4.1~bzr1500+201101230004~maverick1, 0.4.1~bzr1504+201101250009~maverick1), awn-applets-python-extras-trunk:i386 (0.4.1~bzr1500+201101230004~maverick1, 0.4.1~bzr1504+201101250009~maverick1), libegroupwise1.2-13:i386 (2.30.3-2ubuntu2, 2.30.3-2ubuntu2.1), libecal1.2-7:i386 (2.30.3-2ubuntu2, 2.30.3-2ubuntu2.1), libgdata1.2-1:i386 (2.30.3-2ubuntu2, 2.30.3-2ubuntu2.1), libedataserver1.2-13:i386 (2.30.3-2ubuntu2, 2.30.3-2ubuntu2.1), libgdata-google1.2-1:i386 (2.30.3-2ubuntu2, 2.30.3-2ubuntu2.1), libebook1.2-9:i386 (2.30.3-2ubuntu2, 2.30.3-2ubuntu2.1), libedataserverui1.2-8:i386 (2.30.3-2ubuntu2, 2.30.3-2ubuntu2.1), libedata-book1.2-2:i386 (2.30.3-2ubuntu2, 2.30.3-2ubuntu2.1), evolution-data-server:i386 (2.30.3-2ubuntu2, 2.30.3-2ubuntu2.1), python-awn-extras-trunk:i386 (0.4.1~bzr1500+201101230004~maverick1, 0.4.1~bzr1504+201101250009~maverick1), libebackend1.2-0:i386 (2.30.3-2ubuntu2, 2.30.3-2ubuntu2.1), evolution-data-server-common:i386 (2.30.3-2ubuntu2, 2.30.3-2ubuntu2.1), awn-applets-c-core-trunk:i386 (0.4.1~bzr1500+201101230004~maverick1, 0.4.1~bzr1504+201101250009~maverick1)
+End-Date: 2011-01-25  15:25:03
+
+Start-Date: 2011-01-25  15:28:16
+Commandline: apt-get upgrade
+Upgrade: remmina-plugin-rdp:i386 (0.8.3-0~ppa3, 0.9.2-0~ppa2), remmina-plugin-vnc:i386 (0.8.3-0~ppa3, 0.9.2-0~ppa2), remmina-plugin-data:i386 (0.8.3-0~ppa3, 0.9.2-0~ppa2), libfreerdp-plugins-standard:i386 (0.7.4-0~ppa3, 0.8.2-0~ppa2), libfreerdp0:i386 (0.7.4-0~ppa3, 0.8.2-0~ppa2), libssh-4:i386 (0.4.5-1, 0.4.6.2-0~ppa1), remmina:i386 (0.8.3-0~ppa3, 0.9.3.1-0~ppa2)
+End-Date: 2011-01-25  15:28:42
+
+Start-Date: 2011-01-26  07:16:48
+Upgrade: hplip-cups:i386 (3.10.6-1ubuntu10.1, 3.10.6-1ubuntu10.2), hpijs:i386 (3.10.6-1ubuntu10.1, 3.10.6-1ubuntu10.2), hplip:i386 (3.10.6-1ubuntu10.1, 3.10.6-1ubuntu10.2), google-chrome-beta:i386 (9.0.597.67-r71393, 9.0.597.83-r72435), libvlc5:i386 (1.1.4-1ubuntu1.2, 1.1.4-1ubuntu1.3), libhpmud0:i386 (3.10.6-1ubuntu10.1, 3.10.6-1ubuntu10.2), vlc-nox:i386 (1.1.4-1ubuntu1.2, 1.1.4-1ubuntu1.3), vlc:i386 (1.1.4-1ubuntu1.2, 1.1.4-1ubuntu1.3), vlc-plugin-notify:i386 (1.1.4-1ubuntu1.2, 1.1.4-1ubuntu1.3), libsane-hpaio:i386 (3.10.6-1ubuntu10.1, 3.10.6-1ubuntu10.2), vlc-plugin-pulse:i386 (1.1.4-1ubuntu1.2, 1.1.4-1ubuntu1.3), vlc-data:i386 (1.1.4-1ubuntu1.2, 1.1.4-1ubuntu1.3), libvlccore4:i386 (1.1.4-1ubuntu1.2, 1.1.4-1ubuntu1.3), hplip-data:i386 (3.10.6-1ubuntu10.1, 3.10.6-1ubuntu10.2)
+End-Date: 2011-01-26  07:18:21
+
+Start-Date: 2011-01-27  08:16:13
+Upgrade: icedtea6-plugin:i386 (6b20-1.9.2-0ubuntu2, 6b20-1.9.4-0ubuntu1), icedtea-6-jre-cacao:i386 (6b20-1.9.2-0ubuntu2, 6b20-1.9.4-0ubuntu1), openssh-client:i386 (5.5p1-4ubuntu4, 5.5p1-4ubuntu5), openjdk-6-jre-headless:i386 (6b20-1.9.2-0ubuntu2, 6b20-1.9.4-0ubuntu1), openjdk-6-jre:i386 (6b20-1.9.2-0ubuntu2, 6b20-1.9.4-0ubuntu1), openjdk-6-jre-lib:i386 (6b20-1.9.2-0ubuntu2, 6b20-1.9.4-0ubuntu1), openssh-server:i386 (5.5p1-4ubuntu4, 5.5p1-4ubuntu5), ssh-askpass-gnome:i386 (5.5p1-4ubuntu4, 5.5p1-4ubuntu5)
+End-Date: 2011-01-27  08:17:09
+
+Start-Date: 2011-01-29  12:59:15
+Commandline: apt-get upgrade
+Upgrade: update-manager:i386 (0.142.20, 0.142.22), update-manager-core:i386 (0.142.20, 0.142.22), awn-applets-common-trunk:i386 (0.4.1~bzr1504+201101250009~maverick1, 0.4.1~bzr1505+201101282356~maverick1), linux-libc-dev:i386 (2.6.35-1024.42, 2.6.35-1025.44), awn-applets-python-core-trunk:i386 (0.4.1~bzr1504+201101250009~maverick1, 0.4.1~bzr1505+201101282356~maverick1), awn-applets-c-extras-trunk:i386 (0.4.1~bzr1504+201101250009~maverick1, 0.4.1~bzr1505+201101282356~maverick1), awn-applets-python-extras-trunk:i386 (0.4.1~bzr1504+201101250009~maverick1, 0.4.1~bzr1505+201101282356~maverick1), media-player-info:i386 (10-1, 12-1~maverick1), python-awn-extras-trunk:i386 (0.4.1~bzr1504+201101250009~maverick1, 0.4.1~bzr1505+201101282356~maverick1), update-manager-kde:i386 (0.142.20, 0.142.22), awn-applets-c-core-trunk:i386 (0.4.1~bzr1504+201101250009~maverick1, 0.4.1~bzr1505+201101282356~maverick1)
+End-Date: 2011-01-29  13:00:02
+
+Start-Date: 2011-01-29  13:03:33
+Commandline: apt-get dist-upgrade
+Install: linux-headers-2.6.35-25:i386 (2.6.35-25.44, automatic), linux-headers-2.6.35-25-generic:i386 (2.6.35-25.44, automatic), linux-image-2.6.35-25-generic:i386 (2.6.35-25.44)
+Upgrade: linux-headers-generic:i386 (2.6.35.24.28, 2.6.35.25.32), linux-image-generic:i386 (2.6.35.24.28, 2.6.35.25.32), linux-generic:i386 (2.6.35.24.28, 2.6.35.25.32)
+End-Date: 2011-01-29  13:06:06
+
+Start-Date: 2011-01-29  13:13:15
+Commandline: apt-get install kdenlive
+Install: melt:i386 (0.5.6+git20100727-1, automatic), dvgrab:i386 (3.5-1, automatic), swh-plugins:i386 (0.4.15+1-4, automatic), kdenlive-data:i386 (0.7.7.1+svn4571-1, automatic), kdenlive:i386 (0.7.7.1+svn4571-1), libmlt++3:i386 (0.5.6+git20100727-1, automatic), frei0r-plugins:i386 (1.1.22git20091109-1.1, automatic), libgavl1:i386 (1.1.2-3, automatic), libmlt-data:i386 (0.5.6+git20100727-1, automatic), libmlt2:i386 (0.5.6+git20100727-1, automatic)
+End-Date: 2011-01-29  13:13:47
+
+Start-Date: 2011-01-29  13:16:51
+Commandline: apt-get remove kdenlive
+Remove: kdenlive:i386 (0.7.7.1+svn4571-1)
+End-Date: 2011-01-29  13:16:59
+
+Start-Date: 2011-01-29  13:20:34
+Commandline: apt-get autoremove
+Remove: melt:i386 (0.5.6+git20100727-1), dvgrab:i386 (3.5-1), swh-plugins:i386 (0.4.15+1-4), kdenlive-data:i386 (0.7.7.1+svn4571-1), libmlt++3:i386 (0.5.6+git20100727-1), libxmlrpc-c3:i386 (1.06.27-1ubuntu7), frei0r-plugins:i386 (1.1.22git20091109-1.1), libtre5:i386 (0.8.0-2), libgavl1:i386 (1.1.2-3), xsel:i386 (1.2.0-1), libmlt-data:i386 (0.5.6+git20100727-1), libmlt2:i386 (0.5.6+git20100727-1)
+End-Date: 2011-01-29  13:20:53
+
+Start-Date: 2011-01-31  20:17:49
+Commandline: apt-get upgrade
+Upgrade: evolution-common:i386 (2.30.3-1ubuntu7.2, 2.30.3-1ubuntu7.3)
+End-Date: 2011-01-31  20:18:05

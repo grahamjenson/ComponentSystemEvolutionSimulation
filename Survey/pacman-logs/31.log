@@ -1,0 +1,1161 @@
+[2011-01-13 08:26] installed filesystem (2010.02-4)
+[2011-01-13 08:26] installed util-linux-ng (2.17.2-2)
+[2011-01-13 08:26] installed e2fsprogs (1.41.11-1)
+[2011-01-13 08:26] installed cryptsetup (1.1.0-2)
+[2011-01-13 08:26] installed dash (0.5.5.1-2)
+[2011-01-13 08:26] installed dcron (4.4-2)
+[2011-01-13 08:26] installed dhcpcd (5.2.2-1)
+[2011-01-13 08:26] installed diffutils (3.0-1)
+[2011-01-13 08:26] installed file (5.04-2)
+[2011-01-13 08:26] installed findutils (4.4.2-2)
+[2011-01-13 08:26] installed gawk (3.1.8-1)
+[2011-01-13 08:26] installed gen-init-cpio (2.6.32-1)
+[2011-01-13 08:26] installed gettext (0.17-4)
+[2011-01-13 08:26] installed pcre (8.02-1)
+[2011-01-13 08:26] installed grep (2.6.3-1)
+[2011-01-13 08:26] installed sed (4.2.1-2)
+[2011-01-13 08:26] installed grub (0.97-17)
+[2011-01-13 08:26] installed gzip (1.4-1)
+[2011-01-13 08:26] installed libusb (0.1.12-4)
+[2011-01-13 08:26] installed glib2 (2.24.1-1)
+[2011-01-13 08:26] installed module-init-tools (3.11.1-2)
+[2011-01-13 08:26] installed udev (151-3)
+[2011-01-13 08:26] installed net-tools (1.60-14)
+[2011-01-13 08:26] installed kbd (1.15.2-1)
+[2011-01-13 08:26] installed sysvinit (2.86-5)
+[2011-01-13 08:26] installed initscripts (2010.05-3)
+[2011-01-13 08:26] installed iputils (20100214-2)
+[2011-01-13 08:26] installed jfsutils (1.1.14-1)
+[2011-01-13 08:26] installed kernel26-firmware (2.6.33.4-1)
+[2011-01-13 08:26] installed mkinitcpio-busybox (1.16.1-3)
+[2011-01-13 08:26] installed which (2.20-3)
+[2011-01-13 08:26] installed mkinitcpio (0.6.4-1)
+[2011-01-13 14:26] >>> Updating module dependencies. Please wait ...
+[2011-01-13 14:26] >>> MKINITCPIO SETUP
+[2011-01-13 14:26] >>> ----------------
+[2011-01-13 14:26] >>> If you use LVM2, Encrypted root or software RAID,
+[2011-01-13 14:26] >>> Ensure you enable support in /etc/mkinitcpio.conf .
+[2011-01-13 14:26] >>> More information about mkinitcpio setup can be found here:
+[2011-01-13 14:26] >>> http://wiki.archlinux.org/index.php/Mkinitcpio
+[2011-01-13 14:26]
+[2011-01-13 14:26] >>> Generating initial ramdisk, using mkinitcpio. Please wait...
+[2011-01-13 14:26] ==> Building image "default"
+[2011-01-13 14:26] ==> Running command: /sbin/mkinitcpio -k 2.6.33-ARCH -c /etc/mkinitcpio.conf -g /boot/kernel26.img
+[2011-01-13 14:26] :: Begin build
+[2011-01-13 14:26] :: Parsing hook [base]
+[2011-01-13 14:26] :: Parsing hook [udev]
+[2011-01-13 14:26] :: Parsing hook [autodetect]
+[2011-01-13 14:26] :: Parsing hook [pata]
+[2011-01-13 14:26] :: Parsing hook [scsi]
+[2011-01-13 14:26] :: Parsing hook [sata]
+[2011-01-13 14:26] :: Parsing hook [filesystems]
+[2011-01-13 14:26] :: Generating module dependencies
+[2011-01-13 14:26] :: Generating image '/boot/kernel26.img'...SUCCESS
+[2011-01-13 14:26] ==> SUCCESS
+[2011-01-13 14:26] ==> Building image "fallback"
+[2011-01-13 14:26] ==> Running command: /sbin/mkinitcpio -k 2.6.33-ARCH -c /etc/mkinitcpio.conf -g /boot/kernel26-fallback.img -S autodetect
+[2011-01-13 14:26] :: Begin build
+[2011-01-13 14:26] :: Parsing hook [base]
+[2011-01-13 14:26] :: Parsing hook [udev]
+[2011-01-13 14:26] :: Parsing hook [pata]
+[2011-01-13 14:26] :: Parsing hook [scsi]
+[2011-01-13 14:26] :: Parsing hook [sata]
+[2011-01-13 14:26] :: Parsing hook [filesystems]
+[2011-01-13 14:26] :: Generating module dependencies
+[2011-01-13 14:26] :: Generating image '/boot/kernel26-fallback.img'...SUCCESS
+[2011-01-13 14:26] ==> SUCCESS
+[2011-01-13 08:26] installed kernel26 (2.6.33.4-1)
+[2011-01-13 08:26] installed less (436-1)
+[2011-01-13 08:26] installed licenses (2.6-1)
+[2011-01-13 08:26] installed logrotate (3.7.8-1)
+[2011-01-13 08:26] installed lvm2 (2.02.62-1)
+[2011-01-13 08:26] installed lzo2 (2.03-1)
+[2011-01-13 08:26] installed mailx (8.1.1-7)
+[2011-01-13 08:26] installed gdbm (1.8.3-7)
+[2011-01-13 08:26] installed perl (5.10.1-5)
+[2011-01-13 08:26] installed texinfo (4.13a-4)
+[2011-01-13 08:26] installed groff (1.20.1-4)
+[2011-01-13 14:26] it's recommended to create an initial
+[2011-01-13 14:26] database running as root:
+[2011-01-13 14:26] "/usr/bin/mandb --quiet"
+[2011-01-13 08:26] installed man-db (2.5.7-1)
+[2011-01-13 08:26] installed man-pages (3.24-1)
+[2011-01-13 08:26] installed mdadm (3.1.2-2)
+[2011-01-13 08:26] installed nano (2.2.4-1)
+[2011-01-13 08:26] installed xz-utils (4.999.9beta-2)
+[2011-01-13 08:26] installed openssl (1.0.0-2)
+[2011-01-13 08:26] installed expat (2.0.1-5)
+[2011-01-13 08:26] installed libarchive (2.8.3-3)
+[2011-01-13 08:26] installed libfetch (2.30-3)
+[2011-01-13 08:26] installed pacman-mirrorlist (20100131-1)
+[2011-01-13 08:26] installed pacman (3.3.3-5)
+[2011-01-13 08:26] installed pciutils (3.1.7-1)
+[2011-01-13 08:26] installed sysfsutils (2.1.0-5)
+[2011-01-13 08:26] installed pcmciautils (016-1)
+[2011-01-13 08:26] installed libnl (1.1-2)
+[2011-01-13 08:26] installed libpcap (1.1.1-1)
+[2011-01-13 08:26] installed ppp (2.4.5-1)
+[2011-01-13 08:26] installed procps (3.2.8-1)
+[2011-01-13 08:26] installed psmisc (22.11-1)
+[2011-01-13 08:26] installed reiserfsprogs (3.6.21-2)
+[2011-01-13 14:26] >>> The kernel-mode plugin has a new place.
+[2011-01-13 14:26] >>> It's now located under /usr/lib/rp-pppoe/rp-pppoe.so
+[2011-01-13 14:26] >>> Change LINUX_PLUGIN to the new path in your /etc/ppp/pppoe.conf
+[2011-01-13 08:26] installed rp-pppoe (3.10-5)
+[2011-01-13 08:26] installed eventlog (0.2.9-1)
+[2011-01-13 08:26] installed tcp_wrappers (7.6-11)
+[2011-01-13 08:26] installed syslog-ng (3.1.0-1)
+[2011-01-13 08:26] installed tar (1.23-1)
+[2011-01-13 08:26] installed usbutils (0.87-1)
+[2011-01-13 08:26] installed vi (050325-3)
+[2011-01-13 08:26] installed wget (1.12-2)
+[2011-01-13 08:26] installed dbus-core (1.2.24-1)
+[2011-01-13 08:26] installed wpa_supplicant (0.6.10-2)
+[2011-01-13 08:26] installed xfsprogs (3.1.1-1)
+[2011-01-13 08:33] synchronizing package lists
+[2011-01-13 08:33] synchronizing package lists
+[2011-01-13 08:34] synchronizing package lists
+[2011-01-13 08:34] synchronizing package lists
+[2011-01-13 08:34] synchronizing package lists
+[2011-01-13 08:34] upgraded pacman (3.3.3-5 -> 3.4.0-2)
+[2011-01-13 08:34] Running 'pacman -Syu'
+[2011-01-13 08:34] synchronizing package lists
+[2011-01-13 08:34] starting full system upgrade
+[2011-01-13 09:58] Running 'pacman -Syu'
+[2011-01-13 09:58] synchronizing package lists
+[2011-01-13 09:58] starting full system upgrade
+[2011-01-13 10:00] Running 'pacman -Syu'
+[2011-01-13 10:00] synchronizing package lists
+[2011-01-13 10:00] starting full system upgrade
+[2011-01-13 10:01] Running 'pacman -Syu'
+[2011-01-13 10:01] synchronizing package lists
+[2011-01-13 10:01] upgraded pacman (3.4.0-2 -> 3.4.2-1)
+[2011-01-13 10:01] Running 'pacman -Syu'
+[2011-01-13 10:01] synchronizing package lists
+[2011-01-13 10:01] starting full system upgrade
+[2011-01-13 10:16] removed kernel26-firmware (2.6.33.4-1)
+[2011-01-13 10:16] removed xz-utils (4.999.9beta-2)
+[2011-01-13 10:16] upgraded linux-api-headers (2.6.33.2-1 -> 2.6.36.2-1)
+[2011-01-13 10:16] upgraded tzdata (2010j-1 -> 2010o-1)
+[2011-01-13 10:16] warning: /etc/locale.gen installed as /etc/locale.gen.pacnew
+[2011-01-13 10:16] Generating locales...
+[2011-01-13 10:16] en_US.UTF-8... done
+[2011-01-13 10:16] en_US.ISO-8859-1... done
+[2011-01-13 10:16] Generation complete.
+[2011-01-13 10:16] upgraded glibc (2.11.1-3 -> 2.12.2-1)
+[2011-01-13 10:16] upgraded attr (2.4.44-1 -> 2.4.44-2)
+[2011-01-13 10:16] upgraded acl (2.2.49-1 -> 2.2.49-2)
+[2011-01-13 10:16] upgraded ncurses (5.7-3 -> 5.7-4)
+[2011-01-13 10:16] upgraded readline (6.1.002-1 -> 6.1.002-2)
+[2011-01-13 10:16] upgraded bash (4.1.005-1 -> 4.1.009-3)
+[2011-01-13 10:16] upgraded zlib (1.2.5-1 -> 1.2.5-3)
+[2011-01-13 10:16] upgraded binutils (2.20.1-2 -> 2.21-2)
+[2011-01-13 10:16] upgraded bzip2 (1.0.5-5 -> 1.0.6-1)
+[2011-01-13 10:16] upgraded gcc-libs (4.5.0-1 -> 4.5.2-4)
+[2011-01-13 10:16] >> Major version update. Consider running db_upgrade on Berkeley DB databases.
+[2011-01-13 10:16] upgraded db (4.8.26-2 -> 5.1.19-3)
+[2011-01-13 10:16] upgraded pam (1.1.1-1 -> 1.1.3-1)
+[2011-01-13 10:16] Fixing gshadow file ...
+[2011-01-13 10:16] upgraded shadow (4.1.4.2-2 -> 4.1.4.2-3)
+[2011-01-13 10:16] upgraded libcap (2.19-1 -> 2.19-2)
+[2011-01-13 10:16] upgraded coreutils (8.5-1 -> 8.9-1)
+[2011-01-13 10:16] installed iana-etc (2.30-1)
+[2011-01-13 10:16] warning: /etc/shadow installed as /etc/shadow.pacnew
+[2011-01-13 10:16] warning: /etc/fstab installed as /etc/fstab.pacnew
+[2011-01-13 10:16] warning: /etc/gshadow installed as /etc/gshadow.pacnew
+[2011-01-13 10:16] upgraded filesystem (2010.02-4 -> 2010.12-1)
+[2011-01-13 10:16] upgraded util-linux-ng (2.17.2-2 -> 2.18-3)
+[2011-01-13 10:16] upgraded libusb (0.1.12-4 -> 1.0.8-1)
+[2011-01-13 10:16] installed libusb-compat (0.1.3-1)
+[2011-01-13 10:16] upgraded pcre (8.02-1 -> 8.11-1)
+[2011-01-13 10:16] upgraded glib2 (2.24.1-1 -> 2.26.1-1)
+[2011-01-13 10:16] upgraded module-init-tools (3.11.1-2 -> 3.12-2)
+[2011-01-13 10:16] upgraded pciutils (3.1.7-1 -> 3.1.7-2)
+[2011-01-13 10:16] upgraded udev (151-3 -> 165-1)
+[2011-01-13 10:16] upgraded device-mapper (2.02.62-1 -> 2.02.79-1)
+[2011-01-13 10:16] upgraded libgpg-error (1.7-3 -> 1.9-2)
+[2011-01-13 10:16] upgraded libgcrypt (1.4.5-2 -> 1.4.6-1)
+[2011-01-13 10:16] upgraded cryptsetup (1.1.0-2 -> 1.2.0-1)
+[2011-01-13 10:16] upgraded dash (0.5.5.1-2 -> 0.5.6.1-1)
+[2011-01-13 10:16] upgraded expat (2.0.1-5 -> 2.0.1-6)
+[2011-01-13 10:16] upgraded dbus-core (1.2.24-1 -> 1.4.1-1)
+[2011-01-13 10:16] upgraded dhcpcd (5.2.2-1 -> 5.2.9-1)
+[2011-01-13 10:16] upgraded diffutils (3.0-1 -> 3.0-2)
+[2011-01-13 10:16] upgraded e2fsprogs (1.41.11-1 -> 1.41.14-1)
+[2011-01-13 10:16] upgraded eventlog (0.2.9-1 -> 0.2.12-1)
+[2011-01-13 10:16] upgraded file (5.04-2 -> 5.04-3)
+[2011-01-13 10:16] upgraded findutils (4.4.2-2 -> 4.4.2-3)
+[2011-01-13 10:16] upgraded gawk (3.1.8-1 -> 3.1.8-2)
+[2011-01-13 10:16] upgraded gdbm (1.8.3-7 -> 1.8.3-8)
+[2011-01-13 10:16] upgraded gen-init-cpio (2.6.32-1 -> 2.6.36-1)
+[2011-01-13 10:16] upgraded gettext (0.17-4 -> 0.18.1.1-1)
+[2011-01-13 10:16] upgraded grep (2.6.3-1 -> 2.7-1)
+[2011-01-13 10:16] - The directories /usr/lib/perl5/current, /usr/lib/perl5/site_perl/current,
+[2011-01-13 10:16] /usr/lib/perl5/site_perl/5.10.1, and /usr/share/perl5/site_perl/5.10.1
+[2011-01-13 10:16] will be removed from @INC in a future release.
+[2011-01-13 10:16] - The directory /usr/bin/perlbin/site will not be added to $PATH in a
+[2011-01-13 10:16] future release.
+[2011-01-13 10:16] upgraded perl (5.10.1-5 -> 5.12.1-3)
+[2011-01-13 10:16] upgraded gzip (1.4-1 -> 1.4-2)
+[2011-01-13 10:16] upgraded texinfo (4.13a-4 -> 4.13a-5)
+[2011-01-13 10:16] upgraded groff (1.20.1-4 -> 1.21-1)
+[2011-01-13 10:16] upgraded sed (4.2.1-2 -> 4.2.1-3)
+[2011-01-13 10:16] upgraded sysvinit (2.86-5 -> 2.88-2)
+[2011-01-13 10:16] warning: /etc/rc.conf installed as /etc/rc.conf.pacnew
+[2011-01-13 10:16] upgraded initscripts (2010.05-3 -> 2010.07-2)
+[2011-01-13 10:16] upgraded jfsutils (1.1.14-1 -> 1.1.14-2)
+[2011-01-13 10:16] installed linux-firmware (20101108-1)
+[2011-01-13 10:16] upgraded mkinitcpio-busybox (1.16.1-3 -> 1.17.2-1)
+[2011-01-13 10:16] upgraded which (2.20-3 -> 2.20-4)
+[2011-01-13 10:16] upgraded mkinitcpio (0.6.4-1 -> 0.6.7-1)
+[2011-01-13 10:16] >>> Updating module dependencies. Please wait ...
+[2011-01-13 10:16] >>> MKINITCPIO SETUP
+[2011-01-13 10:16] >>> ----------------
+[2011-01-13 10:16] >>> If you use LVM2, Encrypted root or software RAID,
+[2011-01-13 10:16] >>> Ensure you enable support in /etc/mkinitcpio.conf .
+[2011-01-13 10:16] >>> More information about mkinitcpio setup can be found here:
+[2011-01-13 10:16] >>> http://wiki.archlinux.org/index.php/Mkinitcpio
+[2011-01-13 10:16]
+[2011-01-13 10:16] >>> Generating initial ramdisk, using mkinitcpio. Please wait...
+[2011-01-13 10:16] ==> Building image "default"
+[2011-01-13 10:16] ==> Running command: /sbin/mkinitcpio -k 2.6.36-ARCH -c /etc/mkinitcpio.conf -g /boot/kernel26.img
+[2011-01-13 10:16] :: Begin build
+[2011-01-13 10:16] :: Parsing hook [base]
+[2011-01-13 10:16] :: Parsing hook [udev]
+[2011-01-13 10:16] :: Parsing hook [autodetect]
+[2011-01-13 10:16] :: Parsing hook [pata]
+[2011-01-13 10:16] :: Parsing hook [scsi]
+[2011-01-13 10:16] :: Parsing hook [sata]
+[2011-01-13 10:16] :: Parsing hook [filesystems]
+[2011-01-13 10:16] :: Generating module dependencies
+[2011-01-13 10:16] :: Generating image '/boot/kernel26.img'...SUCCESS
+[2011-01-13 10:16] ==> SUCCESS
+[2011-01-13 10:16] ==> Building image "fallback"
+[2011-01-13 10:16] ==> Running command: /sbin/mkinitcpio -k 2.6.36-ARCH -c /etc/mkinitcpio.conf -g /boot/kernel26-fallback.img -S autodetect
+[2011-01-13 10:16] :: Begin build
+[2011-01-13 10:16] :: Parsing hook [base]
+[2011-01-13 10:16] :: Parsing hook [udev]
+[2011-01-13 10:16] :: Parsing hook [pata]
+[2011-01-13 10:17] :: Parsing hook [scsi]
+[2011-01-13 10:17] :: Parsing hook [sata]
+[2011-01-13 10:17] :: Parsing hook [filesystems]
+[2011-01-13 10:17] :: Generating module dependencies
+[2011-01-13 10:17] :: Generating image '/boot/kernel26-fallback.img'...SUCCESS
+[2011-01-13 10:17] ==> SUCCESS
+[2011-01-13 10:17] upgraded kernel26 (2.6.33.4-1 -> 2.6.36.3-1)
+[2011-01-13 10:17] upgraded less (436-1 -> 436-2)
+[2011-01-13 10:17] installed xz (5.0.0-1)
+[2011-01-13 10:17] upgraded openssl (1.0.0-2 -> 1.0.0.c-1)
+[2011-01-13 10:17] upgraded libarchive (2.8.3-3 -> 2.8.4-2)
+[2011-01-13 10:17] upgraded libfetch (2.30-3 -> 2.33-1)
+[2011-01-13 10:17] upgraded libpcap (1.1.1-1 -> 1.1.1-2)
+[2011-01-13 10:17] upgraded logrotate (3.7.8-1 -> 3.7.9-1)
+[2011-01-13 10:17] upgraded lvm2 (2.02.62-1 -> 2.02.79-1)
+[2011-01-13 10:17] upgraded lzo2 (2.03-1 -> 2.04-1)
+[2011-01-13 10:17] upgraded man-db (2.5.7-1 -> 2.5.9-1)
+[2011-01-13 10:17] upgraded man-pages (3.24-1 -> 3.32-1)
+[2011-01-13 10:17] upgraded mdadm (3.1.2-2 -> 3.1.4-1)
+[2011-01-13 10:17] upgraded nano (2.2.4-1 -> 2.2.6-1)
+[2011-01-13 10:17] warning: /etc/pacman.d/mirrorlist installed as /etc/pacman.d/mirrorlist.pacnew
+[2011-01-13 10:17] upgraded pacman-mirrorlist (20100131-1 -> 20101223-1)
+[2011-01-13 10:17] upgraded pcmciautils (016-1 -> 017-1)
+[2011-01-13 10:17] upgraded procps (3.2.8-1 -> 3.2.8-3)
+[2011-01-13 10:17] upgraded psmisc (22.11-1 -> 22.13-1)
+[2011-01-13 10:17] upgraded reiserfsprogs (3.6.21-2 -> 3.6.21-3)
+[2011-01-13 10:17] upgraded tcp_wrappers (7.6-11 -> 7.6-12)
+[2011-01-13 10:17] upgraded syslog-ng (3.1.0-1 -> 3.2.1-1)
+[2011-01-13 10:17] upgraded tar (1.23-1 -> 1.25-1)
+[2011-01-13 10:17] upgraded usbutils (0.87-1 -> 001-2)
+[2011-01-13 10:17] upgraded wpa_supplicant (0.6.10-2 -> 0.7.3-1)
+[2011-01-13 10:17] upgraded xfsprogs (3.1.1-1 -> 3.1.4-1)
+[2011-01-13 10:20] Running 'pacman -S alsa-mixer'
+[2011-01-13 10:20] Running 'pacman -S alsa'
+[2011-01-13 10:20] Running 'pacman -S links'
+[2011-01-13 10:21] installed gpm (1.20.6-6)
+[2011-01-13 10:21] installed links (2.3pre1-1)
+[2011-01-13 10:23] Running 'pacman -S alsa-ultilies'
+[2011-01-13 10:23] Running 'pacman -S alsa-utils'
+[2011-01-13 10:23] installed alsa-lib (1.0.23-2)
+[2011-01-13 10:23] installed dialog (1.1_20100428-2)
+[2011-01-13 10:23] installed alsa-utils (1.0.23-3)
+[2011-01-13 10:24] Running 'pacman -S xorg'
+[2011-01-13 10:32] installed xf86-video-vesa (2.3.0-3)
+[2011-01-13 10:32] installed xorg-docs (1.6-1)
+[2011-01-13 10:32] installed libfontenc (1.1.0-1)
+[2011-01-13 10:32] installed xproto (7.0.20-1)
+[2011-01-13 10:32] installed freetype2 (2.4.4-2)
+[2011-01-13 10:32] installed fontsproto (2.1.1-1)
+[2011-01-13 10:32] installed libxfont (1.4.3-1)
+[2011-01-13 10:32] installed xorg-font-utils (7.5-2)
+[2011-01-13 10:32] Regenerating font encodings... done.
+[2011-01-13 10:32] installed xorg-fonts-encodings (1.0.3-1)
+[2011-01-13 10:32] installed xorg-fonts-alias (1.0.2-1)
+[2011-01-13 10:32] updating font cache... done.
+[2011-01-13 10:32] installed fontconfig (2.8.0-1)
+[2011-01-13 10:32] Updating font cache... done.
+[2011-01-13 10:32] installed xorg-fonts-100dpi (1.0.1-3)
+[2011-01-13 10:32] Updating font cache... done.
+[2011-01-13 10:32] installed xorg-fonts-75dpi (1.0.1-3)
+[2011-01-13 10:32] installed xcb-proto (1.6-2)
+[2011-01-13 10:32] installed libxdmcp (1.1.0-1)
+[2011-01-13 10:32] installed libxau (1.0.6-1)
+[2011-01-13 10:32] installed libxcb (1.7-1)
+[2011-01-13 10:32] installed kbproto (1.0.5-1)
+[2011-01-13 10:32] installed libx11 (1.4.0-1)
+[2011-01-13 10:32] installed xextproto (7.1.2-1)
+[2011-01-13 10:32] installed libxext (1.2.0-1)
+[2011-01-13 10:32] installed libice (1.0.7-1)
+[2011-01-13 10:32] installed libsm (1.2.0-1)
+[2011-01-13 10:32] installed libxt (1.0.9-1)
+[2011-01-13 10:32] installed libxmu (1.1.0-1)
+[2011-01-13 10:32] installed libxpm (3.5.9-1)
+[2011-01-13 10:32] installed libxaw (1.0.8-1)
+[2011-01-13 10:32] installed xorg-res-utils (1.0.3-3)
+[2011-01-13 10:32] installed libpciaccess (0.12.0-1)
+[2011-01-13 10:32] installed libdrm (2.4.22-3)
+[2011-01-13 10:32] installed pixman (0.20.0-1)
+[2011-01-13 10:32] installed libxkbfile (1.0.7-1)
+[2011-01-13 10:32] installed xorg-xkb-utils (7.5-2)
+[2011-01-13 10:32] installed xkeyboard-config (2.0-1)
+[2011-01-13 10:32] Updating font cache... done.
+[2011-01-13 10:32] installed xorg-fonts-misc (1.0.1-1)
+[2011-01-13 10:32] installed xorg-server-common (1.9.2-2)
+[2011-01-13 10:32] installed xf86-input-evdev (2.5.0-1)
+[2011-01-13 10:32] installed xorg-server (1.9.2-2)
+[2011-01-13 10:32] installed xorg-iceauth (1.0.4-1)
+[2011-01-13 10:32] installed xorg-sessreg (1.0.6-1)
+[2011-01-13 10:32] installed xorg-xcmsdb (1.0.3-1)
+[2011-01-13 10:32] installed renderproto (0.11.1-1)
+[2011-01-13 10:32] installed libxrender (0.9.6-1)
+[2011-01-13 10:32] installed randrproto (1.3.2-1)
+[2011-01-13 10:32] installed libxrandr (1.3.1-1)
+[2011-01-13 10:32] installed xorg-xbacklight (1.1.2-1)
+[2011-01-13 10:32] installed xf86vidmodeproto (2.3-1)
+[2011-01-13 10:32] installed libxxf86vm (1.1.1-1)
+[2011-01-13 10:32] installed xorg-xgamma (1.0.4-1)
+[2011-01-13 10:32] installed xorg-xhost (1.0.4-1)
+[2011-01-13 10:32] installed inputproto (2.0.1-1)
+[2011-01-13 10:32] installed libxi (1.4.0-1)
+[2011-01-13 10:32] installed xorg-xinput (1.5.3-1)
+[2011-01-13 10:32] installed xorg-xmodmap (1.0.5-1)
+[2011-01-13 10:32] installed xorg-xrandr (1.3.4-1)
+[2011-01-13 10:32] installed mcpp (2.7.2-2)
+[2011-01-13 10:32] installed xorg-xrdb (1.0.7-1)
+[2011-01-13 10:32] installed xorg-xrefresh (1.0.4-1)
+[2011-01-13 10:32] installed xorg-xset (1.2.1-1)
+[2011-01-13 10:32] installed fixesproto (4.1.2-1)
+[2011-01-13 10:32] installed libxfixes (4.0.5-1)
+[2011-01-13 10:32] installed libxcursor (1.1.11-1)
+[2011-01-13 10:32] installed xorg-xsetroot (1.1.0-1)
+[2011-01-13 10:32] installed xorg-server-utils (7.6-1)
+[2011-01-13 10:32] installed xorg-twm (1.0.4-3)
+[2011-01-13 10:32] installed recordproto (1.14.1-1)
+[2011-01-13 10:32] installed libxtst (1.2.0-1)
+[2011-01-13 10:32] installed xf86dgaproto (2.1-1)
+[2011-01-13 10:32] installed libxxf86dga (1.1.2-1)
+[2011-01-13 10:32] installed compositeproto (0.4.2-1)
+[2011-01-13 10:32] installed libxcomposite (0.4.3-1)
+[2011-01-13 10:32] installed xineramaproto (1.2-1)
+[2011-01-13 10:32] installed libxinerama (1.1.1-1)
+[2011-01-13 10:32] installed dmxproto (2.3-1)
+[2011-01-13 10:32] installed libdmx (1.1.1-1)
+[2011-01-13 10:32] installed xorg-xdpyinfo (1.2.0-1)
+[2011-01-13 10:32] installed damageproto (1.2.1-1)
+[2011-01-13 10:32] installed libxdamage (1.1.3-1)
+[2011-01-13 10:32] installed libgl (7.9.0.git20101207-2)
+[2011-01-13 10:32] installed xorg-xdriinfo (1.0.4-1)
+[2011-01-13 10:32] installed xorg-xev (1.1.0-1)
+[2011-01-13 10:32] installed xorg-xlsatoms (1.1.0-1)
+[2011-01-13 10:32] installed xcb-util (0.3.6-1)
+[2011-01-13 10:32] installed xorg-xlsclients (1.1.1-1)
+[2011-01-13 10:32] installed xorg-xprop (1.2.0-1)
+[2011-01-13 10:32] installed videoproto (2.3.1-1)
+[2011-01-13 10:32] installed libxv (1.0.6-1)
+[2011-01-13 10:32] installed xorg-xvinfo (1.1.1-1)
+[2011-01-13 10:32] installed xorg-xwininfo (1.1.1-1)
+[2011-01-13 10:32] installed xorg-utils (7.6-6)
+[2011-01-13 10:32] installed xorg-xauth (1.0.5-1)
+[2011-01-13 10:32] installed xorg-xinit (1.3.0-2)
+[2011-01-13 10:32] installed libxft (2.2.0-1)
+[2011-01-13 10:32] installed xorg-luit (1.1.0-1)
+[2011-01-13 10:32] installed xbitmaps (1.1.1-1)
+[2011-01-13 10:32] installed xterm (267-1)
+[2011-01-13 10:32] Running 'pacman -S vim'
+[2011-01-13 10:33] installed vim-runtime (7.3.69-2)
+[2011-01-13 10:33] installed vim (7.3.69-2)
+[2011-01-13 10:35] Running 'pacman -S mesa mesa-demo'
+[2011-01-13 10:36] Running 'pacman -S mesa'
+[2011-01-13 10:36] installed dri2proto (2.3-1)
+[2011-01-13 10:36] installed glproto (1.4.12-1)
+[2011-01-13 10:36] installed mesa (7.9.0.git20101207-2)
+[2011-01-13 10:36] Running 'pacman -S mesa-demo'
+[2011-01-13 10:36] Running 'pacman -S mesa-demos'
+[2011-01-13 10:36] installed glew (1.5.7-1)
+[2011-01-13 10:36] installed mesa-demos (8.0.1-1)
+[2011-01-13 10:37] Running 'pacman -S xf86-video-intel'
+[2011-01-13 10:37] installed intel-dri (7.9.0.git20101207-2)
+[2011-01-13 10:37] installed libxvmc (1.0.6-1)
+[2011-01-13 10:37] installed xf86-video-intel (2.13.0-4)
+[2011-01-13 10:37] Running 'pacman -S xf86-input-synaptics'
+[2011-01-13 10:37] installed xf86-input-synaptics (1.3.0-2)
+[2011-01-13 10:38] Running 'pacman -S dbus'
+[2011-01-13 10:38] installed dbus (1.4.1-1)
+[2011-01-13 10:42] Running 'pacman -S fluxbox'
+[2011-01-13 10:43] installed libjpeg (8.0.2-1)
+[2011-01-13 10:43] installed libtiff (3.9.4-1)
+[2011-01-13 10:43] installed giflib (4.1.6-3)
+[2011-01-13 10:43] installed libpng (1.4.5-1)
+[2011-01-13 10:43] installed libid3tag (0.15.1b-6)
+[2011-01-13 10:43] installed imlib2 (1.4.4-1)
+[2011-01-13 10:43] installed fluxbox (1.1.1-1)
+[2011-01-13 10:45] Running 'pacman -S roxterm'
+[2011-01-13 10:47] installed atk (1.32.0-1)
+[2011-01-13 10:47] installed cairo (1.10.2-1)
+[2011-01-13 10:47] installed libdatrie (0.2.4-1)
+[2011-01-13 10:47] installed libthai (0.1.14-1)
+[2011-01-13 10:47] installed pango (1.28.3-1)
+[2011-01-13 10:47] installed sqlite3 (3.7.4-1)
+[2011-01-13 10:47] installed libsasl (2.1.23-5)
+[2011-01-13 10:47] installed libldap (2.4.23-1)
+[2011-01-13 10:47] installed heimdal (1.3.3-4)
+[2011-01-13 10:47] installed libtasn1 (2.8-1)
+[2011-01-13 10:47] installed gnutls (2.10.4-1)
+[2011-01-13 10:47] installed libxml2 (2.7.8-1)
+[2011-01-13 10:47] installed shared-mime-info (0.80-1)
+[2011-01-13 10:47] installed libdaemon (0.14-1)
+[2011-01-13 10:47] ==> The following daemons may be added to DAEMONS in /etc/rc.conf:
+[2011-01-13 10:47] ==> avahi-daemon: the mdns responder, you probably want this.
+[2011-01-13 10:47] ==> dbus needs to be running when you start it.
+[2011-01-13 10:47] ==> avahi-dnsconfd: daemon used for peer-to-peer automatic dns
+[2011-01-13 10:47] ==> configuration on dhcp-less networks.
+[2011-01-13 10:47]
+[2011-01-13 10:47] ==> To use some of the client applications you will have to install python.
+[2011-01-13 10:47] ==> In addition, pygtk is required for the graphical ones and
+[2011-01-13 10:47] ==> twisted for avahi-bookmarks.
+[2011-01-13 10:47] installed avahi (0.6.28-1)
+[2011-01-13 10:47] installed libcups (1.4.6-1)
+[2011-01-13 10:47] installed gdk-pixbuf2 (2.22.1-1)
+[2011-01-13 10:47] installed gtk2 (2.22.1-1)
+[2011-01-13 10:47] installed libglade (2.6.4-2)
+[2011-01-13 10:47] installed dbus-glib (0.92-1)
+[2011-01-13 10:47] installed vte (0.26.2-1)
+[2011-01-13 10:47] installed hicolor-icon-theme (0.12-1)
+[2011-01-13 10:47] installed roxterm (1.20.3-1)
+[2011-01-13 10:48] Running 'pacman -S nm-applet'
+[2011-01-13 10:48] Running 'pacman -S nm-app'
+[2011-01-13 10:48] Running 'pacman -S nmapplet'
+[2011-01-13 10:48] Running 'pacman -S firefox'
+[2011-01-13 10:51] installed libidl2 (0.8.14-1)
+[2011-01-13 10:51] relogin or source /etc/profile.d/mozilla-common.sh
+[2011-01-13 10:51] installed mozilla-common (1.4-1)
+[2011-01-13 10:51] installed nspr (4.8.6-1)
+[2011-01-13 10:51] installed nss (3.12.8-1)
+[2011-01-13 10:51] installed hunspell (1.2.14-1)
+[2011-01-13 10:51] installed startup-notification (0.10-1)
+[2011-01-13 10:51] installed mime-types (1.0-3)
+[2011-01-13 10:51] installed libevent (1.4.14b-2)
+[2011-01-13 10:51] installed xulrunner (1.9.2.13-3)
+[2011-01-13 10:51] installed desktop-file-utils (0.16-1)
+[2011-01-13 10:51] installed firefox (3.6.13-1)
+[2011-01-13 10:53] Running 'pacman -S network-manager-applet'
+[2011-01-13 10:56] installed linux-atm (2.5.1-1)
+[2011-01-13 10:56] installed iproute2 (2.6.35-4)
+[2011-01-13 10:56] installed polkit (0.99-1)
+[2011-01-13 10:56] installed wireless_tools (29-4)
+[2011-01-13 10:56] installed networkmanager (0.8.3-0.20101130)
+[2011-01-13 10:56] installed libgnome-keyring (2.32.0-1)
+[2011-01-13 10:56] installed polkit-gnome (0.99-1)
+[2011-01-13 10:56] installed libnotify (0.5.2-1)
+[2011-01-13 10:56] installed libsexy (0.1.11-2)
+[2011-01-13 10:56] installed libxres (1.0.5-1)
+[2011-01-13 10:56] installed libwnck (2.30.6-1)
+[2011-01-13 10:56] installed orbit2 (2.14.19-1)
+[2011-01-13 10:56] installed gconf (2.32.0-1)
+[2011-01-13 10:56] installed gstreamer0.10 (0.10.31-1)
+[2011-01-13 10:56] installed orc (0.4.11-1)
+[2011-01-13 10:56] installed gstreamer0.10-base (0.10.31-1)
+[2011-01-13 10:56] installed notification-daemon (0.4.0-4)
+[2011-01-13 10:56] installed perl-xml-parser (2.40-1)
+[2011-01-13 10:56] installed perl-xml-simple (2.18-3)
+[2011-01-13 10:56] installed icon-naming-utils (0.8.90-1)
+[2011-01-13 10:56] installed gnome-icon-theme (2.31.0-1)
+[2011-01-13 10:56] installed mobile-broadband-provider-info (20100510-1)
+[2011-01-13 10:56] installed network-manager-applet (0.8.2-2)
+[2011-01-13 10:58] Running 'pacman -S networkmanager'
+[2011-01-13 10:58] upgraded networkmanager (0.8.3-0.20101130 -> 0.8.3-0.20101130)
+[2011-01-13 10:58] Running 'pacman -R nm-applet'
+[2011-01-13 10:58] Running 'pacman -R network-manager-applet'
+[2011-01-13 10:58] removed network-manager-applet (0.8.2-2)
+[2011-01-13 10:58] Running 'pacman -S network-manager-applet'
+[2011-01-13 10:58] installed network-manager-applet (0.8.2-2)
+[2011-01-13 10:59] Running 'pacman -S xfce4-notifyd hicolor-icon-theme gnome-icon-theme'
+[2011-01-13 10:59] removed notification-daemon (0.4.0-4)
+[2011-01-13 10:59] upgraded hicolor-icon-theme (0.12-1 -> 0.12-1)
+[2011-01-13 10:59] installed libxfce4util (4.6.2-1)
+[2011-01-13 10:59] installed xfconf (4.6.2-2)
+[2011-01-13 10:59] installed libxfcegui4 (4.6.4-1)
+[2011-01-13 10:59] installed xfce4-notifyd (0.1.0-2)
+[2011-01-13 10:59] upgraded gnome-icon-theme (2.31.0-1 -> 2.31.0-1)
+[2011-01-13 11:08] Running 'pacman -S xfce4-notifyd'
+[2011-01-13 11:08] upgraded xfce4-notifyd (0.1.0-2 -> 0.1.0-2)
+[2011-01-13 11:08] Running 'pacman -S wicd'
+[2011-01-13 11:10] installed libffi (3.0.9-1)
+[2011-01-13 11:10] installed python2 (2.7.1-4)
+[2011-01-13 11:10] installed dbus-python (0.83.1-2)
+[2011-01-13 11:10] installed python2-cairo (1.8.10-1)
+[2011-01-13 11:10] installed gobject-introspection (0.9.12-1)
+[2011-01-13 11:10] installed pygobject (2.26.0-2)
+[2011-01-13 11:10] installed pygtk (2.22.0-3)
+[2011-01-13 11:10] installed ethtool (2.6.35-2)
+[2011-01-13 11:10] installed python-urwid (0.9.9.1-2)
+[2011-01-13 11:10] installed consolekit (0.4.1-4)
+[2011-01-13 11:10]
+[2011-01-13 11:10] ==> You need to restart the dbus service after
+[2011-01-13 11:10] ==> upgrading wicd.
+[2011-01-13 11:10] ==> Disable networkmanager,dhcdbd or other networking
+[2011-01-13 11:10] ==> utility and add 'wicd' to DAEMONS
+[2011-01-13 11:10] ==> in /etc/rc.conf
+[2011-01-13 11:10] ==> 'dbus' HAS to be before 'wicd' in rc.conf in the
+[2011-01-13 11:10] ==> DAEMONS array.
+[2011-01-13 11:10] ==> Wireless Interface Connection Daemon
+[2011-01-13 11:10]
+[2011-01-13 11:10] ==> To run: wicd-client
+[2011-01-13 11:10] installed wicd (1.7.0-6)
+[2011-01-13 12:54] Running 'pacman -S thunar'
+[2011-01-13 12:55] installed libexif (0.6.19-1)
+[2011-01-13 12:55] installed libgssglue (0.1-3)
+[2011-01-13 12:55] installed libtirpc (0.2.1-2)
+[2011-01-13 12:55] installed rpcbind (0.2.0-3)
+[2011-01-13 12:55] installed fam (2.7.0-14)
+[2011-01-13 12:55] installed hal-info (0.20091130-1)
+[2011-01-13 12:55] installed eject (2.1.5-4)
+[2011-01-13 12:55] installed dmidecode (2.10-1)
+[2011-01-13 12:55] installed libx86 (1.1-2)
+[2011-01-13 12:55] installed vbetool (1.1-1)
+[2011-01-13 12:55] installed pm-quirks (0.20100619-1)
+[2011-01-13 12:55] installed pm-utils (1.4.1-1)
+[2011-01-13 12:55] installed hal (0.5.14-6)
+[2011-01-13 12:55] installed exo (0.3.107-2)
+[2011-01-13 12:55] installed thunar (1.0.2-1)
+[2011-01-13 14:26] Running 'pacman -S sudo'
+[2011-01-13 14:26] installed sudo (1.7.4.p4-1)
+[2011-01-13 14:28] Running 'pacman -S transmission'
+[2011-01-13 14:29] Running 'pacman -S transmission'
+[2011-01-13 14:29] Running 'pacman -S transmission'
+[2011-01-13 14:29] Running 'pacman -S Transmission'
+[2011-01-13 14:31] Running 'pacman -S transmission-gtk'
+[2011-01-13 14:32] installed run-parts (3.4.1-1)
+[2011-01-13 14:32] Clearing symlinks in /etc/ssl/certs...done.
+[2011-01-13 14:32] Updating certificates in /etc/ssl/certs... 141 added, 0 removed; done.
+[2011-01-13 14:32] Running hooks in /etc/ca-certificates/update.d....done.
+[2011-01-13 14:32] installed ca-certificates (20090814+nmu2-1)
+[2011-01-13 14:32] installed curl (7.21.3-1)
+[2011-01-13 14:32] installed transmission-gtk (2.13-1)
+[2011-01-13 14:57] Running 'pacman -S clementine'
+[2011-01-13 14:58] Running 'pacman -S base-devel'
+[2011-01-13 15:12] installed m4 (1.4.15-1)
+[2011-01-13 15:12] installed autoconf (2.68-1)
+[2011-01-13 15:12] installed automake (1.11.1-2)
+[2011-01-13 15:12] installed bison (2.4.3-1)
+[2011-01-13 15:12] installed fakeroot (1.14.5-1)
+[2011-01-13 15:12] installed flex (2.5.35-4)
+[2011-01-13 15:12] installed mpfr (3.0.0.p8-1)
+[2011-01-13 15:12] installed libmpc (0.8.2-2)
+[2011-01-13 15:12] installed ppl (0.11-1)
+[2011-01-13 15:12] installed cloog-ppl (0.15.10-2)
+[2011-01-13 15:12] installed elfutils (0.150-1)
+[2011-01-13 15:12] installed gcc (4.5.2-4)
+[2011-01-13 15:12] installed libtool (2.4-2)
+[2011-01-13 15:12] installed make (3.81-5)
+[2011-01-13 15:12] installed patch (2.6.1-2)
+[2011-01-13 15:12] installed pkg-config (0.25-3)
+[2011-01-13 15:13] Running 'pacman -S yaourt'
+[2011-01-13 15:13] Running 'pacman -S yaourt'
+[2011-01-13 15:13] Running 'pacman -Syy'
+[2011-01-13 15:13] synchronizing package lists
+[2011-01-13 15:15] Running 'pacman -S --asdeps yajl'
+[2011-01-13 15:16] installed yajl (1.0.11-3)
+[2011-01-13 15:16] Running 'pacman -U /tmp/package-query/package-query-0.5.1-1-i686.pkg.tar.xz'
+[2011-01-13 15:16] installed package-query (0.5.1-1)
+[2011-01-13 15:16] Running 'pacman -U /tmp/yaourt/yaourt-0.9.5.1-1-any.pkg.tar.xz'
+[2011-01-13 15:17] ==> for a full colorized output, install pacman-color and export PACMAN=pacman-color
+[2011-01-13 15:17] or set it into yaourtrc file.
+[2011-01-13 15:17] installed yaourt (0.9.5.1-1)
+[2011-01-13 15:17] Running 'pacman -Sy'
+[2011-01-13 15:17] synchronizing package lists
+[2011-01-13 15:17] starting full system upgrade
+[2011-01-13 15:18] Running 'pacman -S --asdeps extra/libgpod extra/taglib extra/cmake extra/libmtp extra/liblastfm extra/boost'
+[2011-01-13 15:27] installed mutagen (1.20-3)
+[2011-01-13 15:27] installed sg3_utils (1.29-1)
+[2011-01-13 15:27] installed libplist (1.3-2)
+[2011-01-13 15:27] installed usbmuxd (1.0.6-2)
+[2011-01-13 15:27] installed libimobiledevice (1.0.4-1)
+[2011-01-13 15:27] installed libgpod (0.8.0-1)
+[2011-01-13 15:27] installed taglib (1.6.3-1)
+[2011-01-13 15:27] installed cmake (2.8.3-1)
+[2011-01-13 15:27] installed libmtp (1.0.2-2)
+[2011-01-13 15:27] installed libogg (1.2.2-1)
+[2011-01-13 15:27] installed flac (1.2.1-2)
+[2011-01-13 15:27] installed libvorbis (1.3.2-1)
+[2011-01-13 15:27] installed libsndfile (1.0.23-1)
+[2011-01-13 15:27] installed libsamplerate (0.1.7-1)
+[2011-01-13 15:27] installed fftw (3.2.2-1)
+[2011-01-13 15:27] installed libmng (1.0.10-3)
+[2011-01-13 15:27] installed xdg-utils (1.0.2.20100618-1)
+[2011-01-13 15:27] installed qt (4.7.1-3)
+[2011-01-13 15:27] installed liblastfm (0.3.3-2)
+[2011-01-13 15:27] installed boost-libs (1.45.0-1)
+[2011-01-13 15:27] installed boost (1.45.0-1)
+[2011-01-13 15:27] Running 'pacman -S xmessage'
+[2011-01-13 15:28] Running 'pacman -S xmessage'
+[2011-01-13 15:28] Running 'pacman -S xorg-xmessage'
+[2011-01-13 15:28] installed xorg-xmessage (1.0.3-1)
+[2011-01-13 15:29] Running 'pacman -S eterm'
+[2011-01-13 15:29] installed libast (0.7-3)
+[2011-01-13 15:29] installed eterm (0.9.5-4)
+[2011-01-13 15:35] Running 'pacman -S terminator'
+[2011-01-13 15:35] installed terminator (0.95-2)
+[2011-01-13 15:41] Running 'pacman -S irssi'
+[2011-01-13 15:41] installed irssi (0.8.15-3)
+[2011-01-13 15:43] Running 'pacman -S mupdf'
+[2011-01-13 15:43] installed jbig2dec (0.11-2)
+[2011-01-13 15:43] installed openjpeg (1.3-3)
+[2011-01-13 15:43] installed mupdf (0.7-2)
+[2011-01-13 15:44] Running 'pacman -U /tmp/yaourt-tmp-lemon/PKGDEST.nbs/clementine-0.6-1-i686.pkg.tar.xz'
+[2011-01-13 15:44] installed clementine (0.6-1)
+[2011-01-13 15:44] Running 'pacman -S gstreamer*-plugins'
+[2011-01-13 15:45] Running 'pacman -S gstreamer-base-plugins'
+[2011-01-13 15:46] Running 'pacman -S gstramer0.10-base-plugins gstreamer0.10-good-plugins gstreamer0.10-bad-plugins gstreamer-0.10-ugly-plugins'
+[2011-01-13 15:46] Running 'pacman -S gstreamer0.10-base-plugins gstreamer0.10-good-plugins gstreamer0.10-bad-plugins gstreamer-0.10-ugly-plugins'
+[2011-01-13 15:46] Running 'pacman -S gstreamer0.10-base-plugins gstreamer0.10-good-plugins gstreamer0.10-bad-plugins gstreamer0.10-ugly-plugins'
+[2011-01-13 15:52] installed cdparanoia (10.2-2)
+[2011-01-13 15:52] installed libvisual (0.4.0-3)
+[2011-01-13 15:52] installed libtheora (1.1.1-1)
+[2011-01-13 15:52] installed gstreamer0.10-base-plugins (0.10.31-1)
+[2011-01-13 15:52] installed gstreamer0.10-good (0.10.26-1)
+[2011-01-13 15:52] installed libraw1394 (2.0.5-1)
+[2011-01-13 15:52] installed libavc1394 (0.5.3-3)
+[2011-01-13 15:52] installed libiec61883 (1.2.0-2)
+[2011-01-13 15:52] installed aalib (1.4rc5-7)
+[2011-01-13 15:52] installed speex (1.2rc1-1.1)
+[2011-01-13 15:52] installed libshout (2.2.2-3)
+[2011-01-13 15:52] installed libdv (1.0.0-3)
+[2011-01-13 15:52] installed audiofile (0.2.7-1)
+[2011-01-13 15:52] installed esound (0.2.41-1)
+[2011-01-13 15:52] installed wavpack (4.60.1-1)
+[2011-01-13 15:52] installed libsoup (2.32.2-1)
+[2011-01-13 15:52] installed libproxy (0.4.6-2)
+[2011-01-13 15:52] installed libsoup-gnome (2.32.2-1)
+[2011-01-13 15:52] installed v4l-utils (0.8.1-1)
+[2011-01-13 15:52] installed libcaca (0.99.beta17-1)
+[2011-01-13 15:52] installed gstreamer0.10-good-plugins (0.10.26-1)
+[2011-01-13 15:52] installed gstreamer0.10-bad (0.10.20-1)
+[2011-01-13 15:52] installed xvidcore (1.2.2-1)
+[2011-01-13 15:52] installed libdca (0.0.5-2)
+[2011-01-13 15:52] installed libdc1394 (2.1.2-2)
+[2011-01-13 15:52] installed exempi (2.1.1-1)
+[2011-01-13 15:52] installed jack (0.118.0-4)
+[2011-01-13 15:52] installed neon (0.29.3-2)
+[2011-01-13 15:52] installed libmp4v2 (1.9.1-1)
+[2011-01-13 15:52] installed faac (1.28-2)
+[2011-01-13 15:52] installed musicbrainz (2.1.5-4)
+[2011-01-13 15:52] installed faad2 (2.7-1)
+[2011-01-13 15:52] installed libmms (0.6-1)
+[2011-01-13 15:52] installed libcdaudio (0.99.12-5)
+[2011-01-13 15:52] installed libmpcdec (1.2.6-2)
+[2011-01-13 15:52] installed sdl (1.2.14-6)
+[2011-01-13 15:52] installed mjpegtools (1.9.0-4)
+[2011-01-13 15:52] installed libdvdread (4.1.3-2)
+[2011-01-13 15:52] installed libdvdnav (4.1.3-2)
+[2011-01-13 15:52] installed libmodplug (0.8.8.1-1)
+[2011-01-13 15:52] installed freeglut (2.6.0-1)
+[2011-01-13 15:52] installed jasper (1.900.1-6)
+[2011-01-13 15:52] installed libxslt (1.1.26-2)
+[2011-01-13 15:52] installed raptor (1.4.21-2)
+[2011-01-13 15:52] installed ladspa (1.13-2)
+[2011-01-13 15:52] installed liblrdf (0.4.0-6)
+[2011-01-13 15:52] installed libofa (0.9.3-2)
+[2011-01-13 15:52] installed libvdpau (0.4-1)
+[2011-01-13 15:52] installed soundtouch (1.5.0-1)
+[2011-01-13 15:52] installed recode (3.6-6)
+[2011-01-13 15:52] installed enca (1.13-1)
+[2011-01-13 15:52] installed libass (0.9.11-1)
+[2011-01-13 15:52] installed schroedinger (1.0.10-1)
+[2011-01-13 15:52] installed libvpx (0.9.5-2)
+[2011-01-13 15:52] installed gsm (1.0.13-6)
+[2011-01-13 15:52] installed rtmpdump (2.3-3)
+[2011-01-13 15:52] installed libgme (0.5.5-3)
+[2011-01-13 15:52] installed gstreamer0.10-bad-plugins (0.10.20-1)
+[2011-01-13 15:52] installed gstreamer0.10-ugly (0.10.16-1)
+[2011-01-13 15:52] installed lame (3.98.4-1)
+[2011-01-13 15:52] installed libmpeg2 (0.5.1-1)
+[2011-01-13 15:52] installed a52dec (0.7.4-4)
+[2011-01-13 15:52] installed libmad (0.15.1b-4)
+[2011-01-13 15:52] installed libsidplay (1.36.59-4)
+[2011-01-13 15:52] installed libcddb (1.3.2-2)
+[2011-01-13 15:52] installed libcdio (0.82-1)
+[2011-01-13 15:52] installed x264 (20101013-1)
+[2011-01-13 15:52] installed opencore-amr (0.1.2-1)
+[2011-01-13 15:52] installed gstreamer0.10-ugly-plugins (0.10.16-1)
+[2011-01-13 16:04] Running 'pacman -S keytouch keytouch-editor'
+[2011-01-13 16:04] installed gnome-menus (2.30.5-1)
+[2011-01-13 16:04] ==> To use keytouch:
+[2011-01-13 16:04] o Add keytouch to your DAEMONS line in /etc/rc.conf
+[2011-01-13 16:04] o Add:
+[2011-01-13 16:04] /etc/X11/Xsession
+[2011-01-13 16:04] to your ~/.xinitrc
+[2011-01-13 16:04] o You'll need to have either gksu (pacman -S gksu) or kdesu (pacman -S kdebase) installed.
+[2011-01-13 16:04]
+[2011-01-13 16:04] ==> If your keyboard is not supported "out of the box":
+[2011-01-13 16:04] o Go to http://keytouch.sourceforge.net/dl-keyboards.html to see if your keyboard has been added
+[2011-01-13 16:04] or install keytouch-editor to make your custom keyboard file.
+[2011-01-13 16:04] installed keytouch (2.4.1-2)
+[2011-01-13 16:04] ==> To use keytouch-editor:
+[2011-01-13 16:04] You'll need to have either gksu (pacman -S gksu) or kdesu (pacman -S kdebase) installed.
+[2011-01-13 16:04] installed keytouch-editor (3.1.3-1)
+[2011-01-13 16:05] Running 'pacman -S gksu'
+[2011-01-13 16:05] installed libgtop (2.28.2-1)
+[2011-01-13 16:05] installed libgksu (2.0.12-3)
+[2011-01-13 16:05] installed gksu (2.0.2-2)
+[2011-01-13 16:12] Running 'pacman -R keytouch'
+[2011-01-13 16:12] removed keytouch (2.4.1-2)
+[2011-01-13 16:12] Running 'pacman -R keytouch-editor'
+[2011-01-13 16:12] removed keytouch-editor (3.1.3-1)
+[2011-01-13 16:12] Running 'pacman -S xorg-server-utils'
+[2011-01-13 16:12] upgraded xorg-server-utils (7.6-1 -> 7.6-1)
+[2011-01-13 17:40] Running 'pacman -S virtualbox qt'
+[2011-01-13 17:41] installed libvncserver (0.9.7-3)
+[2011-01-13 17:41] installed kernel26-headers (2.6.36.3-1)
+[2011-01-13 17:41]
+[2011-01-13 17:41] ===> In order to run VirtualBox, you have to be in the 'vboxusers' group.
+[2011-01-13 17:41] ===>
+[2011-01-13 17:41] ===> If you want to be able to install guest additions, you have to install
+[2011-01-13 17:41] ===> 'virtualbox-additions' package.
+[2011-01-13 17:41] ===>
+[2011-01-13 17:41] ===> You must load vboxdrv module before starting VirtualBox:
+[2011-01-13 17:41] ===> # modprobe vboxdrv
+[2011-01-13 17:41] ===>
+[2011-01-13 17:41] ===> You must load vboxnetflt for Host Interface Networking:
+[2011-01-13 17:41] ===> # modprobe vboxnetflt
+[2011-01-13 17:41] ===>
+[2011-01-13 17:41] ===> You must load vboxnetadp for Host-Only networking:
+[2011-01-13 17:41] ===> # modprobe vboxnetadp
+[2011-01-13 17:41] ===>
+[2011-01-13 17:41] ===> To load it automatically, add vboxdrv module
+[2011-01-13 17:41] ===> to the MODULES array in /etc/rc.conf.
+[2011-01-13 17:41]
+[2011-01-13 17:41] *** To compile the modules do /etc/rc.d/vboxdrv setup ***
+[2011-01-13 17:41]
+[2011-01-13 17:41] installed virtualbox (4.0.0-3)
+[2011-01-13 17:41] upgraded qt (4.7.1-3 -> 4.7.1-3)
+[2011-01-13 17:56] Running 'pacman -S alsamixer-gui'
+[2011-01-13 17:56] Running 'pacman -S alsamixer-gtk'
+[2011-01-13 17:56] Running 'pacman -S alsamixer-gtk'
+[2011-01-13 17:56] Running 'pacman -S alsamixer-gui'
+[2011-01-13 17:58] Running 'pacman -S gephex'
+[2011-01-13 17:58] Running 'pacman -S gamix'
+[2011-01-13 17:58] Running 'pacman -S trunk'
+[2011-01-13 18:10] Running 'pacman -S mplayer'
+[2011-01-13 18:19] installed scrnsaverproto (1.2.1-1)
+[2011-01-13 18:19] installed libxss (1.2.1-1)
+[2011-01-13 18:19] installed tdb (1.2.1-2)
+[2011-01-13 18:19] installed talloc (2.0.1-1)
+[2011-01-13 18:19] installed smbclient (3.5.6-1)
+[2011-01-13 18:19] installed libftdi (0.18-2)
+[2011-01-13 18:19] installed lirc-utils (0.9.0.pre1-2)
+[2011-01-13 18:19] installed ttf-dejavu (2.32-2)
+[2011-01-13 18:19] installed libasyncns (0.8-3)
+[2011-01-13 18:19] installed libpulse (0.9.22-2)
+[2011-01-13 18:19] installed mplayer (32663-1)
+[2011-01-13 18:28] Running 'pacman -S extra/xfce4-mixer'
+[2011-01-13 18:28] installed xfce4-panel (4.6.4-1)
+[2011-01-13 18:28] installed xfce4-mixer (4.6.1-1)
+[2011-01-13 19:55] Running 'pacman -S xfce4'
+[2011-01-13 19:58] Running 'pacman -S lxterminal'
+[2011-01-13 19:58] installed gtk-xfce-engine (2.6.0-1)
+[2011-01-13 19:58] installed mousepad (0.2.16-2)
+[2011-01-13 19:58] upgraded xfce4-panel (4.6.4-1 -> 4.6.4-1)
+[2011-01-13 19:58] installed orage (4.6.1-1)
+[2011-01-13 19:58] installed terminal (0.4.5-1)
+[2011-01-13 19:59] upgraded thunar (1.0.2-1 -> 1.0.2-1)
+[2011-01-13 19:59] NOTE
+[2011-01-13 19:59] ----
+[2011-01-13 19:59] ==> xfce can run on top of a framebuffer. However, for most users it is
+[2011-01-13 19:59] ==> best to install xorg as an x-server. Please install either xorg-xinit
+[2011-01-13 19:59] ==> as minimal environment or the xorg meta package.
+[2011-01-13 19:59] pacman -S xorg-xinit
+[2011-01-13 19:59] -- or --
+[2011-01-13 19:59] pacman -S xorg
+[2011-01-13 19:59] installed xfce-utils (4.6.2-3)
+[2011-01-13 19:59] installed libxfce4menu (4.6.2-1)
+[2011-01-13 19:59] installed xfce4-appfinder (4.6.2-1)
+[2011-01-13 19:59] upgraded xfce4-mixer (4.6.1-1 -> 4.6.1-1)
+[2011-01-13 19:59] installed xfce4-session (4.6.2-2)
+[2011-01-13 19:59] installed iso-codes (3.14-1)
+[2011-01-13 19:59] installed libxklavier (5.0-1)
+[2011-01-13 19:59] installed libcroco (0.6.2-1)
+[2011-01-13 19:59] installed librsvg (2.32.1-1)
+[2011-01-13 19:59] installed tango-icon-theme (0.8.90-2)
+[2011-01-13 19:59] installed gtk-engines (2.20.2-1)
+[2011-01-13 19:59] installed xfce4-settings (4.6.5-1)
+[2011-01-13 19:59] upgraded xfconf (4.6.2-2 -> 4.6.2-2)
+[2011-01-13 19:59] installed xfdesktop (4.6.2-2)
+[2011-01-13 19:59] installed ghostscript (9.00-2)
+[2011-01-13 19:59] installed psutils (1.17-2)
+[2011-01-13 19:59] installed lcms (1.19-1)
+[2011-01-13 19:59] installed imagemagick (6.6.6.10-1)
+[2011-01-13 19:59] installed a2ps (4.14-1)
+[2011-01-13 19:59] installed xfprint (4.6.1-4)
+[2011-01-13 19:59] installed xfwm4 (4.6.2-1)
+[2011-01-13 19:59] installed xfwm4-themes (4.6.0-1)
+[2011-01-13 19:59] Running 'pacman -S terminal'
+[2011-01-13 19:59] upgraded terminal (0.4.5-1 -> 0.4.5-1)
+[2011-01-13 20:02] Running 'pacman -S fluxmenu'
+[2011-01-13 20:02] Running 'pacman -S python'
+[2011-01-13 20:03] installed python (3.1.3-1)
+[2011-01-13 20:03] Running 'pacman -U /tmp/yaourt-tmp-root/PKGDEST.87Y/fluxmenu-24-1-i686.pkg.tar.xz'
+[2011-01-13 20:03] installed fluxmenu (24-1)
+[2011-01-13 20:05] Running 'pacman -S --asdeps extra/glibmm extra/bc extra/libglademm'
+[2011-01-13 20:05] installed libsigc++ (2.2.8-1)
+[2011-01-13 20:05] installed glibmm (2.24.2-1)
+[2011-01-13 20:05] installed bc (1.06-7)
+[2011-01-13 20:05] installed cairomm (1.8.6-1)
+[2011-01-13 20:05] installed pangomm (2.26.2-1)
+[2011-01-13 20:05] installed atkmm (2.22.2-1)
+[2011-01-13 20:05] installed gtkmm (2.22.0-1)
+[2011-01-13 20:05] installed libglademm (2.6.7-1)
+[2011-01-13 20:06] Running 'pacman -S editor menu extra/fluxbox'
+[2011-01-13 20:06] Running 'pacman -S editor menu extra/fluxbox'
+[2011-01-13 20:06] Running 'pacman -S menu extra/fluxbox'
+[2011-01-13 20:20] Running 'pacman -S gnome-applets'
+[2011-01-13 20:21] installed gnome-desktop (2.32.1-1)
+[2011-01-13 20:21] installed libgweather (2.30.3-1)
+[2011-01-13 20:21] installed libical (0.46-1)
+[2011-01-13 20:21] installed libgdata (0.6.5-1)
+[2011-01-13 20:21] installed evolution-data-server (2.32.1-1)
+[2011-01-13 20:21] installed libcanberra (0.26-3)
+[2011-01-13 20:21] installed gnome-panel (2.32.1-1)
+[2011-01-13 20:21] installed gucharmap (2.32.1-1)
+[2011-01-13 20:21] installed cpufrequtils (008-1)
+[2011-01-13 20:21] installed gnome-applets (2.32.1.1-1)
+[2011-01-14 04:18] Running 'pacman -S xmms'
+[2011-01-14 04:18] installed glib (1.2.10-8)
+[2011-01-14 04:18] installed gtk (1.2.10-10)
+[2011-01-14 04:18] installed xmms (1.2.11-3)
+[2011-01-14 04:23] Running 'pacman -S alsamixer-qt4'
+[2011-01-14 04:28] Running 'pacman -U /tmp/yaourt-tmp-lemon/PKGDEST.ugE/alsamixer-qt4-0.6.0-1-i686.pkg.tar.xz'
+[2011-01-14 04:28] installed alsamixer-qt4 (0.6.0-1)
+[2011-01-14 04:35] Running 'pacman -S conky'
+[2011-01-14 04:35] installed conky (1.8.1-2)
+[2011-01-14 04:45] Running 'pacman -S xmms2'
+[2011-01-14 04:45] -- DO NOT FORGET edit /etc/conf.d/xmms2.conf!
+[2011-01-14 04:45] installed xmms2 (0.7DrNo-8)
+[2011-01-14 04:47] Running 'pacman -R xmms2'
+[2011-01-14 04:47] removed xmms2 (0.7DrNo-8)
+[2011-01-14 05:34] Running 'pacman -U /tmp/yaourt-tmp-lemon/PKGDEST.mrP/flashplugin-prerelease-10.2.161.23-4-i686.pkg.tar.xz'
+[2011-01-14 05:34] warning: directory permissions differ on usr/lib/mozilla/
+filesystem: 700 package: 755
+[2011-01-14 05:34]
+[2011-01-14 05:34] ==> Note : The actual release version for the 32bit release
+[2011-01-14 05:34] ==> is 10.2.152.14
+[2011-01-14 05:34] ==>
+[2011-01-14 05:34] ==> Due to inconsistencies in the Adobe release procedure,
+[2011-01-14 05:34] ==> this package has to be versioned as
+[2011-01-14 05:34] ==> 10.2.161.23-4 on 32-bit systems.
+[2011-01-14 05:34] ==>
+[2011-01-14 05:34] ==> Please check the wiki for details
+[2011-01-14 05:34]
+[2011-01-14 05:34] installed flashplugin-prerelease (10.2.161.23-4)
+[2011-01-14 05:37] Running 'pacman -S totem'
+[2011-01-14 05:38] installed gmime (2.4.21-1)
+[2011-01-14 05:38] installed totem-plparser (2.32.1-1)
+[2011-01-14 05:38] installed libunique (1.1.6-3)
+[2011-01-14 05:38] installed totem (2.32.0-3)
+[2011-01-14 05:39] Running 'pacman -S vlc'
+[2011-01-14 05:41] installed fluidsynth (1.1.3-2)
+[2011-01-14 05:41] installed libdvbpsi (0.1.7-1)
+[2011-01-14 05:41] installed sdl_image (1.2.10-2)
+[2011-01-14 05:41] installed lua (5.1.4-6)
+[2011-01-14 05:41] installed libebml (1.0.0-1)
+[2011-01-14 05:41] installed libmatroska (1.0.0-1)
+[2011-01-14 05:41] installed zvbi (0.2.33-3)
+[2011-01-14 05:41] installed libva (1.0.6-1)
+[2011-01-14 05:41] installed ffmpeg (25679-1)
+[2011-01-14 05:41] installed fribidi (0.19.2-1)
+[2011-01-14 05:41] Updating font cache... done.
+[2011-01-14 05:41] installed ttf-freefont (20100919-1)
+[2011-01-14 05:41] installed vlc (1.1.5-2)
+[2011-01-14 05:42] Running 'pacman -S alsa-lib'
+[2011-01-14 05:42] upgraded alsa-lib (1.0.23-2 -> 1.0.23-2)
+[2011-01-14 05:42] Running 'pacman -S alsalib'
+[2011-01-14 05:42] Running 'pacman -S alsalib'
+[2011-01-14 05:47] Running 'pacman -S gpicview'
+[2011-01-14 05:47] installed gpicview (0.2.1-3)
+[2011-01-14 05:49] Running 'pacman -S flashplugin'
+[2011-01-14 05:50] removed flashplugin-prerelease (10.2.161.23-4)
+[2011-01-14 05:50] warning: directory permissions differ on usr/lib/mozilla/
+filesystem: 700 package: 755
+[2011-01-14 05:50] installed flashplugin (10.1.102.65-1)
+[2011-01-14 05:52] Running 'pacman -S flashplugin'
+[2011-01-14 05:52] warning: directory permissions differ on usr/lib/mozilla/
+filesystem: 700 package: 755
+[2011-01-14 05:52] upgraded flashplugin (10.1.102.65-1 -> 10.1.102.65-1)
+[2011-01-14 06:36] Running 'pacman -S unzip'
+[2011-01-14 06:36] installed unzip (6.0-5)
+[2011-01-14 07:06] Running 'pacman -U /tmp/yaourt-tmp-lemon/PKGDEST.3aV/wmxmms-spectrum-0.5-2-i686.pkg.tar.xz'
+[2011-01-14 07:06] installed wmxmms-spectrum (0.5-2)
+[2011-01-14 07:06] Running 'pacman -S wmxmms'
+[2011-01-14 18:18] Running 'pacman -S gedit'
+[2011-01-14 18:19] installed gtksourceview2 (2.10.5-1)
+[2011-01-14 18:19] installed pygtksourceview2 (2.10.1-3)
+[2011-01-14 18:19] ==> aspell comes with no default dictionary
+[2011-01-14 18:19] installed aspell (0.60.6-4)
+[2011-01-14 18:19] installed enchant (1.6.0-1)
+[2011-01-14 18:19] installed gedit (2.30.4-3)
+[2011-01-15 14:16] Running 'pacman -S streamripper'
+[2011-01-15 14:16] installed streamripper (1.64.6-1)
+[2011-01-15 14:17] Running 'pacman -R streamripper'
+[2011-01-15 14:17] removed streamripper (1.64.6-1)
+[2011-01-15 16:30] Running 'pacman -S install wine'
+[2011-01-15 16:30] Running 'pacman -S wine'
+[2011-01-15 16:31] This wine package is wow64 enabled. This means it can run 32bit/64bit Windows apps on x86_64.
+[2011-01-15 16:31] If you are on x86_64, the default WINEARCH will be win64.
+[2011-01-15 16:31] This will cause a lot of Windows applications to malfunction even if they usually work in wine.
+[2011-01-15 16:31] Please create your ~/.wine with 'WINEARCH=win32 winecfg' if you are unsure and on x86_64.
+[2011-01-15 16:31] See the Arch wiki on wine for more information.
+[2011-01-15 16:31] installed wine (1.3.11-1)
+[2011-01-15 16:43] Running 'pacman -S winecfg'
+[2011-01-15 16:46] Running 'pacman -S cabeextract'
+[2011-01-15 16:46] Running 'pacman -S cabextract'
+[2011-01-15 16:46] installed cabextract (1.3-1)
+[2011-01-16 18:36] Running 'pacman -S ssh'
+[2011-01-16 18:44] Running 'pacman -S openssh'
+[2011-01-16 18:44] installed openssh (5.6p1-1)
+[2011-01-16 18:53] Running 'pacman -S nmap'
+[2011-01-16 18:54] installed nmap (5.21-3)
+[2011-01-17 01:21] Running 'pacman -S quake'
+[2011-01-17 01:22] Running 'pacman -S guake'
+[2011-01-17 01:22] installed python-notify (0.1.1-8)
+[2011-01-17 01:22] installed python2-gconf (2.28.1-5)
+[2011-01-17 01:22] installed guake (0.4.2-4)
+[2011-01-17 01:23] Running 'pacman -R guake'
+[2011-01-17 01:23] removed guake (0.4.2-4)
+[2011-01-17 02:58] Running 'pacman -Syy'
+[2011-01-17 02:58] synchronizing package lists
+[2011-01-17 14:27] Running 'pacman -Syu'
+[2011-01-17 14:27] synchronizing package lists
+[2011-01-17 14:30] Running 'pacman -Syu'
+[2011-01-17 14:30] synchronizing package lists
+[2011-01-17 14:33] starting full system upgrade
+[2011-01-17 15:55] upgraded dash (0.5.6.1-1 -> 0.5.6.1-2)
+[2011-01-17 15:55] upgraded libxfce4util (4.6.2-1 -> 4.8.1-1)
+[2011-01-17 15:55] upgraded exo (0.3.107-2 -> 0.6.0-2)
+[2011-01-17 15:55] upgraded x264 (20101013-1 -> 20110115-1)
+[2011-01-17 15:55] upgraded ffmpeg (25679-1 -> 26387-1)
+[2011-01-17 15:55] upgraded gmp (5.0.1-1 -> 5.0.1-2)
+[2011-01-17 15:55] upgraded gstreamer0.10-ugly (0.10.16-1 -> 0.10.16-2)
+[2011-01-17 15:55] upgraded gstreamer0.10-ugly-plugins (0.10.16-1 -> 0.10.16-2)
+[2011-01-17 15:55] upgraded gtk-xfce-engine (2.6.0-1 -> 2.8.0-1)
+[2011-01-17 15:55] upgraded imagemagick (6.6.6.10-1 -> 6.6.6.10-2)
+[2011-01-17 15:55] - The directories /usr/lib/perl5/current, /usr/lib/perl5/site_perl/current,
+[2011-01-17 15:55] /usr/lib/perl5/site_perl/5.10.1, and /usr/share/perl5/site_perl/5.10.1
+[2011-01-17 15:55] have been removed from @INC.
+[2011-01-17 15:55] - The script/binary directories are now /usr/bin/*_perl instead of
+[2011-01-17 15:55] /usr/lib/perl5/*_perl/bin which will be eventually removed.
+[2011-01-17 15:55] upgraded perl (5.12.1-3 -> 5.12.2-1)
+[2011-01-17 15:55] upgraded irssi (0.8.15-3 -> 0.8.15-4)
+[2011-01-17 15:55] upgraded libmpc (0.8.2-2 -> 0.8.2-3)
+[2011-01-17 15:55] upgraded xfconf (4.6.2-2 -> 4.8.0-1)
+[2011-01-17 15:55] upgraded libxfcegui4 (4.6.4-1 -> 4.8.0-1)
+[2011-01-17 15:55] upgraded mplayer (32663-1 -> 32792-1)
+[2011-01-17 15:55] upgraded networkmanager (0.8.3-0.20101130 -> 0.8.3-0.20110113)
+[2011-01-17 15:55] installed libedit (20090923_3.0-1)
+[2011-01-17 15:55] upgraded openssh (5.6p1-1 -> 5.6p1-2)
+[2011-01-17 15:55] installed garcon (0.1.5-1)
+[2011-01-17 15:55] installed libxfce4ui (4.8.0-1)
+[2011-01-17 15:55] upgraded xfce4-panel (4.6.4-1 -> 4.8.0-1)
+[2011-01-17 15:55] upgraded popt (1.16-2 -> 1.16-3)
+[2011-01-17 15:55] upgraded orage (4.6.1-1 -> 4.8.0-1)
+[2011-01-17 15:55] upgraded perl-xml-parser (2.40-1 -> 2.40-2)
+[2011-01-17 15:55] upgraded sudo (1.7.4.p4-1 -> 1.7.4.p5-1)
+[2011-01-17 15:55] upgraded terminal (0.4.5-1 -> 0.4.5-2)
+[2011-01-17 15:55] upgraded thunar (1.0.2-1 -> 1.2.0-1)
+[2011-01-17 15:55] upgraded vlc (1.1.5-2 -> 1.1.5-3)
+[2011-01-17 15:55] upgraded xfce-utils (4.6.2-3 -> 4.8.0-1)
+[2011-01-17 15:55] upgraded xfce4-appfinder (4.6.2-1 -> 4.8.0-1)
+[2011-01-17 15:55] upgraded xfce4-mixer (4.6.1-1 -> 4.6.1-2)
+[2011-01-17 15:55] upgraded xfce4-notifyd (0.1.0-2 -> 0.2.0-1)
+[2011-01-17 15:55] installed upower (0.9.7-2)
+[2011-01-17 15:55] upgraded xfce4-session (4.6.2-2 -> 4.8.0-1)
+[2011-01-17 15:55] upgraded xfce4-settings (4.6.5-1 -> 4.8.0-1)
+[2011-01-17 15:55] upgraded xfdesktop (4.6.2-2 -> 4.8.0-1)
+[2011-01-17 15:55] upgraded xfwm4 (4.6.2-1 -> 4.8.0-1)
+[2011-01-17 16:00] Running 'pacman -S irb'
+[2011-01-17 16:00] Running 'pacman -S ruby'
+[2011-01-17 16:01] installed ruby (1.9.2_p136-2)
+[2011-01-17 17:56] Running 'pacman -S g++'
+[2011-01-17 17:56] Running 'pacman -S gcc'
+[2011-01-17 17:56] upgraded gcc (4.5.2-4 -> 4.5.2-4)
+[2011-01-17 17:56] Running 'pacman -S gpp'
+[2011-01-17 17:58] Running 'pacman -S gtkmm'
+[2011-01-17 17:58] upgraded gtkmm (2.22.0-1 -> 2.22.0-1)
+[2011-01-17 18:06] Running 'pacman -S gtkmm'
+[2011-01-17 18:06] upgraded gtkmm (2.22.0-1 -> 2.22.0-1)
+[2011-01-17 18:07] Running 'pacman -S gtkmm'
+[2011-01-17 18:07] upgraded gtkmm (2.22.0-1 -> 2.22.0-1)
+[2011-01-17 18:22] Running 'pacman -S eclipse'
+[2011-01-17 18:43] Running 'pacman -S aspell aspell-en'
+[2011-01-17 18:44] installed ca-certificates-java (20100412-2)
+[2011-01-17 18:44] warning: directory permissions differ on usr/lib/mozilla/
+filesystem: 700 package: 755
+[2011-01-17 18:44] added certificate brasil.gov.br/brasil.gov.br.crt
+[2011-01-17 18:44] added certificate cacert.org/cacert.org.crt
+[2011-01-17 18:44] added certificate debconf.org/ca.crt
+[2011-01-17 18:44] added certificate gouv.fr/cert_igca_dsa.crt
+[2011-01-17 18:44] added certificate gouv.fr/cert_igca_rsa.crt
+[2011-01-17 18:44] added certificate mozilla/ABAecom_=sub.__Am._Bankers_Assn.=_Root_CA.crt
+[2011-01-17 18:44] added certificate mozilla/AOL_Time_Warner_Root_Certification_Authority_1.crt
+[2011-01-17 18:44] added certificate mozilla/AOL_Time_Warner_Root_Certification_Authority_2.crt
+[2011-01-17 18:44] added certificate mozilla/AddTrust_External_Root.crt
+[2011-01-17 18:44] added certificate mozilla/AddTrust_Low-Value_Services_Root.crt
+[2011-01-17 18:44] added certificate mozilla/AddTrust_Public_Services_Root.crt
+[2011-01-17 18:44] added certificate mozilla/AddTrust_Qualified_Certificates_Root.crt
+[2011-01-17 18:44] added certificate mozilla/America_Online_Root_Certification_Authority_1.crt
+[2011-01-17 18:44] added certificate mozilla/America_Online_Root_Certification_Authority_2.crt
+[2011-01-17 18:44] added certificate mozilla/Baltimore_CyberTrust_Root.crt
+[2011-01-17 18:44] added certificate mozilla/COMODO_Certification_Authority.crt
+[2011-01-17 18:44] ignored import, signature not available: mozilla/COMODO_ECC_Certification_Authority.crt
+[2011-01-17 18:44] -> keytool error: java.security.NoSuchAlgorithmException: SHA384withECDSA Signature not available
+[2011-01-17 18:44] added certificate mozilla/Camerfirma_Chambers_of_Commerce_Root.crt
+[2011-01-17 18:44] added certificate mozilla/Camerfirma_Global_Chambersign_Root.crt
+[2011-01-17 18:44] added certificate mozilla/Certplus_Class_2_Primary_CA.crt
+[2011-01-17 18:44] added certificate mozilla/Certum_Root_CA.crt
+[2011-01-17 18:44] added certificate mozilla/Comodo_AAA_Services_root.crt
+[2011-01-17 18:44] added certificate mozilla/Comodo_Secure_Services_root.crt
+[2011-01-17 18:44] added certificate mozilla/Comodo_Trusted_Services_root.crt
+[2011-01-17 18:44] added certificate mozilla/DST_ACES_CA_X6.crt
+[2011-01-17 18:44] added certificate mozilla/DST_Root_CA_X3.crt
+[2011-01-17 18:44] added certificate mozilla/DigiCert_Assured_ID_Root_CA.crt
+[2011-01-17 18:44] added certificate mozilla/DigiCert_Global_Root_CA.crt
+[2011-01-17 18:44] added certificate mozilla/DigiCert_High_Assurance_EV_Root_CA.crt
+[2011-01-17 18:44] added certificate mozilla/DigiNotar_Root_CA.crt
+[2011-01-17 18:44] added certificate mozilla/Digital_Signature_Trust_Co._Global_CA_1.crt
+[2011-01-17 18:44] added certificate mozilla/Digital_Signature_Trust_Co._Global_CA_2.crt
+[2011-01-17 18:44] added certificate mozilla/Digital_Signature_Trust_Co._Global_CA_3.crt
+[2011-01-17 18:44] added certificate mozilla/Digital_Signature_Trust_Co._Global_CA_4.crt
+[2011-01-17 18:44] added certificate mozilla/Entrust.net_Global_Secure_Personal_CA.crt
+[2011-01-17 18:44] added certificate mozilla/Entrust.net_Global_Secure_Server_CA.crt
+[2011-01-17 18:44] added certificate mozilla/Entrust.net_Premium_2048_Secure_Server_CA.crt
+[2011-01-17 18:44] added certificate mozilla/Entrust.net_Secure_Personal_CA.crt
+[2011-01-17 18:44] added certificate mozilla/Entrust.net_Secure_Server_CA.crt
+[2011-01-17 18:44] added certificate mozilla/Entrust_Root_Certification_Authority.crt
+[2011-01-17 18:44] added certificate mozilla/Equifax_Secure_CA.crt
+[2011-01-17 18:44] added certificate mozilla/Equifax_Secure_Global_eBusiness_CA.crt
+[2011-01-17 18:44] added certificate mozilla/Equifax_Secure_eBusiness_CA_1.crt
+[2011-01-17 18:44] added certificate mozilla/Equifax_Secure_eBusiness_CA_2.crt
+[2011-01-17 18:44] added certificate mozilla/Firmaprofesional_Root_CA.crt
+[2011-01-17 18:44] added certificate mozilla/GTE_CyberTrust_Global_Root.crt
+[2011-01-17 18:44] added certificate mozilla/GTE_CyberTrust_Root_CA.crt
+[2011-01-17 18:44] added certificate mozilla/GeoTrust_Global_CA.crt
+[2011-01-17 18:44] added certificate mozilla/GeoTrust_Global_CA_2.crt
+[2011-01-17 18:44] added certificate mozilla/GeoTrust_Primary_Certification_Authority.crt
+[2011-01-17 18:44] added certificate mozilla/GeoTrust_Universal_CA.crt
+[2011-01-17 18:44] added certificate mozilla/GeoTrust_Universal_CA_2.crt
+[2011-01-17 18:44] added certificate mozilla/GlobalSign_Root_CA.crt
+[2011-01-17 18:44] added certificate mozilla/GlobalSign_Root_CA_-_R2.crt
+[2011-01-17 18:44] added certificate mozilla/Go_Daddy_Class_2_CA.crt
+[2011-01-17 18:44] added certificate mozilla/IPS_CLASE1_root.crt
+[2011-01-17 18:44] added certificate mozilla/IPS_CLASE3_root.crt
+[2011-01-17 18:44] added certificate mozilla/IPS_CLASEA1_root.crt
+[2011-01-17 18:44] added certificate mozilla/IPS_CLASEA3_root.crt
+[2011-01-17 18:44] added certificate mozilla/IPS_Chained_CAs_root.crt
+[2011-01-17 18:44] added certificate mozilla/IPS_Servidores_root.crt
+[2011-01-17 18:44] added certificate mozilla/IPS_Timestamping_root.crt
+[2011-01-17 18:44] added certificate mozilla/NetLock_Business_=Class_B=_Root.crt
+[2011-01-17 18:44] added certificate mozilla/NetLock_Express_=Class_C=_Root.crt
+[2011-01-17 18:44] added certificate mozilla/NetLock_Notary_=Class_A=_Root.crt
+[2011-01-17 18:44] added certificate mozilla/NetLock_Qualified_=Class_QA=_Root.crt
+[2011-01-17 18:44] added certificate mozilla/Network_Solutions_Certificate_Authority.crt
+[2011-01-17 18:44] added certificate mozilla/QuoVadis_Root_CA.crt
+[2011-01-17 18:44] added certificate mozilla/QuoVadis_Root_CA_2.crt
+[2011-01-17 18:44] added certificate mozilla/QuoVadis_Root_CA_3.crt
+[2011-01-17 18:44] added certificate mozilla/RSA_Root_Certificate_1.crt
+[2011-01-17 18:44] added certificate mozilla/RSA_Security_1024_v3.crt
+[2011-01-17 18:44] added certificate mozilla/RSA_Security_2048_v3.crt
+[2011-01-17 18:44] added certificate mozilla/SecureTrust_CA.crt
+[2011-01-17 18:44] added certificate mozilla/Secure_Global_CA.crt
+[2011-01-17 18:44] added certificate mozilla/Security_Communication_Root_CA.crt
+[2011-01-17 18:44] added certificate mozilla/Sonera_Class_1_Root_CA.crt
+[2011-01-17 18:44] added certificate mozilla/Sonera_Class_2_Root_CA.crt
+[2011-01-17 18:44] added certificate mozilla/Staat_der_Nederlanden_Root_CA.crt
+[2011-01-17 18:44] added certificate mozilla/Starfield_Class_2_CA.crt
+[2011-01-17 18:44] added certificate mozilla/StartCom_Certification_Authority.crt
+[2011-01-17 18:44] added certificate mozilla/StartCom_Ltd..crt
+[2011-01-17 18:44] added certificate mozilla/SwissSign_Gold_CA_-_G2.crt
+[2011-01-17 18:44] added certificate mozilla/SwissSign_Platinum_CA_-_G2.crt
+[2011-01-17 18:44] added certificate mozilla/SwissSign_Silver_CA_-_G2.crt
+[2011-01-17 18:44] added certificate mozilla/Swisscom_Root_CA_1.crt
+[2011-01-17 18:44] added certificate mozilla/TC_TrustCenter__Germany__Class_2_CA.crt
+[2011-01-17 18:44] added certificate mozilla/TC_TrustCenter__Germany__Class_3_CA.crt
+[2011-01-17 18:44] added certificate mozilla/TDC_Internet_Root_CA.crt
+[2011-01-17 18:44] added certificate mozilla/TDC_OCES_Root_CA.crt
+[2011-01-17 18:44] added certificate mozilla/TURKTRUST_Certificate_Services_Provider_Root_1.crt
+[2011-01-17 18:44] added certificate mozilla/TURKTRUST_Certificate_Services_Provider_Root_2.crt
+[2011-01-17 18:44] added certificate mozilla/Taiwan_GRCA.crt
+[2011-01-17 18:44] added certificate mozilla/Thawte_Personal_Basic_CA.crt
+[2011-01-17 18:44] added certificate mozilla/Thawte_Personal_Freemail_CA.crt
+[2011-01-17 18:44] added certificate mozilla/Thawte_Personal_Premium_CA.crt
+[2011-01-17 18:44] added certificate mozilla/Thawte_Premium_Server_CA.crt
+[2011-01-17 18:44] added certificate mozilla/Thawte_Server_CA.crt
+[2011-01-17 18:44] added certificate mozilla/Thawte_Time_Stamping_CA.crt
+[2011-01-17 18:44] added certificate mozilla/UTN-USER_First-Network_Applications.crt
+[2011-01-17 18:44] added certificate mozilla/UTN_DATACorp_SGC_Root_CA.crt
+[2011-01-17 18:44] added certificate mozilla/UTN_USERFirst_Email_Root_CA.crt
+[2011-01-17 18:44] added certificate mozilla/UTN_USERFirst_Hardware_Root_CA.crt
+[2011-01-17 18:44] added certificate mozilla/ValiCert_Class_1_VA.crt
+[2011-01-17 18:44] added certificate mozilla/ValiCert_Class_2_VA.crt
+[2011-01-17 18:44] added certificate mozilla/VeriSign_Class_3_Public_Primary_Certification_Authority_-_G5.crt
+[2011-01-17 18:44] added certificate mozilla/Verisign_Class_1_Public_Primary_Certification_Authority.crt
+[2011-01-17 18:44] added certificate mozilla/Verisign_Class_1_Public_Primary_Certification_Authority_-_G2.crt
+[2011-01-17 18:44] added certificate mozilla/Verisign_Class_1_Public_Primary_Certification_Authority_-_G3.crt
+[2011-01-17 18:44] added certificate mozilla/Verisign_Class_2_Public_Primary_Certification_Authority.crt
+[2011-01-17 18:45] added certificate mozilla/Verisign_Class_2_Public_Primary_Certification_Authority_-_G2.crt
+[2011-01-17 18:45] added certificate mozilla/Verisign_Class_2_Public_Primary_Certification_Authority_-_G3.crt
+[2011-01-17 18:45] added certificate mozilla/Verisign_Class_3_Public_Primary_Certification_Authority.crt
+[2011-01-17 18:45] added certificate mozilla/Verisign_Class_3_Public_Primary_Certification_Authority_-_G2.crt
+[2011-01-17 18:45] added certificate mozilla/Verisign_Class_3_Public_Primary_Certification_Authority_-_G3.crt
+[2011-01-17 18:45] added certificate mozilla/Verisign_Class_4_Public_Primary_Certification_Authority_-_G2.crt
+[2011-01-17 18:45] added certificate mozilla/Verisign_Class_4_Public_Primary_Certification_Authority_-_G3.crt
+[2011-01-17 18:45] added certificate mozilla/Verisign_RSA_Secure_Server_CA.crt
+[2011-01-17 18:45] added certificate mozilla/Verisign_Time_Stamping_Authority_CA.crt
+[2011-01-17 18:45] added certificate mozilla/Visa_International_Global_Root_2.crt
+[2011-01-17 18:45] added certificate mozilla/Visa_eCommerce_Root.crt
+[2011-01-17 18:45] added certificate mozilla/WellsSecure_Public_Root_Certificate_Authority.crt
+[2011-01-17 18:45] added certificate mozilla/Wells_Fargo_Root_CA.crt
+[2011-01-17 18:45] added certificate mozilla/XRamp_Global_CA_Root.crt
+[2011-01-17 18:45] added certificate mozilla/beTRUSTed_Root_CA-Baltimore_Implementation.crt
+[2011-01-17 18:45] added certificate mozilla/beTRUSTed_Root_CA.crt
+[2011-01-17 18:45] added certificate mozilla/beTRUSTed_Root_CA_-_Entrust_Implementation.crt
+[2011-01-17 18:45] added certificate mozilla/beTRUSTed_Root_CA_-_RSA_Implementation.crt
+[2011-01-17 18:45] added certificate mozilla/thawte_Primary_Root_CA.crt
+[2011-01-17 18:45] added certificate signet.pl/signet_ca1_pem.crt
+[2011-01-17 18:45] added certificate signet.pl/signet_ca2_pem.crt
+[2011-01-17 18:45] added certificate signet.pl/signet_ca3_pem.crt
+[2011-01-17 18:45] added certificate signet.pl/signet_ocspklasa2_pem.crt
+[2011-01-17 18:45] added certificate signet.pl/signet_ocspklasa3_pem.crt
+[2011-01-17 18:45] added certificate signet.pl/signet_pca2_pem.crt
+[2011-01-17 18:45] added certificate signet.pl/signet_pca3_pem.crt
+[2011-01-17 18:45] added certificate signet.pl/signet_rootca_pem.crt
+[2011-01-17 18:45] added certificate signet.pl/signet_tsa1_pem.crt
+[2011-01-17 18:45] added certificate spi-inc.org/spi-ca-2003.crt
+[2011-01-17 18:45] added certificate spi-inc.org/spi-cacert-2008.crt
+[2011-01-17 18:45] added certificate telesec.de/deutsche-telekom-root-ca-2.crt
+[2011-01-17 18:45] done.
+[2011-01-17 18:45] when you use a non-reparenting window manager
+[2011-01-17 18:45] set _JAVA_AWT_WM_NONREPARENTING=1 in
+[2011-01-17 18:45] /etc/profile.d/openjdk6.sh
+[2011-01-17 18:45] installed openjdk6 (6.b20_1.9.3-1)
+[2011-01-17 18:45] installed eclipse (3.6.1-1)
+[2011-01-17 18:49] Running 'pacman -S aspell aspell-en'
+[2011-01-17 18:49] upgraded aspell (0.60.6-4 -> 0.60.6-4)
+[2011-01-17 18:49] installed aspell-en (6.0-3)

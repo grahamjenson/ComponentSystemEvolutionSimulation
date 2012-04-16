@@ -1,0 +1,52 @@
+Start-Date: 2010-12-21 11:31:00
+Install: libpcap-ruby1.8 (0.6-9.1), nbtscan (1.5.1-5), apache2-utils (2.2.14-5ubuntu8.4), nmap (5.00-3), bison (2.4.1.dfsg-3), libaprutil1-dbd-sqlite3 (1.3.9+dfsg-3ubuntu0.10.04.1), libpcre3-dev (7.8-3build1), php5 (5.3.2-1ubuntu4.5), apache2.2-bin (2.2.14-5ubuntu8.4), libaprutil1-ldap (1.3.9+dfsg-3ubuntu0.10.04.1), apache2-mpm-prefork (2.2.14-5ubuntu8.4), php5-gd (5.3.2-1ubuntu4.5), libpcap-ruby (0.6-9.1), libpcrecpp0 (7.8-3build1), apache2 (2.2.14-5ubuntu8.4), apache2.2-common (2.2.14-5ubuntu8.4), libt1-5 (5.1.2-3build1), flex (2.5.35-9), php5-mysql (5.3.2-1ubuntu4.5), libruby1.8 (1.8.7.249-2), libapache2-mod-php5 (5.3.2-1ubuntu4.5), php5-common (5.3.2-1ubuntu4.5)
+End-Date: 2010-12-21 11:31:26
+
+Start-Date: 2010-12-21 11:32:28
+Install: libnet-daemon-perl (0.43-1), libhtml-template-perl (2.9-1), libdbi-perl (1.609-1build1), mysql-client-core-5.1 (5.1.41-3ubuntu12.8), libdbd-mysql-perl (4.012-1ubuntu1), mysql-server-5.1 (5.1.41-3ubuntu12.8), mysql-client-5.1 (5.1.41-3ubuntu12.8), libmysqlclient-dev (5.1.41-3ubuntu12.8), libplrpc-perl (0.2020-2), mysql-server-core-5.1 (5.1.41-3ubuntu12.8), mysql-server (5.1.41-3ubuntu12.8), libmysqlclient16-dev (5.1.41-3ubuntu12.8)
+Upgrade: mysql-common (5.1.41-3ubuntu12.6, 5.1.41-3ubuntu12.8), libmysqlclient16 (5.1.41-3ubuntu12.6, 5.1.41-3ubuntu12.8)
+End-Date: 2010-12-21 11:33:03
+
+Start-Date: 2010-12-21 11:37:34
+Upgrade: libkrb5-3 (1.8.1+dfsg-2ubuntu0.3, 1.8.1+dfsg-2ubuntu0.4), libpurple0 (2.6.6-1ubuntu4, 2.6.6-1ubuntu4.2), plymouth-theme-ubuntu-text (0.8.2-2ubuntu2, 0.8.2-2ubuntu2.1), python-desktopcouch-records (0.6.4-0ubuntu3, 0.6.4-0ubuntu3.1), libc-bin (2.11.1-0ubuntu7.2, 2.11.1-0ubuntu7.6), gwibber-service (2.30.2-0ubuntu3, 2.30.3-0ubuntu1), libkrb5support0 (1.8.1+dfsg-2ubuntu0.3, 1.8.1+dfsg-2ubuntu0.4), firefox-3.5-branding (3.6.10+build1+nobinonly-0ubuntu0.10.04.1, 3.6.13+build3+nobinonly-0ubuntu0.10.04.1), update-manager (0.134.10, 0.134.11), bind9-host (9.7.0.dfsg.P1-1, 9.7.0.dfsg.P1-1ubuntu0.1), desktopcouch (0.6.4-0ubuntu3, 0.6.4-0ubuntu3.1), erlang-inets (13.b.3-dfsg-2ubuntu2, 13.b.3-dfsg-2ubuntu2.1), xulrunner-1.9.2 (1.9.2.10+build1+nobinonly-0ubuntu0.10.04.1, 1.9.2.13+build3+nobinonly-0ubuntu0.10.04.1), libapparmor1 (2.5-0ubuntu3, 2.5.1-0ubuntu0.10.04.1), libcupscgi1 (1.4.3-1ubuntu1.2, 1.4.3-1ubuntu1.3), linux-headers-2.6.32-25 (2.6.32-25.44, 2.6.32-25.45), mobile-broadband-provider-info (20100407-1, 20100716-1ubuntu0.1), libcomerr2 (1.41.11-1ubuntu2, 1.41.11-1ubuntu2.1), libplymouth2 (0.8.2-2ubuntu2, 0.8.2-2ubuntu2.1), gnome-settings-daemon (2.30.1-0ubuntu1, 2.30.1-0ubuntu1.1), ttf-thai-tlwg (0.4.13-4, 0.4.13-4ubuntu0.1), plymouth-x11 (0.8.2-2ubuntu2, 0.8.2-2ubuntu2.1), erlang-syntax-tools (13.b.3-dfsg-2ubuntu2, 13.b.3-dfsg-2ubuntu2.1), clamav (0.96.1+dfsg-0ubuntu0.10.04.2, 0.96.3+dfsg-2ubuntu1.0.10.04.2), dnsutils (9.7.0.dfsg.P1-1, 9.7.0.dfsg.P1-1ubuntu0.1), update-manager-core (0.134.10, 0.134.11), libapparmor-perl (2.5-0ubuntu3, 2.5.1-0ubuntu0.10.04.1), clamav-freshclam (0.96.1+dfsg-0ubuntu0.10.04.2, 0.96.3+dfsg-2ubuntu1.0.10.04.2), python-libxml2 (2.7.6.dfsg-1ubuntu1, 2.7.6.dfsg-1ubuntu1.1), plymouth-label (0.8.2-2ubuntu2, 0.8.2-2ubuntu2.1), erlang-mnesia (13.b.3-dfsg-2ubuntu2, 13.b.3-dfsg-2ubuntu2.1), gir1.0-pango-1.0 (1.28.0-0ubuntu2, 1.28.0-0ubuntu2.1), cups-client (1.4.3-1ubuntu1.2, 1.4.3-1ubuntu1.3), libcupsmime1 (1.4.3-1ubuntu1.2, 1.4.3-1ubuntu1.3), libc-dev-bin (2.11.1-0ubuntu7.2, 2.11.1-0ubuntu7.6), libwebkit-1.0-2 (1.2.0-1, 1.2.5-0ubuntu0.10.04.1), xserver-common (1.7.6-2ubuntu7.3, 1.7.6-2ubuntu7.4), libdns64 (9.7.0.dfsg.P1-1, 9.7.0.dfsg.P1-1ubuntu0.1), empathy (2.30.2-0ubuntu1, 2.30.3-0ubuntu1), libmagickcore2-extra (6.5.7.8-1ubuntu1, 6.5.7.8-1ubuntu1.1), libnspr4-0d (4.8.4-0ubuntu1, 4.8.6-0ubuntu0.10.04.2), clamav-base (0.96.1+dfsg-0ubuntu0.10.04.2, 0.96.3+dfsg-2ubuntu1.0.10.04.2), linux-libc-dev (2.6.32-25.44, 2.6.32-27.49), libclamav6 (0.96.1+dfsg-0ubuntu0.10.04.2, 0.96.3+dfsg-2ubuntu1.0.10.04.2), libpango1.0-common (1.28.0-0ubuntu2, 1.28.0-0ubuntu2.1), xserver-xorg-core (1.7.6-2ubuntu7.3, 1.7.6-2ubuntu7.4), e2fsprogs (1.41.11-1ubuntu2, 1.41.11-1ubuntu2.1), grub-pc (1.98-1ubuntu7, 1.98-1ubuntu9), libisccc60 (9.7.0.dfsg.P1-1, 9.7.0.dfsg.P1-1ubuntu0.1), nautilus-sendto-empathy (2.30.2-0ubuntu1, 2.30.3-0ubuntu1), linux-image-2.6.32-25-generic (2.6.32-25.44, 2.6.32-25.45), libk5crypto3 (1.8.1+dfsg-2ubuntu0.3, 1.8.1+dfsg-2ubuntu0.4), dnsmasq-base (2.52-1, 2.52-1ubuntu0.1), libc6-i686 (2.11.1-0ubuntu7.2, 2.11.1-0ubuntu7.6), libcupsppdc1 (1.4.3-1ubuntu1.2, 1.4.3-1ubuntu1.3), udev (151-12.1, 151-12.2), firefox (3.6.10+build1+nobinonly-0ubuntu0.10.04.1, 3.6.13+build3+nobinonly-0ubuntu0.10.04.1), cups-common (1.4.3-1ubuntu1.2, 1.4.3-1ubuntu1.3), liblwres60 (9.7.0.dfsg.P1-1, 9.7.0.dfsg.P1-1ubuntu0.1), libpango1.0-0 (1.28.0-0ubuntu2, 1.28.0-0ubuntu2.1), erlang-xmerl (13.b.3-dfsg-2ubuntu2, 13.b.3-dfsg-2ubuntu2.1), libcups2 (1.4.3-1ubuntu1.2, 1.4.3-1ubuntu1.3), app-install-data-partner (12.10.04.3, 12.10.04.4), libpoppler5 (0.12.4-0ubuntu5, 0.12.4-0ubuntu5.1), update-inetd (4.35, 4.35ubuntu0.1), dpkg (1.15.5.6ubuntu4.3, 1.15.5.6ubuntu4.4), libxml2 (2.7.6.dfsg-1ubuntu1, 2.7.6.dfsg-1ubuntu1.1), libbind9-60 (9.7.0.dfsg.P1-1, 9.7.0.dfsg.P1-1ubuntu0.1), firefox-gnome-support (3.6.10+build1+nobinonly-0ubuntu0.10.04.1, 3.6.13+build3+nobinonly-0ubuntu0.10.04.1), cups (1.4.3-1ubuntu1.2, 1.4.3-1ubuntu1.3), firefox-3.5-gnome-support (3.6.10+build1+nobinonly-0ubuntu0.10.04.1, 3.6.13+build3+nobinonly-0ubuntu0.10.04.1), libgudev-1.0-0 (151-12.1, 151-12.2), plymouth-theme-ubuntu-logo (0.8.2-2ubuntu2, 0.8.2-2ubuntu2.1), libxml2-dev (2.7.6.dfsg-1ubuntu1, 2.7.6.dfsg-1ubuntu1.1), libcupsdriver1 (1.4.3-1ubuntu1.2, 1.4.3-1ubuntu1.3), libmagickcore2 (6.5.7.8-1ubuntu1, 6.5.7.8-1ubuntu1.1), dpkg-dev (1.15.5.6ubuntu4.3, 1.15.5.6ubuntu4.4), e2fslibs (1.41.11-1ubuntu2, 1.41.11-1ubuntu2.1), firefox-3.5 (3.6.10+build1+nobinonly-0ubuntu0.10.04.1, 3.6.13+build3+nobinonly-0ubuntu0.10.04.1), cups-bsd (1.4.3-1ubuntu1.2, 1.4.3-1ubuntu1.3), erlang-crypto (13.b.3-dfsg-2ubuntu2, 13.b.3-dfsg-2ubuntu2.1), libudev0 (151-12.1, 151-12.2), libmagickwand2 (6.5.7.8-1ubuntu1, 6.5.7.8-1ubuntu1.1), libfreetype6 (2.3.11-1ubuntu2.2, 2.3.11-1ubuntu2.4), libisccfg60 (9.7.0.dfsg.P1-1, 9.7.0.dfsg.P1-1ubuntu0.1), libc6-dev (2.11.1-0ubuntu7.2, 2.11.1-0ubuntu7.6), libpurple-bin (2.6.6-1ubuntu4, 2.6.6-1ubuntu4.2), apparmor (2.5-0ubuntu3, 2.5.1-0ubuntu0.10.04.1), tzdata (2010m-0ubuntu0.10.04, 2010o-0ubuntu0.10.04), libcupsimage2 (1.4.3-1ubuntu1.2, 1.4.3-1ubuntu1.3), poppler-utils (0.12.4-0ubuntu5, 0.12.4-0ubuntu5.1), libssl0.9.8 (0.9.8k-7ubuntu8.3, 0.9.8k-7ubuntu8.5), indicator-sound (0.2.3-0ubuntu1, 0.2.6-0ubuntu1), man-db (2.5.7-2, 2.5.7-2ubuntu1), imagemagick (6.5.7.8-1ubuntu1, 6.5.7.8-1ubuntu1.1), openssl (0.9.8k-7ubuntu8.3, 0.9.8k-7ubuntu8.5), erlang-ssl (13.b.3-dfsg-2ubuntu2, 13.b.3-dfsg-2ubuntu2.1), rsyslog (4.2.0-2ubuntu8, 4.2.0-2ubuntu8.1), firefox-branding (3.6.10+build1+nobinonly-0ubuntu0.10.04.1, 3.6.13+build3+nobinonly-0ubuntu0.10.04.1), libss2 (1.41.11-1ubuntu2, 1.41.11-1ubuntu2.1), libxml2-utils (2.7.6.dfsg-1ubuntu1, 2.7.6.dfsg-1ubuntu1.1), apparmor-utils (2.5-0ubuntu3, 2.5.1-0ubuntu0.10.04.1), libgssapi-krb5-2 (1.8.1+dfsg-2ubuntu0.3, 1.8.1+dfsg-2ubuntu0.4), grub-common (1.98-1ubuntu7, 1.98-1ubuntu9), python-desktopcouch (0.6.4-0ubuntu3, 0.6.4-0ubuntu3.1), gwibber (2.30.2-0ubuntu3, 2.30.3-0ubuntu1), python-papyon (0.4.8-0ubuntu1, 0.4.8-0ubuntu2), libisc60 (9.7.0.dfsg.P1-1, 9.7.0.dfsg.P1-1ubuntu0.1), erlang-runtime-tools (13.b.3-dfsg-2ubuntu2, 13.b.3-dfsg-2ubuntu2.1), mountall (2.15.2, 2.15.3), libc6 (2.11.1-0ubuntu7.2, 2.11.1-0ubuntu7.6), libwebkit-1.0-common (1.2.0-1, 1.2.5-0ubuntu0.10.04.1), libnss3-1d (3.12.6-0ubuntu3, 3.12.8-0ubuntu0.10.04.1), linux-headers-2.6.32-25-generic (2.6.32-25.44, 2.6.32-25.45), plymouth (0.8.2-2ubuntu2, 0.8.2-2ubuntu2.1), empathy-common (2.30.2-0ubuntu1, 2.30.3-0ubuntu1), libpoppler-glib4 (0.12.4-0ubuntu5, 0.12.4-0ubuntu5.1), erlang-base (13.b.3-dfsg-2ubuntu2, 13.b.3-dfsg-2ubuntu2.1), erlang-public-key (13.b.3-dfsg-2ubuntu2, 13.b.3-dfsg-2ubuntu2.1)
+End-Date: 2010-12-21 11:44:25
+
+Start-Date: 2010-12-21 16:46:31
+Install: php-pear (5.3.2-1ubuntu4.5), php5-cli (5.3.2-1ubuntu4.5)
+End-Date: 2010-12-21 16:46:37
+
+Start-Date: 2010-12-21 17:49:59
+Install: python-mysqldb (1.2.2-10build1)
+End-Date: 2010-12-21 17:50:02
+
+Start-Date: 2010-11-25 14:53:30
+Install: fakeroot (1.14.4-1ubuntu1), g++-4.4 (4.4.3-4ubuntu5), libstdc++6-4.4-dev (4.4.3-4ubuntu5), g++ (4.4.3-1ubuntu1), dpkg-dev (1.15.5.6ubuntu4.3), xz-utils (4.999.9beta+20091116-1), patch (2.6-2ubuntu1), build-essential (11.4build1)
+End-Date: 2010-11-25 14:53:46
+
+Start-Date: 2010-11-25 14:54:59
+Install: python-dev (2.6.5-0ubuntu1), python2.6-dev (2.6.5-1ubuntu6)
+End-Date: 2010-11-25 14:55:03
+
+Start-Date: 2010-11-30 11:06:41
+Install: libapr1 (1.3.8-1build1), subversion (1.6.6dfsg-2ubuntu1), libsvn1 (1.6.6dfsg-2ubuntu1), libaprutil1 (1.3.9+dfsg-3ubuntu0.10.04.1)
+End-Date: 2010-11-30 11:06:49
+
+Start-Date: 2010-11-30 11:09:56
+Install: m4 (1.4.13-3), autoconf (2.65-3ubuntu1), autotools-dev (20090611.1), automake (1.11.1-1)
+End-Date: 2010-11-30 11:10:04
+
+Start-Date: 2010-11-30 11:14:25
+Install: libpcap0.8-dev (1.0.0-6), libpcap-dev (1.0.0-6)
+End-Date: 2010-11-30 11:14:30
+
+Start-Date: 2010-11-30 11:15:41
+Install: libnet1-dev (1.1.4-2), libnet1 (1.1.4-2)
+End-Date: 2010-11-30 11:15:44
+
+Start-Date: 2010-11-30 11:16:21
+Install: libnids-dev (1.23-1.1), libnids1.21 (1.23-1.1)
+End-Date: 2010-11-30 11:16:24
+
+Start-Date: 2010-10-22 10:40:44
+Install: snort-rules-default (2.8.5.2-2build1), snort (2.8.5.2-2build1), snort-common (2.8.5.2-2build1), oinkmaster (2.0-2ubuntu1), libprelude2 (1.0.0~rc1-1), snort-common-libraries (2.8.5.2-2build1)
+End-Date: 2010-10-22 10:41:07

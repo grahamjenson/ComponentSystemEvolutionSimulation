@@ -1,0 +1,43 @@
+#!/usr/bin/python -i
+from creategraphs import parseActionMap
+
+import pylab
+import sys
+import numpy
+import scipy
+from matplotlib import dates
+from scipy import fftpack
+from pylab import array
+import os
+
+files = os.listdir(".")
+files = [f for f in files if f.endswith(".actionmap")]
+
+rates = []
+tdays = []
+
+y = []
+for f in files :
+	if f == "test.log.actionmap" : continue
+	days, ninst , cinst, nrem, crem, nup,cup = parseActionMap(open(f,'r'))
+	vals = ninst
+	
+	mean = numpy.mean(vals)	
+	std = numpy.std(vals)
+
+	outs = [v for v in vals if v >= mean+std*2]
+	vals = [v*(v < (mean+std*2)) for v in vals]
+	
+	rate = numpy.mean(vals)
+	rates.append(rate)
+	tdays.append(len(days))
+	
+
+	outsRate = (len(outs)*1.0)/len(vals)
+	y.append(outsRate)
+	print f + " Outs Rate " + str(outsRate)
+
+print numpy.mean(y)
+print numpy.std(y)
+pylab.sctter(tdays,y)
+pylab.savefig("fig.png",type="png")

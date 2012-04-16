@@ -1,0 +1,336 @@
+
+Start-Date: 2011-01-02  12:51:01
+Commandline: /usr/sbin/synaptic --hide-main-window --non-interactive --parent-window-id 83886117L --progress-str Please wait, this can take some time --finish-str Application removed successfully --set-selections-file /tmp/tmpMxRmhM
+Remove: granola-gui:amd64 (3.0.4-0maverick1)
+End-Date: 2011-01-02  12:51:09
+
+Start-Date: 2011-01-02  12:51:30
+Commandline: /usr/sbin/synaptic --hide-main-window --non-interactive --parent-window-id 83886117L --progress-str Please wait, this can take some time --finish-str Application removed successfully --set-selections-file /tmp/tmpE12xGy
+Remove: gnome-activity-journal:amd64 (0.5.0.1-1ubuntu1~ppa1~maverick1)
+End-Date: 2011-01-02  12:51:45
+
+Start-Date: 2011-01-02  12:53:03
+Commandline: /usr/sbin/synaptic --hide-main-window --non-interactive --parent-window-id 83886117L --progress-str Please wait, this can take some time --finish-str Application removed successfully --set-selections-file /tmp/tmpHbLmbY
+Remove: playonlinux:amd64 (3.7.6-1)
+End-Date: 2011-01-02  12:53:11
+
+Start-Date: 2011-01-02  12:53:44
+Commandline: /usr/sbin/synaptic --hide-main-window --non-interactive --parent-window-id 83886117L --progress-str Please wait, this can take some time --finish-str Application removed successfully --set-selections-file /tmp/tmp1uQYjw
+Remove: gwibber-themes:amd64 (2.32.2-0ubuntu2), gwibber:amd64 (2.32.2-0ubuntu2)
+End-Date: 2011-01-02  12:53:50
+
+Start-Date: 2011-01-02  12:54:38
+Commandline: /usr/sbin/synaptic --hide-main-window --non-interactive --parent-window-id 83886117L --progress-str Please wait, this can take some time --finish-str Application removed successfully --set-selections-file /tmp/tmpouHGTX
+Remove: xchat:amd64 (2.8.8-1ubuntu1), xchat-indicator:amd64 (0.3.3-0ubuntu1)
+End-Date: 2011-01-02  12:54:44
+
+Start-Date: 2011-01-02  13:31:09
+Remove: kismet:amd64 (2008-05-R1-4.1build1), wireshark-common:amd64 (1.2.11-4build0.10.10.1), libcap2-bin:amd64 (2.19-2), libsmi2ldbl:amd64 (0.4.8+dfsg2-2), wireshark:amd64 (1.2.11-4build0.10.10.1), libc-ares2:amd64 (1.7.3-1)
+End-Date: 2011-01-02  13:31:23
+
+Start-Date: 2011-01-04  23:11:01
+Remove: unetbootin:amd64 (494-1~getdeb1), p7zip-rar:amd64 (9.04~ds.1-1), p7zip-full:amd64 (9.04~dfsg.1-1)
+End-Date: 2011-01-04  23:11:17
+
+Start-Date: 2011-01-04  23:11:53
+Install: p7zip-full:amd64 (9.04~dfsg.1-1)
+End-Date: 2011-01-04  23:12:00
+
+Start-Date: 2011-01-04  23:12:08
+Install: p7zip-rar:amd64 (9.04~ds.1-1)
+End-Date: 2011-01-04  23:12:11
+
+Start-Date: 2011-01-05  11:30:02
+Upgrade: libevdocument3:amd64 (2.32.0-0ubuntu1, 2.32.0-0ubuntu1.1), libevview3:amd64 (2.32.0-0ubuntu1, 2.32.0-0ubuntu1.1), evince-common:amd64 (2.32.0-0ubuntu1, 2.32.0-0ubuntu1.1), evince:amd64 (2.32.0-0ubuntu1, 2.32.0-0ubuntu1.1)
+End-Date: 2011-01-05  11:30:38
+
+Start-Date: 2011-01-05  11:33:56
+Commandline: /usr/sbin/synaptic --hide-main-window --non-interactive --progress-str Please wait, this can take some time --finish-str Update is complete --set-selections-file /tmp/tmpYAIpIw
+Upgrade: linux:amd64 (2.6.35.24.29, 2.6.35.24.30), rapid-photo-downloader:amd64 (0.3.3-0ubuntu1~ppa1, 0.3.4-0ubuntu1~ppa1), linux-generic:amd64 (2.6.35.24.29, 2.6.35.24.30), linux-image:amd64 (2.6.35.24.29, 2.6.35.24.30), linux-image-generic:amd64 (2.6.35.24.29, 2.6.35.24.30), virtualbox-4.0:amd64 (4.0.0~beta2-68743~Ubuntu~maverick, 4.0.0-69151~Ubuntu~maverick), docky-dbg:amd64 (2.1.0~bzr1738-0ubuntu1~10.10~dockycore1, 2.1.0~bzr1749-0ubuntu1~10.10~dockycore1), docky:amd64 (2.1.0~bzr1738-0ubuntu1~10.10~dockycore1, 2.1.0~bzr1749-0ubuntu1~10.10~dockycore1)
+End-Date: 2011-01-05  11:35:04
+
+Start-Date: 2011-01-05  21:10:14
+Commandline: /usr/sbin/synaptic
+Remove: p7zip:amd64 (9.04~dfsg.1-1), p7zip-rar:amd64 (9.04~ds.1-1), p7zip-full:amd64 (9.04~dfsg.1-1)
+End-Date: 2011-01-05  21:10:24
+
+Start-Date: 2011-01-06  00:13:29
+Commandline: /usr/sbin/synaptic
+Install: batmand-gateway-dkms:amd64 (0.3.2-5, automatic), batmand:amd64 (0.3.2-5), netapplet:amd64 (1.0.8-3ubuntu2)
+End-Date: 2011-01-06  00:14:20
+
+Start-Date: 2011-01-07  20:11:11
+Commandline: /usr/sbin/synaptic
+Install: tk-tile:amd64 (0.8.2-2.1, automatic), blt:amd64 (2.4z-4.2), python-tk:amd64 (2.6.6-0ubuntu1, automatic), worldofgoodemo:amd64 (1.41), tk8.5:amd64 (8.5.8-1, automatic), pysolfc:amd64 (2.0-0ubuntu1)
+End-Date: 2011-01-07  20:11:52
+
+Start-Date: 2011-01-09  10:26:52
+Upgrade: libdpkg-perl:amd64 (1.15.8.4ubuntu3, 1.15.8.4ubuntu3.1), libcupsppdc1:amd64 (1.4.4-6ubuntu2.2, 1.4.4-6ubuntu2.3), libcupsimage2:amd64 (1.4.4-6ubuntu2.2, 1.4.4-6ubuntu2.3), libcupscgi1:amd64 (1.4.4-6ubuntu2.2, 1.4.4-6ubuntu2.3), libcupsdriver1:amd64 (1.4.4-6ubuntu2.2, 1.4.4-6ubuntu2.3), libapparmor-perl:amd64 (2.5.1-0ubuntu0.10.10.2, 2.5.1-0ubuntu0.10.10.3), cups-client:amd64 (1.4.4-6ubuntu2.2, 1.4.4-6ubuntu2.3), cups-ppdc:amd64 (1.4.4-6ubuntu2.2, 1.4.4-6ubuntu2.3), apparmor-utils:amd64 (2.5.1-0ubuntu0.10.10.2, 2.5.1-0ubuntu0.10.10.3), cups-common:amd64 (1.4.4-6ubuntu2.2, 1.4.4-6ubuntu2.3), libcups2:amd64 (1.4.4-6ubuntu2.2, 1.4.4-6ubuntu2.3), ifupdown:amd64 (0.6.10ubuntu3, 0.6.10ubuntu3.1), dpkg:amd64 (1.15.8.4ubuntu3, 1.15.8.4ubuntu3.1), cups:amd64 (1.4.4-6ubuntu2.2, 1.4.4-6ubuntu2.3), dpkg-dev:amd64 (1.15.8.4ubuntu3, 1.15.8.4ubuntu3.1), cups-bsd:amd64 (1.4.4-6ubuntu2.2, 1.4.4-6ubuntu2.3), libapparmor1:amd64 (2.5.1-0ubuntu0.10.10.2, 2.5.1-0ubuntu0.10.10.3), apparmor:amd64 (2.5.1-0ubuntu0.10.10.2, 2.5.1-0ubuntu0.10.10.3), libcupsmime1:amd64 (1.4.4-6ubuntu2.2, 1.4.4-6ubuntu2.3), dselect:amd64 (1.15.8.4ubuntu3, 1.15.8.4ubuntu3.1)
+End-Date: 2011-01-09  10:29:25
+
+Start-Date: 2011-01-09  18:23:20
+Commandline: /usr/sbin/synaptic --hide-main-window --non-interactive --progress-str Please wait, this can take some time --finish-str Update is complete --set-selections-file /tmp/tmpLiVC6I
+Install: python-pypdf:amd64 (1.12-3, automatic)
+Upgrade: libsmbclient:amd64 (3.5.4~dfsg-1ubuntu8.1, 3.5.4~dfsg-1ubuntu8.2), libbrasero-media1:amd64 (2.32.0-0ubuntu2, 2.32.0-0ubuntu2.1), smbclient:amd64 (3.5.4~dfsg-1ubuntu8.1, 3.5.4~dfsg-1ubuntu8.2), ia32-libs:amd64 (20090808ubuntu10~wineppa1, 20090808ubuntu10~wineppa2), wine1.3:amd64 (1.3.10-0ubuntu1~maverickppa1, 1.3.11-0ubuntu1), xserver-common:amd64 (1.9.0-0ubuntu7.1, 1.9.0-0ubuntu7.3), libwbclient0:amd64 (3.5.4~dfsg-1ubuntu8.1, 3.5.4~dfsg-1ubuntu8.2), libx264-98:amd64 (0.98.1653+git88b90d9-3ubuntu1, 0.98.1653+git88b90d9-3ubuntu2), samba-common:amd64 (3.5.4~dfsg-1ubuntu8.1, 3.5.4~dfsg-1ubuntu8.2), nautilus-columns:amd64 (0.2-2~webupd8~maverick, 0.3-1~webupd8~maverick), openssh-client:amd64 (5.5p1-4ubuntu4, 5.5p1-4ubuntu5), samba:amd64 (3.5.4~dfsg-1ubuntu8.1, 3.5.4~dfsg-1ubuntu8.2), tar:amd64 (1.23-2, 1.23-2ubuntu1), brasero-cdrkit:amd64 (2.32.0-0ubuntu2, 2.32.0-0ubuntu2.1), brasero-common:amd64 (2.32.0-0ubuntu2, 2.32.0-0ubuntu2.1), media-player-info:amd64 (10-1, 12-1~maverick1), ubuntu-tweak:amd64 (0.5.9-1~maverick1, 0.5.10-1~maverick1), docky-dbg:amd64 (2.1.0~bzr1749-0ubuntu1~10.10~dockycore1, 2.1.0~bzr1759-0ubuntu1~10.10~dockycore1), brasero:amd64 (2.32.0-0ubuntu2, 2.32.0-0ubuntu2.1), samba-common-bin:amd64 (3.5.4~dfsg-1ubuntu8.1, 3.5.4~dfsg-1ubuntu8.2), winbind:amd64 (3.5.4~dfsg-1ubuntu8.1, 3.5.4~dfsg-1ubuntu8.2), docky:amd64 (2.1.0~bzr1749-0ubuntu1~10.10~dockycore1, 2.1.0~bzr1759-0ubuntu1~10.10~dockycore1), cover-thumbnailer:amd64 (0.8.1~ppa0, 0.8.2~ppa0), ttf-symbol-replacement-wine1.3:amd64 (1.3.10-0ubuntu1~maverickppa1, 1.3.11-0ubuntu1)
+End-Date: 2011-01-09  18:27:46
+
+Start-Date: 2011-01-12  12:30:21
+Upgrade: libc-bin:amd64 (2.12.1-0ubuntu10, 2.12.1-0ubuntu10.1), liblcms1:amd64 (1.18.dfsg-1ubuntu2, 1.18.dfsg-1ubuntu2.10.10.1), libc6-i386:amd64 (2.12.1-0ubuntu10, 2.12.1-0ubuntu10.1), libc6-dev:amd64 (2.12.1-0ubuntu10, 2.12.1-0ubuntu10.1), libc-dev-bin:amd64 (2.12.1-0ubuntu10, 2.12.1-0ubuntu10.1), libc6:amd64 (2.12.1-0ubuntu10, 2.12.1-0ubuntu10.1)
+End-Date: 2011-01-12  12:30:55
+
+Start-Date: 2011-01-14  17:42:14
+Commandline: /usr/sbin/synaptic --hide-main-window --non-interactive --parent-window-id 85983235 --set-selections-file /tmp/tmphHza5q
+Install: putty:amd64 (0.60+2010-02-20-1), putty-tools:amd64 (0.60+2010-02-20-1, automatic)
+End-Date: 2011-01-14  17:42:33
+
+Start-Date: 2011-01-14  19:29:23
+Commandline: /usr/sbin/synaptic --hide-main-window --non-interactive --progress-str Please wait, this can take some time --finish-str Update is complete --set-selections-file /tmp/tmpXfrV8_
+Install: linux-image-2.6.35-25-generic:amd64 (2.6.35-25.43)
+Upgrade: linux:amd64 (2.6.35.24.30, 2.6.35.25.31), linux-generic:amd64 (2.6.35.24.30, 2.6.35.25.31), python-apt:amd64 (0.7.96.1ubuntu11, 0.7.96.1ubuntu11.1), shotwell:amd64 (0.8.0-1~maverick1, 0.8.1-1~maverick1), linux-image:amd64 (2.6.35.24.30, 2.6.35.25.31), winetricks:amd64 (0.0+20101222-0ubuntu1~ppa1, 0.0+20110105-0ubuntu1~ppa1), linux-image-generic:amd64 (2.6.35.24.30, 2.6.35.25.31), google-talkplugin:amd64 (1.7.1.0-1, 1.8.0.0-1), gwibber-service:amd64 (2.32.2-0ubuntu2, 2.32.2-0ubuntu2-1mint1), docky-dbg:amd64 (2.1.0~bzr1759-0ubuntu1~10.10~dockycore1, 2.1.0~bzr1765-0ubuntu1~10.10~dockycore1), docky:amd64 (2.1.0~bzr1759-0ubuntu1~10.10~dockycore1, 2.1.0~bzr1765-0ubuntu1~10.10~dockycore1)
+End-Date: 2011-01-14  19:30:58
+
+Start-Date: 2011-01-14  23:54:14
+Commandline: /usr/sbin/synaptic
+Install: open-cobol:amd64 (1.0-4), libgmp3-dev:amd64 (4.3.2+dfsg-1ubuntu1, automatic), libncurses5-dev:amd64 (5.7+20100626-0ubuntu1, automatic), libcob1:amd64 (1.0-4, automatic), libdb-dev:amd64 (4.8, automatic), libtool:amd64 (2.2.6b-2ubuntu1, automatic), libdb4.8-dev:amd64 (4.8.30-1, automatic), libcob1-dev:amd64 (1.0-4, automatic), libgmpxx4ldbl:amd64 (4.3.2+dfsg-1ubuntu1, automatic), libdb4.7:amd64 (4.7.25-9, automatic), autotools-dev:amd64 (20100122.1, automatic), libltdl-dev:amd64 (2.2.6b-2ubuntu1, automatic)
+End-Date: 2011-01-14  23:54:39
+
+Start-Date: 2011-01-16  20:40:11
+Commandline: /usr/sbin/synaptic --hide-main-window --non-interactive --progress-str Please wait, this can take some time --finish-str Update is complete --set-selections-file /tmp/tmpRECuRN
+Upgrade: network-manager-gnome:amd64 (0.8.1+git.20100809t190028.290dc70-0ubuntu3, 0.8.2+git.20101123t161608.f143e76-0ubuntu1)
+End-Date: 2011-01-16  20:40:34
+
+Start-Date: 2011-01-18  09:57:26
+Upgrade: libdbus-1-3:amd64 (1.4.0-0ubuntu1, 1.4.0-0ubuntu1.1), dbus:amd64 (1.4.0-0ubuntu1, 1.4.0-0ubuntu1.1), libdbus-1-dev:amd64 (1.4.0-0ubuntu1, 1.4.0-0ubuntu1.1), dbus-x11:amd64 (1.4.0-0ubuntu1, 1.4.0-0ubuntu1.1)
+End-Date: 2011-01-18  09:57:44
+
+Start-Date: 2011-01-19  12:35:59
+Upgrade: uuid-runtime:amd64 (2.17.2-0ubuntu1, 2.17.2-0ubuntu1.10.10.1), libblkid1:amd64 (2.17.2-0ubuntu1, 2.17.2-0ubuntu1.10.10.1), util-linux:amd64 (2.17.2-0ubuntu1, 2.17.2-0ubuntu1.10.10.1), libfuse2:amd64 (2.8.4-1ubuntu1, 2.8.4-1ubuntu1.1), bsdutils:amd64 (2.17.2-0ubuntu1, 2.17.2-0ubuntu1.10.10.1), libuuid1:amd64 (2.17.2-0ubuntu1, 2.17.2-0ubuntu1.10.10.1), mount:amd64 (2.17.2-0ubuntu1, 2.17.2-0ubuntu1.10.10.1), fuse-utils:amd64 (2.8.4-1ubuntu1, 2.8.4-1ubuntu1.1)
+End-Date: 2011-01-19  12:37:01
+
+Start-Date: 2011-01-20  18:00:24
+Commandline: /usr/sbin/synaptic --hide-main-window --non-interactive --progress-str Please wait, this can take some time --finish-str Update is complete --set-selections-file /tmp/tmpDa0RrT
+Upgrade: pinta:amd64 (0.5+dfsg-1~webupd8~maverick, 0.6-1~webupd8~maverick), pastie:amd64 (0.6.7.4~ppam2, 0.6.7.5~ppal1), sudo:amd64 (1.7.2p7-1ubuntu2, 1.7.2p7-1ubuntu2.1), docky-dbg:amd64 (2.1.0~bzr1765-0ubuntu1~10.10~dockycore1, 2.1.0~bzr1766-0ubuntu1~10.10~dockycore1), docky:amd64 (2.1.0~bzr1765-0ubuntu1~10.10~dockycore1, 2.1.0~bzr1766-0ubuntu1~10.10~dockycore1)
+End-Date: 2011-01-20  18:01:03
+
+Start-Date: 2011-01-20  20:10:48
+Commandline: /usr/sbin/synaptic
+Remove: frostwire:amd64 (4.21.1-1~getdeb1)
+Purge: deluge:amd64 (1.3.1-2~maverick~ppa1)
+End-Date: 2011-01-20  20:11:05
+
+Start-Date: 2011-01-20  20:12:55
+Remove: deluge-gtk:amd64 (1.3.1-2~maverick~ppa1)
+End-Date: 2011-01-20  20:13:07
+
+Start-Date: 2011-01-20  20:21:30
+Install: fortunes-husse:amd64 (1.0.1)
+End-Date: 2011-01-20  20:21:33
+
+Start-Date: 2011-01-24  07:42:04
+Upgrade: libservlet2.5-java:amd64 (6.0.28-2ubuntu1, 6.0.28-2ubuntu1.1)
+End-Date: 2011-01-24  07:42:10
+
+Start-Date: 2011-01-25  16:34:27
+Commandline: synaptic update
+Install: wine1.2:amd64 (1.2.2-1ubuntu1~maverick1, automatic), linux-headers-2.6.35-25-generic:amd64 (2.6.35-25.44, automatic), linux-headers-2.6.35-25:amd64 (2.6.35-25.44, automatic)
+Upgrade: casper:amd64 (1.248, 1.248.1), libc-bin:amd64 (2.12.1-0ubuntu10.1, 2.12.1-0ubuntu10.2), linux-image-2.6.35-25-generic:amd64 (2.6.35-25.43, 2.6.35-25.44), linux:amd64 (2.6.35.25.31, 2.6.35.25.32), libsane-hpaio:amd64 (3.10.6-1ubuntu10.1, 3.10.6-1ubuntu10.2), hplip-cups:amd64 (3.10.6-1ubuntu10.1, 3.10.6-1ubuntu10.2), ia32-libs:amd64 (20090808ubuntu10~wineppa2, 20090808ubuntu10~wineppa3), xserver-xorg-core:amd64 (1.9.0-0ubuntu7.1, 1.9.0-0ubuntu7.3), rhythmbox:amd64 (0.13.1-0ubuntu6, 0.13.1-0ubuntu6.1), libapparmor-perl:amd64 (2.5.1-0ubuntu0.10.10.3, 2.5.1-0ubuntu0.10.10.4), hpijs:amd64 (3.10.6-1ubuntu10.1, 3.10.6-1ubuntu10.2), linux-generic:amd64 (2.6.35.25.31, 2.6.35.25.32), hplip:amd64 (3.10.6-1ubuntu10.1, 3.10.6-1ubuntu10.2), xserver-xorg-video-savage:amd64 (2.3.1-2ubuntu2, 2.3.1-2ubuntu2.1), zeitgeist:amd64 (0.6-0ubuntu1~0ppa1~maverick, 0.7-0ubuntu1~0ppa1~maverick), grub-pc:amd64 (1.98+20100804-5ubuntu3, 1.98+20100804-5ubuntu3.1), libc6-i386:amd64 (2.12.1-0ubuntu10.1, 2.12.1-0ubuntu10.2), linux-firmware:amd64 (1.38.2, 1.38.3), linux-image:amd64 (2.6.35.25.31, 2.6.35.25.32), apparmor-utils:amd64 (2.5.1-0ubuntu0.10.10.3, 2.5.1-0ubuntu0.10.10.4), libhpmud0:amd64 (3.10.6-1ubuntu10.1, 3.10.6-1ubuntu10.2), xserver-xorg-input-evdev:amd64 (2.3.2-6ubuntu3, 2.3.2-6ubuntu3.1), rhythmbox-plugin-coherence:amd64 (0.13.1-0ubuntu6, 0.13.1-0ubuntu6.1), linux-headers-generic:amd64 (2.6.35.24.29, 2.6.35.25.32), linux-image-generic:amd64 (2.6.35.25.31, 2.6.35.25.32), ubiquity-casper:amd64 (1.248, 1.248.1), python-gtkspell:amd64 (2.25.3-5ubuntu2, 2.25.3-5ubuntu2.1), libapparmor1:amd64 (2.5.1-0ubuntu0.10.10.3, 2.5.1-0ubuntu0.10.10.4), zeitgeist-core:amd64 (0.6-0ubuntu1~0ppa1~maverick, 0.7-0ubuntu1~0ppa1~maverick), libc6-dev:amd64 (2.12.1-0ubuntu10.1, 2.12.1-0ubuntu10.2), apparmor:amd64 (2.5.1-0ubuntu0.10.10.3, 2.5.1-0ubuntu0.10.10.4), docky-dbg:amd64 (2.1.0~bzr1766-0ubuntu1~10.10~dockycore1, 2.1.0~bzr1771-0ubuntu1~10.10~dockycore1), linux-libc-dev:amd64 (2.6.35-1024.42, 2.6.35-1025.44), grub-common:amd64 (1.98+20100804-5ubuntu3, 1.98+20100804-5ubuntu3.1), upstart:amd64 (0.6.6-3, 0.6.6-4), libc-dev-bin:amd64 (2.12.1-0ubuntu10.1, 2.12.1-0ubuntu10.2), libc6:amd64 (2.12.1-0ubuntu10.1, 2.12.1-0ubuntu10.2), rhythmbox-plugin-cdrecorder:amd64 (0.13.1-0ubuntu6, 0.13.1-0ubuntu6.1), rhythmbox-plugins:amd64 (0.13.1-0ubuntu6, 0.13.1-0ubuntu6.1), docky:amd64 (2.1.0~bzr1766-0ubuntu1~10.10~dockycore1, 2.1.0~bzr1771-0ubuntu1~10.10~dockycore1), ttf-symbol-replacement-wine1.3:amd64 (1.3.11-0ubuntu1, 1.3.12-0ubuntu1~maverickppa2), hplip-data:amd64 (3.10.6-1ubuntu10.1, 3.10.6-1ubuntu10.2)
+Remove: wine1.3:amd64 (1.3.11-0ubuntu1)
+End-Date: 2011-01-25  16:41:47
+
+Start-Date: 2011-01-25  16:56:57
+Remove: netapplet:amd64 (1.0.8-3ubuntu2)
+End-Date: 2011-01-25  16:57:13
+
+Start-Date: 2011-01-25  23:25:37
+Commandline: apt-get autoremove
+Remove: wine1.3-gecko:amd64 (1.1.0-0ubuntu1~maverickppa1), ttf-symbol-replacement-wine1.3:amd64 (1.3.12-0ubuntu1~maverickppa2)
+End-Date: 2011-01-25  23:25:42
+
+Start-Date: 2011-01-25  23:38:43
+Commandline: /usr/sbin/synaptic
+Install: linux-headers-2.6.35-22:amd64 (2.6.35-22.35)
+
+Start-Date: 2011-01-26  20:55:50
+Commandline: /usr/sbin/synaptic
+Upgrade: linux-headers-2.6.35-22:amd64 (2.6.35-22.35, 2.6.35-22.35)
+Remove: netdiscover:amd64 (0.3beta6+20080409-5)
+End-Date: 2011-01-26  20:56:39
+
+Start-Date: 2011-01-27  01:12:26
+Commandline: apt-get install usb-imagewriter
+Install: usb-imagewriter:amd64 (0.1.3-0ubuntu4)
+End-Date: 2011-01-27  01:12:36
+
+Start-Date: 2011-01-27  19:09:30
+Commandline: /usr/sbin/synaptic --hide-main-window --non-interactive --progress-str Please wait, this can take some time --finish-str Update is complete --set-selections-file /tmp/tmptEMsda
+Upgrade: wine1.2:amd64 (1.2.2-1ubuntu1~maverick1, 1.2.2-1ubuntu1~maverick2), wine:amd64 (1.2.2-1ubuntu1~maverick1, 1.2.2-1ubuntu1~maverick2), docky-dbg:amd64 (2.1.0~bzr1771-0ubuntu1~10.10~dockycore1, 2.1.0~bzr1773-0ubuntu1~10.10~dockycore1), docky:amd64 (2.1.0~bzr1771-0ubuntu1~10.10~dockycore1, 2.1.0~bzr1773-0ubuntu1~10.10~dockycore1)
+End-Date: 2011-01-27  19:10:12
+
+Start-Date: 2011-02-01  10:07:03
+Upgrade: subversion:amd64 (1.6.12dfsg-1ubuntu1, 1.6.12dfsg-1ubuntu1.1), libsvn1:amd64 (1.6.12dfsg-1ubuntu1, 1.6.12dfsg-1ubuntu1.1)
+End-Date: 2011-02-01  10:07:15
+
+Start-Date: 2010-12-09  19:00:26
+Commandline: /usr/sbin/synaptic --hide-main-window --non-interactive --progress-str Please wait, this can take some time --finish-str Update is complete --set-selections-file /tmp/tmpKW6Q09
+Install: linux-image-2.6.35-24-generic:amd64 (2.6.35-24.42)
+Upgrade: libsmbclient:amd64 (3.5.4~dfsg-1ubuntu8, 3.5.4~dfsg-1ubuntu8.1), gnome-network-admin:amd64 (2.32.0-0ubuntu1, 2.32.0-0ubuntu1.1), libkrb5-3:amd64 (1.8.1+dfsg-5ubuntu0.1, 1.8.1+dfsg-5ubuntu0.2), libpurple0:amd64 (2.7.5-1~getdeb1, 2.7.7-1~getdeb1), libk5crypto3:amd64 (1.8.1+dfsg-5ubuntu0.1, 1.8.1+dfsg-5ubuntu0.2), libgnomenu0-dev:amd64 (0.7.9-0ubuntu1~ppa1~lucid2, 0.7.10-0ubuntu1~webupd8~maverick2), libc-bin:amd64 (2.12.1-0ubuntu9, 2.12.1-0ubuntu10), libldap-2.4-2:amd64 (2.4.23-0ubuntu3.3, 2.4.23-0ubuntu3.4), libpurple-bin:amd64 (2.7.5-1~getdeb1, 2.7.7-1~getdeb1), bind9-host:amd64 (9.7.1.dfsg.P2-2, 9.7.1.dfsg.P2-2ubuntu0.1), unetbootin-translations:amd64 (485-1~getdeb1, 494-1~getdeb1), linux:amd64 (2.6.35.23.25, 2.6.35.24.28), libglib2.0-data:amd64 (2.26.0-0ubuntu1, 2.26.1-0ubuntu1), gnome-globalmenu-common:amd64 (0.7.9-0ubuntu1~ppa1~lucid2, 0.7.10-0ubuntu1~webupd8~maverick2), smbclient:amd64 (3.5.4~dfsg-1ubuntu8, 3.5.4~dfsg-1ubuntu8.1), mintmenu:amd64 (5.1.6-1~webupd8~maverick, 5.1.6-1~webupd8~maverick3), libmagickcore3:amd64 (6.6.2.6-1ubuntu1, 6.6.2.6-1ubuntu1.1), dnsutils:amd64 (9.7.1.dfsg.P2-2, 9.7.1.dfsg.P2-2ubuntu0.1), wine1.3:amd64 (1.3.7-0ubuntu1~maverickppa1, 1.3.8-0ubuntu1~maverickppa1), update-inetd:amd64 (4.36, 4.36ubuntu0.1), rhythmbox-radio-browser:amd64 (2.2.1-1~maverick1, 2.3.1-1~maverick1), gparted:amd64 (0.6.2-1ubuntu1, 0.6.2-1ubuntu1.1), libqt4-network:amd64 (4.7.0-0ubuntu4, 4.7.0-0ubuntu4.2), thunderbird:amd64 (3.1.6+build1+nobinonly-0ubuntu0.10.10.1, 3.1.7+build3+nobinonly-0ubuntu0.10.10.1), libqt4-dbus:amd64 (4.7.0-0ubuntu4, 4.7.0-0ubuntu4.2), libibus2:amd64 (1.3.7-1ubuntu3, 1.3.7-1ubuntu4), gwibber-themes:amd64 (2.32.2-0ubuntu1, 2.32.2-0ubuntu2), telepathy-haze:amd64 (0.4.0-1, 0.4.0-1ubuntu0.1), ibus-gtk:amd64 (1.3.7-1ubuntu3, 1.3.7-1ubuntu4), xserver-common:amd64 (1.9.0-0ubuntu7, 1.9.0-0ubuntu7.1), empathy-common:amd64 (2.32.0.1-0ubuntu1, 2.32.1-0ubuntu1), libmagickwand3:amd64 (6.6.2.6-1ubuntu1, 6.6.2.6-1ubuntu1.1), linux-generic:amd64 (2.6.35.23.25, 2.6.35.24.28), python-dockmanager:amd64 (0.1.0~bzr73-0ubuntu1~10.10~dockers1, 0.1.0~bzr76-0ubuntu1~10.10~dockers1), zeitgeist-datasource-totem:amd64 (0.1.0~bzr20101102+93-93+201011031152, 0.1.0-0~manish5-maverick), equinox-ubuntu-theme:amd64 (1.30-ubuntu2, 1.30-ubuntu3), libdns66:amd64 (9.7.1.dfsg.P2-2, 9.7.1.dfsg.P2-2ubuntu0.1), libwbclient0:amd64 (3.5.4~dfsg-1ubuntu8, 3.5.4~dfsg-1ubuntu8.1), empathy:amd64 (2.32.0.1-0ubuntu1, 2.32.1-0ubuntu1), libzeitgeist-1.0-0:amd64 (0.2.10-0ubuntu1, 0.2.14-0ubuntu1~ppa1~maverick), conkyforecast:amd64 (2.14, 2.15), software-center:amd64 (3.0.6, 3.0.7), apport:amd64 (1.14.1-0ubuntu8, 1.14.1-0ubuntu8.1), zeitgeist-datasource-rhythmbox:amd64 (0.1.0~bzr20101102+93-93+201011031152, 0.1.0-0~manish5-maverick), firefox-branding:amd64 (3.6.12+build1+nobinonly-0ubuntu0.10.10.1, 3.6.13+build3+nobinonly-0ubuntu0.10.10.1), zeitgeist:amd64 (0.5.2-0ubuntu1, 0.6-0ubuntu1~0ppa1~maverick), libqt4-opengl:amd64 (4.7.0-0ubuntu4, 4.7.0-0ubuntu4.2), pms-linux:amd64 (1.20.409+svn412-3, 1.20.409+svn412-4), libglib2.0-0:amd64 (2.26.0-0ubuntu1, 2.26.1-0ubuntu1), libisccc60:amd64 (9.7.1.dfsg.P2-2, 9.7.1.dfsg.P2-2ubuntu0.1), libc6-i386:amd64 (2.12.1-0ubuntu9, 2.12.1-0ubuntu10), libqt4-sql-sqlite:amd64 (4.7.0-0ubuntu4, 4.7.0-0ubuntu4.2), deja-dup:amd64 (16.0-0ubuntu1, 16.1.1-0ubuntu1), samba-common:amd64 (3.5.4~dfsg-1ubuntu8, 3.5.4~dfsg-1ubuntu8.1), libglobalmenu-gnome:amd64 (0.7.9-0ubuntu1~ppa1~lucid2, 0.7.10-0ubuntu1~webupd8~maverick2), libvlc5:amd64 (1.1.4-1ubuntu1, 1.1.5-1~getdeb1), linux-image:amd64 (2.6.35.23.25, 2.6.35.24.28), firefox:amd64 (3.6.12+build1+nobinonly-0ubuntu0.10.10.1, 3.6.13+build3+nobinonly-0ubuntu0.10.10.1), libpango1.0-common:amd64 (1.28.1-1ubuntu3, 1.28.2-0ubuntu1), liblwres60:amd64 (9.7.1.dfsg.P2-2, 9.7.1.dfsg.P2-2ubuntu0.1), gnome-system-tools:amd64 (2.32.0-0ubuntu1, 2.32.0-0ubuntu1.1), vlc-nox:amd64 (1.1.4-1ubuntu1, 1.1.5-1~getdeb1), libqtcore4:amd64 (4.7.0-0ubuntu4, 4.7.0-0ubuntu4.2), libkrb5support0:amd64 (1.8.1+dfsg-5ubuntu0.1, 1.8.1+dfsg-5ubuntu0.2), vlc-plugin-notify:amd64 (1.1.4-1ubuntu1, 1.1.5-1~getdeb1), python-problem-report:amd64 (1.14.1-0ubuntu8, 1.14.1-0ubuntu8.1), gnome-globalmenu:amd64 (0.7.9-0ubuntu1~ppa1~lucid2, 0.7.10-0ubuntu1~webupd8~maverick2), xulrunner-1.9.2:amd64 (1.9.2.12+build1+nobinonly-0ubuntu0.10.10.1, 1.9.2.13+build3+nobinonly-0ubuntu0.10.10.1), mintupdate:amd64 (4.1.7, 4.1.9), libgnomenu0-2:amd64 (0.7.9-0ubuntu1~ppa1~lucid2, 0.7.10-0ubuntu1~webupd8~maverick2), libglib2.0-bin:amd64 (2.26.0-0ubuntu1, 2.26.1-0ubuntu1), libbind9-60:amd64 (9.7.1.dfsg.P2-2, 9.7.1.dfsg.P2-2ubuntu0.1), zeitgeist-datasource-gedit:amd64 (0.1.0~bzr20101102+93-93+201011031152, 0.1.0-0~manish5-maverick), linux-image-generic:amd64 (2.6.35.23.25, 2.6.35.24.28), google-talkplugin:amd64 (1.5.1.0-1, 1.7.0.0-1), libglib2.0-dev:amd64 (2.26.0-0ubuntu1, 2.26.1-0ubuntu1), equinox-theme:amd64 (1.30-ubuntu2, 1.30-ubuntu3), libqt4-sql:amd64 (4.7.0-0ubuntu4, 4.7.0-0ubuntu4.2), libqt4-svg:amd64 (4.7.0-0ubuntu4, 4.7.0-0ubuntu4.2), samba:amd64 (3.5.4~dfsg-1ubuntu8, 3.5.4~dfsg-1ubuntu8.1), xdg-utils:amd64 (1.0.2+cvs20100307-1, 1.0.2+cvs20100307-1ubuntu0.1), gnome-applet-globalmenu:amd64 (0.7.9-0ubuntu1~ppa1~lucid2, 0.7.10-0ubuntu1~webupd8~maverick2), libpango1.0-dev:amd64 (1.28.1-1ubuntu3, 1.28.2-0ubuntu1), gwibber-service:amd64 (2.32.2-0ubuntu1, 2.32.2-0ubuntu2), libqt4-xml:amd64 (4.7.0-0ubuntu4, 4.7.0-0ubuntu4.2), virtualbox-3.2:amd64 (3.2.10-66523~Ubuntu~maverick, 3.2.12-68302~Ubuntu~maverick), nvidia-96-modaliases:amd64 (96.43.18-0ubuntu1, 96.43.19-0ubuntu1), dockmanager:amd64 (0.1.0~bzr73-0ubuntu1~10.10~dockers1, 0.1.0~bzr76-0ubuntu1~10.10~dockers1), vlc:amd64 (1.1.4-1ubuntu1, 1.1.5-1~getdeb1), libutouch-grail1:amd64 (1.0.15-0ubuntu1, 1.0.16-0ubuntu1), zeitgeist-core:amd64 (0.5.2-0ubuntu1, 0.6-0ubuntu1~0ppa1~maverick), libisccfg60:amd64 (9.7.1.dfsg.P2-2, 9.7.1.dfsg.P2-2ubuntu0.1), jockey-common:amd64 (0.5.10-0ubuntu5.1, 0.5.10-0ubuntu5.2), ibus:amd64 (1.3.7-1ubuntu3, 1.3.7-1ubuntu4), libc6-dev:amd64 (2.12.1-0ubuntu9, 2.12.1-0ubuntu10), libqtgui4:amd64 (4.7.0-0ubuntu4, 4.7.0-0ubuntu4.2), libssl0.9.8:amd64 (0.9.8o-1ubuntu4.1, 0.9.8o-1ubuntu4.3), jockey-gtk:amd64 (0.5.10-0ubuntu5.1, 0.5.10-0ubuntu5.2), flashplugin64-installer:amd64 (10.2.161.23-0ubuntu0~sevenmachines1, 10.3.162.29-0ubuntu0~sevenmachines2), docky-dbg:amd64 (2.1.0~bzr1683-0ubuntu1~10.10~dockycore1, 2.1.0~bzr1710-0ubuntu1~10.10~dockycore1), python-apport:amd64 (1.14.1-0ubuntu8, 1.14.1-0ubuntu8.1), ttf-mscorefonts-installer:amd64 (3.2, 3.2ubuntu2), faenza-icon-theme:amd64 (0.7-ubuntu1, 0.8), imagemagick:amd64 (6.6.2.6-1ubuntu1, 6.6.2.6-1ubuntu1.1), vlc-data:amd64 (1.1.4-1ubuntu1, 1.1.5-1~getdeb1), openssl:amd64 (0.9.8o-1ubuntu4.1, 0.9.8o-1ubuntu4.3), libpango1.0-0:amd64 (1.28.1-1ubuntu3, 1.28.2-0ubuntu1), libmagickcore3-extra:amd64 (6.6.2.6-1ubuntu1, 6.6.2.6-1ubuntu1.1), samba-common-bin:amd64 (3.5.4~dfsg-1ubuntu8, 3.5.4~dfsg-1ubuntu8.1), unetbootin:amd64 (485-1~getdeb1, 494-1~getdeb1), libqt4-sql-mysql:amd64 (4.7.0-0ubuntu4, 4.7.0-0ubuntu4.2), winbind:amd64 (3.5.4~dfsg-1ubuntu8, 3.5.4~dfsg-1ubuntu8.1), gwibber:amd64 (2.32.2-0ubuntu1, 2.32.2-0ubuntu2), libisc60:amd64 (9.7.1.dfsg.P2-2, 9.7.1.dfsg.P2-2ubuntu0.1), libgssapi-krb5-2:amd64 (1.8.1+dfsg-5ubuntu0.1, 1.8.1+dfsg-5ubuntu0.2), libc-dev-bin:amd64 (2.12.1-0ubuntu9, 2.12.1-0ubuntu10), libc6:amd64 (2.12.1-0ubuntu9, 2.12.1-0ubuntu10), perlmagick:amd64 (6.6.2.6-1ubuntu1, 6.6.2.6-1ubuntu1.1), python-ibus:amd64 (1.3.7-1ubuntu3, 1.3.7-1ubuntu4), libvlccore4:amd64 (1.1.4-1ubuntu1, 1.1.5-1~getdeb1), granola:amd64 (3.0.1-0maverick1, 3.0.7-0maverick1), apport-gtk:amd64 (1.14.1-0ubuntu8, 1.14.1-0ubuntu8.1), libaprutil1:amd64 (1.3.9+dfsg-3build1, 1.3.9+dfsg-3ubuntu0.10.10.1), docky:amd64 (2.1.0~bzr1683-0ubuntu1~10.10~dockycore1, 2.1.0~bzr1710-0ubuntu1~10.10~dockycore1), firefox-gnome-support:amd64 (3.6.12+build1+nobinonly-0ubuntu0.10.10.1, 3.6.13+build3+nobinonly-0ubuntu0.10.10.1), nautilus-sendto-empathy:amd64 (2.32.0.1-0ubuntu1, 2.32.1-0ubuntu1), vlc-plugin-pulse:amd64 (1.1.4-1ubuntu1, 1.1.5-1~getdeb1), ttf-symbol-replacement-wine1.3:amd64 (1.3.7-0ubuntu1~maverickppa1, 1.3.8-0ubuntu1~maverickppa1)
+End-Date: 2010-12-09  19:31:07
+
+Start-Date: 2010-12-10  00:52:52
+Upgrade: linux-image-2.6.35-23-generic:amd64 (2.6.35-23.37, 2.6.35-23.41), linux-headers-2.6.35-23-generic:amd64 (2.6.35-23.37, 2.6.35-23.41), linux-headers-2.6.35-23:amd64 (2.6.35-23.37, 2.6.35-23.41)
+End-Date: 2010-12-10  00:54:04
+
+Start-Date: 2010-12-12  21:12:26
+Commandline: /usr/sbin/synaptic --hide-main-window --non-interactive --progress-str Please wait, this can take some time --finish-str Update is complete --set-selections-file /tmp/tmp8GMbAc
+Install: ttf-umefont:amd64 (416-2)
+Upgrade: libparted0debian1:amd64 (2.3-2ubuntu1, 2.3-2ubuntu2), wine1.3:amd64 (1.3.8-0ubuntu1~maverickppa1, 1.3.9-0ubuntu1~maverickppa1), language-pack-gnome-en:amd64 (10.10+20100930, 10.10+20101204), parted:amd64 (2.3-2ubuntu1, 2.3-2ubuntu2), webilder-gnome:amd64 (0.6.9-1~getdeb1, 0.7-1~getdeb1), webilder:amd64 (0.6.9-1~getdeb1, 0.7-1~getdeb1), docky-dbg:amd64 (2.1.0~bzr1710-0ubuntu1~10.10~dockycore1, 2.1.0~bzr1713-0ubuntu1~10.10~dockycore1), docky:amd64 (2.1.0~bzr1710-0ubuntu1~10.10~dockycore1, 2.1.0~bzr1713-0ubuntu1~10.10~dockycore1), language-pack-en:amd64 (10.10+20100930, 10.10+20101204), ttf-symbol-replacement-wine1.3:amd64 (1.3.8-0ubuntu1~maverickppa1, 1.3.9-0ubuntu1~maverickppa1)
+End-Date: 2010-12-12  21:13:54
+
+Start-Date: 2010-12-14  13:59:06
+Commandline: /usr/sbin/synaptic --hide-main-window --non-interactive --progress-str Please wait, this can take some time --finish-str Update is complete --set-selections-file /tmp/tmprcWIv5
+Upgrade: python-minimal:amd64 (2.6.6-2ubuntu1, 2.6.6-2ubuntu2), ttf-lyx:amd64 (1.6.7-1, 1.6.8-1~getdeb1), python:amd64 (2.6.6-2ubuntu1, 2.6.6-2ubuntu2)
+End-Date: 2010-12-14  13:59:37
+
+Start-Date: 2010-12-14  14:10:14
+End-Date: 2010-12-14  14:10:14
+
+Start-Date: 2010-12-14  14:23:36
+Remove: virtualbox-3.2:amd64 (3.2.12-68302~Ubuntu~maverick)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2010-12-14  14:23:42
+
+Start-Date: 2010-12-14  14:24:11
+Remove: virtualbox-3.2:amd64 (3.2.12-68302~Ubuntu~maverick)
+End-Date: 2010-12-14  14:24:23
+
+Start-Date: 2010-12-14  14:26:56
+Install: virtualbox-3.2:amd64 (3.2.12-68302~Ubuntu~maverick)
+End-Date: 2010-12-14  14:27:14
+
+Start-Date: 2010-12-14  14:50:38
+Remove: virtualbox-3.2:amd64 (3.2.12-68302~Ubuntu~maverick)
+End-Date: 2010-12-14  14:50:45
+
+Start-Date: 2010-12-14  14:54:10
+Install: virtualbox-ose-dkms:amd64 (3.2.8-dfsg-2ubuntu1, automatic), virtualbox-ose-qt:amd64 (3.2.8-dfsg-2ubuntu1), virtualbox-ose:amd64 (3.2.8-dfsg-2ubuntu1, automatic), libvncserver0:amd64 (0.9.7-2, automatic)
+Remove: virtualbox-ose-guest-dkms:amd64 (3.2.8-dfsg-2ubuntu1)
+End-Date: 2010-12-14  14:54:36
+
+Start-Date: 2010-12-14  15:15:52
+Commandline: /usr/sbin/synaptic --hide-main-window --non-interactive --parent-window-id 79691779 --set-selections-file /tmp/tmpKZEEa2
+Install: virtualbox-ose-guest-dkms:amd64 (3.2.8-dfsg-2ubuntu1)
+Remove: virtualbox-ose-dkms:amd64 (3.2.8-dfsg-2ubuntu1)
+End-Date: 2010-12-14  15:16:00
+
+Start-Date: 2010-12-14  15:31:01
+Install: virtualbox-ose-dkms:amd64 (3.2.8-dfsg-2ubuntu1)
+Remove: virtualbox-ose-guest-dkms:amd64 (3.2.8-dfsg-2ubuntu1)
+End-Date: 2010-12-14  15:31:07
+
+Start-Date: 2010-12-14  15:34:34
+Install: virtualbox-nonfree:amd64 (3.2), virtualbox-3.2:amd64 (3.2.12-68302~Ubuntu~maverick, automatic)
+Remove: virtualbox-ose-qt:amd64 (3.2.8-dfsg-2ubuntu1), virtualbox-ose:amd64 (3.2.8-dfsg-2ubuntu1), libvncserver0:amd64 (0.9.7-2)
+End-Date: 2010-12-14  15:35:07
+
+Start-Date: 2010-12-14  15:37:01
+Install: libglademm-2.4-1c2a:amd64 (2.6.7-2build1, automatic), ll-scope:amd64 (0.2.1-2.1ubuntu1), liblo7:amd64 (0.26~repack-5, automatic)
+End-Date: 2010-12-14  15:37:11
+
+Start-Date: 2010-12-14  21:00:38
+Commandline: apt-get install traceroute
+Install: traceroute:amd64 (2.0.14-1)
+End-Date: 2010-12-14  21:00:46
+
+Start-Date: 2010-12-15  22:07:17
+Commandline: /usr/sbin/synaptic --hide-main-window --non-interactive --progress-str Please wait, this can take some time --finish-str Update is complete --set-selections-file /tmp/tmpWj1PWE
+Upgrade: aptitude:amd64 (0.6.3-2ubuntu4, 0.6.3-3.2ubuntu2~maverick), python-aptdaemon:amd64 (0.31+bzr506-0ubuntu4, 0.31+bzr506-0ubuntu5), aptdaemon:amd64 (0.31+bzr506-0ubuntu4, 0.31+bzr506-0ubuntu5), google-talkplugin:amd64 (1.7.0.0-1, 1.7.1.0-1), python-aptdaemon-gtk:amd64 (0.31+bzr506-0ubuntu4, 0.31+bzr506-0ubuntu5), wine:amd64 (1.2.1-1ubuntu1, 1.2.2-0ubuntu1~maverick1), sqlite3:amd64 (3.7.2-1, 3.7.2-1ubuntu0.1), libsqlite3-0:amd64 (3.7.2-1, 3.7.2-1ubuntu0.1)
+End-Date: 2010-12-15  22:07:48
+
+Start-Date: 2010-12-16  19:49:04
+Commandline: /usr/sbin/synaptic --hide-main-window --non-interactive --progress-str Please wait, this can take some time --finish-str Update is complete --set-selections-file /tmp/tmpInMLYm
+Upgrade: mintupdate:amd64 (4.1.9, 4.2.0)
+End-Date: 2010-12-16  19:49:13
+
+Start-Date: 2010-12-16  19:54:51
+Commandline: /usr/sbin/synaptic
+Install: linux-headers-2.6.35-24:amd64 (2.6.35-24.42, automatic), linux-headers-2.6.35-24-generic:amd64 (2.6.35-24.42, automatic)
+Upgrade: xserver-xorg-core:amd64 (1.9.0-0ubuntu7, 1.9.0-0ubuntu7.1), linux-firmware:amd64 (1.38, 1.38.2), linux-headers-generic:amd64 (2.6.35.23.25, 2.6.35.24.28), linux-libc-dev:amd64 (2.6.35-1023.37, 2.6.35-1024.42)
+End-Date: 2010-12-16  19:56:16
+
+Start-Date: 2010-12-16  20:03:57
+Commandline: /usr/sbin/synaptic
+Remove: virtualbox-nonfree:amd64 (3.2), virtualbox-ose-dkms:amd64 (3.2.8-dfsg-2ubuntu1), virtualbox-3.2:amd64 (3.2.12-68302~Ubuntu~maverick), virtualbox-ose-guest-utils:amd64 (3.2.8-dfsg-2ubuntu1), virtualbox-ose-guest-x11:amd64 (3.2.8-dfsg-2ubuntu1)
+End-Date: 2010-12-16  20:04:28
+
+Start-Date: 2010-12-16  20:06:44
+Commandline: /usr/sbin/synaptic
+Install: virtualbox-3.2:amd64 (3.2.12-68302~Ubuntu~maverick)
+End-Date: 2010-12-16  20:07:00
+
+Start-Date: 2010-12-16  20:16:32
+Commandline: /usr/sbin/synaptic
+Install: virtualbox-4.0:amd64 (4.0.0~beta2-68743~Ubuntu~maverick)
+Remove: virtualbox-3.2:amd64 (3.2.12-68302~Ubuntu~maverick)
+End-Date: 2010-12-16  20:18:06
+
+Start-Date: 2010-12-27  16:21:04
+Commandline: /usr/sbin/synaptic --hide-main-window --non-interactive --progress-str Please wait, this can take some time --finish-str Update is complete --set-selections-file /tmp/tmpsggmHi
+Upgrade: libpurple0:amd64 (2.7.7-1~getdeb1, 2.7.8-1~getdeb1), libpurple-bin:amd64 (2.7.7-1~getdeb1, 2.7.8-1~getdeb1), linux:amd64 (2.6.35.24.28, 2.6.35.24.29), libecal1.2-7:amd64 (2.30.3-2ubuntu2, 2.30.3-2ubuntu2.1), wine1.3:amd64 (1.3.9-0ubuntu1~maverickppa1, 1.3.10-0ubuntu1~maverickppa1), libgexiv2-0:amd64 (0.2.1-0maverick2, 0.2.2-0maverick1), linux-generic:amd64 (2.6.35.24.28, 2.6.35.24.29), python-dockmanager:amd64 (0.1.0~bzr76-0ubuntu1~10.10~dockers1, 0.1.0~bzr83-0ubuntu1~10.10~dockers1), libgdata-google1.2-1:amd64 (2.30.3-2ubuntu2, 2.30.3-2ubuntu2.1), libedata-cal1.2-7:amd64 (2.30.3-2ubuntu2, 2.30.3-2ubuntu2.1), pms-linux:amd64 (1.20.409+svn412-4, 1.20.412+svn413-2), shotwell:amd64 (0.7.2-1~maverick1, 0.8.0-1~maverick1), indicator-sound:amd64 (0.5.0.1-0ubuntu1, 0.5.0.1-0ubuntu2), linux-image:amd64 (2.6.35.24.28, 2.6.35.24.29), winetricks:amd64 (0.0+20101106-0ubuntu1~maverickppa1, 0.0+20101222-0ubuntu1~ppa1), libedataserverui1.2-8:amd64 (2.30.3-2ubuntu2, 2.30.3-2ubuntu2.1), libedata-book1.2-2:amd64 (2.30.3-2ubuntu2, 2.30.3-2ubuntu2.1), libegroupwise1.2-13:amd64 (2.30.3-2ubuntu2, 2.30.3-2ubuntu2.1), linux-image-generic:amd64 (2.6.35.24.28, 2.6.35.24.29), wine:amd64 (1.2.2-0ubuntu1~maverick1, 1.2.2-1ubuntu1~maverick1), ubuntu-sso-client:amd64 (1.0.7-0ubuntu1, 1.0.8-0ubuntu1), dockmanager:amd64 (0.1.0~bzr76-0ubuntu1~10.10~dockers1, 0.1.0~bzr83-0ubuntu1~10.10~dockers1), libcamel1.2-14:amd64 (2.30.3-2ubuntu2, 2.30.3-2ubuntu2.1), ubuntu-tweak:amd64 (0.5.7-1~maverick1, 0.5.8-1~maverick1), python-wine:amd64 (0.3~pre7~maverick, 0.3~pre8~maverick), vineyard:amd64 (0.1.5~pre7~maverick, 0.1.5~pre8~maverick), evolution-data-server-common:amd64 (2.30.3-2ubuntu2, 2.30.3-2ubuntu2.1), docky-dbg:amd64 (2.1.0~bzr1713-0ubuntu1~10.10~dockycore1, 2.1.0~bzr1717-0ubuntu1~10.10~dockycore1), evolution-data-server:amd64 (2.30.3-2ubuntu2, 2.30.3-2ubuntu2.1), libebackend1.2-0:amd64 (2.30.3-2ubuntu2, 2.30.3-2ubuntu2.1), granola:amd64 (3.0.7-0maverick1, 3.0.8-0maverick1), libgdata1.2-1:amd64 (2.30.3-2ubuntu2, 2.30.3-2ubuntu2.1), docky:amd64 (2.1.0~bzr1713-0ubuntu1~10.10~dockycore1, 2.1.0~bzr1717-0ubuntu1~10.10~dockycore1), libedataserver1.2-13:amd64 (2.30.3-2ubuntu2, 2.30.3-2ubuntu2.1), ttf-symbol-replacement-wine1.3:amd64 (1.3.9-0ubuntu1~maverickppa1, 1.3.10-0ubuntu1~maverickppa1), libebook1.2-9:amd64 (2.30.3-2ubuntu2, 2.30.3-2ubuntu2.1)
+End-Date: 2010-12-27  16:24:18
+
+Start-Date: 2010-12-28  21:25:18
+Commandline: /usr/sbin/synaptic
+Install: netdiscover:amd64 (0.3beta6+20080409-5), pdfcrack:amd64 (0.11-1), libnet1:amd64 (1.1.4-2, automatic)
+End-Date: 2010-12-28  21:25:30
+
+Start-Date: 2010-12-28  21:54:30
+Commandline: /usr/sbin/synaptic
+Install: kismet:amd64 (2008-05-R1-4.1build1), iw:amd64 (0.9.19-1, automatic), wireshark-common:amd64 (1.2.11-4build0.10.10.1, automatic), libcap2-bin:amd64 (2.19-2, automatic), aircrack-ng:amd64 (1.1-1), libsmi2ldbl:amd64 (0.4.8+dfsg2-2, automatic), wireshark:amd64 (1.2.11-4build0.10.10.1, automatic), libc-ares2:amd64 (1.7.3-1, automatic)
+End-Date: 2010-12-28  21:55:08
+
+Start-Date: 2010-12-28  22:52:05
+Commandline: /usr/sbin/synaptic --hide-main-window --non-interactive --progress-str Please wait, this can take some time --finish-str Update is complete --set-selections-file /tmp/tmpWN5dKO
+Upgrade: pms-linux:amd64 (1.20.412+svn413-2, 1.20.412+svn413-3), ubuntu-tweak:amd64 (0.5.8-1~maverick1, 0.5.9-1~maverick1), docky-dbg:amd64 (2.1.0~bzr1717-0ubuntu1~10.10~dockycore1, 2.1.0~bzr1731-0ubuntu1~10.10~dockycore1), docky:amd64 (2.1.0~bzr1717-0ubuntu1~10.10~dockycore1, 2.1.0~bzr1731-0ubuntu1~10.10~dockycore1)
+End-Date: 2010-12-28  22:52:38
+
+Start-Date: 2010-12-30  21:39:13
+Commandline: /usr/sbin/synaptic --hide-main-window --non-interactive --progress-str Please wait, this can take some time --finish-str Update is complete --set-selections-file /tmp/tmpwpb1ck
+Upgrade: gnome-activity-journal:amd64 (0.5.0.1-0ubuntu1, 0.5.0.1-1ubuntu1~ppa1~maverick1), docky-dbg:amd64 (2.1.0~bzr1731-0ubuntu1~10.10~dockycore1, 2.1.0~bzr1736-0ubuntu1~10.10~dockycore1), docky:amd64 (2.1.0~bzr1731-0ubuntu1~10.10~dockycore1, 2.1.0~bzr1736-0ubuntu1~10.10~dockycore1)
+End-Date: 2010-12-30  21:39:48
+
+Start-Date: 2010-12-31  11:36:18
+Commandline: /usr/sbin/synaptic --hide-main-window --non-interactive --progress-str Please wait, this can take some time --finish-str Update is complete --set-selections-file /tmp/tmpmUXQJz
+Upgrade: libpurple0:amd64 (2.7.8-1~getdeb1, 2.7.9-1~getdeb1), libpurple-bin:amd64 (2.7.8-1~getdeb1, 2.7.9-1~getdeb1), docky-dbg:amd64 (2.1.0~bzr1736-0ubuntu1~10.10~dockycore1, 2.1.0~bzr1738-0ubuntu1~10.10~dockycore1), docky:amd64 (2.1.0~bzr1736-0ubuntu1~10.10~dockycore1, 2.1.0~bzr1738-0ubuntu1~10.10~dockycore1)
+End-Date: 2010-12-31  11:36:48
+
+Start-Date: 2010-12-31  11:55:22
+Commandline: /usr/sbin/synaptic
+Upgrade: linux-headers-generic:amd64 (2.6.35.24.28, 2.6.35.24.29)
+End-Date: 2010-12-31  11:55:27
+
+Start-Date: 2010-12-31  12:05:51
+Commandline: /usr/sbin/synaptic
+Purge: skype:amd64 (2.1.0.81-1ubuntu5)
+End-Date: 2010-12-31  12:05:59
+
+Start-Date: 2010-12-31  12:11:42
+Commandline: /usr/sbin/synaptic
+Install: skype:amd64 (2.1.0.81-1ubuntu5)
+End-Date: 2010-12-31  12:11:55
+
+Start-Date: 2010-12-31  13:13:29
+Commandline: /usr/sbin/synaptic
+Remove: empathy-common:amd64 (2.32.1-0ubuntu1), empathy:amd64 (2.32.1-0ubuntu1), nautilus-sendto-empathy:amd64 (2.32.1-0ubuntu1)
+End-Date: 2010-12-31  13:13:47
+
+Start-Date: 2010-12-09  17:25:57
+End-Date: 2010-12-09  17:25:57
+
+Start-Date: 2010-12-09  17:26:00
+End-Date: 2010-12-09  17:26:00
+
+Start-Date: 2010-12-09  17:26:01
+End-Date: 2010-12-09  17:26:01
+
+Start-Date: 2010-12-09  17:26:01
+End-Date: 2010-12-09  17:26:01

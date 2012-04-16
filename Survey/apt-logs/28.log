@@ -1,0 +1,583 @@
+Start-Date: 2010-12-02 19:55:52
+Commandline: /usr/sbin/synaptic
+Install: gimp-resynthesizer:i386 (0.16-1.1)
+End-Date: 2010-12-02 19:55:59
+
+Start-Date: 2010-12-03 15:15:25
+Upgrade: bind9-host:i386 (9.7.1.dfsg.P2-2, 9.7.1.dfsg.P2-2ubuntu0.1), python-dockmanager:i386 (0.1.0~bzr74-0ubuntu1~10.10~dockers1, 0.1.0~bzr75-0ubuntu1~10.10~dockers1), icedtea6-plugin:i386 (6b20-1.9.1-1ubuntu3, 6b20-1.9.2-0ubuntu1), dnsutils:i386 (9.7.1.dfsg.P2-2, 9.7.1.dfsg.P2-2ubuntu0.1), linux-image-2.6.35-23-generic:i386 (2.6.35-23.40, 2.6.35-23.41), libdns66:i386 (9.7.1.dfsg.P2-2, 9.7.1.dfsg.P2-2ubuntu0.1), icedtea-6-jre-cacao:i386 (6b20-1.9.1-1ubuntu3, 6b20-1.9.2-0ubuntu1), linux-libc-dev:i386 (2.6.35-1023.40, 2.6.35-1023.41), libisccc60:i386 (9.7.1.dfsg.P2-2, 9.7.1.dfsg.P2-2ubuntu0.1), liblwres60:i386 (9.7.1.dfsg.P2-2, 9.7.1.dfsg.P2-2ubuntu0.1), openjdk-6-jre-headless:i386 (6b20-1.9.1-1ubuntu3, 6b20-1.9.2-0ubuntu1), openjdk-6-jre:i386 (6b20-1.9.1-1ubuntu3, 6b20-1.9.2-0ubuntu1), openjdk-6-jre-lib:i386 (6b20-1.9.1-1ubuntu3, 6b20-1.9.2-0ubuntu1), libbind9-60:i386 (9.7.1.dfsg.P2-2, 9.7.1.dfsg.P2-2ubuntu0.1), dockmanager:i386 (0.1.0~bzr74-0ubuntu1~10.10~dockers1, 0.1.0~bzr75-0ubuntu1~10.10~dockers1), libisccfg60:i386 (9.7.1.dfsg.P2-2, 9.7.1.dfsg.P2-2ubuntu0.1), libisc60:i386 (9.7.1.dfsg.P2-2, 9.7.1.dfsg.P2-2ubuntu0.1)
+End-Date: 2010-12-03 15:17:29
+
+Start-Date: 2010-12-03 20:18:41
+Install: libfontforge1:i386 (0.0.20090923-2ubuntu1, automatic), fontforge:i386 (0.0.20090923-2ubuntu1), libgdraw4:i386 (0.0.20090923-2ubuntu1, automatic), libspiro0:i386 (20071029-2build1, automatic), libuninameslist0:i386 (0.0.20091231-1, automatic)
+End-Date: 2010-12-03 20:19:02
+
+Start-Date: 2010-12-03 20:20:13
+Install: fontforge-extras:i386 (0.3-1ubuntu1)
+End-Date: 2010-12-03 20:20:19
+
+Start-Date: 2010-12-08 18:35:12
+Install: linux-image-2.6.35-24-generic:i386 (2.6.35-24.42)
+Upgrade: python-dockmanager:i386 (0.1.0~bzr75-0ubuntu1~10.10~dockers1, 0.1.0~bzr76-0ubuntu1~10.10~dockers1), linux:i386 (2.6.35.23.25, 2.6.35.24.28), linux-image-generic:i386 (2.6.35.23.25, 2.6.35.24.28), chromium-browser-inspector:i386 (7.0.517.44~r64615-0ubuntu0.10.10.1, 8.0.552.215~r67652-0ubuntu0.10.10.1), chromium-browser:i386 (7.0.517.44~r64615-0ubuntu0.10.10.1, 8.0.552.215~r67652-0ubuntu0.10.10.1), apport:i386 (1.14.1-0ubuntu8, 1.14.1-0ubuntu8.1), linux-libc-dev:i386 (2.6.35-1023.41, 2.6.35-1024.42), software-center:i386 (3.0.6, 3.0.7), linux-image:i386 (2.6.35.23.25, 2.6.35.24.28), python-problem-report:i386 (1.14.1-0ubuntu8, 1.14.1-0ubuntu8.1), libmagickcore3:i386 (6.6.2.6-1ubuntu1, 6.6.2.6-1ubuntu1.1), libmagick++3:i386 (6.6.2.6-1ubuntu1, 6.6.2.6-1ubuntu1.1), dockmanager:i386 (0.1.0~bzr75-0ubuntu1~10.10~dockers1, 0.1.0~bzr76-0ubuntu1~10.10~dockers1), libmagickwand3:i386 (6.6.2.6-1ubuntu1, 6.6.2.6-1ubuntu1.1), libmagickcore3-extra:i386 (6.6.2.6-1ubuntu1, 6.6.2.6-1ubuntu1.1), libssl0.9.8:i386 (0.9.8o-1ubuntu4.2, 0.9.8o-1ubuntu4.3), docky-dbg:i386 (2.1.0~bzr1706-0ubuntu1~10.10~dockycore1, 2.1.0~bzr1710-0ubuntu1~10.10~dockycore1), imagemagick:i386 (6.6.2.6-1ubuntu1, 6.6.2.6-1ubuntu1.1), openssl:i386 (0.9.8o-1ubuntu4.2, 0.9.8o-1ubuntu4.3), python-apport:i386 (1.14.1-0ubuntu8, 1.14.1-0ubuntu8.1), perlmagick:i386 (6.6.2.6-1ubuntu1, 6.6.2.6-1ubuntu1.1), apport-gtk:i386 (1.14.1-0ubuntu8, 1.14.1-0ubuntu8.1), docky:i386 (2.1.0~bzr1706-0ubuntu1~10.10~dockycore1, 2.1.0~bzr1710-0ubuntu1~10.10~dockycore1)
+End-Date: 2010-12-08 18:38:10
+
+Start-Date: 2010-12-09 19:28:34
+Upgrade: libkrb5-3:i386 (1.8.1+dfsg-5ubuntu0.1, 1.8.1+dfsg-5ubuntu0.2), libkrb5support0:i386 (1.8.1+dfsg-5ubuntu0.1, 1.8.1+dfsg-5ubuntu0.2), libk5crypto3:i386 (1.8.1+dfsg-5ubuntu0.1, 1.8.1+dfsg-5ubuntu0.2), libgssapi-krb5-2:i386 (1.8.1+dfsg-5ubuntu0.1, 1.8.1+dfsg-5ubuntu0.2)
+End-Date: 2010-12-09 19:28:48
+
+Start-Date: 2010-12-11 00:27:23
+Install: libgoffice-0.8-8-common:i386 (0.8.8-1, automatic), libgoffice-0.8-8:i386 (0.8.8-1, automatic), bodr:i386 (9-1, automatic), gcu-bin:i386 (0.12.3-1), libgcu0:i386 (0.12.3-1, automatic), chemical-mime-data:i386 (0.1.94-3, automatic), libopenbabel3:i386 (2.2.3-1build1, automatic), libgtkglext1:i386 (1.2.0-1.1fakesync2, automatic)
+End-Date: 2010-12-11 00:28:22
+
+Start-Date: 2010-12-11 00:28:29
+Install: mcp-plugins:i386 (0.4.0-1, automatic), cmt:i386 (1.16-1, automatic), sweep:i386 (0.9.3-3)
+End-Date: 2010-12-11 00:28:42
+
+Start-Date: 2010-12-11 16:36:05
+Upgrade: ubuntu-docs:i386 (10.10.3, 10.10.4), xulrunner-1.9.2:i386 (1.9.2.12+build1+nobinonly-0ubuntu0.10.10.1, 1.9.2.13+build3+nobinonly-0ubuntu0.10.10.1), thunderbird:i386 (3.1.6+build1+nobinonly-0ubuntu0.10.10.1, 3.1.7+build3+nobinonly-0ubuntu0.10.10.1), libparted0debian1:i386 (2.3-2ubuntu1, 2.3-2ubuntu2), parted:i386 (2.3-2ubuntu1, 2.3-2ubuntu2), firefox:i386 (3.6.12+build1+nobinonly-0ubuntu0.10.10.1, 3.6.13+build3+nobinonly-0ubuntu0.10.10.1), monobristol:i386 (0.60.1-1, 0.60.1-2~maverick1), firefox-gnome-support:i386 (3.6.12+build1+nobinonly-0ubuntu0.10.10.1, 3.6.13+build3+nobinonly-0ubuntu0.10.10.1), firefox-branding:i386 (3.6.12+build1+nobinonly-0ubuntu0.10.10.1, 3.6.13+build3+nobinonly-0ubuntu0.10.10.1), language-pack-en:i386 (10.10+20100930, 10.10+20101204), language-pack-gnome-en:i386 (10.10+20100930, 10.10+20101204)
+End-Date: 2010-12-11 16:37:49
+
+Start-Date: 2010-12-14 08:27:20
+Upgrade: ubuntu-docs:i386 (10.10.4, 10.10.5), icedtea6-plugin:i386 (6b20-1.9.2-0ubuntu1, 6b20-1.9.2-0ubuntu2), icedtea-6-jre-cacao:i386 (6b20-1.9.2-0ubuntu1, 6b20-1.9.2-0ubuntu2), openjdk-6-jre-headless:i386 (6b20-1.9.2-0ubuntu1, 6b20-1.9.2-0ubuntu2), openjdk-6-jre:i386 (6b20-1.9.2-0ubuntu1, 6b20-1.9.2-0ubuntu2), openjdk-6-jre-lib:i386 (6b20-1.9.2-0ubuntu1, 6b20-1.9.2-0ubuntu2), docky-dbg:i386 (2.1.0~bzr1710-0ubuntu1~10.10~dockycore1, 2.1.0~bzr1713-0ubuntu1~10.10~dockycore1), docky:i386 (2.1.0~bzr1710-0ubuntu1~10.10~dockycore1, 2.1.0~bzr1713-0ubuntu1~10.10~dockycore1)
+End-Date: 2010-12-14 08:28:24
+
+Start-Date: 2010-12-17 09:43:55
+Install: ttf-umefont:i386 (416-2)
+Upgrade: python-aptdaemon-gtk:i386 (0.31+bzr506-0ubuntu4, 0.31+bzr506-0ubuntu5), wine1.2:i386 (1.2.1-1ubuntu1, 1.2.2-0ubuntu1~maverick1), python-aptdaemon:i386 (0.31+bzr506-0ubuntu4, 0.31+bzr506-0ubuntu5), chromium-browser-inspector:i386 (8.0.552.215~r67652-0ubuntu0.10.10.1, 8.0.552.224~r68599-0ubuntu0.10.10.1), chromium-browser:i386 (8.0.552.215~r67652-0ubuntu0.10.10.1, 8.0.552.224~r68599-0ubuntu0.10.10.1), libsqlite3-0:i386 (3.7.2-1, 3.7.2-1ubuntu0.1), python-minimal:i386 (2.6.6-2ubuntu1, 2.6.6-2ubuntu2), python:i386 (2.6.6-2ubuntu1, 2.6.6-2ubuntu2), aptdaemon:i386 (0.31+bzr506-0ubuntu4, 0.31+bzr506-0ubuntu5), wine:i386 (1.2.1-1ubuntu1, 1.2.2-0ubuntu1~maverick1), ttf-symbol-replacement:i386 (1.2.1-1ubuntu1, 1.2.2-0ubuntu1~maverick1), sqlite3:i386 (3.7.2-1, 3.7.2-1ubuntu0.1), linux-firmware:i386 (1.38, 1.38.2)
+End-Date: 2010-12-17 09:45:13
+
+Start-Date: 2010-12-24 12:09:25
+Upgrade: evolution-common:i386 (2.30.3-1ubuntu7.1, 2.30.3-1ubuntu7.2), python-dockmanager:i386 (0.1.0~bzr76-0ubuntu1~10.10~dockers1, 0.1.0~bzr81-0ubuntu1~10.10~dockers1), linux:i386 (2.6.35.24.28, 2.6.35.24.29), evolution:i386 (2.30.3-1ubuntu7.1, 2.30.3-1ubuntu7.2), wine1.2:i386 (1.2.2-0ubuntu1~maverick1, 1.2.2-1ubuntu1~maverick1), linux-image-generic:i386 (2.6.35.24.28, 2.6.35.24.29), ubuntu-sso-client:i386 (1.0.7-0ubuntu1, 1.0.8-0ubuntu1), libcamel1.2-14:i386 (2.30.3-2ubuntu2, 2.30.3-2ubuntu2.1), libedata-cal1.2-7:i386 (2.30.3-2ubuntu2, 2.30.3-2ubuntu2.1), libevolution:i386 (2.30.3-1ubuntu7.1, 2.30.3-1ubuntu7.2), linux-image:i386 (2.6.35.24.28, 2.6.35.24.29), monobristol:i386 (0.60.1-2~maverick1, 0.60.1-2~maverick3), libegroupwise1.2-13:i386 (2.30.3-2ubuntu2, 2.30.3-2ubuntu2.1), libecal1.2-7:i386 (2.30.3-2ubuntu2, 2.30.3-2ubuntu2.1), libgdata1.2-1:i386 (2.30.3-2ubuntu2, 2.30.3-2ubuntu2.1), libedataserver1.2-13:i386 (2.30.3-2ubuntu2, 2.30.3-2ubuntu2.1), libgdata-google1.2-1:i386 (2.30.3-2ubuntu2, 2.30.3-2ubuntu2.1), wine:i386 (1.2.2-0ubuntu1~maverick1, 1.2.2-1ubuntu1~maverick1), libebook1.2-9:i386 (2.30.3-2ubuntu2, 2.30.3-2ubuntu2.1), evolution-plugins:i386 (2.30.3-1ubuntu7.1, 2.30.3-1ubuntu7.2), ttf-symbol-replacement:i386 (1.2.2-0ubuntu1~maverick1, 1.2.2-1ubuntu1~maverick1), libedataserverui1.2-8:i386 (2.30.3-2ubuntu2, 2.30.3-2ubuntu2.1), libedata-book1.2-2:i386 (2.30.3-2ubuntu2, 2.30.3-2ubuntu2.1), evolution-data-server:i386 (2.30.3-2ubuntu2, 2.30.3-2ubuntu2.1), dockmanager:i386 (0.1.0~bzr76-0ubuntu1~10.10~dockers1, 0.1.0~bzr81-0ubuntu1~10.10~dockers1), indicator-sound:i386 (0.5.0.1-0ubuntu1, 0.5.0.1-0ubuntu2), libpq5:i386 (8.4.5-0ubuntu10.10, 8.4.6-0ubuntu10.10), docky-dbg:i386 (2.1.0~bzr1713-0ubuntu1~10.10~dockycore1, 2.1.0~bzr1716-0ubuntu1~10.10~dockycore1), libebackend1.2-0:i386 (2.30.3-2ubuntu2, 2.30.3-2ubuntu2.1), evolution-data-server-common:i386 (2.30.3-2ubuntu2, 2.30.3-2ubuntu2.1), docky:i386 (2.1.0~bzr1713-0ubuntu1~10.10~dockycore1, 2.1.0~bzr1716-0ubuntu1~10.10~dockycore1)
+End-Date: 2010-12-24 12:11:12
+
+Start-Date: 2010-12-24 12:12:08
+Upgrade: libgexiv2-0:i386 (0.2.1-1lucid2, 0.2.2-0maverick1), shotwell:i386 (0.7.2-1~maverick1, 0.8.0-1~maverick1)
+End-Date: 2010-12-24 12:12:22
+
+Start-Date: 2010-12-31 12:46:39
+Upgrade: python-dockmanager:i386 (0.1.0~bzr81-0ubuntu1~10.10~dockers1, 0.1.0~bzr83-0ubuntu1~10.10~dockers1), ubuntu-tweak:i386 (0.5.7-1~maverick1, 0.5.9-1~maverick1), winetricks:i386 (0.0+20101106-0ubuntu1~maverickppa1, 0.0+20101222-0ubuntu1~ppa1), dockmanager:i386 (0.1.0~bzr81-0ubuntu1~10.10~dockers1, 0.1.0~bzr83-0ubuntu1~10.10~dockers1), docky-dbg:i386 (2.1.0~bzr1716-0ubuntu1~10.10~dockycore1, 2.1.0~bzr1738-0ubuntu1~10.10~dockycore1), docky:i386 (2.1.0~bzr1716-0ubuntu1~10.10~dockycore1, 2.1.0~bzr1738-0ubuntu1~10.10~dockycore1)
+End-Date: 2010-12-31 12:47:20
+
+Start-Date: 2010-11-02 07:57:04
+Remove: kdepim-runtime:i386 (4.4.6-0ubuntu1), kdesudo:i386 (3.4.2.3-2ubuntu2), update-manager-kde:i386 (0.142.21), python-kde4:i386 (4.5.1-0ubuntu3)
+End-Date: 2010-11-02 07:57:53
+
+Start-Date: 2010-11-03 20:21:10
+Commandline: apt-get remove parcellite
+Remove: parcellite:i386 (0.9.2-1)
+End-Date: 2010-11-03 20:21:22
+
+Start-Date: 2010-11-03 20:21:43
+Commandline: apt-get autoremove
+Remove: libkldap4:i386 (4.5.1-0ubuntu1), libmicroblog4:i386 (4.5.1-0ubuntu1), libboost-program-options1.42.0:i386 (1.42.0-3ubuntu1), mysql-client-core-5.1:i386 (5.1.49-1ubuntu8), libqt4-qt3support:i386 (4.7.0-0ubuntu4.1), libakonadiprivate1:i386 (1.4.0-0ubuntu1), mysql-server-core-5.1:i386 (5.1.49-1ubuntu8), libmailtransport4:i386 (4.5.1-0ubuntu1), libakonadi-kde4:i386 (4.5.1-0ubuntu1), libkabc4:i386 (4.5.1-0ubuntu1), libkresources4:i386 (4.5.1-0ubuntu1), libkpimutils4:i386 (4.5.1-0ubuntu1), mixxx-data:i386 (1.8.1-1), libkcal4:i386 (4.5.1-0ubuntu1), libknewstuff2-4:i386 (4.5.1-0ubuntu8), libkimap4:i386 (4.5.1-0ubuntu1), libkmime4:i386 (4.5.1-0ubuntu1), libakonadi-kabc4:i386 (4.5.1-0ubuntu1), akonadi-server:i386 (1.4.0-0ubuntu1), libakonadi-kcal4:i386 (4.5.1-0ubuntu1), libakonadi-kmime4:i386 (4.5.1-0ubuntu1), kdepimlibs-kio-plugins:i386 (4.5.1-0ubuntu1)
+End-Date: 2010-11-03 20:22:08
+
+Start-Date: 2010-11-05 23:46:57
+Upgrade: libpurple0:i386 (2.7.3-1ubuntu3, 2.7.5-1ubuntu1~pidgin2.10.10), libcupscgi1:i386 (1.4.4-6ubuntu2.1, 1.4.4-6ubuntu2.2), cups-client:i386 (1.4.4-6ubuntu2.1, 1.4.4-6ubuntu2.2), libcupsmime1:i386 (1.4.4-6ubuntu2.1, 1.4.4-6ubuntu2.2), pidgin-data:i386 (2.7.3-1ubuntu3, 2.7.5-1ubuntu1~pidgin2.10.10), cups-ppdc:i386 (1.4.4-6ubuntu2.1, 1.4.4-6ubuntu2.2), libcupsppdc1:i386 (1.4.4-6ubuntu2.1, 1.4.4-6ubuntu2.2), cups-common:i386 (1.4.4-6ubuntu2.1, 1.4.4-6ubuntu2.2), libcups2:i386 (1.4.4-6ubuntu2.1, 1.4.4-6ubuntu2.2), flashplugin-installer:i386 (10.1.85.3ubuntu1, 10.1.102.64ubuntu0.10.10.1), cups:i386 (1.4.4-6ubuntu2.1, 1.4.4-6ubuntu2.2), libcupsdriver1:i386 (1.4.4-6ubuntu2.1, 1.4.4-6ubuntu2.2), cups-bsd:i386 (1.4.4-6ubuntu2.1, 1.4.4-6ubuntu2.2), sysvinit-utils:i386 (2.87dsf-4ubuntu18, 2.87dsf-4ubuntu19), libfreetype6:i386 (2.4.2-2, 2.4.2-2ubuntu0.1), libpurple-bin:i386 (2.7.3-1ubuntu3, 2.7.5-1ubuntu1~pidgin2.10.10), libcupsimage2:i386 (1.4.4-6ubuntu2.1, 1.4.4-6ubuntu2.2), pidgin:i386 (2.7.3-1ubuntu3, 2.7.5-1ubuntu1~pidgin2.10.10), docky-dbg:i386 (2.1.0~bzr1661-0ubuntu1~10.10~dockycore1, 2.1.0~bzr1665-0ubuntu1~10.10~dockycore1), sysv-rc:i386 (2.87dsf-4ubuntu18, 2.87dsf-4ubuntu19), initscripts:i386 (2.87dsf-4ubuntu18, 2.87dsf-4ubuntu19), docky:i386 (2.1.0~bzr1661-0ubuntu1~10.10~dockycore1, 2.1.0~bzr1665-0ubuntu1~10.10~dockycore1), xserver-xorg-video-intel:i386 (2.12.0-1ubuntu5, 2.12.0-1ubuntu5.1)
+End-Date: 2010-11-05 23:48:51
+
+Start-Date: 2010-11-10 17:58:58
+Upgrade: gnome-keyring:i386 (2.92.92.is.2.31.91-0ubuntu4, 2.92.92.is.2.31.91-0ubuntu4.1), evolution-common:i386 (2.30.3-1ubuntu7, 2.30.3-1ubuntu7.1), plymouth-theme-ubuntu-text:i386 (0.8.2-2ubuntu5, 0.8.2-2ubuntu5.1), libc-bin:i386 (2.12.1-0ubuntu8, 2.12.1-0ubuntu9), gwibber-service:i386 (2.32.0.2-0ubuntu1, 2.32.1-0ubuntu1), python-dockmanager:i386 (0.1.0~bzr70-0ubuntu1~10.10~dockers1, 0.1.0~bzr73-0ubuntu1~10.10~dockers1), libapparmor1:i386 (2.5.1~rc1-0ubuntu2, 2.5.1-0ubuntu0.10.10.2), libplymouth2:i386 (0.8.2-2ubuntu5, 0.8.2-2ubuntu5.1), plymouth-x11:i386 (0.8.2-2ubuntu5, 0.8.2-2ubuntu5.1), evolution:i386 (2.30.3-1ubuntu7, 2.30.3-1ubuntu7.1), libapparmor-perl:i386 (2.5.1~rc1-0ubuntu2, 2.5.1-0ubuntu0.10.10.2), chromium-browser-inspector:i386 (7.0.517.41~r62167-0ubuntu0.10.10.1, 7.0.517.44~r64615-0ubuntu0.10.10.1), rhythmbox:i386 (0.13.1-0ubuntu5, 0.13.1-0ubuntu6), plymouth-label:i386 (0.8.2-2ubuntu5, 0.8.2-2ubuntu5.1), linux-image-2.6.35-23-generic:i386 (2.6.35-23.36, 2.6.35-23.37), libpam-gnome-keyring:i386 (2.92.92.is.2.31.91-0ubuntu4, 2.92.92.is.2.31.91-0ubuntu4.1), libc-dev-bin:i386 (2.12.1-0ubuntu8, 2.12.1-0ubuntu9), chromium-browser:i386 (7.0.517.41~r62167-0ubuntu0.10.10.1, 7.0.517.44~r64615-0ubuntu0.10.10.1), libcairo2:i386 (1.10.0-1ubuntu2, 1.10.0-1ubuntu3), light-themes:i386 (0.1.8.2, 0.1.8.3), linux-libc-dev:i386 (2.6.35-1023.36, 2.6.35-1023.37), humanity-icon-theme:i386 (0.5.3.2, 0.5.3.3), wisotool:i386 (0.0+20100731, 0.0+20101106), libevolution:i386 (2.30.3-1ubuntu7, 2.30.3-1ubuntu7.1), software-center:i386 (3.0.5, 3.0.6), libgp11-0:i386 (2.92.92.is.2.31.91-0ubuntu4, 2.92.92.is.2.31.91-0ubuntu4.1), libgcr0:i386 (2.92.92.is.2.31.91-0ubuntu4, 2.92.92.is.2.31.91-0ubuntu4.1), rhythmbox-plugin-cdrecorder:i386 (0.13.1-0ubuntu5, 0.13.1-0ubuntu6), winetricks:i386 (0.0+20100917-0ubuntu1~maverickppa1, 0.0+20101106-0ubuntu1~maverickppa1), libvpx0:i386 (0.9.2-1build1, 0.9.2-1ubuntu0.1), vino:i386 (2.32.0-0ubuntu1, 2.32.0-0ubuntu1.1), plymouth-theme-ubuntu-logo:i386 (0.8.2-2ubuntu5, 0.8.2-2ubuntu5.1), evolution-plugins:i386 (2.30.3-1ubuntu7, 2.30.3-1ubuntu7.1), nautilus-share:i386 (0.7.2-13, 0.7.2-13.1), rhythmbox-plugins:i386 (0.13.1-0ubuntu5, 0.13.1-0ubuntu6), dockmanager:i386 (0.1.0~bzr70-0ubuntu1~10.10~dockers1, 0.1.0~bzr73-0ubuntu1~10.10~dockers1), libldap-2.4-2:i386 (2.4.23-0ubuntu3.2, 2.4.23-0ubuntu3.3), libc6-dev:i386 (2.12.1-0ubuntu8, 2.12.1-0ubuntu9), apparmor:i386 (2.5.1~rc1-0ubuntu2, 2.5.1-0ubuntu0.10.10.2), indicator-sound:i386 (0.4.9-0ubuntu1, 0.5.0-0ubuntu1), docky-dbg:i386 (2.1.0~bzr1665-0ubuntu1~10.10~dockycore1, 2.1.0~bzr1672-0ubuntu1~10.10~dockycore1), apparmor-utils:i386 (2.5.1~rc1-0ubuntu2, 2.5.1-0ubuntu0.10.10.2), libc6:i386 (2.12.1-0ubuntu8, 2.12.1-0ubuntu9), docky:i386 (2.1.0~bzr1665-0ubuntu1~10.10~dockycore1, 2.1.0~bzr1672-0ubuntu1~10.10~dockycore1), plymouth:i386 (0.8.2-2ubuntu5, 0.8.2-2ubuntu5.1)
+End-Date: 2010-11-10 18:02:56
+
+Start-Date: 2010-11-13 09:41:46
+Upgrade: libpurple0:i386 (2.7.5-1ubuntu1~pidgin2.10.10, 2.7.5-1ubuntu2+pidgin1.10.10), gwibber-service:i386 (2.32.1-0ubuntu1, 2.32.2-0ubuntu1), update-manager:i386 (0.142.21, 0.142.22), update-manager-core:i386 (0.142.21, 0.142.22), ubuntu-sso-client:i386 (1.0.4-0ubuntu1, 1.0.7-0ubuntu1), python-libxml2:i386 (2.7.7.dfsg-4, 2.7.7.dfsg-4ubuntu0.1), mysql-common:i386 (5.1.49-1ubuntu8, 5.1.49-1ubuntu8.1), pidgin-data:i386 (2.7.5-1ubuntu1~pidgin2.10.10, 2.7.5-1ubuntu2+pidgin1.10.10), libgadu3:i386 (1.9.0~rc2-1, 1.9.0-1~pidgin1.10.10), libx264-98:i386 (0.98.1653+git88b90d9-3, 0.98.1653+git88b90d9-3ubuntu1), tzdata-java:i386 (2010m-0ubuntu0.10.10, 2010o-0ubuntu0.10.10), libxml2:i386 (2.7.7.dfsg-4, 2.7.7.dfsg-4ubuntu0.1), gimp:i386 (2.6.10-1ubuntu3, 2.6.10-1ubuntu3.1), libgimp2.0:i386 (2.6.10-1ubuntu3, 2.6.10-1ubuntu3.1), libmysqlclient16:i386 (5.1.49-1ubuntu8, 5.1.49-1ubuntu8.1), libpurple-bin:i386 (2.7.5-1ubuntu1~pidgin2.10.10, 2.7.5-1ubuntu2+pidgin1.10.10), tzdata:i386 (2010m-0ubuntu0.10.10, 2010o-0ubuntu0.10.10), pidgin:i386 (2.7.5-1ubuntu1~pidgin2.10.10, 2.7.5-1ubuntu2+pidgin1.10.10), docky-dbg:i386 (2.1.0~bzr1672-0ubuntu1~10.10~dockycore1, 2.1.0~bzr1680-0ubuntu1~10.10~dockycore1), libxml2-utils:i386 (2.7.7.dfsg-4, 2.7.7.dfsg-4ubuntu0.1), gimp-data:i386 (2.6.10-1ubuntu3, 2.6.10-1ubuntu3.1), docky:i386 (2.1.0~bzr1672-0ubuntu1~10.10~dockycore1, 2.1.0~bzr1680-0ubuntu1~10.10~dockycore1)
+End-Date: 2010-11-13 09:43:15
+
+Start-Date: 2010-11-19 12:22:07
+Upgrade: libc-bin:i386 (2.12.1-0ubuntu9, 2.12.1-0ubuntu10), python-dockmanager:i386 (0.1.0~bzr73-0ubuntu1~10.10~dockers1, 0.1.0~bzr74-0ubuntu1~10.10~dockers1), gnome-settings-daemon:i386 (2.32.0-0ubuntu3, 2.32.0-0ubuntu3.1), libibus2:i386 (1.3.7-1ubuntu3, 1.3.7-1ubuntu4), ibus-gtk:i386 (1.3.7-1ubuntu3, 1.3.7-1ubuntu4), linux-image-2.6.35-23-generic:i386 (2.6.35-23.37, 2.6.35-23.40), libc-dev-bin:i386 (2.12.1-0ubuntu9, 2.12.1-0ubuntu10), linux-libc-dev:i386 (2.6.35-1023.37, 2.6.35-1023.40), udev:i386 (162-2.1, 162-2.2), flashplugin-installer:i386 (10.1.102.64ubuntu0.10.10.1, 10.1.102.65ubuntu0.10.10.1), libgudev-1.0-0:i386 (162-2.1, 162-2.2), dockmanager:i386 (0.1.0~bzr73-0ubuntu1~10.10~dockers1, 0.1.0~bzr74-0ubuntu1~10.10~dockers1), libudev0:i386 (162-2.1, 162-2.2), ibus:i386 (1.3.7-1ubuntu3, 1.3.7-1ubuntu4), libc6-dev:i386 (2.12.1-0ubuntu9, 2.12.1-0ubuntu10), libssl0.9.8:i386 (0.9.8o-1ubuntu4.1, 0.9.8o-1ubuntu4.2), indicator-sound:i386 (0.5.0-0ubuntu1, 0.5.0.1-0ubuntu1), docky-dbg:i386 (2.1.0~bzr1680-0ubuntu1~10.10~dockycore1, 2.1.0~bzr1699-0ubuntu1~10.10~dockycore1), openssl:i386 (0.9.8o-1ubuntu4.1, 0.9.8o-1ubuntu4.2), libc6:i386 (2.12.1-0ubuntu9, 2.12.1-0ubuntu10), python-ibus:i386 (1.3.7-1ubuntu3, 1.3.7-1ubuntu4), docky:i386 (2.1.0~bzr1680-0ubuntu1~10.10~dockycore1, 2.1.0~bzr1699-0ubuntu1~10.10~dockycore1)
+End-Date: 2010-11-19 12:24:43
+
+Start-Date: 2010-11-22 21:27:16
+Install: vgrabbj:i386 (0.9.6-3.2, automatic), ftplib3:i386 (3.1-1-8, automatic), stopmotion:i386 (0.6.2-1)
+End-Date: 2010-11-22 21:27:38
+
+Start-Date: 2010-11-22 21:28:02
+Install: python-gudev:i386 (147.2-1, automatic), arista:i386 (0.9.5-1ubuntu1)
+End-Date: 2010-11-22 21:28:12
+
+Start-Date: 2010-11-23 16:25:01
+Upgrade: libqt4-opengl:i386 (4.7.0-0ubuntu4.1, 4.7.0-0ubuntu4.2), libutouch-grail1:i386 (1.0.15-0ubuntu1, 1.0.16-0ubuntu1), libqt4-test:i386 (4.7.0-0ubuntu4.1, 4.7.0-0ubuntu4.2), libqt4-sql-mysql:i386 (4.7.0-0ubuntu4.1, 4.7.0-0ubuntu4.2), libqt4-dbus:i386 (4.7.0-0ubuntu4.1, 4.7.0-0ubuntu4.2), libpango1.0-common:i386 (1.28.1-1ubuntu3, 1.28.2-0ubuntu1), nautilus-sendto-empathy:i386 (2.32.0.1-0ubuntu1, 2.32.1-0ubuntu1), libqt4-xmlpatterns:i386 (4.7.0-0ubuntu4.1, 4.7.0-0ubuntu4.2), libqt4-help:i386 (4.7.0-0ubuntu4.1, 4.7.0-0ubuntu4.2), libpango1.0-0:i386 (1.28.1-1ubuntu3, 1.28.2-0ubuntu1), libqtcore4:i386 (4.7.0-0ubuntu4.1, 4.7.0-0ubuntu4.2), libqt4-sql-sqlite:i386 (4.7.0-0ubuntu4.1, 4.7.0-0ubuntu4.2), ttf-mscorefonts-installer:i386 (3.2, 3.2ubuntu1), libqt4-sql:i386 (4.7.0-0ubuntu4.1, 4.7.0-0ubuntu4.2), libglib2.0-data:i386 (2.26.0-0ubuntu1, 2.26.1-0ubuntu1), libqt4-svg:i386 (4.7.0-0ubuntu4.1, 4.7.0-0ubuntu4.2), libqt4-xml:i386 (4.7.0-0ubuntu4.1, 4.7.0-0ubuntu4.2), libqt4-network:i386 (4.7.0-0ubuntu4.1, 4.7.0-0ubuntu4.2), libqt4-designer:i386 (4.7.0-0ubuntu4.1, 4.7.0-0ubuntu4.2), libldap-2.4-2:i386 (2.4.23-0ubuntu3.3, 2.4.23-0ubuntu3.4), libqtgui4:i386 (4.7.0-0ubuntu4.1, 4.7.0-0ubuntu4.2), libglib2.0-0:i386 (2.26.0-0ubuntu1, 2.26.1-0ubuntu1), libqt4-script:i386 (4.7.0-0ubuntu4.1, 4.7.0-0ubuntu4.2), libqt4-scripttools:i386 (4.7.0-0ubuntu4.1, 4.7.0-0ubuntu4.2), empathy-common:i386 (2.32.0.1-0ubuntu1, 2.32.1-0ubuntu1)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2010-11-23 16:26:14
+
+Start-Date: 2010-11-23 16:26:52
+Upgrade: ttf-mscorefonts-installer:i386 (3.2, 3.2ubuntu1)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2010-11-23 16:27:00
+
+Start-Date: 2010-11-26 17:16:11
+Commandline: apt-get install ndisgtk
+Install: ndiswrapper-common:i386 (1.56-3, automatic), ndisgtk:i386 (0.8.5-1), ndiswrapper-utils-1.9:i386 (1.56-3, automatic)
+End-Date: 2010-11-26 17:16:35
+
+Start-Date: 2010-11-29 00:25:37
+Install: hedgewars-data:i386 (0.9.13-1, automatic), libsdl-net1.2:i386 (1.2.7-2, automatic), hedgewars:i386 (0.9.13-1), libmikmod2:i386 (3.1.11-a-6.3, automatic), libsdl-mixer1.2:i386 (1.2.8-6build1, automatic), libsmpeg0:i386 (0.4.5+cvs20030824-2.2, automatic)
+End-Date: 2010-11-29 00:26:02
+
+Start-Date: 2010-11-29 00:26:12
+Install: gnome-activity-journal:i386 (0.5.0.1-0ubuntu1), python-pygments:i386 (1.3.1+dfsg-1ubuntu1, automatic)
+End-Date: 2010-11-29 00:26:41
+
+Start-Date: 2010-11-29 00:26:51
+Install: libtracker-client-0.8-0:i386 (0.8.17-0ubuntu1, automatic), tracker:i386 (0.8.17-0ubuntu1), tracker-utils:i386 (0.8.17-0ubuntu1, automatic), tracker-gui:i386 (0.8.17-0ubuntu1, automatic), libunac1:i386 (1.8.0-2, automatic), libtracker-extract-0.8-0:i386 (0.8.17-0ubuntu1, automatic), tracker-miner-evolution:i386 (0.8.17-0ubuntu1, automatic), tracker-miner-fs:i386 (0.8.17-0ubuntu1, automatic), tracker-extract:i386 (0.8.17-0ubuntu1, automatic), libzip1:i386 (0.9.3-1, automatic), libtracker-miner-0.8-0:i386 (0.8.17-0ubuntu1, automatic), odt2txt:i386 (0.4+git20100620-1, automatic)
+End-Date: 2010-11-29 00:27:16
+
+Start-Date: 2010-11-29 14:44:37
+Install: libproc-simple-perl:i386 (1.26-2, automatic), libgnome2-wnck-perl:i386 (0.16-2, automatic), libsort-naturally-perl:i386 (1.02-1, automatic), libnet-ssleay-perl:i386 (1.36-1ubuntu1, automatic), gnome-web-photo:i386 (0.8-0ubuntu5, automatic), libproc-processtable-perl:i386 (0.45-1, automatic), libextutils-pkgconfig-perl:i386 (1.12-1, automatic), libfile-basedir-perl:i386 (0.03-1fakesync1, automatic), libgoo-canvas-perl:i386 (0.06-1, automatic), libfile-mimeinfo-perl:i386 (0.15-1, automatic), libgtkimageview0:i386 (1.6.4-1, automatic), libfile-which-perl:i386 (1.08-1, automatic), libhttp-server-simple-perl:i386 (0.43-1, automatic), libfile-desktopentry-perl:i386 (0.04-2, automatic), libwww-mechanize-perl:i386 (1.62-1, automatic), libxml-simple-perl:i386 (2.18-3, automatic), libx11-protocol-perl:i386 (0.56-2, automatic), libextutils-depends-perl:i386 (0.301-1, automatic), libgnome2-gconf-perl:i386 (1.044-3, automatic), shutter:i386 (0.86.3-0ubuntu2), libio-socket-ssl-perl:i386 (1.33-1, automatic), libgtk2-imageview-perl:i386 (0.05-1, automatic), libfile-homedir-perl:i386 (0.86-1, automatic), libnet-libidn-perl:i386 (0.12.ds-1, automatic)
+End-Date: 2010-11-29 14:45:54
+
+Start-Date: 2010-11-29 17:14:49
+Commandline: /usr/sbin/synaptic
+Upgrade: libpurple0:i386 (2.7.5-1ubuntu2+pidgin1.10.10, 2.7.7-1ubuntu0+pidgin1.10.10), gwibber-service:i386 (2.32.2-0ubuntu1, 2.32.2-0ubuntu2), smbclient:i386 (3.5.4~dfsg-1ubuntu8, 3.5.4~dfsg-1ubuntu8.1), gparted:i386 (0.6.2-1ubuntu1, 0.6.2-1ubuntu1.1), xserver-common:i386 (1.9.0-0ubuntu7, 1.9.0-0ubuntu7.1), pidgin-data:i386 (2.7.5-1ubuntu2+pidgin1.10.10, 2.7.7-1ubuntu0+pidgin1.10.10), xserver-xorg-core:i386 (1.9.0-0ubuntu7, 1.9.0-0ubuntu7.1), libsmbclient:i386 (3.5.4~dfsg-1ubuntu8, 3.5.4~dfsg-1ubuntu8.1), jockey-common:i386 (0.5.10-0ubuntu5.1, 0.5.10-0ubuntu5.2), libvlc5:i386 (1.1.4-1ubuntu1, 1.1.4-1ubuntu1.1), samba-common-bin:i386 (3.5.4~dfsg-1ubuntu8, 3.5.4~dfsg-1ubuntu8.1), telepathy-haze:i386 (0.4.0-1, 0.4.0-1ubuntu0.1), vlc-nox:i386 (1.1.4-1ubuntu1, 1.1.4-1ubuntu1.1), update-inetd:i386 (4.36, 4.36ubuntu0.1), ttf-mscorefonts-installer:i386 (3.2, 3.2ubuntu2), samba:i386 (3.5.4~dfsg-1ubuntu8, 3.5.4~dfsg-1ubuntu8.1), xdg-utils:i386 (1.0.2+cvs20100307-1, 1.0.2+cvs20100307-1ubuntu0.1), libwbclient0:i386 (3.5.4~dfsg-1ubuntu8, 3.5.4~dfsg-1ubuntu8.1), vlc:i386 (1.1.4-1ubuntu1, 1.1.4-1ubuntu1.1), vlc-plugin-notify:i386 (1.1.4-1ubuntu1, 1.1.4-1ubuntu1.1), libpurple-bin:i386 (2.7.5-1ubuntu2+pidgin1.10.10, 2.7.7-1ubuntu0+pidgin1.10.10), pidgin:i386 (2.7.5-1ubuntu2+pidgin1.10.10, 2.7.7-1ubuntu0+pidgin1.10.10), jockey-gtk:i386 (0.5.10-0ubuntu5.1, 0.5.10-0ubuntu5.2), docky-dbg:i386 (2.1.0~bzr1699-0ubuntu1~10.10~dockycore1, 2.1.0~bzr1706-0ubuntu1~10.10~dockycore1), vlc-plugin-pulse:i386 (1.1.4-1ubuntu1, 1.1.4-1ubuntu1.1), vlc-data:i386 (1.1.4-1ubuntu1, 1.1.4-1ubuntu1.1), samba-common:i386 (3.5.4~dfsg-1ubuntu8, 3.5.4~dfsg-1ubuntu8.1), gnome-system-tools:i386 (2.32.0-0ubuntu1, 2.32.0-0ubuntu1.1), pidgin-ppa:i386 (0.0.3, 0.0.4), winbind:i386 (3.5.4~dfsg-1ubuntu8, 3.5.4~dfsg-1ubuntu8.1), libpam-smbpass:i386 (3.5.4~dfsg-1ubuntu8, 3.5.4~dfsg-1ubuntu8.1), libvlccore4:i386 (1.1.4-1ubuntu1, 1.1.4-1ubuntu1.1), docky:i386 (2.1.0~bzr1699-0ubuntu1~10.10~dockycore1, 2.1.0~bzr1706-0ubuntu1~10.10~dockycore1), nvidia-96-modaliases:i386 (96.43.18-0ubuntu1, 96.43.19-0ubuntu1)
+End-Date: 2010-11-29 17:16:51
+
+Start-Date: 2010-10-04 19:29:27
+Install: libcommons-collections3-java (3.2.1-4), libecj-java (3.5.1-1), realpath (1.15build1), libgcj-bc (4.4.3-4ubuntu1), eclipse-rcp (3.5.2-2ubuntu4.2), libcommons-el-java (1.0-5), libcommons-compress-java (1.0-1), libregexp-java (1.5-2), libjasper-java (5.5.26-5), libcommons-httpclient-java (3.1-9), libservlet2.4-java (5.0.30-10), liblucene2-java (2.9.2+ds1-1), libslf4j-java (1.5.10-1), eclipse-platform-data (3.5.2-2ubuntu4.2), gcj-4.4-jre-lib (4.4.3-1ubuntu4), libgcj10 (4.4.3-1ubuntu4), libdb4.7-java-gcj (4.7.25-9), ant-optional-gcj (1.7.1-4ubuntu1.1), ant (1.7.1-4ubuntu1.1), libcommons-logging-java (1.1.1-7), gcj-4.4-base (4.4.3-1ubuntu4), libcommons-codec-java (1.4-2), jarwrapper (0.28), libequinox-osgi-java (3.5.2-2ubuntu4.2), libgcj-common (4.4.3-1ubuntu1), libjaxp1.3-java (1.3.04-5ubuntu3), libjetty-java (6.1.22-1ubuntu1), libjline-java (0.9.94-5), libxerces2-java (2.9.1-4ubuntu1), sat4j (2.1.1-3), libcommons-beanutils-java (1.8.2-1), libdb-je-java (3.3.62-3), fastjar (0.98-1ubuntu0.10.04.1), libdb4.7-java (4.7.25-9), libcommons-digester-java (1.8.1-2), libjtidy-java (7+svn20070309-4), libservlet2.5-java (6.0.24-2ubuntu1.3), libicu4j-java (4.0.1.1-1), eclipse-platform (3.5.2-2ubuntu4.2), libjsch-java (0.1.42-1ubuntu0.1), ant-gcj (1.7.1-4ubuntu1.1), ant-optional (1.7.1-4ubuntu1.1)
+End-Date: 2010-10-04 19:30:30
+
+Start-Date: 2010-10-05 10:09:29
+Upgrade: libportaudio2 (19+svn20090620-0ubuntu2+withjack2+0, 19+svn20100802-0ubuntu2), mixxx (1.7.2-1build1+withjack2.4, 1.8.0.1-2), mixxx-data (1.7.2-1build1+withjack2.4, 1.8.0.1-2)
+End-Date: 2010-10-05 10:09:47
+
+Start-Date: 2010-10-06 10:27:53
+Upgrade: libkrb5-3 (1.8.1+dfsg-2ubuntu0.2, 1.8.1+dfsg-2ubuntu0.3), filezilla (3.3.1-1ubuntu1, 3.3.1-1ubuntu2), gwibber-service (2.30.2-0ubuntu2, 2.30.2-0ubuntu3), libkrb5support0 (1.8.1+dfsg-2ubuntu0.2, 1.8.1+dfsg-2ubuntu0.3), libk5crypto3 (1.8.1+dfsg-2ubuntu0.2, 1.8.1+dfsg-2ubuntu0.3), python-imaging (1.1.7-1, 1.1.7-1ubuntu0.1), dpkg (1.15.5.6ubuntu4.3, 1.15.5.6ubuntu4.4), dpkg-dev (1.15.5.6ubuntu4.3, 1.15.5.6ubuntu4.4), filezilla-common (3.3.1-1ubuntu1, 3.3.1-1ubuntu2), docky-dbg (2.1.0~bzr1647-0ubuntu1~10.04~dockycore1, 2.1.0~bzr1652-0ubuntu1~10.04~dockycore1), man-db (2.5.7-2, 2.5.7-2ubuntu1), libgssapi-krb5-2 (1.8.1+dfsg-2ubuntu0.2, 1.8.1+dfsg-2ubuntu0.3), docky (2.1.0~bzr1647-0ubuntu1~10.04~dockycore1, 2.1.0~bzr1652-0ubuntu1~10.04~dockycore1)
+End-Date: 2010-10-06 10:28:47
+
+Start-Date: 2010-10-07 09:02:06
+Upgrade: dmsetup (1.02.39-1ubuntu4, 1.02.39-1ubuntu4.1), libdevmapper1.02.1 (1.02.39-1ubuntu4, 1.02.39-1ubuntu4.1)
+End-Date: 2010-10-07 09:02:30
+
+Start-Date: 2010-10-07 22:10:15
+Install: guake (0.4.1-3)
+End-Date: 2010-10-07 22:10:36
+
+Start-Date: 2010-10-08 09:20:24
+Upgrade: erlang-inets (13.b.3-dfsg-2ubuntu2, 13.b.3-dfsg-2ubuntu2.1), erlang-syntax-tools (13.b.3-dfsg-2ubuntu2, 13.b.3-dfsg-2ubuntu2.1), erlang-mnesia (13.b.3-dfsg-2ubuntu2, 13.b.3-dfsg-2ubuntu2.1), erlang-xmerl (13.b.3-dfsg-2ubuntu2, 13.b.3-dfsg-2ubuntu2.1), mixxx (1.8.0.1-2, 1.8.0.2-2), tzdata-java (2010l-0ubuntu0.10.04, 2010m-0ubuntu0.10.04), mixxx-data (1.8.0.1-2, 1.8.0.2-2), erlang-crypto (13.b.3-dfsg-2ubuntu2, 13.b.3-dfsg-2ubuntu2.1), tzdata (2010l-0ubuntu0.10.04, 2010m-0ubuntu0.10.04), libssl0.9.8 (0.9.8k-7ubuntu8.2, 0.9.8k-7ubuntu8.3), indicator-sound (0.2.3-0ubuntu1, 0.2.5-0ubuntu1), libpq5 (8.4.4-0ubuntu10.04, 8.4.5-0ubuntu10.04), openssl (0.9.8k-7ubuntu8.2, 0.9.8k-7ubuntu8.3), erlang-ssl (13.b.3-dfsg-2ubuntu2, 13.b.3-dfsg-2ubuntu2.1), erlang-runtime-tools (13.b.3-dfsg-2ubuntu2, 13.b.3-dfsg-2ubuntu2.1), mountall (2.15.2, 2.15.3), erlang-base (13.b.3-dfsg-2ubuntu2, 13.b.3-dfsg-2ubuntu2.1), erlang-public-key (13.b.3-dfsg-2ubuntu2, 13.b.3-dfsg-2ubuntu2.1)
+End-Date: 2010-10-08 09:21:12
+
+Start-Date: 2010-10-15 10:51:32
+Install: libdbus-glib1.0-cil (0.5.0-2~10.04~dockycore1), libdbus1.0-cil (0.7.0-2~10.04~dockycore1)
+Upgrade: libc-bin (2.11.1-0ubuntu7.3, 2.11.1-0ubuntu7.4), update-manager (0.134.10, 0.134.11), nautilus (2.31.1-0ubuntu1~ppa91, 2.31.1-0ubuntu2~ppa92), ubuntu-tweak (0.5.6-1~lucid1, 0.5.7-1~lucid1), update-manager-core (0.134.10, 0.134.11), libc-dev-bin (2.11.1-0ubuntu7.3, 2.11.1-0ubuntu7.4), nautilus-data (2.31.1-0ubuntu1~ppa91, 2.31.1-0ubuntu2~ppa92), libc6-i686 (2.11.1-0ubuntu7.3, 2.11.1-0ubuntu7.4), app-install-data-partner (12.10.04.3, 12.10.04.4), libc6-dev (2.11.1-0ubuntu7.3, 2.11.1-0ubuntu7.4), update-manager-kde (0.134.10, 0.134.11), docky-dbg (2.1.0~bzr1652-0ubuntu1~10.04~dockycore1, 2.1.0~bzr1656-0ubuntu1~10.04~dockycore1), libservlet2.5-java (6.0.24-2ubuntu1.3, 6.0.24-2ubuntu1.4), libnautilus-extension1 (2.31.1-0ubuntu1~ppa91, 2.31.1-0ubuntu2~ppa92), libc6 (2.11.1-0ubuntu7.3, 2.11.1-0ubuntu7.4), gnome-exe-thumbnailer (0.5-0ubuntu1~lucidppa1, 0.7-0ubuntu1~lucid1), docky (2.1.0~bzr1652-0ubuntu1~10.04~dockycore1, 2.1.0~bzr1656-0ubuntu1~10.04~dockycore1)
+End-Date: 2010-10-15 10:53:04
+
+Start-Date: 2010-10-16 10:56:00
+Upgrade: libwebkit-1.0-2 (1.2.0-1, 1.2.5-0ubuntu0.10.04.1), icoutils (0.26.0-4ubuntu1, 0.29.1-0ubuntu1~lucid), libwebkit-1.0-common (1.2.0-1, 1.2.5-0ubuntu0.10.04.1)
+End-Date: 2010-10-16 10:56:12
+
+Start-Date: 2010-10-17 09:44:23
+Install: ubuntuone-indicator (0.0.5-0ubuntu1)
+End-Date: 2010-10-17 09:44:51
+
+Start-Date: 2010-10-18 18:11:51
+Remove: guake (0.4.1-3)
+End-Date: 2010-10-18 18:12:13
+
+Start-Date: 2010-10-18 18:12:18
+Remove: kakasi-dic (2.3.4-3.2), python-sqlalchemy (0.5.8-1), kakasi (2.3.4-3.2), anki (0.9.9.8.6-2~lucid1), ttf-lyx (1.6.6-0ubuntu0+ppa1), python-beautifulsoup (3.1.0.1-2build1), python-tz (2010b-1), python-matplotlib-data (0.99.1.2-3ubuntu1), python-dateutil (1.4.1-3), python-pyparsing (1.5.2-1ubuntu1), python-matplotlib (0.99.1.2-3ubuntu1)
+End-Date: 2010-10-18 18:12:42
+
+Start-Date: 2010-10-18 18:12:52
+Remove: libpng3 (1.2.42-1ubuntu2.1), kobo-desktop (1.4-1)
+End-Date: 2010-10-18 18:12:55
+
+Start-Date: 2010-10-18 18:17:31
+Remove: libcommons-collections3-java (3.2.1-4), libecj-java (3.5.1-1), realpath (1.15build1), libgcj-bc (4.4.3-4ubuntu1), eclipse-rcp (3.5.2-2ubuntu4.2), libcommons-el-java (1.0-5), libcommons-compress-java (1.0-1), libregexp-java (1.5-2), libjasper-java (5.5.26-5), libcommons-httpclient-java (3.1-9), libservlet2.4-java (5.0.30-10), liblucene2-java (2.9.2+ds1-1), libslf4j-java (1.5.10-1), eclipse-platform-data (3.5.2-2ubuntu4.2), gcj-4.4-jre-lib (4.4.3-1ubuntu4), libgcj10 (4.4.3-1ubuntu4), libdb4.7-java-gcj (4.7.25-9), ant-optional-gcj (1.7.1-4ubuntu1.1), ant (1.7.1-4ubuntu1.1), libcommons-logging-java (1.1.1-7), gcj-4.4-base (4.4.3-1ubuntu4), libcommons-codec-java (1.4-2), jarwrapper (0.28), libequinox-osgi-java (3.5.2-2ubuntu4.2), libgcj-common (4.4.3-1ubuntu1), libjaxp1.3-java (1.3.04-5ubuntu3), libjetty-java (6.1.22-1ubuntu1), libjline-java (0.9.94-5), libxerces2-java (2.9.1-4ubuntu1), sat4j (2.1.1-3), libcommons-beanutils-java (1.8.2-1), libdb-je-java (3.3.62-3), fastjar (0.98-1ubuntu0.10.04.1), libdb4.7-java (4.7.25-9), libcommons-digester-java (1.8.1-2), libjtidy-java (7+svn20070309-4), libservlet2.5-java (6.0.24-2ubuntu1.4), libicu4j-java (4.0.1.1-1), eclipse-platform (3.5.2-2ubuntu4.2), libjsch-java (0.1.42-1ubuntu0.1), ant-gcj (1.7.1-4ubuntu1.1), ant-optional (1.7.1-4ubuntu1.1)
+End-Date: 2010-10-18 18:18:03
+
+Start-Date: 2010-10-20 20:10:21
+Upgrade: python-dockmanager (0.1.0~bzr69-0ubuntu1~10.04~dockers1, 0.1.0~bzr70-0ubuntu1~10.04~dockers1), linux-libc-dev (2.6.32-25.44, 2.6.32-25.45), linux-image-2.6.32-25-generic (2.6.32-25.44, 2.6.32-25.45), mixxx (1.8.0.2-2, 1.8.1-1), libpoppler5 (0.12.4-0ubuntu5, 0.12.4-0ubuntu5.1), mixxx-data (1.8.0.2-2, 1.8.1-1), dockmanager (0.1.0~bzr69-0ubuntu1~10.04~dockers1, 0.1.0~bzr70-0ubuntu1~10.04~dockers1), poppler-utils (0.12.4-0ubuntu5, 0.12.4-0ubuntu5.1), docky-dbg (2.1.0~bzr1656-0ubuntu1~10.04~dockycore1, 2.1.0~bzr1658-0ubuntu1~10.04~dockycore1), docky (2.1.0~bzr1656-0ubuntu1~10.04~dockycore1, 2.1.0~bzr1658-0ubuntu1~10.04~dockycore1), libpoppler-glib4 (0.12.4-0ubuntu5, 0.12.4-0ubuntu5.1)
+End-Date: 2010-10-20 20:11:44
+
+Start-Date: 2010-10-21 18:24:36
+Upgrade: xulrunner-1.9.2 (1.9.2.10+build1+nobinonly-0ubuntu0.10.04.1, 1.9.2.11+build3+nobinonly-0ubuntu0.10.04.1), thunderbird (3.0.8+build2+nobinonly-0ubuntu0.10.04.1, 3.0.9+build1+nobinonly-0ubuntu0.10.04.1), libnspr4-0d (4.8.4-0ubuntu1, 4.8.6-0ubuntu0.10.04.2), firefox (3.6.10+build1+nobinonly-0ubuntu0.10.04.1, 3.6.11+build3+nobinonly-0ubuntu0.10.04.1), firefox-gnome-support (3.6.10+build1+nobinonly-0ubuntu0.10.04.1, 3.6.11+build3+nobinonly-0ubuntu0.10.04.1), firefox-branding (3.6.10+build1+nobinonly-0ubuntu0.10.04.1, 3.6.11+build3+nobinonly-0ubuntu0.10.04.1), libnss3-1d (3.12.6-0ubuntu3, 3.12.8-0ubuntu0.10.04.1)
+End-Date: 2010-10-21 18:25:03
+
+Start-Date: 2010-10-30 21:09:04
+Upgrade: kdelibs4c2a (3.5.10.dfsg.1-3ubuntu2, 3.5.10.dfsg.1-3ubuntu2.10.04.1), libc-bin (2.11.1-0ubuntu7.4, 2.11.1-0ubuntu7.5), xulrunner-1.9.2 (1.9.2.11+build3+nobinonly-0ubuntu0.10.04.1, 1.9.2.12+build1+nobinonly-0ubuntu0.10.04.1), icedtea6-plugin (6b18-1.8.1-0ubuntu1, 6b18-1.8.2-4ubuntu2), chromium-browser-inspector (6.0.472.62~r59676-0ubuntu0.10.04.1, 7.0.517.41~r62167-0ubuntu0.10.04.1), thunderbird (3.0.9+build1+nobinonly-0ubuntu0.10.04.1, 3.0.10+build1+nobinonly-0ubuntu0.10.04.1), kdelibs-data (3.5.10.dfsg.1-3ubuntu2, 3.5.10.dfsg.1-3ubuntu2.10.04.1), libc-dev-bin (2.11.1-0ubuntu7.4, 2.11.1-0ubuntu7.5), chromium-browser (6.0.472.62~r59676-0ubuntu0.10.04.1, 7.0.517.41~r62167-0ubuntu0.10.04.1), icedtea-6-jre-cacao (6b18-1.8.1-0ubuntu1, 6b18-1.8.2-4ubuntu2), linux-libc-dev (2.6.32-25.45, 2.6.32-26.46), libc6-i686 (2.11.1-0ubuntu7.4, 2.11.1-0ubuntu7.5), udev (151-12.1, 151-12.2), firefox (3.6.11+build3+nobinonly-0ubuntu0.10.04.1, 3.6.12+build1+nobinonly-0ubuntu0.10.04.1), openjdk-6-jre-headless (6b18-1.8.1-0ubuntu1, 6b18-1.8.2-4ubuntu2), openjdk-6-jre (6b18-1.8.1-0ubuntu1, 6b18-1.8.2-4ubuntu2), openjdk-6-jre-lib (6b18-1.8.1-0ubuntu1, 6b18-1.8.2-4ubuntu2), firefox-gnome-support (3.6.11+build3+nobinonly-0ubuntu0.10.04.1, 3.6.12+build1+nobinonly-0ubuntu0.10.04.1), libgudev-1.0-0 (151-12.1, 151-12.2), ubuntuone-indicator (0.0.5-0ubuntu1, 0.0.6-0ubuntu1), libudev0 (151-12.1, 151-12.2), libc6-dev (2.11.1-0ubuntu7.4, 2.11.1-0ubuntu7.5), docky-dbg (2.1.0~bzr1658-0ubuntu1~10.04~dockycore1, 2.1.0~bzr1659-0ubuntu1~10.04~dockycore1), firefox-branding (3.6.11+build3+nobinonly-0ubuntu0.10.04.1, 3.6.12+build1+nobinonly-0ubuntu0.10.04.1), python-papyon (0.4.8-0ubuntu1, 0.4.8-0ubuntu2), libc6 (2.11.1-0ubuntu7.4, 2.11.1-0ubuntu7.5), docky (2.1.0~bzr1658-0ubuntu1~10.04~dockycore1, 2.1.0~bzr1659-0ubuntu1~10.04~dockycore1)
+End-Date: 2010-10-30 21:11:07
+
+Start-Date: 2010-10-30 21:25:20
+Install: pastie (0.6.7.4~ppal1), python-keybinder (0.0.4-1)
+End-Date: 2010-10-30 21:25:31
+
+Start-Date: 2010-10-31 13:14:44
+Commandline: /usr/sbin/synaptic
+Install: slv2-jack:i386 (0.6.6-5), libportaudio2:i386 (19+svn20100802-0ubuntu1, automatic), ardour:i386 (2.8.11-1ubuntu1), jackd2:i386 (1.9.5~dfsg-19ubuntu1, automatic), phasex:i386 (0.12.0~pre1-3), jackd2-firewire:i386 (1.9.5~dfsg-19ubuntu1, automatic), hydrogen:i386 (0.9.4.1-1ubuntu3), musescore:i386 (0.9.6.3+dfsg-0ubuntu2), libportmidi0:i386 (200-0ubuntu1, automatic), hydrogen-drumkits:i386 (0.9.3.20070703-3), jackd:i386 (5, automatic)
+End-Date: 2010-10-31 13:20:17
+
+Start-Date: 2010-10-31 14:01:26
+Commandline: /usr/sbin/synaptic --hide-main-window --non-interactive -o Synaptic::closeZvt=true --parent-window-id 71303216 --set-selections-file /tmp/tmpN6Nm5o
+Install: ne-terminal-config:i386 (1.0~ppa0, automatic), libzeitgeist-1.0-0:i386 (0.2.10-0ubuntu1, automatic)
+Upgrade: openshot:i386 (1.2.2-lucid1, 1.2.2-maverick1), nautilus:i386 (2.32.0-0ubuntu1, 2.32.0-0ubuntu6~ppa160), python-dockmanager:i386 (0.1.0~bzr70-0ubuntu1~10.04~dockers1, 0.1.0~bzr70-0ubuntu1~10.10~dockers1), libdbus-glib1.0-cil:i386 (0.5.0-2~10.04~dockycore1, 0.5.0-2~10.10~dockycore1), ubuntu-tweak:i386 (0.5.7-1~lucid1, 0.5.7-1~maverick1), wine1.2:i386 (1.2.1-0ubuntu1, 1.2.1-1ubuntu1), nautilus-data:i386 (2.32.0-0ubuntu1, 2.32.0-0ubuntu6~ppa160), shotwell:i386 (0.7.2-1~lucid1, 0.7.2-1~maverick1), winetricks:i386 (0.0+20100917-0ubuntu1~lucidppa1, 0.0+20100917-0ubuntu1~maverickppa1), wine:i386 (1.2.1-0ubuntu1, 1.2.1-1ubuntu1), ttf-symbol-replacement:i386 (1.2.1-0ubuntu1, 1.2.1-1ubuntu1), dockmanager:i386 (0.1.0~bzr70-0ubuntu1~10.04~dockers1, 0.1.0~bzr70-0ubuntu1~10.10~dockers1), docky-dbg:i386 (2.1.0~bzr1659-0ubuntu1~10.04~dockycore1, 2.1.0~bzr1661-0ubuntu1~10.10~dockycore1), libdbus1.0-cil:i386 (0.7.0-2~10.04~dockycore1, 0.7.0-2~10.10~dockycore1), openshot-doc:i386 (1.2.2-lucid1, 1.2.2-maverick1), libnautilus-extension1:i386 (2.32.0-0ubuntu1, 2.32.0-0ubuntu6~ppa160), docky:i386 (2.1.0~bzr1659-0ubuntu1~10.04~dockycore1, 2.1.0~bzr1661-0ubuntu1~10.10~dockycore1)
+End-Date: 2010-10-31 14:02:48
+
+Start-Date: 2010-09-01 08:48:09
+Upgrade: ubuntu-tweak (0.5.5-1~lucid1, 0.5.6-1~lucid1), usb-creator-gtk (0.2.22, 0.2.22.1), usb-creator-common (0.2.22, 0.2.22.1), bogofilter-bdb (1.2.1-0ubuntu1, 1.2.1-0ubuntu1.1), bogofilter (1.2.1-0ubuntu1, 1.2.1-0ubuntu1.1), libwww-perl (5.834-1, 5.834-1ubuntu0.1), bogofilter-common (1.2.1-0ubuntu1, 1.2.1-0ubuntu1.1)
+End-Date: 2010-09-01 08:48:48
+
+Start-Date: 2010-09-03 10:50:29
+Install: linux-image-2.6.32-25-generic (2.6.32-25.43)
+Upgrade: gwibber-service (2.30.1-0ubuntu1, 2.30.2-0ubuntu1), linux (2.6.32.24.25, 2.6.32.25.27), linux-image-generic (2.6.32.24.25, 2.6.32.25.27), libcouchdb-glib-1.0-2 (0.6.3-0ubuntu1, 0.6.3-0ubuntu2), linux-libc-dev (2.6.32-24.42, 2.6.32-25.43), linux-image (2.6.32.24.25, 2.6.32.25.27), wget (1.12-1.1ubuntu2, 1.12-1.1ubuntu2.1), libdesktopcouch-glib-1.0-2 (0.6.3-0ubuntu1, 0.6.3-0ubuntu2), docky-dbg (2.1.0~bzr1618-0ubuntu1~10.04~dockycore1, 2.1.0~bzr1620-0ubuntu1~10.04~dockycore1), docky (2.1.0~bzr1618-0ubuntu1~10.04~dockycore1, 2.1.0~bzr1620-0ubuntu1~10.04~dockycore1)
+End-Date: 2010-09-03 10:51:40
+
+Start-Date: 2010-09-08 09:02:36
+Upgrade: libpurple0 (2.7.1-1ubuntu1~pidgin1.10.04, 2.7.3-1ubuntu3~pidgin1.10.04), chromium-codecs-ffmpeg (0.5+svn20100406r43776+43984+43918-0ubuntu1, 0.6+svn20100811r55740+56137-0ubuntu0.10.04.1), openshot (1.1.3-1, 1.1.3-lucid1), python-dockmanager (0.1.0~bzr63-0ubuntu1~10.04~dockers1, 0.1.0~bzr66-0ubuntu1~10.04~dockers1), chromium-browser-inspector (5.0.375.127~r55887-0ubuntu0.10.04.1, 6.0.472.53~r57914-0ubuntu0.10.04.1), chromium-browser (5.0.375.127~r55887-0ubuntu0.10.04.1, 6.0.472.53~r57914-0ubuntu0.10.04.1), pidgin-data (2.7.1-1ubuntu1~pidgin1.10.04, 2.7.3-1ubuntu3~pidgin1.10.04), sudo (1.7.2p1-1ubuntu5.1, 1.7.2p1-1ubuntu5.2), libvpx0 (0.9.0-6, 0.9.1-0ubuntu0), dockmanager (0.1.0~bzr63-0ubuntu1~10.04~dockers1, 0.1.0~bzr66-0ubuntu1~10.04~dockers1), libpurple-bin (2.7.1-1ubuntu1~pidgin1.10.04, 2.7.3-1ubuntu3~pidgin1.10.04), pidgin (2.7.1-1ubuntu1~pidgin1.10.04, 2.7.3-1ubuntu3~pidgin1.10.04), openshot-doc (1.1.3-1, 1.1.3-lucid1), lftp (4.0.2-1, 4.0.2-1ubuntu0.1)
+End-Date: 2010-09-08 09:03:22
+
+Start-Date: 2010-09-09 10:08:42
+Upgrade: xulrunner-1.9.2 (1.9.2.8+build1+nobinonly-0ubuntu0.10.04.1, 1.9.2.9+build1+nobinonly-0ubuntu0.10.04.1), thunderbird (3.0.6+build2+nobinonly-0ubuntu0.10.04.1, 3.0.7+build1+nobinonly-0ubuntu0.10.04.1), firefox (3.6.8+build1+nobinonly-0ubuntu0.10.04.1, 3.6.9+build1+nobinonly-0ubuntu0.10.04.1), firefox-gnome-support (3.6.8+build1+nobinonly-0ubuntu0.10.04.1, 3.6.9+build1+nobinonly-0ubuntu0.10.04.1), firefox-branding (3.6.8+build1+nobinonly-0ubuntu0.10.04.1, 3.6.9+build1+nobinonly-0ubuntu0.10.04.1), mountall (2.15.1, 2.15.2)
+End-Date: 2010-09-09 10:09:09
+
+Start-Date: 2010-09-12 22:03:24
+Install: libpng3 (1.2.42-1ubuntu2.1)
+End-Date: 2010-09-12 22:03:30
+
+Start-Date: 2010-09-13 17:39:39
+Install: bristol-data (0.40.8-1), bristol (0.40.8-1)
+End-Date: 2010-09-13 17:39:49
+
+Start-Date: 2010-09-13 20:10:58
+Install: monobristol (0.40.5-2)
+End-Date: 2010-09-13 20:11:10
+
+Start-Date: 2010-09-14 11:37:59
+Upgrade: chromium-codecs-ffmpeg (0.6+svn20100811r55740+56137-0ubuntu0.10.04.1, 0.6+svn20100904r58574+58998-0ubuntu0.10.04.1), gwibber-service (2.30.2-0ubuntu1, 2.30.2-0ubuntu2), python-dockmanager (0.1.0~bzr66-0ubuntu1~10.04~dockers1, 0.1.0~bzr68-0ubuntu1~10.04~dockers1), wine1.2 (1.2-0ubuntu1+winert1, 1.2-1ubuntu1~lucidppa1), libgexiv2-0 (0.2.0-0lucid1, 0.2.1-1lucid2), apt-transport-https (0.7.25.3ubuntu9.1, 0.7.25.3ubuntu9.3), apt-utils (0.7.25.3ubuntu9.1, 0.7.25.3ubuntu9.3), shotwell (0.7.1-1~lucid1, 0.7.2-1~lucid1), apt (0.7.25.3ubuntu9.1, 0.7.25.3ubuntu9.3), winetricks (0.0+20100822-0ubuntu1, 0.0+20100904-0ubuntu1~lucidppa1), wine (1.2-0ubuntu1+winert1, 1.2-1ubuntu1~lucidppa1), ttf-symbol-replacement (1.2-0ubuntu1+winert1, 1.2-1ubuntu1~lucidppa1), dockmanager (0.1.0~bzr66-0ubuntu1~10.04~dockers1, 0.1.0~bzr68-0ubuntu1~10.04~dockers1), docky-dbg (2.1.0~bzr1628-0ubuntu1~10.04~dockycore1, 2.1.0~bzr1631-0ubuntu1~10.04~dockycore1), docky (2.1.0~bzr1628-0ubuntu1~10.04~dockycore1, 2.1.0~bzr1631-0ubuntu1~10.04~dockycore1)
+End-Date: 2010-09-14 11:39:05
+
+Start-Date: 2010-09-15 09:35:40
+Upgrade: smbclient (3.4.7~dfsg-1ubuntu3.1, 3.4.7~dfsg-1ubuntu3.2), chromium-browser-inspector (6.0.472.53~r57914-0ubuntu0.10.04.1, 6.0.472.55~r58392-0ubuntu0.10.04.1), chromium-browser (6.0.472.53~r57914-0ubuntu0.10.04.1, 6.0.472.55~r58392-0ubuntu0.10.04.1), libsmbclient (3.4.7~dfsg-1ubuntu3.1, 3.4.7~dfsg-1ubuntu3.2), samba-common-bin (3.4.7~dfsg-1ubuntu3.1, 3.4.7~dfsg-1ubuntu3.2), samba (3.4.7~dfsg-1ubuntu3.1, 3.4.7~dfsg-1ubuntu3.2), libwbclient0 (3.4.7~dfsg-1ubuntu3.1, 3.4.7~dfsg-1ubuntu3.2), docky-dbg (2.1.0~bzr1631-0ubuntu1~10.04~dockycore1, 2.1.0~bzr1635-0ubuntu1~10.04~dockycore1), gtk2-engines-murrine (0.90.3+git20100323-0ubuntu3, 0.91.0~git201009100045~daily1~lucid1), samba-common (3.4.7~dfsg-1ubuntu3.1, 3.4.7~dfsg-1ubuntu3.2), winbind (3.4.7~dfsg-1ubuntu3.1, 3.4.7~dfsg-1ubuntu3.2), libpam-smbpass (3.4.7~dfsg-1ubuntu3.1, 3.4.7~dfsg-1ubuntu3.2), docky (2.1.0~bzr1631-0ubuntu1~10.04~dockycore1, 2.1.0~bzr1635-0ubuntu1~10.04~dockycore1)
+End-Date: 2010-09-15 09:36:33
+
+Start-Date: 2010-09-17 08:54:12
+Upgrade: libqt4-opengl (4.6.2-0ubuntu5, 4.6.2-0ubuntu5.1), libqt4-assistant (4.6.2-0ubuntu5, 4.6.2-0ubuntu5.1), xulrunner-1.9.2 (1.9.2.9+build1+nobinonly-0ubuntu0.10.04.1, 1.9.2.10+build1+nobinonly-0ubuntu0.10.04.1), python-software-properties (0.75.10, 0.75.10.1), cheese (2.30.1-0ubuntu1, 2.30.1-0ubuntu2), libqt4-test (4.6.2-0ubuntu5, 4.6.2-0ubuntu5.1), libqt4-sql-mysql (4.6.2-0ubuntu5, 4.6.2-0ubuntu5.1), thunderbird (3.0.7+build1+nobinonly-0ubuntu0.10.04.1, 3.0.8+build2+nobinonly-0ubuntu0.10.04.1), libqt4-dbus (4.6.2-0ubuntu5, 4.6.2-0ubuntu5.1), phonon (4.6.2-0ubuntu5, 4.6.2-0ubuntu5.1), libqt4-qt3support (4.6.2-0ubuntu5, 4.6.2-0ubuntu5.1), cheese-common (2.30.1-0ubuntu1, 2.30.1-0ubuntu2), gnome-terminal (2.29.6-0ubuntu5, 2.30.2-0ubuntu1), nautilus-sendto-empathy (2.30.2-0ubuntu1, 2.30.3-0ubuntu1), libqt4-xmlpatterns (4.6.2-0ubuntu5, 4.6.2-0ubuntu5.1), libqt4-help (4.6.2-0ubuntu5, 4.6.2-0ubuntu5.1), firefox (3.6.9+build1+nobinonly-0ubuntu0.10.04.1, 3.6.10+build1+nobinonly-0ubuntu0.10.04.1), libqt4-webkit (4.6.2-0ubuntu5, 4.6.2-0ubuntu5.1), libqtcore4 (4.6.2-0ubuntu5, 4.6.2-0ubuntu5.1), libqt4-sql-sqlite (4.6.2-0ubuntu5, 4.6.2-0ubuntu5.1), dpkg (1.15.5.6ubuntu4.1, 1.15.5.6ubuntu4.2), firefox-gnome-support (3.6.9+build1+nobinonly-0ubuntu0.10.04.1, 3.6.10+build1+nobinonly-0ubuntu0.10.04.1), libqt4-sql (4.6.2-0ubuntu5, 4.6.2-0ubuntu5.1), libqt4-svg (4.6.2-0ubuntu5, 4.6.2-0ubuntu5.1), dpkg-dev (1.15.5.6ubuntu4.1, 1.15.5.6ubuntu4.2), libphonon4 (4.6.2-0ubuntu5, 4.6.2-0ubuntu5.1), libqt4-xml (4.6.2-0ubuntu5, 4.6.2-0ubuntu5.1), software-properties-gtk (0.75.10, 0.75.10.1), libqt4-network (4.6.2-0ubuntu5, 4.6.2-0ubuntu5.1), software-properties-kde (0.75.10, 0.75.10.1), libqt4-designer (4.6.2-0ubuntu5, 4.6.2-0ubuntu5.1), libqtgui4 (4.6.2-0ubuntu5, 4.6.2-0ubuntu5.1), libcheese-gtk18 (2.30.1-0ubuntu1, 2.30.1-0ubuntu2), gnome-terminal-data (2.29.6-0ubuntu5, 2.30.2-0ubuntu1), docky-dbg (2.1.0~bzr1635-0ubuntu1~10.04~dockycore1, 2.1.0~bzr1640-0ubuntu1~10.04~dockycore1), firefox-branding (3.6.9+build1+nobinonly-0ubuntu0.10.04.1, 3.6.10+build1+nobinonly-0ubuntu0.10.04.1), libqt4-script (4.6.2-0ubuntu5, 4.6.2-0ubuntu5.1), libqt4-scripttools (4.6.2-0ubuntu5, 4.6.2-0ubuntu5.1), docky (2.1.0~bzr1635-0ubuntu1~10.04~dockycore1, 2.1.0~bzr1640-0ubuntu1~10.04~dockycore1), empathy-common (2.30.2-0ubuntu1, 2.30.3-0ubuntu1)
+End-Date: 2010-09-17 08:56:05
+
+Start-Date: 2010-09-19 11:09:34
+Upgrade: linux-image-2.6.32-24-generic (2.6.32-24.42, 2.6.32-24.43), linux-headers-2.6.32-24 (2.6.32-24.42, 2.6.32-24.43), linux-libc-dev (2.6.32-25.43, 2.6.32-25.44), linux-image-2.6.32-25-generic (2.6.32-25.43, 2.6.32-25.44), docky-dbg (2.1.0~bzr1640-0ubuntu1~10.04~dockycore1, 2.1.0~bzr1641-0ubuntu1~10.04~dockycore1), docky (2.1.0~bzr1640-0ubuntu1~10.04~dockycore1, 2.1.0~bzr1641-0ubuntu1~10.04~dockycore1)
+End-Date: 2010-09-19 11:11:54
+
+Start-Date: 2010-09-19 11:56:25
+Upgrade: winetricks (0.0+20100904-0ubuntu1~lucidppa1, 0.0+20100917-0ubuntu1~lucidppa1)
+End-Date: 2010-09-19 11:56:29
+
+Start-Date: 2010-09-21 10:50:41
+Upgrade: bzip2 (1.0.5-4, 1.0.5-4ubuntu0.1), openoffice.org-gnome (3.2.1-6ubuntu1~10.04.1, 3.2.1-6ubuntu2~10.04.1), openoffice.org-core (3.2.1-6ubuntu1~10.04.1, 3.2.1-6ubuntu2~10.04.1), openoffice.org-writer (3.2.1-6ubuntu1~10.04.1, 3.2.1-6ubuntu2~10.04.1), openoffice.org-impress (3.2.1-6ubuntu1~10.04.1, 3.2.1-6ubuntu2~10.04.1), openoffice.org-draw (3.2.1-6ubuntu1~10.04.1, 3.2.1-6ubuntu2~10.04.1), openoffice.org-gtk (3.2.1-6ubuntu1~10.04.1, 3.2.1-6ubuntu2~10.04.1), libbz2-1.0 (1.0.5-4, 1.0.5-4ubuntu0.1), chromium-browser-inspector (6.0.472.55~r58392-0ubuntu0.10.04.1, 6.0.472.62~r59676-0ubuntu0.10.04.1), chromium-browser (6.0.472.55~r58392-0ubuntu0.10.04.1, 6.0.472.62~r59676-0ubuntu0.10.04.1), openoffice.org-style-human (3.2.1-6ubuntu1~10.04.1, 3.2.1-6ubuntu2~10.04.1), uno-libs3 (1.6.1+OOo3.2.1-6ubuntu1~10.04.1, 1.6.1+OOo3.2.1-6ubuntu2~10.04.1), openoffice.org-math (3.2.1-6ubuntu1~10.04.1, 3.2.1-6ubuntu2~10.04.1), openoffice.org-common (3.2.1-6ubuntu1~10.04.1, 3.2.1-6ubuntu2~10.04.1), python-uno (3.2.1-6ubuntu1~10.04.1, 3.2.1-6ubuntu2~10.04.1), ttf-opensymbol (3.2.1-6ubuntu1~10.04.1, 3.2.1-6ubuntu2~10.04.1), dpkg (1.15.5.6ubuntu4.2, 1.15.5.6ubuntu4.3), flashplugin-installer (10.1.82.76ubuntu0.10.04.2, 10.1.85.3ubuntu0.10.04.1), openoffice.org-base-core (3.2.1-6ubuntu1~10.04.1, 3.2.1-6ubuntu2~10.04.1), tar (1.22-2, 1.22-2ubuntu1), dpkg-dev (1.15.5.6ubuntu4.2, 1.15.5.6ubuntu4.3), openoffice.org-emailmerge (3.2.1-6ubuntu1~10.04.1, 3.2.1-6ubuntu2~10.04.1), ure (1.6.1+OOo3.2.1-6ubuntu1~10.04.1, 1.6.1+OOo3.2.1-6ubuntu2~10.04.1), openoffice.org-calc (3.2.1-6ubuntu1~10.04.1, 3.2.1-6ubuntu2~10.04.1)
+End-Date: 2010-09-21 10:52:21
+
+Start-Date: 2010-09-22 16:55:01
+Upgrade: openshot (1.1.3-lucid1, 1.2.2-lucid1), coreutils (7.4-2ubuntu2, 7.4-2ubuntu3), openshot-doc (1.1.3-lucid1, 1.2.2-lucid1)
+End-Date: 2010-09-22 16:55:28
+
+Start-Date: 2010-09-30 09:32:33
+Upgrade: python-desktopcouch-records (0.6.4-0ubuntu3, 0.6.4-0ubuntu3.1), desktopcouch (0.6.4-0ubuntu3, 0.6.4-0ubuntu3.1), python-mako (0.2.5-2ubuntu1, 0.2.5-2ubuntu1.3), python-dockmanager (0.1.0~bzr68-0ubuntu1~10.04~dockers1, 0.1.0~bzr69-0ubuntu1~10.04~dockers1), avahi-daemon (0.6.25-1ubuntu6, 0.6.25-1ubuntu6.1), libavahi-common-data (0.6.25-1ubuntu6, 0.6.25-1ubuntu6.1), liblircclient0 (0.8.6-0ubuntu4.1, 0.8.6-0ubuntu4.2), humanity-icon-theme (0.5.2.1, 0.5.3.2~lucid1~ppa1), grub-pc (1.98-1ubuntu7, 1.98-1ubuntu8), avahi-utils (0.6.25-1ubuntu6, 0.6.25-1ubuntu6.1), python-avahi (0.6.25-1ubuntu6, 0.6.25-1ubuntu6.1), gdm (2.30.2.is.2.30.0-0ubuntu3, 2.30.2.is.2.30.0-0ubuntu4), libavahi-qt3-1 (0.6.25-1ubuntu6, 0.6.25-1ubuntu6.1), libavahi-gobject0 (0.6.25-1ubuntu6, 0.6.25-1ubuntu6.1), avahi-autoipd (0.6.25-1ubuntu6, 0.6.25-1ubuntu6.1), dockmanager (0.1.0~bzr68-0ubuntu1~10.04~dockers1, 0.1.0~bzr69-0ubuntu1~10.04~dockers1), libavahi-client3 (0.6.25-1ubuntu6, 0.6.25-1ubuntu6.1), libgksu2-0 (2.0.13~pre1-1ubuntu4, 2.0.13~pre1-1ubuntu4.1), libssl0.9.8 (0.9.8k-7ubuntu8.1, 0.9.8k-7ubuntu8.2), docky-dbg (2.1.0~bzr1641-0ubuntu1~10.04~dockycore1, 2.1.0~bzr1647-0ubuntu1~10.04~dockycore1), openssl (0.9.8k-7ubuntu8.1, 0.9.8k-7ubuntu8.2), libavahi-glib1 (0.6.25-1ubuntu6, 0.6.25-1ubuntu6.1), grub-common (1.98-1ubuntu7, 1.98-1ubuntu8), python-desktopcouch (0.6.4-0ubuntu3, 0.6.4-0ubuntu3.1), libavahi-common3 (0.6.25-1ubuntu6, 0.6.25-1ubuntu6.1), libavahi-ui0 (0.6.25-1ubuntu6, 0.6.25-1ubuntu6.1), docky (2.1.0~bzr1641-0ubuntu1~10.04~dockycore1, 2.1.0~bzr1647-0ubuntu1~10.04~dockycore1), libavahi-core6 (0.6.25-1ubuntu6, 0.6.25-1ubuntu6.1), libgdiplus (2.4.2-1build1, 2.4.2-1ubuntu0.10.04.1)
+End-Date: 2010-09-30 09:34:01
+
+Start-Date: 2010-08-02 14:24:03
+Install: linux-image-2.6.33-4-rt (2.6.33-4.4), linux-rt-headers-2.6.33-4 (2.6.33-4.4), linux-headers-2.6.33-4-rt (2.6.33-4.4)
+Upgrade: linux-rt (2.6.31.11.13, 2.6.33.4.4), linux-headers-rt (2.6.31.11.13, 2.6.33.4.4), linux-image-rt (2.6.31.11.13, 2.6.33.4.4), docky-dbg (2.1.0~bzr1592-0ubuntu1~10.04~dockycore1, 2.1.0~bzr1595-0ubuntu1~10.04~dockycore1), docky (2.1.0~bzr1592-0ubuntu1~10.04~dockycore1, 2.1.0~bzr1595-0ubuntu1~10.04~dockycore1)
+End-Date: 2010-08-02 14:27:30
+
+Start-Date: 2010-08-02 23:49:04
+Install: libpano13-bin (2.9.14-2), enblend (3.2+dfsg-3), libimage-exiftool-perl (7.89-1), enfuse (3.2+dfsg-3), libglew1.5 (1.5.2-0ubuntu1), libplot2c2 (2.6-0ubuntu1), libboost-thread1.40.0 (1.40.0-4ubuntu4), hugin-data (2009.2.0+dfsg-2ubuntu2), hugin (2009.2.0+dfsg-2ubuntu2), autopano-sift (2.4-0ubuntu10), libpano13-1 (2.9.14-2), freeglut3 (2.6.0-0ubuntu2), hugin-tools (2009.2.0+dfsg-2ubuntu2)
+End-Date: 2010-08-02 23:50:01
+
+Start-Date: 2010-08-03 15:40:43
+Install: linux-image-2.6.33-5-rt (2.6.33-5.5), linux-rt-headers-2.6.33-5 (2.6.33-5.5), linux-headers-2.6.33-5-rt (2.6.33-5.5)
+Upgrade: linux-rt (2.6.33.4.4, 2.6.33.5.5), linux-headers-rt (2.6.33.4.4, 2.6.33.5.5), linux-image-rt (2.6.33.4.4, 2.6.33.5.5)
+End-Date: 2010-08-03 15:54:16
+
+Start-Date: 2010-08-03 18:24:01
+Install: linux-image-2.6.32-24-generic (2.6.32-24.38), linux (2.6.32.24.25), linux-image-generic (2.6.32.24.25), linux-image (2.6.32.24.25)
+End-Date: 2010-08-03 18:27:56
+
+Start-Date: 2010-08-03 18:29:22
+Remove: linux-headers-2.6.32-21 (2.6.32-21.32), libffado2 (2.0.0-1ubuntu1), linux-rt-headers-2.6.31-11 (2.6.31-11.154), libxml++2.6-2 (2.30.0-1), linux-headers-2.6.31-11-rt (2.6.31-11.154), jackd-firewire (1.9.5+ladifixes1-0ubuntu0+ppa19)
+End-Date: 2010-08-03 18:29:33
+
+Start-Date: 2010-08-04 09:23:32
+Purge: linux-headers-2.6.35-020635-generic (2.6.35-020635), linux-image-2.6.35-020635-generic (2.6.35-020635), linux-headers-2.6.35-020635 (2.6.35-020635)
+End-Date: 2010-08-04 09:23:49
+
+Start-Date: 2010-08-04 09:26:35
+Upgrade: winetricks (0.0+20100618-0ubuntu1, 0.0+20100731-0ubuntu1), docky-dbg (2.1.0~bzr1595-0ubuntu1~10.04~dockycore1, 2.1.0~bzr1601-0ubuntu1~10.04~dockycore1), docky (2.1.0~bzr1595-0ubuntu1~10.04~dockycore1, 2.1.0~bzr1601-0ubuntu1~10.04~dockycore1)
+Remove: linux-image-2.6.32-24-generic (2.6.32-24.38), linux (2.6.32.24.25), linux-headers-2.6.32-24 (2.6.32-24.38), linux-image-generic (2.6.32.24.25), linux-image (2.6.32.24.25)
+End-Date: 2010-08-04 09:27:00
+
+Start-Date: 2010-08-05 08:11:53
+Install: libx11-xcb1 (1.3.2-1ubuntu3), libxcb-dri2-0 (1.5-2)
+Upgrade: python-dockmanager (0.1.0~bzr44-0ubuntu1~10.04~dockers1, 0.1.0~bzr47-0ubuntu1~10.04~dockers1), xserver-xorg-video-ati (6.13.0-1ubuntu5, 6.13.1-0ubuntu0+ppa1), chromium-browser-inspector (5.0.375.99~r51029-0ubuntu0.10.04.1, 5.0.375.125~r53311-0ubuntu0.10.04.1), chromium-browser (5.0.375.99~r51029-0ubuntu0.10.04.1, 5.0.375.125~r53311-0ubuntu0.10.04.1), linux-libc-dev (2.6.32-24.38, 2.6.32-24.39), fglrx-modaliases (8.741-0ubuntu1+rt1, 8.753-0ubuntu1+rt1), nvidia-current-modaliases (256.35-0ubuntu2+rt2, 256.44-0ubuntu1+rt1), dockmanager (0.1.0~bzr44-0ubuntu1~10.04~dockers1, 0.1.0~bzr47-0ubuntu1~10.04~dockers1), docky-dbg (2.1.0~bzr1601-0ubuntu1~10.04~dockycore1, 2.1.0~bzr1602-0ubuntu1~10.04~dockycore1), alien (8.79, 8.79ubuntu0.1), docky (2.1.0~bzr1601-0ubuntu1~10.04~dockycore1, 2.1.0~bzr1602-0ubuntu1~10.04~dockycore1), nvidia-96-modaliases (96.43.17-0ubuntu1, 96.43.18-0ubuntu1), xserver-xorg-video-radeon (6.13.0-1ubuntu5, 6.13.1-0ubuntu0+ppa1), xserver-xorg-video-intel (2.9.1-3ubuntu5, 2.11.0-0ubuntu0+ppa1)
+End-Date: 2010-08-05 08:14:19
+
+Start-Date: 2010-08-05 11:52:49
+Install: samba (3.4.7~dfsg-1ubuntu3.1), libpam-smbpass (3.4.7~dfsg-1ubuntu3.1)
+End-Date: 2010-08-05 11:53:07
+
+Start-Date: 2010-08-06 09:50:18
+Install: cheese (2.30.1-0ubuntu1), cheese-common (2.30.1-0ubuntu1), libcheese-gtk18 (2.30.1-0ubuntu1)
+End-Date: 2010-08-06 09:50:41
+
+Start-Date: 2010-08-06 10:06:43
+Install: linux-image-2.6.33-6-rt (2.6.33-6.6), linux-rt-headers-2.6.33-6 (2.6.33-6.6), linux-headers-2.6.33-6-rt (2.6.33-6.6)
+Upgrade: base-files (5.0.0ubuntu20.10.04.1, 5.0.0ubuntu20.10.04.2), linux-rt (2.6.33.5.5, 2.6.33.6.6), libpcsclite1 (1.5.3-1ubuntu4, 1.5.3-1ubuntu4.1), linux-headers-rt (2.6.33.5.5, 2.6.33.6.6), tzdata-java (2010j-0ubuntu0.10.04, 2010k-0ubuntu0.10.04), linux-image-rt (2.6.33.5.5, 2.6.33.6.6), tzdata (2010j-0ubuntu0.10.04, 2010k-0ubuntu0.10.04)
+End-Date: 2010-08-06 10:18:56
+
+Start-Date: 2010-08-06 13:29:11
+Remove: linux-rt-headers-2.6.33-5 (2.6.33-5.5), linux-headers-2.6.33-5-rt (2.6.33-5.5), wireless-crda (1.12)
+End-Date: 2010-08-06 13:29:24
+
+Start-Date: 2010-08-06 14:43:16
+Install: linux-headers-2.6.32-24 (2.6.32-24.39), linux-lowlatency (2.6.32.24.25), linux-headers-2.6.32-24-lowlatency (2.6.32-24.38), linux-headers-lowlatency (2.6.32.24.25), linux-image-lowlatency (2.6.32.24.25), wireless-crda (1.12), linux-image-2.6.32-24-lowlatency (2.6.32-24.38)
+End-Date: 2010-08-06 14:57:45
+
+Start-Date: 2010-08-06 15:30:13
+Install: linux-image-2.6.32-24-generic (2.6.32-24.39), linux (2.6.32.24.25), linux-image-generic (2.6.32.24.25), linux-image (2.6.32.24.25)
+Remove: linux-image-2.6.33-4-rt (2.6.33-4.4), linux-image-2.6.33-5-rt (2.6.33-5.5), linux-rt-headers-2.6.33-4 (2.6.33-4.4), linux-headers-2.6.33-4-rt (2.6.33-4.4), linux-lowlatency (2.6.32.24.25), linux-headers-2.6.32-24-lowlatency (2.6.32-24.38), linux-headers-lowlatency (2.6.32.24.25), linux-image-lowlatency (2.6.32.24.25), linux-image-2.6.32-24-lowlatency (2.6.32-24.38)
+End-Date: 2010-08-06 15:31:18
+
+Start-Date: 2010-08-06 15:34:42
+Remove: linux-image-2.6.31-11-rt (2.6.31-11.154)
+End-Date: 2010-08-06 15:35:18
+
+Start-Date: 2010-08-09 15:23:57
+Install: libncursesw5-dev (5.7+20090803-2ubuntu3), libncurses5-dev (5.7+20090803-2ubuntu3)
+End-Date: 2010-08-09 15:24:56
+
+Start-Date: 2010-08-10 00:24:07
+Install: filezilla (3.3.1-1ubuntu1), filezilla-common (3.3.1-1ubuntu1)
+End-Date: 2010-08-10 00:24:53
+
+Start-Date: 2010-08-10 09:02:28
+Upgrade: python-dockmanager (0.1.0~bzr47-0ubuntu1~10.04~dockers1, 0.1.0~bzr51-0ubuntu1~10.04~dockers1), dockmanager (0.1.0~bzr47-0ubuntu1~10.04~dockers1, 0.1.0~bzr51-0ubuntu1~10.04~dockers1), docky-dbg (2.1.0~bzr1602-0ubuntu1~10.04~dockycore1, 2.1.0~bzr1605-0ubuntu1~10.04~dockycore1), docky (2.1.0~bzr1602-0ubuntu1~10.04~dockycore1, 2.1.0~bzr1605-0ubuntu1~10.04~dockycore1), xserver-xorg-video-intel (2.11.0-0ubuntu0+ppa1, 2.11.0-0ubuntu1+really2.9.1)
+Purge: f-spot (), tomboy (), linux-image-2.6.33-4-rt (), linux-image-2.6.33-23-realtime (), linux-image-2.6.33-5-rt (), empathy (), libavfilter0 (), libffado2 (), libxml++2.6-2 (), linux-image-2.6.31-11-rt (), pitivi (), linux-image-2.6.32-24-lowlatency (), gwibber (), linux-image-2.6.32-21-generic ()
+End-Date: 2010-08-10 09:03:37
+
+Start-Date: 2010-08-10 09:56:48
+Upgrade: w3m (0.5.2-2.1ubuntu1, 0.5.2-2.1ubuntu1.1), libldap-2.4-2 (2.4.21-0ubuntu5.1, 2.4.21-0ubuntu5.2)
+End-Date: 2010-08-10 09:56:57
+
+Start-Date: 2010-08-10 10:13:12
+Remove: linux-headers-2.6.35-020635-generic (2.6.35-020635), linux-image-2.6.35-020635-generic (2.6.35-020635), linux-headers-2.6.35-020635 (2.6.35-020635)
+End-Date: 2010-08-10 10:13:45
+
+Start-Date: 2010-08-11 09:37:14
+Install: parcellite (0.9.2-1)
+End-Date: 2010-08-11 09:37:52
+
+Start-Date: 2010-08-11 10:15:22
+Install: soundconverter (1.4.4-2)
+End-Date: 2010-08-11 10:15:47
+
+Start-Date: 2010-08-12 09:12:14
+Upgrade: flashplugin-installer (10.1.53.64ubuntu0.10.04.3, 10.1.82.76ubuntu0.10.04.2), libldap-2.4-2 (2.4.21-0ubuntu5.2, 2.4.21-0ubuntu5.3)
+End-Date: 2010-08-12 09:12:31
+
+Start-Date: 2010-08-15 12:46:07
+Install: python-pypdf (1.12-2), pdfshuffler (0.4.2-1), python-poppler (0.12.1-1)
+End-Date: 2010-08-15 12:46:21
+
+Start-Date: 2010-08-15 19:35:21
+Install: libosmesa6 (7.7.1-1ubuntu3), desmume (0.9.5-2)
+End-Date: 2010-08-15 19:35:35
+
+Start-Date: 2010-08-17 09:07:45
+Upgrade: icedtea6-plugin (6b18-1.8-4ubuntu3, 6b18-1.8.1-0ubuntu1), hpijs (3.10.2-2ubuntu2, 3.10.2-2ubuntu2.1), hplip (3.10.2-2ubuntu2, 3.10.2-2ubuntu2.1), icedtea-6-jre-cacao (6b18-1.8-4ubuntu3, 6b18-1.8.1-0ubuntu1), libhpmud0 (3.10.2-2ubuntu2, 3.10.2-2ubuntu2.1), openjdk-6-jre-headless (6b18-1.8-4ubuntu3, 6b18-1.8.1-0ubuntu1), openjdk-6-jre (6b18-1.8-4ubuntu3, 6b18-1.8.1-0ubuntu1), openjdk-6-jre-lib (6b18-1.8-4ubuntu3, 6b18-1.8.1-0ubuntu1), cabextract (1.2-3, 1.2-3+lenny1build0.10.04.1), docky-dbg (2.1.0~bzr1605-0ubuntu1~10.04~dockycore1, 2.1.0~bzr1609-0ubuntu1~10.04~dockycore1), upstart (0.6.5-6, 0.6.5-7), docky (2.1.0~bzr1605-0ubuntu1~10.04~dockycore1, 2.1.0~bzr1609-0ubuntu1~10.04~dockycore1), hplip-data (3.10.2-2ubuntu2, 3.10.2-2ubuntu2.1)
+End-Date: 2010-08-17 09:08:53
+
+Start-Date: 2010-08-18 08:17:02
+Upgrade: libc-bin (2.11.1-0ubuntu7.2, 2.11.1-0ubuntu7.3), libpackagekit-glib2-12 (0.5.7-0ubuntu2, 0.5.7-0ubuntu2.1), python-dockmanager (0.1.0~bzr51-0ubuntu1~10.04~dockers1, 0.1.0~bzr56-0ubuntu1~10.04~dockers1), mobile-broadband-provider-info (20100407-1, 20100716-1ubuntu0.1), libcomerr2 (1.41.11-1ubuntu2, 1.41.11-1ubuntu2.1), gdebi (0.6.0ubuntu1, 0.6.0ubuntu2), ubufox (0.9~rc2-0ubuntu2, 0.9~rc2-0ubuntu2.1), libwxgtk2.8-0 (2.8.10.1-0ubuntu1.1, 2.8.10.1-0ubuntu1.2), libc-dev-bin (2.11.1-0ubuntu7.2, 2.11.1-0ubuntu7.3), screen (4.0.3-14ubuntu1, 4.0.3-14ubuntu1.2), gdebi-core (0.6.0ubuntu1, 0.6.0ubuntu2), ghostscript-x (8.71.dfsg.1-0ubuntu5.2, 8.71.dfsg.1-0ubuntu5.3), cups-driver-gutenprint (5.2.5-0ubuntu1, 5.2.5-0ubuntu1.1), e2fsprogs (1.41.11-1ubuntu2, 1.41.11-1ubuntu2.1), libpackagekit-qt-12 (0.5.7-0ubuntu2, 0.5.7-0ubuntu2.1), libc6-i686 (2.11.1-0ubuntu7.2, 2.11.1-0ubuntu7.3), libkpathsea5 (2009-5ubuntu0.1, 2009-5ubuntu0.2), ifupdown (0.6.8ubuntu29, 0.6.8ubuntu29.1), libgutenprint2 (5.2.5-0ubuntu1, 5.2.5-0ubuntu1.1), libwxbase2.8-0 (2.8.10.1-0ubuntu1.1, 2.8.10.1-0ubuntu1.2), python-packagekit (0.5.7-0ubuntu2, 0.5.7-0ubuntu2.1), e2fslibs (1.41.11-1ubuntu2, 1.41.11-1ubuntu2.1), packagekit (0.5.7-0ubuntu2, 0.5.7-0ubuntu2.1), libgs8 (8.71.dfsg.1-0ubuntu5.2, 8.71.dfsg.1-0ubuntu5.3), dockmanager (0.1.0~bzr51-0ubuntu1~10.04~dockers1, 0.1.0~bzr56-0ubuntu1~10.04~dockers1), python-wxversion (2.8.10.1-0ubuntu1.1, 2.8.10.1-0ubuntu1.2), gdebi-kde (0.6.0ubuntu1, 0.6.0ubuntu2), libfreetype6 (2.3.11-1ubuntu2.1, 2.3.11-1ubuntu2.2), libc6-dev (2.11.1-0ubuntu7.2, 2.11.1-0ubuntu7.3), ghostscript (8.71.dfsg.1-0ubuntu5.2, 8.71.dfsg.1-0ubuntu5.3), docky-dbg (2.1.0~bzr1609-0ubuntu1~10.04~dockycore1, 2.1.0~bzr1615-0ubuntu1~10.04~dockycore1), packagekit-backend-apt (0.5.7-0ubuntu2, 0.5.7-0ubuntu2.1), libss2 (1.41.11-1ubuntu2, 1.41.11-1ubuntu2.1), python-wxgtk2.8 (2.8.10.1-0ubuntu1.1, 2.8.10.1-0ubuntu1.2), libc6 (2.11.1-0ubuntu7.2, 2.11.1-0ubuntu7.3), gzip (1.3.12-9ubuntu1, 1.3.12-9ubuntu1.1), docky (2.1.0~bzr1609-0ubuntu1~10.04~dockycore1, 2.1.0~bzr1615-0ubuntu1~10.04~dockycore1), ghostscript-cups (8.71.dfsg.1-0ubuntu5.2, 8.71.dfsg.1-0ubuntu5.3)
+End-Date: 2010-08-18 08:19:16
+
+Start-Date: 2010-08-19 09:23:02
+Install: libnotify-bin (0.4.5-1ubuntu4)
+End-Date: 2010-08-19 09:23:10
+
+Start-Date: 2010-08-20 01:08:14
+Install: gnome-do (0.8.3.1+dfsg-1ubuntu1), gnome-do-plugins (0.8.2.1+dfsg-2ubuntu1), libgdata1.4-cil (1.4.0.2-3), gnome-do-docklets (0.8.2-2)
+End-Date: 2010-08-20 01:08:41
+
+Start-Date: 2010-08-20 10:34:02
+Install: libfreebob0 (1.0.11-1build1), libqtscript4-webkit (0.1.0-3build1), libqtscript4-qtbindings (0.1.0-3build1), libqtscript4-phonon (0.1.0-3build1), libqtscript4-core (0.1.0-3build1), libqtscript4-gui (0.1.0-3build1), libqtscript4-uitools (0.1.0-3build1), libffado2 (2.0.0-1ubuntu1), libqtscript4-opengl (0.1.0-3build1), libqtscript4-sql (0.1.0-3build1), libqtscript4-svg (0.1.0-3build1), libxml++2.6-2 (2.30.0-1), libqtscript4-xml (0.1.0-3build1), libqtscript4-xmlpatterns (0.1.0-3build1), libqtscript4-network (0.1.0-3build1)
+Upgrade: linux-image-2.6.32-24-generic (2.6.32-24.39, 2.6.32-24.41), python-dockmanager (0.1.0~bzr56-0ubuntu1~10.04~dockers1, 0.1.0~bzr57-0ubuntu1~10.04~dockers1), linux-headers-2.6.32-24 (2.6.32-24.39, 2.6.32-24.41), libdjvulibre21 (3.5.22-1ubuntu4, 3.5.22-1ubuntu4.1), libjack0 (1.9.5+ladifixes1-0ubuntu0+ppa19, 1.9.5+ladifixes1-0ubuntu1), libdecoration0 (0.8.6-0ubuntu0+ppa1, 0.8.6-0ubuntu1+kde4), linux-libc-dev (2.6.32-24.39, 2.6.32-24.41), wisotool (0.0+20100618, 0.0+20100731), compiz-plugins (0.8.6-0ubuntu0+ppa1, 0.8.6-0ubuntu1+kde4), musescore-common (0.9.6+dfsg-1ubuntu~lucid1, 0.9.6.2+dfsg-0ubuntu~lucid1), musescore (0.9.6+dfsg-1ubuntu~lucid1, 0.9.6.2+dfsg-0ubuntu~lucid1), dockmanager (0.1.0~bzr56-0ubuntu1~10.04~dockers1, 0.1.0~bzr57-0ubuntu1~10.04~dockers1), libssl0.9.8 (0.9.8k-7ubuntu8, 0.9.8k-7ubuntu8.1), openssl (0.9.8k-7ubuntu8, 0.9.8k-7ubuntu8.1), compiz (0.8.6-0ubuntu0+ppa1, 0.8.6-0ubuntu1+kde4), jack2 (1.9.5+ladifixes1-0ubuntu0+ppa19, 1.9.5+ladifixes1-0ubuntu1), jackd (1.9.5+ladifixes1-0ubuntu0+ppa19, 1.9.5+ladifixes1-0ubuntu1), compiz-core (0.8.6-0ubuntu0+ppa1, 0.8.6-0ubuntu1+kde4), gnome-exe-thumbnailer (0.2, 0.5-0ubuntu1~lucidppa1), libdjvulibre-text (3.5.22-1ubuntu4, 3.5.22-1ubuntu4.1), musescore-soundfont-gm (0.9.6+dfsg-1ubuntu~lucid1, 0.9.6.2+dfsg-0ubuntu~lucid1), compiz-gnome (0.8.6-0ubuntu0+ppa1, 0.8.6-0ubuntu1+kde4)
+End-Date: 2010-08-20 10:36:25
+
+Start-Date: 2010-08-20 11:56:12
+Downgrade: libdecoration0 (0.8.6-0ubuntu1+kde4, 0.8.4-0ubuntu15), compiz-core (0.8.6-0ubuntu1+kde4, 0.8.4-0ubuntu15)
+Remove: libcompizconfig0 (0.8.4-0ubuntu2.1), compizconfig-backend-gconf (0.8.4-0ubuntu2), compiz-plugins (0.8.6-0ubuntu1+kde4), compizconfig-settings-manager (0.8.2-0ubuntu1), python-compizconfig (0.8.2-0ubuntu1), fusion-icon (0.1.0-2), compiz (0.8.6-0ubuntu1+kde4), compiz-fusion-plugins-main (0.8.6-0ubuntu0+ppa1), compiz-gnome (0.8.6-0ubuntu1+kde4)
+End-Date: 2010-08-20 11:56:42
+
+Start-Date: 2010-08-20 14:17:28
+Install: libcompizconfig0 (0.8.4-0ubuntu2.1), compiz-kde (0.8.6-0ubuntu1+kde4), compiz-plugins (0.8.6-0ubuntu1+kde4), libkdecorations4 (4.4.2-0ubuntu14), python-compizconfig (0.8.2-0ubuntu1), fusion-icon (0.1.0-2)
+Upgrade: compiz-core (0.8.4-0ubuntu15, 0.8.6-0ubuntu1+kde4)
+End-Date: 2010-08-20 14:17:56
+
+Start-Date: 2010-08-20 16:26:55
+Install: compizconfig-backend-gconf (0.8.4-0ubuntu2), compiz (0.8.6-0ubuntu1+kde4), deathcrush-lv2 (04.10-0ubuntu0+ppa3), compiz-fusion-plugins-main (0.8.6-0ubuntu0+ppa1), compiz-gnome (0.8.6-0ubuntu1+kde4)
+Upgrade: libdecoration0 (0.8.4-0ubuntu15, 0.8.6-0ubuntu1+kde4)
+Remove: compiz-kde (0.8.6-0ubuntu1+kde4), fusion-icon (0.1.0-2)
+End-Date: 2010-08-20 16:27:23
+
+Start-Date: 2010-08-21 09:28:34
+Upgrade: python-lazr.restfulclient (0.9.11-1ubuntu1, 0.9.11-1ubuntu1.1), libcompizconfig0 (0.8.4-0ubuntu2.1, 0.8.4-0ubuntu3+kde1), libdecoration0 (0.8.6-0ubuntu1+kde4, 0.8.6-0ubuntu1+kde5), libgexiv2-0 (0.1.0-0lucid1, 0.2.0-0lucid1), gconf2 (2.28.1-0ubuntu1, 2.28.1-3ubuntu1), gconf-defaults-service (2.28.1-0ubuntu1, 2.28.1-3ubuntu1), compiz-plugins (0.8.6-0ubuntu1+kde4, 0.8.6-0ubuntu1+kde5), libgconf2-4 (2.28.1-0ubuntu1, 2.28.1-3ubuntu1), gconf2-common (2.28.1-0ubuntu1, 2.28.1-3ubuntu1), compiz (0.8.6-0ubuntu1+kde4, 0.8.6-0ubuntu1+kde5), compiz-core (0.8.6-0ubuntu1+kde4, 0.8.6-0ubuntu1+kde5), compiz-fusion-plugins-main (0.8.6-0ubuntu0+ppa1, 0.8.6-0ubuntu1+kde1), binutils (2.20.1-3ubuntu6, 2.20.1-3ubuntu7), compiz-gnome (0.8.6-0ubuntu1+kde4, 0.8.6-0ubuntu1+kde5)
+End-Date: 2010-08-21 09:29:17
+
+Start-Date: 2010-08-21 09:42:31
+Install: autotalent (0.1-0ubuntu0+ppa1)
+Remove: libcompizconfig0 (0.8.4-0ubuntu3+kde1), libdecoration0 (0.8.6-0ubuntu1+kde5), compizconfig-backend-gconf (0.8.4-0ubuntu2), compiz-plugins (0.8.6-0ubuntu1+kde5), python-compizconfig (0.8.2-0ubuntu1), compiz (0.8.6-0ubuntu1+kde5), compiz-core (0.8.6-0ubuntu1+kde5), compiz-fusion-plugins-main (0.8.6-0ubuntu1+kde1), compiz-gnome (0.8.6-0ubuntu1+kde5)
+End-Date: 2010-08-21 09:42:47
+
+Start-Date: 2010-08-21 09:43:44
+Install: ppa-purge (0.2.7)
+End-Date: 2010-08-21 09:43:48
+
+Start-Date: 2010-08-21 09:46:12
+Install: libcompizconfig0 (0.8.4-0ubuntu3~ppa1), libdecoration0 (0.8.6-0ubuntu1~ppa1), compizconfig-backend-gconf (0.8.4-0ubuntu2), compiz-plugins (0.8.6-0ubuntu1~ppa1), compizconfig-settings-manager (0.8.2-0ubuntu1), python-compizconfig (0.8.2-0ubuntu1), fusion-icon (0.1.0-2), compiz-fusion-plugins-extra (0.8.6-0ubuntu1~ppa1), compiz-fusion-plugins-unsupported (0.8.4-0ubuntu1~ppa1), compiz (0.8.6-0ubuntu1~ppa1), compiz-core (0.8.6-0ubuntu1~ppa1), compiz-fusion-plugins-main (0.8.6-0ubuntu1~ppa1), compiz-gnome (0.8.6-0ubuntu1~ppa1)
+End-Date: 2010-08-21 09:46:49
+
+Start-Date: 2010-08-21 09:55:48
+Install: emerald (0.7.2-0ubuntu4), libemeraldengine0 (0.7.2-0ubuntu4)
+End-Date: 2010-08-21 09:55:58
+
+Start-Date: 2010-08-21 16:52:12
+Upgrade: shotwell (0.6.1-1~lucid2, 0.7.0-1~lucid1)
+End-Date: 2010-08-21 16:52:30
+
+Start-Date: 2010-08-24 18:44:41
+Upgrade: udev (151-12, 151-12.1), vlc-nox (1.0.6-1ubuntu1.2, 1.0.6-1ubuntu1.2), libgudev-1.0-0 (151-12, 151-12.1), vlc (1.0.6-1ubuntu1.2, 1.0.6-1ubuntu1.2), libudev0 (151-12, 151-12.1)
+End-Date: 2010-08-24 18:45:16
+
+Start-Date: 2010-08-28 12:35:33
+Install: p7zip (9.04~dfsg.1-1)
+End-Date: 2010-08-28 12:35:41
+
+Start-Date: 2010-08-28 19:55:53
+Upgrade: linux-image-2.6.32-24-generic (2.6.32-24.41, 2.6.32-24.42), openoffice.org-gnome (3.2.0-7ubuntu4.1, 3.2.1-6ubuntu1~10.04.1), openoffice.org-core (3.2.0-7ubuntu4.1, 3.2.1-6ubuntu1~10.04.1), openoffice.org-writer (3.2.0-7ubuntu4.1, 3.2.1-6ubuntu1~10.04.1), openoffice.org-impress (3.2.0-7ubuntu4.1, 3.2.1-6ubuntu1~10.04.1), python-dockmanager (0.1.0~bzr57-0ubuntu1~10.04~dockers1, 0.1.0~bzr63-0ubuntu1~10.04~dockers1), linux-headers-2.6.32-24 (2.6.32-24.41, 2.6.32-24.42), openoffice.org-draw (3.2.0-7ubuntu4.1, 3.2.1-6ubuntu1~10.04.1), python-aptdaemon-gtk (0.11+bzr345-0ubuntu4, 0.11+bzr345-0ubuntu4.1), openoffice.org-gtk (3.2.0-7ubuntu4.1, 3.2.1-6ubuntu1~10.04.1), python-aptdaemon (0.11+bzr345-0ubuntu4, 0.11+bzr345-0ubuntu4.1), chromium-browser-inspector (5.0.375.125~r53311-0ubuntu0.10.04.1, 5.0.375.127~r55887-0ubuntu0.10.04.1), chromium-browser (5.0.375.125~r53311-0ubuntu0.10.04.1, 5.0.375.127~r55887-0ubuntu0.10.04.1), linux-libc-dev (2.6.32-24.41, 2.6.32-24.42), openoffice.org-style-human (3.2.0-7ubuntu4.1, 3.2.1-6ubuntu1~10.04.1), shotwell (0.7.0-1~lucid1, 0.7.1-1~lucid1), uno-libs3 (1.6.0+OOo3.2.0-7ubuntu4.1, 1.6.1+OOo3.2.1-6ubuntu1~10.04.1), openoffice.org-math (3.2.0-7ubuntu4.1, 3.2.1-6ubuntu1~10.04.1), winetricks (0.0+20100731-0ubuntu1, 0.0+20100822-0ubuntu1), openoffice.org-common (3.2.0-7ubuntu4.1, 3.2.1-6ubuntu1~10.04.1), python-uno (3.2.0-7ubuntu4.1, 3.2.1-6ubuntu1~10.04.1), ttf-opensymbol (3.2.0-7ubuntu4.1, 3.2.1-6ubuntu1~10.04.1), tzdata-java (2010k-0ubuntu0.10.04, 2010l-0ubuntu0.10.04), aptdaemon (0.11+bzr345-0ubuntu4, 0.11+bzr345-0ubuntu4.1), openoffice.org-base-core (3.2.0-7ubuntu4.1, 3.2.1-6ubuntu1~10.04.1), openoffice.org-emailmerge (3.2.0-7ubuntu4.1, 3.2.1-6ubuntu1~10.04.1), dockmanager (0.1.0~bzr57-0ubuntu1~10.04~dockers1, 0.1.0~bzr63-0ubuntu1~10.04~dockers1), ure (1.6.0+OOo3.2.0-7ubuntu4.1, 1.6.1+OOo3.2.1-6ubuntu1~10.04.1), tzdata (2010k-0ubuntu0.10.04, 2010l-0ubuntu0.10.04), docky-dbg (2.1.0~bzr1615-0ubuntu1~10.04~dockycore1, 2.1.0~bzr1618-0ubuntu1~10.04~dockycore1), ureadahead (0.100.0-4.1.2, 0.100.0-4.1.3), openoffice.org-calc (3.2.0-7ubuntu4.1, 3.2.1-6ubuntu1~10.04.1), mountall (2.15, 2.15.1), openoffice.org-help-en-us (3.2.0-7ubuntu1, 3.2.1-6ubuntu1~10.04.1), docky (2.1.0~bzr1615-0ubuntu1~10.04~dockycore1, 2.1.0~bzr1618-0ubuntu1~10.04~dockycore1)
+End-Date: 2010-08-28 19:58:51
+
+
+
+Start-Date: 2010-07-27 11:45:47
+End-Date: 2010-07-27 11:45:47
+
+Start-Date: 2010-07-27 11:46:55
+End-Date: 2010-07-27 11:46:55
+
+Start-Date: 2010-07-27 11:46:57
+Purge: casper (1.236), language-pack-pt-base (10.04+20100421), lupin-casper (0.29), libdmraid1.0.0.rc16 (1.0.0.rc16-3ubuntu2), ubiquity-frontend-gtk (2.2.24), ubiquity-slideshow-ubuntu (22), jfsutils (1.1.12-2.1), gparted (0.5.1-1ubuntu2), language-pack-gnome-pt-base (10.04+20100421), language-pack-de-base (10.04+20100421), python-pyicu (0.9-2), ubiquity (2.2.24), libparted0 (2.2-5ubuntu5), libdebian-installer4 (0.68ubuntu3), user-setup (1.28ubuntu7), ubiquity-casper (1.236), language-pack-gnome-de-base (10.04+20100421), cryptsetup (1.1.0~rc2-1ubuntu13), libecryptfs0 (83-0ubuntu3), reiserfsprogs (3.6.21-1build1), rdate (1.2-4build1), xfsprogs (3.1.0ubuntu1), language-pack-fr-base (10.04+20100421), language-pack-es-base (10.04+20100421), localechooser-data (2.12ubuntu3), language-pack-gnome-fr-base (10.04+20100421), language-pack-gnome-es-base (10.04+20100421), language-pack-bn-base (10.04+20100421), ecryptfs-utils (83-0ubuntu3), ubiquity-ubuntu-artwork (2.2.24), libdebconfclient0 (0.147), language-pack-xh-base (10.04+20100421), dmraid (1.0.0.rc16-3ubuntu2), language-pack-bn (10.04+20100421), language-pack-de (10.04+20100421), language-pack-es (10.04+20100421), language-pack-fr (10.04+20100421), language-pack-pt (10.04+20100421), language-pack-xh (10.04+20100421), language-pack-gnome-bn-base (10.04+20100421), language-pack-gnome-bn (10.04+20100421), language-pack-gnome-de (10.04+20100421), keyutils (1.2-12), language-pack-gnome-es (10.04+20100421), language-pack-gnome-fr (10.04+20100421), language-pack-gnome-xh-base (10.04+20100421), language-pack-gnome-pt (10.04+20100421), language-pack-gnome-xh (10.04+20100421)
+End-Date: 2010-07-27 11:48:11
+
+Start-Date: 2010-07-27 11:48:12
+End-Date: 2010-07-27 11:48:12
+
+Start-Date: 2010-07-27 12:00:02
+Install: linux-image-2.6.32-24-generic (2.6.32-24.38), linux-headers-2.6.32-24 (2.6.32-24.38), linux-headers-2.6.32-24-generic (2.6.32-24.38)
+Upgrade: ubuntuone-client (1.2.1-0ubuntu1, 1.2.2-0ubuntu2), sane-utils (1.0.20-13ubuntu2, 1.0.21-0ubuntu1), gnome-keyring (2.92.92.is.2.30.0-0ubuntu3, 2.92.92.is.2.30.3-0ubuntu1), f-spot (0.6.1.5-2ubuntu6, 0.6.1.5-2ubuntu7), libgtk2.0-common (2.20.0-0ubuntu4, 2.20.1-0ubuntu2), evolution-common (2.28.3-0ubuntu9, 2.28.3-0ubuntu10), libsdl1.2debian (1.2.14-4ubuntu1, 1.2.14-4ubuntu1.1), libkrb5-3 (1.8.1+dfsg-2, 1.8.1+dfsg-2ubuntu0.2), libgnomekbd4 (2.30.0-0ubuntu2, 2.30.2-0ubuntu0.1), libatk1.0-0 (1.30.0-0ubuntu2, 1.30.0-0ubuntu2.1), libpam0g (1.1.1-2ubuntu2, 1.1.1-2ubuntu5), libusb-0.1-4 (0.1.12-14, 0.1.12-14ubuntu0.2), tomboy (1.2.0-0ubuntu1, 1.2.1-0ubuntu1), openoffice.org-gnome (3.2.0-7ubuntu4, 3.2.0-7ubuntu4.1), byobu (2.68-0ubuntu1, 2.68-0ubuntu1.1), libc-bin (2.11.1-0ubuntu7, 2.11.1-0ubuntu7.2), gwibber-service (2.30.0.1-0ubuntu1, 2.30.1-0ubuntu1), libkrb5support0 (1.8.1+dfsg-2, 1.8.1+dfsg-2ubuntu0.2), libgail18 (2.20.0-0ubuntu4, 2.20.1-0ubuntu2), openoffice.org-core (3.2.0-7ubuntu4, 3.2.0-7ubuntu4.1), update-manager (0.134.7, 0.134.10), openoffice.org-writer (3.2.0-7ubuntu4, 3.2.0-7ubuntu4.1), base-files (5.0.0ubuntu20, 5.0.0ubuntu20.10.04.1), gnome-desktop-data (2.30.0-0ubuntu1, 2.30.2-0ubuntu1), nautilus (2.30.0-0ubuntu4, 2.30.1-0ubuntu1.1), openoffice.org-impress (3.2.0-7ubuntu4, 3.2.0-7ubuntu4.1), language-pack-en-base (10.04+20100421, 10.04+20100714), gvfs-fuse (1.6.0+git20100414-0ubuntu1, 1.6.1-0ubuntu1build1), linux-headers-generic (2.6.32.21.22, 2.6.32.24.25), xulrunner-1.9.2 (1.9.2.3+nobinonly-0ubuntu2, 1.9.2.8+build1+nobinonly-0ubuntu0.10.04.1), libsdl1.2debian-pulseaudio (1.2.14-4ubuntu1, 1.2.14-4ubuntu1.1), libpam-modules (1.1.1-2ubuntu2, 1.1.1-2ubuntu5), libcupscgi1 (1.4.3-1, 1.4.3-1ubuntu1.2), libsnmp15 (5.4.2.1~dfsg0ubuntu1-0ubuntu2, 5.4.2.1~dfsg0ubuntu1-0ubuntu2.1), gnome-settings-daemon (2.30.0-0ubuntu6, 2.30.1-0ubuntu1), indicator-application (0.0.19-0ubuntu4, 0.0.19-0ubuntu5), openoffice.org-draw (3.2.0-7ubuntu4, 3.2.0-7ubuntu4.1), smbclient (3.4.7~dfsg-1ubuntu3, 3.4.7~dfsg-1ubuntu3.1), libbrasero-media0 (2.30.0-0ubuntu1, 2.30.2-0ubuntu1), brasero-common (2.30.0-0ubuntu1, 2.30.2-0ubuntu1), libgail-common (2.20.0-0ubuntu4, 2.20.1-0ubuntu2), libgnome-keyring0 (2.30.0-0ubuntu4, 2.30.1-0ubuntu1), libdbusmenu-glib1 (0.2.9-0ubuntu3, 0.2.9-0ubuntu3.1), evolution (2.28.3-0ubuntu9, 2.28.3-0ubuntu10), openoffice.org-gtk (3.2.0-7ubuntu4, 3.2.0-7ubuntu4.1), update-manager-core (0.134.7, 0.134.10), hunspell-en-ca (3.2.0-3ubuntu3, 3.2.0-3ubuntu3.1), libsane (1.0.20-13ubuntu2, 1.0.21-0ubuntu1), udisks (1.0.1-1build1, 1.0.1-1ubuntu1), libexchange-storage1.2-3 (2.28.3.1-0ubuntu2, 2.28.3.1-0ubuntu5), totem-plugins (2.30.0git20100413-0ubuntu1, 2.30.2-0ubuntu1), linux-image-generic (2.6.32.21.22, 2.6.32.24.25), gnome-screensaver (2.30.0-0ubuntu1, 2.30.0-0ubuntu2), rhythmbox (0.12.8-0ubuntu3, 0.12.8-0ubuntu7), libgstfarsight0.10-0 (0.0.17-2ubuntu1, 0.0.17-2ubuntu2), libpam-runtime (1.1.1-2ubuntu2, 1.1.1-2ubuntu5), system-config-printer-gnome (1.2.0+20100408-0ubuntu5, 1.2.0+20100408-0ubuntu5.2), gedit (2.30.0git20100413-0ubuntu1, 2.30.3-0ubuntu0.1), libdecoration0 (0.8.4-0ubuntu15, 0.8.4-0ubuntu15.1), liblircclient0 (0.8.6-0ubuntu4, 0.8.6-0ubuntu4.1), python-gtksourceview2 (2.10.0-0ubuntu1, 2.10.1-0ubuntu1), gtk2-engines-pixbuf (2.20.0-0ubuntu4, 2.20.1-0ubuntu2), libevview2 (2.30.0-0ubuntu1, 2.30.3-0ubuntu1.1), libpam-gnome-keyring (2.92.92.is.2.30.0-0ubuntu3, 2.92.92.is.2.30.3-0ubuntu1), libglu1-mesa (7.7.1-1ubuntu2, 7.7.1-1ubuntu3), cups-client (1.4.3-1, 1.4.3-1ubuntu1.2), apt-transport-https (0.7.25.3ubuntu7, 0.7.25.3ubuntu9.1), libcupsmime1 (1.4.3-1, 1.4.3-1ubuntu1.2), libc-dev-bin (2.11.1-0ubuntu7, 2.11.1-0ubuntu7.2), xserver-common (1.7.6-2ubuntu7, 1.7.6-2ubuntu7.3), language-pack-gnome-en-base (10.04+20100421, 10.04+20100714), gnome-control-center (2.30.0-0ubuntu4, 2.30.1-0ubuntu1), libcamel1.2-14 (2.28.3.1-0ubuntu2, 2.28.3.1-0ubuntu5), ubuntu-system-service (0.1.20, 0.1.20.1), system-config-printer-udev (1.2.0+20100408-0ubuntu5, 1.2.0+20100408-0ubuntu5.2), empathy (2.30.0.1-0ubuntu3, 2.30.2-0ubuntu1), python-apt (0.7.94.2ubuntu6, 0.7.94.2ubuntu6.2), libnotify1 (0.4.5-1ubuntu3, 0.4.5-1ubuntu4), totem-common (2.30.0git20100413-0ubuntu1, 2.30.2-0ubuntu1), ghostscript-x (8.71.dfsg.1-0ubuntu5, 8.71.dfsg.1-0ubuntu5.2), light-themes (0.1.6.5, 0.1.6.6), indicator-applet (0.3.6-0ubuntu2, 0.3.7-0ubuntu1), gvfs-bin (1.6.0+git20100414-0ubuntu1, 1.6.1-0ubuntu1build1), vinagre (2.30.0-0ubuntu2, 2.30.2-0ubuntu1), libedata-cal1.2-6 (2.28.3.1-0ubuntu2, 2.28.3.1-0ubuntu5), libgvfscommon0 (1.6.0+git20100414-0ubuntu1, 1.6.1-0ubuntu1build1), pm-utils-powersave-policy (0.3, 0.3.1), linux-libc-dev (2.6.32-21.32, 2.6.32-24.38), nautilus-data (2.30.0-0ubuntu4, 2.30.1-0ubuntu1.1), ubuntuone-client-gnome (1.2.1-0ubuntu1, 1.2.2-0ubuntu2), gstreamer0.10-plugins-good (0.10.21-1ubuntu2, 0.10.21-1ubuntu3), libparted0debian1 (2.2-5ubuntu5, 2.2-5ubuntu5.1), libsoup2.4-1 (2.30.0-0ubuntu1, 2.30.2-0ubuntu0.1), humanity-icon-theme (0.5.2, 0.5.2.1), openoffice.org-style-human (3.2.0-7ubuntu4, 3.2.0-7ubuntu4.1), xserver-xorg-core (1.7.6-2ubuntu7, 1.7.6-2ubuntu7.3), parted (2.2-5ubuntu5, 2.2-5ubuntu5.1), grub-pc (1.98-1ubuntu5, 1.98-1ubuntu7), libsmbclient (3.4.7~dfsg-1ubuntu3, 3.4.7~dfsg-1ubuntu3.1), nautilus-sendto-empathy (2.30.0.1-0ubuntu3, 2.30.2-0ubuntu1), libk5crypto3 (1.8.1+dfsg-2, 1.8.1+dfsg-2ubuntu0.2), apt-utils (0.7.25.3ubuntu7, 0.7.25.3ubuntu9.1), libpanel-applet2-0 (2.30.0-0ubuntu1, 2.30.2-0ubuntu0.2), openssh-client (5.3p1-3ubuntu3, 5.3p1-3ubuntu4), jockey-common (0.5.8-0ubuntu8, 0.5.8-0ubuntu8.1), libgnomekbd-common (2.30.0-0ubuntu2, 2.30.2-0ubuntu0.1), gedit-common (2.30.0git20100413-0ubuntu1, 2.30.3-0ubuntu0.1), libcairomm-1.0-1 (1.8.0-1build2, 1.8.4-0ubuntu1), libido-0.1-0 (0.1.5-0ubuntu1, 0.1.6-0ubuntu1), libc6-i686 (2.11.1-0ubuntu7, 2.11.1-0ubuntu7.2), software-center (2.0.2, 2.0.7), compiz-plugins (0.8.4-0ubuntu15, 0.8.4-0ubuntu15.1), acpid (1.0.10-5ubuntu2, 1.0.10-5ubuntu2.1), simple-scan (1.0.2-0ubuntu1, 1.0.3-0ubuntu1), libcupsppdc1 (1.4.3-1, 1.4.3-1ubuntu1.2), libatspi1.0-0 (1.30.0-0ubuntu2, 1.30.1-0ubuntu1), libglibmm-2.4-1c2a (2.24.1-1, 2.24.2-0ubuntu1), gnome-orca (2.30.0-0ubuntu3, 2.30.2-0ubuntu1), python-pyatspi (1.30.0-0ubuntu2, 1.30.1-0ubuntu1), apt (0.7.25.3ubuntu7, 0.7.25.3ubuntu9.1), firefox (3.6.3+nobinonly-0ubuntu4, 3.6.8+build1+nobinonly-0ubuntu0.10.04.1), samba-common-bin (3.4.7~dfsg-1ubuntu3, 3.4.7~dfsg-1ubuntu3.1), libgp11-0 (2.92.92.is.2.30.0-0ubuntu3, 2.92.92.is.2.30.3-0ubuntu1), cups-common (1.4.3-1, 1.4.3-1ubuntu1.2), uno-libs3 (1.6.0+OOo3.2.0-7ubuntu4, 1.6.0+OOo3.2.0-7ubuntu4.1), gnome-about (2.30.0-0ubuntu1, 2.30.2-0ubuntu1), libgcr0 (2.92.92.is.2.30.0-0ubuntu3, 2.92.92.is.2.30.3-0ubuntu1), rhythmbox-plugin-cdrecorder (0.12.8-0ubuntu3, 0.12.8-0ubuntu7), libgtksourceview2.0-common (2.10.0-0ubuntu1, 2.10.4-0ubuntu1), libkpathsea5 (2009-5, 2009-5ubuntu0.1), openoffice.org-math (3.2.0-7ubuntu4, 3.2.0-7ubuntu4.1), libcups2 (1.4.3-1, 1.4.3-1ubuntu1.2), libhal1 (0.5.14-0ubuntu5, 0.5.14-0ubuntu6), libtag1-vanilla (1.6.2-0ubuntu1, 1.6.3-0ubuntu1), gdm (2.30.0-0ubuntu5, 2.30.2.is.2.30.0-0ubuntu3), libgtksourceview2.0-0 (2.10.0-0ubuntu1, 2.10.4-0ubuntu1), hal (0.5.14-0ubuntu5, 0.5.14-0ubuntu6), capplets-data (2.30.0-0ubuntu4, 2.30.1-0ubuntu1), libpangomm-1.4-1 (2.26.1-1, 2.26.2-0ubuntu1), python-farsight (0.0.17-2ubuntu1, 0.0.17-2ubuntu2), openoffice.org-common (3.2.0-7ubuntu4, 3.2.0-7ubuntu4.1), python-uno (3.2.0-7ubuntu4, 3.2.0-7ubuntu4.1), libegroupwise1.2-13 (2.28.3.1-0ubuntu2, 2.28.3.1-0ubuntu5), obexd-client (0.22-0ubuntu1, 0.22-0ubuntu2), libgtk2.0-bin (2.20.0-0ubuntu4, 2.20.1-0ubuntu2), sudo (1.7.2p1-1ubuntu5, 1.7.2p1-1ubuntu5.1), libdbusmenu-gtk1 (0.2.9-0ubuntu3, 0.2.9-0ubuntu3.1), python-vte (0.23.5-0ubuntu1, 0.23.5-0ubuntu1.1), unattended-upgrades (0.55ubuntu3, 0.55ubuntu4), language-selector (0.5.7, 0.5.8), libvte9 (0.23.5-0ubuntu1, 0.23.5-0ubuntu1.1), ttf-opensymbol (3.2.0-7ubuntu4, 3.2.0-7ubuntu4.1), libecal1.2-7 (2.28.3.1-0ubuntu2, 2.28.3.1-0ubuntu5), app-install-data-partner (12.10.04, 12.10.04.3), at-spi (1.30.0-0ubuntu2, 1.30.1-0ubuntu1), gstreamer0.10-pulseaudio (0.10.21-1ubuntu2, 0.10.21-1ubuntu3), libpoppler5 (0.12.4-0ubuntu4, 0.12.4-0ubuntu5), libgdata1.2-1 (2.28.3.1-0ubuntu2, 2.28.3.1-0ubuntu5), libedataserver1.2-11 (2.28.3.1-0ubuntu2, 2.28.3.1-0ubuntu5), dpkg (1.15.5.6ubuntu4, 1.15.5.6ubuntu4.1), libhal-storage1 (0.5.14-0ubuntu5, 0.5.14-0ubuntu6), system-config-printer-common (1.2.0+20100408-0ubuntu5, 1.2.0+20100408-0ubuntu5.2), libgtkmm-2.4-1c2a (2.20.2-1, 2.20.3-0ubuntu1), firefox-gnome-support (3.6.3+nobinonly-0ubuntu4, 3.6.8+build1+nobinonly-0ubuntu0.10.04.1), cups (1.4.3-1, 1.4.3-1ubuntu1.2), evince (2.30.0-0ubuntu1, 2.30.3-0ubuntu1.1), openoffice.org-base-core (3.2.0-7ubuntu4, 3.2.0-7ubuntu4.1), libevdocument2 (2.30.0-0ubuntu1, 2.30.3-0ubuntu1.1), libgdata-google1.2-1 (2.28.3.1-0ubuntu2, 2.28.3.1-0ubuntu5), pm-utils (1.3.0-1ubuntu1, 1.3.0-1ubuntu2), libcupsdriver1 (1.4.3-1, 1.4.3-1ubuntu1.2), libglib2.0-data (2.24.0-0ubuntu4, 2.24.1-0ubuntu1), fglrx-modaliases (8.723.1-0ubuntu3, 8.723.1-0ubuntu4), libatk1.0-data (1.30.0-0ubuntu2, 1.30.0-0ubuntu2.1), python-appindicator (0.0.19-0ubuntu4, 0.0.19-0ubuntu5), libebook1.2-9 (2.28.3.1-0ubuntu2, 2.28.3.1-0ubuntu5), evolution-plugins (2.28.3-0ubuntu9, 2.28.3-0ubuntu10), libwbclient0 (3.4.7~dfsg-1ubuntu3, 3.4.7~dfsg-1ubuntu3.1), indicator-applet-session (0.3.6-0ubuntu2, 0.3.7-0ubuntu1), nvidia-current-modaliases (195.36.15-0ubuntu2, 195.36.24-0ubuntu1~10.04), libedataserverui1.2-8 (2.28.3.1-0ubuntu2, 2.28.3.1-0ubuntu5), libgnome-window-settings1 (2.30.0-0ubuntu4, 2.30.1-0ubuntu1), libedata-book1.2-2 (2.28.3.1-0ubuntu2, 2.28.3.1-0ubuntu5), libsoup-gnome2.4-1 (2.30.0-0ubuntu1, 2.30.2-0ubuntu0.1), evolution-data-server (2.28.3.1-0ubuntu2, 2.28.3.1-0ubuntu5), rhythmbox-plugins (0.12.8-0ubuntu3, 0.12.8-0ubuntu7), libgdata6 (0.5.1-1, 0.5.2-0ubuntu1), acpi-support (0.136, 0.136.1), libgs8 (8.71.dfsg.1-0ubuntu5, 8.71.dfsg.1-0ubuntu5.2), openoffice.org-emailmerge (3.2.0-7ubuntu4, 3.2.0-7ubuntu4.1), libappindicator0 (0.0.19-0ubuntu4, 0.0.19-0ubuntu5), cups-bsd (1.4.3-1, 1.4.3-1ubuntu1.2), libtiff4 (3.9.2-2, 3.9.2-2ubuntu0.3), ure (1.6.0+OOo3.2.0-7ubuntu4, 1.6.0+OOo3.2.0-7ubuntu4.1), libpng12-0 (1.2.42-1ubuntu2, 1.2.42-1ubuntu2.1), synaptic (0.63.1ubuntu6, 0.63.1ubuntu7), libfreetype6 (2.3.11-1ubuntu2, 2.3.11-1ubuntu2.1), myspell-en-gb (3.2.0-3ubuntu3, 3.2.0-3ubuntu3.1), libgl1-mesa-dri (7.7.1-1ubuntu2, 7.7.1-1ubuntu3), libc6-dev (2.11.1-0ubuntu7, 2.11.1-0ubuntu7.2), libglib2.0-0 (2.24.0-0ubuntu4, 2.24.1-0ubuntu1), tzdata (2010i-1, 2010j-0ubuntu0.10.04), libcupsimage2 (1.4.3-1, 1.4.3-1ubuntu1.2), language-selector-common (0.5.7, 0.5.8), ghostscript (8.71.dfsg.1-0ubuntu5, 8.71.dfsg.1-0ubuntu5.2), libtag1c2a (1.6.2-0ubuntu1, 1.6.3-0ubuntu1), librsvg2-2 (2.26.2-0ubuntu1, 2.26.3-0ubuntu1), libgl1-mesa-glx (7.7.1-1ubuntu2, 7.7.1-1ubuntu3), poppler-utils (0.12.4-0ubuntu4, 0.12.4-0ubuntu5), jockey-gtk (0.5.8-0ubuntu8, 0.5.8-0ubuntu8.1), indicator-sound (0.2.2-0ubuntu1, 0.2.3-0ubuntu1), libsnmp-base (5.4.2.1~dfsg0ubuntu1-0ubuntu2, 5.4.2.1~dfsg0ubuntu1-0ubuntu2.1), myspell-en-za (3.2.0-3ubuntu3, 3.2.0-3ubuntu3.1), samba-common (3.4.7~dfsg-1ubuntu3, 3.4.7~dfsg-1ubuntu3.1), brasero (2.30.0-0ubuntu1, 2.30.2-0ubuntu1), telepathy-butterfly (0.5.8-1ubuntu1, 0.5.11-0ubuntu1), libebackend1.2-0 (2.28.3.1-0ubuntu2, 2.28.3.1-0ubuntu5), firefox-branding (3.6.3+nobinonly-0ubuntu4, 3.6.8+build1+nobinonly-0ubuntu0.10.04.1), compiz (0.8.4-0ubuntu15, 0.8.4-0ubuntu15.1), gvfs (1.6.0+git20100414-0ubuntu1, 1.6.1-0ubuntu1build1), python-ubuntuone-client (1.2.1-0ubuntu1, 1.2.2-0ubuntu2), gnome-panel (2.30.0-0ubuntu1, 2.30.2-0ubuntu0.2), libgssapi-krb5-2 (1.8.1+dfsg-2, 1.8.1+dfsg-2ubuntu0.2), gvfs-backends (1.6.0+git20100414-0ubuntu1, 1.6.1-0ubuntu1build1), language-pack-en (10.04+20100421, 10.04+20100714), libgnome-desktop-2-17 (2.30.0-0ubuntu1, 2.30.2-0ubuntu1), grub-common (1.98-1ubuntu5, 1.98-1ubuntu7), gwibber (2.30.0.1-0ubuntu1, 2.30.1-0ubuntu1), python-papyon (0.4.6-0ubuntu2, 0.4.8-0ubuntu1), ureadahead (0.100.0-4.1, 0.100.0-4.1.2), compiz-core (0.8.4-0ubuntu15, 0.8.4-0ubuntu15.1), totem (2.30.0git20100413-0ubuntu1, 2.30.2-0ubuntu1), openoffice.org-calc (3.2.0-7ubuntu4, 3.2.0-7ubuntu4.1), mountall (2.14, 2.15), libnautilus-extension1 (2.30.0-0ubuntu4, 2.30.1-0ubuntu1.1), libc6 (2.11.1-0ubuntu7, 2.11.1-0ubuntu7.2), python-cupshelpers (1.2.0+20100408-0ubuntu5, 1.2.0+20100408-0ubuntu5.2), evolution-data-server-common (2.28.3.1-0ubuntu2, 2.28.3.1-0ubuntu5), binutils (2.20.1-3ubuntu5, 2.20.1-3ubuntu6), libvte-common (0.23.5-0ubuntu1, 0.23.5-0ubuntu1.1), transmission-common (1.92-0ubuntu2, 1.93-0ubuntu0.10.04.1), linux-generic (2.6.32.21.22, 2.6.32.24.25), librsvg2-common (2.26.2-0ubuntu1, 2.26.3-0ubuntu1), linux-firmware (1.34, 1.34.1), language-pack-gnome-en (10.04+20100421, 10.04+20100714), totem-mozilla (2.30.0git20100413-0ubuntu1, 2.30.2-0ubuntu1), libgtk2.0-0 (2.20.0-0ubuntu4, 2.20.1-0ubuntu2), file-roller (2.30.0-0ubuntu1, 2.30.1.1-0ubuntu2), compiz-gnome (0.8.4-0ubuntu15, 0.8.4-0ubuntu15.1), transmission-gtk (1.92-0ubuntu2, 1.93-0ubuntu0.10.04.1), gnome-panel-data (2.30.0-0ubuntu1, 2.30.2-0ubuntu0.2), libgdata-common (0.5.1-1, 0.5.2-0ubuntu1), empathy-common (2.30.0.1-0ubuntu3, 2.30.2-0ubuntu1), ssh-askpass-gnome (5.3p1-3ubuntu3, 5.3p1-3ubuntu4), libpoppler-glib4 (0.12.4-0ubuntu4, 0.12.4-0ubuntu5), ghostscript-cups (8.71.dfsg.1-0ubuntu5, 8.71.dfsg.1-0ubuntu5.2)
+End-Date: 2010-07-27 12:14:29
+
+Start-Date: 2010-07-27 12:17:26
+Remove: empathy (2.30.2-0ubuntu1)
+End-Date: 2010-07-27 12:17:37
+
+Start-Date: 2010-07-27 12:17:42
+Remove: f-spot (0.6.1.5-2ubuntu7)
+End-Date: 2010-07-27 12:17:48
+
+Start-Date: 2010-07-27 12:17:53
+Remove: gwibber (2.30.1-0ubuntu1)
+End-Date: 2010-07-27 12:17:57
+
+Start-Date: 2010-07-27 12:18:02
+Remove: pitivi (0.13.4-0ubuntu3)
+End-Date: 2010-07-27 12:18:06
+
+Start-Date: 2010-07-27 12:18:11
+Remove: tomboy (1.2.1-0ubuntu1)
+End-Date: 2010-07-27 12:18:20
+
+Start-Date: 2010-07-27 12:20:27
+Install: community-themes (0.22.1), breathe-icon-theme (0.51.2), human-icon-theme (0.36)
+End-Date: 2010-07-27 12:20:35
+
+Start-Date: 2010-07-27 12:23:27
+Install: libswscale0 (0.5.1-1ubuntu1), libtwolame0 (0.3.12-1), libwildmidi0 (0.2.2-2), liborc-0.4-0 (0.4.3-5), libflite1 (1.3-release-2build1), unrar (3.9.3-1), libdc1394-22 (2.1.2-2), gstreamer0.10-plugins-ugly (0.10.14-1), libxvidcore4 (1.2.2+debian-0ubuntu2), libsoundtouch1c2 (1.3.1-2), icedtea6-plugin (6b18-1.8-4ubuntu3), gstreamer0.10-plugins-ugly-multiverse (0.10.14-0ubuntu2), libmp4v2-0 (1.6dfsg-0.2ubuntu8), libdca0 (0.0.5-3), libopenjpeg2 (1.3+dfsg-4), libopenspc0 (0.3.99a-2), java-common (0.34), libpostproc51 (0.5.1-1ubuntu1), libaccess-bridge-java-jni (1.26.2-3), libfftw3-3 (3.2.2-1), libass4 (0.9.9-0ubuntu1), gstreamer0.10-plugins-bad-multiverse (0.10.18-0ubuntu1), libaccess-bridge-java (1.26.2-3), icedtea-6-jre-cacao (6b18-1.8-4ubuntu3), libavcodec-extra-52 (0.5.1-1ubuntu1), libavformat52 (0.5.1-1ubuntu1), libavutil-extra-49 (0.5.1-1ubuntu1), libx264-85 (0.85.1448+git1a6d32-4), libschroedinger-1.0-0 (1.0.9.is.1.0.8-0ubuntu1), gstreamer0.10-ffmpeg (0.10.10-1), libmp3lame0 (3.98.2+debian-0ubuntu3), libenca0 (1.12-1), gstreamer0.10-pitfdll (0.9.1.1+cvs20080215-1ubuntu2), openjdk-6-jre-headless (6b18-1.8-4ubuntu3), tzdata-java (2010j-0ubuntu0.10.04), libgme0 (0.5.5-1), freepats (20060219-1), openjdk-6-jre (6b18-1.8-4ubuntu3), ubuntu-restricted-extras (39), flashplugin-installer (10.1.53.64ubuntu0.10.04.3), openjdk-6-jre-lib (6b18-1.8-4ubuntu3), ttf-mscorefonts-installer (3.2), cabextract (1.2-3), libgsm1 (1.0.13-3), libdvdnav4 (4.1.3-6), gstreamer0.10-plugins-bad (0.10.18-1ubuntu1), libdvdread4 (4.1.3-8ubuntu1), libkate1 (0.3.7-3), libcdaudio1 (0.99.12p2-9), libmimic0 (1.0.4-2build1), libsidplay1 (1.36.59-5), libmad0 (0.15.1b-4ubuntu1), libmjpegtools-1.9 (1.9.0-0.5ubuntu3), libid3tag0 (0.15.1b-10build2), libmodplug0c2 (0.8.7-1build1), libopencore-amrnb0 (0.1.2-1), libcelt0-0 (0.7.1-1), ca-certificates-java (20100406ubuntu1), libquicktime1 (1.1.4-1), libdirac-encoder0 (1.0.2-2), libmpcdec3 (1.2.2-2.1ubuntu1), libopencore-amrwb0 (0.1.2-1), libofa0 (0.9.3-3.1), libmpeg2-4 (0.4.1-3), libmms0 (0.4-2), libiptcdata0 (1.0.3-1ubuntu1), libfaac0 (1.26-0.1ubuntu2), libfaad2 (2.7-4), liba52-0.7.4 (0.7.4-13ubuntu1)
+End-Date: 2010-07-27 12:28:52
+
+Start-Date: 2010-07-27 12:36:34
+Upgrade: nautilus (2.30.1-0ubuntu1.1, 2.31.1-0ubuntu1~ppa91), libndesk-dbus1.0-cil (0.6.0-4, 0.6.1a+git20090427-0ubuntu1~10.04~dockycore1), nautilus-data (2.30.1-0ubuntu1.1, 2.31.1-0ubuntu1~ppa91), libnautilus-extension1 (2.30.1-0ubuntu1.1, 2.31.1-0ubuntu1~ppa91)
+End-Date: 2010-07-27 12:36:53
+
+Start-Date: 2010-07-27 12:37:22
+Install: compizconfig-settings-manager (0.8.2-0ubuntu1), python-compizconfig (0.8.2-0ubuntu1)
+End-Date: 2010-07-27 12:37:29
+
+Start-Date: 2010-07-27 12:53:16
+Install: libopenal1 (1.12.854-0ubuntu1~lucid1), liblash2 (0.5.4-0ubuntu5), libclucene0ldbl (0.9.21b-2), mesa-utils (7.7.1-1ubuntu3), melt (0.5.4-1), chromium-codecs-ffmpeg (0.5+svn20100406r43776+43984+43918-0ubuntu1), kubuntu-debug-installer (10.04ubuntu4), libqca2 (2.0.2-1ubuntu2), libqt4-opengl (4.6.2-0ubuntu5), dvgrab (3.5-1), polkit-kde-1 (0.95.1-2ubuntu1), openshot (1.1.3-1), libqt4-assistant (4.6.2-0ubuntu5), gnuchess-book (1.01-2), libpackagekit-glib2-12 (0.5.7-0ubuntu2), python-renderpm (2.4-1), pidgin-libnotify (0.14-1ubuntu14), visualboyadvance (1.8.0-5), swh-plugins (0.4.15+1-4), python-dockmanager (0.1.0~bzr44-0ubuntu1~10.04~dockers1), visualboyadvance-gtk (1.8.0-5), libxine1-x (1.1.17-1ubuntu3), qjackctl (0.3.4-0ubuntu4), libxcb-keysyms1 (0.3.6-1build1), kdenlive-data (0.7.7.1-0ubuntu1), kdenlive (0.7.7.1-0ubuntu1), kpackagekit (0.5.4-0ubuntu4.3), ttf-dejavu-extra (2.30-2), libmlt++3 (0.5.4-1), libcvaux4 (2.0.0-3ubuntu2), kakasi-dic (2.3.4-3.2), librsvg2-2.18-cil (2.26.0-2ubuntu1), libgfortran3 (4.4.3-4ubuntu5), wine1.2 (1.1.42-0ubuntu4), oxygen-icon-theme (4.4.2-0ubuntu2), libboost-program-options1.40.0 (1.40.0-4ubuntu4), libqt4-test (4.6.2-0ubuntu5), libvamp-hostsdk3 (2.1-1), libwxgtk2.8-0 (2.8.10.1-0ubuntu1), gparted (0.5.1-1ubuntu3), kdebase-runtime (4.4.2-0ubuntu4.1), libqt4-sql-mysql (4.6.2-0ubuntu5), chromium-browser-inspector (5.0.375.99~r51029-0ubuntu0.10.04.1), libftgl2 (2.1.3~rc5-3), thunderbird (3.0.6+build2+nobinonly-0ubuntu0.10.04.1), libqt4-dbus (4.6.2-0ubuntu5), audacity (1.3.12-2), python-mlt2 (0.5.4-1), libxine1-misc-plugins (1.1.17-1ubuntu3), kdelibs5 (4.4.2-0ubuntu4), libxcb-xv0 (1.5-2), phonon (4.6.2-0ubuntu5), chromium-browser (5.0.375.99~r51029-0ubuntu0.10.04.1), libqt4-qt3support (4.6.2-0ubuntu5), python-sqlalchemy (0.5.8-1), shared-desktop-ontologies (0.3-1), audacity-data (1.3.12-2), neverball-common (1.5.4-2), libflac++6 (1.2.1-2build2), libcddb2 (1.3.2-0ubuntu1), mysql-common (5.1.41-3ubuntu12.4), kakasi (2.3.4-3.2), python-lxml (2.2.4-1), gnome-chess (0.4.0-3), python-reportlab-accel (2.4-1), libxine1-bin (1.1.17-1ubuntu3), libexiv2-6 (0.19-1), pidgin-data (2.6.6-1ubuntu4), frei0r-plugins (1.1.22git20090409+repack-0ubuntu3), neverputt-data (1.5.4-2), zeitgeist (0.3.2-1ubuntu1), libdvbpsi5 (0.1.6-1), zeitgeist-core (0.3.2-1ubuntu1), dvdauthor (0.6.14-3ubuntu4), anki (0.9.9.8.6-2~lucid1), kdesudo (3.4.2.3-0ubuntu1), libsnack2-alsa (2.2.10-dfsg1-9), amsn (0.98.3-0ubuntu1), libpackagekit-qt-12 (0.5.7-0ubuntu2), ttf-lyx (1.6.5-1ubuntu1), kaffeine (1.0~pre3-1ubuntu1), python-beautifulsoup (3.1.0.1-2build1), libalut0 (1.1.0-2), libakonadiprivate1 (1.3.1-0ubuntu3), libgio2.22-cil (2.22~git20100412-1~10.04~dockycore1), libqt4-xmlpatterns (4.6.2-0ubuntu5), python-mpd (0.2.1-4), libsoprano4 (2.4.2+dfsg.1-0ubuntu1.1), phatch (0.2.7-1), install-package (0.5.2), libpolkit-qt-1-0 (0.95.1-1fakesync1), libvlc2 (1.0.6-1ubuntu1.1), gettext (0.17-8ubuntu3), libqt4-help (4.6.2-0ubuntu5), python-qt4 (4.7.2-0ubuntu1), python-numpy (1.3.0-3build1), blt (2.4z-4.2), python-tk (2.6.5-0ubuntu2), libqt4-webkit (4.6.2-0ubuntu5), python-tz (2010b-1), python-sip (4.10.1-0ubuntu1), kdelibs5-data (4.4.2-0ubuntu4), vlc-nox (1.0.6-1ubuntu1.1), python-mutagen (1.15-2build1), cvs (1.12.13-12ubuntu1), libtiff-tools (3.9.2-2ubuntu0.3), python-matplotlib-data (0.99.1.2-3ubuntu1), libdbusmenu-qt2 (0.3.2-0ubuntu1), libqtcore4 (4.6.2-0ubuntu5), libsdl-ttf2.0-0 (2.0.9-1build1), amsn-data (0.98.3-0ubuntu1), libupnp3 (1.6.6-4), agave (0.4.7-1ubuntu1), libxcb-shape0 (1.5-2), libgavl1 (1.1.1-3), libwxbase2.8-0 (2.8.10.1-0ubuntu1), icoutils (0.26.0-4ubuntu1), libqt4-sql-sqlite (4.6.2-0ubuntu5), neverputt (1.5.4-2), ffmpeg (0.5.1-1ubuntu1), qsynth (0.3.4-1), libwmf-bin (0.2.8.4-6.1ubuntu2), libavfilter0 (0.5.1-1ubuntu1), libffado2 (2.0.0-1ubuntu1), libqt4-sql (4.6.2-0ubuntu5), scribus (1.3.3.13.dfsg~svn20081228-2ubuntu2), libqt4-svg (4.6.2-0ubuntu5), wine (1.1.42-0ubuntu4), recordmydesktop (0.3.8.1+svn602-1ubuntu1), python-dateutil (1.4.1-3), phatch-cli (0.2.7-1), libcv4 (2.0.0-3ubuntu2), libwnck2.20-cil (2.26.0-2ubuntu1), ttf-symbol-replacement (1.1.42-0ubuntu4), python-packagekit (0.5.7-0ubuntu2), libmagick++2 (6.5.7.8-1ubuntu1), libstreamanalyzer0 (0.7.2-0ubuntu1), libphonon4 (4.6.2-0ubuntu5), libiso9660-7 (0.81-4), libsox-fmt-base (14.3.0-1.1build1), libfluidsynth1 (1.1.1-2build1), libqt4-xml (4.6.2-0ubuntu5), python-uniconvertor (1.1.4-1build1), exiftran (2.07-2), wine1.2-gecko (1.0.0-0ubuntu4), libblas3gf (1.2-2build1), packagekit (0.5.7-0ubuntu2), dockmanager (0.1.0~bzr44-0ubuntu1~10.04~dockers1), vlc (1.0.6-1ubuntu1.1), tcl8.5 (8.5.8-2), python-wxversion (2.8.10.1-0ubuntu1), gdebi-kde (0.6.0ubuntu1), libplasma3 (4.4.2-0ubuntu4), libqt4-network (4.6.2-0ubuntu5), python-pyparsing (1.5.2-1ubuntu1), ttf-dejavu (2.30-2), software-properties-kde (0.75.10), phonon-backend-xine (4.4.0-0ubuntu2), libqt4-designer (4.6.2-0ubuntu5), kdepimlibs5 (4.4.2-0ubuntu2.1), libhighgui4 (2.0.0-3ubuntu2), liblapack3gf (3.2.1-2), xcftools (1.0.7-1), libxml++2.6-2 (2.30.0-1), blender (2.49.2~dfsg-1ubuntu1), fusion-icon (0.1.0-2), libmysqlclient16 (5.1.41-3ubuntu12.4), kdelibs-bin (4.4.2-0ubuntu4), zeitgeist-datahub (0.3.2-1ubuntu1), libsox-fmt-alsa (14.3.0-1.1build1), libqtgui4 (4.6.2-0ubuntu5), libattica0 (0.1.3-0ubuntu1), tk8.5 (8.5.8-1), python-matplotlib (0.99.1.2-3ubuntu1), liblua5.1-0 (5.1.4-5), python-pyexiv2 (0.1.3-6build1), pidgin (2.6.6-1ubuntu4), libmpg123-0 (1.12.1-0ubuntu1), update-manager-kde (0.134.10), docky-dbg (2.1.0~bzr1589-0ubuntu1~10.04~dockycore1), libstreams0 (0.7.2-0ubuntu1), vlc-plugin-pulse (1.0.6-1ubuntu1.1), vlc-data (1.0.6-1ubuntu1.1), packagekit-backend-apt (0.5.7-0ubuntu2), exiv2 (0.19-1), libgconfmm-2.6-1c2 (2.28.0-1), libtar (1.2.11-6), libqt3-mt (3.3.8-b-6ubuntu2), python-wxgtk2.8 (2.8.10.1-0ubuntu1), winbind (3.4.7~dfsg-1ubuntu3.1), gnuchess (5.07-7), libphysfs1 (2.0.0-4), jackd (0.118+svn3796-1ubuntu2), libqt4-script (4.6.2-0ubuntu5), plasma-scriptengine-javascript (4.4.2-0ubuntu4.1), libsox1a (14.3.0-1.1build1), libmlt-data (0.5.4-1), jackd-firewire (0.118+svn3796-1ubuntu2), openshot-doc (1.1.3-1), libqt4-scripttools (4.6.2-0ubuntu5), libjpeg-progs (7+really6b-15ubuntu1), libssh-4 (0.4.2-1ubuntu1), virtuoso-nepomuk (6.1.0-0ubuntu3.1), libaudio2 (1.9.2-3), perlmagick (6.5.7.8-1ubuntu1), libxcb-shm0 (1.5-2), libvlccore2 (1.0.6-1ubuntu1.1), soprano-daemon (2.4.2+dfsg.1-0ubuntu1.1), libvcdinfo0 (0.7.23-4ubuntu2), kdebase-runtime-data (4.4.2-0ubuntu4.1), inkscape (0.47.0-2ubuntu2), libebml0 (0.7.7-3.1), libreadline5 (5.2-7build1), python-reportlab (2.4-1), libiodbc2 (3.52.6-4), tcl-tls (1.5.0.dfsg-9), docky (2.1.0~bzr1589-0ubuntu1~10.04~dockycore1), kdepimlibs-data (4.4.2-0ubuntu2.1), libglademm-2.4-1c2a (2.6.7-2build1), libmatroska0 (0.8.1-1.1), libboost-python1.40.0 (1.40.0-4ubuntu4), libmng1 (1.0.9-1ubuntu1), libmlt2 (0.5.4-1), libnotify0.4-cil (0.4.0~r3032-2ubuntu1), python-kde4 (4.4.2-0ubuntu2), libgnomedesktop2.20-cil (2.26.0-2ubuntu1), sound-juicer (2.28.1-2), libsdl-image1.2 (1.2.10-1), libxine1-console (1.1.17-1ubuntu3), libavdevice52 (0.5.1-1ubuntu1), libxine1 (1.1.17-1ubuntu3)
+End-Date: 2010-07-27 12:58:58
+
+Start-Date: 2010-07-27 15:48:24
+Install: vocproc-lv2 (0.2-0ubuntu0+ppa1), python-pyasn1 (0.0.8a-1), slv2-jack (0.6.6-2build1), ardour (2.8.11-0ubuntu1+withladish1), python-twisted-runner (10.0.0-1), libslv2-9 (0.6.6-2build1), visual-compressor-lv2 (0.0+svn8-0ubuntu0+ppa3), libvamp-sdk2 (2.1-1), python-twisted-mail (10.0.0-1), amb-plugins (0.6.1-1), lv2core (3.0-2), multibandfilter-lv2 (0.0.1-0ubuntu0+ppa5), invada-studio-plugins-lv2 (1.2.0-1), libgnomecanvasmm-2.6-1c2a (2.26.0-1build1), python-twisted-lore (10.0.0-1), python-twisted-conch (10.0.0-2ubuntu1), python-twisted-news (10.0.0-1), python-twisted-words (10.0.0-2), python-twisted (10.0.0-2ubuntu2), fil-plugins (0.3.0-1), compressor-sc4-lv2 (0.0.1-0ubuntu0+ppa4), psycho-bass-lv2 (0.1+svn24-0~ppa17), lv2fil (2.0-0ubuntu0+ppa3), calf-plugins (0.0.18.5-0ubuntu1), liblo7 (0.26~repack-1), eq10q-lv2 (1.0-0ubuntu0+ppa4), libaubio2 (0.3.2-2ubuntu3+rebuild0), omnifono-lv2 (0.1-0ubuntu0+ppa1), dynamicmultiband-lv2 (0.0.2-0ubuntu0+ppa2), liblrdf0 (0.4.0-1.2), jack2 (1.9.5+ladifixes1-0ubuntu0+ppa19), lv2vocoder (20071011-0ubuntu0+ppa3), tap-plugins (0.7.1-0ubuntu1), libplotmm0 (0.1.2-0ubuntu0+ppa3), swh-lv2 (1.0.15+git20091216-0ubuntu0+ppa3)
+Error: Sub-process /usr/bin/dpkg returned an error code (1)
+End-Date: 2010-07-27 15:49:07
+
+Start-Date: 2010-07-27 15:51:14
+Install: wisotool (0.0+20100618), libavutil-extra-50 (0.6-2ubuntu1.2), redland-utils (1.0.10-1+rebuild0), winetricks (0.0+20100618-0ubuntu1), libvpx0 (0.9.0-6), libavfilter1 (0.6-2ubuntu1.2), libva1 (1.0.1-3+fixed1), jack2 (1.9.5+ladifixes1-0ubuntu0+ppa19), gnome-exe-thumbnailer (0.2), libosso1 (2.16-0ubuntu3)
+Upgrade: libopenal1 (1.12.854-0ubuntu1~lucid1, 1.12.854-0ubuntu1.1), liblash2 (0.5.4-0ubuntu5, 0.6.0.594-0ubuntu0+ppa9), libswscale0 (0.5.1-1ubuntu1, 0.6-2ubuntu1.2), dvgrab (3.5-1, 3.5-1+withcodecs1), libcompizconfig0 (0.8.4-0ubuntu2, 0.8.4-0ubuntu2.1), libportaudio2 (19+svn20090620-0ubuntu2, 19+svn20090620-0ubuntu2+withjack2+0), qjackctl (0.3.4-0ubuntu4, 0.3.6-0ubuntu1+fixed1), librdf0 (1.0.10-1ubuntu1, 1.0.10-1+rebuild0), pulseaudio (0.9.22~0.9.21+stable-queue-32-g8478-0ubuntu14, 0.9.22~0.9.21+stable-queue-32-g8478-0ubuntu14+withjack2.1), wine1.2 (1.1.42-0ubuntu4, 1.2-0ubuntu1+winert1), audacity (1.3.12-2, 1.3.12-2+withquicktime1), libjack0 (0.118+svn3796-1ubuntu2, 1.9.5+ladifixes1-0ubuntu0+ppa19), libdecoration0 (0.8.4-0ubuntu15.1, 0.8.6-0ubuntu0+ppa1), inputattach (20051019-9, 20051019-12), libdrm-intel1 (2.4.18-1ubuntu3, 2.4.18-1ubuntu3+nointelaccel4), audacity-data (1.3.12-2, 1.3.12-2+withquicktime1), libpostproc51 (0.5.1-1ubuntu1, 0.6-2ubuntu1.2), libpulse-mainloop-glib0 (0.9.22~0.9.21+stable-queue-32-g8478-0ubuntu14, 0.9.22~0.9.21+stable-queue-32-g8478-0ubuntu14+withjack2.1), libavcodec-extra-52 (0.5.1-1ubuntu1, 0.6-2ubuntu1.2), libavformat52 (0.5.1-1ubuntu1, 0.6-2ubuntu1.2), dvdauthor (0.6.14-3ubuntu4, 0.6.18-1), ttf-lyx (1.6.5-1ubuntu1, 1.6.6-0ubuntu0+ppa1), compiz-plugins (0.8.4-0ubuntu15.1, 0.8.6-0ubuntu0+ppa1), libvlc2 (1.0.6-1ubuntu1.1, 1.0.6-1ubuntu1.2), libdrm2 (2.4.18-1ubuntu3, 2.4.18-1ubuntu3+nointelaccel4), vlc-nox (1.0.6-1ubuntu1.1, 1.0.6-1ubuntu1.2), pulseaudio-module-bluetooth (0.9.22~0.9.21+stable-queue-32-g8478-0ubuntu14, 0.9.22~0.9.21+stable-queue-32-g8478-0ubuntu14+withjack2.1), libgavl1 (1.1.1-3, 1.1.2-0ubuntu0+ppa1), pulseaudio-module-x11 (0.9.22~0.9.21+stable-queue-32-g8478-0ubuntu14, 0.9.22~0.9.21+stable-queue-32-g8478-0ubuntu14+withjack2.1), ffmpeg (0.5.1-1ubuntu1, 0.6-2ubuntu1.2), qsynth (0.3.4-1, 0.3.5-0ubuntu0+ppa4), libdrm-nouveau1 (2.4.18-1ubuntu3, 2.4.18-1ubuntu3+nointelaccel4), pulseaudio-utils (0.9.22~0.9.21+stable-queue-32-g8478-0ubuntu14, 0.9.22~0.9.21+stable-queue-32-g8478-0ubuntu14+withjack2.1), fglrx-modaliases (8.723.1-0ubuntu4, 8.741-0ubuntu1+rt1), scribus (1.3.3.13.dfsg~svn20081228-2ubuntu2, 1.3.5.1-0ubuntu0+ppa1), wine (1.1.42-0ubuntu4, 1.2-0ubuntu1+winert1), ttf-symbol-replacement (1.1.42-0ubuntu4, 1.2-0ubuntu1+winert1), nvidia-current-modaliases (195.36.24-0ubuntu1~10.04, 256.35-0ubuntu2+rt2), nvidia-173-modaliases (173.14.22-0ubuntu11, 173.14.27-0ubuntu1+rt1), libfluidsynth1 (1.1.1-2build1, 1.1.1-2build1+withlash0), libdrm-radeon1 (2.4.18-1ubuntu3, 2.4.18-1ubuntu3+nointelaccel4), vlc (1.0.6-1ubuntu1.1, 1.0.6-1ubuntu1.2), libasound2-plugins (1.0.22-0ubuntu6, 1.0.22-0ubuntu6+withJackTwo0), pulseaudio-module-gconf (0.9.22~0.9.21+stable-queue-32-g8478-0ubuntu14, 0.9.22~0.9.21+stable-queue-32-g8478-0ubuntu14+withjack2.1), vlc-plugin-pulse (1.0.6-1ubuntu1.1, 1.0.6-1ubuntu1.2), vlc-data (1.0.6-1ubuntu1.1, 1.0.6-1ubuntu1.2), libpulse0 (0.9.22~0.9.21+stable-queue-32-g8478-0ubuntu14, 0.9.22~0.9.21+stable-queue-32-g8478-0ubuntu14+withjack2.1), compiz (0.8.4-0ubuntu15.1, 0.8.6-0ubuntu0+ppa1), libpulse-browse0 (0.9.22~0.9.21+stable-queue-32-g8478-0ubuntu14, 0.9.22~0.9.21+stable-queue-32-g8478-0ubuntu14+withjack2.1), jackd (0.118+svn3796-1ubuntu2, 1.9.5+ladifixes1-0ubuntu0+ppa19), libquicktime1 (1.1.4-1, 1.1.4-1+withcodecs2), compiz-core (0.8.4-0ubuntu15.1, 0.8.6-0ubuntu0+ppa1), jackd-firewire (0.118+svn3796-1ubuntu2, 1.9.5+ladifixes1-0ubuntu0+ppa19), compiz-fusion-plugins-main (0.8.4-0ubuntu3, 0.8.6-0ubuntu0+ppa1), libvlccore2 (1.0.6-1ubuntu1.1, 1.0.6-1ubuntu1.2), pulseaudio-esound-compat (0.9.22~0.9.21+stable-queue-32-g8478-0ubuntu14, 0.9.22~0.9.21+stable-queue-32-g8478-0ubuntu14+withjack2.1), compiz-gnome (0.8.4-0ubuntu15.1, 0.8.6-0ubuntu0+ppa1), libavdevice52 (0.5.1-1ubuntu1, 0.6-2ubuntu1.2)
+Remove: libavfilter0 (0.5.1-1ubuntu1)
+End-Date: 2010-07-27 15:53:17
+
+Start-Date: 2010-07-27 16:03:48
+Install: linux-image-2.6.33-23-realtime (2.6.33-23.3), libdjconsole0 (0.1.3-1ubuntu1), musescore-common (0.9.6+dfsg-1ubuntu~lucid1), mixxx (1.7.2-1build1+withjack2.4), mixxx-data (1.7.2-1build1+withjack2.4), libdjconsole-data (0.1.3-1ubuntu1), linux-realtime (2.6.33.23.5), musescore (0.9.6+dfsg-1ubuntu~lucid1), linux-headers-2.6.33-23-realtime (2.6.33-23.3), linux-realtime-headers-2.6.33-23 (2.6.33.23.5), musescore-soundfont-gm (0.9.6+dfsg-1ubuntu~lucid1), linux-headers-realtime (2.6.33.23.5), linux-image-realtime (2.6.33.23.5)
+End-Date: 2010-07-27 16:04:47
+
+Start-Date: 2010-07-27 16:24:25
+Install: linux-rt (2.6.31.11.13), linux-headers-rt (2.6.31.11.13), linux-rt-headers-2.6.31-11 (2.6.31-11.154), linux-headers-2.6.31-11-rt (2.6.31-11.154), linux-image-2.6.31-11-rt (2.6.31-11.154), linux-image-rt (2.6.31.11.13)
+Remove: linux-image-2.6.33-23-realtime (2.6.33-23.3), linux-headers-2.6.33-23-realtime (2.6.33-23.3), linux-realtime-headers-2.6.33-23 (2.6.33.23.5), linux-headers-realtime (2.6.33.23.5), linux-image-realtime (2.6.33.23.5)
+Purge: linux-realtime (2.6.33.23.5)
+End-Date: 2010-07-27 16:36:19
+
+Start-Date: 2010-07-27 16:52:01
+Remove: linux-image-2.6.32-24-generic (2.6.32-24.38), linux-headers-generic (2.6.32.24.25), linux-image-generic (2.6.32.24.25), linux-headers-2.6.32-21-generic (2.6.32-21.32), linux-headers-2.6.32-24-generic (2.6.32-24.38), linux-generic (2.6.32.24.25), linux-image-2.6.32-21-generic (2.6.32-21.32)
+End-Date: 2010-07-27 16:52:23
+
+Start-Date: 2010-07-27 20:12:03
+Install: libbabl-0.0-0 (0.0.22-1build1), libgegl-0.0-0 (0.0.22-0ubuntu4), gimp (2.6.10-1ubuntu1), libgimp2.0 (2.6.10-1ubuntu1), gimp-data (2.6.10-1ubuntu1)
+End-Date: 2010-07-27 20:12:38
+
+Start-Date: 2010-07-27 20:20:07
+Install: kdelibs4c2a (3.5.10.dfsg.1-3ubuntu2), kdelibs-data (3.5.10.dfsg.1-3ubuntu2), amarok14-engine-xine (1.4.10-0ubuntu3~ppa4), liblualib50 (5.0.3-4), ruby1.8 (1.8.7.249-2), ruby (4.2), libxine1-ffmpeg (1.1.17-1ubuntu3), libavahi-qt3-1 (0.6.25-1ubuntu6), libtunepimp5 (0.5.3-7.3ubuntu1), libifp4 (1.0.0.2-4), amarok14 (1.4.10-0ubuntu3~ppa4), amarok14-common (1.4.10-0ubuntu3~ppa4), libpq5 (8.4.4-0ubuntu10.04), liblua50 (5.0.3-4), libruby1.8 (1.8.7.249-2), libnjb5 (2.2.5-4.2ubuntu5)
+End-Date: 2010-07-27 20:22:00
+
+Start-Date: 2010-07-27 20:23:50
+Install: python-liblo (0.7.2-0ubuntu4), librubberband2 (1.4-0ubuntu0+ppa2), gtklick (0.6.4-0ubuntu1), klick (0.12.2-0ubuntu1)
+End-Date: 2010-07-27 20:24:17
+
+Start-Date: 2010-07-28 09:09:26
+Install: acpi (1.4-2)
+End-Date: 2010-07-28 09:09:32
+
+Start-Date: 2010-07-28 15:45:26
+Install: hydrogen (0.9.4-1), libportmidi0 (200-0ubuntu1)
+End-Date: 2010-07-28 15:45:40
+
+Start-Date: 2010-07-29 10:31:39
+Install: hardinfo (0.5.1-1.1ubuntu2)
+End-Date: 2010-07-29 10:31:51
+
+Start-Date: 2010-07-29 10:38:59
+Install: rpm2cpio (4.7.2-1lbuild1), librpmbuild0 (4.7.2-1lbuild1), fakeroot (1.14.4-1ubuntu1), debhelper (7.4.20ubuntu1), intltool-debian (0.35.0+20060710.1), g++-4.4 (4.4.3-4ubuntu5), librpmio0 (4.7.2-1lbuild1), librpm0 (4.7.2-1lbuild1), rpm-common (4.7.2-1lbuild1), po-debconf (1.0.16), libstdc++6-4.4-dev (4.4.3-4ubuntu5), g++ (4.4.3-1ubuntu1), libmail-sendmail-perl (0.79.16-1), dpkg-dev (1.15.5.6ubuntu4.1), rpm (4.7.2-1lbuild1), xz-utils (4.999.9beta+20091116-1), html2text (1.3.2a-14build1), patch (2.6-2ubuntu1), alien (8.79), libsys-hostname-long-perl (1.4-2), build-essential (11.4build1)
+End-Date: 2010-07-29 10:39:49
+
+Start-Date: 2010-07-29 23:51:16
+Install: seq24 (0.9.0-1ubuntu2)
+End-Date: 2010-07-29 23:51:25
+
+Start-Date: 2010-07-30 09:31:09
+Install: libgexiv2-0 (0.1.0-0lucid1), shotwell (0.6.1-1~lucid2), libgee2 (0.5.0-2), libraw-dev (0.9.0-0lucid1), sqlite3 (3.6.22-1)
+End-Date: 2010-07-30 09:31:34
+
+Start-Date: 2010-07-30 11:17:03
+Upgrade: gnome-keyring (2.92.92.is.2.30.3-0ubuntu1, 2.92.92.is.2.30.3-0ubuntu1.1), libwxgtk2.8-0 (2.8.10.1-0ubuntu1, 2.8.10.1-0ubuntu1.1), libpam-gnome-keyring (2.92.92.is.2.30.3-0ubuntu1, 2.92.92.is.2.30.3-0ubuntu1.1), mysql-common (5.1.41-3ubuntu12.4, 5.1.41-3ubuntu12.6), libgp11-0 (2.92.92.is.2.30.3-0ubuntu1, 2.92.92.is.2.30.3-0ubuntu1.1), libgcr0 (2.92.92.is.2.30.3-0ubuntu1, 2.92.92.is.2.30.3-0ubuntu1.1), libwxbase2.8-0 (2.8.10.1-0ubuntu1, 2.8.10.1-0ubuntu1.1), python-wxversion (2.8.10.1-0ubuntu1, 2.8.10.1-0ubuntu1.1), libmysqlclient16 (5.1.41-3ubuntu12.4, 5.1.41-3ubuntu12.6), libldap-2.4-2 (2.4.21-0ubuntu5, 2.4.21-0ubuntu5.1), docky-dbg (2.1.0~bzr1589-0ubuntu1~10.04~dockycore1, 2.1.0~bzr1592-0ubuntu1~10.04~dockycore1), python-wxgtk2.8 (2.8.10.1-0ubuntu1, 2.8.10.1-0ubuntu1.1), docky (2.1.0~bzr1589-0ubuntu1~10.04~dockycore1, 2.1.0~bzr1592-0ubuntu1~10.04~dockycore1)
+End-Date: 2010-07-30 11:17:46
+
+Start-Date: 2010-07-30 11:22:12
+Upgrade: libpurple0 (2.6.6-1ubuntu4, 2.7.1-1ubuntu1~pidgin1.10.04), pidgin-data (2.6.6-1ubuntu4, 2.7.1-1ubuntu1~pidgin1.10.04), libpurple-bin (2.6.6-1ubuntu4, 2.7.1-1ubuntu1~pidgin1.10.04), pidgin (2.6.6-1ubuntu4, 2.7.1-1ubuntu1~pidgin1.10.04)
+End-Date: 2010-07-30 11:22:39

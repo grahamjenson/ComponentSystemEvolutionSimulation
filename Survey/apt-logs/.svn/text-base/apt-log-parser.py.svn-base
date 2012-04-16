@@ -1,0 +1,55 @@
+#!/usr/bin/python
+
+import sys
+import pickle
+
+logfile = sys.argv[1]
+
+from datetime import datetime
+
+format = "%Y-%m-%d %H:%M:%S"
+
+rl = open(logfile,'r').readlines()
+i = 0;
+#actions = Map<DateTime,UserAction>
+actions = {}
+
+while i < len(rl) :
+	line = rl[i]
+	i = i+1
+	if line.startswith("Start-Date:") :
+		d = datetime.strptime(line.split(":",1)[1].strip(),format)
+		actions[d] = []
+		while not(line.startswith("End-Date:")) :
+			line = rl[i]
+			i = i +1
+			if line.startswith("Install:") :
+				actions[d].append(("install",len(line.split(","))))
+			elif line.startswith("Remove:") :
+				actions[d].append(("remove",len(line.split(","))))
+			elif line.startswith("Upgrade:") :
+				actions[d].append(("upgrade",len(line.split(","))))
+			elif line.startswith("Purge:") :
+				actions[d].append(("purge",len(line.split(","))))
+			elif line.startswith("Downgrade:") :
+				actions[d].append(("downgrade",len(line.split(","))))
+			elif line.startswith("Commandline:") :
+				actions[d].append(("action",line.split(":",1)[1].strip()))
+			elif line.startswith("Start-Date:") or line.strip() == "":
+				#Shouldnt happen but it does
+				i = i -1
+				break;
+			elif not(line.startswith("End-Date:") or line.startswith("Error:")) :
+				print "ERROR Unkown line: " + str(d) + " ; " + line.split(":",1)[0]
+
+f = open(sys.argv[1]+".actionmap" , 'w')
+pickle.dump(actions,f)
+f.close()
+
+f = open(sys.argv[1]+".actionlist" , 'w')
+keys = actions.keys()
+keys.sort()
+for k in keys:
+	f.write(str(k) + " : " + str(actions[k]))
+	f.write("\r\n")
+f.close()
