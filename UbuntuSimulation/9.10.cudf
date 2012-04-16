@@ -1,0 +1,5083 @@
+#List of Installed packages
+package: libgcc1
+version: 44900
+installed: true
+
+package: glines
+version: 44266
+installed: true
+
+package: libpango-perl
+version: 24591
+installed: true
+
+package: libical0
+version: 12138
+installed: true
+
+package: ttf-lao
+version: 1008
+installed: true
+
+package: libfs6
+version: 45737
+installed: true
+
+package: libavahi-common3
+version: 6612
+installed: true
+
+package: ghostscript-x
+version: 38866
+installed: true
+
+package: cups-client
+version: 19697
+installed: true
+
+package: libcupsdriver1
+version: 19697
+installed: true
+
+package: libcdparanoia0
+version: 34122
+installed: true
+
+package: ibus-gtk
+version: 17891
+installed: true
+
+package: libreadline6
+version: 37667
+installed: true
+
+package: x11-session-utils
+version: 38295
+installed: true
+
+package: libwpd8c2a
+version: 8123
+installed: true
+
+package: rsyslog
+version: 35342
+installed: true
+
+package: libmono-security2.0-cil
+version: 28050
+installed: true
+
+package: libtiff4
+version: 33961
+installed: true
+
+package: gdm-guest-session
+version: 10626
+installed: true
+
+package: mountall
+version: 14822
+installed: true
+
+package: xsane
+version: 14282
+installed: true
+
+package: anacron
+version: 27438
+installed: true
+
+package: compiz-gnome
+version: 42086
+installed: true
+
+package: xserver-xorg
+version: 45137
+installed: true
+
+package: cpio
+version: 29838
+installed: true
+
+package: example-content
+version: 39562
+installed: true
+
+package: desktopcouch
+version: 4902
+installed: true
+
+package: espeak-data
+version: 23876
+installed: true
+
+package: mono-2.0-gac
+version: 28050
+installed: true
+
+package: fuse-utils
+version: 29334
+installed: true
+
+package: bogofilter-bdb
+version: 17778
+installed: true
+
+package: libgupnp-1.0-2
+version: 10398
+installed: true
+
+package: modemmanager
+version: 3114
+installed: true
+
+package: libssl0.9.8
+version: 9146
+installed: true
+
+package: at-spi
+version: 23577
+installed: true
+
+package: libglitz-glx1
+version: 5505
+installed: true
+
+package: avahi-daemon
+version: 6612
+installed: true
+
+package: gtk2-engines-pixbuf
+version: 30522
+installed: true
+
+package: dhcp3-common
+version: 32494
+installed: true
+
+package: makedev
+version: 27547
+installed: true
+
+package: lftp
+version: 33876
+installed: true
+
+package: unzip
+version: 37659
+installed: true
+
+package: libmagickcore2
+version: 46942
+installed: true
+
+package: libiec61883-0
+version: 17756
+installed: true
+
+package: libxml2-utils
+version: 29352
+installed: true
+
+package: wamerican
+version: 37594
+installed: true
+
+package: libjpeg62
+version: 37603
+installed: true
+
+package: libxcomposite1
+version: 41837
+installed: true
+
+package: gnome-media
+version: 31027
+installed: true
+
+package: aspell-en
+version: 37678
+installed: true
+
+package: evolution-documentation-en
+version: 31027
+installed: true
+
+package: libfribidi0
+version: 9858
+installed: true
+
+package: libxkbfile1
+version: 42665
+installed: true
+
+package: totem
+version: 31032
+installed: true
+
+package: libempathy-common
+version: 31034
+installed: true
+
+package: libnm-util1
+version: 7402
+installed: true
+
+package: python-gmenu
+version: 31022
+installed: true
+
+package: libgupnp-igd-1.0-2
+version: 1701
+installed: true
+
+package: libgweather-common
+version: 31017
+installed: true
+
+package: openoffice.org-thesaurus-en-au
+version: 26060
+installed: true
+
+package: ghostscript
+version: 38866
+installed: true
+
+package: libelf1
+version: 14030
+installed: true
+
+package: empathy-doc
+version: 31034
+installed: true
+
+package: gnome-about
+version: 44272
+installed: true
+
+package: xserver-xorg-video-voodoo
+version: 42873
+installed: true
+
+package: gstreamer0.10-tools
+version: 9941
+installed: true
+
+package: xserver-xorg-video-s3virge
+version: 43431
+installed: true
+
+package: telepathy-idle
+version: 1788
+installed: true
+
+package: bogofilter-common
+version: 17778
+installed: true
+
+package: libmono-sqlite2.0-cil
+version: 28050
+installed: true
+
+package: gnome-control-center
+version: 44271
+installed: true
+
+package: libslang2
+version: 26452
+installed: true
+
+package: libxcursor1
+version: 42809
+installed: true
+
+package: gnomine
+version: 44266
+installed: true
+
+package: redland-utils
+version: 16047
+installed: true
+
+package: raptor-utils
+version: 20096
+installed: true
+
+package: openoffice.org-gnome
+version: 44449
+installed: true
+
+package: bcmwl-modaliases
+version: 37317
+installed: true
+
+package: xserver-xorg-input-vmmouse
+version: 45345
+installed: true
+
+package: telepathy-gabble
+version: 7995
+installed: true
+
+package: python-rsvg
+version: 31007
+installed: true
+
+package: libcanberra-pulse
+version: 10760
+installed: true
+
+package: gnome-disk-utility
+version: 31021
+installed: true
+
+package: python-aptdaemon
+version: 9663
+installed: true
+
+package: libk5crypto3
+version: 21383
+installed: true
+
+package: xsltproc
+version: 17427
+installed: true
+
+package: libbonobo2-common
+version: 30853
+installed: true
+
+package: dosfstools
+version: 32068
+installed: true
+
+package: libtext-wrapi18n-perl
+version: 5891
+installed: true
+
+package: libmtp8
+version: 3776
+installed: true
+
+package: libndesk-dbus-glib1.0-cil
+version: 4365
+installed: true
+
+package: cron
+version: 31899
+installed: true
+
+package: gnome-power-manager
+version: 31027
+installed: true
+
+package: acpi-support
+version: 14001
+installed: true
+
+package: libgomp1
+version: 35714
+installed: true
+
+package: libxml-twig-perl
+version: 44719
+installed: true
+
+package: libc6-i686
+version: 29881
+installed: true
+
+package: update-manager-core
+version: 42468
+installed: true
+
+package: libnotify1
+version: 4579
+installed: true
+
+package: system-config-printer-udev
+version: 17319
+installed: true
+
+package: libxrandr2
+version: 45884
+installed: true
+
+package: libilmbase6
+version: 15434
+installed: true
+
+package: nano
+version: 25689
+installed: true
+
+package: libisc50
+version: 45256
+installed: true
+
+package: x11-xkb-utils
+version: 38354
+installed: true
+
+package: libieee1284-3
+version: 2944
+installed: true
+
+package: libsmbclient
+version: 46135
+installed: true
+
+package: libwrap0
+version: 38428
+installed: true
+
+package: libcroco3
+version: 6115
+installed: true
+
+package: libtotem-plparser12
+version: 31033
+installed: true
+
+package: gnome-pilot
+version: 25831
+installed: true
+
+package: libgsl0ldbl
+version: 22770
+installed: true
+
+package: libhtml-format-perl
+version: 27818
+installed: true
+
+package: python-imaging
+version: 17164
+installed: true
+
+package: libxcb-render-util0
+version: 3728
+installed: true
+
+package: libpam-runtime
+version: 16734
+installed: true
+
+package: libgstreamer-plugins-base0.10-0
+version: 9942
+installed: true
+
+package: doc-base
+version: 8744
+installed: true
+
+package: libcap2
+version: 44160
+installed: true
+
+package: dictionaries-common
+version: 17993
+installed: true
+
+package: libexchange-storage1.2-3
+version: 31027
+installed: true
+
+package: python2.6
+version: 28796
+installed: true
+
+package: foomatic-db
+version: 41404
+installed: true
+
+package: python-couchdb
+version: 5845
+installed: true
+
+package: libmono-addins-gui0.2-cil
+version: 4089
+installed: true
+
+package: libatm1
+version: 28001
+installed: true
+
+package: iagno
+version: 44266
+installed: true
+
+package: gstreamer0.10-x
+version: 9942
+installed: true
+
+package: bogofilter
+version: 17778
+installed: true
+
+package: libbrlapi0.5
+version: 34826
+installed: true
+
+package: libespeak1
+version: 23876
+installed: true
+
+package: python-minimal
+version: 28794
+installed: true
+
+package: dnsutils
+version: 45256
+installed: true
+
+package: libv4l-0
+version: 6006
+installed: true
+
+package: libwavpack1
+version: 36356
+installed: true
+
+package: nautilus-data
+version: 44271
+installed: true
+
+package: capplets-data
+version: 44271
+installed: true
+
+package: totem-common
+version: 31032
+installed: true
+
+package: libsexy2
+version: 1953
+installed: true
+
+package: gnome-games-common
+version: 44266
+installed: true
+
+package: libwmf0.2-7-gtk
+version: 2892
+installed: true
+
+package: debianutils
+version: 31109
+installed: true
+
+package: language-pack-gnome-en
+version: 45272
+installed: true
+
+package: compizconfig-backend-gconf
+version: 7877
+installed: true
+
+package: libglade2.0-cil
+version: 30161
+installed: true
+
+package: libglib-perl
+version: 43565
+installed: true
+
+package: mono-gac
+version: 28050
+installed: true
+
+package: libgdata-google1.2-1
+version: 31027
+installed: true
+
+package: libhtml-tagset-perl
+version: 34393
+installed: true
+
+package: libflac8
+version: 17944
+installed: true
+
+package: brltty-x11
+version: 34826
+installed: true
+
+package: gnome-games
+version: 44266
+installed: true
+
+package: usplash-theme-ubuntu
+version: 11608
+installed: true
+
+package: ltrace
+version: 5377
+installed: true
+
+package: firefox
+version: 33539
+installed: true
+
+package: xserver-xorg-video-trident
+version: 42997
+installed: true
+
+package: foomatic-filters
+version: 34964
+installed: true
+
+package: libgnome2-common
+version: 31011
+installed: true
+
+package: libdbus-1-3
+version: 18519
+installed: true
+
+package: mlocate
+version: 11341
+installed: true
+
+package: apt
+version: 7308
+installed: true
+
+package: libxmuu1
+version: 45749
+installed: true
+
+package: libspeexdsp1
+version: 17501
+installed: true
+
+package: ntfs-3g
+version: 45459
+installed: true
+
+package: gcalctool
+version: 37401
+installed: true
+
+package: libcups2
+version: 19697
+installed: true
+
+package: libpango1.0-common
+version: 23515
+installed: true
+
+package: aptitude
+version: 4768
+installed: true
+
+package: libotf0
+version: 9194
+installed: true
+
+package: python-xdg
+version: 10772
+installed: true
+
+package: compiz-core
+version: 42086
+installed: true
+
+package: xfonts-mathml
+version: 24843
+installed: true
+
+package: x11-xserver-utils
+version: 38353
+installed: true
+
+package: xauth
+version: 42642
+installed: true
+
+package: libldap-2.4-2
+version: 28207
+installed: true
+
+package: zip
+version: 31805
+installed: true
+
+package: computer-janitor
+version: 22883
+installed: true
+
+package: debconf-i18n
+version: 20716
+installed: true
+
+package: libbonoboui2-common
+version: 30854
+installed: true
+
+package: tsclient
+version: 14044
+installed: true
+
+package: pulseaudio-utils
+version: 42218
+installed: true
+
+package: libgmime-2.0-2a
+version: 27307
+installed: true
+
+package: libsnmp15
+version: 36977
+installed: true
+
+package: ubufox
+version: 7419
+installed: true
+
+package: perl
+version: 37296
+installed: true
+
+package: samba-common-bin
+version: 46135
+installed: true
+
+package: xserver-xorg-video-rendition
+version: 44851
+installed: true
+
+package: libstlport4.6ldbl
+version: 35961
+installed: true
+
+package: transmission-gtk
+version: 24236
+installed: true
+
+package: update-notifier
+version: 13185
+installed: true
+
+package: libmetacity0
+version: 44266
+installed: true
+
+package: system-config-printer-common
+version: 17319
+installed: true
+
+package: libxxf86dga1
+version: 45738
+installed: true
+
+package: guile-1.8-libs
+version: 21965
+installed: true
+
+package: libwnck-common
+version: 44266
+installed: true
+
+package: xserver-xorg-input-mouse
+version: 43071
+installed: true
+
+package: libsamplerate0
+version: 1864
+installed: true
+
+package: hunspell-en-us
+version: 41094
+installed: true
+
+package: libmono-sharpzip2.84-cil
+version: 28050
+installed: true
+
+package: libgtkhtml2-0
+version: 30020
+installed: true
+
+package: openoffice.org-math
+version: 44449
+installed: true
+
+package: openoffice.org-calc
+version: 44449
+installed: true
+
+package: im-switch
+version: 23087
+installed: true
+
+package: kerneloops-daemon
+version: 10274
+installed: true
+
+package: python-simplejson
+version: 25685
+installed: true
+
+package: apport
+version: 22261
+installed: true
+
+package: gnome-mag
+version: 42268
+installed: true
+
+package: python-cairo
+version: 21937
+installed: true
+
+package: cdparanoia
+version: 34122
+installed: true
+
+package: libfreezethaw-perl
+version: 12164
+installed: true
+
+package: libpth20
+version: 25642
+installed: true
+
+package: python-ubuntuone-storageprotocol
+version: 15237
+installed: true
+
+package: humanity-icon-theme
+version: 4392
+installed: true
+
+package: xcursor-themes
+version: 15453
+installed: true
+
+package: libmono-i18n-west2.0-cil
+version: 28050
+installed: true
+
+package: evolution
+version: 31027
+installed: true
+
+package: gnome-themes-ubuntu
+version: 5185
+installed: true
+
+package: libpolkit-agent-1-0
+version: 13377
+installed: true
+
+package: libmng1
+version: 16043
+installed: true
+
+package: libicu40
+version: 34926
+installed: true
+
+package: libflickrnet2.2-cil
+version: 43743
+installed: true
+
+package: myspell-en-au
+version: 26060
+installed: true
+
+package: gcc-4.4
+version: 35714
+installed: true
+
+package: librasqal1
+version: 9373
+installed: true
+
+package: gnome-nettool
+version: 31007
+installed: true
+
+package: hplip-data
+version: 34077
+installed: true
+
+package: gnometris
+version: 44266
+installed: true
+
+package: network-manager-gnome
+version: 7403
+installed: true
+
+package: firefox-3.5-gnome-support
+version: 33539
+installed: true
+
+package: libtasn1-3
+version: 26735
+installed: true
+
+package: xserver-xorg-input-all
+version: 45137
+installed: true
+
+package: python-gtksourceview2
+version: 29480
+installed: true
+
+package: totem-mozilla
+version: 31032
+installed: true
+
+package: libmono-cairo2.0-cil
+version: 28050
+installed: true
+
+package: libcouchdb-glib-1.0-1
+version: 5275
+installed: true
+
+package: libltdl7
+version: 27136
+installed: true
+
+package: alsa-utils
+version: 16243
+installed: true
+
+package: nautilus
+version: 44271
+installed: true
+
+package: gstreamer0.10-plugins-base
+version: 9942
+installed: true
+
+package: tar
+version: 23371
+installed: true
+
+package: libgl1-mesa-glx
+version: 38408
+installed: true
+
+package: indicator-applet
+version: 2377
+installed: true
+
+package: libglitz1
+version: 5505
+installed: true
+
+package: apport-gtk
+version: 22261
+installed: true
+
+package: python-uno
+version: 44449
+installed: true
+
+package: libtext-iconv-perl
+version: 21298
+installed: true
+
+package: xserver-xorg-video-sis
+version: 42233
+installed: true
+
+package: logrotate
+version: 33870
+installed: true
+
+package: libgd2-xpm
+version: 25900
+installed: true
+
+package: media-player-info
+version: 31730
+installed: true
+
+package: base-files
+version: 36554
+installed: true
+
+package: libasound2
+version: 16245
+installed: true
+
+package: libgconf2-4
+version: 31009
+installed: true
+
+package: libkpathsea4
+version: 40167
+installed: true
+
+package: xserver-xorg-video-all
+version: 45137
+installed: true
+
+package: libgnomevfs2-extra
+version: 44239
+installed: true
+
+package: xserver-xorg-video-intel
+version: 46093
+installed: true
+
+package: gcc
+version: 46758
+installed: true
+
+package: computer-janitor-gtk
+version: 22883
+installed: true
+
+package: fontconfig-config
+version: 28682
+installed: true
+
+package: gnome-desktop-data
+version: 44272
+installed: true
+
+package: libgphoto2-2
+version: 28150
+installed: true
+
+package: libggzmod4
+version: 696
+installed: true
+
+package: libnice0
+version: 610
+installed: true
+
+package: telepathy-butterfly
+version: 5275
+installed: true
+
+package: ibus-table
+version: 17875
+installed: true
+
+package: friendly-recovery
+version: 2876
+installed: true
+
+package: smartdimmer
+version: 7500
+installed: true
+
+package: grub-pc
+version: 24411
+installed: true
+
+package: libgtk2.0-common
+version: 30522
+installed: true
+
+package: apt-utils
+version: 7308
+installed: true
+
+package: libggzcore9
+version: 696
+installed: true
+
+package: libvorbis0a
+version: 17912
+installed: true
+
+package: xserver-xorg-video-geode
+version: 30037
+installed: true
+
+package: pxljr
+version: 16465
+installed: true
+
+package: cups-driver-gutenprint
+version: 36830
+installed: true
+
+package: language-pack-gnome-en-base
+version: 45272
+installed: true
+
+package: xfonts-encodings
+version: 42627
+installed: true
+
+package: libgucharmap7
+version: 44266
+installed: true
+
+package: insserv
+version: 22781
+installed: true
+
+package: avahi-autoipd
+version: 6612
+installed: true
+
+package: libgweather1
+version: 31017
+installed: true
+
+package: libgstreamer0.10-0
+version: 9941
+installed: true
+
+package: gstreamer0.10-plugins-good
+version: 9901
+installed: true
+
+package: gconf-editor
+version: 31007
+installed: true
+
+package: libsgutils2-2
+version: 23526
+installed: true
+
+package: xserver-xorg-input-synaptics
+version: 16968
+installed: true
+
+package: xorg
+version: 45137
+installed: true
+
+package: libcanberra-gtk-module
+version: 10760
+installed: true
+
+package: libpisync1
+version: 10372
+installed: true
+
+package: python-desktopcouch
+version: 4902
+installed: true
+
+package: libempathy-gtk28
+version: 31034
+installed: true
+
+package: compiz-fusion-plugins-main
+version: 7877
+installed: true
+
+package: klibc-utils
+version: 20689
+installed: true
+
+package: python-oauth
+version: 14988
+installed: true
+
+package: libhal-storage1
+version: 5677
+installed: true
+
+package: gconf2
+version: 31009
+installed: true
+
+package: libcanberra0
+version: 10760
+installed: true
+
+package: libgstfarsight0.10-0
+version: 706
+installed: true
+
+package: mscompress
+version: 3164
+installed: true
+
+package: xserver-xorg-video-i740
+version: 42982
+installed: true
+
+package: openoffice.org-gtk
+version: 44449
+installed: true
+
+package: libcompizconfig0
+version: 7877
+installed: true
+
+package: libunique-1.0-0
+version: 16966
+installed: true
+
+package: libsqlite0
+version: 29650
+installed: true
+
+package: system-tools-backends
+version: 29538
+installed: true
+
+package: pciutils
+version: 44378
+installed: true
+
+package: libpango1.0-0
+version: 23515
+installed: true
+
+package: nautilus-sendto
+version: 31007
+installed: true
+
+package: libexpat1
+version: 25301
+installed: true
+
+package: python-gst0.10
+version: 9906
+installed: true
+
+package: python-crypto
+version: 25345
+installed: true
+
+package: libklibc
+version: 20689
+installed: true
+
+package: checkbox
+version: 7927
+installed: true
+
+package: libxvmc1
+version: 45751
+installed: true
+
+package: erlang-public-key
+version: 45371
+installed: true
+
+package: ggzcore-bin
+version: 696
+installed: true
+
+package: apturl-common
+version: 4390
+installed: true
+
+package: libavahi-core6
+version: 6612
+installed: true
+
+package: acpid
+version: 15916
+installed: true
+
+package: libempathy-gtk-common
+version: 31034
+installed: true
+
+package: nvidia-common
+version: 2973
+installed: true
+
+package: kbd
+version: 23015
+installed: true
+
+package: liblockfile1
+version: 21661
+installed: true
+
+package: python-support
+version: 15706
+installed: true
+
+package: libdecoration0
+version: 42086
+installed: true
+
+package: gnome-applets-data
+version: 31009
+installed: true
+
+package: libxfont1
+version: 43069
+installed: true
+
+package: libusb-0.1-4
+version: 45562
+installed: true
+
+package: m17n-db
+version: 20537
+installed: true
+
+package: ttf-opensymbol
+version: 44449
+installed: true
+
+package: gnome-bluetooth
+version: 31029
+installed: true
+
+package: grub-common
+version: 24411
+installed: true
+
+package: libncursesw5
+version: 37146
+installed: true
+
+package: libgnomevfs2-0
+version: 44239
+installed: true
+
+package: hal-info
+version: 41381
+installed: true
+
+package: whiptail
+version: 12384
+installed: true
+
+package: pulseaudio
+version: 42218
+installed: true
+
+package: xsplash
+version: 7877
+installed: true
+
+package: obex-data-server
+version: 4538
+installed: true
+
+package: python-desktopcouch-records
+version: 4902
+installed: true
+
+package: libpam-modules
+version: 16734
+installed: true
+
+package: consolekit
+version: 3389
+installed: true
+
+package: libgdu0
+version: 31021
+installed: true
+
+package: liblocale-gettext-perl
+version: 20211
+installed: true
+
+package: libgc1c2
+version: 45078
+installed: true
+
+package: evolution-exchange
+version: 31027
+installed: true
+
+package: libnl1
+version: 16523
+installed: true
+
+package: gimp-data
+version: 28848
+installed: true
+
+package: console-setup
+version: 23715
+installed: true
+
+package: libclutter-1.0-0
+version: 15889
+installed: true
+
+package: libsoup-gnome2.4-1
+version: 31037
+installed: true
+
+package: libsigc++-2.0-0c2a
+version: 25845
+installed: true
+
+package: libgnome-bluetooth7
+version: 31029
+installed: true
+
+package: libgdiplus
+version: 28016
+installed: true
+
+package: libxfixes3
+version: 44763
+installed: true
+
+package: telepathy-mission-control-5
+version: 36907
+installed: true
+
+package: python
+version: 28794
+installed: true
+
+package: libwebkit-1.0-common
+version: 17355
+installed: true
+
+package: gnome-icon-theme
+version: 31007
+installed: true
+
+package: libgail-common
+version: 30522
+installed: true
+
+package: libmono-data-tds2.0-cil
+version: 28050
+installed: true
+
+package: glchess
+version: 44266
+installed: true
+
+package: gtk2-engines
+version: 44184
+installed: true
+
+package: libacl1
+version: 27337
+installed: true
+
+package: gnome-mime-data
+version: 30515
+installed: true
+
+package: brltty
+version: 34826
+installed: true
+
+package: xserver-xorg-video-tseng
+version: 42861
+installed: true
+
+package: ghostscript-cups
+version: 38866
+installed: true
+
+package: libgtop2-common
+version: 30952
+installed: true
+
+package: libsilcclient-1.1-3
+version: 17291
+installed: true
+
+package: libggz2
+version: 694
+installed: true
+
+package: libevview1
+version: 31027
+installed: true
+
+package: libxt6
+version: 42668
+installed: true
+
+package: pm-utils
+version: 18224
+installed: true
+
+package: libperl5.10
+version: 37296
+installed: true
+
+package: libnm-glib2
+version: 7402
+installed: true
+
+package: dbus
+version: 18519
+installed: true
+
+package: dmsetup
+version: 45859
+installed: true
+
+package: ttf-thai-tlwg
+version: 41869
+installed: true
+
+package: libgraphviz4
+version: 30639
+installed: true
+
+package: libcryptui0
+version: 31027
+installed: true
+
+package: psmisc
+version: 39425
+installed: true
+
+package: ppp
+version: 28122
+installed: true
+
+package: notify-osd-icons
+version: 3122
+installed: true
+
+package: lshw
+version: 30253
+installed: true
+
+package: libspectre1
+version: 2650
+installed: true
+
+package: libpopt0
+version: 22928
+installed: true
+
+package: libfontconfig1
+version: 28682
+installed: true
+
+package: libglib2.0-0
+version: 30759
+installed: true
+
+package: indicator-session
+version: 1859
+installed: true
+
+package: cups-bsd
+version: 19697
+installed: true
+
+package: libgimp2.0
+version: 28848
+installed: true
+
+package: adduser
+version: 34690
+installed: true
+
+package: defoma
+version: 10195
+installed: true
+
+package: ed
+version: 19429
+installed: true
+
+package: xserver-xorg-video-apm
+version: 42863
+installed: true
+
+package: gdebi
+version: 5600
+installed: true
+
+package: bluetooth
+version: 36357
+installed: true
+
+package: libfuse2
+version: 29334
+installed: true
+
+package: pulseaudio-esound-compat
+version: 42218
+installed: true
+
+package: bluez
+version: 36357
+installed: true
+
+package: libsub-name-perl
+version: 4049
+installed: true
+
+package: compiz
+version: 42086
+installed: true
+
+package: linux-libc-dev
+version: 29076
+installed: true
+
+package: libvisual-0.4-0
+version: 4249
+installed: true
+
+package: python-newt
+version: 12384
+installed: true
+
+package: unattended-upgrades
+version: 12371
+installed: true
+
+package: lzma
+version: 36349
+installed: true
+
+package: ftp
+version: 11032
+installed: true
+
+package: libclass-accessor-perl
+version: 11833
+installed: true
+
+package: libglu1-mesa
+version: 38408
+installed: true
+
+package: openprinting-ppds
+version: 41404
+installed: true
+
+package: mono-runtime
+version: 28050
+installed: true
+
+package: xserver-xorg-video-vesa
+version: 43755
+installed: true
+
+package: libtdb1
+version: 17117
+installed: true
+
+package: ubuntuone-client
+version: 15550
+installed: true
+
+package: libntfs-3g54
+version: 45459
+installed: true
+
+package: xdg-utils
+version: 15594
+installed: true
+
+package: libspeex1
+version: 17501
+installed: true
+
+package: libisccfg50
+version: 45256
+installed: true
+
+package: libgpod-common
+version: 6966
+installed: true
+
+package: libgmime-2.4-2
+version: 28153
+installed: true
+
+package: libgpm2
+version: 23320
+installed: true
+
+package: gnobots2
+version: 44266
+installed: true
+
+package: usb-creator-common
+version: 2948
+installed: true
+
+package: libcwidget3
+version: 5668
+installed: true
+
+package: libgnomeui-0
+version: 30853
+installed: true
+
+package: xinput
+version: 19744
+installed: true
+
+package: libgmime2.2a-cil
+version: 27307
+installed: true
+
+package: net-tools
+version: 24099
+installed: true
+
+package: gksu
+version: 25382
+installed: true
+
+package: libdrm-intel1
+version: 28199
+installed: true
+
+package: install-info
+version: 36211
+installed: true
+
+package: gtk2-engines-murrine
+version: 13224
+installed: true
+
+package: libpcre3
+version: 38447
+installed: true
+
+package: ibus-m17n
+version: 17893
+installed: true
+
+package: libgtk-vnc-1.0-0
+version: 3832
+installed: true
+
+package: libpam-gnome-keyring
+version: 31027
+installed: true
+
+package: libedit2
+version: 29996
+installed: true
+
+package: libbz2-1.0
+version: 15845
+installed: true
+
+package: libgail18
+version: 30522
+installed: true
+
+package: bash
+version: 34823
+installed: true
+
+package: libgpod4
+version: 6966
+installed: true
+
+package: gnome-panel
+version: 44269
+installed: true
+
+package: psfontmgr
+version: 10195
+installed: true
+
+package: erlang-syntax-tools
+version: 45371
+installed: true
+
+package: seahorse
+version: 31027
+installed: true
+
+package: launchpad-integration
+version: 2075
+installed: true
+
+package: xserver-xorg-input-evdev
+version: 43783
+installed: true
+
+package: libedataserver1.2-11
+version: 31027
+installed: true
+
+package: libsysfs2
+version: 26214
+installed: true
+
+package: openssl
+version: 9146
+installed: true
+
+package: xserver-xorg-video-s3
+version: 41953
+installed: true
+
+package: usb-creator-gtk
+version: 2948
+installed: true
+
+package: libhyphen0
+version: 27830
+installed: true
+
+package: libcurl3
+version: 38507
+installed: true
+
+package: libgnome-mag2
+version: 42268
+installed: true
+
+package: erlang-ssl
+version: 45371
+installed: true
+
+package: python-software-properties
+version: 12889
+installed: true
+
+package: libglib2.0-data
+version: 30759
+installed: true
+
+package: libpurple-bin
+version: 43989
+installed: true
+
+package: evolution-couchdb
+version: 3495
+installed: true
+
+package: gpgv
+version: 20007
+installed: true
+
+package: libthai-data
+version: 1964
+installed: true
+
+package: parted
+version: 22000
+installed: true
+
+package: nvidia-185-modaliases
+version: 39826
+installed: true
+
+package: x11-apps
+version: 38352
+installed: true
+
+package: mtools
+version: 35048
+installed: true
+
+package: gnome-applets
+version: 31009
+installed: true
+
+package: libm17n-0
+version: 20540
+installed: true
+
+package: netcat
+version: 22516
+installed: true
+
+package: libgtk2.0-bin
+version: 30522
+installed: true
+
+package: cpp-4.4
+version: 35714
+installed: true
+
+package: cups
+version: 19697
+installed: true
+
+package: libpoppler-glib4
+version: 10289
+installed: true
+
+package: libc-bin
+version: 29881
+installed: true
+
+package: libc6-dev
+version: 29881
+installed: true
+
+package: libpaper1
+version: 17424
+installed: true
+
+package: libgdata-common
+version: 4226
+installed: true
+
+package: apturl
+version: 4390
+installed: true
+
+package: libsdl1.2debian-alsa
+version: 18484
+installed: true
+
+package: ntpdate
+version: 44872
+installed: true
+
+package: tasksel-data
+version: 31469
+installed: true
+
+package: update-manager
+version: 42468
+installed: true
+
+package: byobu
+version: 31296
+installed: true
+
+package: xdg-user-dirs
+version: 9991
+installed: true
+
+package: libcairo2
+version: 21992
+installed: true
+
+package: libnss-mdns
+version: 9623
+installed: true
+
+package: xulrunner-1.9.1
+version: 22207
+installed: true
+
+package: libtelepathy-glib0
+version: 8465
+installed: true
+
+package: libgutenprint2
+version: 36830
+installed: true
+
+package: obexd-client
+version: 10627
+installed: true
+
+package: groff-base
+version: 23305
+installed: true
+
+package: libclutter-gtk-0.10-0
+version: 9739
+installed: true
+
+package: latex-xft-fonts
+version: 1304
+installed: true
+
+package: libvorbisfile3
+version: 17912
+installed: true
+
+package: libxcb-aux0
+version: 3728
+installed: true
+
+package: librdf0
+version: 16047
+installed: true
+
+package: xserver-xorg-input-wacom
+version: 42099
+installed: true
+
+package: python-wadllib
+version: 16956
+installed: true
+
+package: libart-2.0-2
+version: 27776
+installed: true
+
+package: libmysqlclient16
+version: 36742
+installed: true
+
+package: hdparm
+version: 38996
+installed: true
+
+package: bsdutils
+version: 44158
+installed: true
+
+package: ubuntu-artwork
+version: 39591
+installed: true
+
+package: python-notify
+version: 1569
+installed: true
+
+package: hpijs
+version: 34077
+installed: true
+
+package: libpolkit-gobject-1-0
+version: 13377
+installed: true
+
+package: erlang-inets
+version: 45371
+installed: true
+
+package: libcupsppdc1
+version: 19697
+installed: true
+
+package: dpkg
+version: 23049
+installed: true
+
+package: linux-headers-2.6.31-14-generic
+version: 29076
+installed: true
+
+package: python-gconf
+version: 31007
+installed: true
+
+package: libcurl3-gnutls
+version: 38507
+installed: true
+
+package: jockey-gtk
+version: 5466
+installed: true
+
+package: libtag1c2a
+version: 20778
+installed: true
+
+package: aisleriot
+version: 44266
+installed: true
+
+package: python-launchpadlib
+version: 20402
+installed: true
+
+package: liblcms1
+version: 23211
+installed: true
+
+package: libapparmor1
+version: 27551
+installed: true
+
+package: libgconf2.0-cil
+version: 30848
+installed: true
+
+package: libxp6
+version: 42591
+installed: true
+
+package: libstartup-notification0
+version: 9602
+installed: true
+
+package: libsane
+version: 16247
+installed: true
+
+package: libgdict-1.0-6
+version: 31027
+installed: true
+
+package: xscreensaver-data
+version: 37169
+installed: true
+
+package: gnupg
+version: 20007
+installed: true
+
+package: python-gobject
+version: 30514
+installed: true
+
+package: libmusicbrainz4c2a
+version: 26476
+installed: true
+
+package: linux-generic
+version: 29106
+installed: true
+
+package: xserver-xorg-video-fbdev
+version: 41837
+installed: true
+
+package: gnome-settings-daemon
+version: 31027
+installed: true
+
+package: xserver-xorg-video-chips
+version: 42865
+installed: true
+
+package: hicolor-icon-theme
+version: 9611
+installed: true
+
+package: xserver-xorg-video-ati
+version: 45089
+installed: true
+
+package: libcdio-cdda0
+version: 12928
+installed: true
+
+package: gvfs-backends
+version: 19674
+installed: true
+
+package: man-db
+version: 28507
+installed: true
+
+package: ncurses-base
+version: 37146
+installed: true
+
+package: bsdmainutils
+version: 37767
+installed: true
+
+package: libegroupwise1.2-13
+version: 31027
+installed: true
+
+package: gedit
+version: 31009
+installed: true
+
+package: libfreetype6
+version: 27732
+installed: true
+
+package: dash
+version: 5490
+installed: true
+
+package: liblwres50
+version: 45256
+installed: true
+
+package: python-twisted-core
+version: 38665
+installed: true
+
+package: gnotravex
+version: 44266
+installed: true
+
+package: ttf-vlgothic
+version: 41367
+installed: true
+
+package: libpolkit-gtk-1-0
+version: 13378
+installed: true
+
+package: tk8.4
+version: 38773
+installed: true
+
+package: libopenobex1
+version: 20195
+installed: true
+
+package: cli-common
+version: 6678
+installed: true
+
+package: language-support-writing-en
+version: 45266
+installed: true
+
+package: libsdl1.2debian
+version: 18484
+installed: true
+
+package: linux-sound-base
+version: 16254
+installed: true
+
+package: libpython2.6
+version: 28796
+installed: true
+
+package: esound-clients
+version: 3058
+installed: true
+
+package: powermgmt-base
+version: 23617
+installed: true
+
+package: libsasl2-modules
+version: 26645
+installed: true
+
+package: myspell-en-gb
+version: 44392
+installed: true
+
+package: xserver-xorg-video-v4l
+version: 41749
+installed: true
+
+package: mesa-utils
+version: 38408
+installed: true
+
+package: libterm-readkey-perl
+version: 31103
+installed: true
+
+package: totem-plugins
+version: 31032
+installed: true
+
+package: libgvfscommon0
+version: 19674
+installed: true
+
+package: libwmf0.2-7
+version: 2892
+installed: true
+
+package: libeggdbus-1-0
+version: 4919
+installed: true
+
+package: libatk1.0-data
+version: 23572
+installed: true
+
+package: erlang-runtime-tools
+version: 45371
+installed: true
+
+package: ncurses-bin
+version: 37146
+installed: true
+
+package: libsnmp-base
+version: 36977
+installed: true
+
+package: libpam-ck-connector
+version: 3389
+installed: true
+
+package: xfonts-100dpi
+version: 42576
+installed: true
+
+package: libportaudio2
+version: 39352
+installed: true
+
+package: human-theme
+version: 11942
+installed: true
+
+package: devicekit-power
+version: 39143
+installed: true
+
+package: libmono-addins0.2-cil
+version: 4089
+installed: true
+
+package: libarchive1
+version: 28738
+installed: true
+
+package: desktop-file-utils
+version: 10775
+installed: true
+
+package: python-problem-report
+version: 22261
+installed: true
+
+package: python-avahi
+version: 6612
+installed: true
+
+package: python-gtk2
+version: 30401
+installed: true
+
+package: x11-xfs-utils
+version: 38349
+installed: true
+
+package: libloudmouth1-0
+version: 19828
+installed: true
+
+package: librsvg2-2
+version: 30940
+installed: true
+
+package: libtheora0
+version: 14883
+installed: true
+
+package: eject
+version: 26487
+installed: true
+
+package: strace
+version: 35896
+installed: true
+
+package: bluez-utils
+version: 36357
+installed: true
+
+package: libgssdp-1.0-1
+version: 6302
+installed: true
+
+package: python-gtkhtml2
+version: 30889
+installed: true
+
+package: libgif4
+version: 35257
+installed: true
+
+package: libibus1
+version: 17891
+installed: true
+
+package: libparted1.8-12
+version: 22000
+installed: true
+
+package: xserver-xorg-video-sisusb
+version: 42155
+installed: true
+
+package: libdbusmenu-glib0
+version: 1821
+installed: true
+
+package: python-twisted-web
+version: 38663
+installed: true
+
+package: gnome-session
+version: 31013
+installed: true
+
+package: libindicate3
+version: 2652
+installed: true
+
+package: python-gnupginterface
+version: 3535
+installed: true
+
+package: xinit
+version: 16847
+installed: true
+
+package: libuuid1
+version: 30394
+installed: true
+
+package: firefox-gnome-support
+version: 33539
+installed: true
+
+package: couchdb-bin
+version: 9688
+installed: true
+
+package: libdaemon0
+version: 10461
+installed: true
+
+package: libgksu2-0
+version: 25760
+installed: true
+
+package: libxrender1
+version: 42178
+installed: true
+
+package: wpasupplicant
+version: 6483
+installed: true
+
+package: libpci3
+version: 44378
+installed: true
+
+package: libgnomepanel2.24-cil
+version: 30940
+installed: true
+
+package: checkbox-gtk
+version: 7927
+installed: true
+
+package: iproute
+version: 41317
+installed: true
+
+package: gnome-system-monitor
+version: 31007
+installed: true
+
+package: mysql-common
+version: 36742
+installed: true
+
+package: findutils
+version: 35722
+installed: true
+
+package: nvidia-96-modaliases
+version: 39674
+installed: true
+
+package: libtelepathy-farsight0
+version: 654
+installed: true
+
+package: libprotobuf3
+version: 25453
+installed: true
+
+package: sudo
+version: 21415
+installed: true
+
+package: python-ibus
+version: 17891
+installed: true
+
+package: wireless-crda
+version: 22468
+installed: true
+
+package: python-pyorbit
+version: 30826
+installed: true
+
+package: libmagickwand2
+version: 46942
+installed: true
+
+package: indicator-messages
+version: 2790
+installed: true
+
+package: tsconf
+version: 14914
+installed: true
+
+package: libcdio7
+version: 12928
+installed: true
+
+package: libiw29
+version: 39523
+installed: true
+
+package: xserver-xorg-video-tdfx
+version: 43078
+installed: true
+
+package: indicator-applet-session
+version: 2377
+installed: true
+
+package: python-debian
+version: 2002
+installed: true
+
+package: fontconfig
+version: 28682
+installed: true
+
+package: sysv-rc
+version: 31530
+installed: true
+
+package: policykit-1
+version: 13377
+installed: true
+
+package: libgssapi-krb5-2
+version: 21383
+installed: true
+
+package: gstreamer0.10-alsa
+version: 9942
+installed: true
+
+package: python-apport
+version: 22261
+installed: true
+
+package: os-prober
+version: 23726
+installed: true
+
+package: iputils-ping
+version: 46321
+installed: true
+
+package: libkeyutils1
+version: 17611
+installed: true
+
+package: libpurple0
+version: 43989
+installed: true
+
+package: iptables
+version: 19868
+installed: true
+
+package: info
+version: 36211
+installed: true
+
+package: nvidia-173-modaliases
+version: 39803
+installed: true
+
+package: python-glade2
+version: 30401
+installed: true
+
+package: x-ttcidfont-conf
+version: 39544
+installed: true
+
+package: inputattach
+version: 23398
+installed: true
+
+package: libcupsimage2
+version: 19697
+installed: true
+
+package: python-dbus
+version: 13054
+installed: true
+
+package: pnm2ppa
+version: 22760
+installed: true
+
+package: dc
+version: 21255
+installed: true
+
+package: xfonts-utils
+version: 45136
+installed: true
+
+package: gdebi-core
+version: 5600
+installed: true
+
+package: alacarte
+version: 10366
+installed: true
+
+package: libapparmor-perl
+version: 27551
+installed: true
+
+package: libgegl-0.0-0
+version: 754
+installed: true
+
+package: app-install-data
+version: 9288
+installed: true
+
+package: libavahi-ui0
+version: 6612
+installed: true
+
+package: libncurses5
+version: 37146
+installed: true
+
+package: lksctp-tools
+version: 16102
+installed: true
+
+package: grep
+version: 28474
+installed: true
+
+package: onboard
+version: 13313
+installed: true
+
+package: util-linux
+version: 30394
+installed: true
+
+package: libbeagle1
+version: 3830
+installed: true
+
+package: gnome-session-bin
+version: 31013
+installed: true
+
+package: ttf-kacst
+version: 25093
+installed: true
+
+package: libgamin0
+version: 1938
+installed: true
+
+package: evolution-data-server-common
+version: 31027
+installed: true
+
+package: update-notifier-common
+version: 13185
+installed: true
+
+package: python-xapian
+version: 16162
+installed: true
+
+package: python-webkit
+version: 17117
+installed: true
+
+package: gnome-utils
+version: 31027
+installed: true
+
+package: gnome-pilot-conduits
+version: 25813
+installed: true
+
+package: evince
+version: 31027
+installed: true
+
+package: xserver-xorg-video-nv
+version: 43721
+installed: true
+
+package: software-properties-gtk
+version: 12889
+installed: true
+
+package: gnome-accessibility-themes
+version: 31027
+installed: true
+
+package: f-spot
+version: 6164
+installed: true
+
+package: python-gnomeapplet
+version: 31007
+installed: true
+
+package: e2fslibs
+version: 23881
+installed: true
+
+package: ubuntu-standard
+version: 24560
+installed: true
+
+package: libgnomekbdui4
+version: 31009
+installed: true
+
+package: libxcb-event1
+version: 3728
+installed: true
+
+package: python-apt
+version: 7271
+installed: true
+
+package: libgdata5
+version: 4226
+installed: true
+
+package: libatspi1.0-0
+version: 23577
+installed: true
+
+package: telepathy-haze
+version: 3501
+installed: true
+
+package: debconf
+version: 20716
+installed: true
+
+package: language-support-en
+version: 45266
+installed: true
+
+package: libwps-0.1-1
+version: 1629
+installed: true
+
+package: libpng12-0
+version: 18565
+installed: true
+
+package: gsfonts
+version: 45219
+installed: true
+
+package: libopenexr6
+version: 20967
+installed: true
+
+package: bluez-alsa
+version: 36357
+installed: true
+
+package: libfont-afm-perl
+version: 23275
+installed: true
+
+package: xdg-user-dirs-gtk
+version: 7432
+installed: true
+
+package: python-cupshelpers
+version: 17319
+installed: true
+
+package: libffi5
+version: 32167
+installed: true
+
+package: rdesktop
+version: 20888
+installed: true
+
+package: sed
+version: 35362
+installed: true
+
+package: libmono-system-data2.0-cil
+version: 28050
+installed: true
+
+package: libgnome-menu2
+version: 31022
+installed: true
+
+package: compiz-wrapper
+version: 42086
+installed: true
+
+package: xserver-xorg-video-mach64
+version: 38003
+installed: true
+
+package: openoffice.org-draw
+version: 44449
+installed: true
+
+package: libdirectfb-1.2-0
+version: 18309
+installed: true
+
+package: gstreamer0.10-plugins-base-apps
+version: 9942
+installed: true
+
+package: initscripts
+version: 31530
+installed: true
+
+package: xscreensaver-gl
+version: 37169
+installed: true
+
+package: librpc-xml-perl
+version: 12666
+installed: true
+
+package: libtext-charwidth-perl
+version: 4090
+installed: true
+
+package: libebook1.2-9
+version: 31027
+installed: true
+
+package: xfonts-75dpi
+version: 42576
+installed: true
+
+package: finger
+version: 11020
+installed: true
+
+package: sgml-base
+version: 23492
+installed: true
+
+package: libgnome-window-settings1
+version: 44271
+installed: true
+
+package: libxcb-render0
+version: 19429
+installed: true
+
+package: libgail-gnome-module
+version: 23302
+installed: true
+
+package: m17n-contrib
+version: 17269
+installed: true
+
+package: alsa-base
+version: 16254
+installed: true
+
+package: libhtml-parser-perl
+version: 34587
+installed: true
+
+package: libgnome-keyring0
+version: 31027
+installed: true
+
+package: libvte9
+version: 42307
+installed: true
+
+package: libxklavier15
+version: 34801
+installed: true
+
+package: gnome-terminal
+version: 31027
+installed: true
+
+package: ubuntu-minimal
+version: 24560
+installed: true
+
+package: screen
+version: 34976
+installed: true
+
+package: libdv4
+version: 15258
+installed: true
+
+package: apt-transport-https
+version: 7308
+installed: true
+
+package: xserver-xorg-video-vmware
+version: 45316
+installed: true
+
+package: libattr1
+version: 43911
+installed: true
+
+package: python-virtkey
+version: 12286
+installed: true
+
+package: ethtool
+version: 37643
+installed: true
+
+package: pulseaudio-module-gconf
+version: 42218
+installed: true
+
+package: gnect
+version: 44266
+installed: true
+
+package: netcat-traditional
+version: 22516
+installed: true
+
+package: libebackend1.2-0
+version: 31027
+installed: true
+
+package: libesd-alsa0
+version: 3058
+installed: true
+
+package: libgdata1.2-1
+version: 31027
+installed: true
+
+package: sgml-data
+version: 25436
+installed: true
+
+package: liborbit2
+version: 44148
+installed: true
+
+package: python-pam
+version: 4460
+installed: true
+
+package: python-rdflib
+version: 27937
+installed: true
+
+package: python-lazr-uri
+version: 14831
+installed: true
+
+package: libxapian15
+version: 16178
+installed: true
+
+package: libgnome-keyring1.0-cil
+version: 15243
+installed: true
+
+package: empathy
+version: 31034
+installed: true
+
+package: openoffice.org-common
+version: 44449
+installed: true
+
+package: app-install-data-partner
+version: 39236
+installed: true
+
+package: pulseaudio-module-bluetooth
+version: 42218
+installed: true
+
+package: cups-common
+version: 19697
+installed: true
+
+package: liboil0.3
+version: 3923
+installed: true
+
+package: libproxy0
+version: 2656
+installed: true
+
+package: libmeanwhile1
+version: 15579
+installed: true
+
+package: apt-xapian-index
+version: 11316
+installed: true
+
+package: foomatic-db-engine
+version: 34964
+installed: true
+
+package: openoffice.org-hyphenation-en-us
+version: 27830
+installed: true
+
+package: libx86-1
+version: 16661
+installed: true
+
+package: erlang-crypto
+version: 45371
+installed: true
+
+package: libdns50
+version: 45256
+installed: true
+
+package: libpcap0.8
+version: 15258
+installed: true
+
+package: apport-symptoms
+version: 2172
+installed: true
+
+package: erlang-base
+version: 45371
+installed: true
+
+package: libnspr4-0d
+version: 36061
+installed: true
+
+package: binutils
+version: 30584
+installed: true
+
+package: libdjvulibre21
+version: 33590
+installed: true
+
+package: binfmt-support
+version: 18486
+installed: true
+
+package: poppler-utils
+version: 10289
+installed: true
+
+package: libdevmapper1.02.1
+version: 45859
+installed: true
+
+package: myspell-en-za
+version: 44392
+installed: true
+
+package: libraw1394-11
+version: 25510
+installed: true
+
+package: gnotski
+version: 44266
+installed: true
+
+package: gucharmap
+version: 44266
+installed: true
+
+package: ucf
+version: 34371
+installed: true
+
+package: libbabl-0.0-0
+version: 756
+installed: true
+
+package: linux-headers-2.6.31-14
+version: 29076
+installed: true
+
+package: fglrx-modaliases
+version: 46219
+installed: true
+
+package: libgtkmm-2.4-1c2a
+version: 44182
+installed: true
+
+package: libparse-debianchangelog-perl
+version: 16861
+installed: true
+
+package: diff
+version: 29531
+installed: true
+
+package: lsb-release
+version: 34801
+installed: true
+
+package: mime-support
+version: 34523
+installed: true
+
+package: ubuntuone-client-gnome
+version: 15550
+installed: true
+
+package: xserver-xorg-core
+version: 45944
+installed: true
+
+package: syslinux
+version: 46156
+installed: true
+
+package: libgnomecanvas2-common
+version: 30940
+installed: true
+
+package: libhal1
+version: 5677
+installed: true
+
+package: openoffice.org-thesaurus-en-us
+version: 44392
+installed: true
+
+package: openoffice.org-emailmerge
+version: 44449
+installed: true
+
+package: libxdamage1
+version: 42777
+installed: true
+
+package: nautilus-share
+version: 6998
+installed: true
+
+package: libgadu3
+version: 43358
+installed: true
+
+package: lsb-base
+version: 34801
+installed: true
+
+package: libnewt0.52
+version: 12384
+installed: true
+
+package: gnome-panel-data
+version: 44269
+installed: true
+
+package: python-pyatspi
+version: 23577
+installed: true
+
+package: sreadahead
+version: 14903
+installed: true
+
+package: erlang-xmerl
+version: 45371
+installed: true
+
+package: libgsf-1-common
+version: 22989
+installed: true
+
+package: libpq5
+version: 38738
+installed: true
+
+package: gstreamer0.10-pulseaudio
+version: 9901
+installed: true
+
+package: libwww-perl
+version: 37547
+installed: true
+
+package: ubuntu-system-service
+version: 2016
+installed: true
+
+package: libmono2.0-cil
+version: 28050
+installed: true
+
+package: mawk
+version: 19080
+installed: true
+
+package: libsepol1
+version: 25908
+installed: true
+
+package: libcairo-perl
+version: 24111
+installed: true
+
+package: libpst4
+version: 6637
+installed: true
+
+package: upstart
+version: 6266
+installed: true
+
+package: memtest86+
+version: 29968
+installed: true
+
+package: ibus
+version: 17891
+installed: true
+
+package: libavc1394-0
+version: 5367
+installed: true
+
+package: xserver-xorg-video-i128
+version: 43005
+installed: true
+
+package: xorg-docs-core
+version: 43055
+installed: true
+
+package: bluez-gstreamer
+version: 36357
+installed: true
+
+package: libneon27-gnutls
+version: 11675
+installed: true
+
+package: python-gdbm
+version: 28762
+installed: true
+
+package: locales
+version: 29710
+installed: true
+
+package: openoffice.org-core
+version: 44449
+installed: true
+
+package: gnome-keyring
+version: 31027
+installed: true
+
+package: libnss3-1d
+version: 34230
+installed: true
+
+package: libdbusmenu-gtk0
+version: 1821
+installed: true
+
+package: mount
+version: 30394
+installed: true
+
+package: libgtop2-7
+version: 30952
+installed: true
+
+package: python-libxml2
+version: 29352
+installed: true
+
+package: language-selector-common
+version: 4812
+installed: true
+
+package: python-twisted-bin
+version: 38665
+installed: true
+
+package: libhunspell-1.2-0
+version: 18347
+installed: true
+
+package: libavahi-gobject0
+version: 6612
+installed: true
+
+package: brasero
+version: 31027
+installed: true
+
+package: libgnutls26
+version: 29554
+installed: true
+
+package: libxslt1.1
+version: 17427
+installed: true
+
+package: system-config-printer-gnome
+version: 17319
+installed: true
+
+package: libfontenc1
+version: 42656
+installed: true
+
+package: geoip-database
+version: 19965
+installed: true
+
+package: libavahi-glib1
+version: 6612
+installed: true
+
+package: hplip
+version: 34077
+installed: true
+
+package: libslp1
+version: 17972
+installed: true
+
+package: libwnck22
+version: 44266
+installed: true
+
+package: gnome-menus
+version: 31022
+installed: true
+
+package: libshout3
+version: 26991
+installed: true
+
+package: foo2zjs
+version: 41374
+installed: true
+
+package: libpixman-1-0
+version: 10673
+installed: true
+
+package: libxml2
+version: 29352
+installed: true
+
+package: policykit-1-gnome
+version: 13378
+installed: true
+
+package: xkb-data
+version: 20765
+installed: true
+
+package: libsndfile1
+version: 16240
+installed: true
+
+package: libmono-system2.0-cil
+version: 28050
+installed: true
+
+package: libaspell15
+version: 12552
+installed: true
+
+package: libanthy0
+version: 40415
+installed: true
+
+package: libice6
+version: 45752
+installed: true
+
+package: ttf-wqy-zenhei
+version: 8183
+installed: true
+
+package: python-serial
+version: 27391
+installed: true
+
+package: libmono-corlib2.0-cil
+version: 28050
+installed: true
+
+package: zenity
+version: 31009
+installed: true
+
+package: wbritish
+version: 37594
+installed: true
+
+package: libgnome2.24-cil
+version: 30848
+installed: true
+
+package: rhythmbox
+version: 10384
+installed: true
+
+package: devicekit-disks
+version: 38154
+installed: true
+
+package: libxtrap6
+version: 45724
+installed: true
+
+package: bluez-cups
+version: 36357
+installed: true
+
+package: gimp
+version: 28848
+installed: true
+
+package: python-central
+version: 6521
+installed: true
+
+package: libsasl2-2
+version: 26645
+installed: true
+
+package: libndesk-dbus1.0-cil
+version: 6024
+installed: true
+
+package: whois
+version: 36057
+installed: true
+
+package: mousetweaks
+version: 31027
+installed: true
+
+package: make
+version: 34635
+installed: true
+
+package: hostname
+version: 31589
+installed: true
+
+package: libkrb5support0
+version: 21383
+installed: true
+
+package: coreutils
+version: 38338
+installed: true
+
+package: libgtksourceview2.0-0
+version: 29512
+installed: true
+
+package: metacity
+version: 44266
+installed: true
+
+package: gnome-mahjongg
+version: 44266
+installed: true
+
+package: libstdc++6
+version: 35714
+installed: true
+
+package: libbind9-50
+version: 45256
+installed: true
+
+package: splix
+version: 25161
+installed: true
+
+package: gvfs
+version: 19674
+installed: true
+
+package: dbus-x11
+version: 18519
+installed: true
+
+package: openoffice.org-impress
+version: 44449
+installed: true
+
+package: xfonts-base
+version: 42579
+installed: true
+
+package: xserver-xorg-video-neomagic
+version: 42890
+installed: true
+
+package: rarian-compat
+version: 7661
+installed: true
+
+package: libdbus-glib-1-2
+version: 12954
+installed: true
+
+package: libpulse-mainloop-glib0
+version: 42218
+installed: true
+
+package: dcraw
+version: 38881
+installed: true
+
+package: laptop-mode-tools
+version: 23972
+installed: true
+
+package: popularity-contest
+version: 23990
+installed: true
+
+package: libraptor1
+version: 20096
+installed: true
+
+package: libept0
+version: 5744
+installed: true
+
+package: radeontool
+version: 20314
+installed: true
+
+package: toshset
+version: 24238
+installed: true
+
+package: libavahi-common-data
+version: 6612
+installed: true
+
+package: manpages
+version: 34401
+installed: true
+
+package: zlib1g
+version: 42907
+installed: true
+
+package: libxmu6
+version: 45749
+installed: true
+
+package: libc6
+version: 29881
+installed: true
+
+package: xserver-xorg-video-siliconmotion
+version: 43327
+installed: true
+
+package: liblouis0
+version: 21414
+installed: true
+
+package: initramfs-tools
+version: 13301
+installed: true
+
+package: login
+version: 44819
+installed: true
+
+package: xulrunner-1.9.1-gnome-support
+version: 22207
+installed: true
+
+package: libpulse0
+version: 42218
+installed: true
+
+package: libzephyr4
+version: 31790
+installed: true
+
+package: xserver-xorg-video-openchrome
+version: 41790
+installed: true
+
+package: libnautilus-extension1
+version: 44271
+installed: true
+
+package: openoffice.org-hyphenation
+version: 3122
+installed: true
+
+package: iso-codes
+version: 34116
+installed: true
+
+package: libidn11
+version: 23013
+installed: true
+
+package: python-launchpad-integration
+version: 2075
+installed: true
+
+package: libexempi3
+version: 26280
+installed: true
+
+package: base-passwd
+version: 33587
+installed: true
+
+package: liboobs-1-4
+version: 30759
+installed: true
+
+package: ca-certificates
+version: 41398
+installed: true
+
+package: libedata-cal1.2-6
+version: 31027
+installed: true
+
+package: ssl-cert
+version: 16294
+installed: true
+
+package: libgsf-1-114
+version: 22989
+installed: true
+
+package: libgpgme11
+version: 17237
+installed: true
+
+package: gnome-themes-selected
+version: 31027
+installed: true
+
+package: module-init-tools
+version: 34099
+installed: true
+
+package: libevent-1.4-2
+version: 20040
+installed: true
+
+package: gzip
+version: 19316
+installed: true
+
+package: apparmor-utils
+version: 27551
+installed: true
+
+package: libsoup2.4-1
+version: 31037
+installed: true
+
+package: libblkid1
+version: 30394
+installed: true
+
+package: python-gnomekeyring
+version: 31007
+installed: true
+
+package: libgeoip1
+version: 19965
+installed: true
+
+package: gnome-doc-utils
+version: 11121
+installed: true
+
+package: vim-common
+version: 46202
+installed: true
+
+package: xfonts-scalable
+version: 42581
+installed: true
+
+package: less
+version: 39953
+installed: true
+
+package: laptop-detect
+version: 10592
+installed: true
+
+package: libpoppler5
+version: 10289
+installed: true
+
+package: libmono-system-web2.0-cil
+version: 28050
+installed: true
+
+package: libbrasero-media0
+version: 31027
+installed: true
+
+package: usplash
+version: 5772
+installed: true
+
+package: libedataserverui1.2-8
+version: 31027
+installed: true
+
+package: gdb
+version: 38170
+installed: true
+
+package: pppconfig
+version: 27770
+installed: true
+
+package: libmailtools-perl
+version: 27811
+installed: true
+
+package: libgnome2-vfs-perl
+version: 24279
+installed: true
+
+package: libwpg-0.1-1
+version: 1707
+installed: true
+
+package: gcc-4.4-base
+version: 35714
+installed: true
+
+package: libasound2-plugins
+version: 16241
+installed: true
+
+package: gdm
+version: 31027
+installed: true
+
+package: python-sexy
+version: 1911
+installed: true
+
+package: firefox-3.5-branding
+version: 33539
+installed: true
+
+package: libmono-posix2.0-cil
+version: 28050
+installed: true
+
+package: gconf-defaults-service
+version: 31009
+installed: true
+
+package: libgpg-error0
+version: 20763
+installed: true
+
+package: hal
+version: 5677
+installed: true
+
+package: e2fsprogs
+version: 23881
+installed: true
+
+package: librsvg2-common
+version: 30940
+installed: true
+
+package: openoffice.org-style-human
+version: 44449
+installed: true
+
+package: console-terminus
+version: 36304
+installed: true
+
+package: libempathy30
+version: 31034
+installed: true
+
+package: libgnome-media0
+version: 31027
+installed: true
+
+package: compiz-fusion-plugins-extra
+version: 7878
+installed: true
+
+package: libbonobo2-0
+version: 30853
+installed: true
+
+package: gnome-media-common
+version: 31027
+installed: true
+
+package: libdevkit-power-gobject1
+version: 39143
+installed: true
+
+package: gvfs-bin
+version: 19674
+installed: true
+
+package: netbase
+version: 36325
+installed: true
+
+package: libpam0g
+version: 16734
+installed: true
+
+package: apparmor
+version: 27551
+installed: true
+
+package: command-not-found-data
+version: 3048
+installed: true
+
+package: gnome-codec-install
+version: 4389
+installed: true
+
+package: libxau6
+version: 42654
+installed: true
+
+package: libisccc50
+version: 45256
+installed: true
+
+package: gnome-orca
+version: 31027
+installed: true
+
+package: libxext6
+version: 45769
+installed: true
+
+package: ubuntu-desktop
+version: 24560
+installed: true
+
+package: libijs-0.35
+version: 11893
+installed: true
+
+package: libgnomekbd4
+version: 31009
+installed: true
+
+package: libck-connector0
+version: 3389
+installed: true
+
+package: libdjvulibre-text
+version: 33590
+installed: true
+
+package: python-speechd
+version: 6444
+installed: true
+
+package: linux-image-generic
+version: 29106
+installed: true
+
+package: libxxf86vm1
+version: 42623
+installed: true
+
+package: xterm
+version: 39867
+installed: true
+
+package: vino
+version: 31029
+installed: true
+
+package: libcupsmime1
+version: 19697
+installed: true
+
+package: jockey-common
+version: 5466
+installed: true
+
+package: python-httplib2
+version: 4215
+installed: true
+
+package: gnome-system-tools
+version: 31029
+installed: true
+
+package: aspell
+version: 12552
+installed: true
+
+package: liburi-perl
+version: 23790
+installed: true
+
+package: iputils-tracepath
+version: 46321
+installed: true
+
+package: libtalloc1
+version: 19591
+installed: true
+
+package: min12xxw
+version: 613
+installed: true
+
+package: libgtk2.0-0
+version: 30522
+installed: true
+
+package: python-pkg-resources
+version: 5950
+installed: true
+
+package: vbetool
+version: 16486
+installed: true
+
+package: libidl0
+version: 8106
+installed: true
+
+package: xserver-xorg-video-mga
+version: 43126
+installed: true
+
+package: bind9-host
+version: 45256
+installed: true
+
+package: libgnomekbd-common
+version: 31009
+installed: true
+
+package: esound-common
+version: 3058
+installed: true
+
+package: libwbclient0
+version: 46135
+installed: true
+
+package: liblpint-bonobo0
+version: 2075
+installed: true
+
+package: libcolamd2.7.1
+version: 44601
+installed: true
+
+package: python-papyon
+version: 4494
+installed: true
+
+package: notify-osd
+version: 9450
+installed: true
+
+package: genisoimage
+version: 46963
+installed: true
+
+package: python-fstab
+version: 19425
+installed: true
+
+package: libatasmart4
+version: 10904
+installed: true
+
+package: xbitmaps
+version: 15426
+installed: true
+
+package: gettext-base
+version: 11013
+installed: true
+
+package: gvfs-fuse
+version: 19674
+installed: true
+
+package: pkg-config
+version: 11364
+installed: true
+
+package: libgp11-0
+version: 31027
+installed: true
+
+package: shared-mime-info
+version: 12765
+installed: true
+
+package: libsilc-1.1-2
+version: 17291
+installed: true
+
+package: libglade2-0
+version: 43997
+installed: true
+
+package: libexif12
+version: 6574
+installed: true
+
+package: udev
+version: 39769
+installed: true
+
+package: libgdu-gtk0
+version: 31021
+installed: true
+
+package: python-xkit
+version: 4408
+installed: true
+
+package: espeak
+version: 23876
+installed: true
+
+package: sysvinit-utils
+version: 31530
+installed: true
+
+package: libcamel1.2-14
+version: 31027
+installed: true
+
+package: libgtksourceview2.0-common
+version: 29512
+installed: true
+
+package: wireless-tools
+version: 39523
+installed: true
+
+package: libuuid-perl
+version: 2219
+installed: true
+
+package: busybox-initramfs
+version: 43455
+installed: true
+
+package: python-configglue
+version: 2291
+installed: true
+
+package: lockfile-progs
+version: 1980
+installed: true
+
+package: libpangomm-1.4-1
+version: 30936
+installed: true
+
+package: libmpfr1ldbl
+version: 27977
+installed: true
+
+package: rsync
+version: 32138
+installed: true
+
+package: aptdaemon
+version: 9663
+installed: true
+
+package: xserver-xorg-video-r128
+version: 37998
+installed: true
+
+package: language-pack-en
+version: 45272
+installed: true
+
+package: libselinux1
+version: 25963
+installed: true
+
+package: metacity-common
+version: 44266
+installed: true
+
+package: gtali
+version: 44266
+installed: true
+
+package: dvd+rw-tools
+version: 38237
+installed: true
+
+package: libvorbisenc2
+version: 17912
+installed: true
+
+package: passwd
+version: 44819
+installed: true
+
+package: libsqlite3-0
+version: 33742
+installed: true
+
+package: libkrb5-3
+version: 21383
+installed: true
+
+package: libpulse-browse0
+version: 42218
+installed: true
+
+package: linux-firmware
+version: 23433
+installed: true
+
+package: language-pack-en-base
+version: 45272
+installed: true
+
+package: evolution-webcal
+version: 31007
+installed: true
+
+package: libgnome2-canvas-perl
+version: 17550
+installed: true
+
+package: libevdocument1
+version: 31027
+installed: true
+
+package: xserver-common
+version: 45944
+installed: true
+
+package: libss2
+version: 23881
+installed: true
+
+package: libmagic1
+version: 36875
+installed: true
+
+package: libxcb-atom1
+version: 3728
+installed: true
+
+package: xserver-xorg-video-savage
+version: 43812
+installed: true
+
+package: libgphoto2-port0
+version: 28150
+installed: true
+
+package: bc
+version: 21255
+installed: true
+
+package: ubuntu-docs
+version: 38994
+installed: true
+
+package: libdotconf1.0
+version: 16148
+installed: true
+
+package: tasksel
+version: 31469
+installed: true
+
+package: libgnome-desktop-2-11
+version: 44272
+installed: true
+
+package: pulseaudio-module-x11
+version: 42218
+installed: true
+
+package: dmidecode
+version: 29667
+installed: true
+
+package: libgnomeui-common
+version: 30853
+installed: true
+
+package: sane-utils
+version: 16247
+installed: true
+
+package: libaa1
+version: 19544
+installed: true
+
+package: wget
+version: 22699
+installed: true
+
+package: libcomerr2
+version: 23881
+installed: true
+
+package: libxml-parser-perl
+version: 31287
+installed: true
+
+package: libspeechd2
+version: 6444
+installed: true
+
+package: ufw
+version: 11690
+installed: true
+
+package: dhcp3-client
+version: 32494
+installed: true
+
+package: libgnomecanvas2-0
+version: 30940
+installed: true
+
+package: python2.6-minimal
+version: 28796
+installed: true
+
+package: evolution-data-server
+version: 31027
+installed: true
+
+package: python-cups
+version: 22440
+installed: true
+
+package: libglibmm-2.4-1c2a
+version: 30746
+installed: true
+
+package: readline-common
+version: 37667
+installed: true
+
+package: pcmciautils
+version: 39277
+installed: true
+
+package: libcairomm-1.0-1
+version: 21736
+installed: true
+
+package: libenchant1c2a
+version: 20347
+installed: true
+
+package: libxv1
+version: 45747
+installed: true
+
+package: wodim
+version: 46963
+installed: true
+
+package: libwebkit-1.0-2
+version: 17355
+installed: true
+
+package: python-twisted-names
+version: 38661
+installed: true
+
+package: same-gnome
+version: 44266
+installed: true
+
+package: evolution-indicator
+version: 2712
+installed: true
+
+package: libgcr0
+version: 31027
+installed: true
+
+package: openoffice.org-help-en-us
+version: 44448
+installed: true
+
+package: python-vte
+version: 42307
+installed: true
+
+package: python-louis
+version: 21414
+installed: true
+
+package: libgtkhtml3.14-19
+version: 44710
+installed: true
+
+package: libjs-jquery
+version: 19054
+installed: true
+
+package: python-ubuntuone-client
+version: 15550
+installed: true
+
+package: libgs8
+version: 38866
+installed: true
+
+package: tomboy
+version: 15238
+installed: true
+
+package: libbluetooth3
+version: 36357
+installed: true
+
+package: libxtst6
+version: 45743
+installed: true
+
+package: libtrackerclient0
+version: 6658
+installed: true
+
+package: libpolkit-backend-1-0
+version: 13377
+installed: true
+
+package: libxcb1
+version: 19429
+installed: true
+
+package: tcpd
+version: 38428
+installed: true
+
+package: pulseaudio-module-udev
+version: 42218
+installed: true
+
+package: xserver-xorg-video-ark
+version: 41998
+installed: true
+
+package: gnome-session-canberra
+version: 10760
+installed: true
+
+package: libgnome-pilot2
+version: 25831
+installed: true
+
+package: libudev0
+version: 39769
+installed: true
+
+package: xml-core
+version: 10233
+installed: true
+
+package: libtie-ixhash-perl
+version: 23331
+installed: true
+
+package: language-selector
+version: 4812
+installed: true
+
+package: compiz-plugins
+version: 42086
+installed: true
+
+package: procps
+version: 44554
+installed: true
+
+package: smbclient
+version: 46135
+installed: true
+
+package: ure
+version: 20435
+installed: true
+
+package: network-manager
+version: 7402
+installed: true
+
+package: libgcrypt11
+version: 19876
+installed: true
+
+package: python-zope.interface
+version: 33516
+installed: true
+
+package: libbsd0
+version: 1748
+installed: true
+
+package: tzdata
+version: 40227
+installed: true
+
+package: libedata-book1.2-2
+version: 31027
+installed: true
+
+package: tcl8.4
+version: 38773
+installed: true
+
+package: linux-image-2.6.31-14-generic
+version: 29076
+installed: true
+
+package: python-aptdaemon-gtk
+version: 9663
+installed: true
+
+package: dmz-cursor-theme
+version: 4337
+installed: true
+
+package: libpciaccess0
+version: 9826
+installed: true
+
+package: w3m
+version: 5296
+installed: true
+
+package: libxpm4
+version: 44628
+installed: true
+
+package: libgmp3c2
+version: 46181
+installed: true
+
+package: libjasper1
+version: 24706
+installed: true
+
+package: libts-0.0-0
+version: 14914
+installed: true
+
+package: libxi6
+version: 45838
+installed: true
+
+package: speech-dispatcher
+version: 6444
+installed: true
+
+package: libcaca0
+version: 13909
+installed: true
+
+package: libcompress-bzip2-perl
+version: 29674
+installed: true
+
+package: python-smbc
+version: 15890
+installed: true
+
+package: ttf-unfonts-core
+version: 15468
+installed: true
+
+package: x11-common
+version: 45137
+installed: true
+
+package: gnome-user-guide
+version: 31020
+installed: true
+
+package: tcpdump
+version: 34894
+installed: true
+
+package: mtr-tiny
+version: 12874
+installed: true
+
+package: gnome-terminal-data
+version: 31027
+installed: true
+
+package: libgnome2-perl
+version: 23896
+installed: true
+
+package: update-inetd
+version: 36315
+installed: true
+
+package: libgl1-mesa-dri
+version: 38408
+installed: true
+
+package: transmission-common
+version: 24236
+installed: true
+
+package: libgtkspell0
+version: 25809
+installed: true
+
+package: libpcsclite1
+version: 20514
+installed: true
+
+package: libaudiofile0
+version: 2815
+installed: true
+
+package: uno-libs3
+version: 20435
+installed: true
+
+package: librarian0
+version: 7661
+installed: true
+
+package: file-roller
+version: 31027
+installed: true
+
+package: libpanel-applet2-0
+version: 44269
+installed: true
+
+package: ttf-dejavu-core
+version: 31065
+installed: true
+
+package: screen-resolution-extra
+version: 9988
+installed: true
+
+package: ubuntu-keyring
+version: 40251
+installed: true
+
+package: evolution-plugins
+version: 31027
+installed: true
+
+package: evolution-common
+version: 31027
+installed: true
+
+package: python-gnome2
+version: 31007
+installed: true
+
+package: eog
+version: 31027
+installed: true
+
+package: libart2.0-cil
+version: 30848
+installed: true
+
+package: libavahi-client3
+version: 6612
+installed: true
+
+package: liblouis-data
+version: 21414
+installed: true
+
+package: libgtkhtml-editor0
+version: 44710
+installed: true
+
+package: libpaper-utils
+version: 17424
+installed: true
+
+package: python-openssl
+version: 8295
+installed: true
+
+package: libgnomevfs2-common
+version: 44239
+installed: true
+
+package: ubuntu-wallpapers
+version: 11711
+installed: true
+
+package: screensaver-default-images
+version: 2188
+installed: true
+
+package: gnibbles
+version: 44266
+installed: true
+
+package: python-lazr-restfulclient
+version: 8746
+installed: true
+
+package: gedit-common
+version: 31009
+installed: true
+
+package: erlang-mnesia
+version: 45371
+installed: true
+
+package: libnet-dbus-perl
+version: 11848
+installed: true
+
+package: gnome-sudoku
+version: 44266
+installed: true
+
+package: libcanberra-gtk0
+version: 10760
+installed: true
+
+package: gnome-blackjack
+version: 44266
+installed: true
+
+package: python-gnomecanvas
+version: 31007
+installed: true
+
+package: telepathy-salut
+version: 3857
+installed: true
+
+package: libgnome-vfs2.0-cil
+version: 30848
+installed: true
+
+package: python-brlapi
+version: 34826
+installed: true
+
+package: libgtk2-perl
+version: 43566
+installed: true
+
+package: libio-string-perl
+version: 21658
+installed: true
+
+package: libxaw7
+version: 45756
+installed: true
+
+package: ttf-freefont
+version: 41278
+installed: true
+
+package: lp-solve
+version: 37055
+installed: true
+
+package: libgtkhtml-editor-common
+version: 44710
+installed: true
+
+package: libhtml-tree-perl
+version: 34415
+installed: true
+
+package: libxdmcp6
+version: 42627
+installed: true
+
+package: x11-utils
+version: 38349
+installed: true
+
+package: libx11-data
+version: 45840
+installed: true
+
+package: liblaunchpad-integration1
+version: 2075
+installed: true
+
+package: libxxf86misc1
+version: 42604
+installed: true
+
+package: libatk1.0-0
+version: 23572
+installed: true
+
+package: libxss1
+version: 42791
+installed: true
+
+package: ifupdown
+version: 6472
+installed: true
+
+package: lsof
+version: 36432
+installed: true
+
+package: gstreamer0.10-nice
+version: 610
+installed: true
+
+package: libdrm-radeon1
+version: 28199
+installed: true
+
+package: xserver-xorg-video-cirrus
+version: 42998
+installed: true
+
+package: ubuntu-sounds
+version: 10233
+installed: true
+
+package: gconf2-common
+version: 31009
+installed: true
+
+package: libxft2
+version: 26598
+installed: true
+
+package: gamin
+version: 1938
+installed: true
+
+package: openoffice.org-base-core
+version: 44449
+installed: true
+
+package: ttf-indic-fonts-core
+version: 41920
+installed: true
+
+package: file
+version: 36875
+installed: true
+
+package: libgudev-1.0-0
+version: 45414
+installed: true
+
+package: samba-common
+version: 46135
+installed: true
+
+package: libxml-xpath-perl
+version: 22850
+installed: true
+
+package: libsm6
+version: 45778
+installed: true
+
+package: libthai0
+version: 1964
+installed: true
+
+package: liblircclient0
+version: 7954
+installed: true
+
+package: libpisock9
+version: 10372
+installed: true
+
+package: libxres1
+version: 45744
+installed: true
+
+package: libtag1-vanilla
+version: 20778
+installed: true
+
+package: bzip2
+version: 15845
+installed: true
+
+package: perl-modules
+version: 37296
+installed: true
+
+package: ssh-askpass-gnome
+version: 44956
+installed: true
+
+package: xsane-common
+version: 14282
+installed: true
+
+package: libsctp1
+version: 16102
+installed: true
+
+package: linux-headers-generic
+version: 29106
+installed: true
+
+package: libgdbm3
+version: 21866
+installed: true
+
+package: libbonoboui2-0
+version: 30854
+installed: true
+
+package: libtimedate-perl
+version: 24738
+installed: true
+
+package: libdb4.7
+version: 36051
+installed: true
+
+package: libgtk2.0-cil
+version: 30161
+installed: true
+
+package: synaptic
+version: 12628
+installed: true
+
+package: ubuntu-xsplash-artwork
+version: 7877
+installed: true
+
+package: libx11-6
+version: 45840
+installed: true
+
+package: libogg0
+version: 17079
+installed: true
+
+package: libmldbm-perl
+version: 26053
+installed: true
+
+package: libusplash0
+version: 5772
+installed: true
+
+package: python-telepathy
+version: 10874
+installed: true
+
+package: libdrm2
+version: 28199
+installed: true
+
+package: xserver-xorg-video-radeon
+version: 45089
+installed: true
+
+package: vim-tiny
+version: 46202
+installed: true
+
+package: bash-completion
+version: 42531
+installed: true
+
+package: python-protobuf
+version: 25453
+installed: true
+
+package: libdatrie1
+version: 2583
+installed: true
+
+package: dnsmasq-base
+version: 31379
+installed: true
+
+package: cpp
+version: 46758
+installed: true
+
+package: docbook-xml
+version: 35831
+installed: true
+
+package: software-center
+version: 15546
+installed: true
+
+package: telnet
+version: 11041
+installed: true
+
+package: iputils-arping
+version: 46321
+installed: true
+
+package: openssh-client
+version: 44956
+installed: true
+
+package: uuid-runtime
+version: 30394
+installed: true
+
+package: libecal1.2-7
+version: 31027
+installed: true
+
+package: libcupscgi1
+version: 19697
+installed: true
+
+package: libsensors3
+version: 44100
+installed: true
+
+package: mobile-broadband-provider-info
+version: 41425
+installed: true
+
+package: pppoeconf
+version: 23175
+installed: true
+
+package: libvisual-0.4-plugins
+version: 4328
+installed: true
+
+package: gnome-screensaver
+version: 31011
+installed: true
+
+package: yelp
+version: 31009
+installed: true
+
+package: firefox-3.5
+version: 33539
+installed: true
+
+package: libgnome2-0
+version: 31011
+installed: true
+
+package: libindicate-gtk1
+version: 2652
+installed: true
+
+package: usbutils
+version: 13003
+installed: true
+
+package: python-pyinotify
+version: 7972
+installed: true
+
+package: command-not-found
+version: 3048
+installed: true
+
+package: perl-base
+version: 37296
+installed: true
+
+package: vinagre
+version: 31027
+installed: true
+
+package: openoffice.org-writer
+version: 44449
+installed: true
+
+package: libglib2.0-cil
+version: 30161
+installed: true
+
+package: libc-dev-bin
+version: 29881
+installed: true
+
+package: time
+version: 21362
+installed: true
+
+package: at
+version: 32610
+installed: true
+
+package: libxinerama1
+version: 45744
+installed: true
+
+package: libvte-common
+version: 42307
+installed: true
+
+package: protobuf-compiler
+version: 25453
+installed: true
+
+package: libjson-glib-1.0-0
+version: 7160
+installed: true
+
+package: libcdio-paranoia0
+version: 12928
+installed: true
+
+#List of Not Installed packages
+

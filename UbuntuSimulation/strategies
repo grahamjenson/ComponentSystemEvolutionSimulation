@@ -1,0 +1,82 @@
+
+When creating a strategy, every component name, every component should have some preference.
+so for any criteria given 2 components (a,b) a < b or b < a, because if the criteria allows for a = b,
+
+INSTALL Only
+
+./runSimulation.py -i 9.10.cudf -c '-hamming' -u '-changed' -n Hamming
+./runSimulation.py -i 9.10.cudf -c '-hamming,-uptodatedistance' -u '-changed' -n HammingwUpdate
+
+
+./runSimulation.py -i 9.10.cudf -c '-changed,-ipp,+sum(hubs).+sum(auth)' -u '-changed' -n HITS
+./runSimulation.py -i 9.10.cudf -c '-changed,-ipp,+sum(pagerank)' -u '-changed' -n PAGERANK
+./runSimulation.py -i 9.10.cudf -c '-changed,-ipp,-sum(instability)' -u '-changed' -n Instability
+
+
+./runSimulation.py -i 9.10.cudf -c '-changed,-uptodatedistance' -u '-changed' -n UpdateInstall
+
+
+
+UPDATE Strategeis
+
+
+
+./runSimulation.py -i 9.10.cudf -c '-changed' -u '-notuptodate,-changed' -n ntd.Pro
+./runSimulation.py -i 9.10.cudf -c '-changed' -u '-uptodatedistance,-changed' -n Dist.Pro
+
+./runSimulation.py -i 9.10.cudf -c '-changed' -u '-removed,-new,-uptodatedistance' -n Dist.APT; ./calculateValues.py -i 9.10.cudf  -d 365 -s solutions/Dist.APT
+./runSimulation.py -i 9.10.cudf -c '-changed' -u '-removed,-new,-notuptodate,-changed' -n ntd.APT
+
+./runSimulation.py -i 9.10.cudf -c '-changed' -u '-uptodatedistance,-removed,-new' -n Dist.APT.PRO;./calculateValues.py -i 9.10.cudf  -d 365 -s solutions/Dist.APT.PRO
+./runSimulation.py -i 9.10.cudf -c '-changed' -u '-notuptodate,-removed,-new' -n ntd.APT.PRO
+
+
+./runSimulation.py -i 9.10.cudf -c '-changed' -u '-removed,-uptodatedistance,-changed' -n Dist.MIXED
+./runSimulation.py -i 9.10.cudf -c '-changed' -u '-removed,-notuptodate,-changed' -n ntd.MIXED
+
+
+./runSimulation.py -i 9.10.cudf -c '-changed' -u '-uptodatedistance.-new,-changed' -n Dist.Product.New; 
+./runSimulation.py -i 9.10.cudf -c '-changed' -u '-new.-uptodatedistance,-changed' -n Product.Dist.New; 
+
+
+#Stable Experiments
+./runSimulation.py -i 9.10.cudf -c '-changed' -u '-stableversion(7),-uptodatedistance,-removed,-new' -n Stable.Dist.Pro7; ./calculateValues.py -i 9.10.cudf  -d 365 -s solutions/Stable.Dist.Pro7
+./runSimulation.py -i 9.10.cudf -c '-changed' -u '-stableversion(7),-removed,-new,-uptodatedistance' -n Stable.Dist.Con7; ./calculateValues.py -i 9.10.cudf  -d 365 -s solutions/Stable.Dist.Con7
+
+./runSimulation.py -i 9.10.cudf -c '-changed' -u '-stableversion(14),-uptodatedistance,-removed,-new' -n Stable.Dist.Pro14; ./calculateValues.py -i 9.10.cudf  -d 365 -s solutions/Stable.Dist.Pro14
+./runSimulation.py -i 9.10.cudf -c '-changed' -u '-stableversion(14),-removed,-new,-uptodatedistance' -n Stable.Dist.Con14; ./calculateValues.py -i 9.10.cudf  -d 365 -s solutions/Stable.Dist.Con14
+
+./runSimulation.py -i 9.10.cudf -c '-changed' -u '-stableversion(28),-uptodatedistance,-removed,-new' -n Stable.Dist.Pro28; ./calculateValues.py -i 9.10.cudf  -d 365 -s solutions/Stable.Dist.Pro28
+./runSimulation.py -i 9.10.cudf -c '-changed' -u '-stableversion(28),-removed,-new,-uptodatedistance' -n Stable.Dist.Con28; ./calculateValues.py -i 9.10.cudf  -d 365 -s solutions/Stable.Dist.Pro28
+
+
+./runSimulation.py -i 9.10.cudf -c '-changed' -u '-stableversion(42),-uptodatedistance,-removed,-new' -n Stable.Dist.Pro42; ./calculateValues.py -i 9.10.cudf  -d 365 -s solutions/Stable.Dist.Pro42
+./runSimulation.py -i 9.10.cudf -c '-changed' -u '-stableversion(42),-removed,-new,-uptodatedistance' -n Stable.Dist.Con42; ./calculateValues.py -i 9.10.cudf  -d 365 -s solutions/Stable.Dist.Con42
+
+
+./runSimulation.py -i 9.10.cudf -c '-changed' -u '-stableversion(56),-uptodatedistance,-removed,-new' -n Stable.Dist.Pro56; ./calculateValues.py -i 9.10.cudf  -d 365 -s solutions/Stable.Dist.Pro56
+./runSimulation.py -i 9.10.cudf -c '-changed' -u '-stableversion(56),-removed,-new,-uptodatedistance' -n Stable.Dist.Con56; ./calculateValues.py -i 9.10.cudf  -d 365 -s solutions/Stable.Dist.Con56
+
+TRENDY
+./runSimulation.py -i 9.10.cudf -c '-changed' -u '-removed,-notuptodate,-unsat_recommends,-new' -n trendy; ./calculateValues.py -i 9.10.cudf  -d 365 -s solutions/trendy
+
+Reccommends
+./runSimulation.py -i 9.10.cudf -c '-changed' -u '-removed,-new,-unsat_recommends,-uptodatedistance' -n ConReccommends
+
+./runSimulation.py -i 9.10.cudf -c '-changed' -u '-unsat_recommends,-uptodatedistance,-removed,-new' -n ProReccommends
+
+./runSimulation.py -i 9.10.cudf -c '-changed' -u '-removed,-unsat_recommends,-uptodatedistance,-new' -n MixedReccommends
+
+#BAD Update Strategies
+
+./runSimulation.py -i 9.10.cudf -c '-changed' -u '-changed,-notuptodate' -n ntd.Con #BAD
+./runSimulation.py -i 9.10.cudf -c '-changed' -u '-changed,-uptodatedistance' -n Dist.Con #BAD
+
+#These strategies are bad because update does not have to change anything, and having -changed first means that nothing will ever be changed
+
+./runSimulation.py -i 9.10.cudf -c '-changed' -u '-uptodatedistance.-changed' -n Dist.Product # BAD
+./runSimulation.py -i 9.10.cudf -c '-changed' -u '-changed.-uptodatedistance' -n Product.Dist #BAD
+
+#Also these strategies are not good as the variable prefernce and weight for changed is included and therefore nothing is changed again
+
+
