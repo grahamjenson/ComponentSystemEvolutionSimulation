@@ -1,40 +1,8 @@
 Simulation:
+CM = update probability, install probability, weighted packages, Update MOF, Install MOF, 
+USER = initial system, (time,request,cudf file, MOF)*
 
-For each problem there needs to be configuration:
-0)	Component Popularity Model
-1)	User Model
-2)	Repository Model
-3)	Criteria Model
+GUSER(CM) = USER
+Simulation(USER) = (system)*
 
-Init Variables:
-	p: days in the problem,
-the first thing to do is create a file with p lines in it called "user" in folder user model. This is our control, a user who does nothing. Through copying and changing this file we create all our other users.
-
-User Model:
-A user mode is the model of what the user will do.
-
-Parts:
-	Component Popularity Model
-	3 User installation distributions (random or little, medium, alot)
-	3 Update Strategies (never,daily,weekly)
-	30 different users
-	3*3*9 = 270 user profiles
-
-Component Popularity Model:
-	A List of weighted components
-The format of each line will be Pacakge:uniquestring,Weight:int
-
-User Installation distribution:
-The User installation distribution is given by a list of percentages a_i,
-where i is the amount of packages installed, and a_i is the chance to install i amount. Clearly the list must total 100, and it is space separated
-e.g. 80 15 5, would mean there is a 80% chance of installing nothing, a 15% chance of installing 1 package, and a 5% of installing 2 packages.
-There is a new line between each user distribution.
-
-Using the user distribution file (UDF) and weighted component file, we take all user files in the user folder copy them to x+i[n] where n is the line number in the UDF, we then 
-
-NOTE:To maintain the old user file the first line in the distribution should be 100, as this mean 100% chance not to install anything it will properly mark the files for later manipulation
-
-Update Strategies:
-there will n amount of integers on a line, each int represents the days in the cycle of updates.
-we then take all the user files in the user folder and then add these 
 
