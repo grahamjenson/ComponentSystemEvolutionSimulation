@@ -75,7 +75,7 @@ def main():
 			clist.remove(clist[compindex])
 			
 		if random.random() < args.updatePROB:
-			ureq = "update: *"
+			ureq = "upgrade: *"
 
 		if ureq != "" or ireq != "":
 			

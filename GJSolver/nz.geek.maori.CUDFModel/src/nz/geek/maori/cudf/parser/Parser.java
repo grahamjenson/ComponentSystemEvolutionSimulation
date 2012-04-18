@@ -70,7 +70,8 @@ public class Parser {
 						.readLine()) {
 					line = line + next.substring(1);
 				}
-
+				
+				System.out.println(line);
 				// terminating condition of the loop... reached the end of the
 				// file
 				if (line == null) {
