@@ -14,14 +14,14 @@ def main():
 	userFolder = "users"
 	
 	
-	parser = argparse.ArgumentParser(prog="generateCUDF", description='Generate a CUDF File')
+	parser = argparse.ArgumentParser(prog="generateUSER", description='Generate a User File')
 	parser.add_argument('-a',"--initialSystem",  type=str, default="9.10.cudf")
 	parser.add_argument('-t',"--t0",  type=int, default="1256900400")
-	parser.add_argument('-T',"--nDays",  type=str, default=365)
+	parser.add_argument('-T',"--nDays",  type=int, default=365)
 	parser.add_argument('-u',"--updatePROB",  type=float, default=0.0)
 	parser.add_argument('-i',"--installPROB",  type=float , default=0.0)
-	parser.add_argument('-w',"--weightedPackageFile",  type=str , default=None)
-	parser.add_argument('-U',"--updateMOF",  type=str , default="-removed,-notuptodate,-changed")
+	parser.add_argument('-w',"--weightedPackageFile",  type=str , default="weightedpackages")
+	parser.add_argument('-U',"--updateMOF",  type=str , default="-removed,-new,-uptodatedistance")
 	parser.add_argument('-I',"--installMOF",  type=str , default="-removed,-changed")
 	parser.add_argument('-r',"--repositoryFolder",  type=str , default="reps")
 	parser.add_argument('-o',"--outFile",  type=str, required=True)
@@ -82,7 +82,7 @@ def main():
 				
 			t = time.mktime((startdate + datetime.timedelta(days=d)).timetuple())
 			repfile = getCudf(t,args.repositoryFolder)
-			
+			print repfile
 			
 			
 			if ureq != "":
@@ -103,7 +103,7 @@ def main():
 				out.write(";\t")
 				out.write(repfile)
 				out.write(";\t")
-				out.write(args.updateMOF)
+				out.write(args.installMOF)
 				out.write("\n")
 			
 	out.close()

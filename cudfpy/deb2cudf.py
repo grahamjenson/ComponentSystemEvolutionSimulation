@@ -174,6 +174,12 @@ def createCudfFile(inputFile,outputFile,vm):
 		else: lines.append(line)	
 	if(lines != []):
 		packs.append(DebianPackage(lines))
+	
+	#Remove packages without name or version
+	print len(packs)	
+	packs = filter(lambda x: x.version != "" and x.name != "", packs)
+	print len(packs)
+	
 	#list virtual packages
 
 #	vps = set()
@@ -206,6 +212,7 @@ def createCudfFile(inputFile,outputFile,vm):
 		c.date = mtime
 
 		of.write(str(c))
+		of.write("\n")
 	of.close()
 
 def main():

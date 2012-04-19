@@ -52,14 +52,14 @@ def main():
 
 def generateCUDF(usefilename, previousSystem,repFile,request):
 	preamble = "preamble: \n"
-	preamble += "property: recommends: vpkgformula, age: int, hubs: int, auth: int, ca: int, ce: int, instability: int, metains: int, metaouts: int, metaversion: int, pagerank: int"
+	preamble += "property: recommends: vpkgformula, age: int, hubs: int, auth: int, ca: int, ce: int, instability: int, metains: int, metaouts: int, metaversion: int, pagerank: int\n\n"
 	
 	request = "\nrequest: \n" + request
 	
 	
 	#change to installed
 	pcri = cudfpkg.createProfileChangeRequest(previousSystem)
-	tmpcudf = usefilename+ ".tmpcudf"
+	tmpcudf = "."+usefilename+ ".tmpcudf"
 	out = open(tmpcudf ,'w')
 
 	out.write(preamble)

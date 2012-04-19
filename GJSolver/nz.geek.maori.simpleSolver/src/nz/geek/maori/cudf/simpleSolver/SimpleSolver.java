@@ -73,7 +73,7 @@ public class SimpleSolver {
 
 	static ConstraintFactory dsf = ConstraintFactory.getInstance();
 	static boolean returnPreviousSystemOnFail = true;
-	
+
 	public static void printHelp() {
 		System.out.println("Grahams Solver");
 		System.out
@@ -88,6 +88,7 @@ public class SimpleSolver {
 
 	public static Criteria parseCriterion(String s)
 	{
+		s = s.replaceAll("\"", "");
 		if(!s.startsWith("-") && !s.startsWith("+"))
 		{
 			throw new UnsupportedOperationException("Criteria prefix incorrect : " +s);
@@ -247,9 +248,11 @@ public class SimpleSolver {
 			timeout = Long.parseLong(args[3]) - 5000;
 		}
 		System.out.println("Timeout " + timeout);
-		ProfileChangeRequest finalPCR = ss.solve(inputFile,lex,timeout);
+		ProfileChangeRequest inputPCR = Parser.parse(inputFile);
 
-		//Write output
+		ProfileChangeRequest finalPCR = ss.solve(inputPCR,lex,timeout);
+
+		//Write output CUDF
 		{
 			if (finalPCR == null || finalPCR.getUniverse().size() == 0) {
 				// Have failed
@@ -268,13 +271,57 @@ public class SimpleSolver {
 			outputWriter.write(finalPCR.toCUDF());
 			outputWriter.close();
 		}
+
+		//Write output LOG
+		{
+			ProfileChangeRequest newcudf =  finalPCR;
+			ProfileChangeRequest oldcudf =  inputPCR;
+
+			//list installed
+			{
+				System.out.print("Install: ");
+				for (Package p : newcudf.getInstalledPackages())
+				{
+					if (oldcudf.getInstalledPackageVersions(p.getName()).size() == 0)
+					{
+						System.out.print(p.getName() +" (" + p.getVersion() + "), ");
+					}
+				}
+				System.out.println();
+			}
+			//list removed
+			{
+				System.out.print("Remove: ");
+				for (Package p : oldcudf.getInstalledPackages())
+				{
+					if (newcudf.getInstalledPackageVersions(p.getName()).size() == 0)
+					{
+						System.out.print(p.getName() +" (" + p.getVersion() + "), ");
+					}
+				}
+				System.out.println();
+			}
+			//list upgraded
+			{
+				System.out.print("*grade: ");
+				for (String name : oldcudf.getPackageNames(false))
+				{
+					HashSet<Package> oldc = new HashSet<Package>(oldcudf.getPackageVersions(name, true));
+					HashSet<Package> newc = new HashSet<Package>(newcudf.getPackageVersions(name, true));
+					if (!oldc.equals(newc))
+					{
+						System.out.print(name + ", ");
+					}
+				}
+				System.out.println();
+
+			}
+		}
 	}
 
-	public ProfileChangeRequest solve(File inputFile, Criteria criteria, final long timeout)
+	public ProfileChangeRequest solve(ProfileChangeRequest pcr, Criteria criteria, final long timeout)
 	{
 		final long starttime = System.currentTimeMillis();
-
-		ProfileChangeRequest pcr = Parser.parse(inputFile);
 
 		final CUDFDependencyHelper cdh = new CUDFDependencyHelper(pcr,criteria);
 		//Solve output :: finalPCR
@@ -536,9 +583,10 @@ public class SimpleSolver {
 		{
 			return m.toPCR();
 		}
-		System.out.println("FAIL");
+		System.out.println("FAILED");
 		if(returnPreviousSystemOnFail)
 		{
+			System.out.println("restuning previous system");
 			return getMinimalProfileChangeRequest(pcr);
 		}
 		return null;
@@ -646,9 +694,9 @@ public class SimpleSolver {
 		// newPCR.setPreamble(pcr.getPreamble());
 		for (Package pack : pcr.getInstalledPackages())
 		{
-					pack = pack.clone();
-					pack.setInstalled(true);
-					newPCR.addPackage(pack);
+			pack = pack.clone();
+			pack.setInstalled(true);
+			newPCR.addPackage(pack);
 		}
 		return newPCR;
 	}
