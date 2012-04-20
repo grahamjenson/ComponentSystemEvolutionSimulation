@@ -1,0 +1,60 @@
+List of assumptions:
+
+Validate the input
+Static Validation, face validation
+Generated users look like real user actions: face validation -- looking at the partial data set extracted from command line arguments
+
+1) Wider verity of actions that users use (expecially remove/purge)
+ --e.g. Commandline: apt-get remove tig
+ --However the majority of actions are still only install and upgrade, 5 times as many installs as removes, upgrades are lacking this may be explained by gui applications dedicated to this task eliminating the command line usage
+ 
+2) Batch actions: Days with lots of interactions (this was discussed in the survey)
+ --Typically involving solving a particular problem (like getting a program to work, or setting up the system (as discussed in the survey)
+ 
+ --e.g.
+Commandline: apt-get purge libjinglep2p0.3-0 libxsettings-client0 liblash2 libmowgli1 librpm0
+Commandline: apt-get purge libjinglexmpp0.3-0 librpmio0
+Commandline: apt-get purge libjinglexmllite0.3-0
+Commandline: apt-get purge libjinglebase0.3-0
+Commandline: apt-get purge google-chrome-unstable
+Commandline: apt-get purge google-chrome-beta
+Commandline: apt-get purge libqt4-webkit-dbg
+Commandline: apt-get purge libgnome-desktop-2-17
+Commandline: apt-get purge python-gnome2
+Commandline: apt-get purge python-gnomekeyring python-gnomeapplet libgnomevfs2-common libgnomevfs2-0 libgnomeui-common libgnomeprintui2.2-common libgnomecanvas2-common libgnome-media0
+Commandline: apt-get purge gnome-media-common gnome-games-data
+Commandline: apt-get purge libsoup-gnome2.4-1 libxml++2.6-2
+Commandline: apt-get purge gnome-cards-data gnome-mime-data gnome-keyring gnome-mplayer
+Commandline: apt-get purge libgnome2-common
+Commandline: apt-get purge libgnomecups1.0-1 libgnomeprint2.2-0 libgnomeprint2.2-data gnome-icon-theme
+Commandline: apt-get purge libgnome-keyring0
+
+A large amount of removes as one of the first actions in this system
+ 
+3) Multiple actions: installing and removing multiple packages in single command
+ --e.g. apt-get install quodlibet-ext quodlibet-plugins
+
+4) Dependent commands: Install then remove a package quickly
+ --e.g. 
+Commandline: apt-get install git-gui
+Commandline: apt-get install tig
+Commandline: apt-get remove tig
+Commandline: apt-get remove git-gui
+
+5)Installation of packages not in the weighted package list
+ --e.g. build-essential, gimp both very popular packages
+ --most requests package for install in command lines is "initramfs-tools" a low level linux developer tool, and this is probably indicticive of the log selection and command line use by developers
+ 
+
+
+The set of components collected changes like a real repository changes... (rep changes)
+
+
+
+Validate the output
+Dynamic validation
+The output from a only update user looks like the real output of that user...
+ 1) hisotgram of how much the upgrades changed per day.
+
+Users generated that randomly install users looks like real user output...s
+ 1) histogram of size of installs in the logs, v.s. the size of installs in the random packages.
