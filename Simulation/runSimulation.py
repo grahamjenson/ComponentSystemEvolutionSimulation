@@ -38,7 +38,7 @@ def main():
 		
 		
 
-		outputcudf = os.path.join(args.outputFolder,time+".cudfsystem")
+		outputcudf = os.path.join(args.outputFolder,time+"." + os.path.basename(args.userFile) + ".cudfsystem")
 		print "making CUDF file"
 		cudffile = generateCUDF(args.userFile,previoussystem,rep,request)
 
@@ -59,7 +59,7 @@ def generateCUDF(usefilename, previousSystem,repFile,request):
 	
 	#change to installed
 	pcri = cudfpkg.createProfileChangeRequest(previousSystem)
-	tmpcudf = "."+usefilename+ ".tmpcudf"
+	tmpcudf = os.path.join(os.path.dirname(usefilename),"."+os.path.basename(usefilename)+ ".tmpcudf")
 	out = open(tmpcudf ,'w')
 
 	out.write(preamble)

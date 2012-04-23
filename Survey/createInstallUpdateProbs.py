@@ -6,6 +6,8 @@ import os
 amdir = "actionmaps"
 out = open("probs",'w')
 out.write("#update , install \n")
+installnum = []
+
 for useram in filter(lambda x : x.endswith("map"),os.listdir(amdir)):
 	user = pickle.load(open(os.path.join(amdir,useram)))
 	installs = {}
@@ -23,7 +25,9 @@ for useram in filter(lambda x : x.endswith("map"),os.listdir(amdir)):
 			if d.date() not in installs.keys():
 				installs[d.date()] = 0
 			installs[d.date()] = installs[d.date()] +1
-	
+			
+			if  user[d]['action'] != 0 and user[d]['action'].startswith("apt-get install"):
+				installnum.append(ins)
 
 	tu =len(installs.keys())
 	ti =len(upgrades.keys())
@@ -39,3 +43,4 @@ for useram in filter(lambda x : x.endswith("map"),os.listdir(amdir)):
 	out.write("%s , %f , %f \n" % (useram,(1.0*tu)/totaldays,(1.0*ti)/totaldays))
 	
 out.close()
+print installnum

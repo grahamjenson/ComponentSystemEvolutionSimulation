@@ -22,7 +22,7 @@ def main():
 	parser.add_argument('-i',"--installPROB",  type=float , default=0.0)
 	parser.add_argument('-w',"--weightedPackageFile",  type=str , default="weightedpackages")
 	parser.add_argument('-U',"--updateMOF",  type=str , default="-removed,-new,-uptodatedistance")
-	parser.add_argument('-I',"--installMOF",  type=str , default="-removed,-changed")
+	parser.add_argument('-I',"--installMOF",  type=str , default="-removed,-changed,-uptodatedistance")
 	parser.add_argument('-r',"--repositoryFolder",  type=str , default="reps")
 	parser.add_argument('-o',"--outFile",  type=str, required=True)
 	

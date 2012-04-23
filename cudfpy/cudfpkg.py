@@ -1,3 +1,5 @@
+import gzip
+
 _preamble = "preamble:"
 _request = "request:"
 
@@ -21,16 +23,25 @@ lt = "<"
 gt = ">"
 eq = "="
 
-def createProfileChangeRequest(inputFile):
+def createProfileChangeRequest(inputFile,nameversiononly=False):
 	"""Takes a file with multiple cudf packages in it, and outputs them"""
-	f = open(inputFile,"r")
+	f = None
+	if inputFile.endswith(".gz"):
+		f = gzip.open(inputFile,'r')
+	else:
+		f = open(inputFile,"r")
+		
+		
 	tls = []
 	pcr = ProfileChangeRequest()
-	for line in f:
+	line = f.readline()
+	while line:
 		if line.strip() == "" :
 			if tls != []:
-				if tls[0].startswith(_package) :
-					pcr.add(CUDFPackage(tls))
+				if tls[0].startswith(_package):
+					pkg = CUDFPackage(tls,basic=nameversiononly)
+						
+					pcr.add(pkg)
 				elif tls[0].startswith(_preamble) :
 					pcr.preamble = reduce(lambda x,y: x.strip() + "\n" + y.strip(), tls)
 				elif tls[0].startswith(_request) :
@@ -40,6 +51,7 @@ def createProfileChangeRequest(inputFile):
 		else:
 			if not line.startswith("#"):
 				tls.append(line)
+		line = f.readline()
 	if(tls != []):
 		if tls[0].startswith(_package) :
 			pcr.add(CUDFPackage(tls))
@@ -47,6 +59,7 @@ def createProfileChangeRequest(inputFile):
 			pcr.preamble = reduce(lambda x,y: x.strip() + "\n" + y.strip(), tls)
 		elif tls[0].startswith(_request) :
 			pcr.request = reduce(lambda x,y: x.strip() + "\n" + y.strip(), tls)
+		
 		
 	return pcr
 
@@ -84,9 +97,17 @@ class ProfileChangeRequest(object):
 		val = 0 #looking at installs
 		if(not p.installed):
 			val = 1 # looking at not installed
-
+		
 		if p.name not in self.cache[val]:
 			self.cache[val][p.name] = {}
+			
+		#validation
+		#if p.version in self.cache[val][p.name]:
+		#	print "Warning, multiple package version included", (p.name,p.version)
+		#if p.name in self.cache[val^1] and p.version in self.cache[val^1][p.name]:
+		#	print "Warning, package installed and not installed", (p.name,p.version)
+			
+		#add it
 		self.cache[val][p.name][p.version] = p
 		
 		for vp in [x[0] for x in p.provides]:
@@ -135,7 +156,23 @@ class ProfileChangeRequest(object):
 		sb += self.request + el
 
 		return sb
+		
+	def toMap(self, onlyinstalled=False):
 	
+		m = {}
+		for n in self.installed.keys():
+			if n not in m : m[n] = []
+			
+			for v in self.ninstalled[n]:
+				m[n].append(v)
+				
+		if not onlyinstalled:
+			for n in self.ninstalled.keys():
+				if n not in m : m[n] = []
+			
+				for v in self.ninstalled[n]:
+					m[n].append(v)
+		return m
 
 def parsePackageFormula(line):
 	ret = []
@@ -187,7 +224,7 @@ def parse_depends(line):
 	print line
 
 class CUDFPackage(object):
-	def __init__(self, lines = []) :
+	def __init__(self, lines = [],basic=False) :
 		self.name = ""
 		self.version = -1
 
@@ -209,23 +246,23 @@ class CUDFPackage(object):
 				self.name = line[len(_package):].strip()
 			elif line.startswith(_version):
 				self.version = int(line[len(_version):].strip())
-			elif line.startswith(_depends):
+			elif not basic and line.startswith(_depends):
 				self.depends = parsePackageFormula(line[len(_depends):].strip())
-			elif line.startswith(_provides):
+			elif not basic and line.startswith(_provides):
 				self.provides = parsePackageFormula(line[len(_provides):].strip())
-			elif line.startswith(_recommends):
+			elif not basic and line.startswith(_recommends):
 				self.recommends = parsePackageFormula(line[len(_recommends):].strip())
-			elif line.startswith(_conflicts):
+			elif not basic and line.startswith(_conflicts):
 				self.conflicts = parsePackageFormula(line[len(_conflicts):].strip())
-			elif line.startswith(_architecture):
+			elif not basic and line.startswith(_architecture):
 				self.arch = line[len(_architecture):].strip()
-			elif line.startswith(_date):
+			elif not basic and line.startswith(_date):
 				self.date = int(line[len(_date):].strip())
-			elif line.startswith(_installed):
+			elif not basic and line.startswith(_installed):
 				self.installed = line[len(_installed):].strip() == "true"
-			elif line.startswith(_keep):
+			elif not basic and line.startswith(_keep):
 				self.keep = line[len(_keep):].strip()
-			else:
+			elif not basic:
 				sp = line.split(":",1)
 				self.properties[sp[0]] = sp[1].strip()
 
@@ -266,4 +303,59 @@ class CUDFPackage(object):
 		return sb
 
 
-	 
+
+def topnpairs(cudfmap):
+	return set([(n,v) for n in cudfmap.keys() for v in cudfmap[n]])
+	
+def newNames(cudfs):
+	deltas = zip(cudfs[:-1],cudfs[1:])
+	def new((prevcudf,newcudf)):
+		pnv = set(prevcudf.keys())
+		nnv = set(newcudf.keys())
+		return len(nnv - pnv)
+	return map(new,deltas)
+
+def removedNames(cudfs):
+	deltas = zip(cudfs[:-1],cudfs[1:])
+	def removed((prevcudf,newcudf)):
+		pnv = set(prevcudf.keys())
+		nnv = set(newcudf.keys())
+		return len(pnv - nnv)
+	
+	return map(removed,deltas)
+
+def removedPackages(cudfs):
+	deltas = zip(cudfs[:-1],cudfs[1:])
+	def removed((prevcudf,newcudf)):
+		pnv = topnpairs(prevcudf)
+		nnv = topnpairs(newcudf)
+		
+		return len(pnv - nnv)
+	
+	return map(removed,deltas)
+
+def newPackages(cudfs):
+	deltas = zip(cudfs[:-1],cudfs[1:])
+	def new((prevcudf,newcudf)):
+		pnv = topnpairs(prevcudf)
+		nnv = topnpairs(newcudf)
+		
+		return len(nnv - pnv)
+	
+	return map(new,deltas)
+
+
+def updatedPackages(cudfs):
+	deltas = zip(cudfs[:-1],cudfs[1:])
+	def updated((prevcudf,newcudf)):
+		pnv = topnpairs(prevcudf)
+		nnv = topnpairs(newcudf)
+		
+		newpacks = nnv - pnv
+		updatedpacks = []
+		for p in newpacks:
+			if p[0] in prevcudf.keys():
+				updatedpacks.append(p)
+		return len(updatedpacks)
+	
+	return map(updated,deltas) 
