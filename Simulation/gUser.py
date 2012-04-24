@@ -28,6 +28,7 @@ def main():
 	
 	args = parser.parse_args()
 
+	print "gUser",args
 	#Validate arguments
 	if not os.path.exists(args.initialSystem):
 		print "initialSystem does not exist"
@@ -82,7 +83,6 @@ def main():
 				
 			t = time.mktime((startdate + datetime.timedelta(days=d)).timetuple())
 			repfile = getCudf(t,args.repositoryFolder)
-			print repfile
 			
 			
 			if ureq != "":

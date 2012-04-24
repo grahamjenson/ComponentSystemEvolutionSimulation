@@ -9,7 +9,7 @@ import argparse
 import gzip
 
 def main():
-	parser = argparse.ArgumentParser(prog="generateCUDF", description='Generate a CUDF File')
+	parser = argparse.ArgumentParser(prog="runSimulation", description='Generate a CUDF File')
 	parser.add_argument('-u',"--userFile",  type=str, required=True)
 	parser.add_argument('-t',"--timeOut",  type=int, default=150000)
 	parser.add_argument('-o',"--outputFolder", default=None)
@@ -23,6 +23,13 @@ def main():
 	if args.outputFolder == None:
 		args.outputFolder = os.path.dirname(args.userFile)
 
+	if not os.path.exists(args.outputFolder):
+		os.mkdir(args.outputFolder)
+	
+	if not os.path.isdir(args.outputFolder):
+		print "the users output dir",args.outputFolder, "is not a dir"
+		exit()
+	
 	#now do stuff
 	
 	userLines = open(args.userFile).readlines()

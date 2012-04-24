@@ -308,7 +308,7 @@ public class SimpleSolver {
 				{
 					HashSet<Package> oldc = new HashSet<Package>(oldcudf.getPackageVersions(name, true));
 					HashSet<Package> newc = new HashSet<Package>(newcudf.getPackageVersions(name, true));
-					if (!oldc.equals(newc))
+					if (oldc.size() > 0 && !oldc.equals(newc))
 					{
 						System.out.print(name + ", ");
 					}
