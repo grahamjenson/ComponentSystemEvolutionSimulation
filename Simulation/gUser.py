@@ -23,7 +23,7 @@ def main():
 	parser.add_argument('-w',"--weightedPackageFile",  type=str , default="weightedpackages")
 	parser.add_argument('-U',"--updateMOF",  type=str , default="-removed,-new,-uptodatedistance")
 	parser.add_argument('-I',"--installMOF",  type=str , default="-removed,-changed,-uptodatedistance")
-	parser.add_argument('-r',"--repositoryFolder",  type=str , default="reps")
+	parser.add_argument('-r',"--repositoryFile",  type=str , default="1288868400.0")
 	parser.add_argument('-o',"--outFile",  type=str, required=True)
 	
 	args = parser.parse_args()
@@ -62,7 +62,7 @@ def main():
 
 		clist = map(lambda x : (x,1.0 * cweights[x]/totalWeight),cweights.keys())
 
-	out.write(args.initialSystem)
+	out.write("%s ; %s" % (args.initialSystem,args.repositoryFile))
 	out.write("\n")
 
 	for d in range(0,days):
@@ -81,16 +81,14 @@ def main():
 		if ureq != "" or ireq != "":
 			
 				
-			t = time.mktime((startdate + datetime.timedelta(days=d)).timetuple())
-			repfile = getCudf(t,args.repositoryFolder)
+			t = int(time.mktime((startdate + datetime.timedelta(days=d)).timetuple()))
+			
 			
 			
 			if ureq != "":
 				out.write(str(t))
 				out.write(";\t")
 				out.write(ureq)
-				out.write(";\t")
-				out.write(repfile)
 				out.write(";\t")
 				out.write(args.updateMOF)
 				out.write("\n")
@@ -100,8 +98,6 @@ def main():
 				out.write(str(t))
 				out.write(";\t")
 				out.write(ireq)
-				out.write(";\t")
-				out.write(repfile)
 				out.write(";\t")
 				out.write(args.installMOF)
 				out.write("\n")
