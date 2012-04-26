@@ -354,13 +354,16 @@ public class SimpleSolver {
 			
 			writeLog(newSystem,installedSystem);
 			
-			writePCR(new File(folderpath,ua.time +".cudf").toString(),newSystem);
+			writePCR(new File(folderpath,ua.time +".cudfsystem").toString(),newSystem);
 			
 			System.out.println(newSystem.getUniverse().size());
 			
 			System.out.println();
 			System.out.println();
 			System.out.println();
+			Logger.getAnonymousLogger().log(Level.INFO,"");
+			Logger.getAnonymousLogger().log(Level.INFO,"");
+			Logger.getAnonymousLogger().log(Level.INFO,"");
 			
 			installedSystem = newSystem;
 		}
