@@ -1,5 +1,6 @@
 package nz.geek.maori.cudf.satutils.constraints;
 
+import java.util.Collection;
 import java.util.HashSet;
 
 import nz.geek.maori.cudf.CUDFFactory;
@@ -22,7 +23,8 @@ public class Model {
 	public HashSet<Object> getOuts() {
 		return outs;
 	}
-
+	
+	
 	ProfileChangeRequest pcr = null;
 
 	public ProfileChangeRequest toPCR()

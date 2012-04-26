@@ -335,6 +335,7 @@ public class SimpleSolver {
 					parseCriteria(crit));
 			uas.add(ua);
 		}
+		br.close();
 
 		ProfileChangeRequest allComps = Parser.parse(new File(allcompsFile));
 		
@@ -353,7 +354,7 @@ public class SimpleSolver {
 			ProfileChangeRequest newSystem = ss.solve(query, ua.crit, 120000);
 			
 			
-			//writeLog(newSystem,installedSystem);
+			writeLog(newSystem,installedSystem);
 			
 			writePCR(new File(folderpath,ua.time +".cudfsystem").toString(),newSystem);
 			
@@ -365,6 +366,13 @@ public class SimpleSolver {
 			Logger.getAnonymousLogger().log(Level.INFO,"");
 			
 			installedSystem = newSystem;
+			
+			//try cleanup
+			newSystem = null;
+			query = null;
+			slice = null;
+			ss = null;
+			System.gc();
 		}
 		
 		
