@@ -278,7 +278,7 @@ public class SimpleSolver {
 	static class UserAction
 	{
 
-		public UserAction(long time, String req, Criteria crit) {
+		public UserAction(long time, String req, String crit) {
 			super();
 			this.time = time;
 			this.req = req;
@@ -287,7 +287,7 @@ public class SimpleSolver {
 
 		long time;
 		String req;
-		Criteria crit;
+		String crit;
 		
 		@Override
 		public String toString() {
@@ -334,7 +334,7 @@ public class SimpleSolver {
 			UserAction ua = new UserAction(
 					Long.valueOf(time), 
 					req , 
-					parseCriteria(crit));
+					crit);
 			uas.add(ua);
 		}
 		br.close();
@@ -392,7 +392,7 @@ public class SimpleSolver {
 	
 		ProfileChangeRequest query = generatePCR(prevSystem,slice,ua.req);
 		
-		ProfileChangeRequest newSystem = ss.solve(query, ua.crit, 120000);
+		ProfileChangeRequest newSystem = ss.solve(query, parseCriteria(ua.crit), 120000);
 		
 		
 		writeLog(newSystem,prevSystem);
