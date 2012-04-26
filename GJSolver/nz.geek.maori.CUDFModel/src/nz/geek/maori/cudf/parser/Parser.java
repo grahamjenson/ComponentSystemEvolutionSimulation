@@ -28,6 +28,7 @@ import nz.geek.maori.cudf.PackageList;
 import nz.geek.maori.cudf.PackageVersionConstraint;
 import nz.geek.maori.cudf.ProfileChangeRequest;
 import nz.geek.maori.cudf.Relation;
+import nz.geek.maori.cudf.Request;
 import nz.geek.maori.cudf.Type;
 
 public class Parser {
@@ -36,7 +37,7 @@ public class Parser {
 	private ProfileChangeRequest query = CUDFFactory.eINSTANCE
 			.createProfileChangeRequest();
 
-	private CUDFFactory cudf = CUDFFactory.eINSTANCE;
+	private static CUDFFactory cudf = CUDFFactory.eINSTANCE;
 
 	private Parser() {
 
@@ -124,9 +125,9 @@ public class Parser {
 
 					handleRequest(line);
 				} else if (line.startsWith("install: ")) {
-					handleInstall(line);
+					handleInstall(line,this.query.getRequest());
 				} else if (line.startsWith("upgrade: ")) {
-					handleUpgrade(line);
+					handleUpgrade(line,this.query.getRequest(),this.query);
 				} else if (line.startsWith("remove: ")) {
 					handleRemove(line);
 				} else if (this.handleExtraProperties) {
@@ -354,10 +355,10 @@ public class Parser {
 		}
 	}
 
-	private void handleInstall(String line) {
+	public static void handleInstall(String line, Request req) {
 		line = line.substring("install: ".length());
 		StringTokenizer tokenizer = new StringTokenizer(line, ",");
-		this.query.getRequest().setInstall(createPackageList(tokenizer));
+		req.setInstall(createPackageList(tokenizer));
 	}
 
 	private void handleRequest(String line) {
@@ -370,26 +371,26 @@ public class Parser {
 		this.query.getRequest().setRemove(createPackageList(tokenizer));
 	}
 
-	private void handleUpgrade(String line) {
+	public static void handleUpgrade(String line, Request req, ProfileChangeRequest pcr) {
 		line = line.substring("upgrade: ".length());
 		if(line.startsWith("*"))
 		{
 			//This is an addition meaning upgrade everything
 			//By this time all packages have been added
-			PackageList packageList = this.cudf.createPackageList();
-			for(Package p : this.query.getInstalledPackages())
+			PackageList packageList = cudf.createPackageList();
+			for(Package p : pcr.getInstalledPackages())
 			{
-				PackageVersionConstraint pvc = this.cudf.createPackageVersionConstraint();
+				PackageVersionConstraint pvc = cudf.createPackageVersionConstraint();
 				pvc.setPackage(p.getName());
 				packageList.getList().add(pvc);
 			}
-			this.query.getRequest().setUpgrade(packageList);
+			req.setUpgrade(packageList);
 			
 		}
 		else
 		{
 			StringTokenizer tokenizer = new StringTokenizer(line, ",");
-			this.query.getRequest().setUpgrade(createPackageList(tokenizer));
+			req.setUpgrade(createPackageList(tokenizer));
 		}
 	}
 
@@ -436,9 +437,9 @@ public class Parser {
 		return packageFormula;
 	}
 
-	private PackageList createPackageList(StringTokenizer tokenizer) {
+	private static PackageList createPackageList(StringTokenizer tokenizer) {
 		// >, >=, =, <, <=, !=
-		PackageList packageList = this.cudf.createPackageList();
+		PackageList packageList = cudf.createPackageList();
 		while (tokenizer.hasMoreElements()) {
 			String nextToken = tokenizer.nextToken().trim();
 
@@ -449,12 +450,12 @@ public class Parser {
 		return packageList;
 	}
 
-	private PackageVersionConstraint createPackageVersionConstraint(String def) {
+	private static PackageVersionConstraint createPackageVersionConstraint(String def) {
 		StringTokenizer expressionTokens = new StringTokenizer(def, ">=!<",
 				true);
 		int tokenCount = expressionTokens.countTokens();
 		String id = expressionTokens.nextToken().trim();
-		PackageVersionConstraint pvc = this.cudf
+		PackageVersionConstraint pvc = cudf
 				.createPackageVersionConstraint();
 		pvc.setPackage(id);
 

@@ -6,10 +6,14 @@ import static nz.geek.maori.sat4j.tools.LiteralsUtils.var;
 import static nz.geek.maori.sat4j.tools.LiteralsUtils.toDimacs;
 import static nz.geek.maori.sat4j.tools.LiteralsUtils.neg;
 
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.math.BigInteger;
 import java.nio.charset.Charset;
@@ -24,6 +28,7 @@ import java.util.logging.Logger;
 import nz.geek.maori.cudf.CUDFFactory;
 import nz.geek.maori.cudf.Package;
 import nz.geek.maori.cudf.ProfileChangeRequest;
+import nz.geek.maori.cudf.Request;
 import nz.geek.maori.cudf.parser.Parser;
 import nz.geek.maori.cudf.satutils.CUDFDependencyHelper;
 import nz.geek.maori.cudf.satutils.constraints.AbstractConflictSet;
@@ -82,7 +87,7 @@ public class SimpleSolver {
 				"criteron :: named | sum(property) | added(property) | removed(property)\n" +
 				"named :: removed | new |  changed | notuptodate | " +
 				"unsat_recommends | hamming | uptodatedistance | removed_components | uptodate-metacomp\n" +
-		"property :: pagerank | hubs | authority | instability | predictiveuse\n");
+				"property :: pagerank | hubs | authority | instability | predictiveuse\n");
 		System.exit(0);
 	}
 
@@ -173,150 +178,342 @@ public class SimpleSolver {
 	}
 
 
-	/**
-	 * Args[0] is the input file args[1] is the output file TODO args[2]
-	 * optimisation criteria
-	 * 
-	 * Different Lexicographic constraints, Lexicographically ordered Literals,
-	 * Pseudo boolean optimisation
-	 * 
-	 * @param args
-	 * @throws IOException
-	 */
+	//	/**
+	//	 * Args[0] is the input file args[1] is the output file TODO args[2]
+	//	 * optimisation criteria
+	//	 * 
+	//	 * Different Lexicographic constraints, Lexicographically ordered Literals,
+	//	 * Pseudo boolean optimisation
+	//	 * 
+	//	 * @param args
+	//	 * @throws IOException
+	//	 */
+	//	public static void main(String[] args) throws IOException {
+	//		if (args.length != 4 && args.length != 3) {
+	//			printHelp();
+	//			return;
+	//		}
+	//
+	//
+	//
+	//		OutputStreamWriter outputWriter;
+	//		final CUDFDependencyHelper cdh;
+	//		//Parse Arguments output :: CUDF, OutputWriter, ArrayList<Criteria> 
+	//
+	//		File inputFile;
+	//		
+	//		// File Checks
+	//		{ 
+	//
+	//			inputFile = new File(args[0]);
+	//			if (!inputFile.exists()) {
+	//				throw new FileNotFoundException("Input File does not Exist");
+	//			}
+	//
+	//			File outputFile = new File(args[1]);
+	//			if (outputFile.exists()) {
+	//				outputFile.delete();
+	//			}
+	//			outputFile.createNewFile();
+	//			outputWriter = new OutputStreamWriter(new FileOutputStream(outputFile),
+	//					Charset.forName("US-ASCII"));
+	//		}
+	//		
+	//		LexicographicCriteria lex = parseCriteria(args[2]);
+	//		
+	//
+	//
+	//
+	//		SimpleSolver ss = new SimpleSolver();
+	//		long timeout = 120000;
+	//		if(args.length == 4)
+	//		{
+	//			timeout = Long.parseLong(args[3]) - 5000;
+	//		}
+	//		System.out.println("Timeout " + timeout);
+	//		ProfileChangeRequest inputPCR = Parser.parse(inputFile);
+	//
+	//		ProfileChangeRequest finalPCR = ss.solve(inputPCR,lex,timeout);
+	//
+	//		//Write output CUDF
+	//		{
+	//			if (finalPCR == null || finalPCR.getUniverse().size() == 0) {
+	//				// Have failed
+	//				outputWriter.write("FAIL");
+	//				outputWriter.close();
+	//				System.out.println("FAIL");
+	//				return;
+	//			}
+	//
+	//			// System.out.println("Initial Size of Solution was " +
+	//			// pcr.getInstalledPackages().size());
+	//			// System.out.println("Size of Solution is " +
+	//			// finalPCR.getInstalledPackages().size());
+	//
+	//			System.out.println("System Size: " + finalPCR.getInstalledPackages().size());
+	//			outputWriter.write(finalPCR.toCUDF());
+	//			outputWriter.close();
+	//		}
+	//
+	//		writeLog(finalPCR, inputPCR);
+	//	}
+
+	public static void writePCR(String outputFilestr, ProfileChangeRequest outpcr) throws IOException
+	{
+		System.out.println("Writing output " + outputFilestr);
+		File outputFile = new File(outputFilestr);
+		if (outputFile.exists()) {
+			outputFile.delete();
+		}
+		outputFile.createNewFile();
+		OutputStreamWriter outputWriter = new OutputStreamWriter(new FileOutputStream(outputFile),
+				Charset.forName("US-ASCII"));
+
+		outputWriter.write(outpcr.toCUDF());
+		outputWriter.close();
+	}
+
+
+
 	public static void main(String[] args) throws IOException {
-		if (args.length != 4 && args.length != 3) {
-			printHelp();
+		if (args.length != 2) {
+			System.out.println("gjsolver userfile outputfolder");
 			return;
 		}
 
+		class UserAction
+		{
 
+			public UserAction(long time, String req, Criteria crit) {
+				super();
+				this.time = time;
+				this.req = req;
+				this.crit = crit;
+			}
 
-		OutputStreamWriter outputWriter;
+			long time;
+			String req;
+			Criteria crit;
+			
+			@Override
+			public String toString() {
+				return "UserAction [time=" + time + ", req=" + req + ", crit="
+						+ crit + "]";
+			}
+			
+		}
+
 		final CUDFDependencyHelper cdh;
 		//Parse Arguments output :: CUDF, OutputWriter, ArrayList<Criteria> 
 
-		File inputFile;
-		LexicographicCriteria lex;
-		// File Checks
-		{ 
-
-			inputFile = new File(args[0]);
-			if (!inputFile.exists()) {
-				throw new FileNotFoundException("Input File does not Exist");
-			}
-
-			File outputFile = new File(args[1]);
-			if (outputFile.exists()) {
-				outputFile.delete();
-			}
-			outputFile.createNewFile();
-			outputWriter = new OutputStreamWriter(new FileOutputStream(outputFile),
-					Charset.forName("US-ASCII"));
-		}
-		//Parse Criteria
-		{
-			lex = new LexicographicCriteria();
-			String[] lexlist = args[2].split(",");
-
-			for (String l : lexlist) {
-				//Check Prefix
-				String[] prodlist = l.split("\\.");
-				if(prodlist.length > 1)
-				{
-					ProductCriteria pc = new ProductCriteria();
-					for (String p : prodlist)
-					{
-						pc.addCriteria(parseCriterion(p));
-					}
-					lex.addCriteria(pc);
-				}
-				else
-				{
-					lex.addCriteria(parseCriterion(l));
-				}
-
-			}
-		}
-		//Parse CUDF create CDH
-
-
-
-		SimpleSolver ss = new SimpleSolver();
-		long timeout = 120000;
-		if(args.length == 4)
-		{
-			timeout = Long.parseLong(args[3]) - 5000;
-		}
-		System.out.println("Timeout " + timeout);
-		ProfileChangeRequest inputPCR = Parser.parse(inputFile);
-
-		ProfileChangeRequest finalPCR = ss.solve(inputPCR,lex,timeout);
-
-		//Write output CUDF
-		{
-			if (finalPCR == null || finalPCR.getUniverse().size() == 0) {
-				// Have failed
-				outputWriter.write("FAIL");
-				outputWriter.close();
-				System.out.println("FAIL");
-				return;
-			}
-
-			// System.out.println("Initial Size of Solution was " +
-			// pcr.getInstalledPackages().size());
-			// System.out.println("Size of Solution is " +
-			// finalPCR.getInstalledPackages().size());
-
-			System.out.println("System Size: " + finalPCR.getInstalledPackages().size());
-			outputWriter.write(finalPCR.toCUDF());
-			outputWriter.close();
+		File userfile = new File(args[0]);
+		if (!userfile.exists()) {
+			throw new FileNotFoundException("User File does not Exist");
 		}
 
-		//Write output LOG
-		{
-			ProfileChangeRequest newcudf =  finalPCR;
-			ProfileChangeRequest oldcudf =  inputPCR;
+		String folderpath = args[1];
+		
+		FileInputStream fr = new FileInputStream(userfile);
+		BufferedReader br = new BufferedReader(new InputStreamReader((fr)));
+		String line;
+		line = br.readLine();
+		String[] fline = line.split(";");
+		
+		String initsystemFile = fline[0].trim();
+		String allcompsFile = fline[1].trim();
 
-			//list installed
+		ArrayList<UserAction> uas = new ArrayList<UserAction>();
+		
+		while (( line = br.readLine()) != null){
+			String[] sp = line.split(";");
+			String time = sp[0].trim();
+			String req = sp[1].trim();
+			String crit = sp[2].trim();
+			UserAction ua = new UserAction(
+					Long.valueOf(time), 
+					req , 
+					parseCriteria(crit));
+			uas.add(ua);
+		}
+
+		ProfileChangeRequest allComps = Parser.parse(new File(allcompsFile));
+		ProfileChangeRequest installedSystem = Parser.parse(new File(initsystemFile));
+		
+		for(UserAction ua : uas)
+		{
+			System.out.println(ua);
+			SimpleSolver ss = new SimpleSolver();
+			
+			Collection<Package> slice = slicePCR(ua.time,allComps);
+			
+		
+			ProfileChangeRequest query = generatePCR(new HashSet<Package>(installedSystem.getInstalledPackages()),slice,ua.req);
+			
+			ProfileChangeRequest newSystem = ss.solve(query, ua.crit, 120000);
+			
+			
+			writeLog(newSystem,installedSystem);
+			
+			writePCR(new File(folderpath,ua.time +".cudf").toString(),newSystem);
+			
+			System.out.println(newSystem.getUniverse().size());
+			
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			
+			installedSystem = newSystem;
+		}
+		
+		
+		System.exit(0);
+
+
+			
+			
+//		LexicographicCriteria lex = parseCriteria(args[2]);
+//		SimpleSolver ss = new SimpleSolver();
+//		long timeout = 120000;
+//		if(args.length == 4)
+//		{
+//			timeout = Long.parseLong(args[3]) - 5000;
+//		}
+//
+//
+//		ProfileChangeRequest finalPCR = ss.solve(inputPCR,lex,timeout);
+//
+//		//Write output CUDF
+//		{
+//			if (finalPCR == null || finalPCR.getUniverse().size() == 0) {
+//				// Have failed
+//				outputWriter.write("FAIL");
+//				outputWriter.close();
+//				System.out.println("FAIL");
+//				return;
+//			}
+//
+//			// System.out.println("Initial Size of Solution was " +
+//			// pcr.getInstalledPackages().size());
+//			// System.out.println("Size of Solution is " +
+//			// finalPCR.getInstalledPackages().size());
+//
+//
+//		}
+//
+//		writeLog(finalPCR, inputPCR);
+	}
+	
+	
+	public static ProfileChangeRequest generatePCR(HashSet<Package> installed, Collection<Package> slicedComps, String req)
+	{
+		ProfileChangeRequest query = CUDFFactory.eINSTANCE.createProfileChangeRequest();
+		for(Package p : slicedComps)
+		{
+			if (installed.contains(p))
 			{
-				System.out.print("Install: ");
-				for (Package p : newcudf.getInstalledPackages())
-				{
-					if (oldcudf.getInstalledPackageVersions(p.getName()).size() == 0)
-					{
-						System.out.print(p.getName() +" (" + p.getVersion() + "), ");
-					}
-				}
-				System.out.println();
+				p.setInstalled(true);
 			}
-			//list removed
+			else
 			{
-				System.out.print("Remove: ");
-				for (Package p : oldcudf.getInstalledPackages())
-				{
-					if (newcudf.getInstalledPackageVersions(p.getName()).size() == 0)
-					{
-						System.out.print(p.getName() +" (" + p.getVersion() + "), ");
-					}
-				}
-				System.out.println();
+				p.setInstalled(false);
 			}
-			//list upgraded
+			query.addPackage(p);
+		}
+		Request request = CUDFFactory.eINSTANCE.createRequest();
+		if (req.startsWith("install: ")) {
+			Parser.handleInstall(req,request);
+		}
+		else if (req.startsWith("upgrade: ")) {
+			Parser.handleUpgrade(req, request, query);
+		}
+		
+		query.setRequest(request);
+		
+		return query;
+	}
+	
+	public static Collection<Package> slicePCR(long time, ProfileChangeRequest allcomps)
+	{
+		ArrayList<Package> packs = new ArrayList<Package>();
+		for(Package p : allcomps.getUniverse())
+		{
+			if ((Double)p.getProperties().get("date") <= time)
 			{
-				System.out.print("*grade: ");
-				for (String name : oldcudf.getPackageNames(false))
-				{
-					HashSet<Package> oldc = new HashSet<Package>(oldcudf.getPackageVersions(name, true));
-					HashSet<Package> newc = new HashSet<Package>(newcudf.getPackageVersions(name, true));
-					if (oldc.size() > 0 && !oldc.equals(newc))
-					{
-						System.out.print(name + ", ");
-					}
-				}
-				System.out.println();
-
+				packs.add(p);
 			}
 		}
+		
+		return packs;
+		
+	}
+	
+	public static void writeLog(ProfileChangeRequest newcudf, ProfileChangeRequest oldcudf)
+	{
+
+		//list installed
+		{
+			System.out.print("Install: ");
+			for (Package p : newcudf.getInstalledPackages())
+			{
+				if (oldcudf.getInstalledPackageVersions(p.getName()).size() == 0)
+				{
+					System.out.print(p.getName() +" (" + p.getVersion() + "), ");
+				}
+			}
+			System.out.println();
+		}
+		//list removed
+		{
+			System.out.print("Remove: ");
+			for (Package p : oldcudf.getInstalledPackages())
+			{
+				if (newcudf.getInstalledPackageVersions(p.getName()).size() == 0)
+				{
+					System.out.print(p.getName() +" (" + p.getVersion() + "), ");
+				}
+			}
+			System.out.println();
+		}
+		//list upgraded
+		{
+			System.out.print("*grade: ");
+			for (String name : oldcudf.getPackageNames(false))
+			{
+				HashSet<Package> oldc = new HashSet<Package>(oldcudf.getPackageVersions(name, true));
+				HashSet<Package> newc = new HashSet<Package>(newcudf.getPackageVersions(name, true));
+				if (oldc.size() > 0 && !oldc.equals(newc))
+				{
+					System.out.print(name + ", ");
+				}
+			}
+			System.out.println();
+
+		}
+	}
+	public static LexicographicCriteria parseCriteria(String crit)
+	{
+		LexicographicCriteria lex = new LexicographicCriteria();
+		String[] lexlist = crit.split(",");
+
+		for (String l : lexlist) {
+			//Check Prefix
+			String[] prodlist = l.split("\\.");
+			if(prodlist.length > 1)
+			{
+				ProductCriteria pc = new ProductCriteria();
+				for (String p : prodlist)
+				{
+					pc.addCriteria(parseCriterion(p));
+				}
+				lex.addCriteria(pc);
+			}
+			else
+			{
+				lex.addCriteria(parseCriterion(l));
+			}
+
+		}
+		return lex;
 	}
 
 	public ProfileChangeRequest solve(ProfileChangeRequest pcr, Criteria criteria, final long timeout)
