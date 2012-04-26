@@ -275,33 +275,35 @@ public class SimpleSolver {
 
 
 
+	static class UserAction
+	{
+
+		public UserAction(long time, String req, Criteria crit) {
+			super();
+			this.time = time;
+			this.req = req;
+			this.crit = crit;
+		}
+
+		long time;
+		String req;
+		Criteria crit;
+		
+		@Override
+		public String toString() {
+			return "UserAction [time=" + time + ", req=" + req + ", crit="
+					+ crit + "]";
+		}
+		
+	}
+	
 	public static void main(String[] args) throws IOException {
 		if (args.length != 2) {
 			System.out.println("gjsolver userfile outputfolder");
 			return;
 		}
 
-		class UserAction
-		{
 
-			public UserAction(long time, String req, Criteria crit) {
-				super();
-				this.time = time;
-				this.req = req;
-				this.crit = crit;
-			}
-
-			long time;
-			String req;
-			Criteria crit;
-			
-			@Override
-			public String toString() {
-				return "UserAction [time=" + time + ", req=" + req + ", crit="
-						+ crit + "]";
-			}
-			
-		}
 
 		final CUDFDependencyHelper cdh;
 		//Parse Arguments output :: CUDF, OutputWriter, ArrayList<Criteria> 
@@ -343,36 +345,7 @@ public class SimpleSolver {
 		
 		for(UserAction ua : uas)
 		{
-			System.out.println(ua);
-			SimpleSolver ss = new SimpleSolver();
-			
-			Collection<Package> slice = slicePCR(ua.time,allComps);
-			
-		
-			ProfileChangeRequest query = generatePCR(installedSystem,slice,ua.req);
-			
-			ProfileChangeRequest newSystem = ss.solve(query, ua.crit, 120000);
-			
-			
-			writeLog(newSystem,installedSystem);
-			
-			writePCR(new File(folderpath,ua.time +".cudfsystem").toString(),newSystem);
-			
-			System.out.println();
-			System.out.println();
-			System.out.println();
-			Logger.getAnonymousLogger().log(Level.INFO,"");
-			Logger.getAnonymousLogger().log(Level.INFO,"");
-			Logger.getAnonymousLogger().log(Level.INFO,"");
-			
-			installedSystem = newSystem;
-			
-			//try cleanup
-			newSystem = null;
-			query = null;
-			slice = null;
-			ss = null;
-			System.gc();
+			installedSystem = doAction(folderpath, ua, installedSystem, allComps);
 		}
 		
 		
@@ -409,6 +382,41 @@ public class SimpleSolver {
 //		writeLog(finalPCR, inputPCR);
 	}
 	
+	private static ProfileChangeRequest doAction(String folderpath, UserAction ua, ProfileChangeRequest prevSystem, ProfileChangeRequest allComps) throws IOException
+	{
+		System.out.println(ua);
+		SimpleSolver ss = new SimpleSolver();
+		
+		Collection<Package> slice = slicePCR(ua.time,allComps);
+		
+	
+		ProfileChangeRequest query = generatePCR(prevSystem,slice,ua.req);
+		
+		ProfileChangeRequest newSystem = ss.solve(query, ua.crit, 120000);
+		
+		
+		writeLog(newSystem,prevSystem);
+		
+		writePCR(new File(folderpath,ua.time +".cudfsystem").toString(),newSystem);
+		
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		Logger.getAnonymousLogger().log(Level.INFO,"");
+		Logger.getAnonymousLogger().log(Level.INFO,"");
+		Logger.getAnonymousLogger().log(Level.INFO,"");
+		
+		
+		
+		//try cleanup
+		query = null;
+		slice = null;
+		ss = null;
+		System.gc();
+		
+		return newSystem;
+		
+	}
 	
 	public static ProfileChangeRequest generatePCR(ProfileChangeRequest installed, Collection<Package> slicedComps, String req)
 	{
