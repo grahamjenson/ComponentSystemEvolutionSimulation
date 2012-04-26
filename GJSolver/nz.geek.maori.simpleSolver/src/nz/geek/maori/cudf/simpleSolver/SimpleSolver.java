@@ -337,6 +337,7 @@ public class SimpleSolver {
 		}
 
 		ProfileChangeRequest allComps = Parser.parse(new File(allcompsFile));
+		
 		ProfileChangeRequest installedSystem = Parser.parse(new File(initsystemFile));
 		
 		for(UserAction ua : uas)
@@ -347,16 +348,14 @@ public class SimpleSolver {
 			Collection<Package> slice = slicePCR(ua.time,allComps);
 			
 		
-			ProfileChangeRequest query = generatePCR(new HashSet<Package>(installedSystem.getInstalledPackages()),slice,ua.req);
+			ProfileChangeRequest query = generatePCR(installedSystem,slice,ua.req);
 			
 			ProfileChangeRequest newSystem = ss.solve(query, ua.crit, 120000);
 			
 			
-			writeLog(newSystem,installedSystem);
+			//writeLog(newSystem,installedSystem);
 			
 			writePCR(new File(folderpath,ua.time +".cudfsystem").toString(),newSystem);
-			
-			System.out.println(newSystem.getUniverse().size());
 			
 			System.out.println();
 			System.out.println();
@@ -369,10 +368,6 @@ public class SimpleSolver {
 		}
 		
 		
-		System.exit(0);
-
-
-			
 			
 //		LexicographicCriteria lex = parseCriteria(args[2]);
 //		SimpleSolver ss = new SimpleSolver();
@@ -407,12 +402,12 @@ public class SimpleSolver {
 	}
 	
 	
-	public static ProfileChangeRequest generatePCR(HashSet<Package> installed, Collection<Package> slicedComps, String req)
+	public static ProfileChangeRequest generatePCR(ProfileChangeRequest installed, Collection<Package> slicedComps, String req)
 	{
 		ProfileChangeRequest query = CUDFFactory.eINSTANCE.createProfileChangeRequest();
 		for(Package p : slicedComps)
 		{
-			if (installed.contains(p))
+			if (installed.getInstalledPackageVersion(p.getName(),p.getVersion()) != null)
 			{
 				p.setInstalled(true);
 			}
@@ -434,6 +429,7 @@ public class SimpleSolver {
 		
 		return query;
 	}
+	
 	
 	public static Collection<Package> slicePCR(long time, ProfileChangeRequest allcomps)
 	{
@@ -766,7 +762,6 @@ public class SimpleSolver {
 			do
 			{	
 				m = vis.getModel();
-				System.out.println(m.toPCR().getInstalledPackages().size());
 				//s.simplifyDB();
 				//vis.clear();
 				vis.addNonConflistingConstraints(crit.lockCurrentSolution(m));
