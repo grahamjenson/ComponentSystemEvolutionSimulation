@@ -200,7 +200,7 @@ public class CUDFDependencyHelper {
 				for (PackageVersionConstraint pvc : upgrade.getList()) {
 					// Upgrade ensures that
 					// 1) there is only one package of this type in the next solution
-					// 2) The next pacakge has a greater than or equal version
+					// 2) The next packge has a greater than or equal version
 
 					// So the first add a cardinality constraint, ensuring only
 					// one of these packages is installed

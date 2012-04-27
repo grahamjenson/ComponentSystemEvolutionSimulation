@@ -402,11 +402,9 @@ public class SimpleSolver {
 		System.out.println();
 		System.out.println();
 		System.out.println();
-		Logger.getAnonymousLogger().log(Level.INFO,"");
-		Logger.getAnonymousLogger().log(Level.INFO,"");
-		Logger.getAnonymousLogger().log(Level.INFO,"");
-		
-		
+		System.err.println();
+		System.err.println();
+		System.err.println();
 		
 		//try cleanup
 		query = null;
@@ -496,7 +494,7 @@ public class SimpleSolver {
 			{
 				HashSet<Package> oldc = new HashSet<Package>(oldcudf.getPackageVersions(name, true));
 				HashSet<Package> newc = new HashSet<Package>(newcudf.getPackageVersions(name, true));
-				if (oldc.size() > 0 && !oldc.equals(newc))
+				if (newc.size() > 0 && oldc.size() > 0 && !oldc.equals(newc))
 				{
 					System.out.print(name + ", ");
 				}
@@ -795,6 +793,7 @@ public class SimpleSolver {
 			return m.toPCR();
 		}
 		System.out.println("FAILED");
+		Logger.getAnonymousLogger().log(Level.INFO,"Failed TO INSTALL");
 		if(returnPreviousSystemOnFail)
 		{
 			System.out.println("restuning previous system");
