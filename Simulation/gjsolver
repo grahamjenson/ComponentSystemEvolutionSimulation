@@ -1,2 +1,2 @@
 #!/bin/bash
-java -jar gjsolver.jar $1 $2 $3 $4
+java -jar -Xmx2048m gjsolver.jar $1 $2 $3 $4 

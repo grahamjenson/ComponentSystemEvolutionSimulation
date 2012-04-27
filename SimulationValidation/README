@@ -1,6 +1,6 @@
 List of assumptions:
 
-Validate the input
+----------- Validate the input --------------
 Static Validation, face validation
 Generated users look like real user actions: face validation -- looking at the partial data set extracted from command line arguments
 
@@ -69,9 +69,10 @@ Components updated: Much less
 
 Size of repository: Ours about 90,000 other about 40,000. Because of the difficulties collecting when packages where changed, we collected all information. Where the repository are maintained to be a smaller set only including the most recent uptodate packages.
 
-Note: Source packages: are removed as they provide 
+6)Multiple name, vesion paris exactly the same, tagged with source or archictecture difference (this differes from the fundamental model)
 
-Validate the output
+
+-------- Validate the output -------------
 Dynamic validation
 The output from a only update user looks like the real output of that user...
 Simulation
@@ -82,8 +83,8 @@ realupdatedPackages = [0, 19, 1, 14, 1, 0, 19, 0, 0, 7, 4, 0, 0, 3, 0, 2, 8, 6, 
 
 
 Users generated that randomly install users looks like real user output...
-installs from user logs (removed greater than 1000): 1519 installs, 0.352863726136 trivial,  9.04805793285 mean installed packages, 23.3263970159 std installed packages
-randomly generated 150 users from 9.10.cudf 1 day : 150 installs, 0.18  trivial, 8.78666666667 mean installed packages, 11.4015125702  std installed packages
+installs from user logs (removed greater than 1000): 1519 installs, 0.352863726136 trivial,  9.04805793285 mean installed packages, 23.3263970159 std installed packages, 3 median installed packages
+randomly generated 150 users from 9.10.cudf 1 day : 150 installs, 0.18  trivial, 8.78666666667 mean installed packages, 11.4015125702  std installed packages, 5 median installed packages
 
 The more trivial packages installed, maybe becuase of users more installing libraries and such that are not in the popular packages list
 the mean amount of packages installed is very similar, though the standard deviation is quite disimilar. 
