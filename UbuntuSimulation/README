@@ -52,10 +52,10 @@ Question 3) Simulated "real" users
 Using update and install probabilities extracted from the submitted user logs,
 we can bootstrap the simulation with these values to see how real users will behave?
 
-Select 5 real users values randomly, create 30 users with each value (that is 5*30 users),
+Select 5 real users values randomly + 2 extreme users, create 30 users with each value (that is 5*30 users),
 simulate and compare the results.
 
-Total: 150 Users
+Total: 210 Users
 
 Question 4) Altering the criteria that is used!
 See how altering the system is better.
@@ -80,6 +80,5 @@ Measure the effect of other metrics like uptodate distance of solutions and so o
 
 Total: 300 users
 
-TOTAL 1092 users: about 20mins per user : about 21 days of simulation (serial)
 
 
