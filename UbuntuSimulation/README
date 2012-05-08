@@ -1,0 +1,85 @@
+Question 1) Linear Variable sensitivity testing!
+We alter the linear varaibles (update and install probabilities) and study the effect. 
+
+1a) What are the effects of extreme users?
+		Always install	|| Never Install
+        	---------------	||---------------
+Always Update		30	||    1
+      	 			||
+Never Update       	30	||    1    
+
+As install varies because of what is selected to be installed, 30 users are selected to be tested
+
+Total: 62 Users
+	
+1b) What effects does the update probability have on the system?
+At increments of .1 between 0 and 1, 5 users are simulated.
+
+Total: 50 users
+
+1c) What effects does the install probability have on the system?
+At increments of .1 between 0 and 1, 30 users are simulated.
+
+Do you have to install less after a time (are their common required packages?)
+
+Total: 300 users
+
+1d) How much does installing packages increase the amount to update?
+Given what was learnt in the previous question, select 5 installation probabilities,
+and always update, and measure the amount of change that update requires vs only always update. 
+
+Total: 150 users
+ 
+Question 2) Observations from the model!
+Look at the observations made about the model and see if they can be simulated
+
+2a) How complex is the problem?
+Time to solve problems?
+
+Total: 0 users
+
+2b) Previous user requests may not be satisfied in evolved systems
+Look at always install systems with no update, and count how many installations had to 
+
+Total: 0 users
+
+2c) Take some always install from 1a), execute all installs in one action in the last time, 
+to see if the system differs.
+
+Total: 30 Users
+
+Question 3) Simulated "real" users
+Using update and install probabilities extracted from the submitted user logs,
+we can bootstrap the simulation with these values to see how real users will behave?
+
+Select 5 real users values randomly, create 30 users with each value (that is 5*30 users),
+simulate and compare the results.
+
+Total: 150 Users
+
+Question 4) Altering the criteria that is used!
+See how altering the system is better.
+
+4a) What effect does a progressive update criteria have?
+At increments of .1 between 0 and 1, 5 users are simulated with progressive update criteria.
+
+Hypothesis, more change closer to fuly updated.
+
+Total: 50 users
+
+4b) Stable component criteria (try to install components that have been unchanged for N days)?
+Introduce the stable component criteria.
+Introduce metric Effective change (change/uptodatedistance) of each evolution
+Hypothesis: the effective change is greater with stable component criteria, instead of uptodatedistance.
+
+Bootstrap 5 real usres probabilities, simulate with progressive and conservative criteria with uptodatedistance replaced with stable component criteria.
+5*2 (10) * 30 = 300 Users
+
+Measure the effective change metric made to the systems, compared to those from q4a and q13, to see if it has improved.
+Measure the effect of other metrics like uptodate distance of solutions and so on.
+
+Total: 300 users
+
+TOTAL 1092 users: about 20mins per user : about 21 days of simulation (serial)
+
+

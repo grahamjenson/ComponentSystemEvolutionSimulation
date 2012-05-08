@@ -9,8 +9,8 @@ simusers = array([15,6,2,3,5,4,5,8,10,6,46,9,3,6,10,46,5,3,16,2,2,6,3,2,27,41,3,
 
 simusers = simusers - 1
 
-print len(simusers), 1.0*list(simusers).count(1)/len(simusers),mean(simusers),std(simusers)
-print len(realusers), 1.0*list(realusers).count(1)/len(realusers),mean(realusers),std(realusers)
+print len(simusers), 1.0*list(simusers).count(1)/len(simusers),mean(simusers),std(simusers),median(simusers)
+print len(realusers), 1.0*list(realusers).count(1)/len(realusers),mean(realusers),std(realusers),median(realusers)
 
 simusers = filter(lambda x: x != 1, simusers)
 realusers = filter(lambda x: x != 1, realusers)

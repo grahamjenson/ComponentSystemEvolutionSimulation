@@ -10,6 +10,6 @@ do ./gUser.py -u $i -o q1b/u$i.$x.user
 done
 done
  
-for u in q1b/*.user; do echo $u >> q1b.simlog; ./runSimulation.py -u $u -o $u"sols" >> q1b.simlog ; done
+for u in q1b/*.user; do echo $u >> q1b.simlog;mkdir $u"sols";./gjsolver $u $u"sols" 1> $u.out 2> $u.err; done
 
 
