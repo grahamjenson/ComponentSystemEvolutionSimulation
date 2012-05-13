@@ -91,7 +91,7 @@ public class SimpleSolver {
 		System.exit(0);
 	}
 
-	public static Criteria parseCriterion(String s)
+	public static Criteria parseCriterion(String s,long date)
 	{
 		s = s.replaceAll("\"", "");
 		if(!s.startsWith("-") && !s.startsWith("+"))
@@ -166,8 +166,8 @@ public class SimpleSolver {
 				return sc;
 
 			} else if (s.substring(1).startsWith("stableversion")) {
-				int  age = Integer.parseInt(s.substring(15,s.length()-1));
-				StableCriteria cc = new StableCriteria(age);
+				long  age = Long.parseLong(s.substring(15,s.length()-1));
+				StableCriteria cc = new StableCriteria(date,age);
 				return cc;
 			}
 		}
@@ -345,7 +345,7 @@ public class SimpleSolver {
 		
 		for(UserAction ua : uas)
 		{
-			installedSystem = doAction(folderpath, ua, installedSystem, allComps);
+			installedSystem = doAction(folderpath, ua, installedSystem, allComps,ua.time);
 		}
 		
 		
@@ -382,7 +382,7 @@ public class SimpleSolver {
 //		writeLog(finalPCR, inputPCR);
 	}
 	
-	private static ProfileChangeRequest doAction(String folderpath, UserAction ua, ProfileChangeRequest prevSystem, ProfileChangeRequest allComps) throws IOException
+	private static ProfileChangeRequest doAction(String folderpath, UserAction ua, ProfileChangeRequest prevSystem, ProfileChangeRequest allComps,long date) throws IOException
 	{
 		System.out.println(ua);
 		SimpleSolver ss = new SimpleSolver();
@@ -392,7 +392,7 @@ public class SimpleSolver {
 	
 		ProfileChangeRequest query = generatePCR(prevSystem,slice,ua.req);
 		
-		ProfileChangeRequest newSystem = ss.solve(query, parseCriteria(ua.crit), 120000);
+		ProfileChangeRequest newSystem = ss.solve(query, parseCriteria(ua.crit,date), 120000);
 		
 		
 		writeLog(newSystem,prevSystem);
@@ -503,7 +503,7 @@ public class SimpleSolver {
 
 		}
 	}
-	public static LexicographicCriteria parseCriteria(String crit)
+	public static LexicographicCriteria parseCriteria(String crit,long date)
 	{
 		LexicographicCriteria lex = new LexicographicCriteria();
 		String[] lexlist = crit.split(",");
@@ -516,13 +516,13 @@ public class SimpleSolver {
 				ProductCriteria pc = new ProductCriteria();
 				for (String p : prodlist)
 				{
-					pc.addCriteria(parseCriterion(p));
+					pc.addCriteria(parseCriterion(p,date));
 				}
 				lex.addCriteria(pc);
 			}
 			else
 			{
-				lex.addCriteria(parseCriterion(l));
+				lex.addCriteria(parseCriterion(l,date));
 			}
 
 		}
