@@ -1,5 +1,5 @@
 import gzip
-
+import os
 _preamble = "preamble:"
 _request = "request:"
 
@@ -22,6 +22,7 @@ neq = "!="
 lt = "<"
 gt = ">"
 eq = "="
+
 
 def createProfileChangeRequest(inputFile,nameversiononly=False):
 	"""Takes a file with multiple cudf packages in it, and outputs them"""
@@ -119,8 +120,8 @@ class ProfileChangeRequest(object):
 			if name not in self.cache[val+2]:
 				self.cache[val+2][name] = {}
 			self.cache[val+2][name][version] = p
+			
 	
-
 	def getPackagesThatSatisfy(self,constraint,onlyinstalled = False):
 		ret = set()
 		ret.update(findPackages(self.installed,constraint))
@@ -136,8 +137,11 @@ class ProfileChangeRequest(object):
 	def getInstalled(self):
 		return [p for a in self.installed.values() for p in a.values()]
 	
-	def getPackageNames(self):
-		return self.installed.keys() + self.ninstalled.keys()
+	def getPackageNames(self,onlyinstalled = False):
+		if onlyinstalled:
+			return self.installed.keys()
+		else:
+			return self.installed.keys() + self.ninstalled.keys()
 
 	def __str__(self):
 		sb = ""
@@ -224,6 +228,24 @@ def parse_depends(line):
 	print line
 
 class CUDFPackage(object):
+
+	def clone(self):
+		nc = CUDFPackage()
+		nc.name =self.name 
+		nc.version =self.version 
+
+		nc.recommends =self.recommends
+		nc.depends =self.depends
+		nc.conflicts =self.conflicts 
+		nc.provides = self.provides 
+		nc.arch = self.arch 
+		nc.date =self.date 
+		nc.priority =self.priority 
+		nc.keep =self.keep 
+		nc.installed =self.installed
+		nc.properties =self.properties
+		return nc
+		
 	def __init__(self, lines = [],basic=False) :
 		self.name = ""
 		self.version = -1
@@ -246,25 +268,27 @@ class CUDFPackage(object):
 				self.name = line[len(_package):].strip()
 			elif line.startswith(_version):
 				self.version = int(line[len(_version):].strip())
-			elif not basic and line.startswith(_depends):
-				self.depends = parsePackageFormula(line[len(_depends):].strip())
-			elif not basic and line.startswith(_provides):
-				self.provides = parsePackageFormula(line[len(_provides):].strip())
-			elif not basic and line.startswith(_recommends):
-				self.recommends = parsePackageFormula(line[len(_recommends):].strip())
-			elif not basic and line.startswith(_conflicts):
-				self.conflicts = parsePackageFormula(line[len(_conflicts):].strip())
-			elif not basic and line.startswith(_architecture):
-				self.arch = line[len(_architecture):].strip()
-			elif not basic and line.startswith(_date):
+			elif line.startswith(_date):
 				self.date = int(line[len(_date):].strip())
-			elif not basic and line.startswith(_installed):
-				self.installed = line[len(_installed):].strip() == "true"
-			elif not basic and line.startswith(_keep):
-				self.keep = line[len(_keep):].strip()
 			elif not basic:
-				sp = line.split(":",1)
-				self.properties[sp[0]] = sp[1].strip()
+				if line.startswith(_depends):
+					self.depends = parsePackageFormula(line[len(_depends):].strip())
+				elif line.startswith(_provides):
+					self.provides = parsePackageFormula(line[len(_provides):].strip())
+				elif line.startswith(_recommends):
+					self.recommends = parsePackageFormula(line[len(_recommends):].strip())
+				elif line.startswith(_conflicts):
+					self.conflicts = parsePackageFormula(line[len(_conflicts):].strip())
+				elif line.startswith(_architecture):
+					self.arch = line[len(_architecture):].strip()
+			
+				elif line.startswith(_installed):
+					self.installed = line[len(_installed):].strip() == "true"
+				elif line.startswith(_keep):
+					self.keep = line[len(_keep):].strip()
+				else:
+					sp = line.split(":",1)
+					self.properties[sp[0]] = sp[1].strip()
 
 	def nv(self):
 		return self.name,self.version
@@ -304,58 +328,4 @@ class CUDFPackage(object):
 
 
 
-def topnpairs(cudfmap):
-	return set([(n,v) for n in cudfmap.keys() for v in cudfmap[n]])
-	
-def newNames(cudfs):
-	deltas = zip(cudfs[:-1],cudfs[1:])
-	def new((prevcudf,newcudf)):
-		pnv = set(prevcudf.keys())
-		nnv = set(newcudf.keys())
-		return len(nnv - pnv)
-	return map(new,deltas)
 
-def removedNames(cudfs):
-	deltas = zip(cudfs[:-1],cudfs[1:])
-	def removed((prevcudf,newcudf)):
-		pnv = set(prevcudf.keys())
-		nnv = set(newcudf.keys())
-		return len(pnv - nnv)
-	
-	return map(removed,deltas)
-
-def removedPackages(cudfs):
-	deltas = zip(cudfs[:-1],cudfs[1:])
-	def removed((prevcudf,newcudf)):
-		pnv = topnpairs(prevcudf)
-		nnv = topnpairs(newcudf)
-		
-		return len(pnv - nnv)
-	
-	return map(removed,deltas)
-
-def newPackages(cudfs):
-	deltas = zip(cudfs[:-1],cudfs[1:])
-	def new((prevcudf,newcudf)):
-		pnv = topnpairs(prevcudf)
-		nnv = topnpairs(newcudf)
-		
-		return len(nnv - pnv)
-	
-	return map(new,deltas)
-
-
-def updatedPackages(cudfs):
-	deltas = zip(cudfs[:-1],cudfs[1:])
-	def updated((prevcudf,newcudf)):
-		pnv = topnpairs(prevcudf)
-		nnv = topnpairs(newcudf)
-		
-		newpacks = nnv - pnv
-		updatedpacks = []
-		for p in newpacks:
-			if p[0] in prevcudf.keys():
-				updatedpacks.append(p)
-		return len(updatedpacks)
-	
-	return map(updated,deltas) 

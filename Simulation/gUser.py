@@ -93,7 +93,7 @@ def main():
 				out.write(args.updateMOF)
 				out.write("\n")
 			
-			t += 60000
+			t += 600
 			if ireq != "":
 				out.write(str(t))
 				out.write(";\t")

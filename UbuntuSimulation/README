@@ -1,3 +1,6 @@
+WHAT DO WE MEASURE?
+Two user objectives, Minimise change, and maximise up-to-dateness!
+
 Question 1) Linear Variable sensitivity testing!
 We alter the linear varaibles (update and install probabilities) and study the effect. 
 
@@ -67,10 +70,17 @@ Hypothesis, more change closer to fuly updated.
 
 Total: 50 users
 
-4b) Stable component criteria (try to install components that have been unchanged for N days)?
+5)Stable criteria
 Introduce the stable component criteria.
-Introduce metric Effective change (change/uptodatedistance) of each evolution
-Hypothesis: the effective change is greater with stable component criteria, instead of uptodatedistance.
+Introduce metric Effective change (change components/change in uptodatedistance) of each evolution step
+
+Hypothesis: the effective change is greater with stable component criteria, instead of uptodatedistance criteria.
+
+
+5a) What is the stable versions best length of days for lowest effective change for both progressive and conservative users? 
+
+
+
 
 Bootstrap 5 real usres probabilities, simulate with progressive and conservative criteria with uptodatedistance replaced with stable component criteria.
 5*2 (10) * 30 = 300 Users
