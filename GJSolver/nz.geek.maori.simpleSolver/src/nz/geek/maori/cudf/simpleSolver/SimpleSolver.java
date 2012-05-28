@@ -502,6 +502,26 @@ public class SimpleSolver {
 			System.out.println();
 
 		}
+		//list upgraded
+		{
+			System.out.print("multi comp ");
+			for (String name : newcudf.getPackageNames(true))
+			{
+				
+				HashSet<Package> newc = new HashSet<Package>(newcudf.getPackageVersions(name, true));
+				if (newc.size() > 1)
+				{
+					System.out.print(name + ", ");
+					for (Package p : newc )
+					{
+						System.out.print(p.getVersion() + " , ");
+					}
+					System.out.println();
+				}
+			}
+			System.out.println();
+
+		}
 	}
 	public static LexicographicCriteria parseCriteria(String crit,long date)
 	{

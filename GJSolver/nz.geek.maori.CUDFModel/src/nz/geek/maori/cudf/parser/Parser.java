@@ -17,6 +17,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.Map;
 import java.util.StringTokenizer;
 
@@ -35,7 +36,7 @@ public class Parser {
 
 	private Package currentPackage = null;
 	private ProfileChangeRequest query = CUDFFactory.eINSTANCE
-			.createProfileChangeRequest();
+	.createProfileChangeRequest();
 
 	private static CUDFFactory cudf = CUDFFactory.eINSTANCE;
 
@@ -67,11 +68,11 @@ public class Parser {
 				// look-ahead to check for line continuation
 				String line = next;
 				for (next = reader.readLine(); (next != null)
-						&& (next.length() > 1) && (next.charAt(0) == ' '); next = reader
-						.readLine()) {
+				&& (next.length() > 1) && (next.charAt(0) == ' '); next = reader
+				.readLine()) {
 					line = line + next.substring(1);
 				}
-				
+
 				// terminating condition of the loop... reached the end of the
 				// file
 				if (line == null) {
@@ -191,13 +192,13 @@ public class Parser {
 			} else if ((c == '[') && !quote) {
 				if (bracket) {
 					throw new RuntimeException(
-							"The declaration of types is incorrect");
+					"The declaration of types is incorrect");
 				}
 				bracket = true;
 			} else if ((c == ']') && !quote) {
 				if (!bracket) {
 					throw new RuntimeException(
-							"The declaration of types is incorrect");
+					"The declaration of types is incorrect");
 				}
 				bracket = false;
 			}
@@ -234,7 +235,7 @@ public class Parser {
 			if (defaultIndex != -1) {
 				// Default value minus the equals sing
 				String defaultValue = definition.substring(defaultIndex + 1)
-						.trim();
+				.trim();
 				// Remove the begining and end charaters as they are the
 				// brackets
 				defaultValue = defaultValue.substring(1,
@@ -333,13 +334,13 @@ public class Parser {
 		// elements
 		if (this.currentPackage.getName() == null) {
 			throw new IllegalStateException(
-					"Malformed \'package\' stanza. No package element found.");
+			"Malformed \'package\' stanza. No package element found.");
 		}
 		if (this.currentPackage.getVersion() == -1) {
 			throw new IllegalStateException(
 					"Malformed \'package\' stanza. Package "
-							+ this.currentPackage.getName()
-							+ " does not have a version.");
+					+ this.currentPackage.getName()
+					+ " does not have a version.");
 		}
 		// If it is installed add it to the begining of the list
 		this.query.addPackage(this.currentPackage);
@@ -378,14 +379,19 @@ public class Parser {
 			//This is an addition meaning upgrade everything
 			//By this time all packages have been added
 			PackageList packageList = cudf.createPackageList();
+			HashSet<String> unames = new  HashSet<String>();
 			for(Package p : pcr.getInstalledPackages())
 			{
+				unames.add(p.getName());
+			}
+			for(String name : unames)
+			{
 				PackageVersionConstraint pvc = cudf.createPackageVersionConstraint();
-				pvc.setPackage(p.getName());
+				pvc.setPackage(name);
 				packageList.getList().add(pvc);
 			}
 			req.setUpgrade(packageList);
-			
+
 		}
 		else
 		{
@@ -415,7 +421,7 @@ public class Parser {
 
 	private PackageFormula createPackageFormula(String line) {
 		PackageFormula packageFormula = CUDFFactory.eINSTANCE
-				.createPackageFormula();
+		.createPackageFormula();
 
 		StringTokenizer s = new StringTokenizer(line, ",");
 		String subtoken;
@@ -456,7 +462,7 @@ public class Parser {
 		int tokenCount = expressionTokens.countTokens();
 		String id = expressionTokens.nextToken().trim();
 		PackageVersionConstraint pvc = cudf
-				.createPackageVersionConstraint();
+		.createPackageVersionConstraint();
 		pvc.setPackage(id);
 
 		if (tokenCount == 1)// a

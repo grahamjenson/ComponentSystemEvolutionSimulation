@@ -198,13 +198,13 @@ public class CUDFDependencyHelper {
 			PackageList upgrade = r.getUpgrade();
 			if (upgrade  != null) {
 				for (PackageVersionConstraint pvc : upgrade.getList()) {
+					
 					// Upgrade ensures that
 					// 1) there is only one package of this type in the next solution
 					// 2) The next packge has a greater than or equal version
 
 					// So the first add a cardinality constraint, ensuring only
 					// one of these packages is installed
-
 					AbstractConflictSet conflictSet = new AbstractConflictSet();
 					for (Package c : this.pcr.getPackageVersions(pvc.getPackage())) {
 						conflictSet.getLits().add(new Literal(true,c));
@@ -232,11 +232,11 @@ public class CUDFDependencyHelper {
 					}
 					// Add Constraint that one of the better than or equal to
 					// maxVersion of the installed Packages must be installed
-					cons.add(greaterThanPackages);
+					//cons.add(greaterThanPackages);
 				}
 			}
 		}
-		Logger.getLogger(getClass().getName()).log(Level.INFO,"generated " + cons.size() + " keep constraints");
+		Logger.getLogger(getClass().getName()).log(Level.INFO,"generated " + cons.size() + " request constraints");
 		return cons;
 	}
 
