@@ -16,6 +16,5 @@ do ./gUser.py -u $i -U"-removed,-uptodatedistance,-new" -o q4a/modu$i.$x.user
 done
 done
 
-for u in q4a/*.user; do echo $u >> q4a.simlog;mkdir $u"sols";./gjsolver $u $u"sols" 1> $u.out 2> $u.err; done
 
 

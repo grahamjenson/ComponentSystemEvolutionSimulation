@@ -232,7 +232,7 @@ public class CUDFDependencyHelper {
 					}
 					// Add Constraint that one of the better than or equal to
 					// maxVersion of the installed Packages must be installed
-					//cons.add(greaterThanPackages);
+					cons.add(greaterThanPackages);
 				}
 			}
 		}
