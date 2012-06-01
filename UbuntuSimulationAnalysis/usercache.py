@@ -1,5 +1,6 @@
 #!/usr/bin/python
 
+import gc
 import os
 from cudfpy import cudfpkg
 import timeit
@@ -25,35 +26,44 @@ end = 1288410600
 #q1afiles = map(lambda x: os.path.join(q1afolder,x),q1afiles)
 
 
-
-
+def doit(cudfs,userfile):
+	if cudfs == None:
+		gc.collect()
+		ncudfs = utils.processSolutionsFolder(userfile+".sols")
+		ncudfs[start] = initsys #add original system
+		return ncudfs
+	
 def cacheuser(userfile):
 	print "cache",userfile
-	cudfs = utils.processSolutionsFolder(userfile+".sols")
-	cudfs[start] = initsys #add original system
+	cudfs = None
 	#end = 1256814000+(24*60*60*10)
 	uttd = "uttd"
 	if not iscached(userfile,uttd):
+		cudfs = doit(cudfs,userfile)
 		print "Add uptodate distance to ",userfile
 		cache(userfile,utils.getUptoDateDistance(start,end,cudfs,allcomps),uttd)
 	
 	upd = "upd"
 	if not iscached(userfile,upd):
+		cudfs = doit(cudfs,userfile)
 		print "Add uptodated packs ",userfile
 		cache(userfile,utils.updatedPackages(start,end,cudfs),upd)
 	
 	changedname = "chn"
 	if not iscached(userfile,changedname):
+		cudfs = doit(cudfs,userfile)
 		print "Add changed names ",userfile
 		cache(userfile,utils.changedNames(cudfs),changedname)
 	
 	siz = "size"
 	if not iscached(userfile,siz):
+		cudfs = doit(cudfs,userfile)
 		print "Add size ",userfile
 		cache(userfile,utils.size(cudfs),siz)
 	
 	newnames = "ncn"
 	if not iscached(userfile,newnames):
+		cudfs = doit(cudfs,userfile)
 		print "Add new Names ",userfile
 		cache(userfile,utils.newNames(cudfs),newnames)
 	
