@@ -86,6 +86,8 @@ Users generated that randomly install users looks like real user output...
 installs from user logs (removed greater than 1000): 1519 installs, 0.352863726136 trivial,  9.04805793285 mean installed packages, 23.3263970159 std installed packages, 3 median installed packages
 Select the 200 most likely pakcagtes to install, create users that will install them on day 1:
 8 installs were already installed, 0.11 were trivial (only 1 package installed), 7.3125 mean change, 9.41387772122 std installed,  6.0 meadian installed
+What are the common packages installed by them all?
+
 
 The more trivial packages installed, maybe becuase of users more installing libraries and such that are not in the popular packages list
 the mean amount of packages installed is very similar, though the standard deviation is quite disimilar. 

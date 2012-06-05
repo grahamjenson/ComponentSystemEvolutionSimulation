@@ -14,7 +14,7 @@ from multiprocessing import Pool
 print "Load init stuff"
 
 initsys = cudfpkg.createProfileChangeRequest("9.10.cudf",nameversiononly=True)
-allcomps = cudfpkg.createProfileChangeRequest("1288868400.0",nameversiononly=False)
+allcomps = None
 
 
 start = 1256814000 #one day before first action
@@ -26,12 +26,16 @@ end = 1288410600
 #q1afiles = map(lambda x: os.path.join(q1afolder,x),q1afiles)
 
 
-def doit(cudfs,userfile):
+def doit(cudfs,userfile,reqComps=False):
+	if reqComps and allcomps==None:
+		allcomps = cudfpkg.createProfileChangeRequest("1288868400.0",nameversiononly=False)
 	if cudfs == None:
 		gc.collect()
-		ncudfs = utils.processSolutionsFolder(userfile+".sols")
-		ncudfs[start] = initsys #add original system
-		return ncudfs
+		cudfs = utils.processSolutionsFolder(userfile+".sols")
+		cudfs[start] = initsys #add original system
+	return cudfs
+	
+
 	
 def cacheuser(userfile):
 	print "cache",userfile
@@ -39,7 +43,7 @@ def cacheuser(userfile):
 	#end = 1256814000+(24*60*60*10)
 	uttd = "uttd"
 	if not iscached(userfile,uttd):
-		cudfs = doit(cudfs,userfile)
+		cudfs = doit(cudfs,userfile,reqComps=True)
 		print "Add uptodate distance to ",userfile
 		cache(userfile,utils.getUptoDateDistance(start,end,cudfs,allcomps),uttd)
 	
@@ -66,6 +70,13 @@ def cacheuser(userfile):
 		cudfs = doit(cudfs,userfile)
 		print "Add new Names ",userfile
 		cache(userfile,utils.newNames(cudfs),newnames)
+	
+	remnames = "rcn"
+	if not iscached(userfile,remnames):
+		cudfs = doit(cudfs,userfile)
+		print "Add removed Names ",userfile
+		cache(userfile,utils.removedNames(cudfs),remnames)
+		
 	
 
 def iscached(userfile, key):
