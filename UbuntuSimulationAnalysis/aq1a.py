@@ -5,6 +5,7 @@ import shelve
 from matplotlib import dates
 import numpy
 from matplotlib.colors import ColorConverter
+import datetime
 
 start = 1256814000 #one day before first action
 end = 1288410600
@@ -44,7 +45,7 @@ def getValueTillTime(t,values):
 						
 #Returns sum of values plus minus 12 hours of time (e.g. change)
 def getOnDate(t,values,dd=day):
-	vs = filter(lambda x : x[0] < (t+dd) and x[0] > (t-dd),values)
+	vs = filter(lambda x : x[0] <= (t+(day)) and x[0] > (t),values)
 	if len(vs) == 0:
 		return 0
 	ds, v = zip(*vs)
@@ -68,7 +69,7 @@ def vtd(values):
 def vod(values,dd=day):
 	vals = []
 	for da in allthedays:
-		vals.append((da,getOnDate(da,values,dd=dd)))
+		vals.append((da,getOnDate(da,values)))
 	return vals
 		
 def getcache(cfile,key):
@@ -77,6 +78,7 @@ def getcache(cfile,key):
 	shelf.close()
 	return val
 
+#change till time
 def chtt(cfile):
 	ch = vtd(getcache(cfile,"chn"))
 	ch = dict(ch)
@@ -84,7 +86,26 @@ def chtt(cfile):
 	for da in allthedays:
 		vals.append(1.0*ch[da])
 	return vals
+
+#new names till time
+def nntt(cfile):
+	ch = vtd(getcache(cfile,"ncn"))
+	ch = dict(ch)
+	vals = []
+	for da in allthedays:
+		vals.append(1.0*ch[da])
+	return vals
+
+#removed names till time
+def rempd(cfile):
+	ch = vod(getcache(cfile,"rcn"))
+	ch = dict(ch)
+	vals = []
+	for da in allthedays:
+		vals.append(1.0*ch[da])
+	return vals
 	
+#change per day		
 def chpd(cfile):
 	ch = vod(getcache(cfile,"chn"))
 	ch = dict(ch)
@@ -284,7 +305,7 @@ def plotchange():
 	
 	uivals = map(lambda x : chtt(x),installs)
 	uimean,uistd,uimeanpstd,uimeanmstd = multimeanstd(uivals)
-	pylab.plot(pallthedays,uimean,color='green',label="Update and Install Mean change +-1std")
+	pylab.plot(pallthedays,uimean,color='green',label="Install Mean change +-1std")
 	pylab.fill_between(pallthedays, uimeanpstd, uimeanmstd, facecolor='green', alpha=0.5)
 	
 	
@@ -313,17 +334,76 @@ def plotchange():
 	# as more components are intalled more are required to be updated.
 	#This makes the total change more than the sum of the two other curves.
 	
-
+	
+	#Difference between always update install and update
+	fig = pylab.figure(4)
+	
+	uivals = map(lambda x : nntt(x),installs)
+	uimean,uistd,uimeanpstd,uimeanmstd = multimeanstd(uivals)
+	pylab.plot(pallthedays,uimean,color='green',label="Update and Install Mean New names +-1std")
+	pylab.fill_between(pallthedays, uimeanpstd, uimeanmstd, facecolor='green', alpha=0.5)
+	
+	
+	uivals = map(lambda x : nntt(x),uinstalls)
+	uimean,uistd,uimeanpstd,uimeanmstd = multimeanstd(uivals)
+	pylab.plot(pallthedays,uimean,color='blue',label="Update and Install Mean change +-1std")
+	pylab.fill_between(pallthedays, uimeanpstd, uimeanmstd, facecolor='blue', alpha=0.5)
+	
+	pylab.legend(loc="upper left")
+	
+	saveFigure("q1newnames")
 
 	
 def findcatfailures():
-	#TODO find catrastrafic failures
-	pass
+	#looking for failure type 2, where a massive change occurs
+	uivals = zip(installs,map(lambda x : rempd(x),installs))
+	for name,ui in uivals:
+		for date, remv in zip(allthedays,ui):
+			if remv >= 100:
+				print date,datetime.date.fromtimestamp(date),name	
+	
+	uivals = zip(uinstalls,map(lambda x : rempd(x),uinstalls))
+	for name,ui in uivals:
+		for date, remv in zip(allthedays,ui):
+			if remv >= 100:
+				print date,datetime.date.fromtimestamp(date),name	
+	
+	
+	#all but one of the soft failures occur around the month of the april release
+	#All that failed are followed by another large removal of components.
+	
+	# 2010-02-22 cache/q1a/i3.user
+	# 2010-04-18 cache/q1a/i5.user
+	# 2010-04-12 cache/q1a/i1.user
+	# 2010-04-21 cache/q1a/uandi13.user
+	# 2010-05-04 cache/q1a/uandi16.user
+	# 2010-05-11 cache/q1a/uandi26.user
+	# 2010-04-19 cache/q1a/uandi28.user
+	# 2010-04-12 cache/q1a/uandi1.user
 
+	#i1.user req=install: gnome-btdownload 1 day later removed
+	#uandi1 req=install: gnome-btdownload not removed!
+	
+	
+	#i3.user "install: python-wxglade" 8 days later python-wxglade is removed
+	#i5.user req=install: soundconverter, 10 days later it is removed
+	
+	#uandi13 req=install: python-wxglade  removed next day
+	#uandi16 req=install: istanbul removed 5 days later
+	#uandi26 req=install: streamtuner not removed
+	#uandi28 install: soundconverter not removed
+	
+	#from this information it can be seen that although more likely to have a soft failure the uandi users are more likley to adapt without removing the reason for the failure.
+	#this can be seen in the i1 and uani1 comparison.
+	#Some components like "python-wxglade" are more likely to cause problems. Though do not always, as 14 total attempted to install "python-wxglade", and only 2 had a soft failure.
 			
-plotuttdpd()
-plotchange()
-pylab.show()
+#plotuttdpd()
+
+#plotchange()
+
+findcatfailures()
+
+#pylab.show()
 
 #There are two levels of failure that we would like to discuss.
 #First a request that to be satisfied has to alter the system significantly.

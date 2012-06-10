@@ -87,7 +87,7 @@ installs from user logs (removed greater than 1000): 1519 installs, 0.3528637261
 Select the 200 most likely pakcagtes to install, create users that will install them on day 1:
 8 installs were already installed, 0.11 were trivial (only 1 package installed), 7.3125 mean change, 9.41387772122 std installed,  6.0 meadian installed
 What are the common packages installed by them all?
-
+('kdelibs-data', 52), ('liblualib50', 52), ('kdelibs4c2a', 52), ('libavahi-qt3-1', 52), ('liblua50', 52), ('libqt3-mt', 57), ('libaudio2', 74)
 
 The more trivial packages installed, maybe becuase of users more installing libraries and such that are not in the popular packages list
 the mean amount of packages installed is very similar, though the standard deviation is quite disimilar. 

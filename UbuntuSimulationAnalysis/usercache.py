@@ -27,10 +27,11 @@ end = 1288410600
 
 
 def doit(cudfs,userfile,reqComps=False):
-	if reqComps and allcomps==None:
+	global allcomps
+	if reqComps and allcomps == None:
+		print "load Allcomps"
 		allcomps = cudfpkg.createProfileChangeRequest("1288868400.0",nameversiononly=False)
 	if cudfs == None:
-		gc.collect()
 		cudfs = utils.processSolutionsFolder(userfile+".sols")
 		cudfs[start] = initsys #add original system
 	return cudfs
@@ -113,13 +114,21 @@ def cache(userfile,val,key):
 #cacheuser("q1a/alwaysupdate.user")
 #exit()
 
+def getUsers(folder):
+	return filter(lambda x: x.endswith(".user"),map(lambda x : os.path.join(folder,x),os.listdir(folder)))
+	
 users = []
-users += filter(lambda x: x.endswith(".user"),map(lambda x : os.path.join("q1a",x),os.listdir("q1a")))
-users +=filter(lambda x: x.endswith(".user"), map(lambda x : os.path.join("q1b",x),os.listdir("q1b")))
+users += getUsers("q1c")
+users += getUsers("q2c")
+users += getUsers("q3")
+users += getUsers("q4a")
+users += getUsers("q1a")
+users += getUsers("q1b")
 
 for u in sorted(users):
 	print u
 	cacheuser(u)
+	gc.collect()
 
 
 
