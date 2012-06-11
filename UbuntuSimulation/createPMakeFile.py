@@ -2,7 +2,7 @@
 
 import os 
 
-userdirs = ["q1a","q1b","q1c","q2c","q3","q4a","q5a","q5b"]
+userdirs = ["q1c","q4a"]
 allusers = []
 for ud in userdirs:
 	purss = filter(lambda x : x.endswith("user"), map(lambda u : os.path.join(ud,u),os.listdir(ud)))

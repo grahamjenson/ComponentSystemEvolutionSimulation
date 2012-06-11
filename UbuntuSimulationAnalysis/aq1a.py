@@ -6,155 +6,7 @@ from matplotlib import dates
 import numpy
 from matplotlib.colors import ColorConverter
 import datetime
-
-start = 1256814000 #one day before first action
-end = 1288410600
-
-day = (24*60*60)
-week = day*7
-def epoch2date(t):
-	return dates.num2date(dates.epoch2num(t))
-
-	
-allthedays = range(start,end, day )
-pallthedays = map(lambda da: epoch2date(da),allthedays)
-
-alltheweeks = range(start,end, week)
-palltheweeks = map(lambda da: epoch2date(da),alltheweeks)
-
-def saveFigure(name):
-	pylab.gcf().set_size_inches(15,9)
-	pylab.savefig("plots/"+name,pad_inches=0.1,bbox_inches='tight')
-	
-
-	
-#returns the value at time (e.g. system size) 
-def getValueAtTime(t,values):
-	for ds,v in sorted(values,key=lambda x: -x[0]):
-		if ds <= t:
-			return v
-
-def getValueTillTime(t,values):
-	total = 0
-	for ds,v in sorted(values,key=lambda x: x[0]):
-		if ds <= t:
-			total += v
-		else :
-			return total
-	return total
-						
-#Returns sum of values plus minus 12 hours of time (e.g. change)
-def getOnDate(t,values,dd=day):
-	vs = filter(lambda x : x[0] <= (t+(day)) and x[0] > (t),values)
-	if len(vs) == 0:
-		return 0
-	ds, v = zip(*vs)
-	return sum(v)
-
-#Values per day 		
-def vpd(values):
-	vals = []
-	for da in allthedays:
-		vals.append((da,getValueAtTime(da,values)))
-	return vals
-
-#values till day
-def vtd(values):
-	vals = []
-	for da in allthedays:
-		vals.append((da,getValueTillTime(da,values)))
-	return vals
-	
-#values on day
-def vod(values,dd=day):
-	vals = []
-	for da in allthedays:
-		vals.append((da,getOnDate(da,values)))
-	return vals
-		
-def getcache(cfile,key):
-	shelf = shelve.open(cfile)
-	val = shelf[key]
-	shelf.close()
-	return val
-
-#change till time
-def chtt(cfile):
-	ch = vtd(getcache(cfile,"chn"))
-	ch = dict(ch)
-	vals = []
-	for da in allthedays:
-		vals.append(1.0*ch[da])
-	return vals
-
-#new names till time
-def nntt(cfile):
-	ch = vtd(getcache(cfile,"ncn"))
-	ch = dict(ch)
-	vals = []
-	for da in allthedays:
-		vals.append(1.0*ch[da])
-	return vals
-
-#removed names till time
-def rempd(cfile):
-	ch = vod(getcache(cfile,"rcn"))
-	ch = dict(ch)
-	vals = []
-	for da in allthedays:
-		vals.append(1.0*ch[da])
-	return vals
-	
-#change per day		
-def chpd(cfile):
-	ch = vod(getcache(cfile,"chn"))
-	ch = dict(ch)
-	vals = []
-	for da in allthedays:
-		vals.append(1.0*ch[da])
-	return vals
-
-#Change per week
-def chpw(cfile):
-	ch = vod(getcache(cfile,"chn"),dd=week)
-	ch = dict(ch)
-	vals = []
-	for da in allthedays:
-		vals.append(1.0*ch[da])
-	return vals
-		
-def sizepd(cfile):
-	size = vpd(getcache(cfile,"size"))
-	size = dict(size)
-	vals = []
-	for da in allthedays:
-		vals.append(1.0*size[da])
-	return vals
-	
-def uttdperc(cfile):
-	uttd = vpd(getcache(cfile,"uttd"))
-	size = vpd(getcache(cfile,"size"))
-	uttd = dict(uttd)
-	size = dict(size)
-	
-	
-	vals = []
-	for da in allthedays:
-		vals.append(1.0*uttd[da]/size[da])
-	return vals
-
-
-def uttdpd(cfile):
-	uttd = vpd(getcache(cfile,"uttd"))
-	das,uttd = zip(*uttd)
-	return uttd
-
-def multimeanstd(values):
-	imean = numpy.mean(values,axis=0)
-	istd = numpy.std(values,axis=0)
-	imeanpstd = map(lambda x : x[0]+x[1], zip(imean,istd)) 
-	imeanmstd = map(lambda x : x[0]-x[1], zip(imean,istd)) 
-	return imean,istd,imeanpstd,imeanmstd
+from analysisutils import *
 
 
 folder = "cache/q1a"
@@ -352,7 +204,30 @@ def plotchange():
 	pylab.legend(loc="upper left")
 	
 	saveFigure("q1newnames")
-
+	#This graph shows that the number of installed components is almost identical between the 
+	
+	
+	fig = pylab.figure(5)
+	
+	
+	uivals = map(lambda x : updtt(x),installs)
+	uimean,uistd,uimeanpstd,uimeanmstd = multimeanstd(uivals)
+	pylab.plot(pallthedays,uimean,color='green',label="Install Mean updated names +-1std")
+	pylab.fill_between(pallthedays, uimeanpstd, uimeanmstd, facecolor='green', alpha=0.5)
+	
+	
+	uivals = map(lambda x : updtt(x),uinstalls)
+	uimean,uistd,uimeanpstd,uimeanmstd = multimeanstd(uivals)
+	pylab.plot(pallthedays,uimean,color='blue',label="Update and Install Mean change +-1std")
+	pylab.fill_between(pallthedays, uimeanpstd, uimeanmstd, facecolor='blue', alpha=0.5)
+	
+	pylab.plot(pallthedays,updtt(always), color="black", label="Always Update Mean updating")
+	
+	pylab.legend(loc="upper left")
+	
+	saveFigure("q1uptd")
+	#The number of comiponents updated increases over the year, to be about 700 more components updated.
+	#this also shows that number of components necessary to be upgraded is minimal for install users, this shows that to install new components requires minimal change to the components already installed.
 	
 def findcatfailures():
 	#looking for failure type 2, where a massive change occurs
@@ -397,13 +272,13 @@ def findcatfailures():
 	#this can be seen in the i1 and uani1 comparison.
 	#Some components like "python-wxglade" are more likely to cause problems. Though do not always, as 14 total attempted to install "python-wxglade", and only 2 had a soft failure.
 			
-#plotuttdpd()
+plotuttdpd()
 
-#plotchange()
+plotchange()
 
-findcatfailures()
+#findcatfailures()
 
-#pylab.show()
+pylab.show()
 
 #There are two levels of failure that we would like to discuss.
 #First a request that to be satisfied has to alter the system significantly.

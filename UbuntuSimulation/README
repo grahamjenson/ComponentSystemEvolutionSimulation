@@ -16,22 +16,26 @@ As install varies because of what is selected to be installed, 30 users are sele
 Total: 62 Users
 	
 1b) What effects does the update probability have on the system?
-At increments of .1 between 0 and 1, 5 users are simulated.
+Once a month month = 12/365 = 0.05
+Twice a month = 24/365 = 0.1
+Once a week = 0.2
+Twice a week = 0.4
+daily = 1.0
 
-Total: 50 users
+10 times for each variable (except daily as that does not matter)
+Total: 40 users
 
 1c) What effects does the install probability have on the system?
-At increments of .1 between 0 and 1, 30 users are simulated.
+Once a month month = 12/365 = 0.05
+Twice a month = 24/365 = 0.1
+Once a week = 0.2
+Twice a week = 0.4
+daily = 1.0
 
 Do you have to install less after a time (are their common required packages?)
 
-Total: 300 users
-
-1d) How much does installing packages increase the amount to update?
-Given what was learnt in the previous question, select 5 installation probabilities,
-and always update, and measure the amount of change that update requires vs only always update. 
-
 Total: 150 users
+
  
 Question 2) Observations from the model!
 Look at the observations made about the model and see if they can be simulated
@@ -60,11 +64,24 @@ simulate and compare the results.
 
 Total: 210 Users
 
-Question 4) Altering the criteria that is used!
+Question 4) Altering the criteria order to see the effects.
+A notable lacking in the criteria avilable is that of a progressive update, that is an update criteria that is used to maximise the uptodateness of the system.
+For this we define a moderate and an extreme progressive update,
+moderate update criteira = -removed,-uptodatedistance,-new
+extreme update criteria = -uptodatedistance,-removed,-new
+
+As you can see the extreme update criteira tries to maximise the uptodateness of the system without 
+
 See how altering the system is better.
 
 4a) What effect does a progressive update criteria have?
-At increments of .1 between 0 and 1, 5 users are simulated with progressive update criteria.
+Once a month month = 12/365 = 0.05
+Twice a month = 24/365 = 0.1
+Once a week = 0.2
+Twice a week = 0.4
+daily = 1.0
+
+simulate updating with progressive update criteria.
 
 Hypothesis, more change closer to fuly updated.
 
@@ -78,8 +95,6 @@ Hypothesis: the effective change is greater with stable component criteria, inst
 
 
 5a) What is the stable versions best length of days for lowest effective change for both progressive and conservative users? 
-
-
 
 
 Bootstrap 5 real usres probabilities, simulate with progressive and conservative criteria with uptodatedistance replaced with stable component criteria.
