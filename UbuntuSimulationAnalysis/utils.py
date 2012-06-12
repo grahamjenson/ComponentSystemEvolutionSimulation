@@ -136,7 +136,7 @@ def getUptoDateDistance(start,end,cudfs,allcomps):
 	acudfs = getCudfs(start,end,cudfs)
 	k = len(acudfs)
 	for t,icudf in acudfs:
-		print k
+		if k%30 == 0: print k
 		k -= 1
 		spcr = sliceCUDF(t,allcomps)
 		cudf = createFullCUDF(icudf,spcr)

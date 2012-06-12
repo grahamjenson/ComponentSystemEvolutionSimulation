@@ -168,7 +168,7 @@ def plotchange():
 	
 	pylab.legend(loc="upper left")
 	
-	saveFigure("q1change")
+	saveFigure("q1achange")
 	#To analyse this information first the always update change is looked at.
 	#The first point to note is the gradients along the curve, there are two, 
 	#1) the gradients before and after the 10.04 release, 2) one during the release cycle, between March and April of 2010. 
@@ -203,7 +203,7 @@ def plotchange():
 	
 	pylab.legend(loc="upper left")
 	
-	saveFigure("q1newnames")
+	saveFigure("q1anewnames")
 	#This graph shows that the number of installed components is almost identical between the 
 	
 	
@@ -225,7 +225,7 @@ def plotchange():
 	
 	pylab.legend(loc="upper left")
 	
-	saveFigure("q1uptd")
+	saveFigure("q1auptd")
 	#The number of comiponents updated increases over the year, to be about 700 more components updated.
 	#this also shows that number of components necessary to be upgraded is minimal for install users, this shows that to install new components requires minimal change to the components already installed.
 	
