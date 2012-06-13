@@ -56,6 +56,7 @@ to see if the system differs.
 Total: 30 Users
 
 Question 3) Simulated "real" users
+
 Using update and install probabilities extracted from the submitted user logs,
 we can bootstrap the simulation with these values to see how real users will behave?
 

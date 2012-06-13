@@ -112,8 +112,10 @@ def q2b():
 	#only one of the remaining 8 had more than 2 unsatisfied install requests
 	
 	
-	
-q2b()
+
+#q2a()	
+#q2b()
+
 
 
 pylab.show()
