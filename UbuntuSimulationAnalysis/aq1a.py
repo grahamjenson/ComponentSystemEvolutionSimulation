@@ -153,19 +153,21 @@ def analysesize():
 def plotchange():
 	fig = pylab.figure(3)
 	
-	pylab.plot(pallthedays,chtt(always), color="black", label="Always Update Mean change")
+	pylab.plot(pallthedays,chtt(always), color="black", label="A user that updates everyday change")
 	
 	uivals = map(lambda x : chtt(x),installs)
 	uimean,uistd,uimeanpstd,uimeanmstd = multimeanstd(uivals)
-	pylab.plot(pallthedays,uimean,color='green',label="Install Mean change +-1std")
+	pylab.plot(pallthedays,uimean,color='green',label="The mean change (+-1std) of 30 users that install everyday")
 	pylab.fill_between(pallthedays, uimeanpstd, uimeanmstd, facecolor='green', alpha=0.5)
 	
 	
 	uivals = map(lambda x : chtt(x),uinstalls)
 	uimean,uistd,uimeanpstd,uimeanmstd = multimeanstd(uivals)
-	pylab.plot(pallthedays,uimean,color='blue',label="Update and Install Mean change +-1std")
+	pylab.plot(pallthedays,uimean,color='blue',label="The mean change (+-1std) of 30 users that update and install everyday")
 	pylab.fill_between(pallthedays, uimeanpstd, uimeanmstd, facecolor='blue', alpha=0.5)
 	
+	pylab.xlabel("Date")
+	pylab.ylabel("Change")
 	pylab.legend(loc="upper left")
 	
 	saveFigure("q1achange")
@@ -278,7 +280,6 @@ plotchange()
 
 #findcatfailures()
 
-pylab.show()
 
 #There are two levels of failure that we would like to discuss.
 #First a request that to be satisfied has to alter the system significantly.

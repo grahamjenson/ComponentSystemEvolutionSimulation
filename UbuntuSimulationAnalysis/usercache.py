@@ -118,12 +118,12 @@ def getUsers(folder):
 	return filter(lambda x: x.endswith(".user"),map(lambda x : os.path.join(folder,x),os.listdir(folder)))
 	
 users = []
-users += getUsers("q1c")
+#users += getUsers("q1c")
 #users += getUsers("q2c") No need as it is only one part
-users += getUsers("q3")
-users += getUsers("q4a")
-users += getUsers("q1a")
-users += getUsers("q1b")
+#users += getUsers("q3")
+#users += getUsers("q4a")
+#users += getUsers("q1a")
+#users += getUsers("q1b")
 users += getUsers("q5a")
 
 for u in sorted(users):

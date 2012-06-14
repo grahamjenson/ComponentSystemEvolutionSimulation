@@ -90,7 +90,6 @@ Total: 50 users
 
 5)Stable criteria
 Introduce the stable component criteria.
-Introduce metric Effective change (change components/change in uptodatedistance) of each evolution step
 
 Hypothesis: the effective change is greater with stable component criteria, instead of uptodatedistance criteria.
 
@@ -98,13 +97,16 @@ Hypothesis: the effective change is greater with stable component criteria, inst
 5a) What is the stable versions best length of days for lowest effective change for both progressive and conservative users? 
 
 
-Bootstrap 5 real usres probabilities, simulate with progressive and conservative criteria with uptodatedistance replaced with stable component criteria.
-5*2 (10) * 30 = 300 Users
+6) Final experiments.
+Over the course of these experiments, 2 changes have been experimented with, the progressive update, and the conservative stable version criteria.
+We will try to exaime what might happen in a real situation by simulating real users.
+We extracted values from the logs, discussed in appendix, for the update and install probabilitys.
+We then clustered the users into 4 groups using kmeans algorithm and found the cluster centers, as shown in figure.
 
-Measure the effective change metric made to the systems, compared to those from q4a and q13, to see if it has improved.
-Measure the effect of other metrics like uptodate distance of solutions and so on.
+We then simulate these 50 users of each type, with the progressive update criteria, the conservative stable criteria, and the noraml criteira as control.
+We compare these users
 
-Total: 300 users
+Total: 50*4*3 600 users
 
 
 
