@@ -19,10 +19,10 @@ do
 ./gUser.py -u 0.5610895 -i 0.1918915 -U"-removed,-new,-stableversion(604800)" -o q6/conservativehighupdate-$i.user
 ./gUser.py -u 0.22202257 -i 0.25948714 -U"-removed,-new,-stableversion(604800)" -o q6/conservativemediumchange-$i.user
 
-./gUser.py -u 0.42159 -i 0.7638915 -U"-removed,-uptodatedistance,-new" -o q3/progressivehighinstall-$i.user
-./gUser.py -u 0.18629183 -i 0.08623483 -U"-removed,-uptodatedistance,-new" -o q3/progressivelowchange-$i.user
-./gUser.py -u 0.5610895 -i 0.1918915 -U"-removed,-uptodatedistance,-new" -o q3/progressivehighupdate-$i.user
-./gUser.py -u 0.22202257 -i 0.25948714 -U"-removed,-uptodatedistance,-new" -o q3/progressivemediumchange-$i.user
+./gUser.py -u 0.42159 -i 0.7638915 -U"-removed,-uptodatedistance,-new" -o q6/progressivehighinstall-$i.user
+./gUser.py -u 0.18629183 -i 0.08623483 -U"-removed,-uptodatedistance,-new" -o q6/progressivelowchange-$i.user
+./gUser.py -u 0.5610895 -i 0.1918915 -U"-removed,-uptodatedistance,-new" -o q6/progressivehighupdate-$i.user
+./gUser.py -u 0.22202257 -i 0.25948714 -U"-removed,-uptodatedistance,-new" -o q6/progressivemediumchange-$i.user
 done
 
 
