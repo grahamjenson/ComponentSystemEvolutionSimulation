@@ -120,12 +120,12 @@ def getUsers(folder):
 users = []
 #users += getUsers("q1c")
 #users += getUsers("q2c") No need as it is only one part
-#users += getUsers("q3")
+users += getUsers("q3")
 #users += getUsers("q4a")
 #users += getUsers("q1a")
 #users += getUsers("q1b")
-users += getUsers("q5a")
-
+#users += getUsers("q5a")
+users += getUsers("q6")
 for u in sorted(users):
 	print u
 	cacheuser(u)

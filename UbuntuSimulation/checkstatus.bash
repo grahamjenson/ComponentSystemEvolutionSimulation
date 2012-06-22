@@ -27,8 +27,8 @@ q4au=`ls q4a | grep "user$" | wc | awk '{print $2}'`
 q5ad=`ls q5a | grep "err$" | wc | awk '{print $2}'`
 q5au=`ls q5a | grep "user$" | wc | awk '{print $2}'`
 
-q5bd=`ls q5b | grep "err$" | wc | awk '{print $2}'`
-q5bu=`ls q5b | grep "user$" | wc | awk '{print $2}'`
+q5bd=`ls q6 | grep "err$" | wc | awk '{print $2}'`
+q5bu=`ls q6 | grep "user$" | wc | awk '{print $2}'`
 
 echo q1a $q1ad $q1au
 echo q1b $q1bd $q1bu
@@ -38,4 +38,4 @@ echo q2c $q2cd $q2cu
 echo q3 $q3d $q3u
 echo q4a $q4ad $q4au
 echo q5a $q5ad $q5au
-echo q5b $q5bd $q5bu
+echo q6 $q5bd $q5bu
