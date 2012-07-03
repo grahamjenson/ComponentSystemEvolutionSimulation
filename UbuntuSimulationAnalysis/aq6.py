@@ -9,55 +9,104 @@ import datetime
 from analysisutils import *
 
 
-folder = "cache/q5a"
+folder = "cache/q3"
 files = map(lambda x : os.path.join(folder,x),os.listdir(folder))
+normalhighupdate = filter(lambda x : os.path.basename(x).startswith("highupdate"),files);
+normalhighinstall = filter(lambda x : os.path.basename(x).startswith("highinstall"),files);
+normallowchange = filter(lambda x : os.path.basename(x).startswith("lowchange"),files);
+normalmediumchange = filter(lambda x : os.path.basename(x).startswith("mediumchange"),files);
 
 
-con1week = os.path.join(folder,"modalwaysupdate.604800.user")
-con2week = os.path.join(folder,"modalwaysupdate.1209600.user")
-con3week = os.path.join(folder,"modalwaysupdate.1814400.user")
-con4week = os.path.join(folder,"modalwaysupdate.2419200.user")
+folder = "cache/q6"
+files = map(lambda x : os.path.join(folder,x),os.listdir(folder))
+conhighupdate = filter(lambda x : os.path.basename(x).startswith("conservativehighupdate"),files);
+conhighinstall = filter(lambda x : os.path.basename(x).startswith("conservativehighinstall"),files);
+conlowchange = filter(lambda x : os.path.basename(x).startswith("conservativelowchange"),files);
+conmediumchange = filter(lambda x : os.path.basename(x).startswith("conservativemediumchange"),files);
 
-always = os.path.join(folder,"alwaysupdate.user")
+prohighupdate = filter(lambda x : os.path.basename(x).startswith("progressivehighupdate"),files);
+prohighinstall = filter(lambda x : os.path.basename(x).startswith("progressivehighinstall"),files);
+prolowchange = filter(lambda x : os.path.basename(x).startswith("progressivelowchange"),files);
+promediumchange = filter(lambda x : os.path.basename(x).startswith("progressivemediumchange"),files);
 
-variables = [("Progressive Update",always,"black"),("Progressive Update SV 1 week",con1week,"#FF0000"),("Progressive Update SV 2 week",con2week,"#00FF00"),("Progressive Update SV 3 week",con3week,"#0000FF"),
-("Progressive Update SV 4 week",con4week,"#FF00FF")]
 
+variables = [("High Install",normalhighinstall,"#00FF00"),("High Update",normalhighupdate,"#FF0000"),("Medium Change",normalmediumchange,"#FF00FF"),("Low Change",normallowchange,"#0000FF")]
+
+convariables = [("Conservative High Install",conhighinstall,"#00FF55"),("Conservative High Update",conhighupdate,"#FF5500"),("Conservative Medium Change",conmediumchange,"#FF00AA"),("Conservative Low Change",conlowchange,"#5500FF")]
+
+provariables = [("Progressive High Install",prohighinstall,"#00FFAA"),("Progressive High Update",prohighupdate,"#FFAA00"),("Progressive Medium Change",promediumchange,"#FF0055"),("Progressive Low Change",prolowchange,"#AA00FF")]
 
 	
-def plotuttdpc():
+def plotcomputtdpc():
 	pylab.figure(1)
-	alluttd = numpy.array(uttdperc(always))
-	
-	for name,pf,c in variables:
-		uttdpc = uttdperc(pf)
-		print name, numpy.mean(uttdpc),uttdpc[-1]
-		pylab.plot(pallthedays,uttdpc,label=name,color=c)
-
-	pylab.legend(loc="upper left")
-
-	
-	saveFigure("q5buttdperc")
-	
-	
-	
-def plotchange():
-	fig = pylab.figure(10)
-	
-	allchange = chtt(always)
 	
 	for name,pf,c in variables: 
-		cht = chtt(pf)
-		print name, numpy.mean(cht),cht[-1]
-		pylab.plot(pallthedays,cht,label=name,color=c)	
+		ivals = map(lambda x : uttdperc(x),pf)
+		imean,istd,imeanpstd,imeanmstd = multimeanstd(ivals)
+		pylab.fill_between(pallthedays, imeanpstd, imeanmstd, facecolor=c, alpha=0.3)
+
+	for name,pf,c in variables:
+		ivals = map(lambda x : uttdperc(x),pf)
+		imean,istd,imeanpstd,imeanmstd = multimeanstd(ivals)
+		mdiff = numpy.mean(imean)
+		print "Mean uttdpc",name,mdiff
+		pylab.plot(pallthedays,imean,color=c,label=(name +"+-1std "))
+
 	pylab.legend(loc="upper left")
 
-	saveFigure("q5bchange")
+	
+	saveFigure("q6NormalUserComparisonuttd")
+	
+	
+	
+def plotcompchange():
+	fig = pylab.figure(10)
+	
+	for name,pf,c in variables: 
+		ivals = map(lambda x : chtt(x),pf)
+		imean,istd,imeanpstd,imeanmstd = multimeanstd(ivals)
+		pylab.fill_between(pallthedays, imeanpstd, imeanmstd, facecolor=c, alpha=0.3)
+
+	for name,pf,c in variables: 
+		ivals = map(lambda x : chtt(x),pf)
+		imean,istd,imeanpstd,imeanmstd = multimeanstd(ivals)
+		mdiff = numpy.mean(imean)
+		print "Mean change",name,mdiff
+		pylab.plot(pallthedays,imean,color=c,label=(name +"+-1std "))
+
+	pylab.legend(loc="upper left")
+
+	saveFigure("q6NormalUserComparisonChange")
+
+def createuttdcompgraph(fig,name,useri):
+	fig = pylab.figure(fig)
+	for name,pf,c in [variables[useri],convariables[useri],provariables[useri]]: 
+		ivals = map(lambda x : uttdperc(x),pf)
+		imean,istd,imeanpstd,imeanmstd = multimeanstd(ivals)
+		pylab.fill_between(pallthedays, imeanpstd, imeanmstd, facecolor=c, alpha=0.3)
+
+	for name,pf,c in [variables[useri],convariables[useri],provariables[useri]]:
+		ivals = map(lambda x : uttdperc(x),pf)
+		imean,istd,imeanpstd,imeanmstd = multimeanstd(ivals)
+		mdiff = numpy.mean(imean)
+		print "Mean uttdpc",name,mdiff
+		pylab.plot(pallthedays,imean,color=c,label=(name +"+-1std "))
+
+	pylab.legend(loc="upper left")
+
+	saveFigure(name)
+
+def plotuttdProConNormal():
+	createuttdcompgraph(20,"q6HighUpdateComparisonuttd",0);
+	createuttdcompgraph(21,"q6HighUpdateComparisonuttd",1);
+	createuttdcompgraph(22,"q6HighUpdateComparisonuttd",2);
+	createuttdcompgraph(23,"q6HighUpdateComparisonuttd",3);
 	
 
-	
-plotuttdpc()
+#plotcomputtdpc()
 
-plotchange()
+#plotcompchange()
+
+plotuttdProConNormal()
 
 pylab.show()
