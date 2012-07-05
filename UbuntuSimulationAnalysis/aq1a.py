@@ -250,19 +250,8 @@ def plotchange():
 	#The number of comiponents Upgraded increases over the year, to be about 700 more components Upgraded.
 	#this also shows that number of components necessary to be upgraded is minimal for install users, this shows that to install new components requires minimal change to the components already installed.
 	
-def findcatfailures():
-	#looking for failure type 2, where a massive change occurs
-	uivals = zip(installs,map(lambda x : rempd(x),installs))
-	for name,ui in uivals:
-		for date, remv in zip(allthedays,ui):
-			if remv >= 100:
-				print date,datetime.date.fromtimestamp(date),name	
-	
-	uivals = zip(uinstalls,map(lambda x : rempd(x),uinstalls))
-	for name,ui in uivals:
-		for date, remv in zip(allthedays,ui):
-			if remv >= 100:
-				print date,datetime.date.fromtimestamp(date),name	
+#print findcatfailures(installs)
+#print findcatfailures(uinstalls)
 	
 	
 	#all but one of the soft failures occur around the month of the april release

@@ -3,6 +3,8 @@
 from sklearn.cluster import KMeans
 import pylab
 import numpy 
+from analysisutils import *
+
 
 def dist(x,y):   
     return numpy.sqrt(numpy.sum((x-y)**2))
@@ -60,5 +62,6 @@ print k.cluster_centers_
 
 pylab.xlabel("Update Probability")
 pylab.ylabel("Install Probability")
+saveFigure("userlogAnalysis")
 pylab.show()	
 	

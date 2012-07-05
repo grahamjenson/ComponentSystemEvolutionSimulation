@@ -162,3 +162,12 @@ def multimeanstd(values):
 	imeanpstd = map(lambda x : x[0]+x[1], zip(imean,istd)) 
 	imeanmstd = map(lambda x : x[0]-x[1], zip(imean,istd)) 
 	return imean,istd,imeanpstd,imeanmstd
+
+def findcatfailures(files):
+	rets = []	
+	uivals = zip(files,map(lambda x : rempd(x),files))
+	for name,ui in uivals:
+		for date, remv in zip(allthedays,ui):
+			if remv >= 100:
+				rets.append((name,date,datetime.date.fromtimestamp(date)))
+	return rets	

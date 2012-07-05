@@ -21,6 +21,7 @@ mc = filter(lambda x : os.path.basename(x).startswith("mediumchange"),files);
 
 folder = "cache/q6"
 files = map(lambda x : os.path.join(folder,x),os.listdir(folder))
+
 chi = filter(lambda x : os.path.basename(x).startswith("conservativehighinstall"),files);
 chu = filter(lambda x : os.path.basename(x).startswith("conservativehighupdate"),files);
 clc = filter(lambda x : os.path.basename(x).startswith("conservativelowchange"),files);
@@ -30,8 +31,6 @@ phi = filter(lambda x : os.path.basename(x).startswith("progressivehighinstall")
 phu = filter(lambda x : os.path.basename(x).startswith("progressivehighupdate"),files);
 plc = filter(lambda x : os.path.basename(x).startswith("progressivelowchange"),files);
 pmc = filter(lambda x : os.path.basename(x).startswith("progressivemediumchange"),files);
-
-
 
 norms = [("HI", hi, "#FF0000"), 		("HU", hu, "#00FF00"), 			("MC", mc, "#0000FF"), 			("LC", lc, "#FF00FF")]
 cons = [("Con. Upgrade HI", chi, "#FF0000"), 	("Con. Upgrade HU", chu, "#00FF00"), 	("Con. Upgrade MC", cmc, "#0000FF"), 	("Con. Upgrade LC", clc, "#FF00FF")]
@@ -361,4 +360,5 @@ def plotchange():
 
 #plotuttdpc()	
 plotchange()
+
 
