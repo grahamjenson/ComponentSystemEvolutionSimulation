@@ -20,8 +20,8 @@ pallthedays = map(lambda da: epoch2date(da),allthedays)
 alltheweeks = range(start,end, week)
 palltheweeks = map(lambda da: epoch2date(da),alltheweeks)
 
-def saveFigure(name):
-	pylab.gcf().set_size_inches(15,9)
+def saveFigure(name,size=(15,9)):
+	pylab.gcf().set_size_inches(size[0],size[1])
 	pylab.savefig("plots/"+name,pad_inches=0.1,bbox_inches='tight')
 	
 

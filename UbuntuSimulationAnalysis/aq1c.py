@@ -45,11 +45,13 @@ def plotuttdpc():
 		imean,istd,imeanpstd,imeanmstd = multimeanstd(ivals)
 		mdiff = numpy.mean(imean)
 		print "Mean uttdpc",name,mdiff
-		pylab.plot(pallthedays,imean,color=c,label=(name +"+-1std "))
+		pylab.plot(pallthedays,imean,color=c,label=("Mean (+-1std) UTTDpC of 30 \"%s\" users" % name))
 
 
 	pylab.legend(loc="upper left")
-
+	pylab.xlabel("Date")
+	pylab.ylabel("Uptodate Distance per Component")
+	pylab.title("Uptodate Distance per Component of Users")
 	
 	saveFigure("q1cuttdperc")
 	#Viewing this graph reaffirms the previously stated hypothesis that the uttdperc metric is invariable to the probability a user installs components.
@@ -70,10 +72,13 @@ def plotchange():
 		imean,istd,imeanpstd,imeanmstd = multimeanstd(ivals)
 		mdiff = numpy.mean(imean)
 		print "Mean change",name,mdiff
-		pylab.plot(pallthedays,imean,color=c,label=(name +"+-1std "))
+		pylab.plot(pallthedays,imean,color=c,label=("Mean (+-1std) Total Change of 30 \"%s\" users" % name))
 	
 	pylab.legend(loc="upper left")
-
+	pylab.xlabel("Date")
+	pylab.ylabel("Total Change")
+	pylab.title("Total Change of Users")
+	pylab.ylim([0,1500])
 	saveFigure("q1cchange")
 	#This graph shows the range over which change can occur whn altering the probability to install.
 	# given the results from this supports the idea that the probability to install corrolates to the amount of packages installed, this is straight forward.
@@ -95,5 +100,3 @@ def plotchange():
 	
 plotuttdpc()
 plotchange()
-pylab.show()
-

@@ -31,7 +31,7 @@ def plotuttdpd():
 
 	ivals = map(lambda x : uttdpd(x),installs)
 	imean,istd,imeanpstd,imeanmstd = multimeanstd(ivals)
-	pylab.plot(pallthedays,imean,color='g',label="Install Mean uttd +-1std ")
+	pylab.plot(pallthedays,imean,color='g',label="Mean (+-1std) UTTD of 30 \"Always Install\" users")
 	pylab.fill_between(pallthedays, imeanpstd, imeanmstd, facecolor='g', alpha=0.5)
 		        
 	#for i in installs:
@@ -40,21 +40,25 @@ def plotuttdpd():
 
 	uivals = map(lambda x : uttdpd(x),uinstalls)
 	uimean,uistd,uimeanpstd,uimeanmstd = multimeanstd(uivals)
-	pylab.plot(pallthedays,uimean,color='blue',label="Update and Install Mean uttd +-1std")
+	pylab.plot(pallthedays,uimean,color='blue',label="Mean (+-1std) UTTD of 30 \"Always Upgrade&Install\" users")
 	pylab.fill_between(pallthedays, uimeanpstd, uimeanmstd, facecolor='blue', alpha=0.5)
 
 	#for i in uinstalls:
 	#	das,iuttdpd = uttdperc(i)
 	#	pylab.plot(das,iuttdpd,color='black')
 
-	pylab.plot(pallthedays,auttdpd,color='black',label="Always Update uttd")
+	pylab.plot(pallthedays,auttdpd,color='black',label="UTTD of \"Always Upgrade\" user")
 
-	pylab.plot(pallthedays,nuttdpd,color='r',label="Never Update uttd")	
+	pylab.plot(pallthedays,nuttdpd,color='r',label="UTTD of \"Control\" user")	
 
 	pylab.legend(loc="upper left")
 
-	print "Last Always update uttdpd", auttdpd[-1]
-	print "Last Never update uttdpd", nuttdpd[-1]
+	pylab.xlabel("Date")
+	pylab.ylabel("Uptodate Distance")
+	pylab.title("Uptodate Distance of Users")
+	
+	print "Last Always Upgrade uttdpd", auttdpd[-1]
+	print "Last Never Upgrade uttdpd", nuttdpd[-1]
 
 	saveFigure("q1auttd")
 	
@@ -68,7 +72,7 @@ def plotuttdpd():
 	
 	ivals = map(lambda x : uttdperc(x),installs)
 	imean,istd,imeanpstd,imeanmstd = multimeanstd(ivals)
-	pylab.plot(pallthedays,imean,color='g',label="Install Mean uttdpc +-1std ")
+	pylab.plot(pallthedays,imean,color='g',label="Mean (+-1std) UTTDpC of 30 \"Always Install\" users")
 	pylab.fill_between(pallthedays, imeanpstd, imeanmstd, facecolor='g', alpha=0.5)
 		        
 	#for i in installs:
@@ -77,31 +81,34 @@ def plotuttdpd():
 
 	uivals = map(lambda x : uttdperc(x),uinstalls)
 	uimean,uistd,uimeanpstd,uimeanmstd = multimeanstd(uivals)
-	pylab.plot(pallthedays,uimean,color='blue',label="Update and Install Mean uttdpc +-1std")
+	pylab.plot(pallthedays,uimean,color='blue',label="Mean (+-1std) UTTDpC of 30 \"Always Upgrade&Install\" users")
 	pylab.fill_between(pallthedays, uimeanpstd, uimeanmstd, facecolor='blue', alpha=0.5)
 
 	#for i in uinstalls:
 	#	das,iuttdpd = uttdperc(i)
 	#	pylab.plot(das,iuttdpd,color='black')
 
-	pylab.plot(pallthedays,auttdpc,color='black',label="Always Update uttdpc")
+	pylab.plot(pallthedays,auttdpc,color='black',label="UTTDpC of \"Always Upgrade\" user")
 
-	pylab.plot(pallthedays,nuttdpc,color='r',label="Never Update uttdpc")	
+	pylab.plot(pallthedays,nuttdpc,color='r',label="UTTDpC of \"Control\" user")	
 
 	pylab.legend(loc="upper left")
 
-	print "Last Always update uttdperc", auttdpc[-1]
-	print "Last Never update uttdpperc", nuttdpc[-1]
+	pylab.xlabel("Date")
+	pylab.ylabel("Uptodate Distance per Component")
+	pylab.title("Uptodate Distance per Component of Users")
+	print "Last Always Upgrade uttdperc", auttdpc[-1]
+	print "Last Never Upgrade uttdpperc", nuttdpc[-1]
 
 	saveFigure("q1auttdperc")
 	
 	
 	#Static information
-	#Even if systems always update, they will become outof date, (likely due to the core components of the system having keep constraints to maintain system integrity).
-	#The Out of dateness increases dramatically around the 10.04 release, more so for those who do not update.
-	#After a year, systems that dont update become thousands uttd out of date.
-	#After a year, systems that do update are about 1000 uttd out of date.
-	#The standard deviation of the Update and Install uttd increases significantly after May. 
+	#Even if systems always Upgrade, they will become outof date, (likely due to the core components of the system having keep constraints to maintain system integrity).
+	#The Out of dateness increases dramatically around the 10.04 release, more so for those who do not Upgrade.
+	#After a year, systems that dont Upgrade become thousands uttd out of date.
+	#After a year, systems that do Upgrade are about 1000 uttd out of date.
+	#The standard deviation of the Upgrade and Install uttd increases significantly after May. 
 	#This could be because the release means the  
 	 
 
@@ -153,25 +160,27 @@ def analysesize():
 def plotchange():
 	fig = pylab.figure(3)
 	
-	pylab.plot(pallthedays,chtt(always), color="black", label="A user that updates everyday change")
+	pylab.plot(pallthedays,chtt(always), color="black", label="Total Change of \"Always Upgrade\" user")
 	
 	uivals = map(lambda x : chtt(x),installs)
 	uimean,uistd,uimeanpstd,uimeanmstd = multimeanstd(uivals)
-	pylab.plot(pallthedays,uimean,color='green',label="The mean change (+-1std) of 30 users that install everyday")
+	pylab.plot(pallthedays,uimean,color='green',label="Mean (+-1std) Total Change of 30 \"Always Install\" users")
 	pylab.fill_between(pallthedays, uimeanpstd, uimeanmstd, facecolor='green', alpha=0.5)
 	
 	
 	uivals = map(lambda x : chtt(x),uinstalls)
 	uimean,uistd,uimeanpstd,uimeanmstd = multimeanstd(uivals)
-	pylab.plot(pallthedays,uimean,color='blue',label="The mean change (+-1std) of 30 users that update and install everyday")
+	pylab.plot(pallthedays,uimean,color='blue',label="Mean (+-1std) Total Change of 30 \"Always Upgrade&Install\" users")
 	pylab.fill_between(pallthedays, uimeanpstd, uimeanmstd, facecolor='blue', alpha=0.5)
 	
 	pylab.xlabel("Date")
-	pylab.ylabel("Change")
+	pylab.ylabel("Total Change")
+	pylab.title("Total Change of Users")
+	
 	pylab.legend(loc="upper left")
 	
 	saveFigure("q1achange")
-	#To analyse this information first the always update change is looked at.
+	#To analyse this information first the always Upgrade change is looked at.
 	#The first point to note is the gradients along the curve, there are two, 
 	#1) the gradients before and after the 10.04 release, 2) one during the release cycle, between March and April of 2010. 
 	#On march 1st 469 components had changed, on april 30th it was 1000, August 31st 1373.
@@ -182,53 +191,63 @@ def plotchange():
 	#This gradient result in the mean change of 1137
 	#The standard deviation increases because of catastrauphic requests.
 	
-	#The update and install change is similar to the combination of the two curves to always update and install.
-	#Change increases during the release months, like in the always update curve, and the variation increases after this period like in the install period.
+	#The Upgrade and install change is similar to the combination of the two curves to always Upgrade and install.
+	#Change increases during the release months, like in the always Upgrade curve, and the variation increases after this period like in the install period.
 	#However the effect of continually installing leads the effect of these to be exaggreated,  
-	# as more components are intalled more are required to be updated.
+	# as more components are intalled more are required to be Upgraded.
 	#This makes the total change more than the sum of the two other curves.
 	
 	
-	#Difference between always update install and update
+	#Difference between always Upgrade install and Upgrade
 	fig = pylab.figure(4)
 	
 	uivals = map(lambda x : nntt(x),installs)
 	uimean,uistd,uimeanpstd,uimeanmstd = multimeanstd(uivals)
-	pylab.plot(pallthedays,uimean,color='green',label="Update and Install Mean New names +-1std")
+	pylab.plot(pallthedays,uimean,color='green',label="Mean (+-1std) Total New Components of 30 \"Always Install\" users")
 	pylab.fill_between(pallthedays, uimeanpstd, uimeanmstd, facecolor='green', alpha=0.5)
 	
 	
 	uivals = map(lambda x : nntt(x),uinstalls)
 	uimean,uistd,uimeanpstd,uimeanmstd = multimeanstd(uivals)
-	pylab.plot(pallthedays,uimean,color='blue',label="Update and Install Mean change +-1std")
+	pylab.plot(pallthedays,uimean,color='blue',label="Mean (+-1std) Total New Components of 30 \"Always Upgrade&Install\" users")
 	pylab.fill_between(pallthedays, uimeanpstd, uimeanmstd, facecolor='blue', alpha=0.5)
 	
 	pylab.legend(loc="upper left")
 	
-	saveFigure("q1anewnames")
-	#This graph shows that the number of installed components is almost identical between the 
+	pylab.xlabel("Date")
+	pylab.ylabel("Total New Components")
+	pylab.title("Total New Components of Users")
 	
+	saveFigure("q1anewnames")
+	#This graph shows that the number of installed components is almost identical between the Upgrade and install and install users.
+	#Initially there is a steep curve that flattens out.
+	#TODO	
 	
 	fig = pylab.figure(5)
 	
 	
 	uivals = map(lambda x : updtt(x),installs)
 	uimean,uistd,uimeanpstd,uimeanmstd = multimeanstd(uivals)
-	pylab.plot(pallthedays,uimean,color='green',label="Install Mean updated names +-1std")
+	pylab.plot(pallthedays,uimean,color='green',label="Mean (+-1std) Total Upgraded Components of 30 \"Always Install\" users")
 	pylab.fill_between(pallthedays, uimeanpstd, uimeanmstd, facecolor='green', alpha=0.5)
 	
 	
 	uivals = map(lambda x : updtt(x),uinstalls)
 	uimean,uistd,uimeanpstd,uimeanmstd = multimeanstd(uivals)
-	pylab.plot(pallthedays,uimean,color='blue',label="Update and Install Mean change +-1std")
+	pylab.plot(pallthedays,uimean,color='blue',label="Mean (+-1std) Total Upgraded Components of 30 \"Always Upgrade&Install\" users")
 	pylab.fill_between(pallthedays, uimeanpstd, uimeanmstd, facecolor='blue', alpha=0.5)
 	
-	pylab.plot(pallthedays,updtt(always), color="black", label="Always Update Mean updating")
+	pylab.plot(pallthedays,updtt(always), color="black", label="Total Upgraded Components of \"Always Upgrade\" user")
 	
 	pylab.legend(loc="upper left")
 	
+	pylab.xlabel("Date")
+	pylab.ylabel("Total Upgraded Components")
+	pylab.title("Total Upgraded Components of Users")
+	
+	pylab.ylim([0,3000])
 	saveFigure("q1auptd")
-	#The number of comiponents updated increases over the year, to be about 700 more components updated.
+	#The number of comiponents Upgraded increases over the year, to be about 700 more components Upgraded.
 	#this also shows that number of components necessary to be upgraded is minimal for install users, this shows that to install new components requires minimal change to the components already installed.
 	
 def findcatfailures():
@@ -284,7 +303,7 @@ plotchange()
 #There are two levels of failure that we would like to discuss.
 #First a request that to be satisfied has to alter the system significantly.
 #Second, a request that cannot be satisfied by the system.
-#For the second type there are two types of failure, either failure to install, or failure to update.
+#For the second type there are two types of failure, either failure to install, or failure to Upgrade.
 
 #Catrastraphic change (Change that is above normal (TODO))
 #(i1 i3 and i5 all have a catrastraphic change, but only uandi1 has a catratrauphic change. This suggests that because of the constantly updating the changes made in i3 and i5 were averted. Another reason to upgrade.

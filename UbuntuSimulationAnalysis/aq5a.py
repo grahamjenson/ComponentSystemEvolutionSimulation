@@ -20,8 +20,8 @@ con4week = os.path.join(folder,"alwaysupdate.2419200.user")
 
 always = os.path.join(folder,"alwaysupdate.user")
 
-variables = [("Conservative Update",always,"black"),("Conservative Update SV 1 week",con1week,"#FF0000"),("Conservative Update SV 2 week",con2week,"#00FF00"),("Conservative Update SV 3 week",con3week,"#0000FF"),
-("Conservative Update SV 4 week",con4week,"#FF00FF")]
+variables = [("Always Upgrade",always,"black"),("Upgrade with 1 week SV",con1week,"#FF0000"),("Upgrade with 2 weeks SV",con2week,"#00FF00"),("Upgrade with 3 weeks SV",con3week,"#0000FF"),
+("Upgrade with 4 weeks SV",con4week,"#FF00FF")]
 
 
 
@@ -35,21 +35,23 @@ def plotuttdpc():
 	for name,pf,c in variables:
 		uttdpc = uttdperc(pf)
 		print name, numpy.mean(uttdpc),uttdpc[-1]
-		pylab.plot(pallthedays,uttdpc,label=name,color=c)
+		pylab.plot(pallthedays,uttdpc,label=("UTTDpC of 30 \"%s\" users" % name),color=c)
 
 	pylab.legend(loc="upper left")
-
+	pylab.xlabel("Date")
+	pylab.ylabel("Uptodate Distance per Component")
+	pylab.title("Uptodate Distance per Component of Users")
 	
 	saveFigure("q5auttdperc")
 	#This figure shows that a user who uses the stable version criteria will always be out of date when compared to a user that does not
 	
 
 	#The final value for each is
-	#Conservative Update mean 0.257869713007  final value 0.718897637795
-	#Conservative Update SV 1 week 0.283124650402 0.726771653543
-	#Conservative Update SV 2 week 0.308581816617 0.76062992126
-	#Conservative Update SV 3 week 0.336500150596 0.788976377953
-	#Conservative Update SV 4 week 0.361742179769 0.814960629921
+	#Conservative Upgrade mean 0.257869713007  final value 0.718897637795
+	#Conservative Upgrade SV 1 week 0.283124650402 0.726771653543
+	#Conservative Upgrade SV 2 week 0.308581816617 0.76062992126
+	#Conservative Upgrade SV 3 week 0.336500150596 0.788976377953
+	#Conservative Upgrade SV 4 week 0.361742179769 0.814960629921
 	
 	#so using the stable version metric set to 1 week, meant that it was on average .025 uttdpc less up to date.
 	
@@ -69,15 +71,15 @@ def plotchange():
 	print "7 sum" ,allchange[-1] - allchange[-7]
 	saveFigure("q5achange")
 	#This graph shows the total change of using a stable version criteria.
-	#Conservative Update mean 847.267759563 final value 1655.0
-	#Conservative Update SV 1 week 806.743169399 1622.0
-	#Conservative Update SV 2 week 774.00273224 1581.0
-	#Conservative Update SV 3 week 733.357923497 1536.0
-	#Conservative Update SV 4 week 699.601092896 1494.0
+	#Conservative Upgrade mean 847.267759563 final value 1655.0
+	#Conservative Upgrade SV 1 week 806.743169399 1622.0
+	#Conservative Upgrade SV 2 week 774.00273224 1581.0
+	#Conservative Upgrade SV 3 week 733.357923497 1536.0
+	#Conservative Upgrade SV 4 week 699.601092896 1494.0
 	
 	
 	#The difference of this change for the stable version once a week is that about 33.
-	#To show that the stable user criteria is doing more than just delaying updates by a week, and not effecting change, we can compare this reduction to the average weekly 
+	#To show that the stable user criteria is doing more than just delaying Upgrades by a week, and not effecting change, we can compare this reduction to the average weekly 
 	#The average change in the final week was only 5 components. This means that over the year 33-5, 28 instances occured where a component was not unessesarily installed.
 	
 	#The average user had 26 changes in hte final 2 weeks, and the difference between the normal and 2 week SV criteria is 74.
@@ -89,9 +91,13 @@ def plotchange():
 	pylab.figure(11)
 	for name,pf,c in variables[1:]: 
 		cht = numpy.array(allchange) - numpy.array(chtt(pf))
-		pylab.plot(pallthedays,cht,label=name,color=c)	
+		pylab.plot(pallthedays,cht,label=("Total Change of \"%s\" user" % name),color=c)
+			
 	pylab.legend(loc="upper left")
-
+	pylab.xlabel("Date")
+	pylab.ylabel("Total Change")
+	pylab.title("Total Change of Users")
+	
 	saveFigure("q5adiffchange")
 	#This shows that the difference becomes most notable during the april release.
 	#This graph also shows a slight trend upwards for all criteria.
@@ -107,4 +113,3 @@ plotuttdpc()
 
 plotchange()
 
-pylab.show()

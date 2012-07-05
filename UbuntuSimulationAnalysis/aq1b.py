@@ -19,7 +19,7 @@ p4 = filter(lambda x : os.path.basename(x).startswith("u0.4"),files);
 always = os.path.join(folder,"alwaysupdate.user")
 never = os.path.join(folder,"never.user")
 
-variables = [("Update once a month",p0,"#FF0000"),("Update twice a month",p1,"#0000FF"),("Update once a week",p2,"#00EEFF"),("Update twice a week",p4,"#00FF00")]
+variables = [("Upgrade once a month",p0,"#FF0000"),("Upgrade twice a month",p1,"#0000FF"),("Upgrade once a week",p2,"#00EEFF"),("Upgrade twice a week",p4,"#00FF00")]
 
 	
 def plotuttdpc():
@@ -38,31 +38,34 @@ def plotuttdpc():
 		imean,istd,imeanpstd,imeanmstd = multimeanstd(ivals)
 		mdiff = numpy.mean(imean)
 		print "Mean uttdpc",name,mdiff
-		pylab.plot(pallthedays,imean,color=c,label=(name +"+-1std "))
+		pylab.plot(pallthedays,imean,color=c,label=("Mean (+-1std) UTTDpC of 10 \"%s\" users" % name))
 
-	pylab.plot(pallthedays,auttdpc,color='black',label="Always Update uttdpc")
+	pylab.plot(pallthedays,auttdpc,color='black',label="UTTDpC of \"Always Upgrade\" user")
 
 	pylab.legend(loc="upper left")
 
-	
+	pylab.xlabel("Date")
+	pylab.ylabel("Uptodate Distance per Component")
+	pylab.title("Uptodate Distance per Component of Users")
+	pylab.ylim([0,1])
 	saveFigure("q1buttdperc")
 	
 	
 	#The main point to note on the graph is that updating less frequently has the most significant effect when the components are evolving quickly.
-	#In the months before the release the differences in "out of dateness" of the systems is proportional to how infrequently they are updated.
-	#However, around the April release when components are being maintained more aggressivly, infrequently updated systems take significantly more time to adapt.
+	#In the months before the release the differences in "out of dateness" of the systems is proportional to how infrequently they are Upgraded.
+	#However, around the April release when components are being maintained more aggressivly, infrequently Upgraded systems take significantly more time to adapt.
 	
 	#This is an important link between component evolution, and CSE: \textbf{quickly evolving components demands quickly evolving systems.}
-	#This can be seen in the difference in uptodate distance  between the update everyday user and other users.
+	#This can be seen in the difference in uptodate distance  between the Upgrade everyday user and other users.
 	
-	#Mean difference to alwys updating Update once a month 0.061175078525
-	#Mean difference to alwys updating Update twice a month 0.0320382083387
-	#Mean difference to alwys updating Update once a week 0.0163829009079 
-	#Mean difference to alwys updating Update twice a week 0.00503248569339
+	#Mean difference to alwys updating Upgrade once a month 0.061175078525
+	#Mean difference to alwys updating Upgrade twice a month 0.0320382083387
+	#Mean difference to alwys updating Upgrade once a week 0.0163829009079 
+	#Mean difference to alwys updating Upgrade twice a week 0.00503248569339
 	
-	#This data shows a possible corolation between the uptodateness of a system and 1 over the probability to update.
+	#This data shows a possible corolation between the uptodateness of a system and 1 over the probability to Upgrade.
 	
-	#To test the hypothesis that the uptodate ness of a system is proportional to 1 over the probability to update we did further experiments
+	#To test the hypothesis that the uptodate ness of a system is proportional to 1 over the probability to Upgrade we did further experiments
 	pylab.figure(2)
 	probs = {}
 	for f in files:
@@ -92,15 +95,15 @@ def plotuttdpc():
 	saveFigure("q1bcorrolationuttdpc")
 	
 	#The corrolcation between these two properties shows the dimishing returns on updating frequently.
-	#For example, updating twice a week (with a update probability of 0.4) is on average 0.262902198701 out of date,
-	#where updating twice as much (with an update probability of .8) is on average 0.258912267114 out of date, an insignificant amount.
+	#For example, updating twice a week (with a Upgrade probability of 0.4) is on average 0.262902198701 out of date,
+	#where updating twice as much (with an Upgrade probability of .8) is on average 0.258912267114 out of date, an insignificant amount.
 	
 
 
 def plotchange():
 	fig = pylab.figure(10)
 	
-	pylab.plot(pallthedays,chtt(always), color="black", label="Always Update Mean change")
+	pylab.plot(pallthedays,chtt(always), color="black", label="Always Upgrade Mean change")
 	
 	for name,pf,c in variables: 
 		ivals = map(lambda x : chtt(x),pf)
@@ -112,14 +115,18 @@ def plotchange():
 		imean,istd,imeanpstd,imeanmstd = multimeanstd(ivals)
 		mdiff = numpy.mean(imean)
 		print "Mean change",name,mdiff
-		pylab.plot(pallthedays,imean,color=c,label=(name +"+-1std "))
+		pylab.plot(pallthedays,imean,color=c,label=("Mean (+-1std) Total Change of 10 \"%s\" users" % name))
 	
 	pylab.legend(loc="upper left")
-
+	pylab.xlabel("Date")
+	pylab.ylabel("Total Change")
+	pylab.title("Total Change of Users")
+	
+	pylab.ylim([0,2000])
 	saveFigure("q1bchange")
 
 	#The main point that can be extracted from this graph is that by updating less frequently less change is required.
-	#This is because a single component could potentially release multiple versions quickly which a user who updates every day would install each one,
+	#This is because a single component could potentially release multiple versions quickly which a user who Upgrades every day would install each one,
 	#where a user who installs once a month may skip over the interim versions and only install the latest version.
 	#This phenonomon is discussed and used later to create a criterion that takes advantage and lower change.
 	
@@ -152,9 +159,9 @@ def plotchange():
 	pylab.scatter(x,y)
 	saveFigure("q1bcorrolationchange")
 	
-	#The inverse corrolation between 1 over the update probability and the total change demonstrates the increasing returns of updating less frequently.
-	#For example, updating twice a week (with a update probability of 0.4) changes on average a total of 1644.6 over a year,
-	#where updating half as much (with an update probability of .2) is changes on average a total of 1627.7 a year.
+	#The inverse corrolation between 1 over the Upgrade probability and the total change demonstrates the increasing returns of updating less frequently.
+	#For example, updating twice a week (with a Upgrade probability of 0.4) changes on average a total of 1644.6 over a year,
+	#where updating half as much (with an Upgrade probability of .2) is changes on average a total of 1627.7 a year.
 	#This means that updating half as much means over a year changes about less than 17 components.
 
 
@@ -164,7 +171,7 @@ def pseudoSystem():
 
 	#The corrolations discovered when answering this question shows the emergent effects of component evolution on CSE.
 	#We can further study these correlations by creating an example component system consisting of many components where a a different component has a new version released every day.
-	#By looking at users who update the system at different frequencies over 100 days, we present two graphs, update frequency to uttd and change.	
+	#By looking at users who Upgrade the system at different frequencies over 100 days, we present two graphs, Upgrade frequency to uttd and change.	
 	
 	
 	l = 100
@@ -194,13 +201,13 @@ def pseudoSystem():
 	pylab.ylim([0,l+10])
 	saveFigure("q1bpseudochange")
 	
-	#What we can see by creating this simple example is that the uttd correlation to update frequency is predicted here.
+	#What we can see by creating this simple example is that the uttd correlation to Upgrade frequency is predicted here.
 	#This shows that the system is getting outofdate at a constant rate. 
-	#However, the more interesting point is that the correlation between update frequency and change is not present in this simple example.
+	#However, the more interesting point is that the correlation between Upgrade frequency and change is not present in this simple example.
 	#This means that another varaible is present when updating a component system.
 	
-	#That variable is the rate at which the same component is updated multiple times.
-	#In the simple example different components are updated regularly. 
+	#That variable is the rate at which the same component is Upgraded multiple times.
+	#In the simple example different components are Upgraded regularly. 
 	#However, in reality the same component can be upgraded multiple times, lowering the change necessary when updating.
 	#This effect is further discussed and taken advantage of in later sections.
 	
@@ -209,4 +216,3 @@ plotuttdpc()
 
 plotchange()
 
-pylab.show()

@@ -120,7 +120,7 @@ def getUsers(folder):
 users = []
 #users += getUsers("q1c")
 #users += getUsers("q2c") No need as it is only one part
-users += getUsers("q3")
+#users += getUsers("q3")
 #users += getUsers("q4a")
 #users += getUsers("q1a")
 #users += getUsers("q1b")
