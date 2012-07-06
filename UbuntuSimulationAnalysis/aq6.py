@@ -32,14 +32,24 @@ phu = filter(lambda x : os.path.basename(x).startswith("progressivehighupdate"),
 plc = filter(lambda x : os.path.basename(x).startswith("progressivelowchange"),files);
 pmc = filter(lambda x : os.path.basename(x).startswith("progressivemediumchange"),files);
 
-norms = [("HI", hi, "#FF0000"), 		("HU", hu, "#00FF00"), 			("MC", mc, "#0000FF"), 			("LC", lc, "#FF00FF")]
-cons = [("Con. Upgrade HI", chi, "#FF0000"), 	("Con. Upgrade HU", chu, "#00FF00"), 	("Con. Upgrade MC", cmc, "#0000FF"), 	("Con. Upgrade LC", clc, "#FF00FF")]
-pros = [("Pro. Upgrade HI", phi, "#FF0000"), 	("Pro. Upgrade HU", phu, "#00FF00"), 	("Pro. Upgrade MC", pmc, "#0000FF"), 	("Pro. Upgrade LC", plc, "#FF00FF")]
+norms = [("HI", hi, "#FF0000"), 			("MC", mc, "#0000FF"), 			("HU", hu, "#00FF00"), 			("LC", lc, "#FF00FF")]
+cons = [("Con. Upgrade HI", chi, "#FF0000"), 		("Con. Upgrade MC", cmc, "#0000FF"), 	("Con. Upgrade HU", chu, "#00FF00"), 	("Con. Upgrade LC", clc, "#FF00FF")]
+pros = [("Pro. Upgrade HI", phi, "#FF0000"), 		("Pro. Upgrade MC", pmc, "#0000FF"),	("Pro. Upgrade HU", phu, "#00FF00"),  	("Pro. Upgrade LC", plc, "#FF00FF")]
 
 his = [("Upgrade HI", hi, "#FF0000"),("Con. Upgrade HI", chi, "#00FF00"),("Pro. Upgrade HI", phi, "#0000FF")]
 hus = [("Upgrade HU", hu, "#FF0000"),("Con. Upgrade HU", chu, "#00FF00"),("Pro. Upgrade HU", phu, "#0000FF")]
 mcs = [("Upgrade MC", mc, "#FF0000"),("Con. Upgrade MC", cmc, "#00FF00"),("Pro. Upgrade MC", pmc, "#0000FF")]
 lcs = [("Upgrade LC", lc, "#FF0000"),("Con. Upgrade LC", clc, "#00FF00"),("Pro. Upgrade LC", plc, "#0000FF")]
+
+
+# High install 	0.42159     0.7638915 
+# Medium change 0.22202257  0.25948714
+# High update 	0.5610895   0.1918915 
+# Low change  	0.18629183  0.08623483
+
+
+
+
 
 def plotuttdpc():
 	pylab.figure(1)
@@ -55,7 +65,7 @@ def plotuttdpc():
 		ivals = map(lambda x : uttdperc(x),pf)
 		imean,istd,imeanpstd,imeanmstd = multimeanstd(ivals)
 		mdiff = numpy.mean(imean)
-		print "Mean uttdpc",name,mdiff
+		print "%s, mean uttdpc %f, final val %f" % (name,mdiff,imean[-1])
 		pylab.plot(pallthedays,imean,color=c,label=("Mean (+-1std) UTTDpC of 50 \"%s\" users" % name))
 
 	pylab.legend(loc="upper left")
@@ -73,7 +83,7 @@ def plotuttdpc():
 		ivals = map(lambda x : uttdperc(x),pf)
 		imean,istd,imeanpstd,imeanmstd = multimeanstd(ivals)
 		mdiff = numpy.mean(imean)
-		print "Mean uttdpc",name,mdiff
+		print "%s, mean uttdpc %f, final val %f" % (name,mdiff,imean[-1])
 		pylab.plot(pallthedays,imean,color=c,label=("Mean (+-1std) UTTDpC of 50 \"%s\" users" % name))
 
 	pylab.legend(loc="upper left")
@@ -92,7 +102,7 @@ def plotuttdpc():
 		ivals = map(lambda x : uttdperc(x),pf)
 		imean,istd,imeanpstd,imeanmstd = multimeanstd(ivals)
 		mdiff = numpy.mean(imean)
-		print "Mean uttdpc",name,mdiff
+		print "%s, mean uttdpc %f, final val %f" % (name,mdiff,imean[-1])
 		pylab.plot(pallthedays,imean,color=c,label=("Mean (+-1std) UTTDpC of 50 \"%s\" users" % name))
 
 	pylab.legend(loc="upper left")
@@ -184,6 +194,7 @@ def plotuttdpc():
 		imean,istd,imeanpstd,imeanmstd = multimeanstd(ivals)
 		mdiff = numpy.mean(imean)
 		print "Mean uttdpc",name,mdiff
+
 		pylab.plot(pallthedays,imean,color=c,label=("Mean (+-1std) UTTDpC of 50 \"%s\" users" % name))
 
 	pylab.legend(loc="upper left")
@@ -208,7 +219,7 @@ def plotchange():
 		imean,istd,imeanpstd,imeanmstd = multimeanstd(ivals)
 		mdiff = numpy.mean(imean)
 		print "Mean Change",name,mdiff
-		print "Final Change, %s (mean : %d , std %d)  7days (mean : %d , std %d)" % (name, imean[-1],istd[-1], imean[-7],istd[-7])
+		print "Final Change, %s (mean : %f , std %f)  7days (mean : %f , std %f)" % (name, imean[-1],istd[-1], imean[-7],istd[-7])
 		pylab.plot(pallthedays,imean,color=c,label=("Mean (+-1std) Total Change of 50 \"%s\" users" % name))
 	
 	#Final Change, HI (mean : 3176 , std 196)  7days (mean : 3136 , std 186)
@@ -221,6 +232,26 @@ def plotchange():
 	#Final Change, Con. Upgrade MC (mean : 2267 , std 153)  7days (mean : 2231 , std 149)
 	#Final Change, Con. Upgrade LC (mean : 1822 , std 96)  7days (mean : 1797 , std 98)
 	
+	#HI = 3136 - 3089 = 47
+	#HU = 2108 - 2091 = 17
+	#MC = 2271 - 2267 = 4
+	#LC = 1885 - 1822 = 63
+	
+	#HI, mean uttdpc 0.364631, final val 0.797584
+	#HU, mean uttdpc 0.316690, final val 0.826326
+	#MC, mean uttdpc 0.338309, final val 0.795248
+	#LC, mean uttdpc 0.307916, final val 0.772981
+	
+	#Con. Upgrade HI, mean uttdpc 0.381826, final val 0.794031
+	#Con. Upgrade HU, mean uttdpc 0.343298, final val 0.816037
+	#Con. Upgrade MC, mean uttdpc 0.351951, final val 0.780787
+	#Con. Upgrade LC, mean uttdpc 0.338918, final val 0.820539
+	
+	#Pro. Upgrade HI, mean uttdpc 0.187131, final val 0.432870
+	#Pro. Upgrade HU, mean uttdpc 0.191693, final val 0.418295
+	#Pro. Upgrade MC, mean uttdpc 0.244713, final val 0.632974
+	#Pro. Upgrade LC, mean uttdpc 0.257741, final val 0.620028
+
 	
 	pylab.legend(loc="upper left")
 	pylab.title("Total Change of Users")
@@ -238,7 +269,7 @@ def plotchange():
 		imean,istd,imeanpstd,imeanmstd = multimeanstd(ivals)
 		mdiff = numpy.mean(imean)
 		print "Mean Change",name,mdiff
-		print "Final Change, %s (mean : %d , std %d)  7days (mean : %d , std %d)" % (name, imean[-1],istd[-1], imean[-7],istd[-7])
+		print "Final Change, %s (mean : %f , std %f)  7days (mean : %f , std %f)" % (name, imean[-1],istd[-1], imean[-7],istd[-7])
 		pylab.plot(pallthedays,imean,color=c,label=("Mean (+-1std) Total Change of 50 \"%s\" users" % name))
 
 	pylab.legend(loc="upper left")
@@ -358,7 +389,7 @@ def plotchange():
 	saveFigure("q6lcuserchange")
 	
 
-#plotuttdpc()	
+plotuttdpc()	
 plotchange()
 
 

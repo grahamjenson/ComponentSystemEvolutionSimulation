@@ -24,10 +24,6 @@ variables = [("Always Upgrade",always,"black"),("Upgrade with 1 week SV",con1wee
 ("Upgrade with 4 weeks SV",con4week,"#FF00FF")]
 
 
-
-
-
-	
 def plotuttdpc():
 	pylab.figure(1)
 	alluttd = numpy.array(uttdperc(always))
@@ -59,16 +55,18 @@ def plotchange():
 	fig = pylab.figure(10)
 	
 	allchange = chtt(always)
-	
+	diffdict = {}
 	for name,pf,c in variables: 
 		cht = chtt(pf)
+		diffdict[name] = cht[-1]
 		print name, numpy.mean(cht), cht[-1]-allchange[-1]
 		pylab.plot(pallthedays,cht,label=name,color=c)	
 	pylab.legend(loc="upper left")
-	print "28 sum" ,allchange[-1] - allchange[-28]
-	print "21 sum", allchange[-1] - allchange[-21]
-	print "14 sum" ,allchange[-1] - allchange[-14]
-	print "7 sum" ,allchange[-1] - allchange[-7]
+	print "7 sum" , diffdict[variables[1][0]] - allchange[-7]
+	print "14 sum", diffdict[variables[2][0]] - allchange[-14]
+	print "21 sum", diffdict[variables[3][0]] - allchange[-21]
+	print "28 sum", diffdict[variables[4][0]] - allchange[-28]
+	
 	saveFigure("q5achange")
 	#This graph shows the total change of using a stable version criteria.
 	#Conservative Upgrade mean 847.267759563 final value 1655.0
@@ -77,7 +75,11 @@ def plotchange():
 	#Conservative Upgrade SV 3 week 733.357923497 1536.0
 	#Conservative Upgrade SV 4 week 699.601092896 1494.0
 	
-	
+	#7 sum -28.0
+	#14 sum -48.0
+	#21 sum -58.0
+	#28 sum -83.0
+
 	#The difference of this change for the stable version once a week is that about 33.
 	#To show that the stable user criteria is doing more than just delaying Upgrades by a week, and not effecting change, we can compare this reduction to the average weekly 
 	#The average change in the final week was only 5 components. This means that over the year 33-5, 28 instances occured where a component was not unessesarily installed.

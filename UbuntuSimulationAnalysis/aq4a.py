@@ -53,7 +53,7 @@ def plotuttdpc():
 	pylab.xlabel("Date")
 	pylab.ylabel("Uptodate Distance per Component")
 	pylab.title("Uptodate Distance per Component of Users")
-	
+	pylab.ylim([0,1])
 	saveFigure("q4auttdperc")
 	
 	#As can be seen from this figure the updating with the modified more prorgessive criteria allows the component system to stay more up to date.
