@@ -108,8 +108,7 @@ def plotuttdpd():
 	#The Out of dateness increases dramatically around the 10.04 release, more so for those who do not Upgrade.
 	#After a year, systems that dont Upgrade become thousands uttd out of date.
 	#After a year, systems that do Upgrade are about 1000 uttd out of date.
-	#The standard deviation of the Upgrade and Install uttd increases significantly after May. 
-	#This could be because the release means the  
+
 	 
 
 	#Comparison
@@ -159,19 +158,25 @@ def analysesize():
 
 def plotchange():
 	fig = pylab.figure(3)
-	
-	pylab.plot(pallthedays,chtt(always), color="black", label="Total Change of \"Always Upgrade\" user")
+	au = chtt(always)
+	pylab.plot(pallthedays,au, color="black", label="Total Change of \"Always Upgrade\" user")
 	
 	uivals = map(lambda x : chtt(x),installs)
-	uimean,uistd,uimeanpstd,uimeanmstd = multimeanstd(uivals)
-	pylab.plot(pallthedays,uimean,color='green',label="Mean (+-1std) Total Change of 30 \"Always Install\" users")
+	imean,uistd,uimeanpstd,uimeanmstd = multimeanstd(uivals)
 	pylab.fill_between(pallthedays, uimeanpstd, uimeanmstd, facecolor='green', alpha=0.5)
+	pylab.plot(pallthedays,imean,color='green',label="Mean (+-1std) Total Change of 30 \"Always Install\" users")
 	
+	print "gradient over first month", imean[30]/len(imean[:30])
+	print "gradient over last months",(imean[-1] - imean[30])/len(imean[30:])
 	
 	uivals = map(lambda x : chtt(x),uinstalls)
 	uimean,uistd,uimeanpstd,uimeanmstd = multimeanstd(uivals)
-	pylab.plot(pallthedays,uimean,color='blue',label="Mean (+-1std) Total Change of 30 \"Always Upgrade&Install\" users")
 	pylab.fill_between(pallthedays, uimeanpstd, uimeanmstd, facecolor='blue', alpha=0.5)
+	pylab.plot(pallthedays,uimean,color='blue',label="Mean (+-1std) Total Change of 30 \"Always Upgrade&Install\" users")
+	
+	print "Final AU",  au[-1]
+	print "Final I", imean[-1]
+	print "Final UI", uimean[-1]
 	
 	pylab.xlabel("Date")
 	pylab.ylabel("Total Change")
@@ -266,8 +271,8 @@ def plotchange():
 	# 2010-04-19 cache/q1a/uandi28.user
 	# 2010-04-12 cache/q1a/uandi1.user
 
-	#i1.user req=install: gnome-btdownload 1 day later removed
-	#uandi1 req=install: gnome-btdownload not removed!
+	#i1.user req=install: gnome-btdownload 1 day later removed  TimeOut
+	#uandi1 req=install: gnome-btdownload not removed!  
 	
 	
 	#i3.user "install: python-wxglade" 8 days later python-wxglade is removed

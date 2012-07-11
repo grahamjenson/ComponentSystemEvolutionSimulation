@@ -43,9 +43,19 @@ for kv in range(kval):
 	for i in range(len(points)):
 		if k.labels_[i] == kv:
 			pylab.scatter(points[i][0],points[i][1],color = colors[kv])
+			
+ps = 	[("High Install (HI)",0.42159,0.7638915),
+	("Low Change (LC)",0.18629183,0.08623483),
+	("High Update (HU)",0.5610895,0.1918915),
+	("Medium Change (MC)",0.22202257,0.25948714)]
 
-for i,p in enumerate(k.cluster_centers_):
-	pylab.scatter(p[0],p[1],color="black",marker="x")
+for n,x,y in ps:
+	pylab.scatter(x,y,color="black",marker="x")
+	pylab.text(x,y," " + n,verticalalignment="center")
+
+
+
+#pylab.scatter(p[0],p[1],color="black",marker="x")
 
 terr = []
 for kv in range(kval):
@@ -62,6 +72,6 @@ print k.cluster_centers_
 
 pylab.xlabel("Update Probability")
 pylab.ylabel("Install Probability")
+pylab.ylim([0,1])
 saveFigure("userlogAnalysis")
-pylab.show()	
 	

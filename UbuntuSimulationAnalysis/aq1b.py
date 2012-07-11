@@ -42,6 +42,8 @@ def plotuttdpc():
 
 	pylab.plot(pallthedays,auttdpc,color='black',label="UTTDpC of \"Always Upgrade\" user")
 
+	print "Always UTTDpC mean",numpy.mean(auttdpc)
+	
 	pylab.legend(loc="upper left")
 
 	pylab.xlabel("Date")
@@ -67,31 +69,35 @@ def plotuttdpc():
 	
 	#To test the hypothesis that the uptodate ness of a system is proportional to 1 over the probability to Upgrade we did further experiments
 	pylab.figure(2)
-	probs = {}
-	for f in files:
-		if f.endswith("never.user"):
-			#probs[0.0] = [f]
-			continue
-		if f.endswith("alwaysupdate.user"): 
-			probs[1.0] = [f]
-			continue
-		up = float("." + f.split(".")[1])
-		if up not in probs:
-			probs[up] = []
-		probs[up].append(f)
+	anafiles = variables + [("Always Upgrade",[always],"#FFFFFF")]
 	
 	xy = []
-	for up in probs.keys():
-		pf = probs[up]
-		ivals = map(lambda x : uttdperc(x),pf)
+	for name,fs,color in anafiles:
+		prob = 0.0
+		if fs[0].endswith("alwaysupdate.user"): 
+			prob = 1.0
+		else:
+			prob = float("." + fs[0].split(".")[1])
+
+		ivals = map(lambda x : uttdperc(x),fs)
+		
 		imean,istd,imeanpstd,imeanmstd = multimeanstd(ivals)
-		xy.append((1.0/up,numpy.mean(imean)))
-		print "uttdpc", up, 1.0/up, numpy.mean(imean)
+		
+		x = (1.0/prob)
+		y = numpy.mean(imean)
+		xy.append((x,y))
+		pylab.scatter(x,y)
+		pylab.text(x,y," " + name,verticalalignment="center")
+		print "uttdpc", prob, 1.0/prob, numpy.mean(imean)
 		#mdiff = numpy.mean(numpy.array(imean)-auttdpc)
 	
 	x,y = zip(*sorted(xy))
 	pylab.plot(x,y)
-	pylab.scatter(x,y)
+	
+	pylab.xlabel("Reciprocal of Probability to Upgrade")
+	pylab.ylabel("Mean UTTDpC")
+	pylab.title("Corrolation between UTTDpC to Reciprocal of u")
+	#pylab.ylim([0,1])
 	saveFigure("q1bcorrolationuttdpc")
 	
 	#The corrolcation between these two properties shows the dimishing returns on updating frequently.
@@ -103,7 +109,7 @@ def plotuttdpc():
 def plotchange():
 	fig = pylab.figure(10)
 	
-	pylab.plot(pallthedays,chtt(always), color="black", label="Always Upgrade Mean change")
+	pylab.plot(pallthedays,chtt(always), color="black", label="Total Change of \"Always Upgrade\" user")
 	
 	for name,pf,c in variables: 
 		ivals = map(lambda x : chtt(x),pf)
@@ -132,31 +138,35 @@ def plotchange():
 	
 		
 	pylab.figure(11)
-	probs = {}
-	for f in files:
-		if f.endswith("never.user"):
-			#probs[0.0] = [f]
-			continue
-		if f.endswith("alwaysupdate.user"): 
-			probs[1.0] = [f]
-			continue
-		up = float("." + f.split(".")[1])
-		if up not in probs:
-			probs[up] = []
-		probs[up].append(f)
+	anafiles = variables + [("Always Upgrade",[always],"#FFFFFF")]
 	
 	xy = []
-	for up in probs.keys():
-		pf = probs[up]
-		ivals = map(lambda x : chpd(x),pf)
+	for name,fs,color in anafiles:
+		prob = 0.0
+		if fs[0].endswith("alwaysupdate.user"): 
+			prob = 1.0
+		else:
+			prob = float("." + fs[0].split(".")[1])
+
+		ivals = map(lambda x : chtt(x),fs)
+		
 		imean,istd,imeanpstd,imeanmstd = multimeanstd(ivals)
-		xy.append((1.0/up,numpy.sum(imean)))
-		print "change", up, 1.0/up, numpy.sum(imean)
+		
+		x = (1.0/prob)
+		y = numpy.mean(imean)
+		xy.append((x,y))
+		pylab.scatter(x,y)
+		pylab.text(x,y," " + name,verticalalignment="center")
+		print "uttdpc", prob, 1.0/prob, numpy.mean(imean)
 		#mdiff = numpy.mean(numpy.array(imean)-auttdpc)
 	
 	x,y = zip(*sorted(xy))
 	pylab.plot(x,y)
-	pylab.scatter(x,y)
+	
+	pylab.xlabel("Reciprocal of Probability to Upgrade")
+	pylab.ylabel("Mean Total Change")
+	pylab.title("Inverse Corrolation between Total Change to Reciprocal of u")
+	
 	saveFigure("q1bcorrolationchange")
 	
 	#The inverse corrolation between 1 over the Upgrade probability and the total change demonstrates the increasing returns of updating less frequently.
@@ -211,7 +221,7 @@ def pseudoSystem():
 	#However, in reality the same component can be upgraded multiple times, lowering the change necessary when updating.
 	#This effect is further discussed and taken advantage of in later sections.
 	
-pseudoSystem()	
+#pseudoSystem()	
 plotuttdpc()
 
 plotchange()

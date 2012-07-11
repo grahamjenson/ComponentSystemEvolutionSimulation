@@ -7,7 +7,7 @@
 ./gUser.py -u 1 -U"-removed,-uptodatedistance,-new" -o q4a/modalways.user
 
 
-for i in 0.05 0.1 0.2 0.4
+for i in 0.03 0.06 0.14 0.29
 do for x in `seq 1 10`
 do ./gUser.py -u $i -U"-removed,-uptodatedistance,-new" -o q4a/modu$i.$x.user
 done

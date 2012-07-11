@@ -19,8 +19,7 @@
 for i in `seq 1 30`; do ./gUser.py -i 1 -u 1 -o q1a/uandi$i.user; done
 
 #Create install
-for i in `seq 1 30`; do cat q1a/uandi$i.user | grep -v upgrade > q1a/i$i.user; done
+for i in `seq 1 30`; do ./gUser.py -i 1 -o q1a/i$i.user; done
 
-for u in q1a/*.user; do echo mkdir $u"sols";./gjsolver $u $u"sols" 1> $u.out 2> $u.err >> ; done
 
 
