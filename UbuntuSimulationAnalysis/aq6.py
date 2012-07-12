@@ -48,8 +48,14 @@ lcs = [("Upgrade LC", lc, "#FF0000"),("Con. Upgrade LC", clc, "#00FF00"),("Pro. 
 # Low change  	0.18629183  0.08623483
 
 
+alll = hi+hu+lc+mc+chi+chu+clc+cmc+phi+phu+plc+pmc
 
-
+def softfailures():
+	uivals = zip(alll,map(lambda x : rempd(x),alll))
+	for name,ui in uivals:
+		for date, remv in zip(allthedays,ui):
+			if remv >= 100:
+				print date,datetime.date.fromtimestamp(date),name
 
 def plotuttdpc():
 	pylab.figure(1)
@@ -255,7 +261,7 @@ def plotchange():
 	
 	pylab.legend(loc="upper left")
 	pylab.title("Total Change of Users")
-	pylab.ylim([0,4000])
+	pylab.ylim([0,4250])
 	
 	pylab.subplot(312)
 	
@@ -275,7 +281,7 @@ def plotchange():
 	pylab.legend(loc="upper left")
 	pylab.ylabel("Total Change")
 	pylab.title("Total Change of \"Conservative\" Users")
-	pylab.ylim([0,4000])
+	pylab.ylim([0,4250])
 	
 	pylab.subplot(313)
 	
@@ -294,7 +300,7 @@ def plotchange():
 	pylab.legend(loc="upper left")
 	pylab.xlabel("Date")
 	pylab.title("Total Change of \"Progressive\" Users")
-	pylab.ylim([0,4000])
+	pylab.ylim([0,4250])
 	
 	saveFigure("q6userchange",size=(13,20))
 	

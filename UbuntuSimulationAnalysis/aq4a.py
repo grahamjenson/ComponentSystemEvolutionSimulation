@@ -12,14 +12,14 @@ from analysisutils import *
 folder = "cache/q4a"
 files = map(lambda x : os.path.join(folder,x),os.listdir(folder))
 
-modp0 = filter(lambda x : os.path.basename(x).startswith("modu0.05"),files);
-modp1 = filter(lambda x : os.path.basename(x).startswith("modu0.1"),files);
-modp2 = filter(lambda x : os.path.basename(x).startswith("modu0.2"),files);
-modp4 = filter(lambda x : os.path.basename(x).startswith("modu0.4"),files);
+modp0 = filter(lambda x : os.path.basename(x).startswith("modu0.03"),files);
+modp1 = filter(lambda x : os.path.basename(x).startswith("modu0.06"),files);
+modp2 = filter(lambda x : os.path.basename(x).startswith("modu0.14"),files);
+modp4 = filter(lambda x : os.path.basename(x).startswith("modu0.29"),files);
 
 
 
-variables = [("Progressive Upgrade twice a month",modp1,"#0000FF"),("Progressive Upgrade once a week",modp2,"#00EEFF"),("Progressive Upgrade twice a week",modp4,"#00FF00")]
+variables = [] #[("Progressive Upgrade twice a month",modp1,"#0000FF"),("Progressive Upgrade once a week",modp2,"#00EEFF"),("Progressive Upgrade twice a week",modp4,"#00FF00")]
 
 
 always = os.path.join(folder,"alwaysupdate.user")
@@ -123,8 +123,8 @@ def plotnew():
 	pylab.plot(pallthedays,nntal, color="black", label="Always Upgrade Mean change")
 	pylab.plot(pallthedays,nntmod, color="red", label="Always Upgrade Mean change")
 	
-	print "Last change always",nntal[-1]
-	print "Last change mod always",nntmod[-1]
+	print "Last new always",nntal[-1]
+	print "Last new mod always",nntmod[-1]
 	
 	pylab.legend(loc="upper left")
 

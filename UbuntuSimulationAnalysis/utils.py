@@ -131,22 +131,27 @@ def getMartin(G,cudf):
 
 
 
-def getUptoDateDistance(start,end,cudfs,allcomps):
+def getUptoDateDistance(start,end,cudfs,uttddict):
 	uttd = []
 	acudfs = getCudfs(start,end,cudfs)
 	k = len(acudfs)
 	for t,icudf in acudfs:
 		if k%30 == 0: print k
 		k -= 1
-		spcr = sliceCUDF(t,allcomps)
-		cudf = createFullCUDF(icudf,spcr)
 		total = 0
-		for pn in cudf.getPackageNames(onlyinstalled = True):
-			mv = 0
-			for pv in sorted(cudf.getPackagesThatSatisfy((pn,-1,"")), key=lambda x : -x.version):
-				if pv.installed:
-					total += mv	
-				mv += 1
+		for package in icudf.getUniverse():
+			allversions = uttddict[package.name].items()
+			#print package.nv(), "1", allversions
+			allversions = filter(lambda x: x[1] <= t,allversions)
+			#print package.nv(), "2", t,allversions
+			allversions = sorted(allversions,key = lambda x : -x[0])
+			#print package.nv(), "3", allversions
+			allversions = map(lambda x : x[0], allversions)
+			#print package.nv(), "4", allversions
+			mv = allversions.index(package.version)
+			#print package.nv(), "5", mv
+			
+			total += mv
 		uttd.append((t,total))
 	return uttd
 	

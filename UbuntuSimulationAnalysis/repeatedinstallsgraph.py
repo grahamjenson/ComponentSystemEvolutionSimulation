@@ -52,13 +52,16 @@ for i in range(len(up)):
 		for diff in range(i+1,len(up)):
 			if p in up[diff]:
 				daystill.append(diff-i)
+				if diff-i <= 7:
+					print p
 				break;
-		
-import pylab
-xy = []
-for l in range(1,60):
-	xy.append((l,len(groovy[l])))
 
-x,y = zip(*sorted(xy))
-pylab.plot(x,y)
-pylab.scatter(x,y)
+arr = [0]*(max(daystill)+1)
+
+for i in daystill:
+	arr[i] += 1
+	
+for i in range(40):
+	pass
+	#print i," sum", sum(arr[:i+1])
+	

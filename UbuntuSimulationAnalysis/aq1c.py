@@ -11,23 +11,17 @@ from analysisutils import *
 
 folder = "cache/q1c"
 files = map(lambda x : os.path.join(folder,x),os.listdir(folder))
-p0 = filter(lambda x : os.path.basename(x).startswith("i0.05"),files);
-p1 = filter(lambda x : os.path.basename(x).startswith("i0.1"),files);
-p2 = filter(lambda x : os.path.basename(x).startswith("i0.2"),files);
-p3 = filter(lambda x : os.path.basename(x).startswith("i0.3"),files);
-p4 = filter(lambda x : os.path.basename(x).startswith("i0.4"),files);
-p5 = filter(lambda x : os.path.basename(x).startswith("i0.5"),files);
-p6 = filter(lambda x : os.path.basename(x).startswith("i0.6"),files);
-p7 = filter(lambda x : os.path.basename(x).startswith("i0.7"),files);
-p8 = filter(lambda x : os.path.basename(x).startswith("i0.8"),files);
-p9 = filter(lambda x : os.path.basename(x).startswith("i0.9"),files);
+p0 = filter(lambda x : os.path.basename(x).startswith("i0.03"),files);
+p1 = filter(lambda x : os.path.basename(x).startswith("i0.06"),files);
+p2 = filter(lambda x : os.path.basename(x).startswith("i0.14"),files);
+p4 = filter(lambda x : os.path.basename(x).startswith("i0.29"),files);
 
 always = filter(lambda x : not os.path.basename(x).startswith("i0") and os.path.basename(x).startswith("i"),files);
 never = os.path.join(folder,"never.user")
 
-alll = always+p0+p1+p2+p3+p4+p5+p6+p7+p8+p9
+alll = always+p0+p1+p2+p4
 
-variables = [("Install every day",always,"#FF00FF"),("Install once a month",p0,"#FF0000"),("Install twice a month",p1,"#0000FF"),("Install once a week",p2,"#00EEFF"),("Install twice a week",p4,"#00FF00")]
+variables = [("Install once a month",p0,"#FF0000"),("Install twice a month",p1,"#0000FF"),("Install once a week",p2,"#00EEFF"),("Install twice a week",p4,"#00FF00"),("Install every day",always,"#FF00FF")]
 
 	
 def plotuttdpc():
@@ -71,7 +65,7 @@ def plotchange():
 		ivals = map(lambda x : chtt(x),pf)
 		imean,istd,imeanpstd,imeanmstd = multimeanstd(ivals)
 		mdiff = numpy.mean(imean)
-		print "Mean change",name,mdiff
+		print "Final change",name,imean[-1]
 		pylab.plot(pallthedays,imean,color=c,label=("Mean (+-1std) Total Change of 30 \"%s\" users" % name))
 	
 	pylab.legend(loc="upper left")

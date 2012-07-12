@@ -20,8 +20,8 @@ con4week = os.path.join(folder,"alwaysupdate.2419200.user")
 
 always = os.path.join(folder,"alwaysupdate.user")
 
-variables = [("Always Upgrade",always,"black"),("Upgrade with 1 week SV",con1week,"#FF0000"),("Upgrade with 2 weeks SV",con2week,"#00FF00"),("Upgrade with 3 weeks SV",con3week,"#0000FF"),
-("Upgrade with 4 weeks SV",con4week,"#FF00FF")]
+variables = [("Always Upgrade",always,"black"),("7 Days SV Upgrade",con1week,"#FF0000"),("14 Days SV Upgrade",con2week,"#00FF00"),("21 Days SV Upgrade",con3week,"#0000FF"),
+("28 Days SV Upgrade",con4week,"#FF00FF")]
 
 
 def plotuttdpc():

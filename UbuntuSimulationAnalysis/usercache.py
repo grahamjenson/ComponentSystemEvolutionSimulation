@@ -16,6 +16,7 @@ print "Load init stuff"
 initsys = cudfpkg.createProfileChangeRequest("9.10.cudf",nameversiononly=True)
 allcomps = None
 
+uttddict = {}
 
 start = 1256814000 #one day before first action
 end = 1288410600
@@ -31,13 +32,21 @@ def doit(cudfs,userfile,reqComps=False):
 	if reqComps and allcomps == None:
 		print "load Allcomps"
 		allcomps = cudfpkg.createProfileChangeRequest("1288868400.0",nameversiononly=False)
+		generateUTTDDict(allcomps)
 	if cudfs == None:
 		cudfs = utils.processSolutionsFolder(userfile+".sols")
 		cudfs[start] = initsys #add original system
 	return cudfs
 	
 
-	
+def generateUTTDDict(allcomps):
+	print "Create UTTDDict"
+	for pn in allcomps.getPackageNames():
+		uttddict[pn] = {}
+		for package in sorted(allcomps.getPackagesThatSatisfy((pn,-1,"")), key=lambda x : -x.version):
+			pv = package.version
+			uttddict[pn][pv] = package.date
+				
 def cacheuser(userfile):
 	print "cache",userfile
 	cudfs = None
@@ -46,7 +55,7 @@ def cacheuser(userfile):
 	if not iscached(userfile,uttd):
 		cudfs = doit(cudfs,userfile,reqComps=True)
 		print "Add uptodate distance to ",userfile
-		cache(userfile,utils.getUptoDateDistance(start,end,cudfs,allcomps),uttd)
+		cache(userfile,utils.getUptoDateDistance(start,end,cudfs,uttddict),uttd)
 	
 	upd = "upd"
 	if not iscached(userfile,upd):
@@ -118,14 +127,14 @@ def getUsers(folder):
 	return filter(lambda x: x.endswith(".user"),map(lambda x : os.path.join(folder,x),os.listdir(folder)))
 	
 users = []
-#users += getUsers("q1c")
+users += getUsers("q1c")
 #users += getUsers("q2c") No need as it is only one part
 #users += getUsers("q3")
-#users += getUsers("q4a")
+users += getUsers("q4a")
 #users += getUsers("q1a")
-#users += getUsers("q1b")
+users += getUsers("q1b")
 #users += getUsers("q5a")
-users += getUsers("q6")
+#users += getUsers("q6")
 for u in sorted(users):
 	print u
 	cacheuser(u)

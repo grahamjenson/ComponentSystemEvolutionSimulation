@@ -11,10 +11,10 @@ from analysisutils import *
 
 folder = "cache/q1b"
 files = map(lambda x : os.path.join(folder,x),os.listdir(folder))
-p0 = filter(lambda x : os.path.basename(x).startswith("u0.05"),files);
-p1 = filter(lambda x : os.path.basename(x).startswith("u0.1"),files);
-p2 = filter(lambda x : os.path.basename(x).startswith("u0.2"),files);
-p4 = filter(lambda x : os.path.basename(x).startswith("u0.4"),files);
+p0 = filter(lambda x : os.path.basename(x).startswith("u0.03"),files);
+p1 = filter(lambda x : os.path.basename(x).startswith("u0.06"),files);
+p2 = filter(lambda x : os.path.basename(x).startswith("u0.14"),files);
+p4 = filter(lambda x : os.path.basename(x).startswith("u0.29"),files);
 
 always = os.path.join(folder,"alwaysupdate.user")
 never = os.path.join(folder,"never.user")
