@@ -5,7 +5,6 @@
 for sv in "604800" "1209600" "1814400" "2419200"
 do
 ./gUser.py -u 1  -U"-removed,-new,-stableversion($sv)" -o q5a/alwaysupdate.$sv.user
-./gUser.py -u 1  -U"-removed,-stableversion($sv),-new" -o q5a/modalwaysupdate.$sv.user
 done
 
 

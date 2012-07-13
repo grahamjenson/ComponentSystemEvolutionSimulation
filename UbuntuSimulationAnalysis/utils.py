@@ -134,10 +134,7 @@ def getMartin(G,cudf):
 def getUptoDateDistance(start,end,cudfs,uttddict):
 	uttd = []
 	acudfs = getCudfs(start,end,cudfs)
-	k = len(acudfs)
 	for t,icudf in acudfs:
-		if k%30 == 0: print k
-		k -= 1
 		total = 0
 		for package in icudf.getUniverse():
 			allversions = uttddict[package.name].items()

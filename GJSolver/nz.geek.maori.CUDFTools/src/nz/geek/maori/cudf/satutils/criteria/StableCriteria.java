@@ -23,14 +23,13 @@ import nz.geek.maori.cudf.ProfileChangeRequest;
 
 public class StableCriteria extends Criteria {
 
-	private long age = -1;
-	private long date = -1;
-	private long cutoff = -1;
+	private long timespan = -1;
+	private long currentdate = -1;
 	public StableCriteria(long date, long age)
 	{
-		this.age = age;
-		this.date = date;
-		this.cutoff = date - age;
+		this.timespan = age;
+		this.currentdate = date;
+
 	}
 
 	private ArrayList<Long> ones = new ArrayList<Long>();
@@ -40,15 +39,17 @@ public class StableCriteria extends Criteria {
 	private Map<Object, Boolean> prefs;
 	private Map<Object, Double> weights;
 
-	HashSet<String> unstables = new HashSet<String>();
+	HashSet<Package> unstables = new HashSet<Package>();
 	@Override
 	public Collection<AbstractConstraint> init() {
+
 
 
 		for(String pn : cdh.getProfileChangeRequest().getPackageNames(false))
 		{	
 
 			ArrayList<Package> packs = new ArrayList<Package>(cdh.getProfileChangeRequest().getPackageVersions(pn));
+
 			Collections.sort(packs, new Comparator<Package>() {
 
 				@Override
@@ -57,15 +58,52 @@ public class StableCriteria extends Criteria {
 				}
 			});
 
-			boolean unstable = false;
-
-			Object pd =packs.get(0).getProperties().get("date");
-			long pdl = ((Double)pd).longValue();
-			if(pdl > cutoff)
+			for(Package p : packs)
 			{
-				unstables.add(pn);
-				unstable = true;
+				Object pd = p.getProperties().get("date");
+				long releasetime = ((Double)pd).longValue();
+				//Stable if 
+				//it has been t time since its release
+				//AND
+				//(No greater version exists that was released between releasetime and releasetime + timespan
+				boolean sincerelease = (releasetime + this.timespan) < this.currentdate ;
+				boolean versionrelease = true;
+				for(Package gvp : packs)
+				{
+					if(gvp.getVersion() > p.getVersion())
+					{
+						long betterReleaseTime = ((Double)gvp.getProperties().get("date")).longValue();
+						boolean gt = betterReleaseTime > releasetime;
+						boolean lt = betterReleaseTime < releasetime + this.timespan;
+						boolean vx = gt &&lt;
+						versionrelease = versionrelease && !vx;
+					}
+				}
+				if(sincerelease && versionrelease )
+				{
+					//Is stanble
+				}
+				else
+				{
+					//Is Unstable
+					unstables.add(p);
+				}
 			}
+		}
+
+		for(String pn : cdh.getProfileChangeRequest().getPackageNames(false))
+		{	
+
+			ArrayList<Package> packs = new ArrayList<Package>(cdh.getProfileChangeRequest().getPackageVersions(pn));
+
+			Collections.sort(packs, new Comparator<Package>() {
+
+				@Override
+				public int compare(Package o1, Package o2) {
+					return o2.getVersion() - o1.getVersion();
+				}
+			});
+
 			long i = 0;
 
 			for(Package p : packs)
@@ -73,7 +111,7 @@ public class StableCriteria extends Criteria {
 
 				Literal pos = Literal.POS(p);
 				names.add(pos);
-				if(unstable && !p.isInstalled())
+				if(unstables.contains(p) && !p.isInstalled())
 				{
 					ones.add(i + 1000l);
 				}
@@ -102,63 +140,60 @@ public class StableCriteria extends Criteria {
 
 		for(String pn : cdh.getProfileChangeRequest().getPackageNames(false))
 		{
-			if(unstables.contains(pn))
-			{
-				for( Package p : cdh.getProfileChangeRequest().getPackageVersions(pn))
-				{
-					if(p.isInstalled())
-					{
-						prefs.put(p, true);
-					}
-					else
-					{
-						prefs.put(p, false);
-					}
-					
-					weights.put(p, 10*DEFAULTWEIGHT);
+
+			ArrayList<Package> packs = new ArrayList<Package>(cdh.getProfileChangeRequest().getPackageVersions(pn));
+			Collections.sort(packs, new Comparator<Package>() {
+
+				@Override
+				public int compare(Package o1, Package o2) {
+					return o1.getVersion() - o2.getVersion();
 				}
+			});
+
+			int i = 0;
+			Package high = null;
+			for(Package p : packs)
+			{
+
+
+				Package ip = pcr.getPackage(p.getName(), p.getVersion());
+				boolean installed = ip == null ? false : ip.isInstalled();
+				if(installed)
+				{
+					high = p;
+				}
+				prefs.put(p, false);
+				weights.put(p, DEFAULTWEIGHT);
+				i++;
+			}
+			if(high != null)
+			{
+
+				for(int h = Math.min(packs.indexOf(high)+1,packs.size()-1); h < packs.size(); h++)
+				{
+					Package p1 = packs.get(h);
+					prefs.put(p1,true);
+					weights.put(p1, DEFAULTWEIGHT);				
+				}
+
+			}
+
+		}
+
+
+		for(Package p : unstables)
+		{
+			if(p.isInstalled())
+			{
+				prefs.put(p, true);
 			}
 			else
 			{
-				ArrayList<Package> packs = new ArrayList<Package>(cdh.getProfileChangeRequest().getPackageVersions(pn));
-				Collections.sort(packs, new Comparator<Package>() {
-
-					@Override
-					public int compare(Package o1, Package o2) {
-						return o1.getVersion() - o2.getVersion();
-					}
-				});
-
-				int i = 0;
-				Package high = null;
-				for(Package p : packs)
-				{
-
-
-					Package ip = pcr.getPackage(p.getName(), p.getVersion());
-					boolean installed = ip == null ? false : ip.isInstalled();
-					if(installed)
-					{
-						high = p;
-					}
-					prefs.put(p, false);
-					weights.put(p, DEFAULTWEIGHT);
-					i++;
-				}
-				if(high != null)
-				{
-
-					for(int h = Math.min(packs.indexOf(high)+1,packs.size()-1); h < packs.size(); h++)
-					{
-						Package p1 = packs.get(h);
-						prefs.put(p1,true);
-						weights.put(p1, DEFAULTWEIGHT);				
-					}
-
-				}
+				prefs.put(p, false);
 			}
-		}
 
+			weights.put(p, 10*DEFAULTWEIGHT);
+		}
 		return prefs;
 	}
 

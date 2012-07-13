@@ -61,7 +61,7 @@ arr = [0]*(max(daystill)+1)
 for i in daystill:
 	arr[i] += 1
 	
-for i in range(40):
+for i in range(30):
 	pass
-	#print i," sum", sum(arr[:i+1])
+	print i," sum", sum(arr[:i+1])
 	

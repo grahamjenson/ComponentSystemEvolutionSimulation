@@ -62,10 +62,10 @@ def plotchange():
 		print name, numpy.mean(cht), cht[-1]-allchange[-1]
 		pylab.plot(pallthedays,cht,label=name,color=c)	
 	pylab.legend(loc="upper left")
-	print "7 sum" , diffdict[variables[1][0]] - allchange[-7]
-	print "14 sum", diffdict[variables[2][0]] - allchange[-14]
-	print "21 sum", diffdict[variables[3][0]] - allchange[-21]
-	print "28 sum", diffdict[variables[4][0]] - allchange[-28]
+	print "7 sum" , diffdict[variables[1][0]] - allchange[-8]
+	print "14 sum", diffdict[variables[2][0]] - allchange[-15]
+	print "21 sum", diffdict[variables[3][0]] - allchange[-22]
+	print "28 sum", diffdict[variables[4][0]] - allchange[-29]
 	
 	saveFigure("q5achange")
 	#This graph shows the total change of using a stable version criteria.
