@@ -84,7 +84,7 @@ def countallrepeats(ofile):
 		arr[i] += 1
 	dds = []
 	
-	for s in range(1,28):
+	for s in range(1,30):
 		dds.append(sum(arr[:s]))
 	
 	return dds
@@ -96,6 +96,13 @@ def countrepeats(ofile,days):
 assert countrepeats("q1a/alwaysupdate.user.out",7) == 23
 
 
+alwaays = countallrepeats("q1a/alwaysupdate.user.out")
+
+print "7", alwaays[7]
+print "14",alwaays[14]
+print "21",alwaays[21]
+print "28",alwaays[26:28]
+print alwaays
 hir = []
 hur = []
 mcr = []
@@ -116,7 +123,7 @@ pylab.plot(mhir,label="HI")
 pylab.plot(mhur,label="HU")
 pylab.plot(mmcr,label="MC")
 pylab.plot(mlcr,label="LC")
-pylab.plot(countallrepeats("q1a/alwaysupdate.user.out"),label="AU")
+pylab.plot(alwaays,label="AU")
 pylab.xlabel("Days")
 pylab.ylabel("")
 
@@ -125,6 +132,5 @@ pylab.title("Unstable Package Installs for Users")
 pylab.legend(loc="upper left")
 
 #this shows that a user who installs frequently 
-pylab.show()
 
 	
