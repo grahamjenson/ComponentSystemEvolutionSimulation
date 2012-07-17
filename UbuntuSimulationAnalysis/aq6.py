@@ -60,7 +60,7 @@ def softfailures():
 def plotuttdpc():
 	pylab.figure(1)
 	
-	pylab.subplot(311)
+	pylab.subplot(211)
 	
 	for name,pf,c in norms: 
 		ivals = map(lambda x : uttdperc(x),pf)
@@ -78,26 +78,7 @@ def plotuttdpc():
 	pylab.title("Uptodate Distance per Component of Users")
 	pylab.ylim([0,1])
 	
-	pylab.subplot(312)
-	
-	for name,pf,c in cons: 
-		ivals = map(lambda x : uttdperc(x),pf)
-		imean,istd,imeanpstd,imeanmstd = multimeanstd(ivals)
-		pylab.fill_between(pallthedays, imeanpstd, imeanmstd, facecolor=c, alpha=0.2)
-	
-	for name,pf,c in cons: 
-		ivals = map(lambda x : uttdperc(x),pf)
-		imean,istd,imeanpstd,imeanmstd = multimeanstd(ivals)
-		mdiff = numpy.mean(imean)
-		print "%s, mean uttdpc %f, final val %f" % (name,mdiff,imean[-1])
-		pylab.plot(pallthedays,imean,color=c,label=("Mean (+-1std) UTTDpC of 50 \"%s\" users" % name))
-
-	pylab.legend(loc="upper left")
-	pylab.ylabel("Uptodate Distance per Component")
-	pylab.title("Uptodate Distance per Component of \"Conservative\" Users")
-	pylab.ylim([0,1])
-	
-	pylab.subplot(313)
+	pylab.subplot(212)
 	
 	for name,pf,c in pros: 
 		ivals = map(lambda x : uttdperc(x),pf)
@@ -213,7 +194,7 @@ def plotuttdpc():
 	
 def plotchange():
 	pylab.figure(11)
-	pylab.subplot(311)
+	pylab.subplot(211)
 	
 	for name,pf,c in norms: 
 		ivals = map(lambda x : chtt(x),pf)
@@ -226,58 +207,29 @@ def plotchange():
 		print "Final Change, %s (mean : %f , std %f)  7days (mean : %f , std %f)" % (name, imean[-1],istd[-1], imean[-7],istd[-7])
 		pylab.plot(pallthedays,imean,color=c,label=("Mean (+-1std) Total Change of 50 \"%s\" users" % name))
 	
+
 #HI, mean uttdpc 0.364631, final val 0.797584
 #MC, mean uttdpc 0.338309, final val 0.795248
 #HU, mean uttdpc 0.316690, final val 0.826326
 #LC, mean uttdpc 0.307916, final val 0.772981
-#Con. Upgrade HI, mean uttdpc 0.389317, final val 0.811949
-#Con. Upgrade MC, mean uttdpc 0.349597, final val 0.794983
-#Con. Upgrade HU, mean uttdpc 0.338260, final val 0.793794
-#Con. Upgrade LC, mean uttdpc 0.329331, final val 0.799331
 #Pro. Upgrade HI, mean uttdpc 0.187131, final val 0.432870
 #Pro. Upgrade MC, mean uttdpc 0.244713, final val 0.632974
 #Pro. Upgrade HU, mean uttdpc 0.191693, final val 0.418295
 #Pro. Upgrade LC, mean uttdpc 0.257741, final val 0.620028
-
 #Final Change, HI (mean : 3176.460000 , std 196.894511)  7days (mean : 3136.520000 , std 186.116871)
 #Final Change, MC (mean : 2291.140000 , std 164.070474)  7days (mean : 2271.040000 , std 164.721093)
 #Final Change, HU (mean : 2123.320000 , std 135.426207)  7days (mean : 2108.560000 , std 135.422621)
 #Final Change, LC (mean : 1903.140000 , std 121.187955)  7days (mean : 1885.540000 , std 120.392227)
-
-#Final Change, Con. Upgrade HI (mean : 3077.380000 , std 200.017788)  7days (mean : 3015.000000 , std 196.528675)
-#Final Change, Con. Upgrade MC (mean : 2267.980000 , std 171.920038)  7days (mean : 2225.360000 , std 164.580772)
-#Final Change, Con. Upgrade HU (mean : 2124.200000 , std 156.344491)  7days (mean : 2080.980000 , std 147.143262)
-#Final Change, Con. Upgrade LC (mean : 1839.000000 , std 94.992210)  7days (mean : 1815.080000 , std 95.710781)
-
-#HI = 60
-#MC = 4
-#HU = -15
-#
+#Final Change, Pro. Upgrade HI (mean : 4042.800000 , std 344.373576)  7days (mean : 3959.900000 , std 327.849798)
+#Final Change, Pro. Upgrade MC (mean : 2660.060000 , std 221.295044)  7days (mean : 2625.400000 , std 218.985662)
+#Final Change, Pro. Upgrade HU (mean : 2842.340000 , std 379.964662)  7days (mean : 2810.520000 , std 379.700105)
+#Final Change, Pro. Upgrade LC (mean : 2211.740000 , std 199.622725)  7days (mean : 2165.460000 , std 192.003772)
 	
 	pylab.legend(loc="upper left")
 	pylab.title("Total Change of Users")
 	pylab.ylim([0,4250])
 	
-	pylab.subplot(312)
-	
-	for name,pf,c in cons: 
-		ivals = map(lambda x : chtt(x),pf)
-		imean,istd,imeanpstd,imeanmstd = multimeanstd(ivals)
-		pylab.fill_between(pallthedays, imeanpstd, imeanmstd, facecolor=c, alpha=0.2)
-	
-	for name,pf,c in cons: 
-		ivals = map(lambda x : chtt(x),pf)
-		imean,istd,imeanpstd,imeanmstd = multimeanstd(ivals)
-		mdiff = numpy.mean(imean)
-		print "Final Change, %s (mean : %f , std %f)  7days (mean : %f , std %f)" % (name, imean[-1],istd[-1], imean[-7],istd[-7])
-		pylab.plot(pallthedays,imean,color=c,label=("Mean (+-1std) Total Change of 50 \"%s\" users" % name))
-
-	pylab.legend(loc="upper left")
-	pylab.ylabel("Total Change")
-	pylab.title("Total Change of \"Conservative\" Users")
-	pylab.ylim([0,4250])
-	
-	pylab.subplot(313)
+	pylab.subplot(212)
 	
 	for name,pf,c in pros: 
 		ivals = map(lambda x : chtt(x),pf)

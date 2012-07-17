@@ -30,7 +30,7 @@ usersprobs = [("res1.log.actionmap" , 0.264151 , 0.358491 ),
 ("49.log.actionmap" , 0.441860 , 0.186047 )]
 
 kval = 4
-colors = ["red","green","blue","cyan", "magenta"]*10
+colors = ["#FF0000","#0000FF","#00FF00","#FF00FF"]
 points = map(lambda x: (x[1],x[2]),usersprobs)
 
 k = KMeans(k=kval)
@@ -38,15 +38,21 @@ k = KMeans(k=kval)
 k.fit(points)
 
 
-
+toshow = [[],[],[],[]]
 for kv in range(kval):
 	for i in range(len(points)):
 		if k.labels_[i] == kv:
-			pylab.scatter(points[i][0],points[i][1],color = colors[kv])
+			toshow[kv].append((points[i][0],points[i][1]))
 			
+
+toshow = sorted(toshow, key = lambda x : -sorted(x[0])[0])
+for i in range(len(toshow)):
+	for point in toshow[i]:
+		pylab.scatter(point[0],point[1],color = colors[i])
+	
 ps = 	[("High Install (HI)",0.42159,0.7638915),
 	("Low Change (LC)",0.18629183,0.08623483),
-	("High Update (HU)",0.5610895,0.1918915),
+	("High Upgrade (HU)",0.5610895,0.1918915),
 	("Medium Change (MC)",0.22202257,0.25948714)]
 
 for n,x,y in ps:
@@ -57,21 +63,22 @@ for n,x,y in ps:
 
 #pylab.scatter(p[0],p[1],color="black",marker="x")
 
-terr = []
-for kv in range(kval):
-	kerr = 0
-	for i in range(len(points)):
-		if k.labels_[i] == kv:
-			err =  dist(numpy.array(points[i]),k.cluster_centers_[kv])
-			kerr += err
-	terr.append(kerr)
+#terr = []
+#for kv in range(kval):
+#	kerr = 0
+#	for i in range(len(points)):
+#		if k.labels_[i] == kv:
+#			err =  dist(numpy.array(points[i]),k.cluster_centers_[kv])
+#			kerr += err
+#	terr.append(kerr)
 	
-print numpy.mean(terr),terr
+#print numpy.mean(terr),terr
 
-print k.cluster_centers_
+#print k.cluster_centers_
 
-pylab.xlabel("Update Probability")
+pylab.xlabel("Upgrade Probability")
 pylab.ylabel("Install Probability")
+pylab.title("Extracted Information from Submitted User Logs")
 pylab.ylim([0,1])
 saveFigure("userlogAnalysis")
 	

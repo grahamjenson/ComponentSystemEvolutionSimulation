@@ -96,41 +96,50 @@ def countrepeats(ofile,days):
 assert countrepeats("q1a/alwaysupdate.user.out",7) == 23
 
 
-alwaays = countallrepeats("q1a/alwaysupdate.user.out")
+#alwaays = countallrepeats("q1a/alwaysupdate.user.out")
 
-print "7", alwaays[7]
-print "14",alwaays[14]
-print "21",alwaays[21]
-print "28",alwaays[26:28]
-print alwaays
+print "7", countrepeats("q1a/alwaysupdate.user.out",7)
+print "14",countrepeats("q1a/alwaysupdate.user.out",14)
+print "21",countrepeats("q1a/alwaysupdate.user.out",21)
+print "28",countrepeats("q1a/alwaysupdate.user.out",28)
+
 hir = []
 hur = []
 mcr = []
 lcr = []
+phir = []
+phur = []
+pmcr = []
+plcr = []
+
 for i in range(1,51):
+	print "-"*10,i,"-"*10
 	hir.append(countallrepeats("q3/highinstall-%d.user.out" % i))
 	lcr.append(countallrepeats("q3/lowchange-%d.user.out" % i))
 	hur.append(countallrepeats("q3/highupdate-%d.user.out" % i))
 	mcr.append(countallrepeats("q3/mediumchange-%d.user.out" % i))
-
+	phir.append(countallrepeats("q6/progressivehighinstall-%d.user.out" % i))
+	plcr.append(countallrepeats("q6/progressivelowchange-%d.user.out" % i))
+	phur.append(countallrepeats("q6/progressivehighupdate-%d.user.out" % i))
+	pmcr.append(countallrepeats("q6/progressivemediumchange-%d.user.out" % i))
+	
 mhir = numpy.mean(hir,axis=0)
 mhur = numpy.mean(hur,axis=0)
 mmcr = numpy.mean(mcr,axis=0)
 mlcr = numpy.mean(lcr,axis=0)
 
+mphir = numpy.mean(phir,axis=0)
+mphur = numpy.mean(phur,axis=0)
+mpmcr = numpy.mean(pmcr,axis=0)
+mplcr = numpy.mean(plcr,axis=0)
 
-pylab.plot(mhir,label="HI")
-pylab.plot(mhur,label="HU")
-pylab.plot(mmcr,label="MC")
-pylab.plot(mlcr,label="LC")
-pylab.plot(alwaays,label="AU")
-pylab.xlabel("Days")
-pylab.ylabel("")
+print "HI",mhir[7],mhir[14],mhir[21],mhir[28]
+print "HU",mhur[7],mhur[14],mhur[21],mhur[28]
+print "MC",mmcr[7],mmcr[14],mmcr[21],mmcr[28]
+print "LC",mlcr[7],mlcr[14],mlcr[21],mlcr[28]
 
-pylab.title("Unstable Package Installs for Users")
+print "PHI",mphir[7],mphir[14],mphir[21],mphir[28]
+print "PHU",mphur[7],mphur[14],mphur[21],mphur[28]
+print "PMC",mpmcr[7],mpmcr[14],mpmcr[21],mpmcr[28]
+print "PLC",mplcr[7],mplcr[14],mplcr[21],mplcr[28]
 
-pylab.legend(loc="upper left")
-
-#this shows that a user who installs frequently 
-
-	
