@@ -133,13 +133,13 @@ mphur = numpy.mean(phur,axis=0)
 mpmcr = numpy.mean(pmcr,axis=0)
 mplcr = numpy.mean(plcr,axis=0)
 
-print "HI",mhir[7],mhir[14],mhir[21],mhir[28]
-print "HU",mhur[7],mhur[14],mhur[21],mhur[28]
-print "MC",mmcr[7],mmcr[14],mmcr[21],mmcr[28]
-print "LC",mlcr[7],mlcr[14],mlcr[21],mlcr[28]
+print "HI",mhir[7],max(hir[7]),mhir[14],mhir[21],mhir[28]
+print "HU",mhur[7],max(hur[7]),mhur[14],mhur[21],mhur[28]
+print "MC",mmcr[7],max(mcr[7]),mmcr[14],mmcr[21],mmcr[28]
+print "LC",mlcr[7],max(lcr[7]),mlcr[14],mlcr[21],mlcr[28]
 
-print "PHI",mphir[7],mphir[14],mphir[21],mphir[28]
-print "PHU",mphur[7],mphur[14],mphur[21],mphur[28]
-print "PMC",mpmcr[7],mpmcr[14],mpmcr[21],mpmcr[28]
-print "PLC",mplcr[7],mplcr[14],mplcr[21],mplcr[28]
+print "PHI",mphir[7],max(phir[7]),mphir[14],mphir[21],mphir[28]
+print "PHU",mphur[7],max(phur[7]),mphur[14],mphur[21],mphur[28]
+print "PMC",mpmcr[7],max(pmcr[7]),mpmcr[14],mpmcr[21],mpmcr[28]
+print "PLC",mplcr[7],max(plcr[7]),mplcr[14],mplcr[21],mplcr[28]
 

@@ -43,8 +43,6 @@ public class StableCriteria extends Criteria {
 	@Override
 	public Collection<AbstractConstraint> init() {
 
-
-
 		for(String pn : cdh.getProfileChangeRequest().getPackageNames(false))
 		{	
 
@@ -91,37 +89,13 @@ public class StableCriteria extends Criteria {
 			}
 		}
 
-		for(String pn : cdh.getProfileChangeRequest().getPackageNames(false))
+		for(Package p : unstables)
 		{	
 
-			ArrayList<Package> packs = new ArrayList<Package>(cdh.getProfileChangeRequest().getPackageVersions(pn));
-
-			Collections.sort(packs, new Comparator<Package>() {
-
-				@Override
-				public int compare(Package o1, Package o2) {
-					return o2.getVersion() - o1.getVersion();
-				}
-			});
-
-			long i = 0;
-
-			for(Package p : packs)
-			{
 
 				Literal pos = Literal.POS(p);
 				names.add(pos);
-				if(unstables.contains(p) && !p.isInstalled())
-				{
-					ones.add(i + 1000l);
-				}
-				else
-				{
-					ones.add(i);
-				}
-				i++;
-			}
-
+				ones.add(1l);
 		}
 
 		return new ArrayList<AbstractConstraint>();
@@ -137,49 +111,6 @@ public class StableCriteria extends Criteria {
 	{
 		prefs = new HashMap<Object, Boolean>();
 		weights = new HashMap<Object, Double>();
-
-		for(String pn : cdh.getProfileChangeRequest().getPackageNames(false))
-		{
-
-			ArrayList<Package> packs = new ArrayList<Package>(cdh.getProfileChangeRequest().getPackageVersions(pn));
-			Collections.sort(packs, new Comparator<Package>() {
-
-				@Override
-				public int compare(Package o1, Package o2) {
-					return o1.getVersion() - o2.getVersion();
-				}
-			});
-
-			int i = 0;
-			Package high = null;
-			for(Package p : packs)
-			{
-
-
-				Package ip = pcr.getPackage(p.getName(), p.getVersion());
-				boolean installed = ip == null ? false : ip.isInstalled();
-				if(installed)
-				{
-					high = p;
-				}
-				prefs.put(p, false);
-				weights.put(p, DEFAULTWEIGHT);
-				i++;
-			}
-			if(high != null)
-			{
-
-				for(int h = Math.min(packs.indexOf(high)+1,packs.size()-1); h < packs.size(); h++)
-				{
-					Package p1 = packs.get(h);
-					prefs.put(p1,true);
-					weights.put(p1, DEFAULTWEIGHT);				
-				}
-
-			}
-
-		}
-
 
 		for(Package p : unstables)
 		{
@@ -215,7 +146,7 @@ public class StableCriteria extends Criteria {
 		Model model = vis.getModel();
 
 		int distance = countStableCrit(model);
-		Logger.getLogger(getClass().getName()).log(Level.INFO,distance + " stable version metric");
+		Logger.getLogger(getClass().getName()).log(Level.INFO,distance + " unstable packages");
 
 		if(distance == 0) return false;
 
